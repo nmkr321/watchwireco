@@ -1,0 +1,31 @@
+{
+ "id": "20261120c-icons-genta",
+ "lane": "history",
+ "format": "STORY BEHIND",
+ "status": "idea",
+ "found_at": "2026-11-20T21:20:00Z",
+ "post_at": "2026-11-20T23:30:00Z",
+ "title": "G\u00e9rald Genta: the man who designed both the Royal Oak and the Nautilus",
+ "hook": "One Man Designed The Royal Oak And The Nautilus.",
+ "why": "STORY BEHIND, person type (Template D). Tension hook, one fact per beat: who Genta was; the Royal Oak (Audemars Piguet, 1972, reportedly sketched overnight: say 'reportedly' unless a source confirms); the Nautilus (Patek Philippe, 1976); why it changed watchmaking (luxury steel sports watch); payoff. Confirm dates on Audemars Piguet's and Patek Philippe's own pages or two trusted outlets. Photos already in the library: person-g-rald-genta.jpg (Genta, CC BY-SA 3.0), commons-audemars-piguet-royal-oak-ref-15202.jpg (CC BY-SA 4.0; a modern 15202, label it as such), commons-patek-philippe-nautilus-5711-1a-010-1.jpg (check its licence with photo.js find). Credit every photo.",
+ "sources": [
+  {
+   "title": "G\u00e9rald Genta",
+   "link": "https://en.wikipedia.org/wiki/G%C3%A9rald_Genta",
+   "source": "Wikipedia (lead only, confirm elsewhere)",
+   "tier": "to-verify"
+  },
+  {
+   "title": "Audemars Piguet Royal Oak history",
+   "link": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak.html",
+   "source": "Audemars Piguet",
+   "tier": "official"
+  },
+  {
+   "title": "Patek Philippe Nautilus",
+   "link": "https://www.patek.com/en/collection/nautilus",
+   "source": "Patek Philippe",
+   "tier": "official"
+  }
+ ]
+}
