@@ -259,6 +259,20 @@ async function credited(url, word, owner, slugName) {
   out({ ok: true, credit: `Image: ${owner}, via ${host[0].toUpperCase() + host.slice(1)}`, images: kept });
 }
 
+// ---------- grid: overlay a 10% grid on an image so the editor can read the wrist position (for A-spotted) ----------
+//   photo.js grid <image>   → writes <image>.grid.png; Read it and give wrist {x, y} in percent
+function grid(file) {
+  if (!file || !fs.existsSync(path.resolve(ROOT, file))) fail("usage: grid <image path>");
+  const abs = path.resolve(ROOT, file), out = abs.replace(/\.\w+$/, ".grid.png"), html = abs + ".grid.html";
+  const lines = [1, 2, 3, 4, 5, 6, 7, 8, 9].map((k) => `<div style="position:absolute;left:${k * 10}%;top:0;bottom:0;border-left:1px solid #ff0"></div><div style="position:absolute;top:${k * 10}%;left:0;right:0;border-top:1px solid #ff0"></div><b style="position:absolute;left:${k * 10}%;top:2px;color:#ff0;font:16px Arial">${k * 10}</b><b style="position:absolute;top:${k * 10}%;left:2px;color:#ff0;font:16px Arial">${k * 10}</b>`).join("");
+  fs.writeFileSync(html, `<html><body style="margin:0"><div style="position:relative;width:800px;height:800px;background:url('file://${abs}') center/100% 100%">${lines}</div></body></html>`);
+  const CHROME = process.env.CHROME || (process.platform === "darwin" ? "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" : "google-chrome");
+  execFileSync(CHROME, ["--headless=new", "--disable-gpu", "--hide-scrollbars", "--allow-file-access-from-files", "--window-size=800,800", `--screenshot=${out}`, "file://" + html], { stdio: "ignore" });
+  fs.rmSync(html);
+  out_({ ok: true, grid: path.relative(ROOT, out), note: "Read it; wrist = {x, y} in percent of the image" });
+}
+function out_(o) { out(o); }
+
 // ---------- Wikimedia Commons licence lookup ----------
 async function commonsInfo(fileTitles) {
   const q = new URLSearchParams({ action: "query", format: "json", formatversion: "2", prop: "imageinfo", iiprop: "url|extmetadata|size", iiurlwidth: "1600", titles: fileTitles.join("|") });
@@ -326,6 +340,7 @@ try {
   else if (cmd === "person") await person(arg);
   else if (cmd === "press") await press(arg, opt("brand"), opt("person"));
   else if (cmd === "gallery") await gallery(arg, opt("owner"), opt("slug"));
+  else if (cmd === "grid") grid(arg);
   else if (cmd === "credited") await credited(arg, opt("credit"), opt("owner"), opt("slug"));
   else if (cmd === "commons") await commons(arg, opt("ref"));
   else if (cmd === "find") find(arg);

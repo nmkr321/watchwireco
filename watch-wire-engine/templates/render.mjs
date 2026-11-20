@@ -15,7 +15,8 @@
 //   A-wyr     tag, left:{brand,model,price?,photo?}, right:{...}, prompt?   would you rather / same money
 //   A-photo   label, headline, photo, credit, body?, fit?        big photo on top + caps headline band (fit:"cover" for people/lifestyle shots; default shows the whole watch on ivory)
 //   A-pick3   label, headline, options:[{brand, model, price, photo},x3], credit?   one tier: 3 choices A/B/C
-//   A-spotted label, headline, photo (person), watch (watch image), credit, body?   person + inset watch
+//   A-spotted label, headline, photo (person/game shot), watch (watch image), wrist:{x,y} (% of the photo where the watch is), zoom?, credit, body?
+//             → shot zoomed toward the wrist, watch cut out in a gold medallion, gold arrow + ring on the wrist
 //   D-cover   tag, headline, photo?, credit?                          story cover (title case)
 //   D-body    kicker, text, photo?, credit?                               story beat
 //   cta       line1?, line2?, body?                              closing slide (always last)
@@ -80,6 +81,13 @@ tr.on td:last-child{color:var(--ch)}
 .duo p{font:600 24px var(--b);letter-spacing:.14em;color:var(--smoke);margin-top:20px;text-transform:uppercase}.duo p span{display:block;font:700 60px/1.05 var(--n);color:var(--ivory);letter-spacing:.02em;margin-top:6px}.duo p em{display:block;font:600 30px var(--b);font-style:normal;color:var(--ch);letter-spacing:.06em;margin-top:10px}
 .or{font:600 88px var(--m);color:var(--ch)}
 .q{position:absolute;top:150px;left:0;right:0;text-align:center}
+.sp2{position:absolute;inset:0 0 auto 0;height:900px;overflow:hidden;background:#141312}.sp2 img{position:absolute;left:0;top:0;transform-origin:0 0}
+.sp2::before{content:"";position:absolute;inset:0 0 auto 0;height:220px;background:linear-gradient(rgba(11,11,12,.85),transparent);z-index:1}
+.sp2::after{content:"";position:absolute;left:0;right:0;bottom:0;height:360px;background:linear-gradient(transparent,var(--jet));z-index:1}
+.medal{position:absolute;width:330px;height:330px;border-radius:50%;z-index:3;background:radial-gradient(circle at 50% 38%,#2a2520 0%,#141210 62%,#0b0b0c 100%);
+  box-shadow:0 0 0 6px var(--ch),0 0 0 9px rgba(11,11,12,.85),0 0 0 11px rgba(200,169,106,.45),0 24px 60px rgba(0,0,0,.7);display:flex;align-items:center;justify-content:center}
+.medal img{width:76%;height:76%;object-fit:contain;filter:drop-shadow(0 10px 18px rgba(0,0,0,.6))}
+.arw{position:absolute;left:0;top:0;z-index:2;overflow:visible}
 .spot{position:absolute;inset:0 0 auto 0;height:860px;background:#141312 center 22%/cover no-repeat}.spot::before{content:"";position:absolute;inset:0 0 auto 0;height:240px;background:linear-gradient(rgba(11,11,12,.85),transparent)}.spot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:380px;background:linear-gradient(transparent,var(--jet))}
 .inset{position:absolute;right:48px;top:470px;width:340px;height:340px;border-radius:8px;background:#F4EFE6 center/82% no-repeat;background-blend-mode:multiply;box-shadow:0 18px 50px rgba(0,0,0,.55);border:3px solid var(--ch);z-index:2}
 .spotbox{position:absolute;left:48px;right:48px;bottom:150px;z-index:2}
@@ -127,8 +135,48 @@ function render(s, i) {
       return `${WM}<div class="q"><span class="tag">${esc(s.tag || "WOULD YOU RATHER")}</span></div><div class="duo">${side(s.left)}<div class="or">or</div>${side(s.right)}</div>${credit}${foot(s.prompt || "Vote in the comments")}`; }
     case "A-pick3": return `${WM}<div class="box" style="top:150px;text-align:center"><div class="lbl">${esc(s.label)}</div><div class="h" style="font-size:72px">${hl(s.headline)}</div></div>
       <div class="p3">${(s.options || []).slice(0, 3).map((o, k) => `<div class="o"><div class="pic" style="background-image:url('${img(o.photo)}')"><span class="let">${"ABC"[k]}</span></div><div class="b">${esc(o.brand)}</div><div class="m">${esc(o.model)}</div><div class="pr">${esc(o.price)}</div></div>`).join("")}</div>${credit}${foot(s.footLeft || "Pick one · comment below")}`;
-    case "A-spotted": return `<div class="spot" style="background-image:url('${img(s.photo)}')"></div><div class="inset" style="background-image:url('${img(s.watch)}')"></div>${WM}
-      <div class="spotbox"><div class="lbl">${esc(s.label || "Spotted wearing")}</div><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body" style="margin-top:20px">${hl(s.body)}</p>` : ""}</div><div class="credit pcredit">${esc(s.credit || "")}</div>${foot()}`;
+    case "A-spotted": {
+      // game/person shot zoomed toward the wrist, the real watch cut out in a gold medallion, a gold arrow to the wrist
+      const w = s.wrist || { x: 50, y: 50 }, z = s.zoom || 1.12;
+      return `<div class="sp2"><img id="g" src="${img(s.photo)}"></div><svg class="arw" id="arw" width="1080" height="900"></svg><div class="medal" id="medal"><img id="cut" src="${img(s.watch)}"></div>${WM}
+      <div class="spotbox"><div class="lbl">${esc(s.label || "Spotted wearing")}</div><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body" style="margin-top:20px">${hl(s.body)}</p>` : ""}</div><div class="credit pcredit">${esc(s.credit || "")}</div>${foot()}
+      <script>
+      (function(){
+        const W=1080,H=900,wx=${Number(w.x) / 100},wy=${Number(w.y) / 100},z=${Number(z)};
+        const g=document.getElementById("g"), cut=document.getElementById("cut"), medal=document.getElementById("medal"), svg=document.getElementById("arw");
+        function place(){
+          const iw=g.naturalWidth, ih=g.naturalHeight, sc=Math.max(W/iw,H/ih)*z, dw=iw*sc, dh=ih*sc;
+          const tx = wx<0.5 ? 0.33*W : 0.67*W, ty = wy*H;               // where the wrist should land
+          let left = Math.min(0, Math.max(W-dw, tx - wx*dw)), top = Math.min(0, Math.max(H-dh, ty - wy*dh));
+          g.style.width=dw+"px"; g.style.height=dh+"px"; g.style.left=left+"px"; g.style.top=top+"px";
+          const px = left + wx*dw, py = top + wy*dh;                       // wrist on the slide
+          const mx = px < W/2 ? W-48-165 : 48+165, my = py < H*0.5 ? 640 : 330;   // opposite side; below a high wrist, above a low one (keeps faces clear)
+          medal.style.left=(mx-165)+"px"; medal.style.top=(my-165)+"px";
+          const dx=px-mx, dy=py-my, d=Math.hypot(dx,dy), ux=dx/d, uy=dy/d, ring=70;
+          const sx=mx+ux*182, sy=my+uy*182, ex=px-ux*(ring+16), ey=py-uy*(ring+16);
+          const cx=(sx+ex)/2 - uy*90, cy=(sy+ey)/2 + ux*90 - 40;
+          svg.innerHTML='<defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C8A96A"/></marker><filter id="gl"><feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#000" flood-opacity=".85"/></filter></defs>'+
+            '<circle cx="'+px+'" cy="'+py+'" r="'+ring+'" fill="none" stroke="#C8A96A" stroke-width="6" filter="url(#gl)"/>'+
+            '<circle cx="'+px+'" cy="'+py+'" r="'+(ring+12)+'" fill="none" stroke="rgba(200,169,106,.45)" stroke-width="2"/>'+
+            '<path d="M'+sx+','+sy+' Q'+cx+','+cy+' '+ex+','+ey+'" fill="none" stroke="#C8A96A" stroke-width="7" stroke-linecap="round" marker-end="url(#ah)" filter="url(#gl)"/>';
+        }
+        function cutout(){                                                  // remove a plain white/light studio background
+          try{
+            const c=document.createElement("canvas"), w=c.width=cut.naturalWidth, h=c.height=cut.naturalHeight, x=c.getContext("2d");
+            x.drawImage(cut,0,0); const im=x.getImageData(0,0,w,h), a=im.data;
+            if (a[3] < 250) return;                                         // already transparent
+            const light=(i)=>a[i]>228&&a[i+1]>228&&a[i+2]>228&&Math.max(a[i],a[i+1],a[i+2])-Math.min(a[i],a[i+1],a[i+2])<22;
+            const seen=new Uint8Array(w*h), st=[];
+            for(let i=0;i<w;i++){st.push(i,(h-1)*w+i)} for(let j=0;j<h;j++){st.push(j*w,j*w+w-1)}
+            while(st.length){const p=st.pop(); if(seen[p])continue; seen[p]=1; const i=p*4; if(!light(i))continue; a[i+3]=0;
+              const px2=p%w, py2=(p/w)|0; if(px2>0)st.push(p-1); if(px2<w-1)st.push(p+1); if(py2>0)st.push(p-w); if(py2<h-1)st.push(p+w);}
+            x.putImageData(im,0,0); cut.src=c.toDataURL("image/png");
+          }catch(e){}
+        }
+        let n=0; const go=()=>{ if(++n<2) return; place(); cutout(); };
+        [g,cut].forEach(i=>{ if(i.complete) go(); else i.onload=go; });
+      })();
+      </script>`; }
     case "A-photo": return `<div class="hero${s.fit === "cover" ? " cover" : ""}" style="background-image:url('${img(s.photo)}')"></div>${WM}<div class="heroband"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${s.credit ? `<div class="credit pcredit">${esc(s.credit)}</div>` : ""}${foot()}`;
     case "A-photo-old": return `${WM}<div class="box"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div><div class="single" style="background-image:url('${img(s.photo)}')"></div>${s.body ? `<p class="body" style="margin-top:28px">${hl(s.body)}</p>` : ""}</div>${credit}${foot()}`;
     case "D-cover": return `<div class="bg" style="${s.photo ? `background-image:url('${img(s.photo)}')` : ""}"></div><div class="ov"></div><div class="mono">WW</div>${s.tag ? `<div class="dtag"><span class="tag">${esc(s.tag)}</span></div>` : ""}
