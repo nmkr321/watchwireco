@@ -20,6 +20,9 @@ import { publishPost } from "./publish.js";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const WORKSPACE = path.resolve(ROOT, "..");
 const Q = (d) => path.join(ROOT, "queue", d);
+// Git does not keep empty folders, so create them on every run (needed on GitHub).
+for (const d of ["ideas", "candidates", "drafts", "approved", "rejected", "posted", "hold"]) fs.mkdirSync(Q(d), { recursive: true });
+for (const d of ["state", "logs"]) fs.mkdirSync(path.join(ROOT, d), { recursive: true });
 const schedule = JSON.parse(fs.readFileSync(path.join(ROOT, "config/schedule.json"), "utf8"));
 const CLAUDE = process.env.CLAUDE_BIN || "claude";
 const EDITOR_BUDGET = process.env.WW_EDITOR_BUDGET || "0.6";

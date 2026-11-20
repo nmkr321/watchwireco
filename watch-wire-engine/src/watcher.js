@@ -15,6 +15,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, "config/sources.json"), "utf8"));
 if (process.env.WW_LOOKBACK) cfg.lookback = process.env.WW_LOOKBACK;
 const SEEN_FILE = path.join(ROOT, "state/seen.json");
+for (const d of ["state", "logs", "queue/candidates"]) fs.mkdirSync(path.join(ROOT, d), { recursive: true });
 const DRY = process.argv.includes("--dry");
 const THRESHOLD = Number(process.env.WW_THRESHOLD || 6);
 
