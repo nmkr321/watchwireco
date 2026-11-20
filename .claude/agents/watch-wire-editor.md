@@ -17,7 +17,8 @@ Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, 
 2. Research. WebFetch the article and the primary/official source. Blocked or paywalled: never get around
    it; use the input's `feed_summary` as a lead, go to the primary source it names, and WebSearch the exact
    headline plus outlet (other editions like uk. are often readable). Facts need a readable primary source
-   or two trusted outlets; single-outlet facts say "reportedly". Already verified, cite and don't re-fetch:
+   or two trusted outlets; single-outlet facts say "reportedly". An outlet's own analysis or comparison
+   ("Esquire says it resembles…") needs only that outlet, attributed on the slide or caption. Already verified, cite and don't re-fetch:
    `verified_facts` in the input (read by the engine), and library prices (`PH find "<ref>"` → price, source, date).
    Write `<P>/research-work/evidence.json` and `analysis.json` (every number a claim with a source id), then
    `S research <P> --opened <url,url> --summary "<one line>" --decision "<one line on sources used>"`.

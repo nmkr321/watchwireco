@@ -1,5 +1,5 @@
 {
-  "_note": "Daily posting plan. Times are local (America/New_York). Breaking news posts as soon as it is approved, max 3 breaking per day.",
+  "_note": "Daily posting plan. Times are local (America/New_York). The planner fills every slot each night; breaking news posts on top (max 3/day).",
   "timezone": "America/New_York",
   "slots": [
     {
@@ -7,31 +7,49 @@
       "lane": "news",
       "formats": [
         "NEWS",
-        "NEW RELEASES"
-      ]
+        "NEW RELEASES",
+        "MARKET"
+      ],
+      "_note": "built from the last day's headlines"
     },
     {
-      "time": "12:30",
+      "time": "11:30",
       "lane": "rotation",
       "formats": [
         "CELEBRITY",
         "WOULD YOU RATHER",
-        "STORY BEHIND",
         "BUILD YOUR COLLECTION",
-        "CELEBRITY",
-        "WOULD YOU RATHER",
-        "STORY BEHIND",
         "LISTICLE"
-      ],
-      "_note": "cycles by day of year; owner 2026-11-20: added STORY BEHIND (people or watches that changed watchmaking), tiered BUILD YOUR COLLECTION; never the same type twice in a row"
+      ]
     },
     {
-      "time": "19:30",
+      "time": "14:30",
+      "lane": "rotation",
+      "formats": [
+        "CELEBRITY",
+        "WOULD YOU RATHER",
+        "BUILD YOUR COLLECTION",
+        "LISTICLE"
+      ]
+    },
+    {
+      "time": "17:30",
+      "lane": "rotation",
+      "formats": [
+        "CELEBRITY",
+        "WOULD YOU RATHER",
+        "BUILD YOUR COLLECTION",
+        "LISTICLE"
+      ]
+    },
+    {
+      "time": "20:30",
       "lane": "history",
       "formats": [
+        "STORY BEHIND",
         "HISTORY"
       ],
-      "_note": "tension hook (The Dial style). On days the midday post is STORY BEHIND, the evening post must be a different type (LISTICLE, MARKET or WOULD YOU RATHER)."
+      "_note": "tension hook (The Dial style); alternate a person who changed watchmaking and the story behind one famous watch"
     }
   ],
   "breaking": {
@@ -43,5 +61,11 @@
       "06:30"
     ]
   },
-  "auto_publish": true
+  "auto_publish": true,
+  "trial": {
+    "posts_per_day": 5,
+    "from": "2026-11-21",
+    "until": "2026-11-27",
+    "why": "Owner 2026-11-20: try 5 posts a day at different times for a week to see which times get natural traction; review on 2026-11-27."
+  }
 }

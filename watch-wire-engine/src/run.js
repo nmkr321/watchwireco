@@ -220,32 +220,35 @@ function plan() {
   const posted = fs.readdirSync(Q("posted")).concat(fs.readdirSync(Q("approved"))).filter((f) => f.endsWith(".json"))
     .map((f) => { try { return readJson(path.join(Q(fs.existsSync(path.join(Q("posted"), f)) ? "posted" : "approved"), f)).title; } catch { return ""; } }).filter(Boolean).slice(-40);
   const day = new Date(Date.now() + 864e5);
-  const weekday = day.getDay();
-  const rotation = schedule.slots.find((s) => s.lane === "rotation").formats;
   const dayOfYear = Math.floor((day - new Date(day.getFullYear(), 0, 0)) / 864e5);
-  let midFormat = rotation[dayOfYear % rotation.length];
-  // never the same type twice in a row: skip a format that matches the last post
+  // one format per slot, picked so no two neighbouring posts share a type
   const lastFmt = fs.readdirSync(Q("posted")).filter((f) => f.endsWith(".json")).map((f) => readJson(path.join(Q("posted"), f))).sort((a, b) => Date.parse(a.posted_at) - Date.parse(b.posted_at)).pop()?.format;
-  if (midFormat === lastFmt) midFormat = rotation[(dayOfYear + 1) % rotation.length];
-  const eveFormat = midFormat === "STORY BEHIND" ? "LISTICLE" : "STORY BEHIND or HISTORY (alternate: a person who changed watchmaking, or the story behind one famous watch)";
-  const schema = JSON.stringify({ type: "object", required: ["ideas"], properties: { ideas: { type: "array", items: {
-    type: "object", required: ["lane", "format", "title", "hook", "why", "sources_to_check"],
-    properties: { lane: { enum: ["rotation", "history"] }, format: { type: "string" }, title: { type: "string" }, hook: { type: "string" },
+  const used = new Set(); let prev = lastFmt;
+  const slots = schedule.slots.map((s, i) => {
+    const pool = s.formats.filter((f) => f !== prev && !(s.lane === "rotation" && used.has(f)));
+    const format = (pool.length ? pool : s.formats)[(dayOfYear + i) % (pool.length || s.formats.length)];
+    used.add(format); prev = format;
+    const [h, m] = s.time.split(":").map(Number); const t = new Date(day); t.setHours(h, m, 0, 0);
+    return { lane: s.lane, format, time: s.time, post_at: t.toISOString() };
+  });
+  const schema = JSON.stringify({ type: "object", required: ["ideas"], properties: { ideas: { type: "array", minItems: slots.length, maxItems: slots.length, items: {
+    type: "object", required: ["slot", "title", "hook", "why", "sources_to_check"],
+    properties: { slot: { type: "integer" }, title: { type: "string" }, hook: { type: "string" },
       why: { type: "string" }, sources_to_check: { type: "array", items: { type: "string" } } } } } } });
   const prompt = `Read watch-wire-engine/FORMATS.md only.
-Plan two Watch Wire posts for ${day.toDateString()}:
-1. lane "rotation", format ${midFormat}.
-2. lane "history", format ${eveFormat}, with a tension hook in The Dial style; it must not be the same format as post 1. Prefer an "On This Day" anniversary for ${day.toDateString()} if a real, checkable one exists; otherwise How It Started or The Story Behind.
-Use the format's hook pattern. Photo formats (CELEBRITY, WOULD YOU RATHER, BUILD YOUR COLLECTION): name every watch by brand, model and exact reference, with current US retail prices you can source; for CELEBRITY pick a watch a trusted watch outlet reported the person wearing. Each idea must be provable from primary or trusted sources; list the exact URLs or source names to check.
-Stay topical: if one of these news headlines from the last day fits the format, build the idea around it: ${JSON.stringify(recentHeadlines())}
+Plan ${slots.length} Watch Wire posts for ${day.toDateString()}, one per slot (slot = its number):
+${slots.map((s, i) => `${i + 1}. ${s.time} ${s.format}${s.lane === "news" ? " (built from the news headlines below; if none fit, a MARKET or NEW RELEASES post from official sources)" : ""}${s.lane === "history" ? " with a tension hook in The Dial style (a person who changed watchmaking, or the story behind one famous watch; an 'On This Day' anniversary if a real one exists)" : ""}`).join("\n")}
+Use each format's hook pattern. Pictures must match the subject (celebrity → the celebrity, game → gameplay, otherwise the watch). Photo formats: name every watch by brand, model and exact reference, with current US retail prices you can source; for CELEBRITY pick a watch a trusted outlet reported the person wearing. Every idea provable from primary or trusted sources; list the exact URLs or source names to check. No two ideas about the same watch.
+News headlines from the last day: ${JSON.stringify(recentHeadlines())}
 Do not repeat any of these recent posts: ${JSON.stringify(posted)}`;
-  const out = parseResult(claude(["--output-format", "json", "--json-schema", schema, "--max-budget-usd", "0.15", "--effort", EFFORT.planner, "--allowedTools", "Read WebSearch WebFetch"], prompt, "planner"));
+  const out = parseResult(claude(["--output-format", "json", "--json-schema", schema, "--max-budget-usd", "0.3", "--effort", EFFORT.planner, "--allowedTools", "Read WebSearch WebFetch"], prompt, "planner"));
   const stamp = new Date().toISOString().slice(0, 10);
   for (const idea of out.ideas) {
-    const id = `${stamp}-${idea.lane}-${idea.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").slice(0, 40)}`;
-    writeJson(path.join(Q("ideas"), `${id}.json`), { id, status: "idea", found_at: new Date().toISOString(), ...idea,
-      sources: idea.sources_to_check.map((s) => ({ title: s, link: /^https?:/.test(s) ? s : "", source: s, tier: "to-verify" })) });
-    log(`planned [${idea.lane}/${idea.format}] ${idea.title}`);
+    const s = slots[(idea.slot || 1) - 1] || slots[0];
+    const id = `${stamp}-${s.time.replace(":", "")}-${idea.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").slice(0, 40)}`;
+    writeJson(path.join(Q("ideas"), `${id}.json`), { id, status: "idea", found_at: new Date().toISOString(), lane: s.lane, format: s.format, post_at: s.post_at, ...idea,
+      sources: idea.sources_to_check.map((x) => ({ title: x, link: /^https?:/.test(x) ? x : "", source: x, tier: "to-verify" })) });
+    log(`planned ${s.time} [${s.format}] ${idea.title}`);
   }
 }
 
