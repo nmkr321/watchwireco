@@ -1,2 +1,3 @@
 watch-wire-engine/logs/*.log merge=union
 watch-wire-engine/state/lessons.md merge=union
+watch-wire-engine/logs/costs.tsv merge=union

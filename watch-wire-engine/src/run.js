@@ -57,6 +57,8 @@ function claude(args, prompt, label) {
   const res = spawnSync(CLAUDE, ["-p", prompt, ...full], { cwd: WORKSPACE, encoding: "utf8", maxBuffer: 64 * 1024 * 1024, timeout: 30 * 60 * 1000 });
   restore(before, label.split(" ")[0]);
   fs.appendFileSync(path.join(ROOT, "logs/claude.log"), `\n===== ${new Date().toISOString()} ${label}\n${res.stdout || ""}\n${res.stderr || ""}\n`);
+  // one cost line per AI call (plan-usage equivalent in USD), so the weekly report can show where tokens go
+  try { const e = JSON.parse(res.stdout); if (e.total_cost_usd != null) fs.appendFileSync(path.join(ROOT, "logs/costs.tsv"), `${new Date().toISOString()}\t${label}\t${full[full.indexOf("--model") + 1]}\t${e.total_cost_usd.toFixed(4)}\t${e.num_turns || ""}\n`); } catch {}
   if (res.status !== 0) {
     let why = (res.stderr || "") + " " + (res.error ? res.error.message : "");
     try { const e = JSON.parse(res.stdout); why = `${e.terminal_reason || ""} ${e.result || ""} ${why}`; } catch { why += " " + (res.stdout || "").slice(0, 400); }
@@ -352,6 +354,36 @@ function reviveRejected() {
   }
 }
 
+// ---------- tidy (weekly): condense lessons, write the cost report ----------
+function tidy() {
+  // 1) lessons: merge duplicates, drop stale ones, keep 12 short rules
+  try {
+    const cur = fs.readFileSync(LESSONS, "utf8").split("\n").filter((l) => l.startsWith("- "));
+    if (cur.length > 8) {
+      const schema = JSON.stringify({ type: "object", required: ["rules"], properties: { rules: { type: "array", maxItems: 12, items: { type: "string" } } } });
+      const out = parseResult(claude(["--output-format", "json", "--json-schema", schema, "--max-budget-usd", "0.05", "--effort", "low", "--allowedTools", "Read"],
+        `Condense these editor lessons into at most 12 rules, each "[FORMAT or any] rule" under 22 words. Merge duplicates, drop ones that contradict each other or tell the editor to stop and wait. Keep the most useful.\n${cur.join("\n")}`, "tidy-lessons"));
+      if ((out.rules || []).length) fs.writeFileSync(LESSONS, "# Lessons from the approver\nThe engine passes the relevant ones to the editor (condensed weekly).\n\n" + out.rules.map((r) => `- ${r.replace(/^-\s*/, "")}`).join("\n") + "\n");
+      log(`tidy: lessons ${cur.length} -> ${(out.rules || []).length}`);
+    }
+  } catch (e) { log(`tidy lessons failed: ${e.message.slice(0, 120)}`); }
+  // 2) cost report for the last 7 days (no AI)
+  const f = path.join(ROOT, "logs/costs.tsv");
+  if (!fs.existsSync(f)) return;
+  const since = Date.now() - 7 * 864e5, rows = fs.readFileSync(f, "utf8").trim().split("\n").map((l) => l.split("\t")).filter((r) => Date.parse(r[0]) > since);
+  const sum = (xs) => xs.reduce((a, r) => a + Number(r[3] || 0), 0);
+  const by = (key) => Object.entries(rows.reduce((m, r) => { const k = key(r); (m[k] ||= []).push(r); return m; }, {})).map(([k, xs]) => [k, sum(xs), xs.length]).sort((a, b) => b[1] - a[1]);
+  const posts = by((r) => r[1].split(" ").slice(1).join(" ").replace(/ r\d+$/, "") || "(other)");
+  const postedN = fs.readdirSync(Q("posted")).filter((x) => x.endsWith(".json")).map((x) => readJson(path.join(Q("posted"), x))).filter((p) => Date.parse(p.posted_at) > since).length;
+  const md = [`# Cost report (${new Date().toISOString().slice(0, 10)}, last 7 days)`, "Plan-usage equivalent in USD (not a bill).", "",
+    `- Total: $${sum(rows).toFixed(2)} over ${rows.length} AI calls; ${postedN} posts published, $${(sum(rows) / Math.max(1, postedN)).toFixed(2)} per published post`,
+    "", "## By role", ...by((r) => r[1].split(" ")[0]).map(([k, c, n]) => `- ${k}: $${c.toFixed(2)} (${n} calls, $${(c / n).toFixed(3)} each)`),
+    "", "## Most expensive posts", ...posts.slice(0, 8).map(([k, c, n]) => `- ${k}: $${c.toFixed(2)} (${n} calls)`),
+    "", "Ideas to cut: posts with many calls mean retries or review rounds; check their lessons and the rules behind them."].join("\n");
+  fs.writeFileSync(path.join(ROOT, "state/costs.md"), md + "\n");
+  log(`tidy: cost report written ($${sum(rows).toFixed(2)} in 7 days)`);
+}
+
 async function makeIdeas() {
   reviveRejected();
   for (const f of fs.readdirSync(Q("ideas")).filter((x) => x.endsWith(".json"))) {
@@ -419,6 +451,7 @@ try {
   else if (cmd === "make") makeWithRetries(path.resolve(arg));
   else if (cmd === "publish-due") await publishDue();
   else if (cmd === "plan") plan();
+  else if (cmd === "tidy") tidy();
   else if (cmd === "plan-now") {            // plan-now "19:05 NEWS,20:05 CELEBRITY": extra posts for today at these times
     const slotsArg = (process.argv[3] || process.env.WW_SLOTS || "").split(",").map((x) => x.trim()).filter(Boolean).map((x) => {
       const [time, ...f] = x.split(" "); const format = f.join(" ");

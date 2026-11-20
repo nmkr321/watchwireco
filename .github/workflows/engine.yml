@@ -11,6 +11,7 @@ on:
     - cron: "*/15 * * * *"   # publisher
     - cron: "0 1 * * *"      # plan  (20:00 New York, winter time)
     - cron: "0 2 * * *"      # make-ideas (21:00 New York, winter time)
+    - cron: "0 8 * * 0"      # tidy (Sunday 03:00 New York): condense lessons, cost report
   workflow_dispatch:
     inputs:
       command:
@@ -54,6 +55,7 @@ jobs:
           case "${{ github.event.schedule }}" in
             "0 1 * * *") echo "CMD=plan" >> "$GITHUB_ENV" ;;
             "0 2 * * *") echo "CMD=make-ideas" >> "$GITHUB_ENV" ;;
+            "0 8 * * 0") echo "CMD=tidy" >> "$GITHUB_ENV" ;;
             "*/15 * * * *") echo "CMD=publish-due" >> "$GITHUB_ENV" ;;
             *) echo "CMD=${{ github.event.inputs.command || 'tick' }}" >> "$GITHUB_ENV" ;;
           esac
