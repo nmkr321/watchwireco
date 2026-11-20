@@ -23,7 +23,8 @@ Run `node "Content Creation/bin/content-creation.js" validate <project> | tail -
 2. Every number, date, price and name on the slides matches a verified claim. WebFetch
    the main source once and confirm the headline fact. Prices in
    `watch-wire-engine/library/index.json` (`price` with source and date) were read by the engine
-   from the official page that day: treat them as confirmed, do not re-fetch those pages.
+   from the official page that day: treat them as confirmed, do not re-fetch those pages. The same
+   goes for `verified_facts` in the draft's input.json (read by the engine from the named page).
 3. Core fact from a primary/official source or two trusted outlets. Single scoop →
    revise: "label as reportedly".
 4. Nothing unconfirmed stated as fact; no predictions or investment advice.

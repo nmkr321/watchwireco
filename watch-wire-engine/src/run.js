@@ -254,15 +254,15 @@ Do not repeat any of these recent posts: ${JSON.stringify(posted)}`;
 const LESSONS = path.join(ROOT, "state/lessons.md");
 function learn(item, reasons) {
   try {
-    const known = fs.existsSync(LESSONS) ? fs.readFileSync(LESSONS, "utf8").split("\n").filter((l) => l.startsWith("- ")).slice(-40) : [];
+    const known = fs.existsSync(LESSONS) ? fs.readFileSync(LESSONS, "utf8").split("\n").filter((l) => l.startsWith("- ")).slice(-20) : [];
     const schema = JSON.stringify({ type: "object", required: ["lessons"], properties: { lessons: { type: "array", maxItems: 2, items: { type: "string" } } } });
     const out = parseResult(claude(["--model", MODEL, "--output-format", "json", "--json-schema", schema, "--max-budget-usd", "0.03", "--effort", "low", "--allowedTools", "Read"],
       `The Watch Wire approver sent back a ${item.format || ""} post. Its reasons: ${JSON.stringify(reasons).slice(0, 2500)}
-Write at most 2 short general rules (under 25 words each) that would stop the editor making this kind of mistake on FUTURE posts. Not about this post's specifics. Skip any rule already covered here: ${JSON.stringify(known)}. Return an empty list if nothing new.`, `learn ${item.id}`));
-    const add = (out.lessons || []).map((l) => `- ${new Date().toISOString().slice(0, 10)} [${item.format || "any"}] ${l.trim().replace(/^(\[[^\]]*\]\s*)+/, "")}`);
+Write at most 2 short general rules (under 25 words each) that would stop the editor making this kind of mistake on FUTURE posts. Not about this post's specifics. The engine runs unattended: never write rules that tell the editor to hold, stop or wait for the owner; rules must say how to get it right. Skip any rule already covered here: ${JSON.stringify(known)}. Return an empty list if nothing new.`, `learn ${item.id}`));
+    const add = (out.lessons || []).map((l) => `- [${item.format || "any"}] ${l.trim().replace(/^[-\s]*(\d{4}-\d{2}-\d{2}\s*)?(\[[^\]]*\]\s*)*/, "")}`);
     if (!add.length) return;
     const head = "# Lessons from the approver\nThe editor reads this before every post. Written automatically from rejections; newest last.\n\n";
-    fs.writeFileSync(LESSONS, head + [...known, ...add].slice(-40).join("\n") + "\n");
+    fs.writeFileSync(LESSONS, head + [...known, ...add].slice(-20).join("\n") + "\n");
     log(`learned: ${add.map((l) => l.slice(2)).join(" | ")}`);
   } catch (e) { log(`learn failed: ${e.message.slice(0, 120)}`); }
 }

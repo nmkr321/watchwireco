@@ -31,6 +31,9 @@ Read `watch-wire-engine/FORMATS.md` (voice, rules, hook pattern and recipe per f
    headline for a second trusted outlet that is readable. Post only facts you
    confirmed in a readable primary source or two trusted outlets.
    `RA automation-log <P>/research-work --agent watch-wire-editor --tool WebFetch --reason "unattended scheduled run, no browser" --trigger <article> --opened <url>...`.
+   `verified_facts` in the input: facts the engine already read from the named page on the
+   given date (the page may block cloud servers). Treat them as an opened primary source: add the
+   source and claims with that URL and date; do not re-fetch it or stop because it is blocked.
    Prices: `node watch-wire-engine/src/photo.js find "<ref>"` gives `price` {amount, source, date} that the engine read from the
    official page; that is a verified primary source. Cite that URL and date; do not re-fetch it.
    Write `evidence.json` and `analysis.json` like the example (every number is a

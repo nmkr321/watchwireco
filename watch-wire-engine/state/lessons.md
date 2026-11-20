@@ -1,51 +1,17 @@
 # Lessons from the approver
-The editor reads this before every post. Written automatically from rejections; newest last.
+The editor reads this before every post. Written automatically from rejections (kept short; newest last).
 
-- 2026-11-20 [BUILD YOUR COLLECTION] Viewer picks: one A-pick3 per tier, different watch types, short model names (refs go in the caption).
-- 2026-11-20 [STORY BEHIND] Every photo needs a rights entry (licence, author, URL) in assets/manifest.json before it goes on a slide; otherwise drop the photo.
-- 2026-11-20 [STORY BEHIND] Keep text off the watch dial and busy photo areas; dim overlays only enough that the watch stays clearly visible and credits stay readable.
-- 2026-11-20 [STORY BEHIND] If a template cannot keep text off the subject and keep credits legible, do not ship; flag the template limit to the owner.
-- 2026-11-20 [STORY BEHIND] Fix every reviewer comment from the previous round before resubmitting; a repeated comment must be resolved, not re-described.
-- 2026-11-20 [STORY BEHIND] [any] A photo author of "Unknown", blank or unnamed means no valid rights entry; drop that photo rather than credit it as Unknown.
-- 2026-11-20 [STORY BEHIND] [any] Check every rendered slide preview for overlaps and credit clipping before submitting; fix layout failures in the template, not by editing copy.
-- 2026-11-20 [STORY BEHIND] Before choosing a photo, check where its subject sits. If it fills the spot for text or credits, pick another photo or layout.
-- 2026-11-20 [STORY BEHIND] Submit only after every slide has rendered in full. A stopped or partial render is not a finished round; re-run it.
-- 2026-11-20 [LISTICLE] - 2026-11-20 [any] A blocked named source is a stop signal: find an accessible primary source, or hold the candidate for an owner decision.
-- 2026-11-20 [LISTICLE] - 2026-11-20 [any] Settle any open owner decision before building; never start a carousel while a sourcing question is unresolved.
-- 2026-11-20 [LISTICLE] 2026-11-20 [LISTICLE] Don't retry a blocked source in later attempts; switch to an accessible source or hold the candidate that round.
-- 2026-11-20 [LISTICLE] 2026-11-20 [LISTICLE] After two held attempts on one candidate, send the owner one specific decision question rather than re-running the editor.
-- 2026-11-20 [LISTICLE] [LISTICLE] A search snippet is not a read: never build claims from search results alone; open a primary page first or hold the candidate.
-- 2026-11-20 [WOULD YOU RATHER] Before writing any copy, confirm the library holds every photo, price and source the format needs; if one is missing, hold the candidate and name the gap.
-- 2026-11-20 [WOULD YOU RATHER] - 2026-11-20 [any] Before choosing a subject, check queue/posted for its use in the last 3 days; skip any watch, photo or topic used recently.
-- 2026-11-20 [WOULD YOU RATHER] Before choosing a subject, check queue/approved, queue/drafts and queue/ideas as well as queue/posted for the same watch, price or pair, and skip any already scheduled.
-- 2026-11-20 [WOULD YOU RATHER] After a held attempt, change the subject or pairing before rebuilding. Don't retry the same candidate with only wording changes.
-- 2026-11-20 [WOULD YOU RATHER] If no unscheduled pair meets the 10% rule, hold the candidate. Never fill the gap by reusing a watch already scheduled in any format.
-- 2026-11-20 [WOULD YOU RATHER] Prices count as library data only from dated official sources; a price found only in a rejected or held draft does not count.
-- 2026-11-20 [WOULD YOU RATHER] When no pair qualifies, the hold note must list each price checked and the reason it failed.
-- 2026-11-20 [LISTICLE] Every ranked item needs its own opened source for each number shown; an item missing a confirmed figure is cut, not described vaguely.
-- 2026-11-20 [LISTICLE] Before finishing research, count confirmed items against the format's required count; if short, add candidates or hold, never pad with unconfirmed ones.
-- 2026-11-20 [LISTICLE] Record auction and sale prices in their original currency with the sale date; convert to USD only with a cited, dated rate, and never state a converted figure as the hammer price.
-- 2026-11-20 [LISTICLE] Before researching a ranked list, confirm 8-10 candidates each have an accessible primary source for every figure; if not, choose another topic.
-- 2026-11-20 [LISTICLE] A hold note must name each missing figure, the source checked, and why it failed, so the owner sees the exact gap.
-- 2026-11-20 [LISTICLE] - 2026-11-20 [any] Photos must match the exact reference, including bracelet and dial; if the variant can't be confirmed, name only the model on the slide.
-- 2026-11-20 [LISTICLE] - 2026-11-20 [any] Each slide's footer names only that slide's own source; never list every source of a multi-source post on each slide.
-- 2026-11-20 [LISTICLE] Never set a global source value that overrides per-slide footers; each slide's own footer must render, and I must check the rendered text.
-- 2026-11-20 [LISTICLE] After any re-render, confirm the new PNGs differ from the previous round's files; identical output means the fix did not apply.
-- 2026-11-20 [LISTICLE] Never reuse a watch already in queue/approved, queue/drafts or queue/ideas in any format, not just Would You Rather.
-- 2026-11-20 [LISTICLE] Before choosing any format, confirm the library has enough unscheduled items with dated prices and rights-cleared photos; if not, pick another format or hold.
-- 2026-11-20 [LISTICLE] After any HOLD, fill the named data gap or switch candidates before rebuilding; never rebuild from the same inputs.
-- 2026-11-20 [LISTICLE] Count an item toward a format's minimum only if it has every required field (dated price, rights-cleared photo, opened source).
-- 2026-11-20 [STORY BEHIND] Each slide claim needs a cited source that actually supports it; attribute opinions to their author or cut them, and seek a second source for key facts.
-- 2026-11-20 [STORY BEHIND] Caption credits must match the slides: credit only photos shown on a slide, and list every shown photo's credit in the manifest.
-- 2026-11-20 [STORY BEHIND] Never put a source or publication name (Wikipedia, Gear Patrol) in a slide headline or tag; name sources only in the caption.
-- 2026-11-20 [STORY BEHIND] A project missing caption.json, carousel.json or assets/manifest.json fails validate; run validate and confirm PASS before submitting.
-- 2026-11-20 [LISTICLE] Caption and final CTA slide must carry the same closing question; check both match before submitting.
-- 2026-11-20 [LISTICLE] Centre each slide's content block between header and footer, and keep clear space above the footer; fix spacing in the template before submitting.
-- 2026-11-20 [any] If a named article is blocked, WebSearch its exact headline plus the outlet name; big outlets publish the same piece on other editions (uk., au., in.) that are often readable.
-- 2026-11-20 [LISTICLE] Name a source on a slide or caption only if this run opened it; sources named from memory or old notes get cut.
-- 2026-11-20 [LISTICLE] Set a ranked list's length from the confirmed item count, not the template default; a shorter confirmed list beats a padded or held one.
-- 2026-11-20 [LISTICLE] Before writing a headline or hook, confirm its named source opened; a headline citing an unread source is a blocked-source violation, so switch topic instead.
-- 2026-11-20 [LISTICLE] - 2026-11-20 [LISTICLE] Keep the library stocked: when unscheduled, dated-price watches fall below a format's minimum, source new candidates before the next run, not after.
-- 2026-11-20 [LISTICLE] Before holding for a short count, list each candidate with its queue location and required fields; if the eligible count meets the minimum, build instead of holding.
-- 2026-11-20 [LISTICLE] If a format's minimum item count fails on two held attempts, switch to a format the library can fill rather than retrying it.
-- 2026-11-20 [LISTICLE] Each attempt must change its format, candidate or source; repeating the same inputs wastes a run.
+- [any] Every fact on a slide or in the caption is a claim in research.json from a source you opened, or a `verified_facts` entry in the idea (already read by the engine: cite it, don't re-fetch).
+- [any] If a named article is blocked, search its exact headline plus the outlet; other editions (uk., au., in.) are often readable. Don't re-fetch a page that failed twice.
+- [any] If sources disagree on a model or name, use the most authoritative one or drop that detail.
+- [any] Each slide's footer and the caption name only sources actually used; caption and last slide ask the same question.
+- [any] Every photo is registered (rights, author, URL) and credited on its slide; drop photos with an unknown author; never reuse a photo on two slides.
+- [any] Keep text off the watch and busy photo areas; short lines, no single word on its own line; at most one [[highlight]] per slide (a cover's line2 is already gold).
+- [any] Never reuse a watch already in today's approved posts.
+- [any] A shorter, fully confirmed list beats a padded one: set a listicle's length from the confirmed items (minimum 4).
+- [any] Prices only where the format needs them (same money, collection, price posts), from library or official pages, with date.
+- [CELEBRITY] Never state a celebrity's watch model, dial or strap unless the source names it; old news needs a fresh angle, never "new".
+- [AUCTIONS] Only confirmed results (hammer price, fees stated, house, date); never starting bids or estimates.
+- [WOULD YOU RATHER] Same-money pairs within 10% on dated official prices.
+- [BUILD YOUR COLLECTION] One A-pick3 per tier, different watch types, short model names (refs in caption).
+- [STORY BEHIND] Attribute opinions to their author; key facts need two sources or the brand's own history page.
