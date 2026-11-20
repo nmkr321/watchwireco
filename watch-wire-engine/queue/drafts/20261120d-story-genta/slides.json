@@ -1,45 +1,45 @@
 {
- "source": "Sotheby's; Patek Philippe",
+ "source": "Source: Wikipedia, Gear Patrol, Yahoo Lifestyle",
  "slides": [
   {
    "t": "D-cover",
    "tag": "STORY BEHIND",
-   "headline": "One Man Designed Both Icons",
-   "photo": "watch-wire-engine/library/img/commons-patek-philippe-nautilus-5711-1a-010-1.jpg",
-   "credit": "Photo: Patek Philippe SA / CC BY-SA 4.0"
+   "headline": "One Man Designed Both",
+   "photo": "watch-wire-engine/library/img/commons-audemars-piguet-royal-oak-ref-15202.jpg",
+   "credit": "Photo: OpaleHorse / CC BY-SA 4.0"
   },
   {
    "t": "D-body",
-   "kicker": "THE DESIGNER",
-   "text": "Gérald Genta designed the Royal Oak and the Nautilus, Sotheby's says."
+   "kicker": "1970",
+   "text": "Genta designs the Royal Oak for Audemars Piguet."
   },
   {
    "t": "D-body",
-   "kicker": "1972 · THE ROYAL OAK",
-   "text": "Debuted as reference 5402 'Jumbo'. AP's CEO called Genta to save the brand, Sotheby's says."
+   "kicker": "1976",
+   "text": "Patek Philippe introduces the Nautilus, designed by Genta."
   },
   {
    "t": "D-body",
-   "kicker": "THE NAUTILUS SHAPE",
-   "text": "Sotheby's says the Nautilus took its porthole shape from transatlantic ocean liners."
+   "kicker": "The breakthrough",
+   "text": "The 1970 Royal Oak is called the original groundbreaker."
   },
   {
    "t": "D-body",
-   "kicker": "1976 · THE NAUTILUS",
-   "text": "Genta's first reference 3700 Nautilus debuted for Patek Philippe in 1976.",
-   "photo": "watch-wire-engine/library/img/commons-patek-philippe-nautilus-5711-1a-010-1.jpg",
-   "credit": "Photo: Patek Philippe SA / CC BY-SA 4.0"
+   "kicker": "Two brands",
+   "text": "Audemars Piguet made the Royal Oak. Patek Philippe made the Nautilus."
   },
   {
    "t": "D-body",
-   "kicker": "THE PAYOFF",
-   "text": "Two icons. One designer, per Sotheby's."
+   "kicker": "Six years apart",
+   "text": "The Royal Oak came in 1970; the Nautilus followed in 1976."
   },
   {
-   "t": "cta",
-   "line1": "Watch news.",
-   "line2": "Every day.",
-   "body": "Follow @watchwireco for the stories behind the watches."
+   "t": "D-body",
+   "kicker": "The payoff",
+   "text": "Same designer. Two brands. Six years apart."
+  },
+  {
+   "t": "cta"
   }
  ]
 }

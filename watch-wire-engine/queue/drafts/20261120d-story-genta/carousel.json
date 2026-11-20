@@ -10,34 +10,37 @@
     {
       "id": "slide-1",
       "role": "cover",
-      "headline": "One Man Designed Both Icons",
+      "headline": "One Man Designed Both",
       "body": "",
-      "visual_job": "Template D D-cover",
+      "visual_job": "D-body with photo and credit",
       "claim_ids": [
+        "CLM-1",
         "CLM-2"
       ],
       "asset_ids": [
-        "asset-nautilus-5711"
+        "asset-2"
       ]
     },
     {
       "id": "slide-2",
       "role": "proof",
-      "headline": "THE DESIGNER",
-      "body": "Gérald Genta designed the Royal Oak and the Nautilus, Sotheby's says.",
-      "visual_job": "Template D D-body",
+      "headline": "1970",
+      "body": "Genta designs the Royal Oak for Audemars Piguet.",
+      "visual_job": "D-body text-only slide",
       "claim_ids": [
-        "CLM-1"
+        "CLM-1",
+        "CLM-2"
       ],
       "asset_ids": []
     },
     {
       "id": "slide-3",
       "role": "proof",
-      "headline": "1972 · THE ROYAL OAK",
-      "body": "Debuted as reference 5402 'Jumbo'. AP's CEO called Genta to save the brand, Sotheby's says.",
-      "visual_job": "Template D D-body",
+      "headline": "1976",
+      "body": "Patek Philippe introduces the Nautilus, designed by Genta.",
+      "visual_job": "D-body text-only slide",
       "claim_ids": [
+        "CLM-1",
         "CLM-2"
       ],
       "asset_ids": []
@@ -45,44 +48,57 @@
     {
       "id": "slide-4",
       "role": "proof",
-      "headline": "THE NAUTILUS SHAPE",
-      "body": "Sotheby's says the Nautilus took its porthole shape from transatlantic ocean liners.",
-      "visual_job": "Template D D-body",
+      "headline": "Gear Patrol",
+      "body": "Gear Patrol calls the 1970 Royal Oak the original groundbreaker.",
+      "visual_job": "D-body text-only slide",
       "claim_ids": [
-        "CLM-4"
+        "CLM-1",
+        "CLM-2"
       ],
       "asset_ids": []
     },
     {
       "id": "slide-5",
       "role": "proof",
-      "headline": "1976 · THE NAUTILUS",
-      "body": "Genta's first reference 3700 Nautilus debuted for Patek Philippe in 1976.",
-      "visual_job": "Template D D-body",
+      "headline": "Wikipedia",
+      "body": "Genta trained as a goldsmith, then started at Universal Genève.",
+      "visual_job": "D-body text-only slide",
       "claim_ids": [
-        "CLM-3"
+        "CLM-1",
+        "CLM-2"
       ],
-      "asset_ids": [
-        "asset-nautilus-5711"
-      ]
+      "asset_ids": []
     },
     {
       "id": "slide-6",
-      "role": "conclusion",
-      "headline": "THE PAYOFF",
-      "body": "Two icons. One designer, per Sotheby's.",
-      "visual_job": "Template D D-body",
+      "role": "proof",
+      "headline": "Also designed",
+      "body": "IWC's Ingenieur (1976) and Cartier's Pasha (1985).",
+      "visual_job": "D-body text-only slide",
       "claim_ids": [
-        "CLM-3"
+        "CLM-1",
+        "CLM-2"
       ],
       "asset_ids": []
     },
     {
       "id": "slide-7",
+      "role": "proof",
+      "headline": "Own label",
+      "body": "Genta founded his own watch label in 1969.",
+      "visual_job": "D-body text-only slide",
+      "claim_ids": [
+        "CLM-1",
+        "CLM-2"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-8",
       "role": "cta",
-      "headline": "Watch news.",
-      "body": "Follow @watchwireco for the stories behind the watches.",
-      "visual_job": "Template D cta",
+      "headline": "Follow @watchwireco",
+      "body": "",
+      "visual_job": "cta text-only slide",
       "claim_ids": [],
       "asset_ids": []
     }
@@ -93,49 +109,56 @@
       "file": "output/slide-01.png",
       "width": 1080,
       "height": 1350,
-      "sha256": "4e558f4b7f2521cbe8384643ff5f861e26c40da34c3c438a166931700b968529"
+      "sha256": "8ca927643ef6b22133a5cb55f6bd005611bfcce40529e26818d8acc1d181f3c0"
     },
     {
       "slide_id": "slide-2",
       "file": "output/slide-02.png",
       "width": 1080,
       "height": 1350,
-      "sha256": "4cf781d89678ddeae04a5cb9b2149d87eefbcf0fdc7ac571ef883ad5c1cb2de7"
+      "sha256": "093d5a32e67768c24f357eaef8601227313c830c1b2656944720d2201d698ad3"
     },
     {
       "slide_id": "slide-3",
       "file": "output/slide-03.png",
       "width": 1080,
       "height": 1350,
-      "sha256": "25821036090ded3bf4fb4b8b15a0516f2ede6f02da326fa569d68ee68bc2fd63"
+      "sha256": "211617a246260aaaeeb77a3ba72bbb07b4fbcc8e9d4120167170c85394d21c0a"
     },
     {
       "slide_id": "slide-4",
       "file": "output/slide-04.png",
       "width": 1080,
       "height": 1350,
-      "sha256": "3bcd222de01dd327cdcefa0cf660d1b0e344009fe06fabf8f0b7a4e87f7b4b54"
+      "sha256": "c978845d670be38cedbb58f3fe96c42bc047b0794c987554f4f3a99c55174146"
     },
     {
       "slide_id": "slide-5",
       "file": "output/slide-05.png",
       "width": 1080,
       "height": 1350,
-      "sha256": "fc47ec9121ca4ca673729023df3dd647e4df2e17d1042aa436402c2a3953be42"
+      "sha256": "c38d61013d6d693325459d5b21282fd6e9ff88c394c8b3bc7217eb85aedce9e7"
     },
     {
       "slide_id": "slide-6",
       "file": "output/slide-06.png",
       "width": 1080,
       "height": 1350,
-      "sha256": "309b2aac7fabfb7fd813fae21af11f812e0e9bcc9fa1f7b721ce6c70e15c03e7"
+      "sha256": "e2f8efca013b8728efdd91fa79d240291ef4591dfebfd289188d3d737dbd86d3"
     },
     {
       "slide_id": "slide-7",
       "file": "output/slide-07.png",
       "width": 1080,
       "height": 1350,
-      "sha256": "05d2ef39ae34610a324becfa73e23c29a29af73b4883d0da4fcee27350d1956f"
+      "sha256": "23da59eeb87e3871ef18e47e6fbc6aa1f0bf2f3ecaed7dc78fbcdd4714f59969"
+    },
+    {
+      "slide_id": "slide-8",
+      "file": "output/slide-08.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "c4757c2923f7ce3df46e08de28bd89ba0a8c26b6c9cabb8d22b5fd61e39ec9cf"
     }
   ]
 }

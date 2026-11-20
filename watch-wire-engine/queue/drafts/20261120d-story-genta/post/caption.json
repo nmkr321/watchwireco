@@ -1,7 +1,23 @@
 {
   "schema_version": "1.0",
   "status": "completed",
-  "text": "One designer, two icons. Gérald Genta drew the Audemars Piguet Royal Oak, which debuted in 1972 as the reference 5402 'Jumbo', and the Patek Philippe Nautilus, which debuted in 1976 as his reference 3700.\n\nSotheby's says AP's CEO called Genta to save the brand with a bold new design. The Nautilus porthole shape was reportedly inspired by transatlantic ocean liners.\n\nPhoto shows the modern Nautilus 5711.\n\nSource: Sotheby's, 'Gérald Genta: The Most Visionary Watch Designer of the 20th Century'. Image: Patek Philippe SA (CC BY-SA 4.0).\n\nFollow @watchwireco for daily watch news.",
-  "carousel_sha256": "d00b29cf837274bc016c21a40dcb2453cad1aa4b80dc3bd05b8a3cb9ae7c68f7",
-  "completed_at": "2026-11-20T22:29:19.948Z"
+  "text": "One man designed both the Royal Oak and the Nautilus: Gérald Genta.\n\nThe Royal Oak was designed in 1970 for Audemars Piguet. Patek Philippe introduced the Nautilus in 1976, also designed by Genta. Two brands, six years apart.\n\nThe cover photo shows an Audemars Piguet Royal Oak.\n\nSources: Wikipedia, Gear Patrol, Yahoo Lifestyle, read 20 November 2026. Photo credit on the slide: OpaleHorse (Royal Oak), CC BY-SA 4.0, via Wikimedia Commons.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3"
+  ],
+  "source_ids": [
+    "SRC-WIKI-GENTA",
+    "SRC-GEARPATROL",
+    "SRC-YAHOO"
+  ],
+  "attribution": "Sources: Wikipedia, Gear Patrol, Yahoo Lifestyle, read 20 November 2026.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Goldsmith, IWC Ingenieur, Pasha, 1969 label and 1972 launch date dropped: not confirmed by two outlets."
+  ],
+  "caption_credit": "Photo: OpaleHorse / CC BY-SA 4.0 (Royal Oak cover), via Wikimedia Commons.",
+  "carousel_sha256": "cee7f0470efc714736aa05ca856177d0ae500dfeca9a9d119d863b85a421fb03",
+  "completed_at": "2026-11-20T22:43:41.577Z"
 }

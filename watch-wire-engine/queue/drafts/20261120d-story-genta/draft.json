@@ -1,18 +1,1 @@
-{
-  "status": "ready",
-  "project_dir": "Content Creation/projects/20261120d-story-genta",
-  "format": "STORY BEHIND",
-  "lane": "history",
-  "headline": "One Man Designed Both Icons",
-  "slides": [
-    "output/slide-01.png",
-    "output/slide-02.png",
-    "output/slide-03.png",
-    "output/slide-04.png",
-    "output/slide-05.png",
-    "output/slide-06.png",
-    "output/slide-07.png"
-  ],
-  "caption_file": "caption.json",
-  "stop_reason": ""
-}
+{"status":"ready","project_dir":"Content Creation/projects/20261120d-story-genta","format":"STORY BEHIND","lane":"history","headline":"One Man Designed Both","slides":["output/slide-01.png","output/slide-02.png","output/slide-03.png","output/slide-04.png","output/slide-05.png","output/slide-06.png","output/slide-07.png","output/slide-08.png"],"caption_file":"caption.json","stop_reason":"Approver fixes applied: validate PASS; slides 5-7 replaced with verified facts (no goldsmith, Ingenieur, Pasha or 1969 label claims); source names removed from slide headlines and kickers; caption now says Audemars Piguet Royal Oak only; payoff slide added before CTA."}
