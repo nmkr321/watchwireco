@@ -1,7 +1,7 @@
 {
   "id": "202611201636-bring-calatrava-movado-polerouter-submar",
   "lane": "breaking",
-  "status": "candidate",
+  "status": "skipped",
   "found_at": "2026-11-20T16:36:07.000Z",
   "title": "Bring a Loupe A Movado \"Calatrava,\" A Seiko 6159-7001, A Universal Genève Polerouter Sub, And A Tudor Submariner 79090",
   "score": 6,
@@ -15,5 +15,10 @@
       "tier": "watch_press",
       "published": "Fri, 20 Nov 2026 16:00:00 GMT"
     }
-  ]
+  ],
+  "triage": {
+    "post": false,
+    "format": "NONE",
+    "reason": "\"Bring a Loupe\" is a Hodinkee roundup column featuring four watches (Movado Calatrava, Seiko 6159-7001, Universal Genève Polerouter Sub, Tudor Submariner 79090). It is not breaking news: no brand move, auction result, launch, price change, or industry data. It reads as a feature/opinion piece, which the triage rules exclude. If the owner wants it in the regular queue, it would most likely fit NEW RELEASES or NEWS, but that is a separate decision."
+  }
 }
