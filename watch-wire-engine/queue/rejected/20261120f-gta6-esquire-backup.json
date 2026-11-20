@@ -1,0 +1,19 @@
+{
+  "id": "20261120f-gta6-esquire-backup",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-20T22:51:21.456Z",
+  "post_at": "2026-11-21T00:30:00Z",
+  "backup_for": "20261120f-gta6-esquire",
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: The real watches behind GTA 6",
+  "hook": "",
+  "why": "Backup post. Build it only from watch-wire-engine/library (photo.js find: verified prices with source and date, official photos), e.g. 'N watches under $X' or 'N icons in steel'. Pick watches not used in the last 3 days of queue/posted or today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "HOLD: library cannot fill a LISTICLE (needs 8-10 items). Library has 12 watches with dated official prices, but every one already appears in queue/approved, queue/drafts or queue/ideas (or is in rejected/hold): 126610LN, 124060, 224270, 126710BLNR, 310.30.42.50.01.002, 210.30.42.20.01.001, A17366D81",
+    "HOLD (attempt 2): no LISTICLE built. The library still has only the same 12 dated-price watches, and the 7 unused ones (126610LN, 124060, 224270, 126710BLNR, 310.30.42.50.01.002, 210.30.42.20.01.001, A17366D81) are already in queue/approved, queue/drafts or queue/ideas, so 8 unscheduled items with d"
+  ],
+  "stop_reason": "HOLD (attempt 3): library cannot fill a LISTICLE (needs 8-10 items). Checked all 48 library entries. Only 126500LN (Rolex, bcclark.com, $16,900 dated 2026-11-20) has a dated price and is not in queue/approved, queue/drafts, queue/ideas or hold/rejected. Two more unused watches have no dated price yet: 5811/1G-001 (Patek, patek.com) and 217.30.42.21.01.001 (Omega, exquisitetimepieces.com). 228238 is in rejected/hold, so excluded. Every other dated-price watch is used in approved/drafts/ideas. Maximum eligible is 3 to 4, short of 8. Needs 5+ new watches with dated official prices and rights-cleared photos added to the library.",
+  "gave_up": true
+}

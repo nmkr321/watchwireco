@@ -42,3 +42,10 @@ The editor reads this before every post. Written automatically from rejections; 
 - 2026-11-20 [LISTICLE] Caption and final CTA slide must carry the same closing question; check both match before submitting.
 - 2026-11-20 [LISTICLE] Centre each slide's content block between header and footer, and keep clear space above the footer; fix spacing in the template before submitting.
 - 2026-11-20 [any] If a named article is blocked, WebSearch its exact headline plus the outlet name; big outlets publish the same piece on other editions (uk., au., in.) that are often readable.
+- 2026-11-20 [LISTICLE] Name a source on a slide or caption only if this run opened it; sources named from memory or old notes get cut.
+- 2026-11-20 [LISTICLE] Set a ranked list's length from the confirmed item count, not the template default; a shorter confirmed list beats a padded or held one.
+- 2026-11-20 [LISTICLE] Before writing a headline or hook, confirm its named source opened; a headline citing an unread source is a blocked-source violation, so switch topic instead.
+- 2026-11-20 [LISTICLE] - 2026-11-20 [LISTICLE] Keep the library stocked: when unscheduled, dated-price watches fall below a format's minimum, source new candidates before the next run, not after.
+- 2026-11-20 [LISTICLE] Before holding for a short count, list each candidate with its queue location and required fields; if the eligible count meets the minimum, build instead of holding.
+- 2026-11-20 [LISTICLE] If a format's minimum item count fails on two held attempts, switch to a format the library can fill rather than retrying it.
+- 2026-11-20 [LISTICLE] Each attempt must change its format, candidate or source; repeating the same inputs wastes a run.
