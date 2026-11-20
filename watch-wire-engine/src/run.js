@@ -131,7 +131,8 @@ export function make(file) {
   if (!resume) claude(["--agent", "watch-wire-editor", "--effort", EFFORT.editor, "--max-budget-usd", EDITOR_BUDGET,
     "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--permission-mode", "acceptEdits",
     "--output-format", "json"],
-    `Make one Watch Wire carousel. Input file: ${path.join(draftDir, "input.json")}. Draft folder (write draft.json here): ${draftDir}. Lane: ${item.lane}. ${item.format ? "Format: " + item.format + "." : ""}`,
+    `Make one Watch Wire carousel. Input file: ${path.join(draftDir, "input.json")}. Draft folder (write draft.json here): ${draftDir}. Lane: ${item.lane}. ${item.format ? "Format: " + item.format + "." : ""}` +
+    (item.previous_attempts?.length ? ` This is attempt ${item.previous_attempts.length + 1}. Earlier attempts failed for these reasons; do not repeat them (find other trusted sources or a different angle on the same topic if needed): ${JSON.stringify(item.previous_attempts)}` : ""),
     `editor ${item.id}`);
 
   const draftFile = path.join(draftDir, "draft.json");
@@ -179,6 +180,7 @@ export function make(file) {
       `Review this Watch Wire draft and decide. Draft folder: ${draftDir}`, `approver ${item.id} r${round}`));
     writeJson(path.join(draftDir, `verdict-${round}.json`), verdict);
     log(`approver r${round}: ${verdict.decision} (${verdict.reason})`);
+    if (round === 1 && verdict.decision !== "approve") learn(item, [...(verdict.hard_gate_failures || []), ...(verdict.fixes || [])]);
     if (verdict.decision !== "revise" || round === 3) break;
     claude(["--agent", "watch-wire-editor", "--effort", EFFORT.editor, "--max-budget-usd", EDITOR_BUDGET,
       "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--permission-mode", "acceptEdits", "--output-format", "json"],
@@ -237,9 +239,65 @@ Do not repeat any of these recent posts: ${JSON.stringify(posted)}`;
   }
 }
 
+
+// ---------- learning: turn approver rejections into general rules for the editor ----------
+const LESSONS = path.join(ROOT, "state/lessons.md");
+function learn(item, reasons) {
+  try {
+    const known = fs.existsSync(LESSONS) ? fs.readFileSync(LESSONS, "utf8").split("\n").filter((l) => l.startsWith("- ")).slice(-40) : [];
+    const schema = JSON.stringify({ type: "object", required: ["lessons"], properties: { lessons: { type: "array", maxItems: 2, items: { type: "string" } } } });
+    const out = parseResult(claude(["--model", MODEL, "--output-format", "json", "--json-schema", schema, "--max-budget-usd", "0.03", "--effort", "low", "--allowedTools", "Read"],
+      `The Watch Wire approver sent back a ${item.format || ""} post. Its reasons: ${JSON.stringify(reasons).slice(0, 2500)}
+Write at most 2 short general rules (under 25 words each) that would stop the editor making this kind of mistake on FUTURE posts. Not about this post's specifics. Skip any rule already covered here: ${JSON.stringify(known)}. Return an empty list if nothing new.`, `learn ${item.id}`));
+    const add = (out.lessons || []).map((l) => `- ${new Date().toISOString().slice(0, 10)} [${item.format || "any"}] ${l.trim()}`);
+    if (!add.length) return;
+    const head = "# Lessons from the approver\nThe editor reads this before every post. Written automatically from rejections; newest last.\n\n";
+    fs.writeFileSync(LESSONS, head + [...known, ...add].slice(-40).join("\n") + "\n");
+    log(`learned: ${add.map((l) => l.slice(2)).join(" | ")}`);
+  } catch (e) { log(`learn failed: ${e.message.slice(0, 120)}`); }
+}
+
+// ---------- make with retries: a rejected post is made again (with the reasons), then a backup fills the slot ----------
+const MAX_ATTEMPTS = Number(process.env.WW_MAX_ATTEMPTS || 3);
+export function makeWithRetries(file) {
+  const home = path.dirname(file), name = path.basename(file);
+  for (let n = 1; n <= MAX_ATTEMPTS; n++) {
+    try { make(path.join(home, name)); } catch (e) { log(`attempt ${n} error: ${e.message.slice(0, 200)}`); }
+    if (fs.existsSync(path.join(Q("approved"), name))) return true;
+    const rej = path.join(Q("rejected"), name);
+    const src = fs.existsSync(rej) ? rej : path.join(home, name);
+    if (!fs.existsSync(src)) return false;
+    const item = readJson(src);
+    if (item.triage && item.status === "skipped") return false;           // triage said "not a post"
+    const v = item.verdict || {};
+    const reasons = [item.stop_reason, v.reason, ...(v.hard_gate_failures || []), ...(v.fixes || [])].filter(Boolean).map((r) => String(r).slice(0, 300));
+    learn(item, reasons);
+    if (n === MAX_ATTEMPTS) { backup(item); return false; }
+    log(`retry ${n + 1}/${MAX_ATTEMPTS}: ${item.title}`);
+    fs.rmSync(path.join(Q("drafts"), item.id), { recursive: true, force: true });
+    for (const k of ["verdict", "stop_reason", "draft_dir", "project_dir", "post_dir"]) delete item[k];
+    item.status = "idea";
+    item.previous_attempts = [...(item.previous_attempts || []), reasons.join(" / ").slice(0, 600)];
+    writeJson(path.join(home, name), item);
+    if (src !== path.join(home, name)) fs.rmSync(src, { force: true });
+  }
+  return false;
+}
+
+// a slot that still has no post gets an evergreen backup built from library data (verified prices + photos)
+function backup(item) {
+  if (item.backup_for || item.lane === "breaking" || !item.post_at) { log(`gave up: ${item.title}`); return; }
+  const id = `${item.id}-backup`;
+  writeJson(path.join(Q("ideas"), `${id}.json`), { id, lane: item.lane, status: "idea", found_at: new Date().toISOString(), post_at: item.post_at, backup_for: item.id,
+    format: item.format === "WOULD YOU RATHER" ? "BUILD YOUR COLLECTION" : "WOULD YOU RATHER",
+    title: `Backup post for the slot of: ${item.title}`, hook: "",
+    why: "Evergreen backup. Build it only from watch-wire-engine/library (photo.js find: verified prices with source and date, official photos). Pick watches not used in the last 3 days of queue/posted.", sources: [] });
+  log(`backup queued for ${item.post_at}: ${item.title}`);
+}
+
 async function makeIdeas() {
-  for (const f of fs.readdirSync(Q("ideas")).filter((x) => x.endsWith(".json")).slice(0, 2)) {
-    try { make(path.join(Q("ideas"), f)); } catch (e) { log(`error on idea ${f}: ${e.message}`); }
+  for (const f of fs.readdirSync(Q("ideas")).filter((x) => x.endsWith(".json"))) {
+    try { makeWithRetries(path.join(Q("ideas"), f)); } catch (e) { log(`error on idea ${f}: ${e.message}`); }
   }
 }
 
@@ -282,8 +340,14 @@ async function tick() {
       log(`triage: ${t.post ? "YES" : "no"} [${t.format}] ${c.title} (${t.reason})`);
       if (!t.post) { c.status = "skipped"; c.triage = t; writeJson(file, c); move(file, "rejected"); continue; }
       c.format = t.format; writeJson(file, c);
-      make(file);
+      makeWithRetries(file);
     } catch (e) { log(`error on ${c.id}: ${e.message}`); }
+  }
+  for (const f of fs.readdirSync(Q("ideas")).filter((x) => x.endsWith(".json"))) {
+    const it = readJson(path.join(Q("ideas"), f));
+    if (it.post_at && Date.parse(it.post_at) - Date.now() < 3 * 3600e3) {
+      try { makeWithRetries(path.join(Q("ideas"), f)); } catch (e) { log(`error on idea ${f}: ${e.message}`); }
+    }
   }
   await publishDue();
 }
@@ -296,7 +360,7 @@ if (["tick", "make", "make-ideas"].includes(cmd)) {
 }
 try {
   if (cmd === "tick") await tick();
-  else if (cmd === "make") make(path.resolve(arg));
+  else if (cmd === "make") makeWithRetries(path.resolve(arg));
   else if (cmd === "publish-due") await publishDue();
   else if (cmd === "plan") plan();
   else if (cmd === "make-ideas") await makeIdeas();

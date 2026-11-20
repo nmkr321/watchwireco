@@ -14,6 +14,7 @@ CLIs: `node "Content Creation/bin/content-creation.js"` (CC) and
 `node "Content Creation/Content Research Agent/bin/content-research-agent.js"` (RA).
 Gold example of every file: `watch-wire-engine/example/` (evidence, analysis, hook,
 carousel, caption, slides). Copy its shape exactly; change only the content.
+Read `watch-wire-engine/state/lessons.md` first: mistakes the approver caught before. Never repeat them.
 Read `watch-wire-engine/FORMATS.md` (voice, rules, hook pattern and recipe per format). Do not read the full brand guide or playbook.
 
 ## Steps (in this order, one owner per file)
