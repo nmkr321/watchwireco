@@ -557,24 +557,6 @@
   "fetched": "2026-11-20"
  },
  {
-  "kind": "commons",
-  "title": "File:Casio Triple Sensor Pro Trek.jpg",
-  "ref": "Pro Trek",
-  "source": "https://commons.wikimedia.org/wiki/File:Casio_Triple_Sensor_Pro_Trek.jpg",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Casio_Triple_Sensor_Pro_Trek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "file": "watch-wire-engine/library/img/commons-casio-triple-sensor-pro-trek.jpg",
-  "w": 1173,
-  "h": 1109,
-  "ref_on_page": true,
-  "rights": "licensed",
-  "creator": "user:Geographer from en-Wikipedia",
-  "license": "CC BY 2.5",
-  "credit": "Photo: user:Geographer from en-Wikipedia / CC BY 2.5",
-  "caption_credit": "Photo: user:Geographer from en-Wikipedia / CC BY 2.5 (https://creativecommons.org/licenses/by/2.5) via Wikimedia Commons",
-  "usage": "File:Casio Triple Sensor Pro Trek.jpg (CC BY 2.5), credited",
-  "fetched": "2026-11-20"
- },
- {
   "kind": "watch",
   "brand": "Rolex",
   "ref": "228238",
@@ -627,6 +609,42 @@
   "credit": "Photo: Myles Gray / CC BY-SA 4.0",
   "caption_credit": "Photo: Myles Gray / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
   "usage": "File:Royal Oak bracelet.jpg (CC BY-SA 4.0), credited",
+  "fetched": "2026-11-20"
+ },
+ {
+  "kind": "commons",
+  "title": "File:Rolex Day Date.jpg",
+  "ref": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Rolex_Day_Date.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Rolex_Day_Date.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "file": "watch-wire-engine/library/img/commons-rolex-day-date.jpg",
+  "w": 728,
+  "h": 1028,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "Benutzer:WALLI1912",
+  "license": "CC BY-SA 3.0",
+  "credit": "Photo: Benutzer:WALLI1912 / CC BY-SA 3.0",
+  "caption_credit": "Photo: Benutzer:WALLI1912 / CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/) via Wikimedia Commons",
+  "usage": "File:Rolex Day Date.jpg (CC BY-SA 3.0), credited",
+  "fetched": "2026-11-20"
+ },
+ {
+  "kind": "commons",
+  "title": "File:Casio Triple Sensor Pro Trek.jpg",
+  "ref": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Casio_Triple_Sensor_Pro_Trek.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Casio_Triple_Sensor_Pro_Trek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "file": "watch-wire-engine/library/img/commons-casio-triple-sensor-pro-trek.jpg",
+  "w": 1173,
+  "h": 1109,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "user:Geographer from en-Wikipedia",
+  "license": "CC BY 2.5",
+  "credit": "Photo: user:Geographer from en-Wikipedia / CC BY 2.5",
+  "caption_credit": "Photo: user:Geographer from en-Wikipedia / CC BY 2.5 (https://creativecommons.org/licenses/by/2.5) via Wikimedia Commons",
+  "usage": "File:Casio Triple Sensor Pro Trek.jpg (CC BY 2.5), credited",
   "fetched": "2026-11-20"
  }
 ]

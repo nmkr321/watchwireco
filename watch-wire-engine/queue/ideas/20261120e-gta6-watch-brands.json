@@ -1,0 +1,26 @@
+{
+ "id": "20261120e-gta6-watch-brands",
+ "lane": "rotation",
+ "format": "LISTICLE",
+ "status": "idea",
+ "found_at": "2026-11-20T22:25:00Z",
+ "post_at": "2026-11-21T00:30:00Z",
+ "priority": "owner",
+ "title": "GTA 6's fake watch brands and the real watches behind them",
+ "hook": "GTA 6's Fake Watch Brands, Decoded.",
+ "why": "Owner asked for this post. 5-6 slides: cover \u2192 one slide per in-game brand (3) \u2192 cta 'Which one would you wear in Vice City? Comment below.' Facts (say 'inspired by' / 'reads as', never 'is' or 'official'; Rockstar has not confirmed any): Crowex = Rockstar's Rolex stand-in, the gold model reads as a Rolex Day-Date (ref. 228238 per watchesoff5th and jfk.men); Covgari = Audemars Piguet stand-in: octagonal bezel, eight exposed screws, integrated bracelet, as WatchPro noted (via watchesoff5th summary); Kronos = Casio stand-in, compared to a Casio Pro Trek PRW-1300. Use sources you can open: watchesoff5th.com/blogs/news/gta-6-watches, jfk.men/style/horloges-gta-6-rolex-audemars-piguet-casio/, Esquire India (readable). Name only mappings at least two of them agree on. NO game screenshots (Rockstar copyright). Photos already in the library (free licence, credit each): commons-rolex-day-date.jpg (a Day-Date, label 'Rolex Day-Date'), commons-audemars-piguet-royal-oak-ref-15202.jpg ('Audemars Piguet Royal Oak'), commons-casio-triple-sensor-pro-trek.jpg ('a Casio Pro Trek'; it is a PRT-411, do not call it PRW-1300). A-photo per brand: label 'In game: CROWEX', headline 'Real: Rolex Day-Date'.",
+ "sources": [
+  {
+   "title": "GTA 6 Watches: The Real Rolex, AP and Casio Behind Every Homage",
+   "link": "https://watchesoff5th.com/blogs/news/gta-6-watches",
+   "source": "Watches Off 5th",
+   "tier": "retailer"
+  },
+  {
+   "title": "Horloges GTA 6: Rolex, Audemars Piguet, Casio",
+   "link": "https://jfk.men/style/horloges-gta-6-rolex-audemars-piguet-casio/",
+   "source": "JFK",
+   "tier": "trusted"
+  }
+ ]
+}
