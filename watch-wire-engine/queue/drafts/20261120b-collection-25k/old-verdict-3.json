@@ -1,0 +1,19 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "gate 8: the caption ends by asking 'Which would you swap? Comment below.', but slide 6 shows only the brand follow CTA, so the caption and slides don't match"
+  ],
+  "fixes": [
+    "slide 6: make the closing call match the caption and the BUILD YOUR COLLECTION recipe, e.g. headline 'Which would you swap?' with a 'Comment below.' line, keeping the brand CTA styling",
+    "slide 5: shorten the note so '20 Nov 2026.' doesn't wrap alone, e.g. '$2,000 left. Prices as read on each source, 20 Nov 2026.'"
+  ],
+  "reason": "The prices check out: the Omega figure matches its official page, the photos match the named references, and the credits are in place. Fix the slide 6 call to action so it matches the caption, tidy the slide 5 wrap, then resubmit."
+}

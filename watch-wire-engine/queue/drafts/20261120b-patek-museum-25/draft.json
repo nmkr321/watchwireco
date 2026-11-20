@@ -1,0 +1,16 @@
+{
+  "status": "ready",
+  "project_dir": "Content Creation/projects/20261120b-patek-museum-25",
+  "format": "NEWS",
+  "lane": "rotation",
+  "headline": "The Patek Philippe Museum celebrates 25 years",
+  "slides": [
+    "render/slide-01.png",
+    "render/slide-02.png",
+    "render/slide-03.png",
+    "render/slide-04.png",
+    "render/slide-05.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": ""
+}

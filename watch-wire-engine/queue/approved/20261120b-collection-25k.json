@@ -1,0 +1,38 @@
+{
+ "id": "20261120b-collection-25k",
+ "format": "BUILD YOUR COLLECTION",
+ "post_at": "2026-11-20T21:30:00Z",
+ "title": "$25K budget: build a 3-watch collection",
+ "hook": "$25K. Build A 3-Watch Collection.",
+ "why": "Prices and photos are already verified in watch-wire-engine/library (run photo.js find \"<ref>\"; each match has price, source page and date): Rolex Submariner Date 126610LN $11,350; Omega Seamaster Diver 300M 210.30.42.20.01.001 $6,700; Breitling Superocean Automatic 42 A17366D81C1A1 $4,950. Total $23,000 of $25,000. One A-photo per pick, then an A-table total. Prices are US retail, Nov 2026.",
+ "sources": [],
+ "lane": "rotation",
+ "status": "approved",
+ "found_at": "2026-11-20T19:50:00Z",
+ "verdict": {
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+   "news": 3,
+   "hook": 4,
+   "visual": 3,
+   "clarity": 4,
+   "taste": 3
+  },
+  "hard_gate_failures": [],
+  "fixes": [
+   "slide 2: replace the spec line with one line on why this pick is here (e.g. steel chronograph, black dial, the sports-watch anchor); keep the PICK 1 label and price",
+   "slide 3: same change, one why-line in place of the reference and spec text; keep PICK 2 label and price",
+   "slide 4: same change, one why-line added under the headline; keep PICK 3 label and price",
+   "slide 4: enlarge the Breitling watch to about the same size as the watches on slides 2 and 3, centred in the photo area",
+   "carousel.json: slide 2 says Pick 1 is Rolex Submariner and the cover visual_job says Rolex photo, but the render and caption show Omega Speedmaster; correct the record to match the render before posting",
+   "carousel.json cover headline reads Build A 3-Watch Collection while draft.json and the render read Build Three Watches; align them"
+  ],
+  "reason": "Prices and sources check out (Omega $9,000 re-read today), but the pick slides lack the one-line why, the Breitling photo is undersized on slide 4, and the carousel record names a different pick 1 than the slides show. Fix those and resubmit."
+ },
+ "draft_dir": "watch-wire-engine/queue/drafts/20261120b-collection-25k",
+ "scheduled_for": "2026-11-20T21:30:00Z",
+ "project_dir": "Content Creation/projects/20261120b-collection-25k",
+ "post_dir": "watch-wire-engine/queue/drafts/20261120b-collection-25k/post",
+ "owner_approved": "2026-11-20: owner approved in chat after the approver's last round asked for small fixes (applied by hand)"
+}

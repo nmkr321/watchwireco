@@ -7,7 +7,7 @@ so explain things in plain steps.
   `node src/run.js status` shows the queue. Strategy is in `PLAYBOOK.md`, and the
   short format brief is in `FORMATS.md`.
 - `.claude/agents/watch-wire-editor.md` and `watch-wire-approver.md` are the two AI roles.
-  All roles run on Haiku 5.5 (`WW_MODEL` in `src/run.js`).
+  The editor, planner and triage run on Haiku 5.5 (`WW_MODEL`); the approver runs on Sonnet 5.5 (`WW_APPROVER_MODEL`), chosen by the owner 2026-11-20.
 - `Content Creation/`: the carousel agents and their CLI (TheVibeFounder; keep the credits).
 - `The-Watch-Wire-Brand-Guide.md` is the brand source. `watch-wire-kit/` holds the brand kit.
 - Secrets live only in `watch-wire-engine/.env` (Instagram token, IDs, upload command).

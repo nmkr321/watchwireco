@@ -41,8 +41,13 @@ function save(entry) {
   fs.writeFileSync(INDEX, JSON.stringify(all, null, 1) + "\n");
 }
 
-async function get(url, as = "text") {
+async function get(url, as = "text", tries = 2) {
   const r = await fetch(url, { headers: { "User-Agent": UA, Accept: as === "text" ? "text/html,application/json" : "image/*" }, redirect: "follow", signal: AbortSignal.timeout(20000) });
+  if (r.status === 429 && tries > 1) {           // the site asked us to slow down: wait as told (max 60s), try once more
+    const wait = Math.min(60, Number(r.headers.get("retry-after")) || 20);
+    await new Promise((ok) => setTimeout(ok, wait * 1000));
+    return get(url, as, tries - 1);
+  }
   if (!r.ok) throw new Error(`${r.status} from ${new URL(url).hostname}${r.status === 403 || r.status === 429 ? " (site blocks automated readers; use another official page)" : ""}`);
   return as === "text" ? r.text() : { buf: Buffer.from(await r.arrayBuffer()), type: r.headers.get("content-type") || "" };
 }
@@ -76,21 +81,26 @@ function register(entry) {
   return (res.match(/asset-\d+|"id":\s*"([^"]+)"/) || [])[0]?.replace(/"id":\s*"|"/g, "") || "registered";
 }
 
-const done = (e) => out({ ok: true, photo: e.file, credit: e.credit, caption_credit: e.caption_credit || e.credit, rights: e.rights, ref_on_page: e.ref_on_page, ref_in_image_name: e.ref_in_image_name, size: e.w ? `${e.w}x${e.h}` : "?", cached: !!e.cached, asset_id: register(e) });
+const done = (e) => out({ ok: true, photo: e.file, credit: e.credit, caption_credit: e.caption_credit || e.credit, rights: e.rights, ref_on_page: e.ref_on_page, ref_in_image_name: e.ref_in_image_name, price: e.price || null, size: e.w ? `${e.w}x${e.h}` : "?", cached: !!e.cached, asset_id: register(e) });
 
 // ---------- watch: official brand page ----------
 async function watch(url, brand, ref) {
   if (!url || !brand || !ref) fail("usage: watch <official-url> --brand <Brand> --ref <reference>");
   const hit = lib().find((e) => e.kind === "watch" && norm(e.ref) === norm(ref) && fs.existsSync(path.join(ROOT, e.file)));
-  if (hit && !rest.includes("--refresh")) return done({ ...hit, cached: true });
+  if (hit && hit.price && !rest.includes("--refresh")) return done({ ...hit, cached: true });
   const html = await get(url);
   const ref_on_page = norm(strip(html)).includes(norm(ref)) || norm(url).includes(norm(ref));
   const dec = (u) => u.replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16))).replace(/&#(\d+);/g, (_, d) => String.fromCharCode(+d)).replace(/&amp;/g, "&");
   const abs = (u) => { const x = new URL(dec(u), url); for (const k of ["w", "h", "width", "height", "wid", "hei", "size"]) x.searchParams.delete(k); return x.toString(); };
   const found = [];
+  let price = null;
   for (const m of html.matchAll(/<script[^>]+ld\+json[^>]*>([\s\S]*?)<\/script>/gi)) {
     try {
-      const walk = (o) => { if (!o || typeof o !== "object") return; if (/product/i.test(o["@type"]) && o.image) found.push(...[].concat(o.image).map((x) => x.url || x)); Object.values(o).forEach(walk); };
+      const walk = (o) => { if (!o || typeof o !== "object") return;
+        if (/product/i.test(o["@type"])) { if (o.image) found.push(...[].concat(o.image).map((x) => x.url || x));
+          const of = [].concat(o.offers || [])[0]; const pr = of && (of.price || of.lowPrice || of.priceSpecification?.price);
+          if (pr && !price) price = { amount: Number(String(pr).replace(/[^0-9.]/g, "")), currency: of.priceCurrency || of.priceSpecification?.priceCurrency || "" }; }
+        Object.values(o).forEach(walk); };
       walk(JSON.parse(m[1]));
     } catch {}
   }
@@ -99,6 +109,9 @@ async function watch(url, brand, ref) {
     if (m) found.push(m[1]);
   }
     const r = norm(ref).replace(/^m/, "");
+  if (!price) { const a = html.match(/<meta[^>]+(?:product:price:amount|og:price:amount)["'][^>]*content=["']([\d.,]+)/i), c = html.match(/<meta[^>]+(?:product:price:currency|og:price:currency)["'][^>]*content=["']([A-Z]{3})/i);
+    if (a) price = { amount: Number(a[1].replace(/,/g, "")), currency: c ? c[1] : "" }; }
+  if (price && !(price.amount > 50)) price = null;
   // main product image (JSON-LD / og) first, then gallery images named with the reference
   for (const m of html.matchAll(/(?:src|data-src|srcset|href)=["']([^"'\s]+\.(?:png|jpe?g|webp|avif)[^"'\s]*)/gi)) if (norm(m[1]).includes(r)) found.push(m[1]);
   const bad = /logo|icon|favicon|banner|sprite|placeholder|opengraph\/default|share-default/i;
@@ -110,7 +123,7 @@ async function watch(url, brand, ref) {
     try {
       const d = await download(u, `${brand}-${ref}`);
       if (d.w && d.w / d.h > 1.7 && !norm(u).includes(r)) { wide = wide || u; last = "only a wide banner image"; continue; }
-      const e = { kind: "watch", brand, ref, title: `${brand} ${ref}`, source: url, image_url: u, ...d, ref_on_page, ref_in_image_name: norm(u).includes(r),
+      const e = { kind: "watch", brand, ref, title: `${brand} ${ref}`, source: url, image_url: u, ...d, ref_on_page, ref_in_image_name: norm(u).includes(r), price: price ? { ...price, source: url, date: new Date().toISOString().slice(0, 10) } : null,
         rights: "official", creator: brand, credit: `Image: ${brand}`, usage: `${brand} ${ref} official product image, credited`, fetched: new Date().toISOString().slice(0, 10) };
       save(e);
       return done(e);
@@ -209,7 +222,7 @@ async function commons(query, ref) {
 
 function find(q) {
   const n = norm(q);
-  out({ ok: true, matches: lib().filter((e) => norm([e.ref, e.title, e.brand].join(" ")).includes(n)).slice(0, 5).map((e) => ({ photo: e.file, title: e.title, credit: e.credit, source: e.source })) });
+  out({ ok: true, matches: lib().filter((e) => norm([e.ref, e.title, e.brand].join(" ")).includes(n)).slice(0, 5).map((e) => ({ photo: e.file, title: e.title, credit: e.credit, source: e.source, price: e.price || null })) });
 }
 
 fs.mkdirSync(LIB, { recursive: true });

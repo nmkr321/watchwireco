@@ -26,10 +26,12 @@ for (const d of ["state", "logs"]) fs.mkdirSync(path.join(ROOT, d), { recursive:
 const schedule = JSON.parse(fs.readFileSync(path.join(ROOT, "config/schedule.json"), "utf8"));
 const CLAUDE = process.env.CLAUDE_BIN || "claude";
 const EDITOR_BUDGET = process.env.WW_EDITOR_BUDGET || "0.6";
-const APPROVER_BUDGET = process.env.WW_APPROVER_BUDGET || "0.25";
+const APPROVER_BUDGET = process.env.WW_APPROVER_BUDGET || "0.6";
 // Cheapest model for every role (Haiku 5.5: $0.10 in / $0.50 out per 1M tokens). Override with WW_MODEL.
 const MODEL = process.env.WW_MODEL || "claude-haiku-5-5";
 const TRIAGE_MODEL = process.env.WW_TRIAGE_MODEL || MODEL;
+// The approver is the judge: owner chose Sonnet for it on 2026-11-20 (Haiku changed its mind between rounds).
+const APPROVER_MODEL = process.env.WW_APPROVER_MODEL || "claude-sonnet-5-5";
 // Token efficiency: effort per role (override with env). Editor/approver need judgment; planner/triage don't.
 const EFFORT = { editor: process.env.WW_EDITOR_EFFORT || "low", approver: process.env.WW_APPROVER_EFFORT || "medium",
   planner: process.env.WW_PLANNER_EFFORT || "low", triage: "low" };
@@ -172,7 +174,7 @@ export function make(file) {
   let verdict;
   for (let round = 1; round <= 3; round++) {
     makePreviews();
-    verdict = parseResult(claude(["--agent", "watch-wire-approver", "--effort", EFFORT.approver, "--max-budget-usd", APPROVER_BUDGET,
+    verdict = parseResult(claude(["--model", APPROVER_MODEL, "--agent", "watch-wire-approver", "--effort", EFFORT.approver, "--max-budget-usd", APPROVER_BUDGET,
       "--allowedTools", "Read Glob Grep Bash WebFetch", "--output-format", "json", "--json-schema", schema],
       `Review this Watch Wire draft and decide. Draft folder: ${draftDir}`, `approver ${item.id} r${round}`));
     writeJson(path.join(draftDir, `verdict-${round}.json`), verdict);
@@ -185,12 +187,17 @@ export function make(file) {
   }
 
   if (verdict.decision === "approve") {
-    const when = verdict.post_timing === "now" && item.lane === "breaking" ? new Date().toISOString() : nextSlot(item.lane === "breaking" ? "news" : item.lane);
-    Object.assign(item, { status: "approved", scheduled_for: when, draft_dir: draftDir, project_dir: draft.project_dir, verdict });
+    const when = item.post_at ? item.post_at : verdict.post_timing === "now" && item.lane === "breaking" ? new Date().toISOString() : nextSlot(item.lane === "breaking" ? "news" : item.lane);
+    // keep a copy of the finished slides + caption in the (git-tracked) queue: projects/ is not saved between cloud runs
+    const src = path.resolve(WORKSPACE, draft.project_dir), post = path.join(draftDir, "post");
+    fs.mkdirSync(path.join(post, "output"), { recursive: true });
+    for (const f of fs.readdirSync(path.join(src, "output")).filter((x) => x.endsWith(".png"))) fs.copyFileSync(path.join(src, "output", f), path.join(post, "output", f));
+    fs.copyFileSync(path.join(src, "caption.json"), path.join(post, "caption.json"));
+    Object.assign(item, { status: "approved", scheduled_for: when, draft_dir: path.relative(WORKSPACE, draftDir), project_dir: draft.project_dir, post_dir: path.relative(WORKSPACE, post), verdict });
     writeJson(file, item); move(file, "approved");
     notify(`Watch Wire approved: ${draft.headline}\nPosting ${verdict.post_timing === "now" ? "now" : "at " + when}\n${verdict.reason}`);
   } else {
-    Object.assign(item, { status: verdict.decision === "revise" ? "rejected-after-revision" : "rejected", verdict, draft_dir: draftDir });
+    Object.assign(item, { status: verdict.decision === "revise" ? "rejected-after-revision" : "rejected", verdict, draft_dir: path.relative(WORKSPACE, draftDir) });
     writeJson(file, item); move(file, "rejected");
     notify(`Watch Wire rejected: ${draft.headline}\n${verdict.reason}`);
   }

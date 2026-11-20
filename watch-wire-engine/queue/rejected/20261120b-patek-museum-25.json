@@ -1,0 +1,45 @@
+{
+  "id": "20261120b-patek-museum-25",
+  "format": "NEWS",
+  "post_at": "2026-11-20T23:30:00Z",
+  "title": "The Patek Philippe Museum celebrates 25 years",
+  "hook": "Patek's Museum Turns 25.",
+  "why": "Hodinkee 'Dispatch: The Patek Philippe Museum Celebrates 25 Years'. Confirm facts on patekmuseum.com or patek.com. Photo: an official Patek/museum press image via photo.js press, else a library Patek photo.",
+  "sources": [
+    {
+      "title": "Dispatch: The Patek Philippe Museum Celebrates 25 Years",
+      "link": "https://www.hodinkee.com/",
+      "source": "Hodinkee",
+      "tier": "trusted"
+    }
+  ],
+  "lane": "rotation",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-20T19:50:00Z",
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 3,
+      "hook": 3,
+      "visual": 3,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [
+      "Gate 2: slide 4 preview says 'Patek's own museum... Manufacture's home city', which is not in research.json and does not match carousel.json ('Pieces on show').",
+      "Gate 2: slide 3 'covers watchmaking from the 16th century onwards' is on patek.com but is not a claim in research.json.",
+      "Gate 7: slides 3 and 4 reuse the same photo, so it looks like a repeat.",
+      "Gate 7: previews show two different photographs (slide 1 and slides 3-4), but assets/manifest.json lists only one asset."
+    ],
+    "fixes": [
+      "slide 4: re-render so it matches carousel.json, or change the slide to the verified text; delete 'the Manufacture's home city' unless it gets a sourced claim.",
+      "slide 4: use a different photo from slide 3, or no photo.",
+      "slide 3: keep the 16th-century line only after adding it to research.json as a claim sourced to patek.com; otherwise change the body to 'Celebrating a Quarter Century marks 25 years.'",
+      "assets/manifest.json: add the second photo used on slide 1 or confirm it is the same file, with source URL, creator, credit and rights 'licensed'.",
+      "caption: delete 'and its collection' (not in verified claims)."
+    ],
+    "reason": "The founding year, founder and exhibition name check out on patek.com, and the cover is balanced. Revise because slide 4 in the preview says something unsourced and different from carousel.json, slide 3 needs its 16th-century line sourced, and the photo rights and reuse need fixing."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/20261120b-patek-museum-25"
+}

@@ -74,7 +74,7 @@ td:last-child{border-radius:0 6px 6px 0;font:700 44px var(--n);color:var(--ivory
 tr.on td:last-child{color:var(--ch)}
 .note{font:400 24px/1.45 var(--b);color:var(--smoke);margin-top:24px}
 .list{list-style:none;margin-top:44px;display:grid;gap:14px}.list li{background:var(--ink);padding:28px 32px;border-radius:6px;font:600 34px/1.3 var(--b)}
-.duo{position:absolute;top:50%;transform:translateY(-44%);left:0;right:0;display:flex;justify-content:space-around;align-items:center;text-align:center}
+.duo{position:absolute;top:50%;transform:translateY(-44%);left:0;right:0;display:flex;justify-content:space-around;align-items:flex-start;text-align:center}.duo .or{margin-top:170px}
 .duo .w{width:380px}.duo .pic{width:380px;height:440px;background:var(--ink) center/contain no-repeat;border-radius:6px}
 .duo p{font:600 24px var(--b);letter-spacing:.14em;color:var(--smoke);margin-top:20px;text-transform:uppercase}.duo p span{display:block;font:700 60px/1.05 var(--n);color:var(--ivory);letter-spacing:.02em;margin-top:6px}.duo p em{display:block;font:600 30px var(--b);font-style:normal;color:var(--ch);letter-spacing:.06em;margin-top:10px}
 .or{font:600 88px var(--m);color:var(--ch)}

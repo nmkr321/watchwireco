@@ -1,0 +1,20 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Gate 2: the live re-check of the Rolex price (bcclark.com) was blocked with HTTP 429, so the headline price is confirmed only by the research record, not by me.",
+    "Gate 4: slide 4 says \"chronometer\" for the Breitling, which no verified claim supports."
+  ],
+  "fixes": [
+    "slide 4: delete \"chronometer\" from the body, leaving \"A17366D81C1A1. Blue dial, steel bracelet.\" unless the Breitling page confirms it.",
+    "Before posting: re-check the $11,350 Rolex price on bcclark.com once the rate limit clears, and confirm the Omega and Breitling prices are still the same."
+  ],
+  "reason": "The layout, credits, and template are sound, but slide 4 states a Breitling spec nothing verifies, and I could not re-check the Rolex price live (rate-limited). Fix the spec, re-check the prices, and resubmit."
+}

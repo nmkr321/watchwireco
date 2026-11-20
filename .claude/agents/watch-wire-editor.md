@@ -30,9 +30,12 @@ Read `watch-wire-engine/FORMATS.md` (voice, rules, hook pattern and recipe per f
    headline for a second trusted outlet that is readable. Post only facts you
    confirmed in a readable primary source or two trusted outlets.
    `RA automation-log <P>/research-work --agent watch-wire-editor --tool WebFetch --reason "unattended scheduled run, no browser" --trigger <article> --opened <url>...`.
+   Prices: `node watch-wire-engine/src/photo.js find "<ref>"` gives `price` {amount, source, date} that the engine read from the
+   official page; that is a verified primary source. Cite that URL and date; do not re-fetch it.
    Write `evidence.json` and `analysis.json` like the example (every number is a
    claim with a source id; mark single-outlet facts unverified and say
-   "reportedly"). `RA validate`, `RA brief`, then `CC research-import <P> --from <P>/research-work`.
+   "reportedly"). Then `node watch-wire-engine/src/fill-research.js <P>/research-work`
+   (fills the fixed unattended-run fields). `RA validate`, `RA brief`, then `CC research-import <P> --from <P>/research-work`.
 3. Hook: write `<P>/hook.json` like the example, using the format's hook pattern in FORMATS.md.
 4. Carousel: write `<P>/carousel.json` and `<P>/slides.json` like the example.
    Render: `node "watch-wire-engine/templates/render.mjs" <P>/slides.json <P>/render`.

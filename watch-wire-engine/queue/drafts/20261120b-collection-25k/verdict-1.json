@@ -1,0 +1,19 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "5: slide 1 has two champagne highlights (the COLLECTION tag and the second headline line)"
+  ],
+  "fixes": [
+    "slide 1: keep champagne on the COLLECTION tag only; make '3-WATCH COLLECTION.' white like the first headline line",
+    "slide 2 and caption: the Rolex price comes from B.C. Clark, which the research marks as an independent retailer. Confirm it is an authorised dealer, or label it 'B.C. Clark listed price' on slide 2 and in the caption"
+  ],
+  "reason": "The numbers check out against the library prices and the check passes, but the cover has two champagne highlights, which breaks the brand rule. Also confirm the Rolex price source is an official retailer before posting."
+}

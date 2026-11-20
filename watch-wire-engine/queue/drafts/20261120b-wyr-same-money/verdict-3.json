@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 2: the Rolex price of $8,350 (B.C. Clark) was never re-confirmed; the draft's own notes say the product page returned HTTP 429 twice and the dealer status was not checked.",
+    "Gate 6: the draft's notes list unmet layout fixes on slides 1-4 (SAME MONEY tag position, slide 2 cards and margins, shared footer on slides 3-4). I did not view the previews because the review budget ran out, so this rests on the draft's own notes.",
+    "Gate 8: caption says 'Images: Rolex, Omega' with no per-photo credit check done."
+  ],
+  "fixes": [
+    "slide 3: re-check the $8,350 Rolex Explorer 40 price on the B.C. Clark page, or confirm an official Rolex or Omega source; if not confirmed, relabel as 'retailer price' with date.",
+    "slide 1: move the SAME MONEY tag so the headline block sits centred and balanced.",
+    "slide 2: keep the cards top-aligned with even side margins and keep the vote line clear of the footer.",
+    "slides 3-4: give each slide its own source line instead of one shared 'Source: B.C. Clark, OMEGA' footer.",
+    "Re-run the validate check and show a PASS before resubmitting."
+  ],
+  "reason": "The Rolex price is still unconfirmed and the layout fixes from the last revision are not done. Fix the price source and the layout, then resubmit; I did not review the previews because the budget ran out."
+}

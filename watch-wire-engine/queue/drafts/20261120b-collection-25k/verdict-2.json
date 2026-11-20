@@ -1,0 +1,20 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "5: slide 1 has two champagne highlights (COLLECTION tag and '3-WATCH COLLECTION.'), repeating the fault from verdict-1",
+    "7: Rolex price (slide 2, slide 5, caption) comes from B.C. Clark, which research.json marks as an independent retailer, not the brand or an official retailer"
+  ],
+  "fixes": [
+    "slide 1: keep champagne on the COLLECTION tag only; make '3-WATCH COLLECTION.' white, like '$25K. Build A'",
+    "slide 2, slide 5 and caption: either confirm in research.json that B.C. Clark is an authorised Rolex dealer and cite it, or replace PICK 1 with an official-price pick and re-run the total (the total must still be under $25,000)"
+  ],
+  "reason": "The numbers, photos, credits and check (PASS) are sound, but the cover still has two champagne highlights, and the Rolex price is from an independent retailer, which our rules don't allow yet. Fix those two points and resubmit; this one is not ready to post."
+}

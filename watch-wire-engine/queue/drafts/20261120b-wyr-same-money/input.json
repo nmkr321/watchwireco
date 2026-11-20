@@ -1,0 +1,12 @@
+{
+  "id": "20261120b-wyr-same-money",
+  "format": "WOULD YOU RATHER",
+  "post_at": "2026-11-21T01:30:00Z",
+  "title": "Same money: Rolex Explorer 40 or Omega Speedmaster Moonwatch?",
+  "hook": "Same Money. Which One?",
+  "why": "Prices and photos are already verified in watch-wire-engine/library (run photo.js find \"<ref>\"; each match has price, source page and date): Rolex Explorer 40 224270 $8,350 vs Omega Speedmaster Moonwatch 310.30.42.50.01.002 $9,000 (7.8% apart). A-wyr with both prices, then one A-photo each. US retail, Nov 2026.",
+  "sources": [],
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-20T19:50:00Z"
+}

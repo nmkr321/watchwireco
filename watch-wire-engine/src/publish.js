@@ -21,7 +21,8 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const WORKSPACE = path.resolve(ROOT, "..");
-const projectDir = (item) => path.resolve(WORKSPACE, item.project_dir);
+// post_dir (saved in the queue at approval, so a later cloud run still has the slides) wins over project_dir
+const projectDir = (item) => path.resolve(WORKSPACE, item.post_dir || item.project_dir);
 
 function loadEnv() {
   const f = path.join(ROOT, ".env");

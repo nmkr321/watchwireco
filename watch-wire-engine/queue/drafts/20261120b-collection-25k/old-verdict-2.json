@@ -1,0 +1,18 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 4,
+    "clarity": 5,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "gate 8: caption calls the prices 'US retail list prices', but the Rolex figure is a B.C. Clark retailer listing and the slides say 'US retail'"
+  ],
+  "fixes": [
+    "caption: change 'These are US retail list prices' to 'These are US retail prices'"
+  ],
+  "reason": "The validator passes, the Omega price is confirmed on its official page, and the photos, credits and CTA are in order. Fix the one caption wording so it matches the slides and the Rolex source, then resubmit."
+}

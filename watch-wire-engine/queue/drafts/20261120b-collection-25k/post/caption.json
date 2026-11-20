@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Three picks, $20,650 of a $25,000 budget.\n\nOmega Speedmaster Moonwatch 310.30.42.50.01.002: $9,000.\nOmega Seamaster Diver 300M 210.30.42.20.01.001: $6,700.\nBreitling Superocean Automatic 42 A17366D81C1A1: $4,950.\n\nThese are US retail prices, read 20 November 2026 from Omega and Breitling. Prices can change, and retailers may charge differently.\n\nWhich would you swap? Comment below.\n\nSource: Omega and Breitling US price pages, read 20 November 2026. Images: Omega, Breitling.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4"
+  ],
+  "source_ids": [
+    "SRC-OMEGA-SPEEDMASTER",
+    "SRC-OMEGA",
+    "SRC-BREITLING"
+  ],
+  "attribution": "Prices: Omega and Breitling US pages, read 20 November 2026.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Social reaction not covered (automation mode)."
+  ],
+  "carousel_sha256": "843b637679ef3da4aaf94ecf66e4d331d7382d92fc212480f7d413c1601cd74a",
+  "completed_at": "2026-11-20T20:00:37.403Z"
+}

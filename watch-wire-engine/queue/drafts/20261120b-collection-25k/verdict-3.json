@@ -1,0 +1,21 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [],
+  "fixes": [
+    "slide 2: replace the spec line with one line on why this pick is here (e.g. steel chronograph, black dial, the sports-watch anchor); keep the PICK 1 label and price",
+    "slide 3: same change, one why-line in place of the reference and spec text; keep PICK 2 label and price",
+    "slide 4: same change, one why-line added under the headline; keep PICK 3 label and price",
+    "slide 4: enlarge the Breitling watch to about the same size as the watches on slides 2 and 3, centred in the photo area",
+    "carousel.json: slide 2 says Pick 1 is Rolex Submariner and the cover visual_job says Rolex photo, but the render and caption show Omega Speedmaster; correct the record to match the render before posting",
+    "carousel.json cover headline reads Build A 3-Watch Collection while draft.json and the render read Build Three Watches; align them"
+  ],
+  "reason": "Prices and sources check out (Omega $9,000 re-read today), but the pick slides lack the one-line why, the Breitling photo is undersized on slide 4, and the carousel record names a different pick 1 than the slides show. Fix those and resubmit."
+}

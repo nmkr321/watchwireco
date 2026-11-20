@@ -1,0 +1,17 @@
+{
+  "status": "ready",
+  "project_dir": "Content Creation/projects/20261120b-collection-25k",
+  "format": "BUILD YOUR COLLECTION",
+  "lane": "rotation",
+  "headline": "$25K. Build Three Watches.",
+  "slides": [
+    "render/slide-01.png",
+    "render/slide-02.png",
+    "render/slide-03.png",
+    "render/slide-04.png",
+    "render/slide-05.png",
+    "render/slide-06.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": ""
+}
