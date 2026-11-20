@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "8: The slide footers on slides 2-5 all read 'Source: Omega, Bucherer, Rolex, Patek Philippe'. Each slide's price comes from one or two of those, so the footers name sources that were not used. The same footer fault was flagged last round and is still there.",
+    "8: The caption names Bucherer only for the Submariner. The slide footers name Bucherer on every slide, so caption and slides disagree."
+  ],
+  "fixes": [
+    "slide 2: change the footer to 'Source: Omega' (the price is from Omega's US page).",
+    "slide 3: change the footer to 'Source: Bucherer, B.C. Clark' (the Submariner price is from those retailers). Use the same source names in the caption.",
+    "slide 4: change the footer to 'Source: Rolex' (the Daytona price is from Rolex's US page).",
+    "slide 5: change the footer to 'Source: Patek Philippe' (the Nautilus price is from Patek's collection page).",
+    "caption: keep the source line, but make it match the new footers: Omega, Rolex, Patek Philippe, Bucherer and B.C. Clark."
+  ],
+  "reason": "The prices, photos and licence records now check out, and the validator passes. But every slide footer still lists all four sources instead of the one that backs that slide's price, so it can't go out yet."
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "primary": "Four sports watches, $9,000 to $82,021",
+  "alternatives": ["Four steel and gold sports watches, US list prices", "Sports watches from $9,000 to $82,021"],
+  "claim_ids": ["CLM-1", "CLM-2", "CLM-3", "CLM-4"],
+  "rationale": "LISTICLE hook: the count and the price range, both from the four confirmed US list prices (dated 2026-11-20)."
+}

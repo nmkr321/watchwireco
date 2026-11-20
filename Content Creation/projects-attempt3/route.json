@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "input_kind": "validated-research-handoff",
+  "selected_specialist": "hook-writer-agent",
+  "format": "carousel",
+  "reason": "A completed, validated Social Media Research Agent handoff is installed.",
+  "research_job_id": "JOB-20261120-bec3f245"
+}

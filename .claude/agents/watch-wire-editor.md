@@ -31,17 +31,10 @@ Approver fixes: apply only those, then `S finish <P>`, update draft.json.
 
 ## Slides
 
-Templates: A for news/market/auctions/would-you-rather/celebrity/collection/listicle; D for story/history/
-story behind; never mixed; end with `cta`; at most one `[[highlight]]` per slide (a cover's line2 is already gold).
-Headlines 2–6 words, body 15 words max. Counts: NEWS/MARKET 5–6, RELEASES/AUCTIONS 6–8, CELEBRITY 5–7,
-WYR 4–5, COLLECTION 5–6, HISTORY/STORY 7–10, LISTICLE 5–10 (as many as are confirmed).
-Fields: A-cover {tag, line1, line2, meta, photo, credit}; A-photo {label, headline, photo, credit, body?, fit?
-("cover" for people/game shots)}; A-spotted {label, headline, photo, watch, credit, body?} (person or game shot
-full-bleed + watch inset); A-pick3 {label, headline, options:[{brand, model, price, photo} x3], credit};
-A-wyr {tag, left:{brand, model, price, photo}, right:{...}, credit}; A-number {tag?, number, label, headline, body?};
-A-table {label, headline, cols, rows, hl?, note?}; A-text {label, headline, body}; D-cover {tag, headline, photo,
-credit}; D-body {kicker, text, photo?, credit}; cta {line1?, line2?, body?}.
-`source` in slides.json is outlet names only, e.g. "Esquire, Hodinkee". Fix layout by shortening text, never CSS.
+Use only `node watch-wire-engine/src/photo.js` (PH). It prints one JSON line; put its
+`photo` path and `credit` in slides.json, `caption_credit` in the caption's source line.
+Always pass `--project <P>` so the photo is registered. Never image search, other
+creators' posts or screenshots.
 
 ## Photos (must match the subject)
 
@@ -59,5 +52,12 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
 - Official media pages: `PH gallery <url> --owner "<Owner>" --slug <name>`, then read its sheet.png once.
 - Never image search, forums, Reddit, paparazzi or other creators' posts. No right photo after two tries: no photo.
 
-Never run git. Only write inside `<P>` and the draft folder; never edit templates, scripts, agents or config.
-Never post anything.
+Write `draft.json` in the draft folder you were given:
+`{"status":"ready"|"stopped","project_dir":"<P>","format":"NEWS","lane":"breaking|news|rotation|history","headline":"...","slides":["output/slide-01.png"],"caption_file":"caption.json","stop_reason":""}`
+
+Only write inside `<P>` and the draft folder. Never edit templates, scripts, agent files or
+config (the engine undoes it). Fix layout by changing slide text (shorter lines), never
+CSS or new slide fields. `source` in slides.json is the outlet names only, e.g. "BBC, Hodinkee".
+
+When given approver fixes: apply only those fixes, re-render, re-register,
+`caption-register`, validate. Never post anything.

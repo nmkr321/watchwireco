@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "format": {
+    "name": "carousel",
+    "width": 1080,
+    "height": 1350
+  },
+  "slides": [
+    {
+      "id": "slide-01",
+      "role": "cover",
+      "headline": "Four sports watches",
+      "body": "US list prices · November 2026",
+      "claim_ids": [
+        "CLM-1",
+        "CLM-2",
+        "CLM-3",
+        "CLM-4"
+      ],
+      "asset_ids": [],
+      "visual_job": "Template A photo cover: Patek 5811/1G-001 official photo, champagne two-line headline, meta line"
+    },
+    {
+      "id": "slide-02",
+      "role": "item",
+      "headline": "Omega Speedmaster Moonwatch",
+      "body": "$9,000 at US US list, Nov 2026",
+      "claim_ids": [
+        "CLM-1"
+      ],
+      "asset_ids": [],
+      "visual_job": "Template A photo slide: Omega Speedmaster Moonwatch official photo, label, headline, body with price and date"
+    },
+    {
+      "id": "slide-03",
+      "role": "item",
+      "headline": "Rolex Submariner Date",
+      "body": "$11,350 US list, Nov 2026",
+      "claim_ids": [
+        "CLM-2",
+        "CLM-6"
+      ],
+      "asset_ids": [],
+      "visual_job": "Template A photo slide: Rolex Submariner Date official photo, label, headline, body with price and date"
+    },
+    {
+      "id": "slide-04",
+      "role": "item",
+      "headline": "Rolex Cosmograph Daytona",
+      "body": "$16,900 US list, Nov 2026",
+      "claim_ids": [
+        "CLM-3",
+        "CLM-5"
+      ],
+      "asset_ids": [],
+      "visual_job": "Template A photo slide: Rolex Cosmograph Daytona official photo, label, headline, body with price and date"
+    },
+    {
+      "id": "slide-05",
+      "role": "item",
+      "headline": "Patek Philippe Nautilus",
+      "body": "$82,021 US list, Nov 2026",
+      "claim_ids": [
+        "CLM-4",
+        "CLM-8"
+      ],
+      "asset_ids": [],
+      "visual_job": "Template A photo slide: Patek Philippe Nautilus official photo, label, headline, body with price and date"
+    },
+    {
+      "id": "slide-06",
+      "role": "cta",
+      "headline": "Follow for daily watch news",
+      "body": "",
+      "claim_ids": [],
+      "asset_ids": [],
+      "visual_job": "Template A closing slide: follow line, no photo"
+    }
+  ],
+  "rendered_slides": [
+    {
+      "slide_id": "slide-01",
+      "file": "output/slide-01.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "ccbbb21dba897946665484c8ffcdde5eeff1838679dc6ef9abe282f94a7e3ef2"
+    },
+    {
+      "slide_id": "slide-02",
+      "file": "output/slide-02.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "8ca34d2a66e10c55e99a531cd222685ace5b559b3f9bc37987955780f755cf5f"
+    },
+    {
+      "slide_id": "slide-03",
+      "file": "output/slide-03.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "cc59eaa084db33791ae4cd7e5e6aa16cf03306547bbab4b8af55e8a9fb6b0465"
+    },
+    {
+      "slide_id": "slide-04",
+      "file": "output/slide-04.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "798fae420baae9cb124acfc7330fe743b610732337263907517218a8b199bde9"
+    },
+    {
+      "slide_id": "slide-05",
+      "file": "output/slide-05.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "4a2e1ddf8302d6b5c0f25bd910083419ad8af01973631c936265684dde42bb1f"
+    },
+    {
+      "slide_id": "slide-06",
+      "file": "output/slide-06.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "c4757c2923f7ce3df46e08de28bd89ba0a8c26b6c9cabb8d22b5fd61e39ec9cf"
+    }
+  ]
+}

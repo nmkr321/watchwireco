@@ -1,17 +1,23 @@
 # Lessons from the approver
-The editor reads this before every post. Written automatically from rejections (kept short; newest last).
+The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [any] Every fact on a slide or in the caption is a claim in research.json from a source you opened, or a `verified_facts` entry in the idea (already read by the engine: cite it, don't re-fetch).
-- [any] If a named article is blocked, search its exact headline plus the outlet; other editions (uk., au., in.) are often readable. Don't re-fetch a page that failed twice.
-- [any] If sources disagree on a model or name, use the most authoritative one or drop that detail.
-- [any] Each slide's footer and the caption name only sources actually used; caption and last slide ask the same question.
-- [any] Every photo is registered (rights, author, URL) and credited on its slide; drop photos with an unknown author; never reuse a photo on two slides.
-- [any] Keep text off the watch and busy photo areas; short lines, no single word on its own line; at most one [[highlight]] per slide (a cover's line2 is already gold).
-- [any] Never reuse a watch already in today's approved posts.
-- [any] A shorter, fully confirmed list beats a padded one: set a listicle's length from the confirmed items (minimum 4).
-- [any] Prices only where the format needs them (same money, collection, price posts), from library or official pages, with date.
-- [CELEBRITY] Never state a celebrity's watch model, dial or strap unless the source names it; old news needs a fresh angle, never "new".
 - [AUCTIONS] Only confirmed results (hammer price, fees stated, house, date); never starting bids or estimates.
 - [WOULD YOU RATHER] Same-money pairs within 10% on dated official prices.
 - [BUILD YOUR COLLECTION] One A-pick3 per tier, different watch types, short model names (refs in caption).
 - [STORY BEHIND] Attribute opinions to their author; key facts need two sources or the brand's own history page.
+- [STORY BEHIND] Centre each slide's text block vertically, leave no large empty gap, and use a photo cover when the library has a fitting photo.
+- [STORY BEHIND] Use library photos on story slides where they fit; the caption lists author and licence for every photo used.
+- [LISTICLE] A listicle item counts as confirmed only if two independent outlets you opened support its key facts; drop items that fall short before drafting.
+- [LISTICLE] Hedged facts ("reportedly", "believed") from a single outlet don't count as confirmed; replace that item with one that has two sources.
+- [LISTICLE] Before drafting, check each item has a library photo of that exact model; items without one are dropped or replaced.
+- [LISTICLE] Choose each slide's photo from the library before writing its text; if no registered photo fits, change the item.
+- [LISTICLE] Each item needs its full model reference (number or exact name) backed by two sources; a brand alone, like "Audemars", is not confirmed.
+- [LISTICLE] If fewer than four items pass the two-source check, replace the weakest with a new candidate that passes, rather than retrying the same item.
+- [LISTICLE] Keep each slide footer short enough to show in full on one line, clear of the page number; never truncate it with an ellipsis.
+- [LISTICLE] Size and crop watch photos to a similar scale on every slide so no single watch looks much larger than the others.
+- [LISTICLE] Check every item, price and source in slides and caption matches research.json before submitting; fix any mismatch.
+- [LISTICLE] Dealer listings count as one source when they share an owner or one retailer; two independent outlets must be different publishers.
+- [LISTICLE] Before drafting any slide, add every photo used to assets/manifest.json with rights ('official' or 'licensed') and its exact credit; unregistered photos can't be used.
+- [LISTICLE] A price failing the brand/official-retailer test is removed from slide and caption, never replaced with a dealer listing.
+- [LISTICLE] Each slide footer names only the sources behind that slide's price, taken from its source field; never list every source on every slide.
+- [LISTICLE] Caption source lines use the same wording as the slide footers, and a price backed by two sources names both.

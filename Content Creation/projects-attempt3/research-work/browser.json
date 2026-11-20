@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2",
+  "project_id": "JOB-20261120-bec3f245",
+  "status": "completed",
+  "mode": "automation",
+  "first_research_action": "automation-fetch",
+  "started_at": "2026-11-20T23:12:46.942Z",
+  "agent": "watch-wire-editor",
+  "tool": "WebFetch",
+  "trigger": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
+  "automation_reason": "unattended scheduled run, no browser",
+  "searches": [],
+  "discovery_sites": [
+    "x.com",
+    "digg.com",
+    "reddit.com"
+  ],
+  "discovery_outcomes": [
+    "blocked",
+    "blocked",
+    "blocked"
+  ],
+  "google_fallback": {
+    "provider": "google.com",
+    "used": false,
+    "query": "",
+    "opened_urls": [],
+    "reason": ""
+  },
+  "opened_urls": [
+    "https://www.bucherer.com/us/en/watches/patek-philippe/nautilus/1364-124-6.html",
+    "https://bcclark.com/products/m126500ln-0001",
+    "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
+    "https://watchcharts.com/watch_variation/1456-rolex-cosmograph-daytona-126500ln-0001/overview",
+    "https://bcclark.com/products/m126610ln-0001",
+    "https://www.bucherer.com/us/en/rolex/watches/submariner/1335-897-7.html",
+    "https://watchcharts.com/watch_model/21817-rolex-submariner-date-126610/overview",
+    "https://www.exquisitetimepieces.com/omega-21730422101001-seamaster-planet-ocean-600m.html",
+    "https://precisionwatches.com/new-watches/omega/seamaster/217-30-42-21-01-001/",
+    "https://watchcharts.com/watch_model/55345-omega-seamaster-planet-ocean-600m-42-mm-steel-on-steel-217-30-42-21-01-001/overview",
+    "https://www.patek.com/en/collection/nautilus/5811-1G-001",
+    "https://www.watchesofswitzerland.com/products/patek-philippe-nautilus-5811-1g-001-17921086",
+    "https://www.omegawatches.com/en-us/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001002"
+  ],
+  "notes": ""
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "projects-attempt3",
+  "format": "carousel",
+  "topic": "Four sports watches, $9,200 to $82,021",
+  "goal": "Listicle: four current US list prices, one item per slide",
+  "source_urls": [
+    "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001"
+  ],
+  "created_at": "2026-11-20T23:12:06.804Z"
+}

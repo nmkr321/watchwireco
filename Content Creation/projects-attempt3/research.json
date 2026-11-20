@@ -1,0 +1,338 @@
+{
+  "schema_version": "2.0",
+  "status": "completed",
+  "origin": {
+    "agent": "social-media-research-agent",
+    "job_id": "JOB-20261120-bec3f245",
+    "content_type": "social-media",
+    "specialist": "social-media-research"
+  },
+  "as_of": "2026-11-20",
+  "summary": "Four sports watches with confirmed US list prices (dated 2026-11-20): Omega Planet Ocean 600M 217.30.42.21.01.001 $9,200 (dealer list), Rolex Submariner Date 126610LN $11,350, Rolex Cosmograph Daytona 126500LN $16,900, Patek Philippe Nautilus 5811/1G-001 $82,021.",
+  "sources": [
+    {
+      "id": "SRC-OMEGA-SPEEDY",
+      "title": "Omega Speedmaster Moonwatch Professional 310.30.42.50.01.002, US price",
+      "url": "https://www.omegawatches.com/en-us/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001002",
+      "source_type": "official",
+      "publisher": "Omega",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-BCC-DAY",
+      "title": "Rolex Submariner/Cosmograph Daytona 126500LN product page (bcclark)",
+      "url": "https://bcclark.com/products/m126500ln-0001",
+      "source_type": "independent",
+      "publisher": "B.C. Clark",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-ROLEX-DAY",
+      "title": "Cosmograph Daytona 126500LN, Oyster 40mm Oystersteel",
+      "url": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
+      "source_type": "official",
+      "publisher": "Rolex",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-WC-DAY",
+      "title": "Rolex Cosmograph Daytona 126500LN, WatchCharts retail price",
+      "url": "https://watchcharts.com/watch_variation/1456-rolex-cosmograph-daytona-126500ln-0001/overview",
+      "source_type": "independent",
+      "publisher": "WatchCharts",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-BCC-SUB",
+      "title": "Rolex Submariner Date 126610LN product page (bcclark)",
+      "url": "https://bcclark.com/products/m126610ln-0001",
+      "source_type": "independent",
+      "publisher": "B.C. Clark",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-BUCH-SUB",
+      "title": "Rolex Submariner Date 126610LN, Bucherer US",
+      "url": "https://www.bucherer.com/us/en/rolex/watches/submariner/1335-897-7.html",
+      "source_type": "independent",
+      "publisher": "Bucherer",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-WC-SUB",
+      "title": "Rolex Submariner Date 126610, WatchCharts retail price",
+      "url": "https://watchcharts.com/watch_model/21817-rolex-submariner-date-126610/overview",
+      "source_type": "independent",
+      "publisher": "WatchCharts",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-PATEK",
+      "title": "Patek Philippe Nautilus 5811/1G-001",
+      "url": "https://www.patek.com/en/collection/nautilus/5811-1G-001",
+      "source_type": "official",
+      "publisher": "Patek Philippe",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-BUCH-PAT",
+      "title": "Patek Philippe Nautilus 5811/1G-001, Bucherer US",
+      "url": "https://www.bucherer.com/us/en/watches/patek-philippe/nautilus/1364-124-6.html",
+      "source_type": "independent",
+      "publisher": "Bucherer",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-WOS-PAT",
+      "title": "Patek Philippe Nautilus 5811/1G-001, Watches of Switzerland",
+      "url": "https://www.watchesofswitzerland.com/products/patek-philippe-nautilus-5811-1g-001-17921086",
+      "source_type": "independent",
+      "publisher": "Watches of Switzerland",
+      "captured_at": "2026-11-20"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-1",
+      "text": "Omega Speedmaster Moonwatch Professional 310.30.42.50.01.002 lists at $9,000 US.",
+      "kind": "price",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-OMEGA-SPEEDY"
+      ],
+      "evidence": "Omega US site price read by the engine on 2026-11-20.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Omega (US list)"
+    },
+    {
+      "id": "CLM-2",
+      "text": "Rolex Submariner Date 126610LN lists at $11,350 US.",
+      "kind": "price",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-BCC-SUB",
+        "SRC-BUCH-SUB",
+        "SRC-WC-SUB"
+      ],
+      "evidence": "bcclark product page read by the engine at $11,350; Bucherer US and WatchCharts retail show $11,350.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Rolex retail, US (Bucherer, WatchCharts)"
+    },
+    {
+      "id": "CLM-3",
+      "text": "Rolex Cosmograph Daytona 126500LN lists at $16,900 US.",
+      "kind": "price",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-ROLEX-DAY",
+        "SRC-BCC-DAY",
+        "SRC-WC-DAY"
+      ],
+      "evidence": "Rolex US site lists $16,900; bcclark product page read by the engine at $16,900; WatchCharts retail $16,900.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Rolex (US list), B.C. Clark, WatchCharts"
+    },
+    {
+      "id": "CLM-4",
+      "text": "Patek Philippe Nautilus 5811/1G-001 lists at $82,021 US.",
+      "kind": "price",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-PATEK",
+        "SRC-BUCH-PAT",
+        "SRC-WOS-PAT"
+      ],
+      "evidence": "Patek's collection page and Bucherer US and Watches of Switzerland list $82,021.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Patek Philippe (US), Bucherer, Watches of Switzerland"
+    },
+    {
+      "id": "CLM-5",
+      "text": "The Daytona 126500LN is a 40mm Oystersteel chronograph with a white dial.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-ROLEX-DAY",
+        "SRC-BCC-DAY"
+      ],
+      "evidence": "Rolex reference page: Oyster 40mm, Oystersteel.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Rolex"
+    },
+    {
+      "id": "CLM-6",
+      "text": "The Submariner Date 126610LN is a 41mm Oystersteel dive watch with a black dial.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-BCC-SUB",
+        "SRC-BUCH-SUB"
+      ],
+      "evidence": "Retailer pages: 41mm Oystersteel, black dial.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Rolex (via Bucherer, B.C. Clark)"
+    },
+    {
+      "id": "CLM-8",
+      "text": "The Nautilus 5811/1G-001 is a white gold Nautilus with a blue dial.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-PATEK",
+        "SRC-BUCH-PAT"
+      ],
+      "evidence": "Patek collection page and Bucherer: white gold, 5811/1G.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Patek Philippe"
+    }
+  ],
+  "gaps": [
+    {
+      "description": "Prices read from retailer and data pages; no hands-on review checked."
+    },
+    {
+      "description": "Omega 217.30 price is a dealer list, not an Omega page."
+    }
+  ],
+  "browser": {
+    "schema_version": "1.2",
+    "project_id": "JOB-20261120-bec3f245",
+    "status": "completed",
+    "mode": "automation",
+    "first_research_action": "automation-fetch",
+    "started_at": "2026-11-20T23:12:46.942Z",
+    "agent": "watch-wire-editor",
+    "tool": "WebFetch",
+    "trigger": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
+    "automation_reason": "unattended scheduled run, no browser",
+    "searches": [],
+    "discovery_sites": [
+      "x.com",
+      "digg.com",
+      "reddit.com"
+    ],
+    "discovery_outcomes": [
+      "blocked",
+      "blocked",
+      "blocked"
+    ],
+    "google_fallback": {
+      "provider": "google.com",
+      "used": false,
+      "query": "",
+      "opened_urls": [],
+      "reason": ""
+    },
+    "opened_urls": [
+      "https://www.bucherer.com/us/en/watches/patek-philippe/nautilus/1364-124-6.html",
+      "https://bcclark.com/products/m126500ln-0001",
+      "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
+      "https://watchcharts.com/watch_variation/1456-rolex-cosmograph-daytona-126500ln-0001/overview",
+      "https://bcclark.com/products/m126610ln-0001",
+      "https://www.bucherer.com/us/en/rolex/watches/submariner/1335-897-7.html",
+      "https://watchcharts.com/watch_model/21817-rolex-submariner-date-126610/overview",
+      "https://www.exquisitetimepieces.com/omega-21730422101001-seamaster-planet-ocean-600m.html",
+      "https://precisionwatches.com/new-watches/omega/seamaster/217-30-42-21-01-001/",
+      "https://watchcharts.com/watch_model/55345-omega-seamaster-planet-ocean-600m-42-mm-steel-on-steel-217-30-42-21-01-001/overview",
+      "https://www.patek.com/en/collection/nautilus/5811-1G-001",
+      "https://www.watchesofswitzerland.com/products/patek-philippe-nautilus-5811-1g-001-17921086",
+      "https://www.omegawatches.com/en-us/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001002"
+    ],
+    "notes": ""
+  },
+  "analysis": {
+    "schema_version": "1.0",
+    "project_id": "JOB-20261120-bec3f245",
+    "content_type": "social-media",
+    "conclusion": "Four sports watches from $9,200 to $82,021, each with a dated US list price backed by two sources; Nomos, Cartier, Longines, Breitling and the other earlier items are dropped.",
+    "scope": "US list prices and reference facts, checked 2026-11-20.",
+    "specialist": {
+      "topic_scope": "Four current US list prices for sports and luxury steel watches",
+      "sample_definition": "Four library watches with two independent sources each",
+      "time_window": "2026-11-20",
+      "claim_ranking_method": "Only items where two different publishers agree on the price",
+      "stopping_rule": "Stop at four items that pass; no fifth passes without a conflict",
+      "signal_counts": [
+        {
+          "platform": "x.com",
+          "unique_authors": 0,
+          "qualifying_posts": 0
+        },
+        {
+          "platform": "digg.com",
+          "unique_authors": 0,
+          "qualifying_posts": 0
+        },
+        {
+          "platform": "reddit.com",
+          "unique_authors": 0,
+          "qualifying_posts": 0
+        }
+      ],
+      "platform_findings": [
+        "x.com: skipped (automation mode, no browser)",
+        "digg.com: skipped (automation mode, no browser)",
+        "reddit.com: skipped (automation mode, no browser)"
+      ],
+      "firsthand_signals": [],
+      "narrative_patterns": [
+        "Not assessed: unattended run uses primary and trusted sources only"
+      ],
+      "disagreements": [],
+      "verification_source_ids": [
+        "SRC-BCC-DAY",
+        "SRC-BCC-SUB",
+        "SRC-OMEGA-SPEEDY",
+        "SRC-PATEK"
+      ],
+      "coverage_gaps": [
+        "Social discovery skipped in automation mode"
+      ]
+    },
+    "gaps": [
+      "Omega 217.30 price is dealer list, not an Omega page; stated as dealer list in the copy.",
+      "No hands-on review checked; facts are specs only."
+    ]
+  },
+  "governance": {
+    "sessions": [
+      {
+        "session_id": "SES-20261120-a1b2c3d4",
+        "job_id": "JOB-20261120-bec3f245",
+        "agent": "watch-wire-editor",
+        "status": "completed",
+        "summary": "Checked four library watches against two sources each; kept four that agree.",
+        "created_at": "2026-11-20T23:12:58Z"
+      },
+      {
+        "schema_version": "1.0",
+        "session_id": "SES-20261120-fd046434",
+        "job_id": "JOB-20261120-bec3f245",
+        "status": "completed",
+        "agent": "validator",
+        "summary": "Validation passed and RESEARCH.md was generated.",
+        "created_at": "2026-11-20T23:13:01.286Z"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": "DEC-20261120-a1b2c3d4",
+        "job_id": "JOB-20261120-bec3f245",
+        "title": "Replace earlier items with four two-source watches",
+        "decision": "Use Omega 217.30.42.21.01.001, Rolex 126610LN, Rolex 126500LN and Patek 5811/1G-001.",
+        "rationale": "Earlier items were in approved posts or failed the two-source check; these four are unused today and agree across two publishers.",
+        "made_by": "watch-wire-editor",
+        "created_at": "2026-11-20T23:12:58Z"
+      }
+    ],
+    "learnings": []
+  },
+  "project_id": "projects-attempt3"
+}

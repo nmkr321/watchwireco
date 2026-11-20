@@ -1,25 +1,24 @@
 {
   "decision": "revise",
-  "post_timing": "hold",
+  "post_timing": "next_slot",
   "soft_scores": {
     "news": 3,
-    "hook": 3,
+    "hook": 4,
     "visual": 2,
-    "clarity": 3,
+    "clarity": 4,
     "taste": 3
   },
   "hard_gate_failures": [
-    "1: validate did not pass. It reported missing caption.json, carousel.json and assets/manifest.json for the project.",
-    "2: Slide 5 (goldsmith, Universal Genève), slide 6 (IWC Ingenieur 1976, Cartier Pasha 1985) and slide 7 (own label 1969) match no verified claim in research.json. Only CLM-1 to CLM-3 exist.",
-    "7: No assets/manifest.json was found, so the cover photo's rights status (official or licensed) can't be confirmed. The cover shows a wrist shot, so the watch is not verified as ref. 15202 from that file.",
-    "3: The Royal Oak and Nautilus claims rest on Wikipedia, Gear Patrol and Yahoo. No primary or official source was readable."
+    "6: layout flaws. The cover headline block sits high with a large empty gap below it. Slides 4 and 5 end with a one-word last line.",
+    "Photos: Genta, Royal Oak and Nautilus photos are in the library but unused, so the story has no visuals."
   ],
   "fixes": [
-    "Fix the project so validate prints PASS: add the missing caption.json, carousel.json and assets/manifest.json in the project folder, with the cover photo listed with rights 'licensed' and its CC BY-SA credit.",
-    "slides 5-7: either add verified claims in research.json, each backed by two outlets, for the goldsmith/Universal Genève, Ingenieur 1976, Pasha 1985 and 1969 label facts, or replace these slides with facts already verified.",
-    "slides 4-5: drop the source names 'Gear Patrol' and 'Wikipedia' as headlines. Use a story beat as the tag and attribute sources in the caption only.",
-    "slide 1: confirm the photo really shows ref. 15202 as the caption says, or change the caption to say only 'Audemars Piguet Royal Oak'.",
-    "Add a payoff slide before the CTA that contrasts the two watches, for example the same designer with two brands. Keep it to a verified fact."
+    "slide 1: Use a photo cover. Put the Royal Oak ref. 15202 photo from the library under the headline with its credit, or rebalance the text so the block is centred vertically.",
+    "slide 2: Add the Gérald Genta portrait (CC BY-SA 3.0) with its credit, and write the name as 'Gérald' to match the caption.",
+    "slide 3: Add the Royal Oak photo, labelled as the modern ref. 15202 with a credit. Keep the text clear of the dial.",
+    "slide 4: Shorten to 'Patek Philippe launched the Nautilus in 1976.' so no one-word last line is left. Add the Nautilus 5711 photo, labelled as modern, with a credit.",
+    "slide 5: Shorten to 'Genta also designed IWC's Ingenieur, from 1976.' so '1976.' no longer sits alone on a line.",
+    "caption: Add 'Photo credits: Wikimedia Commons' with the author and licence for each photo used."
   ],
-  "reason": "The validation check did not pass, and slides 5 to 7 state facts with no verified claim behind them. The cover photo has no rights record, and the middle slides read like source name-drops instead of a story."
+  "reason": "The facts check out against Sotheby's and Wikipedia and the validator passes. The slides are all text with no photos, and slides 4 and 5 leave a one-word last line. The cover also sits high with a big empty gap below."
 }

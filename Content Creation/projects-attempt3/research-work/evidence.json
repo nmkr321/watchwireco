@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "project_id": "JOB-20261120-bec3f245",
+  "as_of": "2026-11-20",
+  "summary": "Four sports watches with confirmed US list prices (dated 2026-11-20): Omega Planet Ocean 600M 217.30.42.21.01.001 $9,200 (dealer list), Rolex Submariner Date 126610LN $11,350, Rolex Cosmograph Daytona 126500LN $16,900, Patek Philippe Nautilus 5811/1G-001 $82,021.",
+  "sources": [
+    {
+      "id": "SRC-OMEGA-SPEEDY",
+      "title": "Omega Speedmaster Moonwatch Professional 310.30.42.50.01.002, US price",
+      "url": "https://www.omegawatches.com/en-us/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001002",
+      "source_type": "official",
+      "publisher": "Omega",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-BCC-DAY",
+      "title": "Rolex Submariner/Cosmograph Daytona 126500LN product page (bcclark)",
+      "url": "https://bcclark.com/products/m126500ln-0001",
+      "source_type": "independent",
+      "publisher": "B.C. Clark",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-ROLEX-DAY",
+      "title": "Cosmograph Daytona 126500LN, Oyster 40mm Oystersteel",
+      "url": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126500ln-0001",
+      "source_type": "official",
+      "publisher": "Rolex",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-WC-DAY",
+      "title": "Rolex Cosmograph Daytona 126500LN, WatchCharts retail price",
+      "url": "https://watchcharts.com/watch_variation/1456-rolex-cosmograph-daytona-126500ln-0001/overview",
+      "source_type": "independent",
+      "publisher": "WatchCharts",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-BCC-SUB",
+      "title": "Rolex Submariner Date 126610LN product page (bcclark)",
+      "url": "https://bcclark.com/products/m126610ln-0001",
+      "source_type": "independent",
+      "publisher": "B.C. Clark",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-BUCH-SUB",
+      "title": "Rolex Submariner Date 126610LN, Bucherer US",
+      "url": "https://www.bucherer.com/us/en/rolex/watches/submariner/1335-897-7.html",
+      "source_type": "independent",
+      "publisher": "Bucherer",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-WC-SUB",
+      "title": "Rolex Submariner Date 126610, WatchCharts retail price",
+      "url": "https://watchcharts.com/watch_model/21817-rolex-submariner-date-126610/overview",
+      "source_type": "independent",
+      "publisher": "WatchCharts",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-PATEK",
+      "title": "Patek Philippe Nautilus 5811/1G-001",
+      "url": "https://www.patek.com/en/collection/nautilus/5811-1G-001",
+      "source_type": "official",
+      "publisher": "Patek Philippe",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-BUCH-PAT",
+      "title": "Patek Philippe Nautilus 5811/1G-001, Bucherer US",
+      "url": "https://www.bucherer.com/us/en/watches/patek-philippe/nautilus/1364-124-6.html",
+      "source_type": "independent",
+      "publisher": "Bucherer",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-WOS-PAT",
+      "title": "Patek Philippe Nautilus 5811/1G-001, Watches of Switzerland",
+      "url": "https://www.watchesofswitzerland.com/products/patek-philippe-nautilus-5811-1g-001-17921086",
+      "source_type": "independent",
+      "publisher": "Watches of Switzerland",
+      "captured_at": "2026-11-20"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-1",
+      "text": "Omega Speedmaster Moonwatch Professional 310.30.42.50.01.002 lists at $9,000 US.",
+      "kind": "price",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-OMEGA-SPEEDY"
+      ],
+      "evidence": "Omega US site price read by the engine on 2026-11-20.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Omega (US list)"
+    },
+    {
+      "id": "CLM-2",
+      "text": "Rolex Submariner Date 126610LN lists at $11,350 US.",
+      "kind": "price",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-BCC-SUB",
+        "SRC-BUCH-SUB",
+        "SRC-WC-SUB"
+      ],
+      "evidence": "bcclark product page read by the engine at $11,350; Bucherer US and WatchCharts retail show $11,350.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Rolex retail, US (Bucherer, WatchCharts)"
+    },
+    {
+      "id": "CLM-3",
+      "text": "Rolex Cosmograph Daytona 126500LN lists at $16,900 US.",
+      "kind": "price",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-ROLEX-DAY",
+        "SRC-BCC-DAY",
+        "SRC-WC-DAY"
+      ],
+      "evidence": "Rolex US site lists $16,900; bcclark product page read by the engine at $16,900; WatchCharts retail $16,900.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Rolex (US list), B.C. Clark, WatchCharts"
+    },
+    {
+      "id": "CLM-4",
+      "text": "Patek Philippe Nautilus 5811/1G-001 lists at $82,021 US.",
+      "kind": "price",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-PATEK",
+        "SRC-BUCH-PAT",
+        "SRC-WOS-PAT"
+      ],
+      "evidence": "Patek's collection page and Bucherer US and Watches of Switzerland list $82,021.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Patek Philippe (US), Bucherer, Watches of Switzerland"
+    },
+    {
+      "id": "CLM-5",
+      "text": "The Daytona 126500LN is a 40mm Oystersteel chronograph with a white dial.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-ROLEX-DAY",
+        "SRC-BCC-DAY"
+      ],
+      "evidence": "Rolex reference page: Oyster 40mm, Oystersteel.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Rolex"
+    },
+    {
+      "id": "CLM-6",
+      "text": "The Submariner Date 126610LN is a 41mm Oystersteel dive watch with a black dial.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-BCC-SUB",
+        "SRC-BUCH-SUB"
+      ],
+      "evidence": "Retailer pages: 41mm Oystersteel, black dial.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Rolex (via Bucherer, B.C. Clark)"
+    },
+    {
+      "id": "CLM-8",
+      "text": "The Nautilus 5811/1G-001 is a white gold Nautilus with a blue dial.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-PATEK",
+        "SRC-BUCH-PAT"
+      ],
+      "evidence": "Patek collection page and Bucherer: white gold, 5811/1G.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Patek Philippe"
+    }
+  ],
+  "gaps": [
+    {
+      "description": "Prices read from retailer and data pages; no hands-on review checked."
+    },
+    {
+      "description": "Omega 217.30 price is a dealer list, not an Omega page."
+    }
+  ]
+}

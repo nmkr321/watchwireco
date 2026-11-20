@@ -1,23 +1,7 @@
 {
   "schema_version": "1.0",
   "status": "completed",
-  "text": "One man designed both the Royal Oak and the Nautilus: Gérald Genta.\n\nThe Royal Oak was designed in 1970 for Audemars Piguet. Patek Philippe introduced the Nautilus in 1976, also designed by Genta. Two brands, six years apart.\n\nThe cover photo shows an Audemars Piguet Royal Oak.\n\nSources: Wikipedia, Gear Patrol, Yahoo Lifestyle, read 20 November 2026. Photo credit on the slide: OpaleHorse (Royal Oak), CC BY-SA 4.0, via Wikimedia Commons.\n\nFollow @watchwireco for daily watch news.",
-  "claim_ids": [
-    "CLM-1",
-    "CLM-2",
-    "CLM-3"
-  ],
-  "source_ids": [
-    "SRC-WIKI-GENTA",
-    "SRC-GEARPATROL",
-    "SRC-YAHOO"
-  ],
-  "attribution": "Sources: Wikipedia, Gear Patrol, Yahoo Lifestyle, read 20 November 2026.",
-  "disclosure": "None required. No sponsorship or paid relationship.",
-  "gaps": [
-    "Goldsmith, IWC Ingenieur, Pasha, 1969 label and 1972 launch date dropped: not confirmed by two outlets."
-  ],
-  "caption_credit": "Photo: OpaleHorse / CC BY-SA 4.0 (Royal Oak cover), via Wikimedia Commons.",
-  "carousel_sha256": "cee7f0470efc714736aa05ca856177d0ae500dfeca9a9d119d863b85a421fb03",
-  "completed_at": "2026-11-20T22:43:41.577Z"
+  "text": "One man designed the Audemars Piguet Royal Oak and the Patek Philippe Nautilus: Gérald Genta.\n\nGenta was born in Geneva in 1931 and died in 2011. He was inspired by vintage diving helmets for the Royal Oak, and Patek Philippe introduced the Nautilus in 1976, designed by him. He also designed IWC's Ingenieur, and Cartier asked him to redesign the Pasha around 1985.\n\nSource: Sotheby's, Wikipedia. Photo credits: Wikimedia Commons: Royal Oak ref. 15202 by OpaleHorse (CC BY-SA 4.0); Nautilus 5711 by Patek Philippe SA (CC BY-SA 4.0); Gérald Genta by Unknown author (CC BY-SA 3.0).\n\nFollow @watchwireco for daily watch news.",
+  "carousel_sha256": "38f27be2676f5784ba9a90bc8f756613a01234bbe6c0a984e03a0c6d26ee5cb8",
+  "completed_at": "2026-11-20T22:58:28.755Z"
 }

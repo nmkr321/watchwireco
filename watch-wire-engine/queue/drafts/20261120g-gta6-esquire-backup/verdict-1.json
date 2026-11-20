@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "7: assets/manifest.json is empty, so none of the 5 photos has a recorded licence. Official or licensed rights can't be confirmed.",
+    "7: Slide 2's Omega photo doesn't look like reference 217.30.42.21.01.001. It shows a 12/3/6/9 numeral dial with no date window, which looks like a newer Planet Ocean.",
+    "7: The Omega $9,200 price comes from independent dealers (Exquisite Timepieces, Precision Watches, WatchCharts). The rule requires a price from the brand or an official retailer.",
+    "8: The caption names Omega and Patek as price sources, but the Omega price is a dealer list. The slide footer 'Source: Omega, Rolex, Patek Philippe, Bucherer' has the same problem."
+  ],
+  "fixes": [
+    "slide 2: Replace the Omega with a watch whose price comes from the brand or an official retailer, listed in library/index.json. Alternatively use a photo that matches 217.30.42.21.01.001.",
+    "all photo slides: Register every photo in assets/manifest.json with rights 'official' or 'licensed' and its credit.",
+    "slides 2-5: Change the footer to list only the sources actually used for that slide's price.",
+    "caption: Make the source line match the verified price sources, and remove Omega as a source if the Omega slide is dropped or its price stays dealer-only."
+  ],
+  "reason": "The layout is clean and the validator passes. But the photo rights aren't recorded, the Omega photo looks like the wrong reference, and the Omega price comes only from dealers, so I can't approve it."
+}

@@ -1,0 +1,22 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "8: Footers on slides 2-5 still read 'Source: Omega, Rolex, Patek Philippe, Bucherer, B.C. Clark'. Each slide's price comes from only one or two of those sources. I flagged the same fault in the last two rounds. Slides.json has a per-slide 'source' field, but the renderer ignores it. The footer is built only from the top-level 'source'.",
+    "8: The caption's source line and 'Bucherer' on the Submariner don't match the footers."
+  ],
+  "fixes": [
+    "Slides 2-5: make the footer show only that slide's source. Either put the footer text in each slide's 'footLeft' field and change render.mjs so A-photo uses s.footLeft, or drop the per-slide footers and name no sources on the slides. Do not leave the five-source line on every slide.",
+    "Slide 2 footer: 'Source: Omega'. Slide 3: 'Source: Bucherer, B.C. Clark'. Slide 4: 'Source: Rolex'. Slide 5: 'Source: Patek Philippe'.",
+    "Caption: write each watch's source on its own line in the same wording as the footers. Slide 3's Submariner price should name Bucherer and B.C. Clark, not only Bucherer.",
+    "Re-render and confirm in the PNGs that the footers changed before you resubmit."
+  ],
+  "reason": "The prices, photos and layout are fine, but every slide footer still lists all five sources instead of the one behind that slide's price. The renderer ignores the per-slide source field, which is why the last two fixes had no effect, so the renderer needs a change."
+}

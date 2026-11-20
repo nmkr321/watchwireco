@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Four sports watches, US list prices as of November 2026.\n\n01 Omega Speedmaster Moonwatch (310.30.42.50.01.002): $9,000 US list.\n02 Rolex Submariner Date (126610LN): $11,350 US, Bucherer.\n03 Rolex Cosmograph Daytona (126500LN): $16,900 US list.\n04 Patek Philippe Nautilus (5811/1G-001): $82,021 US list.\n\nSource: Omega, Rolex, Patek Philippe, Bucherer and B.C. Clark; prices checked 20 November 2026.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4",
+    "CLM-5",
+    "CLM-6",
+    "CLM-8"
+  ],
+  "source_ids": [
+    "SRC-OMEGA-SPEEDY",
+    "SRC-BUCH-SUB",
+    "SRC-ROLEX-DAY",
+    "SRC-BUCH-PAT",
+    "SRC-PATEK"
+  ],
+  "attribution": "Prices: Omega, Bucherer, Rolex, Patek Philippe, 20 November 2026.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "carousel_sha256": "4bfe174d48be90a20dc71f407af4efa5ac405f840ffa8fc28175207a894b5d22",
+  "completed_at": "2026-11-20T23:16:28.994Z"
+}

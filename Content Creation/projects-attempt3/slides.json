@@ -1,0 +1,9 @@
+{"source": "Omega, Rolex, Patek Philippe, Bucherer, B.C. Clark",
+ "slides": [
+  {"t": "A-cover", "tag": "SPORTS WATCHES", "line1": "Four sports watches", "line2": "[[$9,000 to $82,021]]", "meta": "US list prices · November 2026", "photo": "watch-wire-engine/library/img/patek-philippe-5811-1g-001.png", "credit": "Image: Patek Philippe"},
+  {"t": "A-photo", "label": "01 · CHRONOGRAPH", "headline": "Omega Speedmaster Moonwatch", "photo": "watch-wire-engine/library/img/omega-310-30-42-50-01-002.png", "credit": "Image: Omega", "body": "310.30.42.50.01.002. $9,000 US list, Nov 2026.", "source": "Omega"},
+  {"t": "A-photo", "label": "02 · DIVER", "headline": "Rolex Submariner Date", "photo": "watch-wire-engine/library/img/rolex-126610ln.png", "credit": "Image: Rolex", "body": "126610LN, 41mm Oystersteel. $11,350 US, Nov 2026.", "source": "Bucherer, B.C. Clark"},
+  {"t": "A-photo", "label": "03 · CHRONOGRAPH", "headline": "Rolex Cosmograph Daytona", "photo": "watch-wire-engine/library/img/rolex-126500ln.png", "credit": "Image: Rolex", "body": "126500LN, 40mm Oystersteel. $16,900 US list, Nov 2026.", "source": "Rolex"},
+  {"t": "A-photo", "label": "04 · DRESS SPORT", "headline": "Patek Philippe Nautilus", "photo": "watch-wire-engine/library/img/patek-philippe-5811-1g-001.png", "credit": "Image: Patek Philippe", "body": "5811/1G-001, white gold, blue dial. $82,021 US list, Nov 2026.", "source": "Patek Philippe"},
+  {"t": "cta"}
+ ]}

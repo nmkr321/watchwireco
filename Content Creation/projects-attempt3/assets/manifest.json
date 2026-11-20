@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "assets": [
+    {
+      "id": "asset-1",
+      "kind": "reference",
+      "source_id": null,
+      "source_url": "https://www.patek.com/en/collection/nautilus/5811-1G-001",
+      "provider": "manual",
+      "rights_status": "official",
+      "usage": "Image: Patek Philippe, Nautilus 5811/1G-001 official product image (cover, slide 5)",
+      "local_path": "assets/media/asset-1.png",
+      "artifact_paths": [
+        "assets/media/asset-1.png"
+      ],
+      "receipt_id": null,
+      "title": "patek-philippe-5811-1g-001.png",
+      "creator": "Patek Philippe",
+      "sha256": "adc0ec9eeea5afae71b0c9e455f502d147a2161f329d3c3a4cfefb32b065efd6",
+      "acquired_at": "2026-11-20T23:14:50.163Z",
+      "notes": "Copied into this project from the selected provider; download access does not grant publication rights."
+    },
+    {
+      "id": "asset-2",
+      "kind": "reference",
+      "source_id": null,
+      "source_url": "https://www.omegawatches.com/en-us/watch-omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001002",
+      "provider": "manual",
+      "rights_status": "official",
+      "usage": "Image: Omega, Speedmaster Moonwatch 310.30.42.50.01.002 official product image (slide 2)",
+      "local_path": "assets/media/asset-2.png",
+      "artifact_paths": [
+        "assets/media/asset-2.png"
+      ],
+      "receipt_id": null,
+      "title": "omega-310-30-42-50-01-002.png",
+      "creator": "Omega",
+      "sha256": "45256fe6504ae4680096cd89bb03ad8c7c48394e78e55bde950be437aa7ea5b7",
+      "acquired_at": "2026-11-20T23:14:50.170Z",
+      "notes": "Copied into this project from the selected provider; download access does not grant publication rights."
+    },
+    {
+      "id": "asset-3",
+      "kind": "reference",
+      "source_id": null,
+      "source_url": "https://bcclark.com/products/m126610ln-0001",
+      "provider": "manual",
+      "rights_status": "official",
+      "usage": "Image: Rolex, Submariner Date 126610LN official product image (slide 3)",
+      "local_path": "assets/media/asset-3.png",
+      "artifact_paths": [
+        "assets/media/asset-3.png"
+      ],
+      "receipt_id": null,
+      "title": "rolex-126610ln.png",
+      "creator": "Rolex",
+      "sha256": "652e5039ab3d1aaab0b92dec128c39c54d563e8a7f839820dc548992db54369c",
+      "acquired_at": "2026-11-20T23:14:50.172Z",
+      "notes": "Copied into this project from the selected provider; download access does not grant publication rights."
+    },
+    {
+      "id": "asset-4",
+      "kind": "reference",
+      "source_id": null,
+      "source_url": "https://bcclark.com/products/m126500ln-0001",
+      "provider": "manual",
+      "rights_status": "official",
+      "usage": "Image: Rolex, Cosmograph Daytona 126500LN official product image (slide 4)",
+      "local_path": "assets/media/asset-4.png",
+      "artifact_paths": [
+        "assets/media/asset-4.png"
+      ],
+      "receipt_id": null,
+      "title": "rolex-126500ln.png",
+      "creator": "Rolex",
+      "sha256": "c67107cb07ccbd8a110576f6511cfa4148ffb3edc97f5f86d4fa89494b1f69a2",
+      "acquired_at": "2026-11-20T23:14:50.173Z",
+      "notes": "Copied into this project from the selected provider; download access does not grant publication rights."
+    }
+  ]
+}

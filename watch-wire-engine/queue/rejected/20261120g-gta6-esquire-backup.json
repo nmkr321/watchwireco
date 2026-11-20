@@ -1,0 +1,41 @@
+{
+  "id": "20261120g-gta6-esquire-backup",
+  "lane": "rotation",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-20T23:03:04.799Z",
+  "post_at": "2026-11-21T00:30:00Z",
+  "backup_for": "20261120g-gta6-esquire",
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: The real watches behind GTA 6",
+  "hook": "",
+  "why": "Backup post. Build it only from watch-wire-engine/library (photo.js find: verified prices with source and date, official photos), e.g. 'N watches under $X' or 'N icons in steel'. Pick watches not used in the last 3 days of queue/posted or today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "The slides show different watches and prices from the ones the research verified, and Nomos was dropped in the research. Fix the content so the slides, research and caption agree, and shorten the cut-off footer, then resubmit. / 2: The slides show Cartier Tank Must $5,700, Longines Master Collection $2,550, Nomos Tangente $2,510 and Rolex Submariner Date $11,350. research.json only verifies Omega Seamaster $6,700, Rolex Explorer $8,350, Submariner No-Date $10,050 and Submariner Date $11,350. It says Nomos was dropped for la / 8: The caption matches the slides but not the research, and its Sour",
+    "Only 2 library watches passed the two-source check (Rolex 126500LN $16,900 and Rolex 126610LN $11,350). Longines L2.793.4.78.3 ($2,550) and Nomos Tangente 38 165 ($2,510) rest on one US dealer each. Rolex 124060, 224270, 126710BLNR, Omega 210.30.42.20.01.001, 310.30.42.50.01.002 and Breitling AB0139"
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 2,
+      "hook": 3,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 3
+    },
+    "hard_gate_failures": [
+      "8: Footers on slides 2-5 still read 'Source: Omega, Rolex, Patek Philippe, Bucherer, B.C. Clark'. Each slide's price comes from only one or two of those sources. I flagged the same fault in the last two rounds. Slides.json has a per-slide 'source' field, but the renderer ignores it. The footer is built only from the top-level 'source'.",
+      "8: The caption's source line and 'Bucherer' on the Submariner don't match the footers."
+    ],
+    "fixes": [
+      "Slides 2-5: make the footer show only that slide's source. Either put the footer text in each slide's 'footLeft' field and change render.mjs so A-photo uses s.footLeft, or drop the per-slide footers and name no sources on the slides. Do not leave the five-source line on every slide.",
+      "Slide 2 footer: 'Source: Omega'. Slide 3: 'Source: Bucherer, B.C. Clark'. Slide 4: 'Source: Rolex'. Slide 5: 'Source: Patek Philippe'.",
+      "Caption: write each watch's source on its own line in the same wording as the footers. Slide 3's Submariner price should name Bucherer and B.C. Clark, not only Bucherer.",
+      "Re-render and confirm in the PNGs that the footers changed before you resubmit."
+    ],
+    "reason": "The prices, photos and layout are fine, but every slide footer still lists all five sources instead of the one behind that slide's price. The renderer ignores the per-slide source field, which is why the last two fixes had no effect, so the renderer needs a change."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/20261120g-gta6-esquire-backup",
+  "gave_up": true
+}
