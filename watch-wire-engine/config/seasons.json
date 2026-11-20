@@ -1,15 +1,57 @@
 {
-  "_how": "Timely angles the planner prefers when they fit (month numbers). Gift guides stay factual: no 'buy now', no hype.",
-  "1":  ["New Year resolutions: first luxury watch", "Watches to start the year (tight budget bands)", "January auction previews"],
-  "2":  ["Valentine's gift watches (his and hers, by budget)", "Dress watches for date night"],
-  "3":  ["Watches & Wonders preview: what to expect", "Spring watches: lighter dials, steel"],
-  "4":  ["Watches & Wonders Geneva releases (news)", "Best releases of the fair, by budget"],
-  "5":  ["Geneva spring auctions (results)", "Graduation gift watches by budget", "Mother's Day gift watches"],
-  "6":  ["Father's Day gift watches by budget", "Summer dive watches", "Wedding watches: what grooms wear"],
-  "7":  ["Summer travel GMTs", "Dive watches by budget", "Beach and pool watches"],
-  "8":  ["Back to work: office and suit watches", "End-of-summer releases"],
-  "9":  ["Fall releases", "Watches for suits and tailoring season"],
-  "10": ["Autumn dress watches", "Halloween: watches from horror and thriller films"],
-  "11": ["Holiday gift guides by budget (under $1K, $5K, $10K, $25K)", "Geneva autumn auctions (results)", "Black Friday: what actually holds value (no deals hype)"],
-  "12": ["Holiday gift guides by budget and recipient", "Best watches of the year", "New Year's Eve dress watches"]
+  "_how": "Occasional timely angles (owner: sprinkle, don't overdo). The planner may use at most ONE seasonal idea per day, and only when it genuinely fits; most posts are not seasonal. Holiday/Christmas content belongs in December (a few, building toward Christmas). Gift guides stay factual: no 'buy now', no hype.",
+  "1": [
+    "New Year resolutions: first luxury watch",
+    "Watches to start the year (tight budget bands)",
+    "January auction previews"
+  ],
+  "2": [
+    "Valentine's gift watches (his and hers, by budget)",
+    "Dress watches for date night"
+  ],
+  "3": [
+    "Watches & Wonders preview: what to expect",
+    "Spring watches: lighter dials, steel"
+  ],
+  "4": [
+    "Watches & Wonders Geneva releases (news)",
+    "Best releases of the fair, by budget"
+  ],
+  "5": [
+    "Geneva spring auctions (results)",
+    "Graduation gift watches by budget",
+    "Mother's Day gift watches"
+  ],
+  "6": [
+    "Father's Day gift watches by budget",
+    "Summer dive watches",
+    "Wedding watches: what grooms wear"
+  ],
+  "7": [
+    "Summer travel GMTs",
+    "Dive watches by budget",
+    "Beach and pool watches"
+  ],
+  "8": [
+    "Back to work: office and suit watches",
+    "End-of-summer releases"
+  ],
+  "9": [
+    "Fall releases",
+    "Watches for suits and tailoring season"
+  ],
+  "10": [
+    "Autumn dress watches",
+    "Halloween: watches from horror and thriller films"
+  ],
+  "11": [
+    "Geneva autumn auctions (results)",
+    "Only Watch / charity auction news if it happens"
+  ],
+  "12": [
+    "Holiday gift guides by budget and recipient (a few, more toward Christmas)",
+    "Best watches of the year",
+    "New Year's Eve dress watches"
+  ],
+  "_later": "Owner idea for December: a Christmas colour theme for the slides. Ask the owner before changing the brand look."
 }
