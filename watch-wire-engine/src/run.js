@@ -206,6 +206,15 @@ export function make(file) {
 }
 
 
+// headlines the hourly news scan saw in the last 24 hours (posted or not)
+function recentHeadlines() {
+  const out = [];
+  for (const d of ["candidates", "rejected", "hold", "approved", "posted"]) for (const f of fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json"))) {
+    try { const i = readJson(path.join(Q(d), f)); if (i.lane === "breaking" && Date.now() - Date.parse(i.found_at) < 864e5) out.push(i.title); } catch {}
+  }
+  return out.slice(-15);
+}
+
 // ---------- plan: create tomorrow's midday + evening ideas ----------
 function plan() {
   const posted = fs.readdirSync(Q("posted")).concat(fs.readdirSync(Q("approved"))).filter((f) => f.endsWith(".json"))
@@ -228,6 +237,7 @@ Plan two Watch Wire posts for ${day.toDateString()}:
 1. lane "rotation", format ${midFormat}.
 2. lane "history", format ${eveFormat}, with a tension hook in The Dial style; it must not be the same format as post 1. Prefer an "On This Day" anniversary for ${day.toDateString()} if a real, checkable one exists; otherwise How It Started or The Story Behind.
 Use the format's hook pattern. Photo formats (CELEBRITY, WOULD YOU RATHER, BUILD YOUR COLLECTION): name every watch by brand, model and exact reference, with current US retail prices you can source; for CELEBRITY pick a watch a trusted watch outlet reported the person wearing. Each idea must be provable from primary or trusted sources; list the exact URLs or source names to check.
+Stay topical: if one of these news headlines from the last day fits the format, build the idea around it: ${JSON.stringify(recentHeadlines())}
 Do not repeat any of these recent posts: ${JSON.stringify(posted)}`;
   const out = parseResult(claude(["--output-format", "json", "--json-schema", schema, "--max-budget-usd", "0.15", "--effort", EFFORT.planner, "--allowedTools", "Read WebSearch WebFetch"], prompt, "planner"));
   const stamp = new Date().toISOString().slice(0, 10);
@@ -294,7 +304,8 @@ function backup(item) {
     format: item.format === "WOULD YOU RATHER" ? "BUILD YOUR COLLECTION" : "WOULD YOU RATHER",
     title: `Backup post for the slot of: ${item.title}`, hook: "",
     why: "Evergreen backup. Build it only from watch-wire-engine/library (photo.js find: verified prices with source and date, official photos). Pick watches not used in the last 3 days of queue/posted.", sources: [] });
-  log(`backup queued for ${item.post_at}: ${item.title}`);
+  log(`backup for ${item.post_at}: making it now (${item.title})`);
+  makeWithRetries(path.join(Q("ideas"), `${id}.json`));   // backup_for stops it from queueing another backup
 }
 
 function reviveRejected() {
@@ -321,7 +332,7 @@ async function makeIdeas() {
 }
 
 // ---------- publish ----------
-async function publishDue() {
+async function publishDue({ breakingOnly = false } = {}) {
   const posted = fs.readdirSync(Q("posted")).map((f) => readJson(path.join(Q("posted"), f)));
   const today = new Date().toDateString();
   const lastPost = posted.map((p) => Date.parse(p.posted_at)).sort().pop() || 0;
@@ -329,6 +340,7 @@ async function publishDue() {
     const file = path.join(Q("approved"), f);
     const item = readJson(file);
     if (Date.parse(item.scheduled_for) > Date.now()) continue;
+    if (breakingOnly && item.lane !== "breaking") continue;
     const breakingToday = posted.filter((p) => p.lane === "breaking" && new Date(p.posted_at).toDateString() === today).length;
     if (item.lane === "breaking" && breakingToday >= schedule.breaking.max_per_day) { log(`breaking cap reached, holding ${item.id}`); continue; }
     if (Date.now() - lastPost < schedule.breaking.min_minutes_between_posts * 60e3 && item.lane === "breaking") { log(`too soon after last post, holding ${item.id}`); continue; }
@@ -362,14 +374,7 @@ async function tick() {
       makeWithRetries(file);
     } catch (e) { log(`error on ${c.id}: ${e.message}`); }
   }
-  reviveRejected();
-  for (const f of fs.readdirSync(Q("ideas")).filter((x) => x.endsWith(".json"))) {
-    const it = readJson(path.join(Q("ideas"), f));
-    if (it.post_at && Date.parse(it.post_at) - Date.now() < 3 * 3600e3) {
-      try { makeWithRetries(path.join(Q("ideas"), f)); } catch (e) { log(`error on idea ${f}: ${e.message}`); }
-    }
-  }
-  await publishDue();
+  await publishDue({ breakingOnly: true });          // breaking news goes out as soon as it is approved
 }
 
 const [cmd, arg] = process.argv.slice(2);

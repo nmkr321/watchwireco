@@ -1,13 +1,14 @@
 # Runs The Watch Wire engine on GitHub's servers, so the laptop can stay closed.
-# Every hour (:00): check the news, make/approve breaking posts, make due or rejected posts again, publish what is due.
-# Every hour (:30): publish posts that are due only (no news scan, no AI).
+# News scan, every hour: look for watch news only; if worth posting, make a topical post (breaking ones go out at once).
+# Publisher, every 15 min: post approved posts whose time has come (no scan, no AI).
+# Content maker, nightly: plan (20:00 NY) and make (21:00 NY) the scheduled posts; rejected posts are remade right away.
 # 20:00 New York: plan tomorrow's posts. 21:00 New York: make and approve them.
 name: Watch Wire engine
 
 on:
   schedule:
-    - cron: "0 * * * *"      # tick: news + make + publish
-    - cron: "30 * * * *"     # publish-due only
+    - cron: "0 * * * *"      # news scan
+    - cron: "*/15 * * * *"   # publisher
     - cron: "0 1 * * *"      # plan  (20:00 New York, winter time)
     - cron: "0 2 * * *"      # make-ideas (21:00 New York, winter time)
   workflow_dispatch:
@@ -48,7 +49,7 @@ jobs:
           case "${{ github.event.schedule }}" in
             "0 1 * * *") echo "CMD=plan" >> "$GITHUB_ENV" ;;
             "0 2 * * *") echo "CMD=make-ideas" >> "$GITHUB_ENV" ;;
-            "30 * * * *") echo "CMD=publish-due" >> "$GITHUB_ENV" ;;
+            "*/15 * * * *") echo "CMD=publish-due" >> "$GITHUB_ENV" ;;
             *) echo "CMD=${{ github.event.inputs.command || 'tick' }}" >> "$GITHUB_ENV" ;;
           esac
       - name: Install tools
