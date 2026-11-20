@@ -297,7 +297,24 @@ function backup(item) {
   log(`backup queued for ${item.post_at}: ${item.title}`);
 }
 
+function reviveRejected() {
+// a scheduled post that was rejected (and still has attempts left) goes back to ideas to be made again
+  for (const f of fs.readdirSync(Q("rejected")).filter((x) => x.endsWith(".json"))) {
+    const it = readJson(path.join(Q("rejected"), f));
+    const due = it.post_at && Date.parse(it.post_at) - Date.now() < 3 * 3600e3 && Date.now() - Date.parse(it.post_at) < 3 * 3600e3;
+    if (!due || it.status === "skipped" || it.gave_up || (it.previous_attempts || []).length >= MAX_ATTEMPTS - 1) continue;
+    const v = it.verdict || {};
+    it.previous_attempts = [...(it.previous_attempts || []), [it.stop_reason, v.reason, ...(v.fixes || [])].filter(Boolean).join(" / ").slice(0, 600)];
+    for (const k of ["verdict", "stop_reason", "draft_dir", "project_dir", "post_dir"]) delete it[k];
+    it.status = "idea";
+    fs.rmSync(path.join(Q("drafts"), it.id), { recursive: true, force: true });
+    writeJson(path.join(Q("ideas"), f), it); fs.rmSync(path.join(Q("rejected"), f));
+    log(`remaking rejected scheduled post: ${it.title}`);
+  }
+}
+
 async function makeIdeas() {
+  reviveRejected();
   for (const f of fs.readdirSync(Q("ideas")).filter((x) => x.endsWith(".json"))) {
     try { makeWithRetries(path.join(Q("ideas"), f)); } catch (e) { log(`error on idea ${f}: ${e.message}`); }
   }
@@ -345,19 +362,7 @@ async function tick() {
       makeWithRetries(file);
     } catch (e) { log(`error on ${c.id}: ${e.message}`); }
   }
-  // a scheduled post that was rejected (and still has attempts left) goes back to ideas to be made again
-  for (const f of fs.readdirSync(Q("rejected")).filter((x) => x.endsWith(".json"))) {
-    const it = readJson(path.join(Q("rejected"), f));
-    const due = it.post_at && Date.parse(it.post_at) - Date.now() < 3 * 3600e3 && Date.now() - Date.parse(it.post_at) < 3 * 3600e3;
-    if (!due || it.status === "skipped" || it.gave_up || (it.previous_attempts || []).length >= MAX_ATTEMPTS - 1) continue;
-    const v = it.verdict || {};
-    it.previous_attempts = [...(it.previous_attempts || []), [it.stop_reason, v.reason, ...(v.fixes || [])].filter(Boolean).join(" / ").slice(0, 600)];
-    for (const k of ["verdict", "stop_reason", "draft_dir", "project_dir", "post_dir"]) delete it[k];
-    it.status = "idea";
-    fs.rmSync(path.join(Q("drafts"), it.id), { recursive: true, force: true });
-    writeJson(path.join(Q("ideas"), f), it); fs.rmSync(path.join(Q("rejected"), f));
-    log(`remaking rejected scheduled post: ${it.title}`);
-  }
+  reviveRejected();
   for (const f of fs.readdirSync(Q("ideas")).filter((x) => x.endsWith(".json"))) {
     const it = readJson(path.join(Q("ideas"), f));
     if (it.post_at && Date.parse(it.post_at) - Date.now() < 3 * 3600e3) {
