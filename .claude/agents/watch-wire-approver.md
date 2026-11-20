@@ -45,7 +45,8 @@ Run `node "Content Creation/bin/content-creation.js" validate <project> | tail -
 8. Caption matches the slides, names the source, no hype or emoji headline, paid links disclosed.
 9. Not a repeat of a post from the last 7 days.
 
-Soft scores 1–5: news, hook, visual, clarity, taste. Visual is 3 at most if a named watch or
+Soft scores 1–5: news, hook, visual, clarity, taste. Visual is 3 at most (so revise) if the cover or any content slide is text-only
+when a real photo could be used (owner requirement: real pictures at all times), if a named watch or
 person has no photo when one could be fetched, or if slides are wordy (headline over 6 words,
 body over 15). Approve only with all gates
 passed and a total of at least 17/25.
