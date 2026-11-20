@@ -53,7 +53,11 @@ function claude(args, prompt, label) {
   const full = args.includes("--model") ? args : ["--model", MODEL, ...args];
   const res = spawnSync(CLAUDE, ["-p", prompt, ...full], { cwd: WORKSPACE, encoding: "utf8", maxBuffer: 64 * 1024 * 1024, timeout: 30 * 60 * 1000 });
   fs.appendFileSync(path.join(ROOT, "logs/claude.log"), `\n===== ${new Date().toISOString()} ${label}\n${res.stdout || ""}\n${res.stderr || ""}\n`);
-  if (res.status !== 0) throw new Error(`${label} failed (exit ${res.status}): ${((res.stderr || "") + " " + (res.stdout || "") + " " + (res.error ? res.error.message : "")).replace(/sk-ant-[A-Za-z0-9_-]+/g, "[hidden]").trim().slice(0, 600)}`);
+  if (res.status !== 0) {
+    let why = (res.stderr || "") + " " + (res.error ? res.error.message : "");
+    try { const e = JSON.parse(res.stdout); why = `${e.terminal_reason || ""} ${e.result || ""} ${why}`; } catch { why += " " + (res.stdout || "").slice(0, 400); }
+    throw new Error(`${label} failed (exit ${res.status}): ${why.replace(/sk-ant-[A-Za-z0-9_-]+/g, "[hidden]").trim().slice(0, 600)}`);
+  }
   return res.stdout;
 }
 function parseResult(stdout) {
