@@ -1,0 +1,10 @@
+BOSTON AI BUILD DAY | Open this folder in Claude Code or Codex.
+
+You have already unpacked all four agents. Keep their four folders inside Content Creation. Leave this folder together.
+Open the workshop guide for the steps to claim your credits and choose a browser or Mac app:
+https://tvf-boston-agents.thevibefounder.chatgpt.site/
+
+For a first check in Claude Code or Codex, paste:
+Read the workspace README. List the four content agents you can see and tell me what the first one needs. Wait for my topic before starting.
+
+In the browser exercise, paste a news source and write one hook together with AJ. For local agent setup or missing access, ask AJ before spending credits.

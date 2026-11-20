@@ -1,0 +1,28 @@
+{
+  "id": "202611201559-auction-because-becomes-expensive-france",
+  "lane": "breaking",
+  "found_at": "2026-11-20T15:59:48.632Z",
+  "title": "An F.P. Journe Becomes the Most Expensive Watch Ever Sold at Auction in France, Because of Course",
+  "score": 5,
+  "sources": [
+    {
+      "title": "An F.P. Journe Becomes the Most Expensive Watch Ever Sold at Auction in France, Because of Course",
+      "link": "https://robbreport.com/style/watch-collector/f-p-journe-most-expensive-watch-auctioned-france-1238851766/",
+      "source": "Robb Report",
+      "domain": "robbreport.com",
+      "tier": "watch_press",
+      "published": "Fri, 20 Nov 2026 12:00:00 GMT"
+    },
+    {
+      "title": "Antiquorum proves brass can be worth more than gold with this F.P. Journe",
+      "link": "https://timeandtidewatches.com/antiquorum-f-p-journe-bass-vs-gold/",
+      "source": "Time+Tide Watches",
+      "domain": "timeandtidewatches.com",
+      "tier": "watch_press",
+      "published": "Fri, 20 Nov 2026 14:37:30 GMT"
+    }
+  ],
+  "format": "AUCTIONS",
+  "test": true,
+  "status": "candidate"
+}

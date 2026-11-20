@@ -1,0 +1,18 @@
+{
+  "status": "ready",
+  "project_dir": "Content Creation/projects/swiss-watch-exports-grew-91-in-october-a-fifth-consecutive-month-of-grow-5301492a",
+  "format": "MARKET",
+  "lane": "breaking",
+  "headline": "Swiss watch exports up 9.1%",
+  "slides": [
+    "output/slide-01.png",
+    "output/slide-02.png",
+    "output/slide-03.png",
+    "output/slide-04.png",
+    "output/slide-05.png",
+    "output/slide-06.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": "",
+  "note": "resumed after root validator accepted automation mode"
+}

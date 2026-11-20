@@ -1,0 +1,8 @@
+{"source": "Source: Federation of the Swiss Watch Industry (FH)",
+ "slides": [
+  {"t": "A-cover", "tag": "MARKET", "line1": "Swiss watch exports", "line2": "[[up 9.1%]]", "meta": "Fifth month of growth in a row", "footLeft": "Source: FH · Oct 2026 data"},
+  {"t": "A-number", "tag": "MARKET", "number": "+9.1%", "label": "Swiss watch exports · October 2026", "headline": "CHF 2.46 billion in one month", "body": "Fifth month of growth in a row. January to October: close to CHF 22 billion, up 3.4% on 2025."},
+  {"t": "A-table", "label": "Wristwatch value by material · Oct 2026 vs Oct 2025", "headline": "Steel drove the growth", "cols": ["Material", "Value", "Change"], "rows": [["Steel", "CHF 778.0m", "+11.2%"], ["Gold-steel", "CHF 437.9m", "+28.3%"], ["Other metals", "CHF 175.6m", "+31.0%"], ["Precious metal", "CHF 859.2m", "+0.4%"]], "hl": 0, "body": "Precious metal is still the biggest category by value, but it was flat."},
+  {"t": "A-list", "label": "The FH's own warning", "headline": "Exports are not sales", "items": ["Gold prices are higher.", "The Swiss franc is strong.", "US tariffs are in place."], "body": "The FH says all three weigh on margins."},
+  {"t": "cta"}
+ ]}

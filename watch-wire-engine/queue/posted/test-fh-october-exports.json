@@ -1,0 +1,39 @@
+{
+  "id": "test-fh-october-exports",
+  "lane": "breaking",
+  "status": "posted",
+  "test": true,
+  "found_at": "2026-11-20T04:20:00Z",
+  "title": "Swiss watch exports grew 9.1% in October, a fifth consecutive month of growth",
+  "format": "MARKET",
+  "score": 9,
+  "sources": [
+    {
+      "title": "Watch industry statistics: October 2026, Steady growth continues",
+      "link": "https://www.fhs.swiss/eng/statistics",
+      "source": "Federation of the Swiss Watch Industry FH",
+      "domain": "fhs.swiss",
+      "tier": "primary",
+      "published": "2026-11-19"
+    }
+  ],
+  "project_dir": "Content Creation/projects/swiss-watch-exports-grew-91-in-october-a-fifth-consecutive-month-of-grow-5301492a",
+  "headline": "Swiss watch exports up 9.1%",
+  "approved_by": "owner (manual test)",
+  "posted_at": "2026-11-20T15:49:22.674Z",
+  "publish": {
+    "live": true,
+    "media_id": "18005627654800161",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png"
+      ],
+      "caption_chars": 743
+    }
+  }
+}

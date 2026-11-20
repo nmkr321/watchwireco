@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Swiss watch exports rose 9.1% in October to CHF 2.46 billion. Fifth month of growth in a row.\n\nSteel did most of the work (+11.2%), with gold-steel up 28.3%. Precious metal watches were flat (+0.4%). January to October, exports were close to CHF 22 billion, up 3.4% on last year.\n\nBy market, the US jumped 60.8%, but the FH says that is a favourable base effect linked to US tariffs. China fell 12.1%.\n\nThe FH's own caution: higher gold prices, a strong Swiss franc and US tariffs all weigh on margins. These are export figures, not shop sales. November's data comes out on 17 December.\n\nSource: Federation of the Swiss Watch Industry (FH), October 2026 export statistics, published 19 November 2026.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-4",
+    "CLM-5",
+    "CLM-6",
+    "CLM-8",
+    "CLM-9"
+  ],
+  "source_ids": [
+    "SRC-FH-PAGE",
+    "SRC-FH-COMM",
+    "SRC-FH-MT3"
+  ],
+  "attribution": "Data: Federation of the Swiss Watch Industry (FH), October 2026 export statistics, published 19 November 2026.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Social reaction not covered (automation mode)."
+  ],
+  "carousel_sha256": "b8207bb943ec9769e22948f76d94b5e1a2e37e15d0511cef13eb4c81774764e3",
+  "completed_at": "2026-11-20T15:46:45.443Z"
+}

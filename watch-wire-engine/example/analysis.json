@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "project_id": "JOB-20261120-2c07d1f1",
+  "content_type": "social-media",
+  "conclusion": "Verified by FH primary data: October 2026 Swiss watch exports +9.1% to CHF 2.46bn, fifth straight monthly rise; YTD ~CHF 22bn (+3.4%). Steel and gold-steel led; the US +60.8% is a tariff base effect and France's +101.6% is re-exports. FH itself cautions that margins are under pressure, so the post must carry that context.",
+  "scope": "FH official October 2026 export statistics, published 2026-11-19.",
+  "specialist": {
+    "topic_scope": "Swiss watch export statistics for October 2026",
+    "sample_definition": "Automation mode: FH statistics page plus the October monthly analysis and markets PDFs (3 official documents)",
+    "time_window": "October 2026 data, published 2026-11-19",
+    "claim_ranking_method": "Official primary data only; every figure copied from FH tables",
+    "stopping_rule": "Stop once every headline figure is matched to an FH table or sentence",
+    "signal_counts": [
+      {"platform": "x.com", "unique_authors": 0, "qualifying_posts": 0},
+      {"platform": "digg.com", "unique_authors": 0, "qualifying_posts": 0},
+      {"platform": "reddit.com", "unique_authors": 0, "qualifying_posts": 0}
+    ],
+    "platform_findings": [
+      "X: skipped (automation mode, no browser)",
+      "Digg: skipped (automation mode, no browser)",
+      "Reddit: skipped (automation mode, no browser)"
+    ],
+    "firsthand_signals": ["FH official monthly analysis for October 2026"],
+    "narrative_patterns": ["Steady recovery in exports", "Steel and gold-steel driving value", "US rebound from a tariff-hit base", "China still falling"],
+    "disagreements": ["FH itself warns export growth does not equal sector health (gold, franc, tariffs squeeze margins)"],
+    "verification_source_ids": ["SRC-FH-PAGE", "SRC-FH-COMM", "SRC-FH-MT3"],
+    "coverage_gaps": ["Social discovery skipped in automation mode; signal counts recorded as zero"]
+  }
+}

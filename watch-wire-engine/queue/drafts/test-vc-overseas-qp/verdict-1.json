@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Gate 3: the core facts rest on one outlet (Revolution), but the cover and slide 2 state the 200-piece edition and 30th anniversary as plain fact with no 'reportedly'.",
+    "Gate 4: slide 2 headline 'ONE EDITION FOR 30 YEARS' overstates the source, which says the edition marks 30 years of the Overseas. Slide 3 'azure' is not in the fetched article, which calls the 42040 dial 'sunburst blue' and says the new one is 'the exact same colour'.",
+    "Gate 6 (layout): footers on slides 2–5 wrap the page counter onto two lines ('02 / 06'), and on slide 4 the table's 'WATER RESISTANCE' row and the 'Reportedly per Revolution' line crowd the source footer."
+  ],
+  "fixes": [
+    "slide 1: add 'Reportedly' to the cover footer or subhead, e.g. 'REPORTEDLY 200 PIECES'; keep the headline centred.",
+    "slide 2: change headline 'ONE EDITION FOR 30 YEARS' to 'MARKS 30 YEARS OF THE OVERSEAS' and keep 'Reportedly' in the body.",
+    "slide 3: change 'Azure blue dial from the original Ref. 42040' to the article's wording, e.g. 'Dial in the same blue as the original Ref. 42040', and check the headline 'THE ORIGINAL BLUE IS BACK' still matches.",
+    "slides 2–5: shorten the footer so the page counter sits on one line (e.g. 'REVOLUTION, 20 NOV 2026' with the page counter on the same baseline) and keep it clear of the margin.",
+    "slide 4: move the table up or reduce row padding so 'WATER RESISTANCE' sits on one line and the 'Reportedly per Revolution' line has clear space above the footer; widen the value column so 'Hours, minutes, perpetual calendar' fits on one line.",
+    "caption: keep the 'Reportedly' wording on the 200-piece and dial lines, and match the revised slide 2 headline."
+  ],
+  "reason": "Solid, sourced draft, but it is one outlet and the cover and slide 2 state unconfirmed details as fact, slide 2 overstates the claim, and the footers and slide 4 table are crowded. Fix those and resubmit; the price is correctly left out."
+}

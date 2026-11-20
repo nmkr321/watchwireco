@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "format": {
+    "name": "carousel",
+    "width": 1080,
+    "height": 1350
+  },
+  "slides": [
+    {
+      "id": "slide-1",
+      "role": "cover",
+      "headline": "Swiss watch exports / up 9.1%",
+      "body": "October 2026 · Fifth month of growth in a row. Source: FH.",
+      "visual_job": "Template A typographic cover (no press photo exists for statistics): MARKET tag, Oswald headline with champagne second line, wordmark top-left, handle top-right, source and SWIPE along the bottom",
+      "claim_ids": [
+        "CLM-1"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-2",
+      "role": "proof",
+      "headline": "+9.1% · CHF 2.46 billion in one month",
+      "body": "Fifth month of growth in a row. January to October: close to CHF 22 billion, up 3.4% on 2025.",
+      "visual_job": "Template A number slide matching the kit sample: champagne +9.1% at 250px, smoke label, ivory Oswald headline, Inter body",
+      "claim_ids": [
+        "CLM-1",
+        "CLM-2"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-3",
+      "role": "proof",
+      "headline": "Steel drove the growth",
+      "body": "Wristwatch value by material, Oct 2026 vs Oct 2025: Steel CHF 778.0m +11.2%; Gold-steel CHF 437.9m +28.3%; Other metals CHF 175.6m +31.0%; Precious metal CHF 859.2m +0.4%. 1.5 million watches exported, up 12.9%.",
+      "visual_job": "Ink panel table of four materials; steel change is the single champagne moment",
+      "claim_ids": [
+        "CLM-3",
+        "CLM-4"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-4",
+      "role": "comparison",
+      "headline": "US up, China down",
+      "body": "USA +60.8%, France +101.6%, Hong Kong +7.3%, UK +6.5%, Japan -2.1%, China -12.1%. FH: the US jump is a favourable base effect linked to tariffs (US Jan-Oct -0.1%). France is mainly re-exports; the EU grew 9.2%.",
+      "visual_job": "Ink panel table of the six main markets with CHF value and change; USA change in champagne; smoke footnotes for the US and France context",
+      "claim_ids": [
+        "CLM-5",
+        "CLM-6"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-5",
+      "role": "caveat",
+      "headline": "Exports are not sales",
+      "body": "Gold prices, a strong Swiss franc and US tariffs all weigh on margins, says the FH. Export growth alone is not the full picture. Next FH data: 17 December 2026.",
+      "visual_job": "Three short ivory lines in ink panels, FH quote attribution, next release date as the single champagne moment",
+      "claim_ids": [
+        "CLM-8",
+        "CLM-9"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-6",
+      "role": "conclusion",
+      "headline": "Watch news. Every day.",
+      "body": "Releases, auctions, market moves and the stories behind the world's best watches. Follow @watchwireco.",
+      "visual_job": "Shared closing slide exactly as the kit sample: WW monogram, Oswald two-line headline with champagne second line, champagne outline FOLLOW @WATCHWIRECO button, serif wordmark bottom",
+      "claim_ids": [],
+      "asset_ids": []
+    }
+  ],
+  "rendered_slides": [
+    {
+      "slide_id": "slide-1",
+      "file": "output/slide-01.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "0790bde1f3f8215fbaf53facc924ce9ad1295abef9795044ccb84fada02f2a85"
+    },
+    {
+      "slide_id": "slide-2",
+      "file": "output/slide-02.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "c3c5735439487b5dbe5e9888db6525cfbab2f14f057c8557f1daa52f8ad45df3"
+    },
+    {
+      "slide_id": "slide-3",
+      "file": "output/slide-03.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "bb7b5f70eed66731413b3660854687503986a05e3bcb3eee248b2e7d6f2d17a9"
+    },
+    {
+      "slide_id": "slide-4",
+      "file": "output/slide-04.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "0eded86e73544623782b1b8744d4dd27769046f88a060b4a8a6d86e7c96575c2"
+    },
+    {
+      "slide_id": "slide-5",
+      "file": "output/slide-05.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "daf8b8830fe2124799c4c14b8cea27fe2ca826c503a6f911c45274e62e6e1596"
+    },
+    {
+      "slide_id": "slide-6",
+      "file": "output/slide-06.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "f6471b599f3111bc92db180fb10a0638b1a0d4321c8377f871bacef0c5ce6cf2"
+    }
+  ]
+}

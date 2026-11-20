@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "primary": "Swiss watch exports up 9.1%",
+  "alternatives": [
+    "Five months of growth in a row for Swiss watch exports",
+    "Swiss watch exports: steel is doing the heavy lifting",
+    "October's Swiss watch exports: the US rebounded, China slipped"
+  ],
+  "claim_ids": ["CLM-1"],
+  "rationale": "Follows the brand guide's MARKET hook style ('Swiss Watch Exports Up 9.1%'): the key number, stated plainly and sourced to the FH, with October 2026 and the five-month streak as the subline. The steel and market alternatives are real angles but narrower; they are kept for inside slides. The US/China line was not chosen because the US jump is a tariff base effect that needs context a cover cannot carry."
+}

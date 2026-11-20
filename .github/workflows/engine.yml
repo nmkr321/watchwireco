@@ -1,0 +1,67 @@
+# Runs The Watch Wire engine on GitHub's servers, so the laptop can stay closed.
+# Every 30 min: check the news (no AI), make/approve breaking posts, publish posts that are due.
+# 20:00 New York: plan tomorrow's posts. 21:00 New York: make and approve them.
+name: Watch Wire engine
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # tick
+    - cron: "0 1 * * *"      # plan  (20:00 New York, winter time)
+    - cron: "0 2 * * *"      # make-ideas (21:00 New York, winter time)
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "tick, plan, make-ideas, publish-due or status"
+        default: "tick"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: engine
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TZ: America/New_York
+      CHROME: google-chrome
+      GRAPH_HOST: graph.facebook.com
+      GRAPH_VERSION: v21.0
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
+      WW_SLIDES_REPO: ${{ github.repository }}
+      PUBLIC_UPLOAD_CMD: sh ${{ github.workspace }}/watch-wire-engine/src/upload-github.sh
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pick the command
+        run: |
+          case "${{ github.event.schedule }}" in
+            "0 1 * * *") echo "CMD=plan" >> "$GITHUB_ENV" ;;
+            "0 2 * * *") echo "CMD=make-ideas" >> "$GITHUB_ENV" ;;
+            *) echo "CMD=${{ github.event.inputs.command || 'tick' }}" >> "$GITHUB_ENV" ;;
+          esac
+      - name: Install tools
+        run: |
+          command -v convert >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick)
+          npm install -g @anthropic-ai/claude-code >/dev/null
+      - name: Run the engine
+        working-directory: watch-wire-engine
+        run: node src/run.js "$CMD"
+      - name: Save the queue and posts back to the repo
+        if: always()
+        run: |
+          git config user.name "watch-wire-bot"
+          git config user.email "watch-wire-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -q -m "engine: $CMD $(date -u +%FT%RZ)"
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main

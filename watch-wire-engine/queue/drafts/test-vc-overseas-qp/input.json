@@ -1,0 +1,20 @@
+{
+  "id": "test-vc-overseas-qp",
+  "lane": "news",
+  "status": "candidate",
+  "test": true,
+  "found_at": "2026-11-20T16:05:00Z",
+  "title": "Vacheron Constantin Overseas Perpetual Calendar Ultra-Thin 30th Anniversary",
+  "format": "NEW RELEASES",
+  "score": 5,
+  "sources": [
+    {
+      "title": "A Closer Look: Vacheron Constantin Overseas Perpetual Calendar Ultra-Thin “30th Anniversary”",
+      "link": "https://revolutionwatch.com/a-closer-look-vacheron-constantin-overseas-perpetual-calendar-ultra-thin/",
+      "source": "Revolution",
+      "domain": "revolutionwatch.com",
+      "tier": "watch_press",
+      "published": "2026-11-20"
+    }
+  ]
+}

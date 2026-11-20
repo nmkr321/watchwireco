@@ -1,0 +1,438 @@
+<title>The Watch Wire Brand Kit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@600;700&family=Playfair+Display:wght@600&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: one dark editorial column, like reading a watch catalogue at night; each section is a numbered chapter of the kit */
+:root{
+  --jet:#0B0B0C; --ink:#17171A; --line:#2A2A2E; --ivory:#F4EFE6; --smoke:#9B968C; --champagne:#C8A96A;
+  --f-news:'Oswald','Arial Narrow',Impact,sans-serif;
+  --f-story:'Poppins','Helvetica Neue',Arial,sans-serif;
+  --f-mark:'Playfair Display',Georgia,serif;
+  --f-body:'Inter',Helvetica,Arial,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--jet);color:var(--ivory);font-family:var(--f-body);font-size:16px;line-height:1.6;margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--champagne)}
+.top{border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;padding-block:18px;gap:16px;flex-wrap:wrap}
+.wm{font:700 22px var(--f-news);letter-spacing:.06em}.wm b{color:var(--champagne);font-weight:700}
+.eyebrow{font:600 12px var(--f-body);letter-spacing:.2em;text-transform:uppercase;color:var(--smoke)}
+.eyebrow .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--champagne);margin-right:8px;vertical-align:1px}
+nav.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:6px 24px;padding-block:28px;border-bottom:1px solid var(--line)}
+nav.toc a{color:var(--smoke);text-decoration:none;font-size:13px}nav.toc a:hover{color:var(--ivory)}
+nav.toc span{color:var(--champagne);font-variant-numeric:tabular-nums;margin-right:10px}
+.hero{padding-block:72px 56px;display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
+.hero h1{font:700 clamp(56px,10vw,118px)/.95 var(--f-news);text-transform:uppercase;margin:16px 0 20px;letter-spacing:.01em}
+.hero h1 b{color:var(--champagne);font-weight:700;display:block}
+.hero p{color:#cfc9be;max-width:44ch;font-size:18px;margin:0}
+.hero .handle{margin-top:20px;font:600 14px var(--f-body);letter-spacing:.16em;color:var(--smoke)}
+.hero img{width:100%;max-width:360px;justify-self:end;border:1px solid var(--line)}
+section{padding-block:64px;border-top:1px solid var(--line)}
+.sh{display:flex;gap:18px;align-items:baseline;margin-bottom:8px}
+.sh .n{font:700 15px var(--f-news);color:var(--champagne);letter-spacing:.1em}
+h2{font:700 clamp(30px,5vw,46px)/1.05 var(--f-news);text-transform:uppercase;margin:0 0 28px;text-wrap:balance}
+h3{font:600 13px var(--f-body);letter-spacing:.18em;text-transform:uppercase;color:var(--smoke);margin:0 0 12px}
+p{max-width:65ch}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.panel{background:var(--ink);border:1px solid var(--line);padding:24px;min-width:0}
+.panel p{margin:0;color:#cfc9be}
+.lede{font-size:20px;color:#d8d2c7;max-width:60ch;margin-bottom:32px}
+.laws{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.laws li{padding-left:22px;position:relative;color:#d8d2c7}
+.laws li::before{content:"";position:absolute;left:0;top:.7em;width:10px;height:1px;background:var(--champagne)}
+.no li::before{background:#8a4b4b}
+.marks{display:grid;grid-template-columns:1.4fr 1fr;gap:20px}
+.markbox{background:var(--ink);border:1px solid var(--line);padding:48px 24px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;min-width:0}
+.markbox .big{font:700 clamp(34px,6vw,58px) var(--f-news);letter-spacing:.06em}.markbox .big b{color:var(--champagne);font-weight:700}
+.markbox .mono{font:600 88px/1 var(--f-mark)}
+.markbox small{color:var(--smoke);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.sizes{display:grid;gap:14px}
+.sizes .row{display:flex;justify-content:space-between;align-items:center;gap:16px;border-bottom:1px solid var(--line);padding-bottom:14px;flex-wrap:wrap}
+.sizes .row span:last-child{color:var(--smoke);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.dont{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.dont .panel{text-align:center}
+.dont .demo{font:700 22px var(--f-news);letter-spacing:.06em;margin:14px 0}
+.dont .x{color:#c98a8a;font:600 12px var(--f-body);letter-spacing:.14em}
+.dont p{font-size:13px}
+.icons{display:flex;gap:20px;align-items:flex-end;flex-wrap:wrap;margin-bottom:28px}
+.ic{background:var(--jet);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-family:var(--f-mark);font-weight:600;color:var(--ivory);border-radius:22%}
+.swatches{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.sw{border:1px solid var(--line);min-width:0}
+.sw .chip{height:120px}
+.sw .meta{padding:14px;background:var(--ink)}
+.sw b{display:block;font-size:15px}
+.sw code{font-size:12px;color:var(--smoke)}
+.sw p{font-size:12px;color:var(--smoke);margin:6px 0 0}
+.ratio{display:flex;height:64px;border:1px solid var(--line);margin:8px 0 16px}
+.ratio div{display:flex;align-items:center;justify-content:center;font:600 12px var(--f-body);letter-spacing:.12em}
+.type{display:grid;gap:20px}
+.type .panel{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:24px;align-items:center}
+.type .spec{color:var(--smoke);font-size:13px}
+.scale{display:grid;gap:0}
+.scale .row{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:20px;align-items:baseline;border-bottom:1px solid var(--line);padding-block:16px}
+.scale .row span:last-child{color:var(--smoke);font-size:12px}
+.tpl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.tpl figure{margin:0;min-width:0}
+.tpl .pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
+.tpl img{width:100%;display:block;border:1px solid var(--line)}
+.tpl figcaption h3{color:var(--champagne)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+.tw{overflow-x:auto}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 11px var(--f-body);letter-spacing:.16em;text-transform:uppercase;color:var(--smoke)}
+td.tag span{display:inline-block;background:var(--champagne);color:var(--jet);font:700 12px var(--f-news);letter-spacing:.12em;padding:3px 10px;border-radius:3px;white-space:nowrap}
+td small{color:var(--smoke)}
+.say{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.say .panel h3{margin-bottom:14px}
+.say .yes{border-left:2px solid var(--champagne)}
+.say .nope{border-left:2px solid #6b3b3b}
+.say q{display:block;quotes:none;font-size:15px;color:#e2dcd1;margin-bottom:10px}
+.space{display:flex;gap:20px;align-items:flex-end;flex-wrap:wrap;margin-bottom:24px}
+.space div{background:var(--champagne);opacity:.85}
+.space figure{margin:0;text-align:center;color:var(--smoke);font-size:12px}
+.co{font:500 18px var(--f-body);letter-spacing:.18em;text-transform:uppercase}
+.files code{display:block;font-size:13px;color:#d8d2c7;padding:6px 0;border-bottom:1px solid var(--line)}
+.end{padding-block:72px;text-align:center;border-top:1px solid var(--line)}
+.end .mono{font:600 64px var(--f-mark);color:var(--champagne)}
+.end .wm{font-size:28px;margin-top:10px}
+.end p{margin:12px auto 0;color:var(--smoke);font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+@media (max-width:820px){
+  .hero,.marks,.grid2,.tpl,.say{grid-template-columns:1fr}
+  .grid3,.dont{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .swatches{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hero img{justify-self:start}
+  .type .panel,.scale .row{grid-template-columns:1fr}
+}
+@media (max-width:480px){.grid3,.dont{grid-template-columns:1fr}}
+</style>
+
+<header class="top"><div class="wrap">
+  <div class="wm">THE WATCH <b>WIRE</b></div>
+  <div class="eyebrow"><span class="dot"></span>Brand kit · v1.0 · Nov 2026</div>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <div>
+      <div class="eyebrow">Luxury watch news · @watchwireco</div>
+      <h1>The Watch <b>Wire</b></h1>
+      <p>Everything in luxury watches, on one feed: releases, auctions, market moves, celebrity collections and the stories behind the brands.</p>
+      <div class="handle">INSTAGRAM · @WATCHWIRECO</div>
+    </div>
+    <img src="img/news-cover.jpg" alt="Sample news cover slide: 5 Record Watches Sold This Year" width="540" height="675">
+  </div>
+
+  <nav class="toc" aria-label="Contents">
+    <a href="#why"><span>01</span>Why this exists</a>
+    <a href="#logo"><span>02</span>Wordmark + monogram</a>
+    <a href="#sizes"><span>03</span>Sizes + clearspace</a>
+    <a href="#never"><span>04</span>Never do this</a>
+    <a href="#icons"><span>05</span>Profile + icons</a>
+    <a href="#colour"><span>06</span>Colour palette</a>
+    <a href="#ratio"><span>07</span>90 · 8 · 2 ratio</a>
+    <a href="#signal"><span>08</span>Champagne, signal only</a>
+    <a href="#type"><span>09</span>Typography</a>
+    <a href="#scale"><span>10</span>Type scale</a>
+    <a href="#templates"><span>11</span>Two templates</a>
+    <a href="#formats"><span>12</span>Post formats</a>
+    <a href="#voice"><span>13</span>Voice + headlines</a>
+    <a href="#photos"><span>14</span>Photos + credits</a>
+    <a href="#dims"><span>15</span>Asset dimensions</a>
+    <a href="#spacing"><span>16</span>Spacing · 8pt grid</a>
+    <a href="#cobrand"><span>17</span>Co-brand</a>
+    <a href="#files"><span>18</span>File naming</a>
+  </nav>
+
+  <section id="why">
+    <div class="sh"><span class="n">01</span><span class="eyebrow">Why this exists</span></div>
+    <h2>The whole watch world, in one swipe</h2>
+    <p class="lede">Watch news is scattered across brand sites, auction catalogues, forums and celebrity feeds. The Watch Wire pulls it into one place and gets to the point: what happened, what it cost, and why it matters to people who love watches.</p>
+    <div class="grid3">
+      <div class="panel"><h3>What it is</h3><p>A daily luxury watch news page. Releases, auctions, prices, celebrity collections and brand stories, told fast and checked first.</p></div>
+      <div class="panel"><h3>What it is not</h3><p>Not a dealer. Not paid hype. Not price predictions or "investment advice". Not reposts of other creators' content.</p></div>
+      <div class="panel"><h3>The promise</h3><p>Every post has a real source. Every number is checked. If something is a rumour, we say so.</p></div>
+    </div>
+  </section>
+
+  <section id="logo">
+    <div class="sh"><span class="n">02</span><span class="eyebrow">Wordmark + monogram</span></div>
+    <h2>One wordmark. One monogram.</h2>
+    <div class="marks">
+      <div class="markbox"><div class="big">THE WATCH <b>WIRE</b></div><small>Wordmark · Oswald 700 · news slides</small></div>
+      <div class="markbox"><div class="mono">WW</div><small>Monogram · Playfair Display 600 · story slides + icon</small></div>
+    </div>
+    <div class="grid2" style="margin-top:24px">
+      <div class="panel"><h3>Anatomy</h3>
+        <ul class="laws">
+          <li>THE WATCH: Oswald 700, ivory.</li>
+          <li>WIRE: Oswald 700, champagne. The only colour in the mark.</li>
+          <li>Always uppercase, letter-spacing 0.06em.</li>
+          <li>Story slides use the serif version: THE WATCH WIRE in Playfair Display, all ivory.</li>
+        </ul></div>
+      <div class="panel"><h3>Laws</h3>
+        <ul class="laws">
+          <li>WIRE is always champagne on news slides. Nothing else in the mark is.</li>
+          <li>The wordmark sits top-left on news slides. The monogram sits top-centre on story slides.</li>
+          <li>Never both marks at the top of the same slide.</li>
+          <li>No drawn logo file is needed. The type is the logo.</li>
+        </ul></div>
+    </div>
+  </section>
+
+  <section id="sizes">
+    <div class="sh"><span class="n">03</span><span class="eyebrow">Sizes + clearspace</span></div>
+    <h2>Minimum 18px. Below that, the handle.</h2>
+    <div class="sizes">
+      <div class="row"><span class="wm" style="font-size:52px">THE WATCH <b>WIRE</b></span><span>XL · 52px+ · profile banners, covers</span></div>
+      <div class="row"><span class="wm" style="font-size:32px">THE WATCH <b>WIRE</b></span><span>LG · 32px · slide header (1080 wide)</span></div>
+      <div class="row"><span class="wm" style="font-size:22px">THE WATCH <b>WIRE</b></span><span>MD · 22px · stories, thumbnails</span></div>
+      <div class="row"><span class="wm" style="font-size:18px">THE WATCH <b>WIRE</b></span><span>SM · 18px · minimum</span></div>
+      <div class="row"><span style="font:600 13px var(--f-body);letter-spacing:.16em">@WATCHWIRECO</span><span>Handle · below 18px this is the only option</span></div>
+    </div>
+    <p style="color:var(--smoke);margin-top:20px">Clearspace equals the height of the letter W on all four sides. No text, photo edge or sticker enters that zone.</p>
+  </section>
+
+  <section id="never">
+    <div class="sh"><span class="n">04</span><span class="eyebrow">Never do this</span></div>
+    <h2>The mark has one job</h2>
+    <div class="dont">
+      <div class="panel"><div class="x">× ALL CHAMPAGNE</div><div class="demo" style="color:var(--champagne)">THE WATCH WIRE</div><p>Champagne on every word kills the accent.</p></div>
+      <div class="panel"><div class="x">× MIXED CASE</div><div class="demo" style="text-transform:none">The Watch <span style="color:var(--champagne)">Wire</span></div><p>The news wordmark is always uppercase.</p></div>
+      <div class="panel"><div class="x">× STRETCHED</div><div class="demo" style="transform:scaleX(1.35);transform-origin:center">THE WATCH <span style="color:var(--champagne)">WIRE</span></div><p>Scale evenly or not at all.</p></div>
+      <div class="panel"><div class="x">× ON BUSY PHOTOS</div><div class="demo" style="background:repeating-linear-gradient(45deg,#3a352f 0 6px,#6d6253 6px 12px);padding:6px">THE WATCH <span style="color:var(--champagne)">WIRE</span></div><p>Put it on the dark fade or a plain area.</p></div>
+    </div>
+  </section>
+
+  <section id="icons">
+    <div class="sh"><span class="n">05</span><span class="eyebrow">Profile + icons</span></div>
+    <h2>The icon is WW. On jet. Always.</h2>
+    <div class="icons">
+      <div class="ic" style="width:160px;height:160px;font-size:72px">WW</div>
+      <div class="ic" style="width:96px;height:96px;font-size:44px">WW</div>
+      <div class="ic" style="width:56px;height:56px;font-size:26px">WW</div>
+      <div class="ic" style="width:32px;height:32px;font-size:14px">WW</div>
+    </div>
+    <ul class="laws">
+      <li>Profile picture: WW in Playfair Display 600, ivory, centred on jet #0B0B0C. Upload at 400 × 400px.</li>
+      <li>Story highlight covers use the same jet circle with a single topic word in Oswald: NEWS, AUCTIONS, MARKET, CELEB, STORIES, W.Y.R.</li>
+      <li>No champagne background and no watch photo in the profile icon.</li>
+    </ul>
+  </section>
+
+  <section id="colour">
+    <div class="sh"><span class="n">06</span><span class="eyebrow">Colour palette</span></div>
+    <h2>Five tokens. That's the system.</h2>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#0B0B0C"></div><div class="meta"><b>Jet</b><code>#0B0B0C · 11 11 12</code><p>Primary background on every slide</p></div></div>
+      <div class="sw"><div class="chip" style="background:#F4EFE6"></div><div class="meta"><b>Ivory</b><code>#F4EFE6 · 244 239 230</code><p>Headlines and body text</p></div></div>
+      <div class="sw"><div class="chip" style="background:#C8A96A"></div><div class="meta"><b>Champagne</b><code>#C8A96A · 200 169 106</code><p>Signal only, see section 08</p></div></div>
+      <div class="sw"><div class="chip" style="background:#9B968C"></div><div class="meta"><b>Smoke</b><code>#9B968C · 155 150 140</code><p>Labels, sources, page numbers</p></div></div>
+      <div class="sw"><div class="chip" style="background:#17171A"></div><div class="meta"><b>Ink</b><code>#17171A · 23 23 26</code><p>Panels and cards on jet</p></div></div>
+    </div>
+  </section>
+
+  <section id="ratio">
+    <div class="sh"><span class="n">07</span><span class="eyebrow">90 · 8 · 2 ratio</span></div>
+    <h2>Base. Structure. Signal.</h2>
+    <div class="ratio">
+      <div style="flex:90;background:linear-gradient(90deg,#0B0B0C 70%,#F4EFE6 70%);color:#9B968C">JET + IVORY · 90%</div>
+      <div style="flex:8;background:#9B968C;color:#0B0B0C">8%</div>
+      <div style="flex:2;background:#C8A96A"></div>
+    </div>
+    <p>Jet and ivory carry the slide. Smoke and ink hold the structure. Champagne is the 2% that tells you where to look. Photos don't count toward the ratio, but the type laid over them does.</p>
+  </section>
+
+  <section id="signal">
+    <div class="sh"><span class="n">08</span><span class="eyebrow">Champagne, signal only</span></div>
+    <h2>One champagne moment per slide</h2>
+    <div class="grid2">
+      <div class="panel"><h3>Champagne is used for</h3>
+        <ul class="laws">
+          <li>The topic tag (AUCTIONS, MARKET…)</li>
+          <li>The second line of a news headline</li>
+          <li>The key number on a data slide</li>
+          <li>WIRE in the wordmark</li>
+          <li>One key fact in a story sentence</li>
+          <li>The follow button on the last slide</li>
+        </ul></div>
+      <div class="panel"><h3>Champagne is never used for</h3>
+        <ul class="laws no">
+          <li>Full backgrounds or big fills</li>
+          <li>Body text or long sentences</li>
+          <li>Text on ivory (it fails contrast)</li>
+          <li>Decorative borders and frames</li>
+          <li>Two separate signals on one slide (the tag + wordmark pair is the one exception)</li>
+          <li>Tinting photos</li>
+        </ul></div>
+    </div>
+  </section>
+
+  <section id="type">
+    <div class="sh"><span class="n">09</span><span class="eyebrow">Typography</span></div>
+    <h2>News is condensed. Stories are round.</h2>
+    <div class="type">
+      <div class="panel"><div style="font:700 56px/1 var(--f-news);text-transform:uppercase">Record Daytona Sold</div><div class="spec"><b style="color:var(--ivory)">Oswald 700</b><br>News headlines, tags, wordmark. Always uppercase.<br>Free · Google Fonts</div></div>
+      <div class="panel"><div style="font:700 48px/1.05 var(--f-story)">Rolex Started As A London Import Company.</div><div class="spec"><b style="color:var(--ivory)">Poppins 700</b><br>Story headlines and story sentences. Title case.<br>Free · Google Fonts</div></div>
+      <div class="panel"><div style="font:600 64px/1 var(--f-mark)">WW · or</div><div class="spec"><b style="color:var(--ivory)">Playfair Display 600</b><br>Monogram, story wordmark, the "or" on Would You Rather. Nothing else.<br>Free · Google Fonts</div></div>
+      <div class="panel"><div style="font:400 20px/1.5 var(--f-body);color:#d8d2c7">Releases, auctions, market moves and the stories behind the world's best watches.</div><div class="spec"><b style="color:var(--ivory)">Inter 400 / 600</b><br>Body, labels, sources, captions.<br>Free · Google Fonts</div></div>
+    </div>
+  </section>
+
+  <section id="scale">
+    <div class="sh"><span class="n">10</span><span class="eyebrow">Type scale</span></div>
+    <h2>Sizes on a 1080 × 1350 slide</h2>
+    <div class="scale">
+      <div class="row"><span style="font:700 48px/1 var(--f-news);color:var(--champagne)">+9.1%</span><span>Number · Oswald 700 · 240–260px</span></div>
+      <div class="row"><span style="font:700 36px/1 var(--f-news)">NEWS HEADLINE</span><span>News cover · Oswald 700 · 96–120px</span></div>
+      <div class="row"><span style="font:700 30px/1.1 var(--f-story)">Story Headline</span><span>Story cover · Poppins 700 · 96–104px</span></div>
+      <div class="row"><span style="font:700 26px/1 var(--f-news)">INSIDE HEADLINE</span><span>Inside slide · Oswald 700 · 72–84px</span></div>
+      <div class="row"><span style="font:600 20px/1.3 var(--f-story)">A story sentence.</span><span>Story body · Poppins 600 · 52–56px</span></div>
+      <div class="row"><span style="font:400 16px var(--f-body)">Body copy. Max 40 characters per line on a slide.</span><span>Body · Inter 400 · 32–36px</span></div>
+      <div class="row"><span style="font:600 12px var(--f-body);letter-spacing:.16em;color:var(--smoke)">SOURCE · 03 / 07</span><span>Labels · Inter 600 · 18–24px · +0.16em</span></div>
+    </div>
+  </section>
+
+  <section id="templates">
+    <div class="sh"><span class="n">11</span><span class="eyebrow">Two templates</span></div>
+    <h2>Template A for news. Template D for stories.</h2>
+    <div class="tpl">
+      <figure>
+        <div class="pair"><img src="img/would-you-rather.jpg" alt="Would You Rather slide: Nautilus or Royal Oak" width="540" height="675"><img src="img/market-number.jpg" alt="Market slide: +9.1% Swiss watch exports" width="540" height="675"></div>
+        <figcaption><h3>A · News</h3><ul class="laws"><li>Photo on top, fading into jet from 40% down.</li><li>Wordmark top-left, handle top-right.</li><li>Champagne topic tag above an uppercase Oswald headline; second line in champagne.</li><li>Source and page number along the bottom in smoke.</li></ul></figcaption>
+      </figure>
+      <figure>
+        <div class="pair"><img src="img/story-cover.jpg" alt="Story cover: The Watchmaker Who Turned Down A Billion-Dollar Offer" width="540" height="675"><img src="img/story-body.jpg" alt="Story inside slide with one key fact in champagne" width="540" height="675"></div>
+        <figcaption><h3>D · Story</h3><ul class="laws"><li>Full-bleed photo under a 60% jet overlay (80% on inside slides).</li><li>WW monogram top-centre, serif wordmark bottom-centre.</li><li>Big centred Poppins headline in title case that opens a story.</li><li>Circle arrow on the cover. One fact per inside slide picked out in champagne.</li></ul></figcaption>
+      </figure>
+    </div>
+    <div class="grid2" style="margin-top:28px">
+      <div class="panel"><h3>Carousel order</h3><p>Cover (A or D) → 3–7 inside slides in the same template → closing slide. Never mix A and D inside one carousel.</p></div>
+      <div class="panel" style="display:grid;grid-template-columns:120px minmax(0,1fr);gap:18px;align-items:center"><img src="img/cta.jpg" alt="Closing slide: Watch news. Every day. Follow @watchwireco" width="540" height="675" style="width:100%;border:1px solid var(--line)"><p>Closing slide: shared by both templates. Monogram, one line, champagne follow button.</p></div>
+    </div>
+  </section>
+
+  <section id="formats">
+    <div class="sh"><span class="n">12</span><span class="eyebrow">Post formats</span></div>
+    <h2>Seven formats. Each has a tag.</h2>
+    <p class="lede">These are the regular series. The tag on the cover tells followers which kind of post it is, and each one maps to a story highlight.</p>
+    <div class="tw"><table>
+      <thead><tr><th>Tag</th><th>What it covers</th><th>Template</th><th>Example hook</th><th>Must include</th></tr></thead>
+      <tbody>
+        <tr><td class="tag"><span>NEWS</span></td><td>Brand moves, launches, industry headlines</td><td>A</td><td>GameStop Is Now Selling Rolex</td><td>Official source or press release</td></tr>
+        <tr><td class="tag"><span>NEW RELEASES</span></td><td>New models from fairs and brand drops</td><td>A</td><td>The New Releases From Geneva</td><td>Brand page or press kit, reference numbers</td></tr>
+        <tr><td class="tag"><span>AUCTIONS</span></td><td>Records, notable lots, results</td><td>A</td><td>5 Record Watches Sold This Year</td><td>Auction house result page; say if fees are included</td></tr>
+        <tr><td class="tag"><span>MARKET</span></td><td>Exports, prices, trends, data</td><td>A</td><td>Swiss Watch Exports Up 9.1%</td><td>Data source and date on the slide</td></tr>
+        <tr><td class="tag"><span>CELEBRITY</span></td><td>Who wore what, celebrity collections</td><td>A or D</td><td>Inside A Modern Icon's Watch Box</td><td>Credited photo; "spotted wearing", not "owns", unless confirmed</td></tr>
+        <tr><td class="tag"><span>WOULD YOU RATHER</span></td><td>Two watches, one choice, vote in comments</td><td>A</td><td>Nautilus Or Royal Oak?</td><td>Same price bracket; list prices with a date</td></tr>
+        <tr><td class="tag"><span>STORY</span></td><td>Brand histories, founders, famous references</td><td>D</td><td>Rolex Started As A London Import Company.</td><td>A history source for every date and number</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="voice">
+    <div class="sh"><span class="n">13</span><span class="eyebrow">Voice + headlines</span></div>
+    <h2>Confident. Insider. Checked.</h2>
+    <p class="lede">Write like a well-connected collector telling a friend the news: short, specific and sure of the facts. Big numbers and names do the work, so the copy doesn't need hype.</p>
+    <div class="say">
+      <div class="panel yes"><h3>Write like this</h3>
+        <q>Swiss watch exports rose 9.1% in October. Fifth month in a row.</q>
+        <q>Spotted: a $460K Jacob &amp; Co. at the ATP gala.</q>
+        <q>Rolex Started As A London Import Company. Here's How It Became Rolex.</q></div>
+      <div class="panel nope"><h3>Not like this</h3>
+        <q>The watch market is EXPLODING 🚀🚀</q>
+        <q>This watch will DOUBLE in value, buy now!!</q>
+        <q>You won't BELIEVE what this celebrity wore…</q></div>
+    </div>
+    <div class="grid3" style="margin-top:20px">
+      <div class="panel"><h3>Always</h3><p>Name the source for every number. Give dates for prices. Say "reportedly" for anything unconfirmed. One idea per slide.</p></div>
+      <div class="panel"><h3>Never</h3><p>Price predictions or investment advice. Clickbait that the slides don't pay off. Emojis in headlines. Reposting another creator's slides.</p></div>
+      <div class="panel"><h3>Calls to action</h3><p>Calm and direct. "Vote in the comments." "Swipe for the full list." "Follow @watchwireco for daily watch news."</p></div>
+    </div>
+  </section>
+
+  <section id="photos">
+    <div class="sh"><span class="n">14</span><span class="eyebrow">Photos + credits</span></div>
+    <h2>Press photos, always credited</h2>
+    <div class="grid2">
+      <div class="panel"><h3>Use</h3>
+        <ul class="laws">
+          <li>Official brand press images and auction-house lot photos.</li>
+          <li>Event photos from agencies or the event's press room.</li>
+          <li>Your own photos, which need no permission.</li>
+          <li>Clean product shots on dark or neutral backgrounds for Template A.</li>
+        </ul></div>
+      <div class="panel"><h3>Rules</h3>
+        <ul class="laws">
+          <li>Credit line on every slide with a photo: "Image: Brand" or "Image: Phillips". Smoke, 16px, bottom-right.</li>
+          <li>Press photos are logged as "permission needed" in the agents' asset list. Publishing still carries some risk.</li>
+          <li>No screenshots of other creators' posts and no images with someone else's watermark.</li>
+          <li>Don't flip, recolour or AI-edit a watch. Collectors notice.</li>
+        </ul></div>
+    </div>
+  </section>
+
+  <section id="dims">
+    <div class="sh"><span class="n">15</span><span class="eyebrow">Asset dimensions</span></div>
+    <h2>Every surface. Known sizes.</h2>
+    <div class="tw"><table>
+      <thead><tr><th>Asset</th><th>Size</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>Carousel slide</td><td>1080 × 1350</td><td>Main feed format, 4:5. Template A or D.</td></tr>
+        <tr><td>Single post</td><td>1080 × 1350</td><td>Same templates as carousel covers.</td></tr>
+        <tr><td>Story / Reel cover</td><td>1080 × 1920</td><td>Keep text inside the middle 1080 × 1420.</td></tr>
+        <tr><td>Grid preview</td><td>1080 × 1080 centre crop</td><td>Check the headline still reads when cropped square.</td></tr>
+        <tr><td>Profile picture</td><td>400 × 400</td><td>WW monogram on jet.</td></tr>
+        <tr><td>Highlight cover</td><td>1080 × 1920</td><td>Jet circle, one Oswald word.</td></tr>
+        <tr><td>Link preview</td><td>1200 × 630</td><td>Wordmark centred on jet.</td></tr>
+        <tr><td>X / Twitter header</td><td>1500 × 500</td><td>Wordmark left, handle right.</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="spacing">
+    <div class="sh"><span class="n">16</span><span class="eyebrow">Spacing · 8pt grid</span></div>
+    <h2>Eight. Sixteen. Twenty-four. Forty-eight.</h2>
+    <div class="space">
+      <figure><div style="width:8px;height:8px"></div>8</figure>
+      <figure><div style="width:16px;height:16px"></div>16</figure>
+      <figure><div style="width:24px;height:24px"></div>24</figure>
+      <figure><div style="width:32px;height:32px"></div>32</figure>
+      <figure><div style="width:48px;height:48px"></div>48</figure>
+      <figure><div style="width:64px;height:64px"></div>64</figure>
+    </div>
+    <ul class="laws">
+      <li>Slide margin is 48px on all four sides. Every slide.</li>
+      <li>Tag to headline: 24px. Headline to meta line: 32px.</li>
+      <li>Only multiples of 8. Values like 22px or 30px are not used for layout.</li>
+      <li>Optical tweaks inside type are allowed.</li>
+    </ul>
+  </section>
+
+  <section id="cobrand">
+    <div class="sh"><span class="n">17</span><span class="eyebrow">Co-brand</span></div>
+    <h2>Partner left. Wire right.</h2>
+    <div class="grid2">
+      <div class="panel"><h3>Correct</h3><div class="co">PARTNER <span style="color:var(--champagne)">×</span> THE WATCH WIRE</div><p style="margin-top:12px">Inter 500, uppercase, the × in champagne. No partner logos on slides. Add "Paid partnership" with Instagram's label whenever money or product changes hands.</p></div>
+      <div class="panel"><h3>Not used</h3><div class="co" style="text-transform:none;color:var(--smoke)">Partner + The Watch Wire · Partner &amp; WW</div><p style="margin-top:12px">Mixed case, + or &amp; separators, or the serif wordmark in a co-brand line.</p></div>
+    </div>
+  </section>
+
+  <section id="files">
+    <div class="sh"><span class="n">18</span><span class="eyebrow">File naming</span></div>
+    <h2>Predictable names. Findable files.</h2>
+    <p><b style="color:var(--champagne)">wwco-[format]-[topic]-[slide].[ext]</b></p>
+    <div class="files grid2">
+      <div><code>wwco-news-gamestop-rolex-01.png</code><code>wwco-auctions-records-2026-01.png</code><code>wwco-market-swiss-exports-oct26-03.png</code><code>wwco-wyr-nautilus-royal-oak-02.png</code></div>
+      <div><code>wwco-story-rolex-origins-01.png</code><code>wwco-celebrity-atp-gala-01.png</code><code>wwco-profile-400.png</code><code>wwco-highlight-auctions.png</code></div>
+    </div>
+  </section>
+</main>
+
+<footer class="end">
+  <div class="mono">WW</div>
+  <div class="wm">THE WATCH <b>WIRE</b></div>
+  <p>@watchwireco · Brand kit v1.0 · 2026</p>
+</footer>

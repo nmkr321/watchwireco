@@ -1,0 +1,11 @@
+# Never publish secrets or private files
+**/.env
+.DS_Store
+node_modules/
+# Reference images used only for the brand kit page
+watch-wire-kit/img/
+# Large debug log
+watch-wire-engine/logs/claude.log
+watch-wire-engine/state/run.lock
+# Mac-only schedule (has local paths; GitHub runs the engine instead)
+watch-wire-engine/launchd/

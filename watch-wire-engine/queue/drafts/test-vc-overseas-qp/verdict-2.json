@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Gate 2: slide 3 and the caption say the dial matches the original Ref. 42040, but the Revolution article says the 1996 Overseas colour is returned and describes the 42040 as sunburst blue, so the wording doesn't match the source.",
+    "Gate 3/4: slide 3 headline 'THE ORIGINAL BLUE IS BACK' is stated as fact from a single outlet with no 'reportedly' label.",
+    "Gate 6 (layout): slides 3, 4 and 5 have their main block pinned to the top, leaving the lower third empty, so they are not centred or balanced."
+  ],
+  "fixes": [
+    "slide 3: change the first bullet to 'Dial in the same blue as the original 1996 Overseas.' (not Ref. 42040), and make the headline 'REPORTEDLY, THE ORIGINAL BLUE IS BACK' or a shorter equivalent that keeps the reportedly label.",
+    "slides 3, 4 and 5: vertically centre the main block between the header and the source footer, or move it down so the space above and below is even.",
+    "caption: change 'the same blue as the original Ref. 42040' to 'the same blue as the original 1996 Overseas, as reported by Revolution', keeping the Reportedly wording on the 200-piece and spec lines.",
+    "Recheck slides 1–6 after these changes; the cover, slide 2 wording, slide 4 table fit and footers already look fixed from the last round."
+  ],
+  "reason": "Most of the last round's fixes are in place, but slide 3 attributes the dial colour to Ref. 42040 and states the blue as fact, which the single source does not support. Slides 3–5 also sit top-heavy, so fix those and resubmit."
+}
