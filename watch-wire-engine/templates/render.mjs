@@ -61,7 +61,7 @@ html,body{width:1080px;height:1350px;overflow:hidden;background:var(--jet);color
 .box{position:absolute;left:48px;right:48px;top:170px}.box.mid{top:50%;transform:translateY(-50%);max-height:1060px}
 .photo{position:absolute;inset:0 0 auto 0;height:920px;background:#141312 center 25%/cover no-repeat}.photo::before{content:"";position:absolute;inset:0 0 auto 0;height:240px;background:linear-gradient(rgba(11,11,12,.8),transparent)}
 .fade{position:absolute;left:0;right:0;top:560px;height:420px;background:linear-gradient(transparent,var(--jet))}
-.pcredit{top:100px;bottom:auto}
+.pcredit{top:100px;bottom:auto;font-size:18px;color:rgba(244,239,230,.85);text-shadow:0 1px 6px rgba(0,0,0,.9)}
 .cov{position:absolute;left:48px;right:48px;bottom:150px;text-align:center;z-index:2}.cov.mid{top:50%;bottom:auto;transform:translateY(-50%)}
 .cov h1{font:700 118px/1 var(--n);text-transform:uppercase;margin-top:28px;text-wrap:balance}
 .cov h2{font:700 96px/1.04 var(--n);color:var(--ch);text-transform:uppercase;text-wrap:balance}

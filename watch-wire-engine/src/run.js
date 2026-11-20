@@ -300,10 +300,21 @@ function backup(item) {
   if (fs.existsSync(rej)) { const r = readJson(rej); r.gave_up = true; writeJson(rej, r); }
   if (item.backup_for || item.lane === "breaking" || !item.post_at) { log(`gave up: ${item.title}`); return; }
   const id = `${item.id}-backup`;
+  // pick a type different from every post within 4 hours of this slot (never the same type back to back)
+  const t = Date.parse(item.post_at), near = new Set();
+  for (const d of ["approved", "ideas", "posted"]) for (const f of fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json"))) {
+    try { const o = readJson(path.join(Q(d), f)); const ot = Date.parse(o.scheduled_for || o.post_at || o.posted_at);
+      if (o.id !== item.id && Math.abs(ot - t) < 4 * 3600e3) near.add(o.format); } catch {}
+  }
+  const options = ["STORY BEHIND", "LISTICLE", "WOULD YOU RATHER", "BUILD YOUR COLLECTION"].filter((f) => !near.has(f));
+  const format = options[0] || "LISTICLE";
+  const how = {
+    "STORY BEHIND": "Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
+    "LISTICLE": "Build it only from watch-wire-engine/library (photo.js find: verified prices with source and date, official photos), e.g. 'N watches under $X' or 'N icons in steel'. Pick watches not used in the last 3 days of queue/posted or today's approved posts.",
+    "WOULD YOU RATHER": "Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
+    "BUILD YOUR COLLECTION": "Tiered collection from watch-wire-engine/library, watches not used today." }[format];
   writeJson(path.join(Q("ideas"), `${id}.json`), { id, lane: item.lane, status: "idea", found_at: new Date().toISOString(), post_at: item.post_at, backup_for: item.id,
-    format: item.format === "WOULD YOU RATHER" ? "BUILD YOUR COLLECTION" : "WOULD YOU RATHER",
-    title: `Backup post for the slot of: ${item.title}`, hook: "",
-    why: "Evergreen backup. Build it only from watch-wire-engine/library (photo.js find: verified prices with source and date, official photos). Pick watches not used in the last 3 days of queue/posted.", sources: [] });
+    format, title: `Backup ${format} for the slot of: ${item.title}`, hook: "", why: `Backup post. ${how}`, sources: [] });
   log(`backup for ${item.post_at}: making it now (${item.title})`);
   makeWithRetries(path.join(Q("ideas"), `${id}.json`));   // backup_for stops it from queueing another backup
 }
