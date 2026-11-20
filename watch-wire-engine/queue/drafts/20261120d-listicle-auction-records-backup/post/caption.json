@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Five watches, five US retail prices, checked 20 Nov 2026.\n\nBreitling Superocean 42 (A17366D81C1A1): $4,950\nCartier Tank Must (WSTA0141): $5,700\nOmega Seamaster Diver 300M (210.30.42.20.01.001): $6,700\nOmega Speedmaster Moonwatch (310.30.42.50.01.002): $9,000\nBreitling Navitimer (AB0139A71G1A1): $10,700\n\nThese are list prices on brand and retailer pages, not auction or sale results.\n\nSource: Breitling, Omega and Watches of Switzerland US product pages, 20 November 2026. Photos: Breitling, Cartier, Omega (credited on slides).\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4",
+    "CLM-5"
+  ],
+  "source_ids": [
+    "SRC-BW-SUPEROCEAN",
+    "SRC-WOS-CARTIER",
+    "SRC-OMEGA-210",
+    "SRC-OMEGA-310",
+    "SRC-WOS-BREITLING"
+  ],
+  "attribution": "Breitling, Omega, Watches of Switzerland",
+  "disclosure": "",
+  "carousel_sha256": "59ff4e45634c48e7bbacdae6ee487849dec7b7e077e42d993fb17610a522d3d5",
+  "completed_at": "2026-11-20T22:35:30.096Z"
+}

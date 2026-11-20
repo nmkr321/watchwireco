@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 4,
+    "clarity": 5,
+    "taste": 3
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes and all five prices match verified claims dated 20 Nov 2026. Last round's fixes are in: the Navitimer slide now has a credited photo, all five photos are logged in the manifest as official, and slide 7 has clear space above the footer. It's a price list rather than news, so it scores low on news, but it clears the 17/25 bar. I did not re-fetch the source pages, because the prices come from the engine library, which was read from the official pages that day."
+}

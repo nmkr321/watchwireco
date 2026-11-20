@@ -1,0 +1,22 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "6: slide 7 note line 'List prices from brand and retailer pages…' sits almost on the SOURCE footer line and looks crowded",
+    "7: project assets/manifest.json is empty, so no photo is logged there with rights official/licensed; the photos only trace to the engine library"
+  ],
+  "fixes": [
+    "slide 7: shorten the note to 'List prices, not sale results.' so it has clear space above the SOURCE footer, or drop one table row's second line so the block sits higher",
+    "slide 6: use an A-photo slide with the Navitimer photo (the library has an official image) instead of a text-only number slide, with its credit, and keep the price in the label",
+    "assets/manifest.json: register all five photos with rights 'official' and their credits, and keep the credit lines on the slides",
+    "news is weak: this is a price list, not news, so consider a sharper hook such as 'Five Watches Under $11K' or a dated price move"
+  ],
+  "reason": "The facts and prices check out against verified claims and the validator says PASS. But slide 7 is crowded against the footer, the Navitimer slide has no photo, and the photo rights aren't logged in the project manifest, so it needs one more pass."
+}

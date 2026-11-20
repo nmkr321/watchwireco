@@ -1,0 +1,27 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "7: project assets/manifest.json is empty, so none of the three Wikimedia photos has a rights entry (official or licensed)",
+    "7: slide 4 shows a Casio PRT-411 (the input said not to call it PRW-1300), but the slide says PRW-1300",
+    "7: slide 2 and the cover show a diamond-dial, fluted-bezel Day-Date. Slide 2 says ref. 228238, which is a different watch",
+    "6: slide 5 content sits in the top half with a large empty gap above the footer, so it is not centred",
+    "6: slides 3 and 4 have the body line close to the footer"
+  ],
+  "fixes": [
+    "Add the three photos (Day-Date, Royal Oak 15202, Pro Trek) to assets/manifest.json with rights 'licensed' and their credits.",
+    "slide 4: Change the body to 'Both outlets compare Kronos to the Casio Pro Trek line.' Alternatively, use a photo of an actual PRW-1300 with a credit. Don't pair the PRW-1300 name with the PRT-411 photo.",
+    "slide 2: Change the body to 'Both outlets point to the gold Day-Date.' Drop 'ref. 228238' from the slide, or use a photo of a 228238-style Day-Date. Put the ref. 228238 detail only in the slide 5 table, labelled reportedly.",
+    "slide 5: Vertically centre the table block between the header and footer. Shorten the top label so the block sits balanced.",
+    "slides 3 and 4: Shorten the body to one short line, and leave clear space above the footer.",
+    "slide 6: The CTA slide does not ask 'Which one would you wear?', but the caption does. Make them match, for example by putting that line on slide 5 or using it as the CTA headline."
+  ],
+  "reason": "The sources are solid (two outlets, worded 'reportedly'), and the validator passed. But the photos don't match the watches the slides name (the Day-Date reference and the Casio model), the photo rights aren't logged, and slide 5 is unbalanced."
+}

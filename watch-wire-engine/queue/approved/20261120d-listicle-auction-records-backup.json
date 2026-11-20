@@ -1,0 +1,31 @@
+{
+  "id": "20261120d-listicle-auction-records-backup",
+  "lane": "rotation",
+  "status": "approved",
+  "found_at": "2026-11-20T22:31:58.695Z",
+  "post_at": "2026-11-21T00:30:00Z",
+  "backup_for": "20261120d-listicle-auction-records",
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: The most expensive watches ever sold at auction",
+  "hook": "",
+  "why": "Backup post. Build it only from watch-wire-engine/library (photo.js find: verified prices with source and date, official photos), e.g. 'N watches under $X' or 'N icons in steel'. Pick watches not used in the last 3 days of queue/posted or today's approved posts.",
+  "sources": [],
+  "scheduled_for": "2026-11-21T00:30:00Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/20261120d-listicle-auction-records-backup",
+  "project_dir": "Content Creation/projects/20261120d-listicle-auction-records-backup",
+  "post_dir": "watch-wire-engine/queue/drafts/20261120d-listicle-auction-records-backup/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 2,
+      "hook": 3,
+      "visual": 4,
+      "clarity": 5,
+      "taste": 3
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The check passes and all five prices match verified claims dated 20 Nov 2026. Last round's fixes are in: the Navitimer slide now has a credited photo, all five photos are logged in the manifest as official, and slide 7 has clear space above the footer. It's a price list rather than news, so it scores low on news, but it clears the 17/25 bar. I did not re-fetch the source pages, because the prices come from the engine library, which was read from the official pages that day."
+  }
+}

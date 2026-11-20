@@ -1,14 +1,19 @@
 {
-  "decision": "approve",
-  "post_timing": "next_slot",
+  "decision": "revise",
+  "post_timing": "hold",
   "soft_scores": {
-    "news": 3,
+    "news": 2,
     "hook": 4,
-    "visual": 3,
-    "clarity": 4,
-    "taste": 4
+    "visual": 2,
+    "clarity": 3,
+    "taste": 2
   },
   "hard_gate_failures": [],
-  "fixes": [],
-  "reason": "The check passes and the earlier problems are fixed. The photo is now in the manifest as licensed and credited on slides 1 and 5 and in the caption. The story is attributed to Sotheby's on each slide that carries a claim. It still rests on that one outlet, and I did not re-fetch the Sotheby's page, relying on the quoted evidence in research.json. There is no Royal Oak photo, which caps the visual score at 3."
+  "fixes": [
+    "slides 5-7: these repeat slides 2-3 (two brands, six years apart, same designer) and add no new fact. Delete slides 5 and 6. Keep the payoff slide only if a new verified fact sits before it.",
+    "slides 2-4: add 1-2 new beats, each with a different fact checked by two outlets. Examples: what made the Royal Oak new, or Genta's other designs once each is verified. Drop any beat that only restates the two dates.",
+    "slide 4: say who calls it 'the original groundbreaker', or reword it as a fact that is confirmed.",
+    "slide 3: add the Nautilus photo already in the project (asset-1, credited) so the story shows both watches. Check it is in the draft manifest and the credit appears on the slide and in the caption."
+  ],
+  " reason": "The facts and the credit are sound and the check passes. But the story is thin: slides 5-7 repeat the same two dates and the post is filler, so it scores about 13/25 against the 17 needed. Replace the repeats with new verified facts and add the Nautilus photo."
 }

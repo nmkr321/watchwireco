@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "All three fixes from the last round are in. The photos are logged as licensed with credits on the slides and in the caption. The Day-Date ref. and Casio model claims are gone from the photo slides and now appear only as 'reportedly' in the slide 5 table. Slide 5 is now balanced, the CTA matches the caption, and the validator says PASS. I fetched the Watches Off 5th source. It names the Day-Date 228238 and the Royal Oak and Pro Trek PRW-1300 mappings as reported readings, and says Rockstar hasn't confirmed them. The slides and caption keep that 'reportedly' wording."
+}

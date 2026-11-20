@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "GTA 6 has three fake watch brands. Crowex reportedly copies the gold Rolex Day-Date ref. 228238, Covgari the Audemars Piguet Royal Oak, and Kronos the Casio Pro Trek PRW-1300.\n\nThese read as homages, not official watches.\n\nWhich one would you wear in Vice City? Comment below.\n\nSource: Watches Off 5th (GTA 6 Watches) and JFK (Horloges GTA 6: Rolex, Audemars Piguet, Casio). Photos: Wikimedia Commons: Rolex Day-Date (CC BY-SA 3.0), Audemars Piguet Royal Oak ref. 15202 (CC BY-SA 4.0), Casio Triple Sensor Pro Trek (CC BY 2.5).\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3"
+  ],
+  "source_ids": [
+    "SRC-WOF5",
+    "SRC-JFK"
+  ],
+  "attribution": "Watches Off 5th; JFK. Photos: Wikimedia Commons.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Reference numbers for Covgari and Kronos not published; model names only."
+  ],
+  "carousel_sha256": "94be1f348aa5e53a9eee092894e0f42f084473c8d7b350861434ae333c327cf0",
+  "completed_at": "2026-11-20T22:48:49.887Z"
+}

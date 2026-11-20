@@ -14,7 +14,6 @@
 // commons: free-licensed photo search on Wikimedia Commons (vintage/history watches).
 // --project <P> also registers the photo in that carousel project (CC media-register).
 // Everything is cached in watch-wire-engine/library/ so a model is downloaded once.
-import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
@@ -165,98 +164,6 @@ async function press(url, brand, person) {
   fail(`could not download the campaign image: ${why}`);
 }
 
-// ---------- gallery: official media page (e.g. Rockstar's GTA VI site, a brand newsroom) ----------
-// Downloads the page's large images into library/img/<slug>/ and builds one numbered contact
-// sheet (sheet.png) so the editor can pick frames by looking at a single image.
-//   photo.js gallery <official-url> --owner "Rockstar Games" --slug rockstar-vi [--max 80]
-async function gallery(url, owner, slugName) {
-  if (!url || !owner) fail('usage: gallery <official-url> --owner "Name" --slug short-name');
-  const dir = path.join(LIB, "img", slug(slugName || owner));
-  const sheet = path.join(dir, "sheet.png");
-  if (fs.existsSync(sheet) && !rest.includes("--refresh")) {
-    const n = fs.readdirSync(dir).filter((f) => /^\d+\./.test(f)).length;
-    return out({ ok: true, cached: true, sheet: path.relative(ROOT, sheet), images: n, credit: `Image: ${owner}`, use: `${path.relative(ROOT, dir)}/<number>.jpg` });
-  }
-  const html = (await get(url)).replace(/&amp;/g, "&");
-  // Each picture appears once with all its sizes (srcset "url 640w, url 2560w" or ?imwidth=).
-  // Group by file and keep only the biggest version, so we download each picture once.
-  const best = new Map();
-  const add = (raw, w) => {
-    let u; try { u = new URL(raw, url); } catch { return; }
-    if (!/\.(jpe?g|png|webp)$/i.test(u.pathname) || /logo|icon|favicon|sprite|button|badge|FOB_|edition|pre-load|background\./i.test(u.pathname)) return;
-    const width = w || Number(u.searchParams.get("imwidth") || u.searchParams.get("w") || u.searchParams.get("width") || 0);
-    const key = u.origin + u.pathname, cur = best.get(key);
-    if (!cur || width > cur.width) best.set(key, { u: u.toString(), width });
-  };
-  for (const m of html.matchAll(/srcset="([^"]+)"/gi)) for (const part of m[1].split(",")) { const [src, w] = part.trim().split(/\s+/); add(src, parseInt(w) || 0); }
-  for (const m of html.matchAll(/(https:\/\/[^"'\s\\]+|\/[^"'\s\\]+)\.(?:jpe?g|png|webp)(?:\?[^"'\s\\]*)?/gi)) add(m[0], 0);
-  const urls = [...best.values()].sort((x, y) => y.width - x.width).map((x) => x.u);
-  fs.mkdirSync(dir, { recursive: true });
-  const max = Number(opt("max") || 12), kept = [], seen = new Set();
-  for (const u of urls) {
-    if (kept.length >= max) break;
-    try {
-      const { buf, type } = await get(u, "bin");
-      if (!/^image\//.test(type)) continue;
-      const hash = crypto.createHash("sha1").update(buf).digest("hex");
-      if (seen.has(hash)) continue;
-      seen.add(hash);
-      const ext = /png/.test(type) ? ".png" : /webp/.test(type) ? ".webp" : ".jpg";
-      const f = path.join(dir, `${String(kept.length + 1).padStart(2, "0")}${ext}`);
-      fs.writeFileSync(f, buf);
-      const [w, h] = size(f);
-      if (w && Math.min(w, h) < 700) { fs.rmSync(f); continue; }
-      kept.push({ file: path.relative(ROOT, f), image_url: u, w, h });
-    } catch {}
-  }
-  if (!kept.length) fail("no large images on that page");
-  // contact sheet: numbered thumbnails, rendered with the same Chrome the slides use
-  const CHROME = process.env.CHROME || (process.platform === "darwin" ? "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" : "google-chrome");
-  const cells = kept.map((k, i) => `<div style="position:relative;width:240px;height:150px;margin:3px;background:#222 center/cover url('file://${path.join(ROOT, k.file)}')"><b style="position:absolute;left:4px;top:4px;background:#C8A96A;color:#000;font:700 20px Arial;padding:1px 6px">${i + 1}</b></div>`).join("");
-  const rows = Math.ceil(kept.length / 4);
-  fs.writeFileSync(path.join(dir, "sheet.html"), `<html><body style="margin:0;background:#000;display:flex;flex-wrap:wrap;width:984px">${cells}</body></html>`);
-  execFileSync(CHROME, ["--headless=new", "--disable-gpu", "--hide-scrollbars", "--allow-file-access-from-files", `--window-size=984,${rows * 156 + 4}`, `--screenshot=${sheet}`, "file://" + path.join(dir, "sheet.html")], { stdio: "ignore" });
-  fs.rmSync(path.join(dir, "sheet.html"));
-  for (const k of kept) save({ kind: "gallery", title: `${owner} image ${path.basename(k.file)}`, source: url, ...k, ref_on_page: null, rights: "official", creator: owner, credit: `Image: ${owner}`, usage: `${owner} official media image, credited`, fetched: new Date().toISOString().slice(0, 10) });
-  out({ ok: true, sheet: path.relative(ROOT, sheet), images: kept.length, credit: `Image: ${owner}`, use: `${path.relative(ROOT, dir)}/<number>.jpg`, note: "Read sheet.png once and pick by number" });
-}
-
-// ---------- credited: article images whose own credit line names an owner we have permission from ----------
-// Only for owners listed in state/owner-taste.md as having given permission (e.g. Rockstar Games).
-// Takes images credited to that owner ALONE; an image co-credited to anyone else is skipped.
-//   photo.js credited <article-url> --credit Rockstar --owner "Rockstar Games" --slug gta6-esquire
-async function credited(url, word, owner, slugName) {
-  if (!url || !word || !owner) fail('usage: credited <article-url> --credit Rockstar --owner "Rockstar Games" --slug name');
-  const taste = fs.existsSync(path.join(ENGINE, "state/owner-taste.md")) ? fs.readFileSync(path.join(ENGINE, "state/owner-taste.md"), "utf8") : "";
-  if (!new RegExp(`${owner}[^\\n]*permission|permission[^\\n]*${owner}`, "i").test(taste)) fail(`no owner permission for ${owner} in state/owner-taste.md`);
-  const html = (await get(url)).replace(/&amp;/g, "&");
-  const host = new URL(url).hostname.replace(/^www\./, "").split(".")[0];
-  const dir = path.join(LIB, "img", slug(slugName || `${owner}-${host}`));
-  fs.mkdirSync(dir, { recursive: true });
-  const found = [];
-  for (const m of html.matchAll(/<img[^>]+>/gi)) {
-    const src = (m[0].match(/src="([^"]+)"/) || [])[1]; if (!src) continue;
-    const alt = (m[0].match(/alt="([^"]*)"/) || [])[1] || "";
-    const after = strip(html.slice(m.index + m[0].length, m.index + m[0].length + 400));
-    const creditLine = after.split(/\s{2,}| (?=[A-Z][a-z]+ [A-Z])/)[0].slice(0, 60);       // text right under the image
-    if (!after.toLowerCase().startsWith(word.toLowerCase()) || /^\s*(\/|,|&|and\b)/i.test(after.slice(word.length))) continue;   // credited to the owner alone
-    const next = after.slice(word.length).split("<")[0].trim().slice(0, 80);                 // usually the next heading
-    const u = new URL(src, url); for (const k of ["resize", "crop", "w", "width"]) u.searchParams.delete(k);
-    found.push({ u: u.toString(), alt, next, creditLine });
-  }
-  if (!found.length) fail(`no images credited only to ${word} on that page`);
-  const kept = [];
-  for (const [i, f] of found.slice(0, 10).entries()) {
-    try {
-      const d = await download(f.u, `${path.basename(dir)}/${String(i + 1).padStart(2, "0")}`);
-      const e = { kind: "credited", title: `${owner} image ${i + 1}: ${f.alt.slice(0, 80)}`, about: f.next, source: url, image_url: f.u, ...d,
-        rights: "licensed", creator: owner, credit: `Image: ${owner}, via ${host[0].toUpperCase() + host.slice(1)}`, usage: `${owner} image used with owner-stated permission, credited`, fetched: new Date().toISOString().slice(0, 10) };
-      save(e); kept.push({ photo: e.file, shows: f.alt.slice(0, 70), next_heading: f.next.slice(0, 50) });
-    } catch {}
-  }
-  out({ ok: true, credit: `Image: ${owner}, via ${host[0].toUpperCase() + host.slice(1)}`, images: kept });
-}
-
 // ---------- Wikimedia Commons licence lookup ----------
 async function commonsInfo(fileTitles) {
   const q = new URLSearchParams({ action: "query", format: "json", formatversion: "2", prop: "imageinfo", iiprop: "url|extmetadata|size", iiurlwidth: "1600", titles: fileTitles.join("|") });
@@ -323,8 +230,6 @@ try {
   if (cmd === "watch") await watch(arg, opt("brand"), opt("ref"));
   else if (cmd === "person") await person(arg);
   else if (cmd === "press") await press(arg, opt("brand"), opt("person"));
-  else if (cmd === "gallery") await gallery(arg, opt("owner"), opt("slug"));
-  else if (cmd === "credited") await credited(arg, opt("credit"), opt("owner"), opt("slug"));
   else if (cmd === "commons") await commons(arg, opt("ref"));
   else if (cmd === "find") find(arg);
   else fail("commands: watch <url> --brand B --ref R | person \"Name\" | commons \"words\" [--ref R] | find \"words\"   (add --project <P> to register)");

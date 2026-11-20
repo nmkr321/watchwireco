@@ -1,10 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- 2026-11-20 [any] At most one [[highlight]] per slide; a cover's line2 is already gold, so never wrap it in [[ ]].
-- 2026-11-20 [CELEBRITY] Never state a celebrity's watch model, dial or strap unless the source names it; an old ambassador deal needs a fresh angle, never "new".
-- 2026-11-20 [AUCTIONS] Post an auction only with a confirmed result (hammer price, fees stated); starting bids and estimates are not results.
-- 2026-11-20 [WOULD YOU RATHER] Same-money pairs must be within 10% on dated official prices; use library prices (photo.js find) and don't re-fetch them.
 - 2026-11-20 [BUILD YOUR COLLECTION] Viewer picks: one A-pick3 per tier, different watch types, short model names (refs go in the caption).
 - 2026-11-20 [STORY BEHIND] Every photo needs a rights entry (licence, author, URL) in assets/manifest.json before it goes on a slide; otherwise drop the photo.
 - 2026-11-20 [STORY BEHIND] Keep text off the watch dial and busy photo areas; dim overlays only enough that the watch stays clearly visible and credits stay readable.
@@ -41,3 +37,7 @@ The editor reads this before every post. Written automatically from rejections; 
 - 2026-11-20 [LISTICLE] Count an item toward a format's minimum only if it has every required field (dated price, rights-cleared photo, opened source).
 - 2026-11-20 [STORY BEHIND] Each slide claim needs a cited source that actually supports it; attribute opinions to their author or cut them, and seek a second source for key facts.
 - 2026-11-20 [STORY BEHIND] Caption credits must match the slides: credit only photos shown on a slide, and list every shown photo's credit in the manifest.
+- 2026-11-20 [STORY BEHIND] Never put a source or publication name (Wikipedia, Gear Patrol) in a slide headline or tag; name sources only in the caption.
+- 2026-11-20 [STORY BEHIND] A project missing caption.json, carousel.json or assets/manifest.json fails validate; run validate and confirm PASS before submitting.
+- 2026-11-20 [LISTICLE] Caption and final CTA slide must carry the same closing question; check both match before submitting.
+- 2026-11-20 [LISTICLE] Centre each slide's content block between header and footer, and keep clear space above the footer; fix spacing in the template before submitting.
