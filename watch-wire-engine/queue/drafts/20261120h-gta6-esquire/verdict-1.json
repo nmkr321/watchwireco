@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 4,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "7: slide 2 inset is not the named reference. Slide 2 names the Day-Date 40, ref. 228238 (black dial, fluted bezel), but the inset is a champagne-dial, jubilee-style Day-Date.",
+    "7: slide 3 inset is a blue-dial two-tone Submariner (16613), not the plain metal Submariner the slide describes. The library has the official 126610LN image.",
+    "7: the project's assets/manifest.json is empty, so none of the photos are registered with a rights value."
+  ],
+  "fixes": [
+    "slide 2: replace the inset with the 228238 photo from the library (rolex-228238), or change the headline to 'Rolex Day-Date' and drop the ref. and '40'. The inset must match the black dial and fluted bezel.",
+    "slide 3: replace the inset with the library 126610LN official image, credited to the brand or official retailer. Update the credit line and the caption's Submariner credit to match.",
+    "All photo slides: register every Rockstar image and watch photo in assets/manifest.json with rights 'licensed' or 'official'. Credits on slides 2–5 should name the full watch credit (e.g. 'Watch: Wikimedia, WALLI1912'), not just 'Wikimedia'.",
+    "Slide 3: the credit line sits over a busy neon area and is hard to read. Use a shorter credit, or an image crop that keeps it legible."
+  ],
+  "reason": "The facts are properly attributed to Esquire and the layout is clean. The Day-Date and Submariner insets don't show the watches the slides name, and the photo manifest is empty. Fix those and it should be approvable."
+}

@@ -1,9 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [AUCTIONS] Only confirmed results (hammer price, fees stated, house, date); never starting bids or estimates.
-- [WOULD YOU RATHER] Same-money pairs within 10% on dated official prices.
-- [BUILD YOUR COLLECTION] One A-pick3 per tier, different watch types, short model names (refs in caption).
 - [STORY BEHIND] Attribute opinions to their author; key facts need two sources or the brand's own history page.
 - [STORY BEHIND] Centre each slide's text block vertically, leave no large empty gap, and use a photo cover when the library has a fitting photo.
 - [STORY BEHIND] Use library photos on story slides where they fit; the caption lists author and licence for every photo used.
@@ -22,3 +19,6 @@ The editor reads this before every post. Written automatically from rejections; 
 - [LISTICLE] Each slide footer names only the sources behind that slide's price, taken from its source field; never list every source on every slide.
 - [LISTICLE] Caption source lines use the same wording as the slide footers, and a price backed by two sources names both.
 - [any] Value first (owner): every post needs a reason to save or comment: a clear use/buyer, a season or news hook, or a choice to make. Lists keep one niche and a tight price band.
+- [LISTICLE] Build the candidate list from models that already have a registered library photo and two named outlets, so most items pass on first research.
+- [LISTICLE] Use only the library image matching the slide's exact reference; never substitute a similar-looking model or variant.
+- [LISTICLE] Credit lines name the watch's full credit (e.g. 'Watch: Wikimedia, WALLI1912') and sit on a plain area, never over busy image detail.

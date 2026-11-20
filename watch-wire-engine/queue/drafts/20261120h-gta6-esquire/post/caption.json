@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "GTA 6 is out, and Esquire has matched the in-game watches to real ones. The gold Crowex is a near dead ringer for the Rolex Day-Date. A silver chronograph resembles the Rolex Daytona, a metal sports watch recalls the Submariner, and a digital watch resembles the Casio Pro Trek range. Covgari owes more to Audemars Piguet, and Takio nods to the Casio F-91W. Esquire reportedly counts 34 collectible watches in the game.\n\nSource: Esquire UK (19 Nov 2026); Day-Date match also watchesoff5th, citing GQ and WatchPro.\nImages: Rockstar Games, via Esquire. Watch photos: Submariner 126610LN, Rolex official; Casio Pro Trek, Wikimedia Commons, Geographer, CC BY 2.5; Daytona 126500LN, Rolex.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4",
+    "CLM-5",
+    "CLM-6",
+    "CLM-7",
+    "CLM-8"
+  ],
+  "source_ids": [
+    "SRC-ESQ",
+    "SRC-WOF5"
+  ],
+  "attribution": "Source: Esquire UK (19 Nov 2026); watchesoff5th citing GQ and WatchPro.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Daytona, Submariner and Pro Trek rest on Esquire's own comparisons."
+  ],
+  "carousel_sha256": "274dd99c526de4c77b8e3d74274dd45b138a12e1dfe3c1ba05222e371955a74e",
+  "completed_at": "2026-11-20T23:26:33.125Z"
+}

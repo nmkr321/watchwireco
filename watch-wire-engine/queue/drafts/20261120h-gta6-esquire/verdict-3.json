@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 4,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. The round-2 fixes are in: slide 2 is now a full-width game image, the slide 4 credit is shortened, and slide 6 is 14 words. Every claim is attributed to Esquire UK, the 34-watch figure is marked as reported, and Rockstar images are covered by the owner's permission. I did not re-fetch the Esquire page, because the engine had already read it (`verified_facts`) and it blocks cloud servers. Visual is held at 3 because the Day-Date slide has no watch photo."
+}

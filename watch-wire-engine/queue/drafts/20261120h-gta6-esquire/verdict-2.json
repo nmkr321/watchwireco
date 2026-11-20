@@ -1,0 +1,22 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 4,
+    "hook": 4,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "6: slide 2 shows a blank cream inset box with no watch in it, so the slide looks broken.",
+    "7: slide 2 is an A-spotted slide with no watch photo. The Day-Date has no matching image on disk.",
+    "6/soft: slide 6 body is 24 words, over the 15-word limit."
+  ],
+  "fixes": [
+    "slide 2: remove the empty inset box, or fill it with an official or licensed photo of a black-dial, fluted-bezel Rolex Day-Date 228238. If no photo can be found, render this slide without an inset, as a full-width game image. Credit the photo in the caption and on the slide.",
+    "slide 6: cut the body to 15 words or fewer. For example, 'Covgari nods to Audemars Piguet. Takio's F-BLAST echoes the Casio F-91W, per Esquire.' Move the 34-watch figure to the caption, or give it its own short slide.",
+    "slide 4: the credit line sits over a busy photo. Shorten it to 'Rockstar, via Esquire · Watch: Rolex', as on slide 3."
+  ],
+  "reason": "Slide 2 has an empty white box where the Day-Date photo should be, and slide 6 has too much text. The facts are properly attributed to Esquire, so fix those two slides and it should be approvable."
+}
