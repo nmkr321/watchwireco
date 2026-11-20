@@ -1,0 +1,19 @@
+{
+  "id": "20261120c-listicle-gta6-backup",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-20T22:12:17.815Z",
+  "post_at": "2026-11-21T00:30:00Z",
+  "backup_for": "20261120c-listicle-gta6",
+  "format": "WOULD YOU RATHER",
+  "title": "Backup post for the slot of: The watches of Grand Theft Auto 6 and their real-life inspiration",
+  "hook": "",
+  "why": "Evergreen backup. Build it only from watch-wire-engine/library (photo.js find: verified prices with source and date, official photos). Pick watches not used in the last 3 days of queue/posted.",
+  "sources": [],
+  "previous_attempts": [
+    "No same-money pair from the library without reusing a watch already scheduled. Library watches with dated official prices: Rolex 126610LN $11,350; Rolex 126710BLNR $11,800 (in approved collection-tiers); Rolex 124060 $10,050 (approved collection-tiers); Rolex 224270 $8,350 (approved same-money WYR);",
+    "No unscheduled same-money pair in the library. Every library watch with a dated official price (Omega 210.30.42.20.01.001 $6,700; 310.30.42.50.01.002 $9,000; Breitling A17366D81C1A1 $4,950 and AB0139A71G1A1 $10,700; Cartier WSTA0141 $5,700; Longines L2.793.4.78.3 $2,550; Nomos Tangente 38 165 $2,510"
+  ],
+  "stop_reason": "Held for owner decision, attempt 3. The library has no unscheduled same-money pair (within ~10%) built from dated official prices. Prices: Rolex 126500LN $16,900 (only in a rejected draft, no partner in range); Rolex 126610LN $11,350 (already in drafts/20261120b-collection-25k); Breitling AB0139A71G1A1 $10,700 (in approved collection-tiers); Rolex 126710BLNR $11,800 and 124060 $10,050 (approved collection-tiers); Omega 310.30.42.50.01.002 $9,000 (approved WYR and collection-tiers); Rolex 224270 $8,350 (approved same-money WYR); Omega 210.30.42.20.01.001 $6,700, Cartier WSTA0141 $5,700, Breitling A17366D81C1A1 $4,950, Longines L2.793.4.78.3 $2,550, Nomos Tangente 38 165 $2,510 (all in approved collection-tiers or the draft). Owner decision needed: (a) allow a new library watch from an official page (e.g. one in the $8k-$9k or $15k-$18k range to pair with an unused one), or (b) allow this WYR to reuse a watch already scheduled, or (c) retire this backup slot.",
+  "gave_up": true
+}

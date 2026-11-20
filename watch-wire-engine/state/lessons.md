@@ -23,3 +23,10 @@ The editor reads this before every post. Written automatically from rejections; 
 - 2026-11-20 [LISTICLE] 2026-11-20 [LISTICLE] Don't retry a blocked source in later attempts; switch to an accessible source or hold the candidate that round.
 - 2026-11-20 [LISTICLE] 2026-11-20 [LISTICLE] After two held attempts on one candidate, send the owner one specific decision question rather than re-running the editor.
 - 2026-11-20 [LISTICLE] [LISTICLE] A search snippet is not a read: never build claims from search results alone; open a primary page first or hold the candidate.
+- 2026-11-20 [WOULD YOU RATHER] Before writing any copy, confirm the library holds every photo, price and source the format needs; if one is missing, hold the candidate and name the gap.
+- 2026-11-20 [WOULD YOU RATHER] - 2026-11-20 [any] Before choosing a subject, check queue/posted for its use in the last 3 days; skip any watch, photo or topic used recently.
+- 2026-11-20 [WOULD YOU RATHER] Before choosing a subject, check queue/approved, queue/drafts and queue/ideas as well as queue/posted for the same watch, price or pair, and skip any already scheduled.
+- 2026-11-20 [WOULD YOU RATHER] After a held attempt, change the subject or pairing before rebuilding. Don't retry the same candidate with only wording changes.
+- 2026-11-20 [WOULD YOU RATHER] If no unscheduled pair meets the 10% rule, hold the candidate. Never fill the gap by reusing a watch already scheduled in any format.
+- 2026-11-20 [WOULD YOU RATHER] Prices count as library data only from dated official sources; a price found only in a rejected or held draft does not count.
+- 2026-11-20 [WOULD YOU RATHER] When no pair qualifies, the hold note must list each price checked and the reason it failed.
