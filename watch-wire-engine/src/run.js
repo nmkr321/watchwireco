@@ -229,7 +229,8 @@ function recentHeadlines() {
 function plan(opts = {}) {
   const posted = fs.readdirSync(Q("posted")).concat(fs.readdirSync(Q("approved"))).filter((f) => f.endsWith(".json"))
     .map((f) => { try { return readJson(path.join(Q(fs.existsSync(path.join(Q("posted"), f)) ? "posted" : "approved"), f)).title; } catch { return ""; } }).filter(Boolean).slice(-40);
-  const day = new Date(Date.now() + (opts.today ? 0 : 864e5));
+  // before noon New York (the overnight run) plans today; after noon plans tomorrow
+  const day = new Date(Date.now() + ((opts.today || new Date().getHours() < 12) ? 0 : 864e5));
   const dayOfYear = Math.floor((day - new Date(day.getFullYear(), 0, 0)) / 864e5);
   const dayKey = `${day.getFullYear()}-${String(day.getMonth() + 1).padStart(2, "0")}-${String(day.getDate()).padStart(2, "0")}`;
   const slotDefs = opts.slots || (schedule.overrides || {})[dayKey] || schedule.slots;
@@ -386,8 +387,12 @@ function tidy() {
 
 async function makeIdeas() {
   reviveRejected();
-  for (const f of fs.readdirSync(Q("ideas")).filter((x) => x.endsWith(".json"))) {
+  // earliest post first, and save after each one so the publisher sees it while the rest are still being made
+  const ideas = fs.readdirSync(Q("ideas")).filter((x) => x.endsWith(".json"))
+    .map((f) => { let t = ""; try { t = readJson(path.join(Q("ideas"), f)).post_at || ""; } catch {} return [t || "9", f]; }).sort().map(([, f]) => f);
+  for (const f of ideas) {
     try { makeWithRetries(path.join(Q("ideas"), f)); } catch (e) { log(`error on idea ${f}: ${e.message}`); }
+    if (process.env.GITHUB_ACTIONS) spawnSync("bash", [path.join(ROOT, "src/save.sh"), f.replace(/\.json$/, "")], { stdio: "inherit" });
   }
 }
 
