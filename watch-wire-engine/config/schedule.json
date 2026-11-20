@@ -16,13 +16,14 @@
       "formats": [
         "CELEBRITY",
         "WOULD YOU RATHER",
+        "STORY BEHIND",
         "BUILD YOUR COLLECTION",
         "CELEBRITY",
         "WOULD YOU RATHER",
-        "LISTICLE",
-        "BUILD YOUR COLLECTION"
+        "STORY BEHIND",
+        "LISTICLE"
       ],
-      "_note": "weekly rotation weighted by the 2026-11-19 audit; BUILD YOUR COLLECTION added 2026-11-20 by the owner (replaced one LISTICLE and MARKET; market news still runs in the 08:30 news slot)"
+      "_note": "cycles by day of year; owner 2026-11-20: added STORY BEHIND (people or watches that changed watchmaking), tiered BUILD YOUR COLLECTION; never the same type twice in a row"
     },
     {
       "time": "19:30",
@@ -30,7 +31,7 @@
       "formats": [
         "HISTORY"
       ],
-      "_note": "history must open with a tension hook (The Dial style); plain date+fact history flopped in the audit"
+      "_note": "tension hook (The Dial style). On days the midday post is STORY BEHIND, the evening post must be a different type (LISTICLE, MARKET or WOULD YOU RATHER)."
     }
   ],
   "breaking": {

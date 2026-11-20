@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 5,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. All nine prices match verified claims from official brand or retailer pages dated 20 Nov 2026, and each sits under its tier cap. All nine photos are in the library with official rights and are credited, and the layout is balanced on every slide. Not a repeat, and it's evergreen, so it can go in the next slot."
+}

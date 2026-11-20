@@ -211,7 +211,12 @@ function plan() {
   const day = new Date(Date.now() + 864e5);
   const weekday = day.getDay();
   const rotation = schedule.slots.find((s) => s.lane === "rotation").formats;
-  const midFormat = rotation[weekday % rotation.length];
+  const dayOfYear = Math.floor((day - new Date(day.getFullYear(), 0, 0)) / 864e5);
+  let midFormat = rotation[dayOfYear % rotation.length];
+  // never the same type twice in a row: skip a format that matches the last post
+  const lastFmt = fs.readdirSync(Q("posted")).filter((f) => f.endsWith(".json")).map((f) => readJson(path.join(Q("posted"), f))).sort((a, b) => Date.parse(a.posted_at) - Date.parse(b.posted_at)).pop()?.format;
+  if (midFormat === lastFmt) midFormat = rotation[(dayOfYear + 1) % rotation.length];
+  const eveFormat = midFormat === "STORY BEHIND" ? "LISTICLE" : "STORY BEHIND or HISTORY (alternate: a person who changed watchmaking, or the story behind one famous watch)";
   const schema = JSON.stringify({ type: "object", required: ["ideas"], properties: { ideas: { type: "array", items: {
     type: "object", required: ["lane", "format", "title", "hook", "why", "sources_to_check"],
     properties: { lane: { enum: ["rotation", "history"] }, format: { type: "string" }, title: { type: "string" }, hook: { type: "string" },
@@ -219,7 +224,7 @@ function plan() {
   const prompt = `Read watch-wire-engine/FORMATS.md only.
 Plan two Watch Wire posts for ${day.toDateString()}:
 1. lane "rotation", format ${midFormat}.
-2. lane "history", format HISTORY, with a tension hook in The Dial style. Prefer an "On This Day" anniversary for ${day.toDateString()} if a real, checkable one exists; otherwise How It Started or The Story Behind.
+2. lane "history", format ${eveFormat}, with a tension hook in The Dial style; it must not be the same format as post 1. Prefer an "On This Day" anniversary for ${day.toDateString()} if a real, checkable one exists; otherwise How It Started or The Story Behind.
 Use the format's hook pattern. Photo formats (CELEBRITY, WOULD YOU RATHER, BUILD YOUR COLLECTION): name every watch by brand, model and exact reference, with current US retail prices you can source; for CELEBRITY pick a watch a trusted watch outlet reported the person wearing. Each idea must be provable from primary or trusted sources; list the exact URLs or source names to check.
 Do not repeat any of these recent posts: ${JSON.stringify(posted)}`;
   const out = parseResult(claude(["--output-format", "json", "--json-schema", schema, "--max-budget-usd", "0.15", "--effort", EFFORT.planner, "--allowedTools", "Read WebSearch WebFetch"], prompt, "planner"));

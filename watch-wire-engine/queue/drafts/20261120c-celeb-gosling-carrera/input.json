@@ -1,0 +1,25 @@
+{
+  "id": "20261120c-celeb-gosling-carrera",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "status": "idea",
+  "found_at": "2026-11-20T21:15:00Z",
+  "post_at": "2026-11-20T23:30:00Z",
+  "title": "The watch Ryan Gosling wears for TAG Heuer",
+  "hook": "Ryan Gosling's TAG Heuer Carrera.",
+  "why": "Evergreen celebrity post, not news: never say 'new'. Gosling became a TAG Heuer ambassador in October 2021 with the Carrera Three Hands campaign (confirm on TAG Heuer's own magazine page and LVMH). Cover: the TAG Heuer campaign photo of him wearing the Carrera (photo.js press, already in the library as press-tag-heuer-ryan-gosling.jpg). Use only facts on those two pages.",
+  "sources": [
+    {
+      "title": "TAG Heuer Magazine: New brand ambassador Ryan Gosling",
+      "link": "https://magazine.tagheuer.com/en/2021/10/12/new-brand-ambassador-ryan-gosling-tag-heuer-carrera-three-hands/",
+      "source": "TAG Heuer",
+      "tier": "official"
+    },
+    {
+      "title": "LVMH: Ryan Gosling becomes new TAG Heuer ambassador",
+      "link": "https://www.lvmh.com/news-documents/news/ryan-gosling-becomes-new-tag-heuer-ambassador/",
+      "source": "LVMH",
+      "tier": "official"
+    }
+  ]
+}

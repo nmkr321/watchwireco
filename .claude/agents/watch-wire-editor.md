@@ -45,10 +45,12 @@ Read `watch-wire-engine/FORMATS.md` (voice, rules, hook pattern and recipe per f
    slides are photo slides (A-photo, A-spotted, A-wyr); A-photo `fit:"cover"` for people and
    campaign shots. Headlines 2–6 words, body 15 words max. Text-only slides only for a
    number or table. Photo slide fields: A-photo {label, headline, photo, credit, body?, fit?};
-   A-spotted {label, headline, photo, watch, credit, body?}; A-wyr {tag, left:{brand, model,
-   price, photo}, right:{...}, credit}; A-cover {tag, line1, line2, meta, photo, credit}.
-   Templates: A for news/market/auctions/would-you-rather/celebrity, D for
-   story/history, never mixed; end with `cta`; at most one `[[highlight]]` per slide.
+   A-spotted {label, headline, photo, watch, credit, body?}; A-pick3 {label, headline,
+   options:[{brand, model, price, photo} x3], credit} (BUILD YOUR COLLECTION tiers); A-wyr {tag, left:{brand, model,
+   price, photo}, right:{...}, credit}; A-cover {tag, line1, line2, meta, photo, credit};
+   D-cover {tag, headline, photo, credit}; D-body {kicker, text, photo?, credit (required with photo)}.
+   Templates: A for news/market/auctions/would-you-rather/celebrity/collection, D for
+   story/history/story behind, never mixed; end with `cta`; at most one `[[highlight]]` per slide.
    Slide counts: NEWS/MARKET 5–6, RELEASES/AUCTIONS 6–8, CELEBRITY 5–7, WYR 4–5,
    HISTORY 7–10, LISTICLE 8–10. Keep headlines under ~40 characters.
 5. Caption: write `<P>/caption.json` like the example (ends with source line and

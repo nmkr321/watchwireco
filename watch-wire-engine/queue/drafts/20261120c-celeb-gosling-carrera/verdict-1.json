@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 2: slides 2-4 footer cites 'LVMH' as a source, but research.json GAP-1 says the LVMH release was never read.",
+    "Gate 4: slide 4 says the shoot 'aims to feel timeless and current'. TAG Heuer's article says 'timeless and timely' and never says 'colour-led'.",
+    "Gate 6: slide 4 has a cream band with a smeared dark fade under the photo, which looks like a flaw.",
+    "Soft total is 15/25, below the 17 needed."
+  ],
+  "fixes": [
+    "slides 2-4: change the footer source to 'SOURCE: TAG HEUER MAGAZINE · OCT 2021' and drop LVMH",
+    "slide 4: change the body to 'Dukovic calls the portraits timeless and timely.' If you can't quote that, use 'Campaign image: steel bracelet, silver dial.'",
+    "slide 4: use a full-bleed photo layout like slide 2, or a clean photo block with no cream band or smeared fade",
+    "slide 2: change the headline to 'Gosling picked the photographer', since it currently repeats the cover",
+    "Add a fresher angle to the cover or slide 2, such as a current Carrera or ambassador news item with a date. The post is a 2021 campaign with no new development, so news scores 2."
+  ],
+  "reason": "The facts match TAG Heuer's own article, but the footer cites LVMH as a source we never read. Slide 4 misquotes the article and has an awkward cream band. The post is also a 2021 story with nothing new, so it scores 15/25, which is under the 17 needed."
+}

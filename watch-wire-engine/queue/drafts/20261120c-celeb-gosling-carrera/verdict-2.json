@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 2/4: the cover says 'wears TAG Heuer Carrera'. TAG Heuer's article never says which watch Gosling wears in the campaign images (my fetch and research.json's own analysis both say so). The cover and slide 4 tie him to a specific model, and slide 4 gives the strap and dial as fact.",
+    "Gate 2: 'five years on' on the cover has no verified claim behind it.",
+    "Soft total is 14/25, below the 17 needed."
+  ],
+  "fixes": [
+    "slide 1: change the headline to 'Gosling: TAG Heuer's Face Since 2021' (or similar). Do not claim he wears a Carrera. Change the gold line to 'Carrera Three Hands campaign' and the body to 'Brand ambassador since Oct 2021'. Drop 'five years on'.",
+    "slide 4: change the headline to 'The Campaign Image' and the body to 'TAG Heuer's campaign portrait for the Carrera Three Hands launch.' Remove 'steel bracelet, silver dial' and 'On the campaign wrist', since the article does not identify the watch. Or cut the slide and keep the post at 4 slides.",
+    "slide 3: keep the table. Change the body to 'Two references appear in TAG Heuer's image captions: WBN2111.BA0639, WBN2112.BA0639.' Do not link them to the watch in the photo.",
+    "caption: delete 'In the campaign image he wears a steel bracelet watch with a silver dial.' Say the article does not name the watch he wears.",
+    "Add a current angle with a date. This is a 2021 campaign with nothing new, so news scores 2 and the post is not worth posting as it stands."
+  ],
+  "reason": "The ambassador, photographer and collection facts match TAG Heuer's own article, and the photo rights and credits are fine. But the post says Gosling wears a Carrera, and with a steel bracelet and silver dial, and TAG Heuer never says that. It is also five-year-old news with no new angle, so it scores 14/25."
+}

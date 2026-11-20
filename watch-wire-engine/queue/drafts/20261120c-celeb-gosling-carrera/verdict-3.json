@@ -1,0 +1,22 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 2/3/4: Slide 5's premiere and Seafarer claim (9 March 2026, London, Project Hail Mary) has no verified claim in research.json. CLM-5 only covers the campaign image. Esquire Australia and AOL are not listed as sources. The caption and the footers of slides 2-5 cite them anyway.",
+    "Gate 7: Slide 5 shows a December 2023 BFI portrait under a headline about a March 2026 premiere, and it shows no Seafarer watch."
+  ],
+  "fixes": [
+    "slide 5: Delete it, or rebuild it only after the premiere claim is added to research.json as a verified claim, from a primary source or two trusted outlets and kept as 'reportedly'. Then use a photo that shows that watch.",
+    "slides 2-5 footers and caption: Cite only 'TAG Heuer Magazine, Oct 2021'. Remove Esquire Australia and AOL unless they are verified in research.json.",
+    "slide 4: Replace it or merge it into the cover. It repeats the cover photo and adds nothing new. If you replace it, show a close-up of the watch on his wrist, since the watch is visible in the photo, and keep 'no watch identified'.",
+    "caption: Remove the premiere paragraph and 'Current angle'. Keep it to the verified October 2021 facts."
+  ],
+  "reason": "The post is built on a single official TAG Heuer article, and its facts check out. But slide 5 states a 2026 premiere watch that no claim in research.json supports, and it sits over an unrelated 2023 photo. Fix that and the repeated slide 4, then resubmit."
+}

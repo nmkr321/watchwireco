@@ -14,9 +14,10 @@
 //   A-text    label, headline, body                              plain explainer
 //   A-wyr     tag, left:{brand,model,price?,photo?}, right:{...}, prompt?   would you rather / same money
 //   A-photo   label, headline, photo, credit, body?, fit?        big photo on top + caps headline band (fit:"cover" for people/lifestyle shots; default shows the whole watch on ivory)
+//   A-pick3   label, headline, options:[{brand, model, price, photo},x3], credit?   one tier: 3 choices A/B/C
 //   A-spotted label, headline, photo (person), watch (watch image), credit, body?   person + inset watch
-//   D-cover   headline, photo?, credit?                          story cover (title case)
-//   D-body    kicker, text, photo?                               story beat
+//   D-cover   tag, headline, photo?, credit?                          story cover (title case)
+//   D-body    kicker, text, photo?, credit?                               story beat
 //   cta       line1?, line2?, body?                              closing slide (always last)
 // photo = local file path or https URL. credit = "Image: Brand".
 
@@ -80,17 +81,23 @@ tr.on td:last-child{color:var(--ch)}
 .or{font:600 88px var(--m);color:var(--ch)}
 .q{position:absolute;top:150px;left:0;right:0;text-align:center}
 .spot{position:absolute;inset:0 0 auto 0;height:860px;background:#141312 center 22%/cover no-repeat}.spot::before{content:"";position:absolute;inset:0 0 auto 0;height:240px;background:linear-gradient(rgba(11,11,12,.85),transparent)}.spot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:380px;background:linear-gradient(transparent,var(--jet))}
-.inset{position:absolute;right:48px;top:470px;width:340px;height:340px;border-radius:8px;background:#F4EFE6 center/82% no-repeat;box-shadow:0 18px 50px rgba(0,0,0,.55);border:3px solid var(--ch);z-index:2}
+.inset{position:absolute;right:48px;top:470px;width:340px;height:340px;border-radius:8px;background:#F4EFE6 center/82% no-repeat;background-blend-mode:multiply;box-shadow:0 18px 50px rgba(0,0,0,.55);border:3px solid var(--ch);z-index:2}
 .spotbox{position:absolute;left:48px;right:48px;bottom:150px;z-index:2}
-.hero{position:absolute;left:0;right:0;top:130px;height:770px;background:#F4EFE6 center/contain no-repeat;background-origin:content-box;padding:50px 90px 90px}.hero.cover{top:0;height:900px;padding:0;background-color:#141312;background-size:cover;background-position:center 30%}
+.hero{position:absolute;left:0;right:0;top:130px;height:770px;background:#F4EFE6 center/contain no-repeat;background-blend-mode:multiply;background-origin:content-box;padding:50px 90px 90px}.hero.cover{background-blend-mode:normal;top:0;height:900px;padding:0;background-color:#141312;background-size:cover;background-position:center 30%}
 .hero.cover::before{content:"";position:absolute;inset:0 0 auto 0;height:200px;background:linear-gradient(rgba(11,11,12,.85),transparent)}.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:160px;background:linear-gradient(transparent,var(--jet))}
 .heroband{position:absolute;left:48px;right:48px;top:870px;bottom:120px;display:flex;flex-direction:column;justify-content:center;text-align:center;z-index:2}.heroband .h{margin-top:12px}.heroband .body{margin-top:18px;font-size:30px}
+.p3{position:absolute;left:36px;right:36px;top:380px;display:flex;gap:24px}.p3 .o{flex:1;text-align:center}
+.p3 .pic{height:540px;border-radius:8px;background:#F4EFE6 center/contain no-repeat;background-blend-mode:multiply;background-origin:content-box;padding:28px;position:relative}
+.p3 .let{position:absolute;left:14px;top:14px;width:54px;height:54px;border-radius:50%;background:var(--ch);color:var(--jet);font:700 32px/54px var(--n)}
+.p3 .b{font:600 20px var(--b);letter-spacing:.14em;color:var(--smoke);text-transform:uppercase;margin-top:22px}
+.p3 .m{font:700 40px/1.05 var(--n);text-transform:uppercase;margin-top:6px;text-wrap:balance}.p3 .pr{font:600 28px var(--b);color:var(--ch);margin-top:10px}
 .single{width:100%;height:640px;background:var(--ink) center/contain no-repeat;border-radius:6px;margin-top:36px}
 .bg{position:absolute;inset:0;background:#2a2622 center/cover no-repeat}.ov{position:absolute;inset:0;background:rgba(11,11,12,.6)}
 .mono{position:absolute;top:72px;left:0;right:0;text-align:center;font:600 54px var(--m);z-index:2}
 .dh{position:absolute;top:330px;left:56px;right:56px;text-align:center;font:700 104px/1.03 var(--st);letter-spacing:-.02em;text-wrap:balance;z-index:2}
 .arr{position:absolute;top:1000px;left:50%;margin-left:-34px;width:68px;height:68px;border:3px solid var(--ivory);border-radius:50%;text-align:center;font:600 36px/60px var(--b);z-index:2}
 .wmd{position:absolute;bottom:72px;left:0;right:0;text-align:center;font:600 36px var(--m);letter-spacing:.06em;z-index:2}
+.dtag{position:absolute;top:220px;left:0;right:0;text-align:center;z-index:2}.dmid{position:absolute;top:50%;left:56px;right:56px;transform:translateY(-50%);text-align:center;z-index:2}.dmid .kick{position:static;margin-bottom:34px}.dmid .dp{position:static;margin:0}
 .kick{position:absolute;top:240px;left:0;right:0;text-align:center;font:600 22px var(--b);letter-spacing:.24em;color:var(--ch);text-transform:uppercase;z-index:2}
 .dp{position:absolute;top:330px;left:110px;right:110px;text-align:center;font:600 56px/1.3 var(--st);z-index:2}
 .cta{position:absolute;top:430px;left:80px;right:80px;text-align:center}.cta h1{font:700 104px/1.02 var(--n);text-transform:uppercase}
@@ -118,14 +125,16 @@ function render(s, i) {
     case "A-text": return `${WM}<div class="box mid"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div><p class="body">${hl(s.body)}</p></div>${foot()}`;
     case "A-wyr": { const side = (x) => `<div class="w"><div class="pic" style="background-image:url('${img(x.photo)}')"></div><p>${esc(x.brand)}<span>${esc(x.model)}</span>${x.price ? `<em>${esc(x.price)}</em>` : ""}</p></div>`;
       return `${WM}<div class="q"><span class="tag">${esc(s.tag || "WOULD YOU RATHER")}</span></div><div class="duo">${side(s.left)}<div class="or">or</div>${side(s.right)}</div>${credit}${foot(s.prompt || "Vote in the comments")}`; }
+    case "A-pick3": return `${WM}<div class="box" style="top:150px;text-align:center"><div class="lbl">${esc(s.label)}</div><div class="h" style="font-size:72px">${hl(s.headline)}</div></div>
+      <div class="p3">${(s.options || []).slice(0, 3).map((o, k) => `<div class="o"><div class="pic" style="background-image:url('${img(o.photo)}')"><span class="let">${"ABC"[k]}</span></div><div class="b">${esc(o.brand)}</div><div class="m">${esc(o.model)}</div><div class="pr">${esc(o.price)}</div></div>`).join("")}</div>${credit}${foot(s.footLeft || "Pick one · comment below")}`;
     case "A-spotted": return `<div class="spot" style="background-image:url('${img(s.photo)}')"></div><div class="inset" style="background-image:url('${img(s.watch)}')"></div>${WM}
       <div class="spotbox"><div class="lbl">${esc(s.label || "Spotted wearing")}</div><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body" style="margin-top:20px">${hl(s.body)}</p>` : ""}</div><div class="credit pcredit">${esc(s.credit || "")}</div>${foot()}`;
     case "A-photo": return `<div class="hero${s.fit === "cover" ? " cover" : ""}" style="background-image:url('${img(s.photo)}')"></div>${WM}<div class="heroband"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${s.credit ? `<div class="credit pcredit">${esc(s.credit)}</div>` : ""}${foot()}`;
     case "A-photo-old": return `${WM}<div class="box"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div><div class="single" style="background-image:url('${img(s.photo)}')"></div>${s.body ? `<p class="body" style="margin-top:28px">${hl(s.body)}</p>` : ""}</div>${credit}${foot()}`;
-    case "D-cover": return `<div class="bg" style="${s.photo ? `background-image:url('${img(s.photo)}')` : ""}"></div><div class="ov"></div><div class="mono">WW</div>
+    case "D-cover": return `<div class="bg" style="${s.photo ? `background-image:url('${img(s.photo)}')` : ""}"></div><div class="ov"></div><div class="mono">WW</div>${s.tag ? `<div class="dtag"><span class="tag">${esc(s.tag)}</span></div>` : ""}
       <h1 class="dh">${hl(s.headline)}</h1><div class="arr">→</div><div class="wmd">THE WATCH WIRE</div>${credit}`;
     case "D-body": return `<div class="bg" style="${s.photo ? `background-image:url('${img(s.photo)}')` : ""}"></div><div class="ov" style="background:rgba(11,11,12,.8)"></div><div class="mono">WW</div>
-      <div class="kick">${esc(s.kicker)}</div><p class="dp">${hl(s.text)}</p><div class="wmd">THE WATCH WIRE</div>`;
+      <div class="dmid"><div class="kick">${esc(s.kicker)}</div><p class="dp">${hl(s.text)}</p></div><div class="wmd">THE WATCH WIRE</div>${credit}`;
     case "cta": return `<div class="mono">WW</div><div class="cta"><h1>${hl(s.line1 || "Watch news.")}<br><span class="hl">${esc(s.line2 || "Every day.")}</span></h1>
       <p>${hl(s.body || "Releases, auctions, market moves and the stories behind the world's best watches.")}</p><div class="btn">FOLLOW @WATCHWIRECO</div></div><div class="wmd">THE WATCH WIRE</div>`;
     default: throw new Error(`slide ${i + 1}: unknown template "${s.t}"`);

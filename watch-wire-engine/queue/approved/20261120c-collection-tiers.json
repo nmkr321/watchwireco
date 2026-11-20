@@ -1,0 +1,30 @@
+{
+  "id": "20261120c-collection-tiers",
+  "lane": "rotation",
+  "format": "BUILD YOUR COLLECTION",
+  "status": "approved",
+  "found_at": "2026-11-20T21:30:00Z",
+  "post_at": "2026-11-21T02:45:00Z",
+  "title": "Build your 3-watch collection: one dress, one sports, one chronograph/GMT",
+  "hook": "Build Your 3-Watch Collection.",
+  "why": "Tiered BUILD YOUR COLLECTION (see FORMATS.md). Viewer picks one per tier; never pre-pick. Every price and photo is already in watch-wire-engine/library (photo.js find \"<ref>\": price with source and date, read 20 Nov 2026). Tier 1 Dress, up to $6,000: Longines Master Collection L2.793.4.78.3 $2,550; Nomos Tangente 38 165 $2,510; Cartier Tank Must XL WSTA0141 $5,700. Tier 2 Sports, up to $10,500: Breitling Superocean 42 A17366D81C1A1 $4,950; Omega Seamaster Diver 300M 210.30.42.20.01.001 $6,700; Rolex Submariner 124060 $10,050. Tier 3 Chronograph or GMT, up to $12,000: Omega Speedmaster Moonwatch 310.30.42.50.01.002 $9,000; Breitling Navitimer B01 41 AB0139A71G1A1 $10,700; Rolex GMT-Master II 126710BLNR $11,800. Slides: A-cover (meta 'One dress · one sports · one chronograph/GMT') → three A-pick3 → cta line1 'Comment your collection', line2 'e.g. 1B, 2A, 3C'. Caption lists all nine with prices and sources.",
+  "sources": [],
+  "scheduled_for": "2026-11-21T02:45:00Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/20261120c-collection-tiers",
+  "project_dir": "Content Creation/projects/20261120c-collection-tiers",
+  "post_dir": "watch-wire-engine/queue/drafts/20261120c-collection-tiers/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 5,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The check passes. All nine prices match verified claims from official brand or retailer pages dated 20 Nov 2026, and each sits under its tier cap. All nine photos are in the library with official rights and are credited, and the layout is balanced on every slide. Not a repeat, and it's evergreen, so it can go in the next slot."
+  }
+}
