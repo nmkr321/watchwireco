@@ -91,5 +91,15 @@ export async function publishPost(item, { live = false } = {}) {
   const carousel = await graph(`${process.env.IG_USER_ID}/media`, { media_type: "CAROUSEL", children: children.join(","), caption });
   await waitReady(carousel.id);
   const pub = await graph(`${process.env.IG_USER_ID}/media_publish`, { creation_id: carousel.id });
-  return { live: true, media_id: pub.id, plan };
+  return { live: true, media_id: pub.id, permalink: await permalink(pub.id), plan };
+}
+
+// the post's public link (instagram.com/p/...), for logs and the owner
+export async function permalink(mediaId) {
+  loadEnv();
+  try {
+    const v = process.env.GRAPH_VERSION || "v21.0";
+    const r = await fetch(`https://${process.env.GRAPH_HOST || "graph.instagram.com"}/${v}/${mediaId}?fields=permalink&access_token=${process.env.IG_ACCESS_TOKEN}`).then((x) => x.json());
+    return r.permalink || null;
+  } catch { return null; }
 }
