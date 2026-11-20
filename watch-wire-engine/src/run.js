@@ -184,7 +184,7 @@ export function make(file) {
     if (verdict.decision !== "revise" || round === 3) break;
     claude(["--agent", "watch-wire-editor", "--effort", EFFORT.editor, "--max-budget-usd", EDITOR_BUDGET,
       "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--disallowedTools", "Bash(git:*)", "--permission-mode", "acceptEdits", "--output-format", "json"],
-      `Revise the Watch Wire draft in ${draftDir} (project ${draft.project_dir}). Apply exactly these fixes, re-render, re-register, re-validate, update draft.json: ${JSON.stringify(verdict.fixes)}`,
+      `Revise the Watch Wire draft in ${draftDir} (project ${draft.project_dir}). Apply exactly these fixes, then run `node watch-wire-engine/src/steps.js finish <project>` until it says PASS, then update draft.json: ${JSON.stringify(verdict.fixes)}`,
       `editor-revise ${item.id}`);
   }
 
