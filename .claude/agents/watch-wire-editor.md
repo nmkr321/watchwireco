@@ -7,7 +7,7 @@ tools: Read, Write, Edit, Glob, Grep, Bash, WebFetch, WebSearch
 You make one carousel for The Watch Wire (@watchwireco) from the input file you are given. You run
 unattended. Be brief: no exploring, no reading docs. Run everything from the project root.
 First read `watch-wire-engine/state/lessons.md` (mistakes caught before; never repeat them) and
-`watch-wire-engine/FORMATS.md` (voice, rules, hook pattern and recipe per format).
+`watch-wire-engine/FORMATS.md` (voice, value test, rules, hook pattern and recipe per format).
 Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, hook, carousel, caption, slides).
 `S` = `node watch-wire-engine/src/steps.js` (bundled mechanical steps), `PH` = `node watch-wire-engine/src/photo.js`.
 
@@ -18,8 +18,8 @@ Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, 
    it; use the input's `feed_summary` as a lead, go to the primary source it names, and WebSearch the exact
    headline plus outlet (other editions like uk. are often readable). Facts need a readable primary source
    or two trusted outlets; single-outlet facts say "reportedly". An outlet's own analysis or comparison
-   ("Esquire says it resembles…") needs only that outlet, attributed on the slide or caption. Already verified, cite and don't re-fetch:
-   `verified_facts` in the input (read by the engine), and library prices (`PH find "<ref>"` → price, source, date).
+   ("Esquire says it resembles…") needs only that outlet, attributed. Already verified, cite and don't
+   re-fetch: `verified_facts` in the input (read by the engine) and library prices (`PH find "<ref>"`).
    Write `<P>/research-work/evidence.json` and `analysis.json` (every number a claim with a source id), then
    `S research <P> --opened <url,url> --summary "<one line>" --decision "<one line on sources used>"`.
 3. Write `<P>/hook.json`, `<P>/carousel.json`, `<P>/slides.json`, `<P>/caption.json` (caption ends with the
@@ -32,10 +32,20 @@ Approver fixes: apply only those, then `S finish <P>`, update draft.json.
 
 ## Slides
 
-Use only `node watch-wire-engine/src/photo.js` (PH). It prints one JSON line; put its
-`photo` path and `credit` in slides.json, `caption_credit` in the caption's source line.
-Always pass `--project <P>` so the photo is registered. Never image search, other
-creators' posts or screenshots.
+Templates: A for news/market/auctions/would-you-rather/celebrity/collection/listicle; D for story/history/
+story behind; never mixed; end with `cta`; at most one `[[highlight]]` per slide (a cover's line2 is already gold).
+Headlines 2–6 words, body 15 words max. Counts: NEWS/MARKET 5–6, RELEASES/AUCTIONS 6–8, CELEBRITY 5–7,
+WYR 4–5, COLLECTION 5–6, HISTORY/STORY 7–10, LISTICLE 4–10 (as many as are confirmed).
+Fields: A-cover {tag, line1, line2, meta, photo, credit}; A-photo {label, headline, photo, credit, body?, fit?
+("cover" for people/game shots)}; A-spotted {label, headline, photo, watch, wrist:{x,y}, zoom?, credit, body?}
+(person or game shot with the real watch cut out in a gold medallion and an arrow to the wrist: run
+`PH grid <photo>`, Read the .grid.png, give the watch's x,y in percent; check the rendered slide);
+A-pick3 {label, headline, options:[{brand, model, price, photo} x3], credit};
+A-wyr {tag, left:{brand, model, price, photo}, right:{...}, credit}; A-number {tag?, number, label, headline, body?};
+A-table {label, headline, cols, rows, hl?, note?}; A-text {label, headline, body}; D-cover {tag, headline, photo,
+credit}; D-body {kicker, text, photo?, credit}; cta {line1?, line2?, body?}.
+`source` in slides.json is outlet names only; any slide can set its own `source` (its footer names just that).
+Fix layout by shortening text, never CSS.
 
 ## Photos (must match the subject)
 
@@ -53,12 +63,5 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
 - Official media pages: `PH gallery <url> --owner "<Owner>" --slug <name>`, then read its sheet.png once.
 - Never image search, forums, Reddit, paparazzi or other creators' posts. No right photo after two tries: no photo.
 
-Write `draft.json` in the draft folder you were given:
-`{"status":"ready"|"stopped","project_dir":"<P>","format":"NEWS","lane":"breaking|news|rotation|history","headline":"...","slides":["output/slide-01.png"],"caption_file":"caption.json","stop_reason":""}`
-
-Only write inside `<P>` and the draft folder. Never edit templates, scripts, agent files or
-config (the engine undoes it). Fix layout by changing slide text (shorter lines), never
-CSS or new slide fields. `source` in slides.json is the outlet names only, e.g. "BBC, Hodinkee".
-
-When given approver fixes: apply only those fixes, re-render, re-register,
-`caption-register`, validate. Never post anything.
+Never run git. Only write inside `<P>` and the draft folder; never edit templates, scripts, agents or config.
+Never post anything.
