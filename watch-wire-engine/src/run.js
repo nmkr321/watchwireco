@@ -271,6 +271,9 @@ Write at most 2 short general rules (under 25 words each) that would stop the ed
 const MAX_ATTEMPTS = Number(process.env.WW_MAX_ATTEMPTS || 3);
 export function makeWithRetries(file) {
   const home = path.dirname(file), name = path.basename(file);
+  const me = readJson(file);
+  const newer = ["approved", "ideas"].flatMap((d) => fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json")).map((x) => { try { return readJson(path.join(Q(d), x)); } catch { return {}; } })).find((o) => o.replaces === me.id);
+  if (newer) { me.status = "replaced"; me.replaced_by = newer.id; writeJson(file, me); move(file, "hold"); log(`skipped (replaced by ${newer.id}): ${me.title}`); return false; }
   for (let n = 1; n <= MAX_ATTEMPTS; n++) {
     try { make(path.join(home, name)); } catch (e) { log(`attempt ${n} error: ${e.message.slice(0, 200)}`); }
     if (fs.existsSync(path.join(Q("approved"), name))) return true;
@@ -352,6 +355,9 @@ async function publishDue({ breakingOnly = false } = {}) {
     const item = readJson(file);
     if (Date.parse(item.scheduled_for) > Date.now()) continue;
     if (breakingOnly && item.lane !== "breaking") continue;
+    // a newer version of this post exists (owner/editor replaced it): don't publish the old one
+    const replacedBy = ["approved", "ideas"].flatMap((d) => fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json")).map((x) => { try { return readJson(path.join(Q(d), x)); } catch { return {}; } })).find((o) => o.replaces === item.id);
+    if (replacedBy) { item.status = "replaced"; item.replaced_by = replacedBy.id; writeJson(file, item); move(file, "hold"); log(`replaced, not posting: ${item.title}`); continue; }
     const breakingToday = posted.filter((p) => p.lane === "breaking" && new Date(p.posted_at).toDateString() === today).length;
     if (item.lane === "breaking" && breakingToday >= schedule.breaking.max_per_day) { log(`breaking cap reached, holding ${item.id}`); continue; }
     if (Date.now() - lastPost < schedule.breaking.min_minutes_between_posts * 60e3 && item.lane === "breaking") { log(`too soon after last post, holding ${item.id}`); continue; }

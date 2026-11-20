@@ -221,6 +221,42 @@ async function gallery(url, owner, slugName) {
   out({ ok: true, sheet: path.relative(ROOT, sheet), images: kept.length, credit: `Image: ${owner}`, use: `${path.relative(ROOT, dir)}/<number>.jpg`, note: "Read sheet.png once and pick by number" });
 }
 
+// ---------- credited: article images whose own credit line names an owner we have permission from ----------
+// Only for owners listed in state/owner-taste.md as having given permission (e.g. Rockstar Games).
+// Takes images credited to that owner ALONE; an image co-credited to anyone else is skipped.
+//   photo.js credited <article-url> --credit Rockstar --owner "Rockstar Games" --slug gta6-esquire
+async function credited(url, word, owner, slugName) {
+  if (!url || !word || !owner) fail('usage: credited <article-url> --credit Rockstar --owner "Rockstar Games" --slug name');
+  const taste = fs.existsSync(path.join(ENGINE, "state/owner-taste.md")) ? fs.readFileSync(path.join(ENGINE, "state/owner-taste.md"), "utf8") : "";
+  if (!new RegExp(`${owner}[^\\n]*permission|permission[^\\n]*${owner}`, "i").test(taste)) fail(`no owner permission for ${owner} in state/owner-taste.md`);
+  const html = (await get(url)).replace(/&amp;/g, "&");
+  const host = new URL(url).hostname.replace(/^www\./, "").split(".")[0];
+  const dir = path.join(LIB, "img", slug(slugName || `${owner}-${host}`));
+  fs.mkdirSync(dir, { recursive: true });
+  const found = [];
+  for (const m of html.matchAll(/<img[^>]+>/gi)) {
+    const src = (m[0].match(/src="([^"]+)"/) || [])[1]; if (!src) continue;
+    const alt = (m[0].match(/alt="([^"]*)"/) || [])[1] || "";
+    const after = strip(html.slice(m.index + m[0].length, m.index + m[0].length + 400));
+    const creditLine = after.split(/\s{2,}| (?=[A-Z][a-z]+ [A-Z])/)[0].slice(0, 60);       // text right under the image
+    if (!after.toLowerCase().startsWith(word.toLowerCase()) || /^\s*(\/|,|&|and\b)/i.test(after.slice(word.length))) continue;   // credited to the owner alone
+    const next = after.slice(word.length).split("<")[0].trim().slice(0, 80);                 // usually the next heading
+    const u = new URL(src, url); for (const k of ["resize", "crop", "w", "width"]) u.searchParams.delete(k);
+    found.push({ u: u.toString(), alt, next, creditLine });
+  }
+  if (!found.length) fail(`no images credited only to ${word} on that page`);
+  const kept = [];
+  for (const [i, f] of found.slice(0, 10).entries()) {
+    try {
+      const d = await download(f.u, `${path.basename(dir)}/${String(i + 1).padStart(2, "0")}`);
+      const e = { kind: "credited", title: `${owner} image ${i + 1}: ${f.alt.slice(0, 80)}`, about: f.next, source: url, image_url: f.u, ...d,
+        rights: "licensed", creator: owner, credit: `Image: ${owner}, via ${host[0].toUpperCase() + host.slice(1)}`, usage: `${owner} image used with owner-stated permission, credited`, fetched: new Date().toISOString().slice(0, 10) };
+      save(e); kept.push({ photo: e.file, shows: f.alt.slice(0, 70), next_heading: f.next.slice(0, 50) });
+    } catch {}
+  }
+  out({ ok: true, credit: `Image: ${owner}, via ${host[0].toUpperCase() + host.slice(1)}`, images: kept });
+}
+
 // ---------- Wikimedia Commons licence lookup ----------
 async function commonsInfo(fileTitles) {
   const q = new URLSearchParams({ action: "query", format: "json", formatversion: "2", prop: "imageinfo", iiprop: "url|extmetadata|size", iiurlwidth: "1600", titles: fileTitles.join("|") });
@@ -288,6 +324,7 @@ try {
   else if (cmd === "person") await person(arg);
   else if (cmd === "press") await press(arg, opt("brand"), opt("person"));
   else if (cmd === "gallery") await gallery(arg, opt("owner"), opt("slug"));
+  else if (cmd === "credited") await credited(arg, opt("credit"), opt("owner"), opt("slug"));
   else if (cmd === "commons") await commons(arg, opt("ref"));
   else if (cmd === "find") find(arg);
   else fail("commands: watch <url> --brand B --ref R | person \"Name\" | commons \"words\" [--ref R] | find \"words\"   (add --project <P> to register)");
