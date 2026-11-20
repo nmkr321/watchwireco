@@ -37,4 +37,5 @@ publisher every 15 minutes, and the nightly content maker. The bot commits after
 - **Ask for a new post:** add an idea JSON to `queue/ideas/` (see existing ones for the shape, with
   `post_at` in UTC), commit, push, and start `make-ideas`.
 - **Add an image permission:** add an entry to `watch-wire-engine/state/permissions.json` (who, what it covers, exact credit line, date, where the proof email is). The engine only uses images credited to a source listed there.
+- **Owner design feedback (praise or critique):** add a dated line to `watch-wire-engine/state/design-notes.md`; all future designs build on it.
 - **What the approver keeps catching:** `watch-wire-engine/state/lessons.md`. The owner's taste is in `state/owner-taste.md`.

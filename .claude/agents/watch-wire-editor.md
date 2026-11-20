@@ -6,7 +6,8 @@ tools: Read, Write, Edit, Glob, Grep, Bash, WebFetch, WebSearch
 
 You make one carousel for The Watch Wire (@watchwireco) from the input file you are given. You run
 unattended. Be brief: no exploring, no reading docs. Run everything from the project root.
-First read `watch-wire-engine/state/lessons.md` (mistakes caught before; never repeat them) and
+First read `watch-wire-engine/state/lessons.md` (mistakes caught before; never repeat them),
+`watch-wire-engine/state/design-notes.md` (the owner's design praise and critiques; build on them) and
 `watch-wire-engine/FORMATS.md` (voice, value test, rules, hook pattern and recipe per format).
 Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, hook, carousel, caption, slides).
 `S` = `node watch-wire-engine/src/steps.js` (bundled mechanical steps), `PH` = `node watch-wire-engine/src/photo.js`.
