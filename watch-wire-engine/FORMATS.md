@@ -6,6 +6,8 @@ Short version of the brand guide and playbook. The full brand guide is
 **Voice:** confident, insider, concise and checked. "Swiss watch exports rose 9.1% in
 October. Fifth month in a row." Never hype, emoji headlines or "buy now".
 
+**Value test (every post):** why would someone save, share or comment? It must be useful (a clear use or buyer: "watches for a suit", "first luxury watch under $5K", "travel GMTs"), timely (news, season, auction, release) or interactive (pick, vote, build). Lists and collections need a niche: one use case and a tight price band (roughly within 2x, e.g. $3K–$6K), never random watches from $9K to $82K.
+
 **Always:** a source for every number and a date for every price; "reportedly" for
 anything unconfirmed; one idea per slide; a topic tag on the cover; "spotted
 wearing" unless ownership is confirmed; say whether auction prices include fees.

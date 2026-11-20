@@ -21,3 +21,4 @@ The editor reads this before every post. Written automatically from rejections; 
 - [LISTICLE] A price failing the brand/official-retailer test is removed from slide and caption, never replaced with a dealer listing.
 - [LISTICLE] Each slide footer names only the sources behind that slide's price, taken from its source field; never list every source on every slide.
 - [LISTICLE] Caption source lines use the same wording as the slide footers, and a price backed by two sources names both.
+- [any] Value first (owner): every post needs a reason to save or comment: a clear use/buyer, a season or news hook, or a choice to make. Lists keep one niche and a tight price band.

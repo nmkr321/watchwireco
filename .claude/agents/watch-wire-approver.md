@@ -44,6 +44,8 @@ Run `node "Content Creation/bin/content-creation.js" validate <project> | tail -
    else "appears to be". Prices dated and from the brand or an official retailer.
 8. Caption matches the slides, names the source, no hype or emoji headline, paid links disclosed.
 9. Not a repeat of a post from the last 7 days.
+10. Value: the post gives a reason to save, share or comment (useful for a clear use or buyer, timely, or interactive).
+    Random watches with no niche or a huge price spread (e.g. $9K next to $82K) → reject.
 
 Soft scores 1–5: news, hook, visual, clarity, taste. Visual is 3 at most if a named watch or
 person has no photo when one could be fetched, or if slides are wordy (headline over 6 words,
