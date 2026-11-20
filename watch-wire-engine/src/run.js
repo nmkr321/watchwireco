@@ -259,7 +259,7 @@ function learn(item, reasons) {
     const out = parseResult(claude(["--model", MODEL, "--output-format", "json", "--json-schema", schema, "--max-budget-usd", "0.03", "--effort", "low", "--allowedTools", "Read"],
       `The Watch Wire approver sent back a ${item.format || ""} post. Its reasons: ${JSON.stringify(reasons).slice(0, 2500)}
 Write at most 2 short general rules (under 25 words each) that would stop the editor making this kind of mistake on FUTURE posts. Not about this post's specifics. Skip any rule already covered here: ${JSON.stringify(known)}. Return an empty list if nothing new.`, `learn ${item.id}`));
-    const add = (out.lessons || []).map((l) => `- ${new Date().toISOString().slice(0, 10)} [${item.format || "any"}] ${l.trim()}`);
+    const add = (out.lessons || []).map((l) => `- ${new Date().toISOString().slice(0, 10)} [${item.format || "any"}] ${l.trim().replace(/^(\[[^\]]*\]\s*)+/, "")}`);
     if (!add.length) return;
     const head = "# Lessons from the approver\nThe editor reads this before every post. Written automatically from rejections; newest last.\n\n";
     fs.writeFileSync(LESSONS, head + [...known, ...add].slice(-40).join("\n") + "\n");

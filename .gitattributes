@@ -1,0 +1,2 @@
+watch-wire-engine/logs/*.log merge=union
+watch-wire-engine/state/lessons.md merge=union

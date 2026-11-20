@@ -20,8 +20,10 @@ on:
 permissions:
   contents: write
 
+# Three lanes that never block each other: the publisher (every 15 min), the news scan (hourly)
+# and the content maker (plan / make-ideas / manual runs).
 concurrency:
-  group: engine
+  group: ${{ (github.event.schedule == '*/15 * * * *' || github.event.inputs.command == 'publish-due') && 'publisher' || (github.event.schedule == '0 * * * *' || github.event.inputs.command == 'tick') && 'scan' || 'maker' }}
   cancel-in-progress: false
 
 jobs:
@@ -67,5 +69,9 @@ jobs:
           git add -A
           git diff --cached --quiet && exit 0
           git commit -q -m "engine: $CMD $(date -u +%FT%RZ)"
-          git pull -q --rebase origin main
-          git push -q origin HEAD:main
+          # another lane may have saved meanwhile: merge (this run's files win on a clash) and retry
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null; sleep $((i * 7))
+          done
+          echo "could not save after 5 tries"; exit 1
