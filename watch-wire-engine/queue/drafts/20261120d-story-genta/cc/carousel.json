@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "format": {
+    "name": "carousel",
+    "width": 1080,
+    "height": 1350
+  },
+  "slides": [
+    {
+      "id": "slide-1",
+      "role": "cover",
+      "headline": "One Man Designed The Royal Oak And The Nautilus",
+      "body": "Story behind: Gérald Genta",
+      "visual_job": "Template D cover: STORY BEHIND tag, Royal Oak photo (modern ref. 15202), credit",
+      "claim_ids": [
+        "CLM-2",
+        "CLM-4"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-2",
+      "role": "proof",
+      "headline": "The designer",
+      "body": "Gérald Genta was born in Geneva in 1931 and died in 2011.",
+      "visual_job": "Template D body, kicker THE DESIGNER, text only",
+      "claim_ids": [
+        "CLM-1"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-3",
+      "role": "proof",
+      "headline": "The Royal Oak",
+      "body": "Inspired by vintage diving helmets, with exposed screws.",
+      "visual_job": "Template D body, kicker THE ROYAL OAK, text only",
+      "claim_ids": [
+        "CLM-2",
+        "CLM-3"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-4",
+      "role": "proof",
+      "headline": "The Nautilus",
+      "body": "Patek Philippe introduced the Nautilus in 1976, designed by Genta.",
+      "visual_job": "Template D body, kicker THE NAUTILUS, text only",
+      "claim_ids": [
+        "CLM-4"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-5",
+      "role": "proof",
+      "headline": "The same hand",
+      "body": "Genta also designed IWC's Ingenieur, manufactured from 1976.",
+      "visual_job": "Template D body, kicker THE SAME HAND, text only",
+      "claim_ids": [
+        "CLM-5"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-6",
+      "role": "proof",
+      "headline": "The Pasha",
+      "body": "Around 1985, Cartier asked Genta to redesign the Pasha.",
+      "visual_job": "Template D body, kicker THE PASHA, text only",
+      "claim_ids": [
+        "CLM-6"
+      ],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-7",
+      "role": "payoff",
+      "headline": "Two steel icons. One designer.",
+      "body": "Genta drew both, and both became icons.",
+      "visual_job": "Template D body, kicker THE PAYOFF, text only",
+      "claim_ids": [],
+      "asset_ids": []
+    },
+    {
+      "id": "slide-8",
+      "role": "conclusion",
+      "headline": "Watch news. Every day.",
+      "body": "Releases, auctions, market moves and the stories behind the world's best watches. Follow @watchwireco.",
+      "visual_job": "Shared closing slide",
+      "claim_ids": [],
+      "asset_ids": []
+    }
+  ],
+  "rendered_slides": [
+    {
+      "slide_id": "slide-1",
+      "file": "output/slide-01.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "410262333b73c4e1c9746442d7603807f36ee70dab1c583ba7f644a2504ffdbb"
+    },
+    {
+      "slide_id": "slide-2",
+      "file": "output/slide-02.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "7d4618db919a4a1392cc5d05be5de869d06e270e47a51a0dba226e8af081bd28"
+    },
+    {
+      "slide_id": "slide-3",
+      "file": "output/slide-03.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "e403b3ffa3c2977709de64e3e4308467b38d834e3fb39f118a89c0fb0dcb7452"
+    },
+    {
+      "slide_id": "slide-4",
+      "file": "output/slide-04.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "acbf4561a3f549e082fb1db4dc43eb4d0c2d943e86532b537cd08c9ce5869bef"
+    },
+    {
+      "slide_id": "slide-5",
+      "file": "output/slide-05.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "f399ebacccf5348edba10d8fce0838feba15ddedb40bb23a3d9ec554e949b0f2"
+    },
+    {
+      "slide_id": "slide-6",
+      "file": "output/slide-06.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "32de157e8e065f790504b578c732f9a2f9b45d512f68098d2da3caa760a773e7"
+    },
+    {
+      "slide_id": "slide-7",
+      "file": "output/slide-07.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "532a480eee3b1d675094d535398dbfb65a840d6b8a38803cef2c4954c71fa542"
+    },
+    {
+      "slide_id": "slide-8",
+      "file": "output/slide-08.png",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "c4757c2923f7ce3df46e08de28bd89ba0a8c26b6c9cabb8d22b5fd61e39ec9cf"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "project_id": "JOB-20261120-057e2412",
+  "as_of": "2026-11-20",
+  "summary": "Gérald Genta (1931-2011), Geneva-born designer, is credited with the Audemars Piguet Royal Oak and the Patek Philippe Nautilus (launched 1976). Sotheby's and Wikipedia both name him as designer; both describe the Royal Oak's diving-helmet inspiration. Sources disagree on the Royal Oak launch year, so no year is claimed for it.",
+  "sources": [
+    {
+      "id": "SRC-SOTHEBYS",
+      "title": "Gérald Genta: The Most Visionary Watch Designer of the 20th Century",
+      "url": "https://www.sothebys.com/en/articles/gerald-genta-the-most-visionary-watch-designer-of-the-20th-century",
+      "source_type": "independent",
+      "publisher": "Sotheby's",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-WIKI-GENTA",
+      "title": "Gérald Genta",
+      "url": "https://en.wikipedia.org/wiki/G%C3%A9rald_Genta",
+      "source_type": "independent",
+      "publisher": "Wikipedia",
+      "captured_at": "2026-11-20"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-1",
+      "text": "Gérald Genta was born in 1931 in Geneva and died in 2011.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Sotheby's: 'born in 1931 in Geneva, Switzerland'; death in 2011. Wikipedia: 'Gérald Charles Genta (1 May 1931 – 17 August 2011)'.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    },
+    {
+      "id": "CLM-2",
+      "text": "Genta designed the Audemars Piguet Royal Oak.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Both sources list the Royal Oak among Genta's designs.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    },
+    {
+      "id": "CLM-3",
+      "text": "The Royal Oak was inspired by vintage diving helmets and has exposed screws.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Wikipedia: 'inspired by traditional diving helmets and therefore featured exposed screw heads'. Sotheby's: 'inspired by vintage diving helmets'.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    },
+    {
+      "id": "CLM-4",
+      "text": "Genta designed the Patek Philippe Nautilus, introduced in 1976.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Wikipedia: 'In 1976, Patek Philippe introduced the Nautilus collection, designed by Genta'. Sotheby's: the Nautilus 'debuted in 1976'.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    },
+    {
+      "id": "CLM-5",
+      "text": "Genta designed the IWC Ingenieur, manufactured from 1976.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Wikipedia: 'Designed by Gerald Genta in 1974 and manufactured by IWC Schaffhausen in 1976'. Sotheby's: the Ingenieur SL 'was also released in 1976'.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    },
+    {
+      "id": "CLM-6",
+      "text": "Cartier invited Genta around 1985 to redesign the Pasha.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Sotheby's: 'Around 1985, Cartier invited Genta to redesign an idiosyncratic watch'. Wikipedia lists 'Pasha de Cartier (1985)'.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    }
+  ],
+  "gaps": [
+    {
+      "description": "Royal Oak launch year: Sotheby's says 1972, Wikipedia says 1970; not used."
+    },
+    {
+      "description": "Napkin/one-night anecdotes: single-outlet, not used."
+    }
+  ]
+}

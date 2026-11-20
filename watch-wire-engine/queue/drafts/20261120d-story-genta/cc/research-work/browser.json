@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.2",
+  "project_id": "JOB-20261120-057e2412",
+  "status": "completed",
+  "mode": "automation",
+  "first_research_action": "automation-fetch",
+  "started_at": "2026-11-20T22:56:24.890Z",
+  "agent": "watch-wire-editor",
+  "tool": "WebFetch",
+  "trigger": "https://www.sothebys.com/en/articles/gerald-genta-the-most-visionary-watch-designer-of-the-20th-century",
+  "automation_reason": "unattended scheduled run, no browser",
+  "searches": [],
+  "discovery_sites": [
+    "x.com",
+    "digg.com",
+    "reddit.com"
+  ],
+  "discovery_outcomes": [
+    "blocked",
+    "blocked",
+    "blocked"
+  ],
+  "google_fallback": {
+    "provider": "google.com",
+    "used": false,
+    "query": "",
+    "opened_urls": [],
+    "reason": ""
+  },
+  "opened_urls": [
+    "https://www.sothebys.com/en/articles/gerald-genta-the-most-visionary-watch-designer-of-the-20th-century",
+    "https://en.wikipedia.org/wiki/G%C3%A9rald_Genta",
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak.html"
+  ],
+  "notes": ""
+}

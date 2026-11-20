@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "assets": [
+    {
+      "id": "asset-1",
+      "kind": "commons",
+      "source_id": null,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gerald_Genta.jpg",
+      "provider": "manual",
+      "rights_status": "licensed",
+      "usage": "File:Gerald Genta.jpg (CC BY-SA 3.0), credited",
+      "local_path": "assets/media/asset-1.jpg",
+      "artifact_paths": [
+        "assets/media/asset-1.jpg"
+      ],
+      "receipt_id": null,
+      "title": "File:Gerald Genta.jpg",
+      "creator": "Unknown",
+      "sha256": "596c474caf5f7fa3d953d170cd28ef3dba1206e0e310b128e568350705c635bc",
+      "acquired_at": "2026-11-20T22:57:53.065Z",
+      "notes": "Copied into this project from the selected provider; download access does not grant publication rights."
+    },
+    {
+      "id": "asset-2",
+      "kind": "commons",
+      "source_id": null,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Audemars_Piguet_Royal_Oak_ref._15202.jpg",
+      "provider": "manual",
+      "rights_status": "licensed",
+      "usage": "File:Audemars Piguet Royal Oak ref. 15202.jpg (CC BY-SA 4.0), credited",
+      "local_path": "assets/media/asset-2.jpg",
+      "artifact_paths": [
+        "assets/media/asset-2.jpg"
+      ],
+      "receipt_id": null,
+      "title": "File:Audemars Piguet Royal Oak ref. 15202.jpg",
+      "creator": "OpaleHorse",
+      "sha256": "d6509208e03e8fce35b3756abf33a30e0d7a078ea91b63d712571a1bea8a6299",
+      "acquired_at": "2026-11-20T22:58:00.245Z",
+      "notes": "Copied into this project from the selected provider; download access does not grant publication rights."
+    },
+    {
+      "id": "asset-3",
+      "kind": "commons",
+      "source_id": null,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Patek-Philippe-Nautilus-5711-1A-010-1.jpg",
+      "provider": "manual",
+      "rights_status": "licensed",
+      "usage": "File:Patek-Philippe-Nautilus-5711-1A-010-1.jpg (CC BY-SA 4.0), credited",
+      "local_path": "assets/media/asset-3.jpg",
+      "artifact_paths": [
+        "assets/media/asset-3.jpg"
+      ],
+      "receipt_id": null,
+      "title": "File:Patek-Philippe-Nautilus-5711-1A-010-1.jpg",
+      "creator": "Patek Philippe SA",
+      "sha256": "a0a850eb2472ac104b187d1eabf7f3697b9103a6fb6719c98314aedf7dcc6e1e",
+      "acquired_at": "2026-11-20T22:58:01.020Z",
+      "notes": "Copied into this project from the selected provider; download access does not grant publication rights."
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "schema_version": "2.0",
+  "status": "completed",
+  "origin": {
+    "agent": "social-media-research-agent",
+    "job_id": "JOB-20261120-057e2412",
+    "content_type": "social-media",
+    "specialist": "social-media-research"
+  },
+  "as_of": "2026-11-20",
+  "summary": "Gérald Genta (1931-2011), Geneva-born designer, is credited with the Audemars Piguet Royal Oak and the Patek Philippe Nautilus (launched 1976). Sotheby's and Wikipedia both name him as designer; both describe the Royal Oak's diving-helmet inspiration. Sources disagree on the Royal Oak launch year, so no year is claimed for it.",
+  "sources": [
+    {
+      "id": "SRC-SOTHEBYS",
+      "title": "Gérald Genta: The Most Visionary Watch Designer of the 20th Century",
+      "url": "https://www.sothebys.com/en/articles/gerald-genta-the-most-visionary-watch-designer-of-the-20th-century",
+      "source_type": "independent",
+      "publisher": "Sotheby's",
+      "captured_at": "2026-11-20"
+    },
+    {
+      "id": "SRC-WIKI-GENTA",
+      "title": "Gérald Genta",
+      "url": "https://en.wikipedia.org/wiki/G%C3%A9rald_Genta",
+      "source_type": "independent",
+      "publisher": "Wikipedia",
+      "captured_at": "2026-11-20"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-1",
+      "text": "Gérald Genta was born in 1931 in Geneva and died in 2011.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Sotheby's: 'born in 1931 in Geneva, Switzerland'; death in 2011. Wikipedia: 'Gérald Charles Genta (1 May 1931 – 17 August 2011)'.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    },
+    {
+      "id": "CLM-2",
+      "text": "Genta designed the Audemars Piguet Royal Oak.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Both sources list the Royal Oak among Genta's designs.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    },
+    {
+      "id": "CLM-3",
+      "text": "The Royal Oak was inspired by vintage diving helmets and has exposed screws.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Wikipedia: 'inspired by traditional diving helmets and therefore featured exposed screw heads'. Sotheby's: 'inspired by vintage diving helmets'.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    },
+    {
+      "id": "CLM-4",
+      "text": "Genta designed the Patek Philippe Nautilus, introduced in 1976.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Wikipedia: 'In 1976, Patek Philippe introduced the Nautilus collection, designed by Genta'. Sotheby's: the Nautilus 'debuted in 1976'.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    },
+    {
+      "id": "CLM-5",
+      "text": "Genta designed the IWC Ingenieur, manufactured from 1976.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Wikipedia: 'Designed by Gerald Genta in 1974 and manufactured by IWC Schaffhausen in 1976'. Sotheby's: the Ingenieur SL 'was also released in 1976'.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    },
+    {
+      "id": "CLM-6",
+      "text": "Cartier invited Genta around 1985 to redesign the Pasha.",
+      "kind": "fact",
+      "verification": "verified",
+      "source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "evidence": "Sotheby's: 'Around 1985, Cartier invited Genta to redesign an idiosyncratic watch'. Wikipedia lists 'Pasha de Cartier (1985)'.",
+      "as_of": "2026-11-20",
+      "publishable": true,
+      "attribution": "Sotheby's, Wikipedia"
+    }
+  ],
+  "gaps": [
+    {
+      "description": "Royal Oak launch year: Sotheby's says 1972, Wikipedia says 1970; not used."
+    },
+    {
+      "description": "Napkin/one-night anecdotes: single-outlet, not used."
+    }
+  ],
+  "browser": {
+    "schema_version": "1.2",
+    "project_id": "JOB-20261120-057e2412",
+    "status": "completed",
+    "mode": "automation",
+    "first_research_action": "automation-fetch",
+    "started_at": "2026-11-20T22:56:24.890Z",
+    "agent": "watch-wire-editor",
+    "tool": "WebFetch",
+    "trigger": "https://www.sothebys.com/en/articles/gerald-genta-the-most-visionary-watch-designer-of-the-20th-century",
+    "automation_reason": "unattended scheduled run, no browser",
+    "searches": [],
+    "discovery_sites": [
+      "x.com",
+      "digg.com",
+      "reddit.com"
+    ],
+    "discovery_outcomes": [
+      "blocked",
+      "blocked",
+      "blocked"
+    ],
+    "google_fallback": {
+      "provider": "google.com",
+      "used": false,
+      "query": "",
+      "opened_urls": [],
+      "reason": ""
+    },
+    "opened_urls": [
+      "https://www.sothebys.com/en/articles/gerald-genta-the-most-visionary-watch-designer-of-the-20th-century",
+      "https://en.wikipedia.org/wiki/G%C3%A9rald_Genta",
+      "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak.html"
+    ],
+    "notes": ""
+  },
+  "analysis": {
+    "schema_version": "1.0",
+    "project_id": "JOB-20261120-057e2412",
+    "content_type": "social-media",
+    "conclusion": "One designer, two steel sports icons: Genta is credited with the Royal Oak and the Nautilus, confirmed by Sotheby's and Wikipedia. Dates used only where both sources agree.",
+    "scope": "Story behind Gérald Genta, from Sotheby's article and Wikipedia, read 2026-11-20.",
+    "specialist": {
+      "topic_scope": "Gérald Genta designs",
+      "sample_definition": "Two outlets: Sotheby's and Wikipedia",
+      "time_window": "2026-11-20",
+      "claim_ranking_method": "Primary/official sources first, then two trusted outlets",
+      "stopping_rule": "Stop when every on-slide fact has a primary source or two trusted outlets",
+      "signal_counts": [
+        {
+          "platform": "x.com",
+          "unique_authors": 0,
+          "qualifying_posts": 0
+        },
+        {
+          "platform": "digg.com",
+          "unique_authors": 0,
+          "qualifying_posts": 0
+        },
+        {
+          "platform": "reddit.com",
+          "unique_authors": 0,
+          "qualifying_posts": 0
+        }
+      ],
+      "platform_findings": [
+        "x.com: skipped (automation mode, no browser)",
+        "digg.com: skipped (automation mode, no browser)",
+        "reddit.com: skipped (automation mode, no browser)"
+      ],
+      "firsthand_signals": [],
+      "narrative_patterns": [
+        "Not assessed: unattended run uses primary and trusted sources only"
+      ],
+      "disagreements": [],
+      "verification_source_ids": [
+        "SRC-SOTHEBYS",
+        "SRC-WIKI-GENTA"
+      ],
+      "coverage_gaps": [
+        "Social discovery skipped in automation mode"
+      ]
+    },
+    "limitations": [
+      "Royal Oak launch year disputed between sources; omitted.",
+      "Anecdotes about how fast Genta drew designs are single-outlet; omitted."
+    ],
+    "publishable": true
+  },
+  "governance": {
+    "sessions": [
+      {
+        "schema_version": "1.0",
+        "session_id": "SES-20261120-30be3f48",
+        "job_id": "JOB-20261120-057e2412",
+        "status": "started",
+        "agent": "router",
+        "summary": "Initialized the social-media research job.",
+        "created_at": "2026-11-20T22:55:36.129Z"
+      },
+      {
+        "schema_version": "1.0",
+        "session_id": "SES-20261120-6b1d2e90",
+        "job_id": "JOB-20261120-057e2412",
+        "status": "completed",
+        "agent": "watch-wire-editor",
+        "summary": "Read Sotheby's article, Wikipedia and the Audemars Piguet Royal Oak page; confirmed Genta facts from two outlets.",
+        "created_at": "2026-11-20T23:00:00.000Z"
+      },
+      {
+        "schema_version": "1.0",
+        "session_id": "SES-20261120-601ed907",
+        "job_id": "JOB-20261120-057e2412",
+        "status": "completed",
+        "agent": "validator",
+        "summary": "Validation passed and RESEARCH.md was generated.",
+        "created_at": "2026-11-20T22:56:26.679Z"
+      }
+    ],
+    "decisions": [
+      {
+        "schema_version": "1.0",
+        "decision_id": "DEC-20261120-aa6da264",
+        "job_id": "JOB-20261120-057e2412",
+        "title": "Select production research specialist",
+        "decision": "social-media",
+        "rationale": "A general topic uses the production social-media discovery package.",
+        "made_by": "router",
+        "created_at": "2026-11-20T22:55:36.129Z"
+      },
+      {
+        "schema_version": "1.0",
+        "decision_id": "DEC-20261120-6b1d2e91",
+        "job_id": "JOB-20261120-057e2412",
+        "title": "Use only confirmed dates",
+        "decision": "Omit the Royal Oak launch year (sources disagree) and the napkin anecdote (single outlet); drop Pasha and IWC only if unsourced.",
+        "rationale": "Lessons: sources that disagree are dropped; single-outlet anecdotes are not posted.",
+        "made_by": "watch-wire-editor",
+        "created_at": "2026-11-20T23:00:00.000Z"
+      }
+    ],
+    "learnings": []
+  },
+  "project_id": "cc"
+}

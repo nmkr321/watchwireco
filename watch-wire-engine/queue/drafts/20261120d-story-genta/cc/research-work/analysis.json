@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "project_id": "JOB-20261120-057e2412",
+  "content_type": "social-media",
+  "conclusion": "One designer, two steel sports icons: Genta is credited with the Royal Oak and the Nautilus, confirmed by Sotheby's and Wikipedia. Dates used only where both sources agree.",
+  "scope": "Story behind Gérald Genta, from Sotheby's article and Wikipedia, read 2026-11-20.",
+  "specialist": {
+    "topic_scope": "Gérald Genta designs",
+    "sample_definition": "Two outlets: Sotheby's and Wikipedia",
+    "time_window": "2026-11-20",
+    "claim_ranking_method": "Primary/official sources first, then two trusted outlets",
+    "stopping_rule": "Stop when every on-slide fact has a primary source or two trusted outlets",
+    "signal_counts": [
+      {
+        "platform": "x.com",
+        "unique_authors": 0,
+        "qualifying_posts": 0
+      },
+      {
+        "platform": "digg.com",
+        "unique_authors": 0,
+        "qualifying_posts": 0
+      },
+      {
+        "platform": "reddit.com",
+        "unique_authors": 0,
+        "qualifying_posts": 0
+      }
+    ],
+    "platform_findings": [
+      "x.com: skipped (automation mode, no browser)",
+      "digg.com: skipped (automation mode, no browser)",
+      "reddit.com: skipped (automation mode, no browser)"
+    ],
+    "firsthand_signals": [],
+    "narrative_patterns": [
+      "Not assessed: unattended run uses primary and trusted sources only"
+    ],
+    "disagreements": [],
+    "verification_source_ids": [
+      "SRC-SOTHEBYS",
+      "SRC-WIKI-GENTA"
+    ],
+    "coverage_gaps": [
+      "Social discovery skipped in automation mode"
+    ]
+  },
+  "limitations": [
+    "Royal Oak launch year disputed between sources; omitted.",
+    "Anecdotes about how fast Genta drew designs are single-outlet; omitted."
+  ],
+  "publishable": true
+}

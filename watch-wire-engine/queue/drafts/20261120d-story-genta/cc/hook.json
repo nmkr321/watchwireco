@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "primary": "One Man Designed The Royal Oak And The Nautilus.",
+  "alternatives": [
+    "Gérald Genta: the designer behind two steel icons",
+    "The designer who drew the Royal Oak and the Nautilus"
+  ],
+  "claim_ids": ["CLM-2", "CLM-4"],
+  "rationale": "Story-behind tension hook: one designer, two famous steel sports watches, both sourced to Sotheby's and Wikipedia. The Royal Oak year is left out because the sources disagree."
+}

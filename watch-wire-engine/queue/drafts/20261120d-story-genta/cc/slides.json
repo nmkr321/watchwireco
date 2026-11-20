@@ -1,0 +1,13 @@
+{
+ "source": "Source: Sotheby's, Wikipedia",
+ "slides": [
+  {"t": "D-cover", "tag": "STORY BEHIND", "headline": "One Man Designed [[The Royal Oak]] And The Nautilus.", "photo": "watch-wire-engine/library/img/commons-audemars-piguet-royal-oak-ref-15202.jpg", "credit": "Image: OpaleHorse, CC BY-SA 4.0"},
+  {"t": "D-body", "kicker": "THE DESIGNER", "text": "Gérald Genta was born in Geneva in 1931 and died in 2011.", "photo": "watch-wire-engine/library/img/commons-gerald-genta.jpg", "credit": "Image: Unknown, CC BY-SA 3.0"},
+  {"t": "D-body", "kicker": "THE ROYAL OAK, MODERN REF. 15202", "text": "Inspired by vintage diving helmets, with exposed screws.", "photo": "watch-wire-engine/library/img/commons-audemars-piguet-royal-oak-ref-15202.jpg", "credit": "Image: OpaleHorse, CC BY-SA 4.0"},
+  {"t": "D-body", "kicker": "THE NAUTILUS, MODERN REF. 5711", "text": "Patek Philippe launched the Nautilus in 1976.", "photo": "watch-wire-engine/library/img/commons-patek-philippe-nautilus-5711-1a-010-1.jpg", "credit": "Image: Patek Philippe SA, CC BY-SA 4.0"},
+  {"t": "D-body", "kicker": "THE SAME HAND", "text": "Genta also designed IWC's Ingenieur, from 1976."},
+  {"t": "D-body", "kicker": "THE PASHA", "text": "Around 1985, Cartier asked Genta to redesign the Pasha."},
+  {"t": "D-body", "kicker": "THE PAYOFF", "text": "Two steel icons. One designer."},
+  {"t": "cta"}
+ ]
+}
