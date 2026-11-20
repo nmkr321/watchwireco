@@ -286,6 +286,8 @@ export function makeWithRetries(file) {
 
 // a slot that still has no post gets an evergreen backup built from library data (verified prices + photos)
 function backup(item) {
+  const rej = path.join(Q("rejected"), `${item.id}.json`);
+  if (fs.existsSync(rej)) { const r = readJson(rej); r.gave_up = true; writeJson(rej, r); }
   if (item.backup_for || item.lane === "breaking" || !item.post_at) { log(`gave up: ${item.title}`); return; }
   const id = `${item.id}-backup`;
   writeJson(path.join(Q("ideas"), `${id}.json`), { id, lane: item.lane, status: "idea", found_at: new Date().toISOString(), post_at: item.post_at, backup_for: item.id,
@@ -342,6 +344,19 @@ async function tick() {
       c.format = t.format; writeJson(file, c);
       makeWithRetries(file);
     } catch (e) { log(`error on ${c.id}: ${e.message}`); }
+  }
+  // a scheduled post that was rejected (and still has attempts left) goes back to ideas to be made again
+  for (const f of fs.readdirSync(Q("rejected")).filter((x) => x.endsWith(".json"))) {
+    const it = readJson(path.join(Q("rejected"), f));
+    const due = it.post_at && Date.parse(it.post_at) - Date.now() < 3 * 3600e3 && Date.now() - Date.parse(it.post_at) < 3 * 3600e3;
+    if (!due || it.status === "skipped" || it.gave_up || (it.previous_attempts || []).length >= MAX_ATTEMPTS - 1) continue;
+    const v = it.verdict || {};
+    it.previous_attempts = [...(it.previous_attempts || []), [it.stop_reason, v.reason, ...(v.fixes || [])].filter(Boolean).join(" / ").slice(0, 600)];
+    for (const k of ["verdict", "stop_reason", "draft_dir", "project_dir", "post_dir"]) delete it[k];
+    it.status = "idea";
+    fs.rmSync(path.join(Q("drafts"), it.id), { recursive: true, force: true });
+    writeJson(path.join(Q("ideas"), f), it); fs.rmSync(path.join(Q("rejected"), f));
+    log(`remaking rejected scheduled post: ${it.title}`);
   }
   for (const f of fs.readdirSync(Q("ideas")).filter((x) => x.endsWith(".json"))) {
     const it = readJson(path.join(Q("ideas"), f));
