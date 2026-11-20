@@ -1,0 +1,18 @@
+{
+  "status": "ready",
+  "project_dir": "Content Creation/projects/20261120d-story-genta",
+  "format": "STORY BEHIND",
+  "lane": "history",
+  "headline": "One Man Designed Both Icons",
+  "slides": [
+    "output/slide-01.png",
+    "output/slide-02.png",
+    "output/slide-03.png",
+    "output/slide-04.png",
+    "output/slide-05.png",
+    "output/slide-06.png",
+    "output/slide-07.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": ""
+}

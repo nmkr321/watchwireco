@@ -1,0 +1,17 @@
+{
+  "id": "20261120d-listicle-auction-records-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-20T22:19:17.825Z",
+  "post_at": "2026-11-21T00:30:00Z",
+  "backup_for": "20261120d-listicle-auction-records",
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: The most expensive watches ever sold at auction",
+  "hook": "",
+  "why": "Backup post. Build it only from watch-wire-engine/library (photo.js find: verified prices with source and date, official photos), e.g. 'N watches under $X' or 'N icons in steel'. Pick watches not used in the last 3 days of queue/posted or today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "Prices, the check (PASS) and photos look fine. Every item slide still credits all three retailers in the footer instead of its own, so the renderer is ignoring the per-slide footers. Fix that and resubmit. / Gate 5/6: the rendered slides 2-9 still show the footer 'SOURCE: B.C. CLARK, WATCHES OF SWITZERLAND, OMEGA'. Slides.json has per-slide footers, but the global 'source' value overrides them. Each slide must name only its own source. This was flagged last round and is not fixed. / Gate 2: I did not WebFetch the source. I treated the library prices as confirmed, as the rules allow. / slides 2",
+    "HOLD, no build. The backup LISTICLE needs 8-10 verified items, and the library cannot supply them without reusing watches already in today's approved or draft posts, which lessons.md forbids. Checked: library entries with a dated price and a photo are Rolex 126610LN ($11,350, bcclark.com, 2026-11-20"
+  ]
+}

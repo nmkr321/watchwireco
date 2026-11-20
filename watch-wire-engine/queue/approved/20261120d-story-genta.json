@@ -1,0 +1,37 @@
+{
+  "id": "20261120d-story-genta",
+  "lane": "history",
+  "format": "STORY BEHIND",
+  "status": "approved",
+  "found_at": "2026-11-20T22:18:00Z",
+  "post_at": "2026-11-20T23:30:00Z",
+  "title": "Gérald Genta: the man who designed both the Royal Oak and the Nautilus",
+  "hook": "One Man Designed The Royal Oak And The Nautilus.",
+  "why": "STORY BEHIND, person type (Template D, D-cover has tag 'STORY BEHIND'). Earlier attempts found sound sources: Sotheby's, Gear Patrol and Wikipedia name Genta as designer of both; Royal Oak 1972 on Audemars Piguet's own archive; Nautilus 1976. Drop the 'designed overnight / napkin' anecdote unless two outlets confirm it. The cover-credit legibility problem was a template issue and is now fixed. Photos in the library: person-g-rald-genta.jpg (CC BY-SA 3.0), commons-audemars-piguet-royal-oak-ref-15202.jpg (modern 15202, say so), commons-patek-philippe-nautilus-5711-1a-010-1.jpg (modern 5711, say so). Do not put body text over a dial: if a photo's subject sits where the text goes, use the slide without a photo. 7-8 slides.",
+  "sources": [
+    {
+      "title": "Audemars Piguet Royal Oak history",
+      "link": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak.html",
+      "source": "Audemars Piguet",
+      "tier": "official"
+    }
+  ],
+  "scheduled_for": "2026-11-20T23:30:00Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/20261120d-story-genta",
+  "project_dir": "Content Creation/projects/20261120d-story-genta",
+  "post_dir": "watch-wire-engine/queue/drafts/20261120d-story-genta/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 3,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The check passes and the earlier problems are fixed. The photo is now in the manifest as licensed and credited on slides 1 and 5 and in the caption. The story is attributed to Sotheby's on each slide that carries a claim. It still rests on that one outlet, and I did not re-fetch the Sotheby's page, relying on the quoted evidence in research.json. There is no Royal Oak photo, which caps the visual score at 3."
+  }
+}

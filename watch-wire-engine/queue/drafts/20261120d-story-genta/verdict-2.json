@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes and the earlier problems are fixed. The photo is now in the manifest as licensed and credited on slides 1 and 5 and in the caption. The story is attributed to Sotheby's on each slide that carries a claim. It still rests on that one outlet, and I did not re-fetch the Sotheby's page, relying on the quoted evidence in research.json. There is no Royal Oak photo, which caps the visual score at 3."
+}

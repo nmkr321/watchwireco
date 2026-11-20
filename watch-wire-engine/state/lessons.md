@@ -1,10 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- 2026-11-20 [any] Every fact on a slide or in the caption must be a claim in research.json; never add a line from memory.
-- 2026-11-20 [any] Only list sources you actually opened in the footer and caption.
-- 2026-11-20 [any] Never reuse the same photo on two slides; every photo slide carries its own credit.
-- 2026-11-20 [any] Keep body text short so no single word wraps onto its own line.
 - 2026-11-20 [any] At most one [[highlight]] per slide; a cover's line2 is already gold, so never wrap it in [[ ]].
 - 2026-11-20 [CELEBRITY] Never state a celebrity's watch model, dial or strap unless the source names it; an old ambassador deal needs a fresh angle, never "new".
 - 2026-11-20 [AUCTIONS] Post an auction only with a confirmed result (hammer price, fees stated); starting bids and estimates are not results.
@@ -30,3 +26,18 @@ The editor reads this before every post. Written automatically from rejections; 
 - 2026-11-20 [WOULD YOU RATHER] If no unscheduled pair meets the 10% rule, hold the candidate. Never fill the gap by reusing a watch already scheduled in any format.
 - 2026-11-20 [WOULD YOU RATHER] Prices count as library data only from dated official sources; a price found only in a rejected or held draft does not count.
 - 2026-11-20 [WOULD YOU RATHER] When no pair qualifies, the hold note must list each price checked and the reason it failed.
+- 2026-11-20 [LISTICLE] Every ranked item needs its own opened source for each number shown; an item missing a confirmed figure is cut, not described vaguely.
+- 2026-11-20 [LISTICLE] Before finishing research, count confirmed items against the format's required count; if short, add candidates or hold, never pad with unconfirmed ones.
+- 2026-11-20 [LISTICLE] Record auction and sale prices in their original currency with the sale date; convert to USD only with a cited, dated rate, and never state a converted figure as the hammer price.
+- 2026-11-20 [LISTICLE] Before researching a ranked list, confirm 8-10 candidates each have an accessible primary source for every figure; if not, choose another topic.
+- 2026-11-20 [LISTICLE] A hold note must name each missing figure, the source checked, and why it failed, so the owner sees the exact gap.
+- 2026-11-20 [LISTICLE] - 2026-11-20 [any] Photos must match the exact reference, including bracelet and dial; if the variant can't be confirmed, name only the model on the slide.
+- 2026-11-20 [LISTICLE] - 2026-11-20 [any] Each slide's footer names only that slide's own source; never list every source of a multi-source post on each slide.
+- 2026-11-20 [LISTICLE] Never set a global source value that overrides per-slide footers; each slide's own footer must render, and I must check the rendered text.
+- 2026-11-20 [LISTICLE] After any re-render, confirm the new PNGs differ from the previous round's files; identical output means the fix did not apply.
+- 2026-11-20 [LISTICLE] Never reuse a watch already in queue/approved, queue/drafts or queue/ideas in any format, not just Would You Rather.
+- 2026-11-20 [LISTICLE] Before choosing any format, confirm the library has enough unscheduled items with dated prices and rights-cleared photos; if not, pick another format or hold.
+- 2026-11-20 [LISTICLE] After any HOLD, fill the named data gap or switch candidates before rebuilding; never rebuild from the same inputs.
+- 2026-11-20 [LISTICLE] Count an item toward a format's minimum only if it has every required field (dated price, rights-cleared photo, opened source).
+- 2026-11-20 [STORY BEHIND] Each slide claim needs a cited source that actually supports it; attribute opinions to their author or cut them, and seek a second source for key facts.
+- 2026-11-20 [STORY BEHIND] Caption credits must match the slides: credit only photos shown on a slide, and list every shown photo's credit in the manifest.
