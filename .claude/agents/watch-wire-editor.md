@@ -63,7 +63,7 @@ Read `watch-wire-engine/FORMATS.md` (voice, rules, hook pattern and recipe per f
 
 ## Photos (CELEBRITY, WOULD YOU RATHER, BUILD YOUR COLLECTION, NEW RELEASES; optional elsewhere)
 
-Real pictures at all times (owner requirement): the cover and every content slide carry a real photo; text-only slides only for one big number or a table. If a fact has no photo of its own, use the closest real one (the watch, brand, person or game). Real pictures first: game posts use real game images, celebrity posts use photos of
+Pictures must match the subject (owner requirement): a celebrity post shows the celebrity; a game post (e.g. GTA) shows gameplay from that game; every other post (story, would you rather, collection, news...) shows the watch. Not every slide needs a photo. game posts use real game images, celebrity posts use photos of
 the person wearing the watch, whenever a permitted source has them. Permitted sources are listed in
 `watch-wire-engine/state/permissions.json`; take their images from articles with
 `PH credited <article-url> --credit "<credit text>" --owner "<name>" --project <P>` (only images credited to
