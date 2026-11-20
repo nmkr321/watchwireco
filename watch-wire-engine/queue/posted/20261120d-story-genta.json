@@ -2,7 +2,7 @@
   "id": "20261120d-story-genta",
   "lane": "history",
   "format": "STORY BEHIND",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-20T22:18:00Z",
   "post_at": "2026-11-20T23:30:00Z",
   "title": "Gérald Genta: the man who designed both the Royal Oak and the Nautilus",
@@ -37,5 +37,23 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes. Sotheby's confirms every fact on the slides: Genta's dates, the Royal Oak and its diving-helmet inspiration, the 1976 Nautilus and Ingenieur, and Cartier's Pasha invitation around 1985. Template D is used consistently, the Wikimedia photos are credited on slides and in the caption, and the layouts are balanced. Visual scores 3 because the Ingenieur and Pasha slides have no photo."
+  },
+  "posted_at": "2026-11-20T23:32:34.946Z",
+  "publish": {
+    "live": true,
+    "media_id": "18172438672505924",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png",
+        "slide-08.png"
+      ],
+      "caption_chars": 623
+    }
   }
 }
