@@ -1,0 +1,24 @@
+{
+  "id": "202611202044-collector-constellation-finds-grade-omeg",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-20T20:44:20.073Z",
+  "title": "eBay Finds: A Collector Grade Omega Constellation, and So Many Seikos!",
+  "score": 6,
+  "sources": [
+    {
+      "title": "eBay Finds: A Collector Grade Omega Constellation, and So Many Seikos!",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMHVZanFTU1ZvQ05sNGRSUktUSFAzWi1FSGZySVdkQ1JDNUhieWNJWERYc0VPcWM4azNqZW9CT2xxZDdpSXRKMGt4UjZOTThTWkxtMFd4ZWQtYWw5RlNhRkJRTW1aTDVPcWluTDF6clJzVVd2cWFlUS10U1NiSGJCM25ZU0RaWDI4WnlTeF9UZk5DcDRET2xuVw?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Worn & Wound",
+      "domain": "wornandwound.com",
+      "tier": "watch_press",
+      "published": "Fri, 20 Nov 2026 20:01:54 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "none",
+    "reason": "\"eBay Finds: A Collector Grade Omega Constellation, and So Many Seikos!\" is a Worn & Wound shopping roundup of secondhand eBay listings, not news. It is not a major brand move, record auction, notable launch, price change, industry data, or celebrity moment, so it does not qualify for an immediate breaking post."
+  }
+}
