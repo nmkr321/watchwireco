@@ -24,22 +24,21 @@
       "hook": 3,
       "visual": 3,
       "clarity": 4,
-      "taste": 4
+      "taste": 3
     },
     "hard_gate_failures": [
-      "Gate 2: slide 4 preview says 'Patek's own museum... Manufacture's home city', which is not in research.json and does not match carousel.json ('Pieces on show').",
-      "Gate 2: slide 3 'covers watchmaking from the 16th century onwards' is on patek.com but is not a claim in research.json.",
-      "Gate 7: slides 3 and 4 reuse the same photo, so it looks like a repeat.",
-      "Gate 7: previews show two different photographs (slide 1 and slides 3-4), but assets/manifest.json lists only one asset."
+      "Gate 2/4: the cover headline says 'Opens', but the opening date (CLM-3) is single-source and unverified, and Patek's page gives no date.",
+      "Gate 2: slide 4 (1989, Calibre 89, 'most complicated watch') has no claim of its own in research.json. Patek's page does support it, but it is tied to CLM-2, which does not cover it.",
+      "Gate 6: on slide 5 the photo credit sits at the top and overlaps the wordmark and @watchwireco handle.",
+      "Gate 6/soft: slide 5 reuses the cover photo and adds nothing new."
     ],
     "fixes": [
-      "slide 4: re-render so it matches carousel.json, or change the slide to the verified text; delete 'the Manufacture's home city' unless it gets a sourced claim.",
-      "slide 4: use a different photo from slide 3, or no photo.",
-      "slide 3: keep the 16th-century line only after adding it to research.json as a claim sourced to patek.com; otherwise change the body to 'Celebrating a Quarter Century marks 25 years.'",
-      "assets/manifest.json: add the second photo used on slide 1 or confirm it is the same file, with source URL, creator, credit and rights 'licensed'.",
-      "caption: delete 'and its collection' (not in verified claims)."
+      "slide 1: change the headline to 'Patek Museum Turns 25' (no 'opens'). Alternatively, label the opening as reportedly and add it as a claim.",
+      "research.json: add a verified claim for Calibre 89, 1989 and 'most complicated watch in the world when unveiled', citing SRC-PATEK-QAQ. Point slide 4 at that claim. Make the slide 4 headline name 'Calibre 89' and cut the body to under 15 words.",
+      "slide 5: remove the slide, or move the photo credit to the bottom so it clears the wordmark and handle. A duplicate of the cover photo is weak, so removing it is preferred. A 5-slide post is acceptable only if the NEWS recipe allows it, which it does at 5 to 6 slides.",
+      "caption: keep the source line. Update it if the headline wording changes."
     ],
-    "reason": "The founding year, founder and exhibition name check out on patek.com, and the cover is balanced. Revise because slide 4 in the preview says something unsourced and different from carousel.json, slide 3 needs its 16th-century line sourced, and the photo rights and reuse need fixing."
+    "reason": "The Patek facts are correct and the check passes. But the cover says the exhibition 'opens' when only one outlet gave a date, slide 4 isn't tied to a verified claim, and slide 5's credit overlaps the wordmark. Fix those and it can go out."
   },
   "draft_dir": "watch-wire-engine/queue/drafts/20261120b-patek-museum-25"
 }

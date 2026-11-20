@@ -1,0 +1,22 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Gate 7: assets/manifest.json has no entries, so the Wikimedia photo on slides 1 and 3 has no recorded licence (must be 'licensed')",
+    "Gate 7: slide 4 names three watches (Packard pocket watch, Eiffel Tower wristwatch, cross-shaped watch) with no photo, and one could be fetched from the Patek page"
+  ],
+  "fixes": [
+    "Assets: add the slide 1 and slide 3 museum photo (Mourad Ben Abdallah / Wikimedia Commons, CC BY-SA 3.0) to assets/manifest.json with rights 'licensed' and its source URL.",
+    "Slide 4: add a photo of each named watch from patek.com (official) with its credit, or drop the list and use one photo with one line.",
+    "Slide 1: move the 'Photo: Mourad Ben Abdallah / Wikimedia Commons' credit off the building facade into the bottom margin, so it does not sit over the photo.",
+    "Previews: remove the extra slide-06 preview, which duplicates the CTA slide and is not in draft.json."
+  ],
+  "reason": "The facts check out against patek.com (founded 2001 by Philippe Stern, the named pieces and the 16th-century history), but the photo rights are not recorded in the manifest and slide 4's watches have no photos. Fix those and the credit placement, then resend for approval."
+}

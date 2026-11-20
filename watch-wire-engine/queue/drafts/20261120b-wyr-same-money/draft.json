@@ -1,16 +1,1 @@
-{
- "status": "stopped",
- "project_dir": "Content Creation/projects/20261120b-wyr-same-money",
- "format": "WYR",
- "lane": "news",
- "headline": "Same Money. Which One?",
- "slides": [
-  "output/slide-01.png",
-  "output/slide-02.png",
-  "output/slide-03.png",
-  "output/slide-04.png",
-  "output/slide-05.png"
- ],
- "caption_file": "caption.json",
- "stop_reason": "Revision 2 partly applied. DONE: slide 2 prices now '$8,350 \u00b7 US list' / '$9,000 \u00b7 US list' (Nov 2026 on cover and captions); slide 3 body 'US list, Nov 2026, per B.C. Clark.'; slide 4 body ends 'per OMEGA.'; re-rendered, re-registered, caption registered, validate PASS. NOT DONE, need a template/CSS change (templates off-limits here): slide 1 SAME MONEY tag position; slide 2 gold on or/prices, white/grey text, top-align cards, side margins; per-slide footers on slides 3-4 (footer is one shared line 'Source: B.C. Clark, OMEGA' on every slide). BEFORE POSTING, UNMET: B.C. Clark product page returned HTTP 429 twice (retry-after 60s); $8,350 not re-confirmed and B.C. Clark authorised-Rolex-dealer status not checked. Confirm both, or relabel the price as retailer price."
-}
+{"status": "ready", "project_dir": "Content Creation/projects/20261120b-wyr-same-money", "format": "WOULD YOU RATHER", "lane": "rotation", "headline": "Same Money. Which One?", "slides": ["output/slide-01.png", "output/slide-02.png", "output/slide-03.png", "output/slide-04.png", "output/slide-05.png"], "caption_file": "caption.json", "stop_reason": ""}

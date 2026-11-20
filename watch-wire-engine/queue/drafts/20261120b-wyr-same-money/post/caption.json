@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Same money, different watch. Rolex Explorer 40 (ref. 224270) lists at $8,350 and the Omega Speedmaster Moonwatch Professional (ref. 310.30.42.50.01.002) at $9,000, 7.8% apart.\n\nWhich would you rather own? Vote in the comments.\n\nSource: prices from B.C. Clark (Rolex Explorer 40) and OMEGA (Speedmaster Moonwatch), read 20 November 2026. US list prices can change. Images: Rolex, Omega.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2"
+  ],
+  "source_ids": [
+    "SRC-RLX-BCC",
+    "SRC-OMG-MOON"
+  ],
+  "attribution": "B.C. Clark, OMEGA",
+  "disclosure": "",
+  "carousel_sha256": "d50d173f09210a2a1645898c7a4d0287d03b7445dab061b027ca6d4d1d435dc5",
+  "completed_at": "2026-11-20T21:12:24.685Z"
+}

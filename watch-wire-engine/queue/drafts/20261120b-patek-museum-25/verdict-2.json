@@ -2,25 +2,21 @@
   "decision": "revise",
   "post_timing": "hold",
   "soft_scores": {
-    "news": 4,
+    "news": 3,
     "hook": 3,
-    "visual": 3,
+    "visual": 2,
     "clarity": 4,
-    "taste": 4
+    "taste": 3
   },
   "hard_gate_failures": [
-    "Gate 2: slide 4 names the James Ward Packard pocket watch, Eiffel Tower wristwatch (1947) and cross-shaped watch (c. 1670). The Patek page confirms all three, but none is a claim in research.json, so they are not verified claims.",
-    "Gate 2/3: slide 3 says 'timepieces from the 16th century on' and slide 4 says 'Monochrome Watches reports recent acquisitions are included'. Neither is a verified claim (Patek says only 'from the 16th century onwards'; acquisitions have no claim).",
-    "Gate 3: 'November 2001' is stated as fact on slides 1 and 2 and in the caption. The Patek page gives only 2001, and the month comes from Monochrome Watches alone, so it is unverified in CLM-1 despite being marked verified.",
-    "Gate 4: slide 2 says the exhibition 'is on now'. No source confirms a current run; the 13 November opening is single-outlet (CLM-3, unpublishable).",
-    "Gate 7/Visual: slide 4 names three watches with no photo of any of them, and it reuses slide 3's building photo, so it looks like a repeat."
+    "Gate 6: slide 4 layout is flawed. The photo is small and boxed, and a hard dark gradient band cuts across its bottom. The slide looks unfinished.",
+    "Gate 2: slide 4 says the museum sits in 'the Manufacturer's home city'. No verified claim covers this, because CLM-1 only covers the founding."
   ],
   "fixes": [
-    "slide 1: change 'founded November 2001' to 'founded 2001' (cover body, and the caption's 'inaugurated in November 2001' to match).",
-    "slide 2: change body to 'Founded in 2001. The 25th anniversary exhibition, Celebrating a Quarter Century, is running.' only if you add a Patek-sourced claim for it; otherwise drop 'is on now'. Also change 'Inaugurated November 2001' to 'Founded 2001'.",
-    "slide 3: replace the body with a verified line, e.g. 'The exhibition covers watchmaking from the 16th century onwards.' and keep the credit.",
-    "slide 4: either add claims for the three named pieces (from patek.com) with a photo of each and its credit, or cut the list to one piece with one photo. Drop 'Monochrome Watches reports recent acquisitions are included'.",
-    "caption: remove 'November 2001' (use 2001) and add the Patek page as the source for the exhibition name and the three pieces if you keep them."
+    "slide 4: Remove this slide, or rebuild it as a full-width photo with the credit visible and no gradient band across the image. Drop the unverified 'Manufacture's home city' line, or use only 'Patek Philippe Museum · Geneva'. If the slide goes, the carousel is 4 slides and needs one more verified beat. The NEWS recipe asks for 5–6 slides.",
+    "slides 2 and 3: Change the footer from 'Source: Patek Philippe, Monochrome Watches' to 'Source: Patek Philippe'. The facts on these slides come from the official page, and Monochrome is not needed for them.",
+    "slide 1: Add a hook that says what is new, such as 'Patek Opens A 25th Anniversary Exhibition'. The current 'Patek's Museum Turns 25' says almost nothing new. Do not state the opening date (13 Nov), because the official page gives no date and only Monochrome reports it. If you want it, write 'reportedly'.",
+    "caption: Nothing needs changing. Keep the credit line, and keep the visitor count and opening date out of the slides."
   ],
-  "reason": "The Patek facts mostly check out, but the November 2001 month is single-source, slide 4's watches are not in the verified research and have no photos, and two lines on slides 2–3 are unsourced. Fix those wording and photo points and resend."
+  "reason": "The facts on the slides are accurate and sourced. I confirmed on patek.com that the museum was founded in 2001 and that the exhibition is called 'Celebrating a Quarter Century'. Slide 4 has a visible layout flaw and one unsupported line, and the story is thin. It's a museum anniversary with little news in it."
 }

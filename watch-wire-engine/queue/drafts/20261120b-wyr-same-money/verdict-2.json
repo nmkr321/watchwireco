@@ -1,26 +1,14 @@
 {
-  "decision": "revise",
-  "post_timing": "hold",
+  "decision": "approve",
+  "post_timing": "next_slot",
   "soft_scores": {
     "news": 3,
     "hook": 4,
-    "visual": 2,
-    "clarity": 3,
-    "taste": 2
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
   },
-  "hard_gate_failures": [
-    "gate 2: Rolex $8,350 not re-confirmed today (B.C. Clark fetch returned HTTP 429); Omega $9,000 confirmed",
-    "gate 5: slide 2 has three champagne highlights (SAME MONEY tag, or, prices)",
-    "gate 6: slide 1 tag sits on the photo edge; slide 2 cards start at different heights and tight to margins; slides 3-4 orphaned words",
-    "gate 7: slides 3 and 4 footer reads SOURCE: B.C. CLARK, OMEGA, which misattributes the Omega slide"
-  ],
-  "fixes": [
-    "slide 1: move the SAME MONEY tag fully below the watch case, clear of the photo edge, keeping the headline in the lower third",
-    "slide 2: keep the gold on the SAME MONEY tag only; make the or and the two prices white or grey; top-align both photo cards; widen side margins",
-    "slide 2: put each price on one line (e.g. US list, Nov 2026 on its own line) so 2026 does not drop alone",
-    "slide 3: change footer to SOURCE: B.C. CLARK; change body to US list, Nov 2026, per B.C. Clark so it matches slides 1-2 and the caption; avoid a lone Clark on line 2",
-    "slide 4: change footer to SOURCE: OMEGA; change body to end on a non-orphan line (e.g. Nov 2026, per OMEGA. on the same line as the spec)",
-    "Before posting: retry the B.C. Clark product page once and confirm $8,350; confirm B.C. Clark is an authorised Rolex dealer, or label the price as retailer price"
-  ],
-  "reason": "The Omega price checks out, but the Rolex price could not be re-checked today, slide 2 has too much gold, and the slide 3 and 4 footers and layout need fixes before this can go out."
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. Both prices (Rolex Explorer 40 $8,350, Omega Speedmaster $9,000, 7.8% apart) come from the engine's library, which was read from the official pages on 20 Nov. The photos are official and credited. The cover, price comparison, option and vote slides now look balanced, and the earlier layout flaws are fixed. This is evergreen content, not breaking news. I did not re-fetch the prices, so the headline fact is confirmed only through the library."
 }

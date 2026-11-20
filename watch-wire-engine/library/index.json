@@ -294,24 +294,6 @@
  },
  {
   "kind": "commons",
-  "title": "File:Patek Philippe Museum.JPG",
-  "ref": "Patek Philippe Museum",
-  "source": "https://commons.wikimedia.org/wiki/File:Patek_Philippe_Museum.JPG",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Patek_Philippe_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "file": "watch-wire-engine/library/img/commons-patek-philippe-museum.jpg",
-  "w": 768,
-  "h": 1024,
-  "ref_on_page": true,
-  "rights": "licensed",
-  "creator": "Credits to Mourad Ben Abdallah / Wikimedia Commons",
-  "license": "CC BY-SA 3.0",
-  "credit": "Photo: Credits to Mourad Ben Abdallah / Wikimed / CC BY-SA 3.0",
-  "caption_credit": "Photo: Credits to Mourad Ben Abdallah / Wikimedia Commons / CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/) via Wikimedia Commons",
-  "usage": "File:Patek Philippe Museum.JPG (CC BY-SA 3.0), credited",
-  "fetched": "2026-11-20"
- },
- {
-  "kind": "commons",
   "title": "File:Patek-Philippe-Nautilus-5711-1A-010-1.jpg",
   "ref": "5711",
   "source": "https://commons.wikimedia.org/wiki/File:Patek-Philippe-Nautilus-5711-1A-010-1.jpg",
@@ -326,6 +308,24 @@
   "credit": "Photo: Patek Philippe SA / CC BY-SA 4.0",
   "caption_credit": "Photo: Patek Philippe SA / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
   "usage": "File:Patek-Philippe-Nautilus-5711-1A-010-1.jpg (CC BY-SA 4.0), credited",
+  "fetched": "2026-11-20"
+ },
+ {
+  "kind": "commons",
+  "title": "File:Patek Philippe Museum.JPG",
+  "ref": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Patek_Philippe_Museum.JPG",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Patek_Philippe_Museum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "file": "watch-wire-engine/library/img/commons-patek-philippe-museum.jpg",
+  "w": 768,
+  "h": 1024,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "Credits to Mourad Ben Abdallah / Wikimedia Commons",
+  "license": "CC BY-SA 3.0",
+  "credit": "Photo: Credits to Mourad Ben Abdallah / Wikimed / CC BY-SA 3.0",
+  "caption_credit": "Photo: Credits to Mourad Ben Abdallah / Wikimedia Commons / CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/) via Wikimedia Commons",
+  "usage": "File:Patek Philippe Museum.JPG (CC BY-SA 3.0), credited",
   "fetched": "2026-11-20"
  }
 ]

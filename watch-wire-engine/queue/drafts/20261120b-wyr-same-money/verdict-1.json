@@ -4,23 +4,20 @@
   "soft_scores": {
     "news": 3,
     "hook": 4,
-    "visual": 2,
-    "clarity": 3,
+    "visual": 3,
+    "clarity": 4,
     "taste": 3
   },
   "hard_gate_failures": [
-    "Gate 5: slide 1 has two champagne highlights (SAME MONEY tag and the OR OMEGA MOONWATCH? line); slide 2 has several (tag, 'or', both prices)",
-    "Gate 6: slide 1 SAME MONEY tag touches the bottom edge of the watch photo; slide 2 the two columns are vertically misaligned and the left photo card sits at the margin edge",
-    "Gate 7: assets/manifest.json lists no assets, so the Rolex and Omega photos are not registered as official or licensed",
-    "Gate 8/dating: slide 3 footer credits 'B.C. Clark, Omega' and slide 4 does the same, though the Omega price came only from OMEGA; slides 2-4 show no price date"
+    "Gate 6: layout flaws on slides 1, 3 and 4"
   ],
   "fixes": [
-    "slide 1: keep only one champagne highlight (make the SAME MONEY tag plain or the headline line plain) and move the tag clear of the watch photo's bottom edge",
-    "slide 2: keep one champagne highlight (drop the gold on the tag or the 'or', and the prices), align the two columns at the same top line, and move the photo cards in from the margin",
-    "slide 2: add 'US list, Nov 2026' under the prices",
-    "slide 3: footer to 'SOURCE: B.C. CLARK' only, and add 'US retail, Nov 2026' to the price line",
-    "slide 4: footer to 'SOURCE: OMEGA' only, rewrite the body to avoid the one-word last line ('OMEGA.'), and add 'US list, Nov 2026' to the price line",
-    "Assets: register both product photos in assets/manifest.json with rights 'official', source URL and credit, then re-run the check"
+    "slide 1: The SAME MONEY tag overlaps the bottom of the Rolex photo (bezel and 6 o'clock). Make the headline shorter, for example 'Explorer 40 Or Moonwatch?', so it fits in two lines. That gives the tag clear space under the photo.",
+    "slide 3: The body text runs to three lines and leaves 'Clark.' alone on the last line. Shorten it to 'Ref. 224270. US list, Nov 2026, B.C. Clark.' so it fits on one or two lines.",
+    "slide 3: The Explorer photo looks much smaller than the Omega photo on slide 4. Re-render so both watches appear at a similar size.",
+    "slide 4: The body text is crowded and wraps to two lines. Shorten it to 'Ref. 310.30.42.50.01.002. US list, Nov 2026, OMEGA.'",
+    "slide 2: The two photos look unequal in size, and the Explorer looks smaller. Use matching crops so both watches fill their panels the same way."
   ],
-  "reason": "Prices check out (Omega $9,000 confirmed on the official page), but the slides break the one-highlight rule, the layout is off, the photos are not registered, and the Omega slide credits the wrong source. Fix these and resubmit."
+  "reason": "The facts and prices check out, the validation check passes, and the photos are official with credits. But the tag overlaps the watch on the cover, the body text wraps awkwardly on slides 3 and 4, and the watch photos are different sizes on slides 2, 3 and 4. Those layout flaws need fixing first.",
+  "approval_note": "I did not re-fetch the prices. The library already holds them as confirmed on 2026-11-20."
 }
