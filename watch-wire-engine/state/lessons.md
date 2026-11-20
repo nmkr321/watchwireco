@@ -41,3 +41,4 @@ The editor reads this before every post. Written automatically from rejections; 
 - 2026-11-20 [STORY BEHIND] A project missing caption.json, carousel.json or assets/manifest.json fails validate; run validate and confirm PASS before submitting.
 - 2026-11-20 [LISTICLE] Caption and final CTA slide must carry the same closing question; check both match before submitting.
 - 2026-11-20 [LISTICLE] Centre each slide's content block between header and footer, and keep clear space above the footer; fix spacing in the template before submitting.
+- 2026-11-20 [any] If a named article is blocked, WebSearch its exact headline plus the outlet name; big outlets publish the same piece on other editions (uk., au., in.) that are often readable.
