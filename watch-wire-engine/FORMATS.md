@@ -28,7 +28,7 @@ for daily watch news.").
 | LISTICLE | "Every X, Explained" / "N watches that…" | 8–10 | cover → one item per slide → cta |
 
 Prices: current US retail from the brand or an official retailer, dated ("US retail, Nov 2026"); never grey-market prices as retail.
-Photos: from `watch-wire-engine/src/photo.js` only (see the editor). Every photo slide carries its `credit`.
+Photos: real pictures as much as possible (owner requirement): actual game images for game posts, the celebrity wearing the watch for celebrity posts, from sources in `state/permissions.json`; official or free-licence watch photos otherwise. From `watch-wire-engine/src/photo.js` only. Every photo slide carries its `credit`.
 
 Never post the same format twice in a row; the next post must be a different type.
 

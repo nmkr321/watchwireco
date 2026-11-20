@@ -129,7 +129,7 @@ export function make(file) {
   else log(`editor start: ${item.title}`);
 
   if (!resume) claude(["--agent", "watch-wire-editor", "--effort", EFFORT.editor, "--max-budget-usd", EDITOR_BUDGET,
-    "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--permission-mode", "acceptEdits",
+    "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--disallowedTools", "Bash(git:*)", "--permission-mode", "acceptEdits",
     "--output-format", "json"],
     `Make one Watch Wire carousel. Input file: ${path.join(draftDir, "input.json")}. Draft folder (write draft.json here): ${draftDir}. Lane: ${item.lane}. ${item.format ? "Format: " + item.format + "." : ""}` +
     (item.previous_attempts?.length ? ` This is attempt ${item.previous_attempts.length + 1}. Earlier attempts failed for these reasons; do not repeat them (find other trusted sources or a different angle on the same topic if needed): ${JSON.stringify(item.previous_attempts)}` : ""),
@@ -176,14 +176,14 @@ export function make(file) {
   for (let round = 1; round <= 3; round++) {
     makePreviews();
     verdict = parseResult(claude(["--model", APPROVER_MODEL, "--agent", "watch-wire-approver", "--effort", EFFORT.approver, "--max-budget-usd", APPROVER_BUDGET,
-      "--allowedTools", "Read Glob Grep Bash WebFetch", "--output-format", "json", "--json-schema", schema],
+      "--allowedTools", "Read Glob Grep Bash WebFetch", "--disallowedTools", "Bash(git:*)", "--output-format", "json", "--json-schema", schema],
       `Review this Watch Wire draft and decide. Draft folder: ${draftDir}`, `approver ${item.id} r${round}`));
     writeJson(path.join(draftDir, `verdict-${round}.json`), verdict);
     log(`approver r${round}: ${verdict.decision} (${verdict.reason})`);
     if (round === 1 && verdict.decision !== "approve") learn(item, [...(verdict.hard_gate_failures || []), ...(verdict.fixes || [])]);
     if (verdict.decision !== "revise" || round === 3) break;
     claude(["--agent", "watch-wire-editor", "--effort", EFFORT.editor, "--max-budget-usd", EDITOR_BUDGET,
-      "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--permission-mode", "acceptEdits", "--output-format", "json"],
+      "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--disallowedTools", "Bash(git:*)", "--permission-mode", "acceptEdits", "--output-format", "json"],
       `Revise the Watch Wire draft in ${draftDir} (project ${draft.project_dir}). Apply exactly these fixes, re-render, re-register, re-validate, update draft.json: ${JSON.stringify(verdict.fixes)}`,
       `editor-revise ${item.id}`);
   }
@@ -271,6 +271,9 @@ Write at most 2 short general rules (under 25 words each) that would stop the ed
 const MAX_ATTEMPTS = Number(process.env.WW_MAX_ATTEMPTS || 3);
 export function makeWithRetries(file) {
   const home = path.dirname(file), name = path.basename(file);
+  const me = readJson(file);
+  const newer = ["approved", "ideas"].flatMap((d) => fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json")).map((x) => { try { return readJson(path.join(Q(d), x)); } catch { return {}; } })).find((o) => o.replaces === me.id);
+  if (newer) { me.status = "replaced"; me.replaced_by = newer.id; writeJson(file, me); move(file, "hold"); log(`skipped (replaced by ${newer.id}): ${me.title}`); return false; }
   for (let n = 1; n <= MAX_ATTEMPTS; n++) {
     try { make(path.join(home, name)); } catch (e) { log(`attempt ${n} error: ${e.message.slice(0, 200)}`); }
     if (fs.existsSync(path.join(Q("approved"), name))) return true;
@@ -352,6 +355,9 @@ async function publishDue({ breakingOnly = false } = {}) {
     const item = readJson(file);
     if (Date.parse(item.scheduled_for) > Date.now()) continue;
     if (breakingOnly && item.lane !== "breaking") continue;
+    // a newer version of this post exists (owner/editor replaced it): don't publish the old one
+    const replacedBy = ["approved", "ideas"].flatMap((d) => fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json")).map((x) => { try { return readJson(path.join(Q(d), x)); } catch { return {}; } })).find((o) => o.replaces === item.id);
+    if (replacedBy) { item.status = "replaced"; item.replaced_by = replacedBy.id; writeJson(file, item); move(file, "hold"); log(`replaced, not posting: ${item.title}`); continue; }
     const breakingToday = posted.filter((p) => p.lane === "breaking" && new Date(p.posted_at).toDateString() === today).length;
     if (item.lane === "breaking" && breakingToday >= schedule.breaking.max_per_day) { log(`breaking cap reached, holding ${item.id}`); continue; }
     if (Date.now() - lastPost < schedule.breaking.min_minutes_between_posts * 60e3 && item.lane === "breaking") { log(`too soon after last post, holding ${item.id}`); continue; }

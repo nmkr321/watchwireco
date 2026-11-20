@@ -63,6 +63,11 @@ Read `watch-wire-engine/FORMATS.md` (voice, rules, hook pattern and recipe per f
 
 ## Photos (CELEBRITY, WOULD YOU RATHER, BUILD YOUR COLLECTION, NEW RELEASES; optional elsewhere)
 
+Real pictures first (owner requirement): game posts use real game images, celebrity posts use photos of
+the person wearing the watch, whenever a permitted source has them. Permitted sources are listed in
+`watch-wire-engine/state/permissions.json`; take their images from articles with
+`PH credited <article-url> --credit "<credit text>" --owner "<name>" --project <P>` (only images credited to
+that source alone; credit exactly as permissions.json says, plus "via <outlet>").
 Use only `node watch-wire-engine/src/photo.js` (PH). It prints one JSON line; put its
 `photo` path and `credit` in slides.json, `caption_credit` in the caption's source line.
 Always pass `--project <P>` so the photo is registered. Never image search, other
@@ -90,7 +95,7 @@ creators' posts or screenshots.
 Write `draft.json` in the draft folder you were given:
 `{"status":"ready"|"stopped","project_dir":"<P>","format":"NEWS","lane":"breaking|news|rotation|history","headline":"...","slides":["output/slide-01.png"],"caption_file":"caption.json","stop_reason":""}`
 
-Only write inside `<P>` and the draft folder. Never edit templates, scripts, agent files or
+Never run git (no pull, commit or push). Only write inside `<P>` and the draft folder. Never edit templates, scripts, agent files or
 config (the engine undoes it). Fix layout by changing slide text (shorter lines), never
 CSS or new slide fields. `source` in slides.json is the outlet names only, e.g. "BBC, Hodinkee".
 

@@ -1,0 +1,15 @@
+{
+  "_how": "One entry per source that gave The Watch Wire permission. The engine only uses an image whose own credit line names one of these sources (alone), and credits it exactly as 'credit' says. Keep the written proof (email) where 'proof' points. Added by the owner.",
+  "sources": [
+    {
+      "name": "Rockstar Games",
+      "match": ["Rockstar", "Rockstar Games"],
+      "covers": "Grand Theft Auto VI game images (screenshots, trailer stills, key art)",
+      "credit": "Image: Rockstar Games",
+      "condition": "Credit Rockstar Games; cite the outlet the image came from (e.g. 'via Esquire', 'via WatchPro')",
+      "granted": "2026-11-20",
+      "proof": "Owner's email from Rockstar (kept by the owner)"
+    }
+  ],
+  "_template": { "name": "Agency or outlet", "match": ["credit text as it appears under photos"], "covers": "what images", "credit": "Photo: Name", "condition": "", "granted": "YYYY-MM-DD", "proof": "where the email is" }
+}
