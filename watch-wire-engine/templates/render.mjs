@@ -132,9 +132,9 @@ function render(s, i) {
     case "A-photo": return `<div class="hero${s.fit === "cover" ? " cover" : ""}" style="background-image:url('${img(s.photo)}')"></div>${WM}<div class="heroband"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${s.credit ? `<div class="credit pcredit">${esc(s.credit)}</div>` : ""}${foot()}`;
     case "A-photo-old": return `${WM}<div class="box"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div><div class="single" style="background-image:url('${img(s.photo)}')"></div>${s.body ? `<p class="body" style="margin-top:28px">${hl(s.body)}</p>` : ""}</div>${credit}${foot()}`;
     case "D-cover": return `<div class="bg" style="${s.photo ? `background-image:url('${img(s.photo)}')` : ""}"></div><div class="ov"></div><div class="mono">WW</div>${s.tag ? `<div class="dtag"><span class="tag">${esc(s.tag)}</span></div>` : ""}
-      <h1 class="dh">${hl(s.headline)}</h1><div class="arr">→</div><div class="wmd">THE WATCH WIRE</div>${credit}`;
-    case "D-body": return `<div class="bg" style="${s.photo ? `background-image:url('${img(s.photo)}')` : ""}"></div><div class="ov" style="background:rgba(11,11,12,.8)"></div><div class="mono">WW</div>
-      <div class="dmid"><div class="kick">${esc(s.kicker)}</div><p class="dp">${hl(s.text)}</p></div><div class="wmd">THE WATCH WIRE</div>${credit}`;
+      <h1 class="dh">${hl(s.headline)}</h1><div class="arr">→</div><div class="wmd">THE WATCH WIRE</div>${s.credit ? `<div class="credit pcredit" style="top:150px">${esc(s.credit)}</div>` : ""}`;
+    case "D-body": return `<div class="bg" style="${s.photo ? `background-image:url('${img(s.photo)}')` : ""}"></div><div class="ov" style="background:rgba(11,11,12,.86)"></div><div class="mono">WW</div>
+      <div class="dmid"><div class="kick">${esc(s.kicker)}</div><p class="dp">${hl(s.text)}</p></div><div class="wmd">THE WATCH WIRE</div>${s.credit ? `<div class="credit pcredit" style="top:150px">${esc(s.credit)}</div>` : ""}`;
     case "cta": return `<div class="mono">WW</div><div class="cta"><h1>${hl(s.line1 || "Watch news.")}<br><span class="hl">${esc(s.line2 || "Every day.")}</span></h1>
       <p>${hl(s.body || "Releases, auctions, market moves and the stories behind the world's best watches.")}</p><div class="btn">FOLLOW @WATCHWIRECO</div></div><div class="wmd">THE WATCH WIRE</div>`;
     default: throw new Error(`slide ${i + 1}: unknown template "${s.t}"`);
