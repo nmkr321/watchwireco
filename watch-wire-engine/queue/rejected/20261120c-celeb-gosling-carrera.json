@@ -1,48 +1,50 @@
 {
-  "id": "20261120c-celeb-gosling-carrera",
-  "lane": "rotation",
-  "format": "CELEBRITY",
-  "status": "rejected-after-revision",
-  "found_at": "2026-11-20T21:15:00Z",
-  "post_at": "2026-11-20T23:30:00Z",
-  "title": "The watch Ryan Gosling wears for TAG Heuer",
-  "hook": "Ryan Gosling's TAG Heuer Carrera.",
-  "why": "Evergreen celebrity post, not news: never say 'new'. Gosling became a TAG Heuer ambassador in October 2021 with the Carrera Three Hands campaign (confirm on TAG Heuer's own magazine page and LVMH). Cover: the TAG Heuer campaign photo of him wearing the Carrera (photo.js press, already in the library as press-tag-heuer-ryan-gosling.jpg). Use only facts on those two pages.",
-  "sources": [
-    {
-      "title": "TAG Heuer Magazine: New brand ambassador Ryan Gosling",
-      "link": "https://magazine.tagheuer.com/en/2021/10/12/new-brand-ambassador-ryan-gosling-tag-heuer-carrera-three-hands/",
-      "source": "TAG Heuer",
-      "tier": "official"
-    },
-    {
-      "title": "LVMH: Ryan Gosling becomes new TAG Heuer ambassador",
-      "link": "https://www.lvmh.com/news-documents/news/ryan-gosling-becomes-new-tag-heuer-ambassador/",
-      "source": "LVMH",
-      "tier": "official"
-    }
-  ],
-  "verdict": {
-    "decision": "revise",
-    "post_timing": "hold",
-    "soft_scores": {
-      "news": 2,
-      "hook": 3,
-      "visual": 3,
-      "clarity": 3,
-      "taste": 3
-    },
-    "hard_gate_failures": [
-      "Gate 2/3/4: Slide 5's premiere and Seafarer claim (9 March 2026, London, Project Hail Mary) has no verified claim in research.json. CLM-5 only covers the campaign image. Esquire Australia and AOL are not listed as sources. The caption and the footers of slides 2-5 cite them anyway.",
-      "Gate 7: Slide 5 shows a December 2023 BFI portrait under a headline about a March 2026 premiere, and it shows no Seafarer watch."
-    ],
-    "fixes": [
-      "slide 5: Delete it, or rebuild it only after the premiere claim is added to research.json as a verified claim, from a primary source or two trusted outlets and kept as 'reportedly'. Then use a photo that shows that watch.",
-      "slides 2-5 footers and caption: Cite only 'TAG Heuer Magazine, Oct 2021'. Remove Esquire Australia and AOL unless they are verified in research.json.",
-      "slide 4: Replace it or merge it into the cover. It repeats the cover photo and adds nothing new. If you replace it, show a close-up of the watch on his wrist, since the watch is visible in the photo, and keep 'no watch identified'.",
-      "caption: Remove the premiere paragraph and 'Current angle'. Keep it to the verified October 2021 facts."
-    ],
-    "reason": "The post is built on a single official TAG Heuer article, and its facts check out. But slide 5 states a 2026 premiere watch that no claim in research.json supports, and it sits over an unrelated 2023 photo. Fix that and the repeated slide 4, then resubmit."
+ "id": "20261120c-celeb-gosling-carrera",
+ "lane": "rotation",
+ "format": "CELEBRITY",
+ "status": "rejected-after-revision",
+ "found_at": "2026-11-20T21:15:00Z",
+ "post_at": "2026-11-20T23:30:00Z",
+ "title": "The watch Ryan Gosling wears for TAG Heuer",
+ "hook": "Ryan Gosling's TAG Heuer Carrera.",
+ "why": "Evergreen celebrity post, not news: never say 'new'. Gosling became a TAG Heuer ambassador in October 2021 with the Carrera Three Hands campaign (confirm on TAG Heuer's own magazine page and LVMH). Cover: the TAG Heuer campaign photo of him wearing the Carrera (photo.js press, already in the library as press-tag-heuer-ryan-gosling.jpg). Use only facts on those two pages.",
+ "sources": [
+  {
+   "title": "TAG Heuer Magazine: New brand ambassador Ryan Gosling",
+   "link": "https://magazine.tagheuer.com/en/2021/10/12/new-brand-ambassador-ryan-gosling-tag-heuer-carrera-three-hands/",
+   "source": "TAG Heuer",
+   "tier": "official"
   },
-  "draft_dir": "watch-wire-engine/queue/drafts/20261120c-celeb-gosling-carrera"
+  {
+   "title": "LVMH: Ryan Gosling becomes new TAG Heuer ambassador",
+   "link": "https://www.lvmh.com/news-documents/news/ryan-gosling-becomes-new-tag-heuer-ambassador/",
+   "source": "LVMH",
+   "tier": "official"
+  }
+ ],
+ "verdict": {
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+   "news": 2,
+   "hook": 3,
+   "visual": 3,
+   "clarity": 3,
+   "taste": 3
+  },
+  "hard_gate_failures": [
+   "Gate 2/3/4: Slide 5's premiere and Seafarer claim (9 March 2026, London, Project Hail Mary) has no verified claim in research.json. CLM-5 only covers the campaign image. Esquire Australia and AOL are not listed as sources. The caption and the footers of slides 2-5 cite them anyway.",
+   "Gate 7: Slide 5 shows a December 2023 BFI portrait under a headline about a March 2026 premiere, and it shows no Seafarer watch."
+  ],
+  "fixes": [
+   "slide 5: Delete it, or rebuild it only after the premiere claim is added to research.json as a verified claim, from a primary source or two trusted outlets and kept as 'reportedly'. Then use a photo that shows that watch.",
+   "slides 2-5 footers and caption: Cite only 'TAG Heuer Magazine, Oct 2021'. Remove Esquire Australia and AOL unless they are verified in research.json.",
+   "slide 4: Replace it or merge it into the cover. It repeats the cover photo and adds nothing new. If you replace it, show a close-up of the watch on his wrist, since the watch is visible in the photo, and keep 'no watch identified'.",
+   "caption: Remove the premiere paragraph and 'Current angle'. Keep it to the verified October 2021 facts."
+  ],
+  "reason": "The post is built on a single official TAG Heuer article, and its facts check out. But slide 5 states a 2026 premiere watch that no claim in research.json supports, and it sits over an unrelated 2023 photo. Fix that and the repeated slide 4, then resubmit."
+ },
+ "draft_dir": "watch-wire-engine/queue/drafts/20261120c-celeb-gosling-carrera",
+ "gave_up": true,
+ "retired": "2026-11-20: dropped by the owner/editor; slot reassigned"
 }

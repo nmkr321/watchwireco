@@ -1,44 +1,46 @@
 {
-  "id": "20261120b-patek-museum-25",
-  "format": "NEWS",
-  "post_at": "2026-11-20T23:30:00Z",
-  "title": "The Patek Philippe Museum celebrates 25 years",
-  "hook": "Patek's Museum Turns 25.",
-  "why": "Hodinkee 'Dispatch: The Patek Philippe Museum Celebrates 25 Years'. Confirm facts on patekmuseum.com or patek.com. Photo: an official Patek/museum press image via photo.js press, else a library Patek photo.",
-  "sources": [
-    {
-      "title": "Dispatch: The Patek Philippe Museum Celebrates 25 Years",
-      "link": "https://www.hodinkee.com/",
-      "source": "Hodinkee",
-      "tier": "trusted"
-    }
-  ],
-  "lane": "rotation",
-  "status": "rejected-after-revision",
-  "found_at": "2026-11-20T19:50:00Z",
-  "verdict": {
-    "decision": "revise",
-    "post_timing": "hold",
-    "soft_scores": {
-      "news": 3,
-      "hook": 3,
-      "visual": 3,
-      "clarity": 4,
-      "taste": 3
-    },
-    "hard_gate_failures": [
-      "Gate 2/4: the cover headline says 'Opens', but the opening date (CLM-3) is single-source and unverified, and Patek's page gives no date.",
-      "Gate 2: slide 4 (1989, Calibre 89, 'most complicated watch') has no claim of its own in research.json. Patek's page does support it, but it is tied to CLM-2, which does not cover it.",
-      "Gate 6: on slide 5 the photo credit sits at the top and overlaps the wordmark and @watchwireco handle.",
-      "Gate 6/soft: slide 5 reuses the cover photo and adds nothing new."
-    ],
-    "fixes": [
-      "slide 1: change the headline to 'Patek Museum Turns 25' (no 'opens'). Alternatively, label the opening as reportedly and add it as a claim.",
-      "research.json: add a verified claim for Calibre 89, 1989 and 'most complicated watch in the world when unveiled', citing SRC-PATEK-QAQ. Point slide 4 at that claim. Make the slide 4 headline name 'Calibre 89' and cut the body to under 15 words.",
-      "slide 5: remove the slide, or move the photo credit to the bottom so it clears the wordmark and handle. A duplicate of the cover photo is weak, so removing it is preferred. A 5-slide post is acceptable only if the NEWS recipe allows it, which it does at 5 to 6 slides.",
-      "caption: keep the source line. Update it if the headline wording changes."
-    ],
-    "reason": "The Patek facts are correct and the check passes. But the cover says the exhibition 'opens' when only one outlet gave a date, slide 4 isn't tied to a verified claim, and slide 5's credit overlaps the wordmark. Fix those and it can go out."
+ "id": "20261120b-patek-museum-25",
+ "format": "NEWS",
+ "post_at": "2026-11-20T23:30:00Z",
+ "title": "The Patek Philippe Museum celebrates 25 years",
+ "hook": "Patek's Museum Turns 25.",
+ "why": "Hodinkee 'Dispatch: The Patek Philippe Museum Celebrates 25 Years'. Confirm facts on patekmuseum.com or patek.com. Photo: an official Patek/museum press image via photo.js press, else a library Patek photo.",
+ "sources": [
+  {
+   "title": "Dispatch: The Patek Philippe Museum Celebrates 25 Years",
+   "link": "https://www.hodinkee.com/",
+   "source": "Hodinkee",
+   "tier": "trusted"
+  }
+ ],
+ "lane": "rotation",
+ "status": "rejected-after-revision",
+ "found_at": "2026-11-20T19:50:00Z",
+ "verdict": {
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+   "news": 3,
+   "hook": 3,
+   "visual": 3,
+   "clarity": 4,
+   "taste": 3
   },
-  "draft_dir": "watch-wire-engine/queue/drafts/20261120b-patek-museum-25"
+  "hard_gate_failures": [
+   "Gate 2/4: the cover headline says 'Opens', but the opening date (CLM-3) is single-source and unverified, and Patek's page gives no date.",
+   "Gate 2: slide 4 (1989, Calibre 89, 'most complicated watch') has no claim of its own in research.json. Patek's page does support it, but it is tied to CLM-2, which does not cover it.",
+   "Gate 6: on slide 5 the photo credit sits at the top and overlaps the wordmark and @watchwireco handle.",
+   "Gate 6/soft: slide 5 reuses the cover photo and adds nothing new."
+  ],
+  "fixes": [
+   "slide 1: change the headline to 'Patek Museum Turns 25' (no 'opens'). Alternatively, label the opening as reportedly and add it as a claim.",
+   "research.json: add a verified claim for Calibre 89, 1989 and 'most complicated watch in the world when unveiled', citing SRC-PATEK-QAQ. Point slide 4 at that claim. Make the slide 4 headline name 'Calibre 89' and cut the body to under 15 words.",
+   "slide 5: remove the slide, or move the photo credit to the bottom so it clears the wordmark and handle. A duplicate of the cover photo is weak, so removing it is preferred. A 5-slide post is acceptable only if the NEWS recipe allows it, which it does at 5 to 6 slides.",
+   "caption: keep the source line. Update it if the headline wording changes."
+  ],
+  "reason": "The Patek facts are correct and the check passes. But the cover says the exhibition 'opens' when only one outlet gave a date, slide 4 isn't tied to a verified claim, and slide 5's credit overlaps the wordmark. Fix those and it can go out."
+ },
+ "draft_dir": "watch-wire-engine/queue/drafts/20261120b-patek-museum-25",
+ "gave_up": true,
+ "retired": "2026-11-20: dropped by the owner/editor; slot reassigned"
 }
