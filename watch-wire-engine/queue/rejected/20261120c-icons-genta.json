@@ -2,7 +2,7 @@
   "id": "20261120c-icons-genta",
   "lane": "history",
   "format": "STORY BEHIND",
-  "status": "rejected-after-revision",
+  "status": "stopped",
   "found_at": "2026-11-20T21:20:00Z",
   "post_at": "2026-11-20T23:30:00Z",
   "title": "Gérald Genta: the man who designed both the Royal Oak and the Nautilus",
@@ -28,27 +28,11 @@
       "tier": "official"
     }
   ],
-  "verdict": {
-    "decision": "revise",
-    "post_timing": "hold",
-    "soft_scores": {
-      "news": 3,
-      "hook": 4,
-      "visual": 3,
-      "clarity": 4,
-      "taste": 3
-    },
-    "hard_gate_failures": [
-      "4: the cover and payoff state 'One Man Designed Both' and 'One designer.' as fact, but the Nautilus designer credit rests on one outlet (Sotheby's) and slide 5 itself says 'reportedly'",
-      "6: slide 5 has the headline and kicker over the dial, the wordmark touches the bezel, and 'Genta.' sits alone on the second line"
-    ],
-    "fixes": [
-      "slide 1: change the headline to a hedged one that holds up, e.g. 'Genta Drew The Royal Oak. And The Nautilus?' If that is too long, use 'The Royal Oak Designer's Second Icon'. Otherwise confirm the Nautilus credit with a second source, such as the Patek Philippe page or a second trusted outlet, and add it to research.json.",
-      "slide 6: change 'One designer.' to 'Reportedly one designer.' unless the Nautilus credit is confirmed by a second source",
-      "slide 5: shorten the text to 'Nautilus, 1976. Reportedly Genta's.' so it fits on one balanced line. Move the text off the dial, or use a darker overlay or a photo crop where the text is not over the dial, and keep the wordmark clear of the bezel",
-      "caption: change 'Two steel sports watches from one designer' to a hedged line to match the slides"
-    ],
-    "reason": "Dates and the Royal Oak facts check out against Audemars Piguet's own page. The headline and payoff state the Nautilus designer as fact when we only have one outlet, and slide 5's text sits over the dial and crowds the wordmark."
-  },
-  "draft_dir": "watch-wire-engine/queue/drafts/20261120c-icons-genta"
+  "previous_attempts": [
+    "Dates and the Royal Oak facts check out against Audemars Piguet's own page. The headline and payoff state the Nautilus designer as fact when we only have one outlet, and slide 5's text sits over the dial and crowds the wordmark. / slide 1: change the headline to a hedged one that holds up, e.g. 'Genta Drew The Royal Oak. And The Nautilus?' If that is too long, use 'The Royal Oak Designer's Second Icon'. Otherwise confirm the Nautilus credit with a second source, such as the Patek Philippe page or a second trusted outlet, and add it to research.json. / slide 6: change 'One designer.' to 'Report",
+    "The facts are sound and the Nautilus credit is hedged correctly. Two layout problems from the last review remain: the cover photo credit is still hard to read, and the Nautilus photo on slide 5 is too dark to see the watch. Both look like template limits, so I need the owner to decide on a template  / Gate 6/7: the slide 1 photo credit is still tiny, faint and top-right, close to the edge. It sits over the busy part of the portrait. This was requested twice and not fixed. / Gate 6/7: slide 5 is dimmed so heavily that the Nautilus is barely visible. The text sits over the dial, so the watch is ",
+    "Template limit, owner decision needed. Research is sound (Sotheby's, Gear Patrol and Wikipedia name Genta as designer of both watches; Nautilus 1976 confirmed; napkin story dropped as single-outlet). Two layout failures remain that content edits cannot fix: (1) slide 1 photo credit 'Photo: Unknown /"
+  ],
+  "stop_reason": "Attempt 4 stopped without rendering. The two layout failures from the last review are template limits, not copy problems: (1) the slide 1 cover photo credit is tiny, faint and top-right over the busy part of the portrait; (2) the slide 5 Nautilus photo is dimmed so heavily the watch is barely visible, and its text sits over the dial. Per the lessons file and the editor rules, I cannot edit templates, so I did not re-render. Also, the cover credit reads 'Photo: Unknown' in earlier notes; any photo whose author is Unknown or blank has no valid rights entry and must be dropped, not credited. Owner decision needed: (a) allow a template change for credit placement (larger, solid backing, clear of the portrait) and a lighter dim on A-photo/D-cover photo slides that keeps the Nautilus visible, or (b) drop the portrait/Nautilus photos and run a typographic version. Research is sound per the last review (Sotheby's, Gear Patrol and Wikipedia name Genta as designer of both; Nautilus 1976 confirmed; napkin story dropped as single-outlet).",
+  "gave_up": true
 }

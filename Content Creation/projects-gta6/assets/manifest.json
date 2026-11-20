@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "assets": [
+    {
+      "id": "asset-1",
+      "kind": "commons",
+      "source_id": null,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mysub16613x.JPG",
+      "provider": "manual",
+      "rights_status": "licensed",
+      "usage": "File:Mysub16613x.JPG (Public domain), credited",
+      "local_path": "assets/media/asset-1.jpg",
+      "artifact_paths": [
+        "assets/media/asset-1.jpg"
+      ],
+      "receipt_id": null,
+      "title": "File:Mysub16613x.JPG",
+      "creator": "Eternalsleeper at English Wikipedia",
+      "sha256": "23632cd860c91c6deb5f56e57be5255fce758d11a9c25aeda9f0f3eb429cee5e",
+      "acquired_at": "2026-11-20T22:11:11.499Z",
+      "notes": "Copied into this project from the selected provider; download access does not grant publication rights."
+    },
+    {
+      "id": "asset-2",
+      "kind": "commons",
+      "source_id": null,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Royal_Oak_bracelet.jpg",
+      "provider": "manual",
+      "rights_status": "licensed",
+      "usage": "File:Royal Oak bracelet.jpg (CC BY-SA 4.0), credited",
+      "local_path": "assets/media/asset-2.jpg",
+      "artifact_paths": [
+        "assets/media/asset-2.jpg"
+      ],
+      "receipt_id": null,
+      "title": "File:Royal Oak bracelet.jpg",
+      "creator": "Myles Gray",
+      "sha256": "7e6466748450055613ee0df0e4cc0815da7241a5985f802f35534e369c8d95dd",
+      "acquired_at": "2026-11-20T22:11:12.637Z",
+      "notes": "Copied into this project from the selected provider; download access does not grant publication rights."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "source": {"type": "guide", "path": "The-Watch-Wire-Brand-Guide.md", "priority": "primary"},
+  "name": "The Watch Wire (@watchwireco)",
+  "audience": "Luxury watch enthusiasts and collectors who follow brands, releases, auctions, prices and celebrity watches",
+  "voice": ["confident", "insider", "concise and checked"],
+  "visual": {
+    "direction": "Black-and-champagne luxury news in two templates: A (News) photo fading into jet with champagne tag and uppercase Oswald headline; D (Story) full-bleed dark photo, WW monogram, centred Poppins title-case headline. Never mix A and D in one carousel; shared closing slide; 8pt grid, 48px margins.",
+    "colors": ["Jet #0B0B0C background", "Ivory #F4EFE6 text", "Champagne #C8A96A signal only (one moment per slide)", "Smoke #9B968C labels/sources", "Ink #17171A panels", "Ratio 90/8/2"],
+    "typography": ["Oswald 700 uppercase: news headlines, tags, wordmark", "Poppins 700/600 title case: story headlines and sentences", "Playfair Display 600: WW monogram, story wordmark, 'or'", "Inter 400/600: body, labels, sources"],
+    "imagery": ["Credited brand press, auction-house and event press photos, plus own photos", "Credit line 'Image: [source]' on every photo slide; press photos registered as permission-needed", "Avoid other creators' screenshots, watermarked images, edited watches, stock photos"],
+    "logo_usage": "Text-only. Wordmark THE WATCH WIRE in Oswald 700 uppercase with WIRE in champagne, top-left on news slides (min 18px, else @WATCHWIRECO). WW monogram in Playfair Display top-centre on story slides and as profile icon. Serif ivory wordmark bottom-centre on story slides."
+  },
+  "content_rules": {
+    "do": ["Name the source for every number and date every price", "Label unconfirmed claims as reportedly/rumour", "One idea per slide", "Topic tag on every cover", "Say 'spotted wearing' unless ownership is confirmed; state whether auction prices include fees"],
+    "avoid": ["Price predictions or investment advice", "Clickbait the slides don't pay off; emojis in headlines", "Reposting other creators' slides or photos", "Presenting press photos as our own"]
+  },
+  "cta_style": "Calm and direct, one action: 'Vote in the comments.' 'Swipe for the full list.' 'Follow @watchwireco for daily watch news.'",
+  "notes": "Full visual kit: watch-wire-kit/index.html"
+}

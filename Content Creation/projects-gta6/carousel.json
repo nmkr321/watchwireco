@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "status": "not_started",
+  "format": {
+    "name": "carousel",
+    "width": 1080,
+    "height": 1350
+  },
+  "slides": [],
+  "rendered_slides": []
+}

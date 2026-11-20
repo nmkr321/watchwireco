@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "project_id": "JOB-20261120-b28fc5c0",
+  "content_type": "social-media",
+  "conclusion": "",
+  "scope": "",
+  "specialist": {
+    "topic_scope": "",
+    "sample_definition": "",
+    "time_window": "",
+    "claim_ranking_method": "",
+    "stopping_rule": "",
+    "signal_counts": [],
+    "platform_findings": [],
+    "firsthand_signals": [],
+    "narrative_patterns": [],
+    "disagreements": [],
+    "verification_source_ids": [],
+    "coverage_gaps": []
+  }
+}

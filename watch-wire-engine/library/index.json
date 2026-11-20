@@ -592,5 +592,41 @@
   "credit": "Image: Rolex",
   "usage": "Rolex 228238 official product image, credited",
   "fetched": "2026-11-20"
+ },
+ {
+  "kind": "commons",
+  "title": "File:Mysub16613x.JPG",
+  "ref": "16613",
+  "source": "https://commons.wikimedia.org/wiki/File:Mysub16613x.JPG",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Mysub16613x.JPG/1920px-Mysub16613x.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "file": "watch-wire-engine/library/img/commons-mysub16613x.jpg",
+  "w": 1920,
+  "h": 1440,
+  "ref_on_page": true,
+  "rights": "licensed",
+  "creator": "Eternalsleeper at English Wikipedia",
+  "license": "Public domain",
+  "credit": "Photo: Eternalsleeper at English Wikipedia / Public domain",
+  "caption_credit": "Photo: Eternalsleeper at English Wikipedia / Public domain via Wikimedia Commons",
+  "usage": "File:Mysub16613x.JPG (Public domain), credited",
+  "fetched": "2026-11-20"
+ },
+ {
+  "kind": "commons",
+  "title": "File:Royal Oak bracelet.jpg",
+  "ref": "Royal Oak",
+  "source": "https://commons.wikimedia.org/wiki/File:Royal_Oak_bracelet.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Royal_Oak_bracelet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "file": "watch-wire-engine/library/img/commons-royal-oak-bracelet.jpg",
+  "w": 720,
+  "h": 960,
+  "ref_on_page": true,
+  "rights": "licensed",
+  "creator": "Myles Gray",
+  "license": "CC BY-SA 4.0",
+  "credit": "Photo: Myles Gray / CC BY-SA 4.0",
+  "caption_credit": "Photo: Myles Gray / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
+  "usage": "File:Royal Oak bracelet.jpg (CC BY-SA 4.0), credited",
+  "fetched": "2026-11-20"
  }
 ]
