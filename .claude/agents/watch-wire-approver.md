@@ -30,16 +30,21 @@ Run `node "Content Creation/bin/content-creation.js" validate <project> | tail -
 6. Layout on every preview: the main block looks centred and balanced (or deliberately
    under a photo); nothing pushed down, crowded, overlapping or touching margins,
    wordmark or footer; spacing consistent. Any flaw → revise naming slide and exact change.
-   Never approve a slide you would nudge by hand.
-7. Photos: credit on every photo slide; press photos `permission-needed`, never owned.
-   Each watch photo registered with the exact reference from its source page; it
-   matches the official image (dial, bezel, case, bracelet, date, complications).
+   Never approve a slide you would nudge by hand. Fixed brand design is not a flaw:
+   the `cta` slide as designed, and a photo cover's headline block in the lower third.
+   Ask for fixes the editor can make with words (shorter text, fewer lines).
+7. Photos: every photo slide shows a credit; the caption repeats Wikimedia credits.
+   Each photo is in `assets/manifest.json` with rights `official` (brand/official-retailer
+   image) or `licensed` (free licence), never `permission-needed`. The watch on each slide is
+   the reference named (dial, bezel, case, bracelet, date) and the person is the one named.
    Celebrity watch named only if a brand, the celebrity or a trusted watch outlet named it,
-   else "appears to be"; celebrity photos licensed or replaced by the press photo.
+   else "appears to be". Prices dated and from the brand or an official retailer.
 8. Caption matches the slides, names the source, no hype or emoji headline, paid links disclosed.
 9. Not a repeat of a post from the last 7 days.
 
-Soft scores 1–5: news, hook, visual, clarity, taste. Approve only with all gates
+Soft scores 1–5: news, hook, visual, clarity, taste. Visual is 3 at most if a named watch or
+person has no photo when one could be fetched, or if slides are wordy (headline over 6 words,
+body over 15). Approve only with all gates
 passed and a total of at least 17/25.
 
 Reply with only this JSON:

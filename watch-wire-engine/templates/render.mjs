@@ -12,8 +12,9 @@
 //   A-table   label, headline, cols:[a,b,c], rows:[[a,b,c],..], hl?:rowIndex, note?, body?
 //   A-list    label, headline, items:[text,..], body?            boxed list
 //   A-text    label, headline, body                              plain explainer
-//   A-wyr     tag, left:{brand,model,photo?}, right:{...}, prompt?   would you rather
-//   A-photo   label, headline, photo, credit, body?              one watch close up
+//   A-wyr     tag, left:{brand,model,price?,photo?}, right:{...}, prompt?   would you rather / same money
+//   A-photo   label, headline, photo, credit, body?, fit?        big photo on top + caps headline band (fit:"cover" for people/lifestyle shots; default shows the whole watch on ivory)
+//   A-spotted label, headline, photo (person), watch (watch image), credit, body?   person + inset watch
 //   D-cover   headline, photo?, credit?                          story cover (title case)
 //   D-body    kicker, text, photo?                               story beat
 //   cta       line1?, line2?, body?                              closing slide (always last)
@@ -32,7 +33,14 @@ fs.mkdirSync(path.join(outDir, "html"), { recursive: true });
 
 const esc = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const hl = (s = "") => esc(s).replace(/\[\[(.+?)\]\]/g, '<span class="hl">$1</span>');
-const img = (p) => !p ? "" : /^https?:/.test(p) ? p : "file://" + path.resolve(path.dirname(specFile), p);
+// photo paths: https URL, path relative to slides.json, or path from the project root (watch-wire-engine/library/...)
+const img = (p) => {
+  if (!p) return "";
+  if (/^https?:/.test(p)) return p;
+  const f = [path.resolve(path.dirname(specFile), p), path.resolve(p)].find((x) => fs.existsSync(x));
+  if (!f) { console.error(`photo not found: ${p} (fetch it with watch-wire-engine/src/photo.js)`); process.exit(1); }
+  return "file://" + f;
+};
 
 const CSS = `
 :root{--jet:#0B0B0C;--ink:#17171A;--ivory:#F4EFE6;--smoke:#9B968C;--ch:#C8A96A;
@@ -42,7 +50,7 @@ html,body{width:1080px;height:1350px;overflow:hidden;background:var(--jet);color
 .s{position:relative;width:1080px;height:1350px;overflow:hidden}
 .wm{position:absolute;left:48px;top:52px;font:700 32px var(--n);letter-spacing:.06em;z-index:3}.wm b{color:var(--ch);font-weight:700}
 .handle{position:absolute;right:48px;top:58px;font:600 20px var(--b);letter-spacing:.16em;color:var(--smoke);z-index:3}
-.foot{position:absolute;left:48px;right:48px;bottom:48px;display:flex;justify-content:space-between;gap:24px;font:600 18px var(--b);letter-spacing:.16em;color:var(--smoke);text-transform:uppercase;z-index:3}
+.foot span{white-space:nowrap}.foot span:first-child{overflow:hidden;text-overflow:ellipsis;min-width:0}.foot span:last-child{flex:none}.foot{position:absolute;left:48px;right:48px;bottom:48px;display:flex;justify-content:space-between;gap:24px;font:600 18px var(--b);letter-spacing:.16em;color:var(--smoke);text-transform:uppercase;z-index:3}
 .credit{position:absolute;right:48px;bottom:84px;font:400 16px var(--b);color:rgba(244,239,230,.5);z-index:3}
 .tag{display:inline-block;background:var(--ch);color:var(--jet);font:700 26px var(--n);letter-spacing:.16em;padding:8px 24px;border-radius:4px}
 .hl{color:var(--ch)}
@@ -50,9 +58,10 @@ html,body{width:1080px;height:1350px;overflow:hidden;background:var(--jet);color
 .h{font:700 80px/1.05 var(--n);text-transform:uppercase;margin-top:22px;text-wrap:balance}
 .body{font:400 34px/1.45 var(--b);color:#d8d2c7;margin-top:40px}
 .box{position:absolute;left:48px;right:48px;top:170px}.box.mid{top:50%;transform:translateY(-50%);max-height:1060px}
-.photo{position:absolute;inset:0 0 auto 0;height:920px;background:#141312 center/cover no-repeat}
+.photo{position:absolute;inset:0 0 auto 0;height:920px;background:#141312 center 25%/cover no-repeat}.photo::before{content:"";position:absolute;inset:0 0 auto 0;height:240px;background:linear-gradient(rgba(11,11,12,.8),transparent)}
 .fade{position:absolute;left:0;right:0;top:560px;height:420px;background:linear-gradient(transparent,var(--jet))}
-.cov{position:absolute;left:48px;right:48px;bottom:128px;text-align:center;z-index:2}.cov.mid{top:50%;bottom:auto;transform:translateY(-50%)}
+.pcredit{top:100px;bottom:auto}
+.cov{position:absolute;left:48px;right:48px;bottom:150px;text-align:center;z-index:2}.cov.mid{top:50%;bottom:auto;transform:translateY(-50%)}
 .cov h1{font:700 118px/1 var(--n);text-transform:uppercase;margin-top:28px;text-wrap:balance}
 .cov h2{font:700 96px/1.04 var(--n);color:var(--ch);text-transform:uppercase;text-wrap:balance}
 .meta{font:600 20px var(--b);letter-spacing:.16em;color:var(--smoke);margin-top:32px;text-transform:uppercase}
@@ -65,11 +74,17 @@ td:last-child{border-radius:0 6px 6px 0;font:700 44px var(--n);color:var(--ivory
 tr.on td:last-child{color:var(--ch)}
 .note{font:400 24px/1.45 var(--b);color:var(--smoke);margin-top:24px}
 .list{list-style:none;margin-top:44px;display:grid;gap:14px}.list li{background:var(--ink);padding:28px 32px;border-radius:6px;font:600 34px/1.3 var(--b)}
-.duo{position:absolute;top:290px;left:0;right:0;display:flex;justify-content:space-around;align-items:center;text-align:center}
+.duo{position:absolute;top:50%;transform:translateY(-44%);left:0;right:0;display:flex;justify-content:space-around;align-items:center;text-align:center}
 .duo .w{width:380px}.duo .pic{width:380px;height:440px;background:var(--ink) center/contain no-repeat;border-radius:6px}
-.duo p{font:600 24px var(--b);letter-spacing:.14em;color:var(--smoke);margin-top:20px;text-transform:uppercase}.duo p span{display:block;font:700 60px/1.05 var(--n);color:var(--ivory);letter-spacing:.02em;margin-top:6px}
+.duo p{font:600 24px var(--b);letter-spacing:.14em;color:var(--smoke);margin-top:20px;text-transform:uppercase}.duo p span{display:block;font:700 60px/1.05 var(--n);color:var(--ivory);letter-spacing:.02em;margin-top:6px}.duo p em{display:block;font:600 30px var(--b);font-style:normal;color:var(--ch);letter-spacing:.06em;margin-top:10px}
 .or{font:600 88px var(--m);color:var(--ch)}
 .q{position:absolute;top:150px;left:0;right:0;text-align:center}
+.spot{position:absolute;inset:0 0 auto 0;height:860px;background:#141312 center 22%/cover no-repeat}.spot::before{content:"";position:absolute;inset:0 0 auto 0;height:240px;background:linear-gradient(rgba(11,11,12,.85),transparent)}.spot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:380px;background:linear-gradient(transparent,var(--jet))}
+.inset{position:absolute;right:48px;top:470px;width:340px;height:340px;border-radius:8px;background:#F4EFE6 center/82% no-repeat;box-shadow:0 18px 50px rgba(0,0,0,.55);border:3px solid var(--ch);z-index:2}
+.spotbox{position:absolute;left:48px;right:48px;bottom:150px;z-index:2}
+.hero{position:absolute;left:0;right:0;top:130px;height:770px;background:#F4EFE6 center/contain no-repeat;background-origin:content-box;padding:50px 90px 90px}.hero.cover{top:0;height:900px;padding:0;background-color:#141312;background-size:cover;background-position:center 30%}
+.hero.cover::before{content:"";position:absolute;inset:0 0 auto 0;height:200px;background:linear-gradient(rgba(11,11,12,.85),transparent)}.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:160px;background:linear-gradient(transparent,var(--jet))}
+.heroband{position:absolute;left:48px;right:48px;top:870px;bottom:120px;display:flex;flex-direction:column;justify-content:center;text-align:center;z-index:2}.heroband .h{margin-top:12px}.heroband .body{margin-top:18px;font-size:30px}
 .single{width:100%;height:640px;background:var(--ink) center/contain no-repeat;border-radius:6px;margin-top:36px}
 .bg{position:absolute;inset:0;background:#2a2622 center/cover no-repeat}.ov{position:absolute;inset:0;background:rgba(11,11,12,.6)}
 .mono{position:absolute;top:72px;left:0;right:0;text-align:center;font:600 54px var(--m);z-index:2}
@@ -87,12 +102,13 @@ const WM = `<div class="wm">THE WATCH <b>WIRE</b></div><div class="handle">@WATC
 
 function render(s, i) {
   const page = `${String(i + 1).padStart(2, "0")} / ${String(slides.length).padStart(2, "0")}`;
-  const foot = (left = spec.source ? "Source: " + spec.source : "") => `<div class="foot"><span>${esc(left)}</span><span>${page}</span></div>`;
-  const credit = s.credit ? `<div class="credit">${esc(s.credit)}</div>` : "";
+  const foot = (left = spec.source ? "Source: " + String(spec.source).replace(/^\s*sources?:\s*/i, "") : "") => `<div class="foot"><span>${esc(left)}</span><span>${page}</span></div>`;
+  let credit = s.credit ? `<div class="credit">${esc(s.credit)}</div>` : "";
   switch (s.t) {
-    case "A-cover": return `${s.photo ? `<div class="photo" style="background-image:url('${img(s.photo)}')"></div><div class="fade"></div>` : ""}${WM}
+    case "A-cover": if (s.photo && s.credit) credit = `<div class="credit pcredit">${esc(s.credit)}</div>`;
+      return `${s.photo ? `<div class="photo" style="background-image:url('${img(s.photo)}')"></div><div class="fade"></div>` : ""}${WM}
       <div class="cov${s.photo ? "" : " mid"}"><span class="tag">${esc(s.tag)}</span><h1>${hl(s.line1)}</h1>${s.line2 ? `<h2>${hl(s.line2)}</h2>` : ""}${s.meta ? `<div class="meta">${esc(s.meta)}</div>` : ""}</div>${credit}${foot(s.footLeft || "Swipe →")}`;
-    case "A-number": return `${WM}<div class="q"><span class="tag">${esc(s.tag)}</span></div><div class="num">${hl(s.number)}</div>
+    case "A-number": return `${WM}<div class="q">${s.tag ? `<span class="tag">${esc(s.tag)}</span>` : ""}</div><div class="num">${hl(s.number)}</div>
       <div class="lbl" style="text-align:center;margin-top:14px">${esc(s.label)}</div><div class="box" style="top:720px;text-align:center"><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${foot()}`;
     case "A-table": return `${WM}<div class="box mid"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>
       <table class="${s.tight ? "tight" : ""}"><tr>${s.cols.map((c) => `<th>${esc(c)}</th>`).join("")}</tr>${s.rows.map((r, k) => `<tr class="${k === s.hl ? "on" : ""}">${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</table>
@@ -100,9 +116,12 @@ function render(s, i) {
     case "A-list": return `${WM}<div class="box mid"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>
       <ul class="list">${s.items.map((x) => `<li>${hl(x)}</li>`).join("")}</ul>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${foot()}`;
     case "A-text": return `${WM}<div class="box mid"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div><p class="body">${hl(s.body)}</p></div>${foot()}`;
-    case "A-wyr": { const side = (x) => `<div class="w"><div class="pic" style="background-image:url('${img(x.photo)}')"></div><p>${esc(x.brand)}<span>${esc(x.model)}</span></p></div>`;
+    case "A-wyr": { const side = (x) => `<div class="w"><div class="pic" style="background-image:url('${img(x.photo)}')"></div><p>${esc(x.brand)}<span>${esc(x.model)}</span>${x.price ? `<em>${esc(x.price)}</em>` : ""}</p></div>`;
       return `${WM}<div class="q"><span class="tag">${esc(s.tag || "WOULD YOU RATHER")}</span></div><div class="duo">${side(s.left)}<div class="or">or</div>${side(s.right)}</div>${credit}${foot(s.prompt || "Vote in the comments")}`; }
-    case "A-photo": return `${WM}<div class="box"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div><div class="single" style="background-image:url('${img(s.photo)}')"></div>${s.body ? `<p class="body" style="margin-top:28px">${hl(s.body)}</p>` : ""}</div>${credit}${foot()}`;
+    case "A-spotted": return `<div class="spot" style="background-image:url('${img(s.photo)}')"></div><div class="inset" style="background-image:url('${img(s.watch)}')"></div>${WM}
+      <div class="spotbox"><div class="lbl">${esc(s.label || "Spotted wearing")}</div><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body" style="margin-top:20px">${hl(s.body)}</p>` : ""}</div><div class="credit pcredit">${esc(s.credit || "")}</div>${foot()}`;
+    case "A-photo": return `<div class="hero${s.fit === "cover" ? " cover" : ""}" style="background-image:url('${img(s.photo)}')"></div>${WM}<div class="heroband"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${s.credit ? `<div class="credit pcredit">${esc(s.credit)}</div>` : ""}${foot()}`;
+    case "A-photo-old": return `${WM}<div class="box"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div><div class="single" style="background-image:url('${img(s.photo)}')"></div>${s.body ? `<p class="body" style="margin-top:28px">${hl(s.body)}</p>` : ""}</div>${credit}${foot()}`;
     case "D-cover": return `<div class="bg" style="${s.photo ? `background-image:url('${img(s.photo)}')` : ""}"></div><div class="ov"></div><div class="mono">WW</div>
       <h1 class="dh">${hl(s.headline)}</h1><div class="arr">→</div><div class="wmd">THE WATCH WIRE</div>${credit}`;
     case "D-body": return `<div class="bg" style="${s.photo ? `background-image:url('${img(s.photo)}')` : ""}"></div><div class="ov" style="background:rgba(11,11,12,.8)"></div><div class="mono">WW</div>

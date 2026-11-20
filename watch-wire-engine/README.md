@@ -17,6 +17,20 @@ node src/run.js status             # what's in the queue
 
 Folders under `queue/`: `ideas` → `candidates` → `drafts` → `approved` → `posted` (or `rejected`).
 
+## Photos
+
+`src/photo.js` gets every photo with plain web requests (no AI cost) and saves it
+in `library/` so each watch or person is downloaded once.
+
+- Watches: the brand's own product page, or an official retailer page when the brand
+  blocks automated readers (Rolex, Tudor). Credited "Image: <Brand>".
+- People: the lead photo from the person's Wikipedia page, only if its licence is free
+  (CC0, CC BY, CC BY-SA or public domain). Credited to the photographer and licence.
+- Old or vintage watches: free-licence photos from Wikimedia Commons.
+
+Try it: `node src/photo.js person "Ryan Reynolds"` or `node src/photo.js find "126610LN"`.
+If a brand asks for a photo to come down, delete it from `library/img/` and `library/index.json`.
+
 ## Cost controls
 
 - The watcher uses no AI. It runs every 10 minutes for free.

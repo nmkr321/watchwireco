@@ -37,6 +37,13 @@ Read `watch-wire-engine/FORMATS.md` (voice, rules, hook pattern and recipe per f
 4. Carousel: write `<P>/carousel.json` and `<P>/slides.json` like the example.
    Render: `node "watch-wire-engine/templates/render.mjs" <P>/slides.json <P>/render`.
    Register each: `CC slide-register <P> --slide slide-N --file <P>/render/slide-0N.png`.
+   Photo-first, like the accounts we model: fetch an official photo for every watch or
+   person named (see Photos). Cover gets a photo whenever one exists; at least half the
+   slides are photo slides (A-photo, A-spotted, A-wyr); A-photo `fit:"cover"` for people and
+   campaign shots. Headlines 2–6 words, body 15 words max. Text-only slides only for a
+   number or table. Photo slide fields: A-photo {label, headline, photo, credit, body?, fit?};
+   A-spotted {label, headline, photo, watch, credit, body?}; A-wyr {tag, left:{brand, model,
+   price, photo}, right:{...}, credit}; A-cover {tag, line1, line2, meta, photo, credit}.
    Templates: A for news/market/auctions/would-you-rather/celebrity, D for
    story/history, never mixed; end with `cta`; at most one `[[highlight]]` per slide.
    Slide counts: NEWS/MARKET 5–6, RELEASES/AUCTIONS 6–8, CELEBRITY 5–7, WYR 4–5,
@@ -45,21 +52,38 @@ Read `watch-wire-engine/FORMATS.md` (voice, rules, hook pattern and recipe per f
    "Follow @watchwireco for daily watch news."), then `CC caption-register <P>`.
 6. `CC validate <P>` must say PASS, then `CC brief <P>`.
 
-## Photos (only when the format needs one)
+## Photos (CELEBRITY, WOULD YOU RATHER, BUILD YOUR COLLECTION, NEW RELEASES; optional elsewhere)
 
-Order: brand press page → auction lot page → licensed editorial → Wikimedia/public
-domain (history) → written permission. Never image search, other creators' posts
-or watermarks. The source page must name the exact reference number; record it,
-the URL and caption in `CC media-register --title/--usage`, rights
-`permission-needed` with credit. Celebrity posts without a licensed photo use the
-watch's press photo. Name a watch on a celebrity only if a brand, the celebrity
-or a trusted watch outlet named it; else "appears to be". No photo? Use a
-typographic template.
+Use only `node watch-wire-engine/src/photo.js` (PH). It prints one JSON line; put its
+`photo` path and `credit` in slides.json, `caption_credit` in the caption's source line.
+Always pass `--project <P>` so the photo is registered. Never image search, other
+creators' posts or screenshots.
+
+- Watch: `PH find "<ref>"` first (library). If none: WebSearch `<brand> <ref>` for the
+  brand's own product/press page, else an official retailer page for that reference
+  (e.g. Watches of Switzerland, Mayors, Bucherer for Rolex/Tudor, whose sites block
+  automated readers). Then `PH watch <url> --brand <Brand> --ref <ref> --project <P>`.
+  Needs `ref_on_page:true`. On error try one other official page, then `PH commons
+  "<brand> <model>" --ref <ref> --project <P>`.
+- Celebrity, best first: (1) the person wearing the watch in the brand's own
+  ambassador/campaign photo: WebSearch `<brand> <name> ambassador` for the brand's
+  newsroom or magazine page, then `PH press <url> --brand <Brand> --person "<Name>" --project <P>`;
+  use it as the A-cover photo. (2) Otherwise `PH person "<Full Name>" --project <P>` plus the
+  watch photo on an `A-spotted` slide (person full-bleed, official watch inset);
+  check `who` is the right person. Never forum, Reddit, paparazzi, Getty or Instagram photos.
+- Look at each fetched photo once (Read the file) to confirm it is that watch/person.
+- Name a watch on a celebrity only if a brand, the celebrity or a trusted watch outlet
+  named it; else "appears to be". The person photo shows the person, not proof of the watch.
+- No usable photo after two tries: use a typographic slide; never a wrong photo.
 
 ## Finish
 
 Write `draft.json` in the draft folder you were given:
 `{"status":"ready"|"stopped","project_dir":"<P>","format":"NEWS","lane":"breaking|news|rotation|history","headline":"...","slides":["output/slide-01.png"],"caption_file":"caption.json","stop_reason":""}`
+
+Only write inside `<P>` and the draft folder. Never edit templates, scripts, agent files or
+config (the engine undoes it). Fix layout by changing slide text (shorter lines), never
+CSS or new slide fields. `source` in slides.json is the outlet names only, e.g. "BBC, Hodinkee".
 
 When given approver fixes: apply only those fixes, re-render, re-register,
 `caption-register`, validate. Never post anything.

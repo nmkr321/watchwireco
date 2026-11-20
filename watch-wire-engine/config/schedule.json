@@ -16,13 +16,13 @@
       "formats": [
         "CELEBRITY",
         "WOULD YOU RATHER",
-        "LISTICLE",
+        "BUILD YOUR COLLECTION",
         "CELEBRITY",
         "WOULD YOU RATHER",
         "LISTICLE",
-        "MARKET"
+        "BUILD YOUR COLLECTION"
       ],
-      "_note": "weekly rotation weighted by the 2026-11-19 audit"
+      "_note": "weekly rotation weighted by the 2026-11-19 audit; BUILD YOUR COLLECTION added 2026-11-20 by the owner (replaced one LISTICLE and MARKET; market news still runs in the 08:30 news slot)"
     },
     {
       "time": "19:30",

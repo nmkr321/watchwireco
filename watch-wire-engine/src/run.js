@@ -51,7 +51,9 @@ function notify(text) {
 
 function claude(args, prompt, label) {
   const full = args.includes("--model") ? args : ["--model", MODEL, ...args];
+  const before = snapshot();
   const res = spawnSync(CLAUDE, ["-p", prompt, ...full], { cwd: WORKSPACE, encoding: "utf8", maxBuffer: 64 * 1024 * 1024, timeout: 30 * 60 * 1000 });
+  restore(before, label.split(" ")[0]);
   fs.appendFileSync(path.join(ROOT, "logs/claude.log"), `\n===== ${new Date().toISOString()} ${label}\n${res.stdout || ""}\n${res.stderr || ""}\n`);
   if (res.status !== 0) {
     let why = (res.stderr || "") + " " + (res.error ? res.error.message : "");
@@ -99,6 +101,21 @@ function nextSlot(lane) {
   return new Date(now.getTime() + 3600e3).toISOString();
 }
 
+// The editor may only write inside its project and draft folders. If it changes shared
+// engine files (templates, scripts, agent rules, config), put them back.
+const SHARED = ["templates", "src", "config", "FORMATS.md", "example", "../.claude/agents"].map((p) => path.join(ROOT, p));
+function snapshot() {
+  const files = new Map();
+  const walk = (p) => { if (!fs.existsSync(p)) return; if (fs.statSync(p).isDirectory()) fs.readdirSync(p).forEach((f) => walk(path.join(p, f))); else files.set(p, fs.readFileSync(p)); };
+  SHARED.forEach(walk);
+  return files;
+}
+function restore(before, who) {
+  const after = snapshot();
+  for (const [f, buf] of before) if (!after.has(f) || !after.get(f).equals(buf)) { fs.writeFileSync(f, buf); log(`${who} changed ${path.relative(ROOT, f)}; restored`); }
+  for (const f of after.keys()) if (!before.has(f)) { fs.rmSync(f); log(`${who} added ${path.relative(ROOT, f)}; removed`); }
+}
+
 export function make(file) {
   const item = readJson(file);
   const draftDir = path.join(Q("drafts"), item.id);
@@ -118,6 +135,15 @@ export function make(file) {
   const draftFile = path.join(draftDir, "draft.json");
   if (!fs.existsSync(draftFile)) throw new Error("editor finished without draft.json");
   const draft = readJson(draftFile);
+  if (draft.status === "ready") {
+    // trust the files, not the editor's word: the project must exist and pass the check
+    const pdir = path.resolve(WORKSPACE, draft.project_dir || "");
+    const chk = spawnSync("node", [path.join(WORKSPACE, "Content Creation/bin/content-creation.js"), "validate", pdir], { encoding: "utf8" });
+    if (!draft.project_dir || !fs.existsSync(path.join(pdir, "carousel.json")) || chk.status !== 0 || !/PASS/.test(chk.stdout)) {
+      draft.status = "stopped";
+      draft.stop_reason = `editor said ready but the project ${draft.project_dir || "(none)"} is missing or fails the check`;
+    }
+  }
   if (draft.status !== "ready") {
     log(`editor stopped: ${draft.stop_reason}`);
     item.status = "stopped"; item.stop_reason = draft.stop_reason; writeJson(file, item); move(file, "rejected");
@@ -144,14 +170,14 @@ export function make(file) {
     }
   };
   let verdict;
-  for (let round = 1; round <= 2; round++) {
+  for (let round = 1; round <= 3; round++) {
     makePreviews();
     verdict = parseResult(claude(["--agent", "watch-wire-approver", "--effort", EFFORT.approver, "--max-budget-usd", APPROVER_BUDGET,
       "--allowedTools", "Read Glob Grep Bash WebFetch", "--output-format", "json", "--json-schema", schema],
       `Review this Watch Wire draft and decide. Draft folder: ${draftDir}`, `approver ${item.id} r${round}`));
     writeJson(path.join(draftDir, `verdict-${round}.json`), verdict);
     log(`approver r${round}: ${verdict.decision} (${verdict.reason})`);
-    if (verdict.decision !== "revise" || round === 2) break;
+    if (verdict.decision !== "revise" || round === 3) break;
     claude(["--agent", "watch-wire-editor", "--effort", EFFORT.editor, "--max-budget-usd", EDITOR_BUDGET,
       "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--permission-mode", "acceptEdits", "--output-format", "json"],
       `Revise the Watch Wire draft in ${draftDir} (project ${draft.project_dir}). Apply exactly these fixes, re-render, re-register, re-validate, update draft.json: ${JSON.stringify(verdict.fixes)}`,
@@ -183,11 +209,11 @@ function plan() {
     type: "object", required: ["lane", "format", "title", "hook", "why", "sources_to_check"],
     properties: { lane: { enum: ["rotation", "history"] }, format: { type: "string" }, title: { type: "string" }, hook: { type: "string" },
       why: { type: "string" }, sources_to_check: { type: "array", items: { type: "string" } } } } } } });
-  const prompt = `Read watch-wire-engine/PLAYBOOK.md and the brand guide The-Watch-Wire-Brand-Guide.md.
+  const prompt = `Read watch-wire-engine/FORMATS.md only.
 Plan two Watch Wire posts for ${day.toDateString()}:
 1. lane "rotation", format ${midFormat}.
 2. lane "history", format HISTORY, with a tension hook in The Dial style. Prefer an "On This Day" anniversary for ${day.toDateString()} if a real, checkable one exists; otherwise How It Started or The Story Behind.
-Use the winning headline patterns from the playbook. Each idea must be provable from primary or trusted sources; list the exact URLs or source names to check.
+Use the format's hook pattern. Photo formats (CELEBRITY, WOULD YOU RATHER, BUILD YOUR COLLECTION): name every watch by brand, model and exact reference, with current US retail prices you can source; for CELEBRITY pick a watch a trusted watch outlet reported the person wearing. Each idea must be provable from primary or trusted sources; list the exact URLs or source names to check.
 Do not repeat any of these recent posts: ${JSON.stringify(posted)}`;
   const out = parseResult(claude(["--output-format", "json", "--json-schema", schema, "--max-budget-usd", "0.15", "--effort", EFFORT.planner, "--allowedTools", "Read WebSearch WebFetch"], prompt, "planner"));
   const stamp = new Date().toISOString().slice(0, 10);
