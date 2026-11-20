@@ -33,7 +33,7 @@ If a brand asks for a photo to come down, delete it from `library/img/` and `lib
 
 ## Cost controls
 
-- The watcher uses no AI. It runs every 10 minutes for free.
+- In the cloud: the news scan runs hourly (no AI unless a story is worth posting), the publisher every 15 minutes (no AI), and the content maker nightly. Rejected posts are remade at once, up to 3 tries, then a backup fills the slot.
 - Every AI step runs on the cheapest model, Haiku 5.5. Change it with `WW_MODEL`.
 - Triage runs only for stories that pass the source and score filters (cap 3¢).
 - Every editor run is capped at `WW_EDITOR_BUDGET` (default $0.60), and every approver run at `WW_APPROVER_BUDGET` (default $0.25).
