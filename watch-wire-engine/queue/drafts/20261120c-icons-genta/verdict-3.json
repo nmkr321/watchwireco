@@ -1,0 +1,22 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "4: the cover and payoff state 'One Man Designed Both' and 'One designer.' as fact, but the Nautilus designer credit rests on one outlet (Sotheby's) and slide 5 itself says 'reportedly'",
+    "6: slide 5 has the headline and kicker over the dial, the wordmark touches the bezel, and 'Genta.' sits alone on the second line"
+  ],
+  "fixes": [
+    "slide 1: change the headline to a hedged one that holds up, e.g. 'Genta Drew The Royal Oak. And The Nautilus?' If that is too long, use 'The Royal Oak Designer's Second Icon'. Otherwise confirm the Nautilus credit with a second source, such as the Patek Philippe page or a second trusted outlet, and add it to research.json.",
+    "slide 6: change 'One designer.' to 'Reportedly one designer.' unless the Nautilus credit is confirmed by a second source",
+    "slide 5: shorten the text to 'Nautilus, 1976. Reportedly Genta's.' so it fits on one balanced line. Move the text off the dial, or use a darker overlay or a photo crop where the text is not over the dial, and keep the wordmark clear of the bezel",
+    "caption: change 'Two steel sports watches from one designer' to a hedged line to match the slides"
+  ],
+  "reason": "Dates and the Royal Oak facts check out against Audemars Piguet's own page. The headline and payoff state the Nautilus designer as fact when we only have one outlet, and slide 5's text sits over the dial and crowds the wordmark."
+}

@@ -1,0 +1,20 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: slide 5 kicker 'THE SECOND ICON' and the headline sit directly on the Nautilus dial, and the credit is almost touching the footer wordmark. This was requested last round and not fixed."
+  ],
+  "fixes": [
+    "slide 5: move the kicker and headline off the dial. Use a stronger dark overlay, or shorten the body to two short lines such as 'Nautilus, 1976. Reportedly by Genta.' so it clears the dial.",
+    "slide 5: shorten the credit, or leave clear space between it and 'THE WATCH WIRE' footer.",
+    "slides 1 and 4: leave the same clear space between the photo credit and the footer wordmark."
+  ],
+  "reason": "The facts, photo rights, credits and caption now check out. Slide 5 still has text on the watch dial and a credit crowding the footer, so it needs one more layout pass."
+}

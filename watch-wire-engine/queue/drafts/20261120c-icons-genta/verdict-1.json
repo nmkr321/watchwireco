@@ -1,0 +1,29 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 7: assets/manifest.json lists no assets (assets: []), so none of the three photos is recorded with rights 'licensed'.",
+    "Gate 7: the caption credits the cover photo to 'Gérald Genta', but the slide and library credit 'Unknown / CC BY-SA 3.0'. The caption must repeat the slide credit.",
+    "Gate 6: the photo credit overlaps the 'THE WATCH WIRE' footer on slides 4 and 5.",
+    "Gate 4: slides 6 and 7 state claims no verified claim supports. These are 'Steel stopped being a budget material', 'Both watches made that case' and 'Every luxury steel sports watch since has followed this blueprint'.",
+    "Gate 3: the Nautilus designer credit rests on Sotheby's alone. The research gaps list it as single-outlet."
+  ],
+  "fixes": [
+    "Project assets/manifest.json: add the Genta portrait (cover), the Royal Oak 15202 (slide 4) and the Nautilus 5711/1A (slide 5). Each entry needs rights 'licensed', the licence and the credit, matching watch-wire-engine/library/index.json.",
+    "caption: change the cover credit to 'Photo: Unknown / CC BY-SA 3.0' to match slide 1. Keep the other two Wikimedia credits.",
+    "slide 4: shorten the credit text, or move it clear of the wordmark and footer so nothing overlaps.",
+    "slide 5: same credit fix. Also stop the kicker 'THE SECOND ICON' and the headline sitting on the dial. Use a lighter overlay, or shorten the headline to two lines.",
+    "slide 5: write 'Nautilus, reportedly designed by Genta', or add a second trusted source for the designer credit. Make the caption say the same.",
+    "slide 6: replace with a sourced beat, such as the AP brief that the watch be steel and never done before. Otherwise drop the slide. Remove 'Both watches made that case'.",
+    "slide 7: remove 'Every luxury steel sports watch since has followed this blueprint'. Use a verified, non-absolute payoff, such as 'Royal Oak, 1972. Nautilus, 1976. One designer.'",
+    "caption: soften 'both still set the template' to something sourced."
+  ],
+  "reason": "The story is good and the dates match Audemars Piguet's own archive. But the photo records are empty, the credits overlap the footer, and slides 6 and 7 make claims we haven't verified. Fix those and it can go."
+}

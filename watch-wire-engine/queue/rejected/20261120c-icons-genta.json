@@ -1,0 +1,54 @@
+{
+  "id": "20261120c-icons-genta",
+  "lane": "history",
+  "format": "STORY BEHIND",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-20T21:20:00Z",
+  "post_at": "2026-11-20T23:30:00Z",
+  "title": "Gérald Genta: the man who designed both the Royal Oak and the Nautilus",
+  "hook": "One Man Designed The Royal Oak And The Nautilus.",
+  "why": "STORY BEHIND, person type (Template D). Tension hook, one fact per beat: who Genta was; the Royal Oak (Audemars Piguet, 1972, reportedly sketched overnight: say 'reportedly' unless a source confirms); the Nautilus (Patek Philippe, 1976); why it changed watchmaking (luxury steel sports watch); payoff. Confirm dates on Audemars Piguet's and Patek Philippe's own pages or two trusted outlets. Photos already in the library: person-g-rald-genta.jpg (Genta, CC BY-SA 3.0), commons-audemars-piguet-royal-oak-ref-15202.jpg (CC BY-SA 4.0; a modern 15202, label it as such), commons-patek-philippe-nautilus-5711-1a-010-1.jpg (check its licence with photo.js find). Credit every photo.",
+  "sources": [
+    {
+      "title": "Gérald Genta",
+      "link": "https://en.wikipedia.org/wiki/G%C3%A9rald_Genta",
+      "source": "Wikipedia (lead only, confirm elsewhere)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Audemars Piguet Royal Oak history",
+      "link": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak.html",
+      "source": "Audemars Piguet",
+      "tier": "official"
+    },
+    {
+      "title": "Patek Philippe Nautilus",
+      "link": "https://www.patek.com/en/collection/nautilus",
+      "source": "Patek Philippe",
+      "tier": "official"
+    }
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 3,
+      "clarity": 4,
+      "taste": 3
+    },
+    "hard_gate_failures": [
+      "4: the cover and payoff state 'One Man Designed Both' and 'One designer.' as fact, but the Nautilus designer credit rests on one outlet (Sotheby's) and slide 5 itself says 'reportedly'",
+      "6: slide 5 has the headline and kicker over the dial, the wordmark touches the bezel, and 'Genta.' sits alone on the second line"
+    ],
+    "fixes": [
+      "slide 1: change the headline to a hedged one that holds up, e.g. 'Genta Drew The Royal Oak. And The Nautilus?' If that is too long, use 'The Royal Oak Designer's Second Icon'. Otherwise confirm the Nautilus credit with a second source, such as the Patek Philippe page or a second trusted outlet, and add it to research.json.",
+      "slide 6: change 'One designer.' to 'Reportedly one designer.' unless the Nautilus credit is confirmed by a second source",
+      "slide 5: shorten the text to 'Nautilus, 1976. Reportedly Genta's.' so it fits on one balanced line. Move the text off the dial, or use a darker overlay or a photo crop where the text is not over the dial, and keep the wordmark clear of the bezel",
+      "caption: change 'Two steel sports watches from one designer' to a hedged line to match the slides"
+    ],
+    "reason": "Dates and the Royal Oak facts check out against Audemars Piguet's own page. The headline and payoff state the Nautilus designer as fact when we only have one outlet, and slide 5's text sits over the dial and crowds the wordmark."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/20261120c-icons-genta"
+}
