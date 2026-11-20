@@ -67,5 +67,125 @@
     "from": "2026-11-21",
     "until": "2026-11-27",
     "why": "Owner 2026-11-20: try 5 posts a day at different times for a week to see which times get natural traction; review on 2026-11-27."
+  },
+  "overrides": {
+    "2026-11-21": [
+      {
+        "time": "07:00",
+        "lane": "news",
+        "formats": [
+          "NEWS",
+          "NEW RELEASES",
+          "MARKET"
+        ]
+      },
+      {
+        "time": "08:15",
+        "lane": "rotation",
+        "formats": [
+          "CELEBRITY",
+          "WOULD YOU RATHER",
+          "BUILD YOUR COLLECTION",
+          "LISTICLE"
+        ]
+      },
+      {
+        "time": "09:30",
+        "lane": "rotation",
+        "formats": [
+          "CELEBRITY",
+          "WOULD YOU RATHER",
+          "BUILD YOUR COLLECTION",
+          "LISTICLE"
+        ]
+      },
+      {
+        "time": "10:45",
+        "lane": "history",
+        "formats": [
+          "STORY BEHIND",
+          "HISTORY"
+        ]
+      },
+      {
+        "time": "12:00",
+        "lane": "rotation",
+        "formats": [
+          "CELEBRITY",
+          "WOULD YOU RATHER",
+          "BUILD YOUR COLLECTION",
+          "LISTICLE"
+        ]
+      },
+      {
+        "time": "13:15",
+        "lane": "news",
+        "formats": [
+          "NEWS",
+          "NEW RELEASES",
+          "MARKET",
+          "AUCTIONS"
+        ]
+      },
+      {
+        "time": "14:30",
+        "lane": "rotation",
+        "formats": [
+          "CELEBRITY",
+          "WOULD YOU RATHER",
+          "BUILD YOUR COLLECTION",
+          "LISTICLE"
+        ]
+      },
+      {
+        "time": "15:45",
+        "lane": "rotation",
+        "formats": [
+          "CELEBRITY",
+          "WOULD YOU RATHER",
+          "BUILD YOUR COLLECTION",
+          "LISTICLE"
+        ]
+      },
+      {
+        "time": "17:00",
+        "lane": "rotation",
+        "formats": [
+          "CELEBRITY",
+          "WOULD YOU RATHER",
+          "BUILD YOUR COLLECTION",
+          "LISTICLE"
+        ]
+      },
+      {
+        "time": "18:15",
+        "lane": "rotation",
+        "formats": [
+          "CELEBRITY",
+          "WOULD YOU RATHER",
+          "BUILD YOUR COLLECTION",
+          "LISTICLE"
+        ]
+      },
+      {
+        "time": "19:30",
+        "lane": "history",
+        "formats": [
+          "STORY BEHIND",
+          "HISTORY"
+        ]
+      },
+      {
+        "time": "21:00",
+        "lane": "rotation",
+        "formats": [
+          "CELEBRITY",
+          "WOULD YOU RATHER",
+          "BUILD YOUR COLLECTION",
+          "LISTICLE"
+        ]
+      }
+    ],
+    "_note": "Owner 2026-11-20: 12 posts on Nov 21 (one-day push), then back to the 5-a-day trial."
   }
 }

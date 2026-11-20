@@ -14,8 +14,11 @@ on:
   workflow_dispatch:
     inputs:
       command:
-        description: "tick, plan, make-ideas, publish-due or status"
+        description: "tick, plan, make-ideas, publish-due, status, or plan-now"
         default: "tick"
+      slots:
+        description: 'for plan-now: "19:05 NEWS,20:05 CELEBRITY"'
+        default: ""
 
 permissions:
   contents: write
@@ -29,7 +32,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 340
     env:
       TZ: America/New_York
       CHROME: google-chrome
@@ -61,6 +64,8 @@ jobs:
       - name: Run the engine
         working-directory: watch-wire-engine
         run: node src/run.js "$CMD"
+        env:
+          WW_SLOTS: ${{ github.event.inputs.slots }}
       - name: Save the queue and posts back to the repo
         if: always()
         run: |

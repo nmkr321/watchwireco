@@ -216,15 +216,17 @@ function recentHeadlines() {
 }
 
 // ---------- plan: create tomorrow's midday + evening ideas ----------
-function plan() {
+function plan(opts = {}) {
   const posted = fs.readdirSync(Q("posted")).concat(fs.readdirSync(Q("approved"))).filter((f) => f.endsWith(".json"))
     .map((f) => { try { return readJson(path.join(Q(fs.existsSync(path.join(Q("posted"), f)) ? "posted" : "approved"), f)).title; } catch { return ""; } }).filter(Boolean).slice(-40);
-  const day = new Date(Date.now() + 864e5);
+  const day = new Date(Date.now() + (opts.today ? 0 : 864e5));
   const dayOfYear = Math.floor((day - new Date(day.getFullYear(), 0, 0)) / 864e5);
+  const dayKey = `${day.getFullYear()}-${String(day.getMonth() + 1).padStart(2, "0")}-${String(day.getDate()).padStart(2, "0")}`;
+  const slotDefs = opts.slots || (schedule.overrides || {})[dayKey] || schedule.slots;
   // one format per slot, picked so no two neighbouring posts share a type
   const lastFmt = fs.readdirSync(Q("posted")).filter((f) => f.endsWith(".json")).map((f) => readJson(path.join(Q("posted"), f))).sort((a, b) => Date.parse(a.posted_at) - Date.parse(b.posted_at)).pop()?.format;
   const used = new Set(); let prev = lastFmt;
-  const slots = schedule.slots.map((s, i) => {
+  const slots = slotDefs.map((s, i) => {
     const pool = s.formats.filter((f) => f !== prev && !(s.lane === "rotation" && used.has(f)));
     const format = (pool.length ? pool : s.formats)[(dayOfYear + i) % (pool.length || s.formats.length)];
     used.add(format); prev = format;
@@ -242,7 +244,7 @@ Value test for every idea: why would someone save, share or comment? Make each o
 Use each format's hook pattern. Pictures must match the subject (celebrity → the celebrity, game → gameplay, otherwise the watch). Photo formats: name every watch by brand, model and exact reference, with current US retail prices you can source; for CELEBRITY pick a watch a trusted outlet reported the person wearing. Every idea provable from primary or trusted sources; list the exact URLs or source names to check. No two ideas about the same watch.
 News headlines from the last day: ${JSON.stringify(recentHeadlines())}
 Do not repeat any of these recent posts: ${JSON.stringify(posted)}`;
-  const out = parseResult(claude(["--output-format", "json", "--json-schema", schema, "--max-budget-usd", "0.3", "--effort", EFFORT.planner, "--allowedTools", "Read WebSearch WebFetch"], prompt, "planner"));
+  const out = parseResult(claude(["--output-format", "json", "--json-schema", schema, "--max-budget-usd", String(Math.max(0.3, slotDefs.length * 0.06)), "--effort", EFFORT.planner, "--allowedTools", "Read WebSearch WebFetch"], prompt, "planner"));
   const stamp = new Date().toISOString().slice(0, 10);
   for (const idea of out.ideas) {
     const s = slots[(idea.slot || 1) - 1] || slots[0];
@@ -409,6 +411,14 @@ try {
   else if (cmd === "make") makeWithRetries(path.resolve(arg));
   else if (cmd === "publish-due") await publishDue();
   else if (cmd === "plan") plan();
+  else if (cmd === "plan-now") {            // plan-now "19:05 NEWS,20:05 CELEBRITY": extra posts for today at these times
+    const slotsArg = (process.argv[3] || process.env.WW_SLOTS || "").split(",").map((x) => x.trim()).filter(Boolean).map((x) => {
+      const [time, ...f] = x.split(" "); const format = f.join(" ");
+      return { time, lane: /STORY|HISTORY/.test(format) ? "history" : /NEWS|RELEASES|MARKET/.test(format) ? "news" : "rotation", formats: [format] };
+    });
+    plan({ today: true, slots: slotsArg });
+    await makeIdeas();
+  }
   else if (cmd === "make-ideas") await makeIdeas();
   else if (cmd === "status") status();
   else console.log("usage: node src/run.js tick | make <file> | publish-due | status");
