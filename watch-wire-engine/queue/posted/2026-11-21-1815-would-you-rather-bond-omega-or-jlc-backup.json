@@ -1,7 +1,7 @@
 {
   "id": "2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup",
   "lane": "news",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-21T19:37:03.383Z",
   "post_at": "2026-11-21T23:15:00.000Z",
   "backup_for": "2026-11-21-1815-would-you-rather-bond-omega-or-jlc",
@@ -31,5 +31,22 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes. I fetched the Omega green-dial page and it confirms $5,500, 40mm steel and the reference number. Omega's blue-dial page, fetched in the earlier review, confirmed $5,100. The two prices are about 8% apart, on the same source and date, and both photos are official Omega images with credit. The previous slide 5 headline problem is fixed: the CTA headline is back to the stock wording."
+  },
+  "posted_at": "2026-11-21T23:30:48.516Z",
+  "publish": {
+    "live": true,
+    "media_id": "18133603315895823",
+    "permalink": "https://www.instagram.com/p/DgBagk2Et4h/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 650
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: An unexpected error has occurred. Please retry your request later."
   }
 }
