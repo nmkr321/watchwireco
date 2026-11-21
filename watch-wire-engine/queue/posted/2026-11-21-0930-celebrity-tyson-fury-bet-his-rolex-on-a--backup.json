@@ -1,7 +1,7 @@
 {
   "id": "2026-11-21-0930-celebrity-tyson-fury-bet-his-rolex-on-a--backup",
   "lane": "rotation",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-21T08:08:49.415Z",
   "post_at": "2026-11-21T14:30:00.000Z",
   "backup_for": "2026-11-21-0930-celebrity-tyson-fury-bet-his-rolex-on-a-",
@@ -30,5 +30,24 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "This is a clean Would You Rather post pairing two Omega De Ville Prestige 40 mm watches. The prices are $5,100 and $5,500, a 7.8% gap, both read from Omega's official pages on 21 Nov. The check passes, the photos are official and credited, the layout is centred, and neither reference has been posted before."
+  },
+  "posted_at": "2026-11-21T14:58:12.482Z",
+  "publish": {
+    "live": true,
+    "media_id": "18177723541403988",
+    "permalink": "https://www.instagram.com/p/DgAf200jU1Z/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png"
+      ],
+      "caption_chars": 331
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
+  },
+  "trial_reel": {
+    "error": "Graph 17841473447601965/media: Application does not have permission for this action"
   }
 }
