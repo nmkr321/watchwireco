@@ -20,6 +20,7 @@ import { lint } from "./lint.js";
 import { publishTrialReel } from "./reel.js";
 import { collectInsights, plannerHint, dailySummary } from "./insights.js";
 import { scout, scoutDue, scoutHint, scoutEditorHint } from "./scout.js";
+import { learningAlerts, learningReport } from "./learning.js";
 import { loadEnv } from "./publish.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -439,6 +440,7 @@ function tidy() {
     "", "## Most expensive posts", ...posts.slice(0, 8).map(([k, c, n]) => `- ${k}: $${c.toFixed(2)} (${n} calls)`),
     "", "Ideas to cut: posts with many calls mean retries or review rounds; check their lessons and the rules behind them."].join("\n");
   fs.writeFileSync(path.join(ROOT, "state/costs.md"), md + "\n");
+  try { learningReport(); log("tidy: learning report written (state/learning.md)"); } catch (e) { log(`learning report failed: ${e.message}`); }
   log(`tidy: cost report written ($${sum(rows).toFixed(2)} in 7 days)`);
 }
 
@@ -539,6 +541,8 @@ try {
     const bad = await dailySummary(log).catch(() => "");
     if (bad) notify(`Watch Wire: Instagram token ${bad}`);
     if (scoutDue()) await scout(log).catch((e) => log(`scout failed: ${e.message}`));   // other accounts, every 2 days
+    try { const al = learningAlerts();   // loops that went quiet: top of daily.md + phone alert
+      if (al.length) { fs.appendFileSync(path.join(ROOT, "state/daily.md"), `\n## Learning loops needing attention\n${al.map((x) => `- ${x}`).join("\n")}\n`); notify(`Watch Wire: ${al[0]}`); } } catch {}
     plan();
   }
   else if (cmd === "insights") { loadEnv(); await collectInsights(log); await dailySummary(log); }
