@@ -191,6 +191,34 @@
   "trial_reels": {
     "enabled": true,
     "mode": "trial",
-    "_note": "mode trial = shown to non-followers first, not on the grid (Instagram refused this for the account on 2026-11-21, error 2207081); mode normal = a regular Reel on the grid. Every scheduled carousel is also posted as a trial Reel (shown to non-followers first, not on the grid). Music comes from assets/music/tracks.json (silent if none). Switched on by the owner 2026-11-21."
+    "_note": "mode trial = shown to non-followers first, not on the grid (Instagram refused this for the account on 2026-11-21, error 2207081); mode normal = a regular Reel on the grid. Every scheduled carousel is also posted as a trial Reel (shown to non-followers first, not on the grid). Music comes from assets/music/tracks.json (silent if none). Switched on by the owner 2026-11-21.",
+    "music": [
+      {
+        "audio_id": "383836292195844",
+        "title": "Chopin Nocturne Op. 9 No. 2",
+        "artist": "Mike Block (Producer)"
+      },
+      {
+        "audio_id": "271420880465004",
+        "title": "Satie Gymnopedie 1",
+        "artist": "Mike Block (Producer)"
+      },
+      {
+        "audio_id": "550177149656126",
+        "title": "Beethoven Moonlight Sonata",
+        "artist": "Hugh Sung"
+      },
+      {
+        "audio_id": "1161720104958407",
+        "title": "Swan Lake Waltz",
+        "artist": "Mike Block"
+      },
+      {
+        "audio_id": "234768217787258",
+        "title": "Chopin Waltz No. 5 in Ab Major",
+        "artist": "Hugh Sung"
+      }
+    ],
+    "_music_note": "Instagram library tracks (classical, chosen 2026-11-21 per owner). Each Reel gets one, rotating. Find more with: node src/reel.js --search \"<song>\""
   }
 }
