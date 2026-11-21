@@ -2,7 +2,7 @@
   "id": "2026-11-21-1700-celebrity-pattinson-bond-watch",
   "lane": "news",
   "manual": true,
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-21T19:19:34.000Z",
   "post_at": "2026-11-21T22:00:00.000Z",
   "format": "CELEBRITY",
@@ -49,5 +49,23 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes. I confirmed on Amazon's page that Pattinson was named Bond on 16 Nov 2026, and the Omega price (US$8,600, 21 Nov) matches the verified claim. The cover shows him in a Jaeger-LeCoultre press photo with a visible watch and a credit. The post ends on an Omega-or-JLC vote that invites comments."
+  },
+  "posted_at": "2026-11-21T22:12:11.778Z",
+  "publish": {
+    "live": true,
+    "media_id": "18132467887849381",
+    "permalink": "https://www.instagram.com/p/DgBRhu2iWuC/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png"
+      ],
+      "caption_chars": 730
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
