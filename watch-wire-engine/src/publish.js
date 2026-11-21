@@ -42,6 +42,21 @@ function captionText(item) {
   return c.text;
 }
 
+// one plain description per slide, from the slide text (slides.json saved next to the post), no AI
+export function altTexts(item, n) {
+  try {
+    const spec = JSON.parse(fs.readFileSync(path.join(projectDir(item), "slides.json"), "utf8"));
+    const clean = (x) => String(x || "").replace(/\[\[|\]\]/g, "").replace(/\s+/g, " ").trim();
+    return spec.slides.slice(0, n).map((s, i) => {
+      if (s.t === "cta") return "The Watch Wire: follow @watchwireco for daily watch news.";
+      const opt = (o) => o ? `${clean(o.brand)} ${clean(o.model)} ${clean(o.price)}`.trim() : "";
+      const bits = [clean(s.tag), clean(s.label), clean(s.line1), clean(s.line2), clean(s.headline), clean(s.kicker), clean(s.number),
+        s.left ? `${opt(s.left)} or ${opt(s.right)}` : "", (s.options || []).map(opt).join("; "), clean(s.body || s.text)].filter(Boolean);
+      return `Slide ${i + 1}: ${bits.join(". ")}`.slice(0, 990);
+    });
+  } catch { return []; }
+}
+
 function uploadSlides(files) {
   const cmd = process.env.PUBLIC_UPLOAD_CMD;
   if (!cmd) throw new Error("PUBLIC_UPLOAD_CMD is not set, so slides cannot be given public URLs");
@@ -83,8 +98,12 @@ export async function publishPost(item, { live = false } = {}) {
 
   const urls = uploadSlides(files);
   const children = [];
-  for (const image_url of urls) {
-    const c = await graph(`${process.env.IG_USER_ID}/media`, { image_url, is_carousel_item: "true" });
+  const alts = altTexts(item, urls.length);
+  for (const [i, image_url] of urls.entries()) {
+    // alt text helps accessibility and search; if Instagram ever refuses it, post the slide without it
+    let c;
+    try { c = await graph(`${process.env.IG_USER_ID}/media`, { image_url, is_carousel_item: "true", ...(alts[i] ? { alt_text: alts[i] } : {}) }); }
+    catch (e) { if (!alts[i]) throw e; c = await graph(`${process.env.IG_USER_ID}/media`, { image_url, is_carousel_item: "true" }); }
     children.push(c.id);
   }
   for (const id of children) await waitReady(id);

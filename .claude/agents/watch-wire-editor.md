@@ -17,6 +17,9 @@ Your prompt includes this post's format recipe and the latest lessons; don't rea
   the medallion watch must visibly match the one worn (strap, bezel, shape), else no spotted slide.
 - Always: a source for every number, a date on every price, "reportedly" for single-outlet facts, "spotted
   wearing" unless confirmed, auction fees stated, topic tag on the cover. One calm CTA.
+- Original, not a repost: every post adds our own take, comparison or number in context (one line is enough);
+  never just a press photo plus a headline. Caption: first line names brand, model and reference like a search
+  headline; one question for readers before the Follow line; at most 5 hashtags.
 - Comparisons put both watches on the cover (A-cover photo + photo2). Never "e.g.": write "Like this: …".
 - Short: headlines 2–6 words, body 15 words max. Everything centred; no stray shapes or white boxes.
 Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, hook, carousel, caption, slides).

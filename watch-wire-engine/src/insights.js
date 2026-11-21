@@ -70,3 +70,32 @@ export function plannerHint() {
     return `\nWhat has worked best so far (from our own post results, ${n} posts): ${fm.slice(0, 3).map((l) => l.slice(2)).join("; ")}. Weakest: ${fm.slice(-1)[0].slice(2)}. Lean towards the strong formats' angles within the given slots.`;
   } catch { return ""; }
 }
+
+// Daily summary (no AI): state/daily.md with the last 24 hours, plus a token health line.
+// The Instagram token is checked with one harmless read; if it stops working, every post would fail, so say it loudly.
+export async function dailySummary(log = console.log) {
+  const since = Date.now() - 864e5;
+  const items = (d) => fs.readdirSync(path.join(ROOT, "queue", d)).filter((f) => f.endsWith(".json"))
+    .map((f) => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "queue", d, f), "utf8")); } catch { return {}; } });
+  const posted = items("posted").filter((p) => p.publish?.live && Date.parse(p.posted_at) > since);
+  const rejected = items("rejected").filter((p) => Date.parse(p.found_at) > since);
+  const approved = items("approved"), hold = items("hold");
+  let cost = 0, calls = 0;
+  try { for (const r of fs.readFileSync(path.join(ROOT, "logs/costs.tsv"), "utf8").trim().split("\n").map((l) => l.split("\t"))) if (Date.parse(r[0]) > since) { cost += Number(r[3] || 0); calls++; } } catch {}
+  let token = "not checked (no token here)";
+  if (process.env.IG_ACCESS_TOKEN) {
+    try { const a = await get(`${process.env.IG_USER_ID}?fields=followers_count,media_count`);
+      token = a.error ? `PROBLEM: ${a.error.message.slice(0, 100)} (posting will fail until the token is renewed)` : `OK · ${a.followers_count} followers · ${a.media_count} posts on the account`;
+    } catch (e) { token = `could not check (${e.message.slice(0, 60)})`; }
+  }
+  const md = [`# Daily summary (${new Date().toISOString().slice(0, 16).replace("T", " ")} UTC, last 24 hours)`, "",
+    `- Instagram token: ${token}`,
+    `- Posted: ${posted.length}`, ...posted.map((p) => `  - ${p.title} [${p.format}] ${p.publish?.permalink || ""}`),
+    `- Rejected or stopped: ${rejected.length}`,
+    `- Waiting to post: ${approved.length}`, ...approved.map((p) => `  - ${p.scheduled_for} ${p.title}`),
+    `- On hold: ${hold.length}`,
+    `- AI usage: $${cost.toFixed(2)} plan-equivalent over ${calls} calls${posted.length ? `, $${(cost / posted.length).toFixed(2)} per post` : ""}`].join("\n");
+  fs.writeFileSync(path.join(ROOT, "state/daily.md"), md + "\n");
+  log(`daily summary written; token ${token.startsWith("OK") ? "ok" : "needs a look"}`);
+  return token.startsWith("PROBLEM") ? token : "";
+}

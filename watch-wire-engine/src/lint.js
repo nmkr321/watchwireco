@@ -60,6 +60,8 @@ export function lint(P, format = "") {
   // caption
   if (!/Follow @watchwireco for daily watch news\.\s*$/.test(caption)) out.push('caption must end with "Follow @watchwireco for daily watch news."');
   if (!/source/i.test(caption)) out.push("caption needs a source line");
+  if ((caption.match(/#[A-Za-z0-9_]+/g) || []).length > 5) out.push("caption has more than 5 hashtags (Instagram's limit)");
+  if (!/\?|\bcomment/i.test(caption.split("Follow @watchwireco")[0])) out.push("caption needs one question or comment prompt for readers before the Follow line (it brings comments)");
   if (/\$\s?\d/.test(caption) && !/(20\d\d|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)/.test(caption)) out.push("caption has prices but no date for them");
 
   // every price / percentage must appear in the research (the approver's most common rejection)

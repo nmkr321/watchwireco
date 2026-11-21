@@ -18,7 +18,7 @@ import { fileURLToPath } from "node:url";
 import { publishPost } from "./publish.js";
 import { lint } from "./lint.js";
 import { publishTrialReel } from "./reel.js";
-import { collectInsights, plannerHint } from "./insights.js";
+import { collectInsights, plannerHint, dailySummary } from "./insights.js";
 import { loadEnv } from "./publish.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -219,6 +219,7 @@ export function make(file) {
     fs.mkdirSync(path.join(post, "output"), { recursive: true });
     for (const f of fs.readdirSync(path.join(src, "output")).filter((x) => x.endsWith(".png"))) fs.copyFileSync(path.join(src, "output", f), path.join(post, "output", f));
     fs.copyFileSync(path.join(src, "caption.json"), path.join(post, "caption.json"));
+    try { fs.copyFileSync(path.join(src, "slides.json"), path.join(post, "slides.json")); } catch {}   // for alt text and later edits
     Object.assign(item, { status: "approved", scheduled_for: when, draft_dir: path.relative(WORKSPACE, draftDir), project_dir: draft.project_dir, post_dir: path.relative(WORKSPACE, post), verdict });
     writeJson(file, item); move(file, "approved");
     notify(`Watch Wire approved: ${draft.headline}\nPosting ${verdict.post_timing === "now" ? "now" : "at " + when}\n${verdict.reason}`);
@@ -328,6 +329,26 @@ export function makeWithRetries(file) {
   return false;
 }
 
+// fail fast (no AI): can the library still fill a library-only backup format? Counts priced watches not used
+// in posts from the last 3 days or still queued. Any error → assume yes (today's behaviour).
+function libraryCanFill(format) {
+  try {
+    const lib = readJson(path.join(ROOT, "library/index.json")).filter((e) => e.kind === "watch" && e.price?.amount && fs.existsSync(path.join(WORKSPACE, e.file)));
+    let used = "";
+    for (const d of ["approved", "ideas", "posted"]) for (const f of fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json"))) {
+      const o = readJson(path.join(Q(d), f));
+      if (d === "posted" && Date.now() - Date.parse(o.posted_at) > 3 * 864e5) continue;
+      used += JSON.stringify(o);
+      try { used += fs.readFileSync(path.join(WORKSPACE, o.post_dir || "", "caption.json"), "utf8"); } catch {}
+    }
+    const free = lib.filter((e) => !used.includes(e.ref)).map((e) => e.price.amount).sort((a, b) => a - b);
+    if (format === "WOULD YOU RATHER") return free.some((p, i) => free[i + 1] && free[i + 1] <= p * 1.1);
+    if (format === "BUILD YOUR COLLECTION") return free.length >= 9;
+    if (format === "LISTICLE") return free.some((p) => free.filter((q) => q >= p && q <= p * 2).length >= 4);
+    return true;
+  } catch { return true; }
+}
+
 // a slot that still has no post gets an evergreen backup built from library data (verified prices + photos)
 function backup(item) {
   const rej = path.join(Q("rejected"), `${item.id}.json`);
@@ -340,8 +361,8 @@ function backup(item) {
     try { const o = readJson(path.join(Q(d), f)); const ot = Date.parse(o.scheduled_for || o.post_at || o.posted_at);
       if (o.id !== item.id && Math.abs(ot - t) < 4 * 3600e3) near.add(o.format); } catch {}
   }
-  const options = ["STORY BEHIND", "LISTICLE", "WOULD YOU RATHER", "BUILD YOUR COLLECTION"].filter((f) => !near.has(f));
-  const format = options[0] || "LISTICLE";
+  const options = ["STORY BEHIND", "LISTICLE", "WOULD YOU RATHER", "BUILD YOUR COLLECTION"].filter((f) => !near.has(f) && libraryCanFill(f));
+  const format = options[0] || "STORY BEHIND";
   const how = {
     "STORY BEHIND": "Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
     "LISTICLE": "Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
@@ -486,8 +507,14 @@ try {
   if (cmd === "tick") await tick();
   else if (cmd === "make") makeWithRetries(path.resolve(arg));
   else if (cmd === "publish-due") await publishDue();
-  else if (cmd === "plan") { loadEnv(); await collectInsights(log); plan(); }
-  else if (cmd === "insights") { loadEnv(); await collectInsights(log); }
+  else if (cmd === "plan") {
+    loadEnv();
+    await collectInsights(log).catch((e) => log(`insights failed: ${e.message}`));
+    const bad = await dailySummary(log).catch(() => "");
+    if (bad) notify(`Watch Wire: Instagram token ${bad}`);
+    plan();
+  }
+  else if (cmd === "insights") { loadEnv(); await collectInsights(log); await dailySummary(log); }
   else if (cmd === "tidy") tidy();
   else if (cmd === "plan-now") {            // plan-now "19:05 NEWS,20:05 CELEBRITY": extra posts for today at these times
     const slotsArg = (process.argv[3] || process.env.WW_SLOTS || "").split(",").map((x) => x.trim()).filter(Boolean).map((x) => {
