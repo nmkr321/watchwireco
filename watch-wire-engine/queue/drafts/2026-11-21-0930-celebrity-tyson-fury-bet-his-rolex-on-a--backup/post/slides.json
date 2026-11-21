@@ -1,0 +1,38 @@
+{
+ "source": "Source: Omega (omegawatches.com), prices checked 21 Nov 2026",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "SAME MONEY",
+   "line1": "Would you rather?",
+   "line2": "[[$5,100 or $5,500?]]",
+   "meta": "Two Omega De Ville Prestige, 40 mm",
+   "photo": "watch-wire-engine/library/img/omega-43413402003001.png",
+   "photo2": "watch-wire-engine/library/img/omega-43410402010001.png",
+   "credit": "Image: Omega"
+  },
+  {
+   "t": "A-photo",
+   "label": "Option A · $5,100",
+   "headline": "Blue dial, leather strap",
+   "photo": "watch-wire-engine/library/img/omega-43413402003001.png",
+   "credit": "Image: Omega",
+   "body": "Ref 43413402003001. Co-Axial Master Chronometer, 40 mm.",
+   "fit": "cover"
+  },
+  {
+   "t": "A-photo",
+   "label": "Option B · $5,500",
+   "headline": "Green dial, steel bracelet",
+   "photo": "watch-wire-engine/library/img/omega-43410402010001.png",
+   "credit": "Image: Omega",
+   "body": "Ref 43410402010001. Same case size, steel bracelet.",
+   "fit": "cover"
+  },
+  {
+   "t": "cta",
+   "line1": "Vote in the comments.",
+   "line2": "Blue or green?"
+  }
+ ]
+}

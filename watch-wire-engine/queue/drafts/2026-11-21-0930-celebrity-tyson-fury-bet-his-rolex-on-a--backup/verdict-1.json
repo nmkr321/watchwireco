@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 5,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "This is a clean Would You Rather post pairing two Omega De Ville Prestige 40 mm watches. The prices are $5,100 and $5,500, a 7.8% gap, both read from Omega's official pages on 21 Nov. The check passes, the photos are official and credited, the layout is centred, and neither reference has been posted before."
+}

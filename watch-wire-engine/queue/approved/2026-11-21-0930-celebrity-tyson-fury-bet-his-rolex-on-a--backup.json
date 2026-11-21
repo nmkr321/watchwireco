@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-21-0930-celebrity-tyson-fury-bet-his-rolex-on-a--backup",
+  "lane": "rotation",
+  "status": "approved",
+  "found_at": "2026-11-21T08:08:49.415Z",
+  "post_at": "2026-11-21T14:30:00.000Z",
+  "backup_for": "2026-11-21-0930-celebrity-tyson-fury-bet-his-rolex-on-a-",
+  "format": "WOULD YOU RATHER",
+  "title": "Backup WOULD YOU RATHER for the slot of: CELEBRITY: a watch a trusted outlet or the brand named on a celebrity this month (not Tyson Fury)",
+  "hook": "",
+  "why": "Backup post. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
+  "sources": [],
+  "previous_attempts": [
+    "Price gap is 36% (B.C. Clark, 20 Nov 2026), so no same-money pair was available after excluding the 20 Nov post's watches. Slide 2 shows grey panels behind the option photos and slides 3-4 show a cream band; the template cannot show these cut-outs on plain black, per the lessons. Needs a template or"
+  ],
+  "scheduled_for": "2026-11-21T14:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-21-0930-celebrity-tyson-fury-bet-his-rolex-on-a--backup",
+  "project_dir": "Content Creation/projects/2026-11-21-0930-celebrity-tyson-fury-bet-his-rolex-on-a--backup",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-21-0930-celebrity-tyson-fury-bet-his-rolex-on-a--backup/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 5,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "This is a clean Would You Rather post pairing two Omega De Ville Prestige 40 mm watches. The prices are $5,100 and $5,500, a 7.8% gap, both read from Omega's official pages on 21 Nov. The check passes, the photos are official and credited, the layout is centred, and neither reference has been posted before."
+  }
+}
