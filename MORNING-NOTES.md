@@ -32,6 +32,18 @@ or run `git revert <code>` and then `git push`.
 
 **Today's queue (21 Nov):** GitHub skipped the 1:30am plan, so I planned by hand at about 2:25am New York time (12 ideas). I restarted the maker a few times to pick up the fixes above. Approved so far: 7:00 gift watches under $6,000 (live: https://www.instagram.com/p/DgAM-PLCWya/), 9:30 Omega De Ville same-money vote, 12:00 first dive watches, 7:30pm Marie Antoinette's Breguet. The celebrity ideas failed: no November celebrity sighting could be confirmed by two outlets. At about 6:40am I queued 3 more library posts for empty slots (1:15pm Tank Must sizes, 5:00pm Hamilton first watch, 9:00pm first mechanical under $900); all three failed honestly (no clean photo of the small Tank; my Hamilton idea named the wrong reference, which the checks caught; Seiko prices only from an unconfirmed retailer), so today has 4 posts. I didn't try to fill all 12: the library only has about 20 unused priced watches, and random lists would break your value rule.
 
+
+## Added 21 Nov, daytime (owner requests)
+| What | Commit |
+|---|---|
+| Celebrity posts: one trusted outlet is enough (credited "spotted by X"); no usable photo → pick another celebrity; a failed celebrity slot gets another celebrity | a4a3fec, 5d41597, 5289231 |
+| Celebrity post shape: cover → Watch Spotlight → our take → "Your call: wear it or pass?" → follow. No hedge-only slides. The DiCaprio post (3:45pm) was fixed this way | a66278e |
+| Trial Reels switched on, but Instagram refuses trial Reels for this account (error 2207081). Normal Reels work: set `"mode": "normal"` in `config/schedule.json` trial_reels to post regular Reels instead | f9ed7ff, b203f5a |
+| Reel music: Kevin MacLeod tracks tried and removed (owner: wrong style). Reels are silent until a style is picked. Each Reel's sound gets a clickable name | 996cb2b, eb4764c |
+| **Scout**: every 2 days (inside the nightly plan, free, no AI) it reads the last 30 posts of 15 watch accounts (`config/scout.json`), scores each against that account's usual post, and writes `state/scout.md` (best formats, post types, times, questions, music) and tells the planner. **Needs the token permission `pages_read_engagement`** (add it with `instagram_manage_insights` when you renew the token) | 41037bc |
+
+**Music research (by hand, 21 Nov):** 13 of 13 Reels read from Hodinkee, Teddy Baldassarre and Swiss Watch Gang use "Original audio" (their own voice or event sound), not Instagram library songs.
+
 ## Needs you (2 minutes each)
 1. **Insights permission.** Your token can't read reach, saves or shares yet. When you next regenerate the token in Meta, also tick **instagram_manage_insights**. Until then the loop uses likes and comments only.
 2. **Trial Reels: on or off?** To switch them on, set `"trial_reels": {"enabled": true}` in `config/schedule.json`, or just tell Claude "turn on trial reels". They post silently, because the API can't add Instagram music.
