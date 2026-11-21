@@ -1,0 +1,21 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 4,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Design rule: slide 1 headline 'Robert Pattinson is the new James Bond' is 7 words (limit 6).",
+    "Gate 6: slide 3 text block sits high with a large empty area below it, so it is unbalanced."
+  ],
+  "fixes": [
+    "slide 1: shorten the headline to 6 words or fewer, e.g. 'Pattinson is the new Bond' (keep the gold second line or a short one). Move the full name into the body line, which already carries the Jaeger-LeCoultre ambassador text.",
+    "slide 3: balance the layout. Centre the price block vertically, or add the official Omega watch photo (already in the manifest) so the bottom third is not empty.",
+    "slide 3: drop the 'CELEBRITY' pill, or keep it only if the block stays centred. The price slide mostly repeats slide 2, so make the headline add a new point, e.g. 'Omega's Bond price today'."
+  ],
+  "reason": "The facts are sourced, the manifest is fixed, the cover now shows Pattinson wearing a watch, and the vote slide invites comments. The cover headline is over the 6-word limit, and the price slide is bottom-empty and needs rebalancing."
+}

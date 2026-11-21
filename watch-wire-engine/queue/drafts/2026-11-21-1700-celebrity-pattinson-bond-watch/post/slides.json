@@ -1,0 +1,47 @@
+{
+ "source": "Source: Amazon MGM · Omega · Fratello · WatchPro",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "CELEBRITY",
+   "line1": "Pattinson",
+   "line2": "is the new Bond",
+   "meta": "Robert Pattinson, Jaeger-LeCoultre ambassador · 16 Nov 2026",
+   "photo": "watch-wire-engine/library/img/press-jaeger-lecoultre-robert-pattinson.jpg",
+   "credit": "Photo: Jaeger-LeCoultre",
+   "footLeft": "Source: Amazon MGM · Fratello"
+  },
+  {
+   "t": "A-photo",
+   "label": "WATCH SPOTLIGHT",
+   "headline": "Omega Seamaster Diver 300M",
+   "body": "James Bond Edition, ref. 210.30.42.20.03.004. 42 mm steel.",
+   "photo": "watch-wire-engine/library/img/omega-210-30-42-20-03-004.png",
+   "credit": "Image: Omega",
+   "source": "Source: Omega"
+  },
+  {
+   "t": "A-number",
+   "number": "US$8,600",
+   "label": "Omega Bond Edition · list price, 21 Nov 2026",
+   "headline": "Omega's Bond price today",
+   "body": "Seamaster Diver 300M James Bond Edition, US list price on the Omega site.",
+   "source": "Source: Omega"
+  },
+  {
+   "t": "A-text",
+   "label": "OUR TAKE",
+   "headline": "Omega has the history",
+   "body": "Omega has supplied Bond since 1995. JLC has the actor."
+  },
+  {
+   "t": "A-text",
+   "label": "YOUR CALL",
+   "headline": "Omega or JLC on 007?",
+   "body": "Comment OMEGA or JLC. Which brand should Bond wear?"
+  },
+  {
+   "t": "cta"
+  }
+ ]
+}

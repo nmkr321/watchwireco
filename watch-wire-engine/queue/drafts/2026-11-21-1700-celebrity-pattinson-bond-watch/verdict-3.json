@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 4,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. I confirmed on Amazon's page that Pattinson was named Bond on 16 Nov 2026, and the Omega price (US$8,600, 21 Nov) matches the verified claim. The cover shows him in a Jaeger-LeCoultre press photo with a visible watch and a credit. The post ends on an Omega-or-JLC vote that invites comments."
+}

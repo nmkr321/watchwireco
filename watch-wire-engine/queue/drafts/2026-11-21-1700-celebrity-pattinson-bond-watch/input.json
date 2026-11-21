@@ -10,9 +10,26 @@
   "hook": "The new 007 already has a watch deal. It isn't Omega.",
   "why": "Timely news the owner asked for. FACTS: Amazon MGM Studios announced Robert Pattinson as the seventh James Bond on 16 Nov 2026 (Amazon's own post: https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film ; Hollywood Reporter: https://www.hollywoodreporter.com/movies/movie-news/robert-pattinson-landed-007-what-next-1236757722/). Directed by Denis Villeneuve, written by Steven Knight; no title or release date announced (one outlet says 2028: label as reported only). Pattinson became a Jaeger-LeCoultre global ambassador in Sept 2026, campaign on the Master Control Chronometre (WatchPro: https://usa.watchpro.com/robert-pattinson-named-jaeger-lecoultre-ambassador/ ; JLC: https://www.jaeger-lecoultre.com/ca-en/news/our-maison/ambassador-robert-pattinson). Omega has dressed Bond since GoldenEye (1995). Pattinson wore no watch in the announcement (Fratello, 17 Nov: https://www.fratellowatches.com/robert-pattinson-confirmed-as-the-next-james-bond-no-watch-in-sight-for-now/ ; WatchPro: https://usa.watchpro.com/robert-pattinson-james-bond-jaeger-lecoultre-omega/). Which watch he'll wear on screen is NOT confirmed: say so plainly, credit Fratello/WatchPro by name. SPOTLIGHT watch: Omega Seamaster Diver 300M James Bond Edition ref. 210.30.42.20.03.004, 42 mm steel, US$8,600 (Omega US site: https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422003004 ; launched 5 Oct 2026, Monochrome: https://monochrome-watches.com/omega-seamaster-diver-300m-james-bond-and-spectre-collection-2026-review-price/). SHAPE (owner): cover with Pattinson (free/credited photo) -> Watch Spotlight slide (the Omega Bond Edition, official photo, price) -> our take (Omega has 30 years and a contract; JLC has the actor) -> 'Your call: Omega or JLC on 007?' vote slide -> follow. No hedge-only slides.",
   "sources": [
-    {"title": "Amazon MGM: Robert Pattinson cast as James Bond", "link": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film", "published": "2026-11-16"},
-    {"title": "Fratello: Robert Pattinson Confirmed As The Next James Bond, No Watch In Sight (For Now)", "link": "https://www.fratellowatches.com/robert-pattinson-confirmed-as-the-next-james-bond-no-watch-in-sight-for-now/"},
-    {"title": "WatchPro: Where does Robert Pattinson's new James Bond role leave Jaeger-LeCoultre?", "link": "https://usa.watchpro.com/robert-pattinson-james-bond-jaeger-lecoultre-omega/"},
-    {"title": "Omega: Seamaster James Bond Edition 210.30.42.20.03.004", "link": "https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422003004"}
+    {
+      "title": "Amazon MGM: Robert Pattinson cast as James Bond",
+      "link": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film",
+      "published": "2026-11-16"
+    },
+    {
+      "title": "Fratello: Robert Pattinson Confirmed As The Next James Bond, No Watch In Sight (For Now)",
+      "link": "https://www.fratellowatches.com/robert-pattinson-confirmed-as-the-next-james-bond-no-watch-in-sight-for-now/"
+    },
+    {
+      "title": "WatchPro: Where does Robert Pattinson's new James Bond role leave Jaeger-LeCoultre?",
+      "link": "https://usa.watchpro.com/robert-pattinson-james-bond-jaeger-lecoultre-omega/"
+    },
+    {
+      "title": "Omega: Seamaster James Bond Edition 210.30.42.20.03.004",
+      "link": "https://www.omegawatches.com/en-us/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422003004"
+    }
+  ],
+  "previous_attempts": [
+    "The facts and the check are fine, but the post has no photo of Pattinson, the JLC photo on slide 2 doesn't match the cover, and the Omega photo repeats. It also has fewer slides than the format needs and implies an on-screen watch no source confirms. / Gate 7: slide 2 shows a rose-gold JLC on an unnamed wrist (EMore98 photo). It is not the steel blue-dial JLC on the cover, and nothing identifies it as a Master Control. / Gate 7: the post is about Pattinson but no slide shows him or credits a photo of him. / Gate 5: the format recipe asks for 5–7 slides (cover, spotted, watch, price, CTA) and t",
+    "Pattinson's casting, date, JLC ambassador role and prices all check out, and the vote slide gives people a reason to comment. Slide 4's footer is cut off mid-word, so shorten it and this is ready to approve. / Gate 6: slide 4 footer source line is cut off with an ellipsis ('WATCHE…') / slide 4: shorten the footer source line so it fits on one line without truncation, e.g. 'SOURCE: AMAZON MGM · JLC · OMEGA'. Keep the caption's source list as it is."
   ]
 }

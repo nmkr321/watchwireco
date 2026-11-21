@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Robert Pattinson is the new James Bond, and Jaeger-LeCoultre's ambassador. Will 007 wear Omega or JLC?\n\nNeither brand has confirmed which watch he'll wear on screen. Pattinson wore no watch in the casting announcement.\n\nOmega has supplied Bond since GoldenEye in 1995. Its Seamaster Diver 300M James Bond Edition (ref. 210.30.42.20.03.004, 42 mm steel) lists at US$8,600 on Omega's US site, checked 21 November 2026.\n\nOmega or Jaeger-LeCoultre on 007? Comment your pick.\n\nSource: Amazon MGM (casting, 16 November 2026); Omega (price, 21 November 2026); Fratello Watches and WatchPro (no watch confirmed; Omega history). Photo: Jaeger-LeCoultre (official press image); watch image: Omega.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4",
+    "CLM-5"
+  ],
+  "source_ids": [
+    "SRC-AMAZON",
+    "SRC-OMEGA",
+    "SRC-FRATELLO",
+    "SRC-WATCHPRO"
+  ],
+  "attribution": "Sources: Amazon MGM, Omega, Fratello Watches, WatchPro.",
+  "caption_credit": "Photo: Jaeger-LeCoultre (official press image)",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Film title and release date not announced; the on-screen watch is not confirmed."
+  ],
+  "carousel_sha256": "1afa0fae73482aa8ce47ba316636c11a6a1ba1eba3514c919c10d2a39d60403f",
+  "completed_at": "2026-11-21T19:34:46.970Z"
+}
