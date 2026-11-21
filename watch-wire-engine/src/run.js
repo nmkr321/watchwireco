@@ -401,11 +401,15 @@ async function publishDue({ breakingOnly = false } = {}) {
   const posted = fs.readdirSync(Q("posted")).map((f) => readJson(path.join(Q("posted"), f)));
   const today = new Date().toDateString();
   const lastPost = posted.map((p) => Date.parse(p.posted_at)).sort().pop() || 0;
-  for (const f of fs.readdirSync(Q("approved")).filter((x) => x.endsWith(".json"))) {
+  // oldest due first; at most one post per run and 20+ minutes apart, so late posts never go out in a burst
+  const due = fs.readdirSync(Q("approved")).filter((x) => x.endsWith(".json")).map((f) => [readJson(path.join(Q("approved"), f)).scheduled_for || "", f]).sort().map(([, f]) => f);
+  let postedThisRun = 0;
+  for (const f of due) {
     const file = path.join(Q("approved"), f);
     const item = readJson(file);
     if (Date.parse(item.scheduled_for) > Date.now()) continue;
     if (breakingOnly && item.lane !== "breaking") continue;
+    if (item.lane !== "breaking" && (postedThisRun || Date.now() - lastPost < 20 * 60e3)) { log(`spacing: ${item.id} waits for the next check`); continue; }
     // a newer version of this post exists (owner/editor replaced it): don't publish the old one
     const replacedBy = ["approved", "ideas"].flatMap((d) => fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json")).map((x) => { try { return readJson(path.join(Q(d), x)); } catch { return {}; } })).find((o) => o.replaces === item.id);
     if (replacedBy) { item.status = "replaced"; item.replaced_by = replacedBy.id; writeJson(file, item); move(file, "hold"); log(`replaced, not posting: ${item.title}`); continue; }
@@ -414,7 +418,7 @@ async function publishDue({ breakingOnly = false } = {}) {
     if (Date.now() - lastPost < schedule.breaking.min_minutes_between_posts * 60e3 && item.lane === "breaking") { log(`too soon after last post, holding ${item.id}`); continue; }
     const result = await publishPost(item, { live: schedule.auto_publish === true });
     Object.assign(item, { status: result.live ? "posted" : "ready-to-post", posted_at: new Date().toISOString(), publish: result });
-    writeJson(file, item); move(file, "posted");
+    writeJson(file, item); move(file, "posted"); postedThisRun++;
     log(`${result.live ? "POSTED" : "DRY RUN (auto_publish is off)"}: ${item.title} ${result.permalink || ""}`);
     notify(`Watch Wire ${result.live ? "posted" : "ready to post (auto-publish off)"}: ${item.title}`);
   }
