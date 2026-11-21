@@ -240,6 +240,13 @@ function recentHeadlines() {
   return out.slice(-15);
 }
 
+// is there already a scheduled (non-breaking) post for this calendar day in any queue folder?
+function plannedFor(day) {
+  const key = day.toDateString();
+  return ["ideas", "approved", "posted", "rejected", "hold"].some((d) => fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json"))
+    .some((f) => { try { const o = readJson(path.join(Q(d), f)); return o.lane !== "breaking" && !/^UNRESOLVED/.test(o.title || "") && o.post_at && new Date(o.post_at).toDateString() === key; } catch { return false; } }));
+}
+
 // ideas the approver rejected in the last 7 days, so the planner doesn't suggest them again
 function recentRejects() {
   return fs.readdirSync(Q("rejected")).filter((x) => x.endsWith(".json")).map((f) => { try { return readJson(path.join(Q("rejected"), f)); } catch { return {}; } })
@@ -255,6 +262,8 @@ function plan(opts = {}) {
   const day = new Date(Date.now() + ((opts.today || new Date().getHours() < 12) ? 0 : 864e5));
   const dayOfYear = Math.floor((day - new Date(day.getFullYear(), 0, 0)) / 864e5);
   const dayKey = `${day.getFullYear()}-${String(day.getMonth() + 1).padStart(2, "0")}-${String(day.getDate()).padStart(2, "0")}`;
+  // a late-starting scheduled run (GitHub can delay by an hour+) must not plan a day that is already planned
+  if (!opts.slots && plannedFor(day)) { log(`plan: ${dayKey} is already planned, nothing to do`); return; }
   const slotDefs = opts.slots || (schedule.overrides || {})[dayKey] || schedule.slots;
   // one format per slot, picked so no two neighbouring posts share a type
   const lastFmt = fs.readdirSync(Q("posted")).filter((f) => f.endsWith(".json")).map((f) => readJson(path.join(Q("posted"), f))).sort((a, b) => Date.parse(a.posted_at) - Date.parse(b.posted_at)).pop()?.format;
@@ -431,10 +440,7 @@ function tidy() {
 async function makeIdeas({ selfPlan = false } = {}) {
   // GitHub sometimes skips the scheduled plan run: if nothing is planned for today yet, plan first (overnight runs only)
   if (selfPlan && new Date().getHours() < 12) {
-    const today = new Date().toDateString();
-    const has = ["ideas", "approved", "posted", "rejected"].some((d) => fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json"))
-      .some((f) => { try { const o = readJson(path.join(Q(d), f)); return o.lane !== "breaking" && new Date(o.post_at || 0).toDateString() === today; } catch { return false; } }));
-    if (!has) { log("no posts planned for today yet (plan run was skipped?): planning now"); try { await collectInsights(log); } catch {} plan(); }
+    if (!plannedFor(new Date())) { log("no posts planned for today yet (plan run was skipped?): planning now"); try { await collectInsights(log); } catch {} plan(); }
   }
   reviveRejected();
   // earliest post first, and save after each one so the publisher sees it while the rest are still being made
