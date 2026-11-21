@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Gate 6: slide 1 cover has a large empty gap between the headline and the arrow, so the block is not balanced",
+    "Gate 7 / owner never-again: the story is photo-less apart from slide 6, and the one photo is a lunar lander with no watch visible",
+    "Gate 5: slide 4 was meant to carry a Speedmaster photo and shows none"
+  ],
+  "fixes": [
+    "slide 1: add the Omega Speedmaster cut-out (asset-1) in a gold medallion, with the headline and image centred as one balanced block, or shorten the layout so there is no dead gap",
+    "slide 4: add the Speedmaster photo from asset-3 (Schirra/Gordon/Stafford watches), zoomed on the watch, with the credit 'Sandstein (CC BY 3.0) via Wikimedia Commons'",
+    "slide 6: replace the lander image with one where the Speedmaster or an astronaut's wrist is visible (asset-4 Gemini 11 crew, or the watch with a gold ring), or keep the lander only as a background with a watch inset",
+    "Keep images on at least every other slide (for example 1, 3 or 4, 6), as the owner requires",
+    "Give slide 2 or 3 a photo, or an inset watch, so the middle of the story is not text-only"
+  ],
+  "reason": "The Speedmaster story is sourced and the check passes. But the cover has a big empty gap, and the only photo is a lander with no watch, which breaks the owner's rules on photo-less stories and on seeing the watch. Add the watch photos and rebalance the cover."
+}

@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Gate 6: slide 1 headline sits over the Speedmaster dial and chronograph subdials, so the watch is hidden by the text",
+    "Gate 6/7: slides 3 and 4 photos are dimmed to near-illegible, show museum caption cards instead of a clear watch, and the text runs over them",
+    "Gate 7: slide 6 shows Gemini 11 crew suits with no visible watch. The slide is about Apollo 11 and the Moon, so the picture does not match it",
+    "Owner never-again: watches cannot be seen in the photos, with no zoom or ring on the watch"
+  ],
+  "fixes": [
+    "slide 1: shrink or shift the Speedmaster cut-out so the headline sits in clear dark space above or below the dial, with the tag, headline and watch centred as one block",
+    "slide 3: use a tight crop of one Speedmaster dial from asset-3 at higher brightness (or an inset), and keep the text out of the dial area",
+    "slide 4: use a bright, tightly cropped single Speedmaster from asset-3, without the museum label text, and place the headline below the watch",
+    "slide 6: replace the Gemini 11 crew photo with an image where a Speedmaster or an astronaut's wrist watch is clearly visible, with a gold ring on the watch. Otherwise use the Apollo 11 lander image with the cut-out watch as an inset, and keep the credit",
+    "Shorten the slide 3 and 4 body text to 15 words or fewer, as slide 4 is at the limit"
+  ],
+  "reason": "The Speedmaster story is sourced and the check passes, but the cover headline covers the dial. The photos on slides 3, 4 and 6 are too dim to show the watch, and slide 6's photo doesn't match its Apollo 11 text. Brighten the photos, crop to the watch and keep the text clear of it."
+}

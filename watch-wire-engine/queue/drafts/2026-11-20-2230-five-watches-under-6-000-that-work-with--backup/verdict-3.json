@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Gate 7: slides 3, 4 and 6 photos are still dimmed to near-illegible, and no watch is clearly visible. This is the owner's 'never again' on watches you can't see, and the previous round's fixes were not made.",
+    "Gate 7: slide 6 is about Apollo 11, but the photo is credited as the Gemini 11 crew. The picture does not match the claim.",
+    "Gate 7: slide 3 is about the Rolex and Longines failures, but its photo shows a museum case, not those watches.",
+    "Gate 6: the slide 1 Speedmaster is grey and dim, not a clean bright cut-out. The headline is now clear of the dial."
+  ],
+  "fixes": [
+    "slide 1: brighten the Speedmaster cut-out to full brightness so the dial and subdials read clearly",
+    "slide 3: use a bright, tight crop of a Speedmaster dial from asset-3 with no dark overlay and no museum labels. Or make it a text-only slide.",
+    "slide 4: use a bright crop of one Speedmaster with no dark overlay and no caption cards, with the text below the watch",
+    "slide 6: swap the Gemini 11 photo for the Apollo 11 lander image (asset-2) with the cut-out Speedmaster as an inset in a gold medallion. Or use a bright photo where the wrist watch is clearly visible, with a ring on it. Keep the credit.",
+    "Keep the photo overlay light enough that the watch is plainly visible. Keep every body text at 15 words or fewer."
+  ],
+  "reason": "The Speedmaster story is sourced and the check passes. The photos on slides 3, 4 and 6 are still too dark to show a watch, and slide 6's Gemini photo doesn't match its Apollo 11 text. Brighten the images and show the watch clearly."
+}

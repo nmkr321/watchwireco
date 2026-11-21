@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-20-2115-a-pilot-asked-for-a-watch-on-his-wrist-c-backup",
+  "lane": "history",
+  "status": "stopped",
+  "found_at": "2026-11-21T00:17:23.945Z",
+  "post_at": "2026-11-21T02:15:00.000Z",
+  "backup_for": "2026-11-20-2115-a-pilot-asked-for-a-watch-on-his-wrist-c",
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: A Pilot Asked For A Watch On His Wrist. Cartier Changed Watchmaking. (STORY BEHIND)",
+  "hook": "",
+  "why": "Backup post. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "Slide 3 (Viewmatic Auto 44mm) uses a boxed square Hamilton product photo on a cream background, not a cut-out, which breaks the one-image-style rule and the no-white-box rule. Slide 4 (Oris) has no photo: the Oris image download returned an error page, so it was removed and the slide is text-only. A",
+    "Not enough usable references for a 4-item listicle. Dress watches in the $1,950-$5,700 band with dated prices and usable photos: Nomos Tangente 38 165 ($2,510, US retail Nov 2026, exquisitetimepieces) and Cartier Tank Must WSTA0141 ($5,700, US retail Nov 2026, Watches of Switzerland) only. The Oris "
+  ],
+  "stop_reason": "Attempt 3: only three usable dress-watch references with dated US retail prices and usable photos. Qualifying: Nomos Tangente 38 165 ($2,510, exquisitetimepieces, US retail Nov 2026, photo ok), Longines Master Collection L2.793.4.78.3 ($2,550, Longines official, US retail Nov 2026, photo ok), Cartier Tank Must WSTA0141 ($5,700, Watches of Switzerland, US retail Nov 2026, photo ok). Dropped: Oris Artelier 01 733 7721 4051-07 5 21 64FC ($1,950): the stored image is an HTML error page and the re-fetch returned the same cached file. Baume & Mercier Clifton M0A10436 ($2,990, Tourneau, not official US MSRP): no product photo on the page and the brand site blocks automated readers. Omega De Ville Tresor: dealer prices only ($8,200-$8,700), above the band. A fourth item needs a fresh licensed or official photo and a dated official price; none was found within budget.",
+  "gave_up": true
+}

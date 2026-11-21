@@ -1,0 +1,21 @@
+{
+  "decision": "reject",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Gate 10: no clear reason to save, share or comment. The story is an old anecdote (Time+Tide, 2020) about a watch nobody can identify.",
+    "Gate 7 and visual rule: a watch post with no watch on any slide. Slides 1 and 2 show the same Fury portrait, and slides 3 and 4 are text only with no photo.",
+    "Gate 6: the text blocks on slides 3 and 4 sit low, not centred.",
+    "Design notes: celebrity posts need the watch as well as the celebrity, and photos should run through the story."
+  ],
+  "fixes": [
+    "Drop this idea. Pick a celebrity whose watch is named by the brand, the celebrity or a trusted watch outlet. Show them in a free photo with a cut-out medallion of that exact watch, plus a dated US retail price."
+  ],
+  "reason": "The check passes and the facts are sourced, but the post is about an unknown Rolex from an old story, with no watch shown and little to save or share. Choose a celebrity with a confirmed watch instead."
+}

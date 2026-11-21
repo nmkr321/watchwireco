@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-20-2115-a-pilot-asked-for-a-watch-on-his-wrist-c",
+  "status": "stopped",
+  "found_at": "2026-11-20T23:41:08.653Z",
+  "lane": "history",
+  "format": "STORY BEHIND",
+  "post_at": "2026-11-21T02:15:00.000Z",
+  "slot": 3,
+  "title": "A Pilot Asked For A Watch On His Wrist. Cartier Changed Watchmaking. (STORY BEHIND)",
+  "hook": "A pilot asked for a watch he could wear on his wrist. Cartier changed watchmaking. (Santos-Dumont, c.1904, Louis Cartier, the Santos)",
+  "why": "Tension hook with a clear origin payoff (the wristwatch for pilots). Avoids Genta and the Rolex London import story. Watch: Cartier Santos, exact reference and current US retail price needed.",
+  "sources_to_check": [
+    "cartier.com heritage or press archive (1904 Santos origin, reference, US price)",
+    "Alberto Santos-Dumont historical sources for the wristwatch request (one primary source needed)"
+  ],
+  "sources": [
+    {
+      "title": "cartier.com heritage or press archive (1904 Santos origin, reference, US price)",
+      "link": "",
+      "source": "cartier.com heritage or press archive (1904 Santos origin, reference, US price)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Alberto Santos-Dumont historical sources for the wristwatch request (one primary source needed)",
+      "link": "",
+      "source": "Alberto Santos-Dumont historical sources for the wristwatch request (one primary source needed)",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "The story is built on one Cartier page. It has unverified claims on slides 3 and 4, an empty cover and a photo-less middle and end. Fix the facts, add images and rebalance the layout, then resubmit. / 2: Slide 4 gives large model $5,250 and small $4,800. Neither is a verified claim in research.json; only $7,800 is. Slide 3 ('first wristwatches', 'bonds of friendship') is also not a verified claim. The rendered slides do not match carousel.json. / 6: Slide 1 has a big empty gap under the headline, with the headline block high and an orphan arrow. Slide 2's text sits over the dial. / Design note",
+    "Slide 1's headline sits too high and slide 3's text covers the watch dial. Both are owner 'never again' items, and the editor says they need a template change. I can't approve until that is fixed and the facts are rechecked. / 6: Slide 1 headline block sits in the upper half and is not centred or balanced. It also has a stray arrow circle. Both are owner 'never again' items. / 6: Slide 3 text covers the Santos-Dumont dial, and the photo is dimmed with no gold medallion cut-out. / Draft status is 'stopped': the editor could not apply the earlier fixes, and the template needs a change. / Claims,"
+  ],
+  "stop_reason": "Attempt 3 stopped at research. The only primary source I could verify is Cartier's Santos-Dumont product page, which gives one origin fact (1904 wristwatch made so Santos-Dumont could tell time while flying). Monochrome Watches adds the Edmond Jaeger and 1911 release detail and the Patek Philippe credit, but the research validator only accepts official, primary or user-supplied sources, so those facts cannot be recorded as sourced. A STORY BEHIND needs 7 to 9 sourced beats; one verified fact is not enough. No carousel, slides or caption were built. Next step: find an official Cartier or Jaeger-LeCoultre heritage page that states the 1911 Jaeger production and the Santos-Dumont request, or choose a different story.",
+  "gave_up": true
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2026-11-20-1905-geneva-auction-week-results-news-seasona",
+  "status": "idea",
+  "found_at": "2026-11-20T23:41:08.651Z",
+  "lane": "news",
+  "format": "NEWS",
+  "post_at": "2026-11-21T00:05:00.000Z",
+  "slot": 1,
+  "title": "Geneva Auction Week Results (NEWS, seasonal angle)",
+  "hook": "Geneva Auction Week Crosses $200 Million (exact figure must match the primary source)",
+  "why": "Timely market news tied to the Geneva autumn auctions; useful for collectors tracking the market. Cover picture is a watch from the top sale, not yet chosen. Fallback if the total is not confirmed: Vacheron Constantin Overseas Perpetual Calendar 30th anniversary (NEW RELEASES style). Its price and date still need the official release.",
+  "sources_to_check": [
+    "phillips.com/press (Geneva Watch Auction XXIV release, 8 Nov 2026)",
+    "Sotheby's Geneva Important Watches results page",
+    "Christie's Geneva autumn 2026 results (not found yet)",
+    "thewatchology.com Geneva 2026 report (secondary, for cross-check only)"
+  ],
+  "sources": [
+    {
+      "title": "phillips.com/press (Geneva Watch Auction XXIV release, 8 Nov 2026)",
+      "link": "",
+      "source": "phillips.com/press (Geneva Watch Auction XXIV release, 8 Nov 2026)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Sotheby's Geneva Important Watches results page",
+      "link": "",
+      "source": "Sotheby's Geneva Important Watches results page",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Christie's Geneva autumn 2026 results (not found yet)",
+      "link": "",
+      "source": "Christie's Geneva autumn 2026 results (not found yet)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "thewatchology.com Geneva 2026 report (secondary, for cross-check only)",
+      "link": "",
+      "source": "thewatchology.com Geneva 2026 report (secondary, for cross-check only)",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "The figures all match the Phillips release: $112.3M, 217 of 217 lots sold, 24 records, and CHF 8,680,500 for the top lot. But the slide 3 photo is a different F.P. Journe, a tourbillon remontoir, not the Résonance 'Régence' named on the slide. Fix the photo and resubmit. / Gate 7: the slide 3 photo does not show the watch named. The dial reads 'Remontoir d'Egalité avec Seconde Morte' and has a tourbillon with a single time sub-dial. The top lot was a Chronomètre à Résonance 'Régence', which has two movements and two dials, with no tourbillon. / Gate 7: the photo's manifest entry points to an a",
+    "The facts match Phillips' official release and the check passes. But slide 2 has uneven spacing, the other blocks aren't centred consistently, and there are no watch photos or a reason to comment, so it needs another round. / Gate 6: slide 2 layout is unbalanced. The NEWS tag sits tight under the header. The gap between the $112.3M block and the headline is much wider than the other gaps. The editor's own note admits this spacing flaw is still open. / Gate 6: slides 3 and 4 content blocks sit unevenly in the frame. Slide 3 is high and slide 4 is low-centre, so spacing is inconsistent across th"
+  ]
+}

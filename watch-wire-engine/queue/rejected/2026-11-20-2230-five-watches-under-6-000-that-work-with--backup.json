@@ -1,0 +1,44 @@
+{
+  "id": "2026-11-20-2230-five-watches-under-6-000-that-work-with--backup",
+  "lane": "rotation",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-21T00:31:51.298Z",
+  "post_at": "2026-11-21T03:30:00.000Z",
+  "backup_for": "2026-11-20-2230-five-watches-under-6-000-that-work-with-",
+  "format": "STORY BEHIND",
+  "title": "Backup STORY BEHIND for the slot of: Five Watches Under $6,000 That Work With A Suit (LISTICLE)",
+  "hook": "",
+  "why": "Backup post. Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
+  "sources": [],
+  "previous_attempts": [
+    "This is the Genta Royal Oak and Nautilus story, which we already posted today, so it's a repeat. The draft is also mislabelled, and the headline covers the watch dial on slides 3 and 5. / Gate 9: duplicate. The Gérald Genta Royal Oak and Nautilus story (20261120d-story-genta) was posted today. / Draft mismatch: the folder name is 'five watches under 6,000' but the content is the Genta story. / Gate 6: slide 3 headline sits over the watch dial. / Gate 6: slide 5 headline sits over the watch dial (the engine's own stop note flags this). / Wordy slides: the body text on several beat slides runs c",
+    "Gate 6 risk: the cover headline (slide 1) and the 1919 slide (slide 5) sit over the watch dial, the same failure as the last attempt. Also only 6 slides, below the 7-9 minimum for STORY BEHIND, after dropping the single-source sales figure. The story is not a repeat of Genta: it is the Cartier Tank "
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 2,
+      "clarity": 4,
+      "taste": 2
+    },
+    "hard_gate_failures": [
+      "Gate 7: slides 3, 4 and 6 photos are still dimmed to near-illegible, and no watch is clearly visible. This is the owner's 'never again' on watches you can't see, and the previous round's fixes were not made.",
+      "Gate 7: slide 6 is about Apollo 11, but the photo is credited as the Gemini 11 crew. The picture does not match the claim.",
+      "Gate 7: slide 3 is about the Rolex and Longines failures, but its photo shows a museum case, not those watches.",
+      "Gate 6: the slide 1 Speedmaster is grey and dim, not a clean bright cut-out. The headline is now clear of the dial."
+    ],
+    "fixes": [
+      "slide 1: brighten the Speedmaster cut-out to full brightness so the dial and subdials read clearly",
+      "slide 3: use a bright, tight crop of a Speedmaster dial from asset-3 with no dark overlay and no museum labels. Or make it a text-only slide.",
+      "slide 4: use a bright crop of one Speedmaster with no dark overlay and no caption cards, with the text below the watch",
+      "slide 6: swap the Gemini 11 photo for the Apollo 11 lander image (asset-2) with the cut-out Speedmaster as an inset in a gold medallion. Or use a bright photo where the wrist watch is clearly visible, with a ring on it. Keep the credit.",
+      "Keep the photo overlay light enough that the watch is plainly visible. Keep every body text at 15 words or fewer."
+    ],
+    "reason": "The Speedmaster story is sourced and the check passes. The photos on slides 3, 4 and 6 are still too dark to show a watch, and slide 6's Gemini photo doesn't match its Apollo 11 text. Brighten the images and show the watch clearly."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-20-2230-five-watches-under-6-000-that-work-with--backup",
+  "gave_up": true
+}

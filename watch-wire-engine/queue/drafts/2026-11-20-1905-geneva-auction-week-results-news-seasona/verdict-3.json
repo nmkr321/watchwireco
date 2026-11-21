@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 4,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes, and Phillips' release confirms the $112.3M total, 217 of 217 lots sold, 24 world records and the CHF 8,680,500 top lot. The fee basis is attributed to The Watchology, since Phillips' page doesn't state it. The earlier layout problems are fixed: the NEWS tag is off the dial, the deck is 5 slides ending on the CTA, and every slide with a photo carries the Phillips credit."
+}

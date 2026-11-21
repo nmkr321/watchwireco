@@ -1,0 +1,21 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 4,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: on slide 1 the NEWS tag still sits over the watch dial and touches the headline block. This was fix 1 from the previous round and it is still not met.",
+    "The draft is inconsistent. draft.json is marked 'stopped' and lists 5 slides. carousel.json and the previews still have 6 slides, including a separate CTA slide. The preview footer reads '01 / 05'."
+  ],
+  "fixes": [
+    "slide 1: Move the NEWS tag off the dial. Put it at the top under the header or directly above the headline, with clear space around it. If the template can't do this, use a cover photo crop that leaves the tag area clear of the dial.",
+    "All slides: Re-render so carousel.json, draft.json, previews and the page counter agree. Make sure the 5-slide deck ends with the CTA slide, then run finish again.",
+    "slides 3-5: Re-check the previews after the re-render. Each main block must be centred, at the same height as the other slides, and not low or crowded. Keep an image at least every other slide."
+  ],
+  "reason": "The figures match Phillips' release and the check passes. The cover's NEWS tag still sits on the watch dial, which was flagged last round, and the draft files disagree about whether there are 5 or 6 slides."
+}

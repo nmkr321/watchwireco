@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-20-2230-five-watches-under-6-000-that-work-with-",
+  "status": "stopped",
+  "found_at": "2026-11-20T23:41:08.653Z",
+  "lane": "rotation",
+  "format": "LISTICLE",
+  "post_at": "2026-11-21T03:30:00.000Z",
+  "slot": 4,
+  "title": "Five Watches Under $6,000 That Work With A Suit (LISTICLE)",
+  "hook": "Five Watches Under $6,000 That Work With A Suit. (One use case, one price band.)",
+  "why": "Listicle with one clear buyer (dress watch for a suit) and a tight price band. Not ready: the list is not sourced yet. Replace the Tudor Black Bay 58 (a sports diver, not a suit watch) with dress or time-only models. Shrink the list if five can't be verified in the band.",
+  "sources_to_check": [
+    "each brand's US site for exact reference and current US retail (dated 'US retail, Nov 2026')",
+    "tudorwatch.com only if a Tudor is kept (BB58 list $4,975 to $5,350 by configuration; sources disagree)"
+  ],
+  "sources": [
+    {
+      "title": "each brand's US site for exact reference and current US retail (dated 'US retail, Nov 2026')",
+      "link": "",
+      "source": "each brand's US site for exact reference and current US retail (dated 'US retail, Nov 2026')",
+      "tier": "to-verify"
+    },
+    {
+      "title": "tudorwatch.com only if a Tudor is kept (BB58 list $4,975 to $5,350 by configuration; sources disagree)",
+      "link": "",
+      "source": "tudorwatch.com only if a Tudor is kept (BB58 list $4,975 to $5,350 by configuration; sources disagree)",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "The draft is stopped with its fixes unapplied. The Grand Seiko price isn't verified, the Nomos and Longines photos have no recorded rights, and the slide 5 photo doesn't show the dial. Fix those before it can go out. / Gate 2: The Grand Seiko SBGW231 price ($4,300) has no verified claim. It rests on a search snippet, and the Watches of Switzerland page returned HTTP 429. / Gate 3: The Grand Seiko and Nomos prices each come from a single retailer listing. / Gate 7: The Longines and Nomos photos are not in manifest.json. The Nomos photo comes from a retailer, so it can't be marked 'official'. / ",
+    "Attempt 2 stopped at research validation. Four items verified on official US pages (Cartier WSTA0106 $4,400, WSTA0108 $4,100; OMEGA De Ville Prestige 434.13.41.21.03.002 $5,100, 434.10.40.20.10.001 $5,500), with licensed official photos (Cartier, OMEGA) showing dials. Blocking issues: (1) the start "
+  ],
+  "stop_reason": "Attempt 3: four items verified on official US pages (NOMOS Tangente 38 ref 165 $2,510; Cartier WSTA0106 $4,400; Cartier WSTA0108 $4,100; Grand Seiko SBGW301 $5,000; band within 2x). Engine finish step PASSES. Stopped for owner decision: the Cartier photos on slides 3 and 4 show a lighter rectangle behind the watch, which the owner has disliked (white boxes behind watch photos). Also: Cartier models are marked Unavailable online in the US, and the Grand Seiko and Cartier photos are from official media (rights: official). Longines and Omega were dropped (Longines price not verified from an official page; Omega US list $6,400 is above the band).",
+  "gave_up": true
+}

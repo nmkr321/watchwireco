@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-20-2005-tyson-fury-bet-his-rolex-on-a-sparring-s-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-21T00:00:40.723Z",
+  "post_at": "2026-11-21T01:05:00.000Z",
+  "backup_for": "2026-11-20-2005-tyson-fury-bet-his-rolex-on-a-sparring-s",
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: Tyson Fury Bet His Rolex On A Sparring Session (CELEBRITY)",
+  "hook": "",
+  "why": "Backup post. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "Rejected: this backup reuses the exact three dress watches already in the approved $25K collection post, so it counts as a repeat. The price band is also a bit wide, and the photo rights aren't in the manifest. Use a backup with different watches, or fix the Fury story. / 9: the same three dress watches (Longines Master Collection $2,550, Nomos Tangente 38 $2,510, Cartier Tank Must $5,700) are already in the approved post 20261120c-collection-tiers, which is queued for the same day / 10: the price spread is $2,510 to $5,700, about 2.3x, which is wider than the roughly 2x band in FORMATS.md. Th",
+    "The dive-watch post isn't finished: the Seiko slide has a boxed photo and a too-wordy body, and the Breitling price isn't dated or sourced. Fix those and resubmit. / Draft status is 'stopped'. The editor says the revision was not finished. / Slide 2: the Seiko HBF001 image is a boxed landscape scene, not a clean cut-out. The owner has said never again to boxes behind watches. / Slide 2: the body text is over 15 words and the price has no 'Nov 2026' date. / Slide 3: the Breitling price has no dated official price record, so Gate 2 (prices dated and from the brand or an official retailer) is not"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-20-2005-tyson-fury-bet-his-rolex-on-a-sparring-s",
+  "status": "rejected",
+  "found_at": "2026-11-20T23:41:08.653Z",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "post_at": "2026-11-21T01:05:00.000Z",
+  "slot": 2,
+  "title": "Tyson Fury Bet His Rolex On A Sparring Session (CELEBRITY)",
+  "hook": "Tyson Fury bet his Rolex in a sparring session with Anthony Joshua. The watch model is not yet confirmed.",
+  "why": "Named celebrity with a timely story; comment-worthy. Idea is only usable if a trusted outlet reports the specific Rolex reference he wears. If none is found, drop it and use another celebrity with a reported watch.",
+  "sources_to_check": [
+    "timeandtidewatches.com/the-watches-of-tyson-fury-anthony-joshua-rolex-audemars-piguet/ (for the reference)",
+    "rolex.com or an authorized US dealer (current US retail)",
+    "sportbible.com 2021 Joshua/Fury Rolex story (background only)"
+  ],
+  "sources": [
+    {
+      "title": "timeandtidewatches.com/the-watches-of-tyson-fury-anthony-joshua-rolex-audemars-piguet/ (for the reference)",
+      "link": "",
+      "source": "timeandtidewatches.com/the-watches-of-tyson-fury-anthony-joshua-rolex-audemars-piguet/ (for the reference)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "rolex.com or an authorized US dealer (current US retail)",
+      "link": "",
+      "source": "rolex.com or an authorized US dealer (current US retail)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "sportbible.com 2021 Joshua/Fury Rolex story (background only)",
+      "link": "",
+      "source": "sportbible.com 2021 Joshua/Fury Rolex story (background only)",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Dropped per the idea's own rule: no trusted outlet names the specific Rolex reference Fury offered. Time+Tide (timeandtidewatches.com, Luke Benedictus, 2020) says the watch is unknown and rules out his 60th Anniversary Day-Date 40 (Ref.228235) as unlikely. Search results give only Joshua's account v",
+    "The last revision was never applied, so this draft is unfinished: the photo rights, credit placement and repeated slides are unfixed. Re-render, get the check to PASS and resubmit. / Draft status is 'stopped'. The earlier revision was never applied, so the PNGs are the old version and the check has not been run to PASS. / Slide 4: the Day-Date photo is not registered in assets/manifest.json with rights 'licensed'. / Slide 3: the photo credit sits on a busy part of the image. / Slides 2 and 5 repeat the same idea. / Slide 4: register the Day-Date photo in manifest.json as 'licensed'. Replace it"
+  ],
+  "verdict": {
+    "decision": "reject",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 2,
+      "hook": 3,
+      "visual": 2,
+      "clarity": 4,
+      "taste": 2
+    },
+    "hard_gate_failures": [
+      "Gate 10: no clear reason to save, share or comment. The story is an old anecdote (Time+Tide, 2020) about a watch nobody can identify.",
+      "Gate 7 and visual rule: a watch post with no watch on any slide. Slides 1 and 2 show the same Fury portrait, and slides 3 and 4 are text only with no photo.",
+      "Gate 6: the text blocks on slides 3 and 4 sit low, not centred.",
+      "Design notes: celebrity posts need the watch as well as the celebrity, and photos should run through the story."
+    ],
+    "fixes": [
+      "Drop this idea. Pick a celebrity whose watch is named by the brand, the celebrity or a trusted watch outlet. Show them in a free photo with a cut-out medallion of that exact watch, plus a dated US retail price."
+    ],
+    "reason": "The check passes and the facts are sourced, but the post is about an unknown Rolex from an old story, with no watch shown and little to save or share. Choose a celebrity with a confirmed watch instead."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-20-2005-tyson-fury-bet-his-rolex-on-a-sparring-s",
+  "gave_up": true
+}
