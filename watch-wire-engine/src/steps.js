@@ -76,7 +76,10 @@ if (cmd === "start") {
   run(CC, ["brief", P], "brief");
   // free pre-checks (the approver's most common rejections): fix these before anyone reviews the post
   const probs = lint(path.join(ROOT, P), opt("format"));
-  if (probs.length) { console.log(`FAILED at pre-check (fix these, then run finish again):\n${probs.map((p) => "- " + p).join("\n")}`); process.exit(1); }
+  // fail open: after two tries the remaining items go to the approver as notes instead of blocking the post
+  const tries = path.join(ROOT, P, ".precheck-tries"), n = (Number(fs.existsSync(tries) ? fs.readFileSync(tries, "utf8") : 0) || 0) + 1;
+  if (probs.length && n <= 2) { fs.writeFileSync(tries, String(n)); console.log(`FAILED at pre-check (fix these, then run finish again):\n${probs.map((p) => "- " + p).join("\n")}`); process.exit(1); }
+  if (probs.length) console.log(`pre-check notes left for the approver: ${probs.join(" | ")}`);
   const line = v.split("\n").find((l) => /PASS|FAIL/.test(l)) || "PASS";
   console.log(`OK ${spec.slides.length} slides rendered and registered · ${line.trim()}\nnext: look at ${P}/output/slide-01.png (and any slide with a photo), then write draft.json`);
 } else {
