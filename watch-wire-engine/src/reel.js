@@ -1,7 +1,10 @@
 // Trial Reels from finished carousels (Instagram's official "trial reels": shown to non-followers first,
 // not on the profile grid). Off unless config/schedule.json has "trial_reels": {"enabled": true}.
 //   node src/reel.js <queue/posted/x.json> --dry   → only builds the mp4 (for a look), posts nothing
-// Video: each slide ~2.8 s on a 1080x1920 frame (slide centred on a blurred copy of itself), silent track.
+// Video: each slide ~2.8 s on a 1080x1920 frame (slide centred on a blurred copy of itself).
+// Music: a track from assets/music/tracks.json (licensed for reuse, e.g. CC BY), faded in and out; its credit
+// line goes in the Reel caption. With no tracks listed the Reel is silent. (The Instagram API can't add
+// Instagram's own music library, so the music is mixed into the video file before upload.)
 // Upload goes straight to Instagram (resumable upload), so no public hosting is needed.
 import fs from "node:fs";
 import path from "node:path";
@@ -13,6 +16,15 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const WORKSPACE = path.resolve(ROOT, "..");
 const host = () => process.env.GRAPH_HOST || "graph.facebook.com", ver = () => process.env.GRAPH_VERSION || "v21.0";
 
+const MUSIC = path.join(ROOT, "assets/music");
+// the same post always gets the same track; different posts rotate through the list
+export function pickTrack(item) {
+  let list = []; try { list = JSON.parse(fs.readFileSync(path.join(MUSIC, "tracks.json"), "utf8")).filter((t) => fs.existsSync(path.join(MUSIC, t.file))); } catch {}
+  if (!list.length) return null;
+  const h = [...String(item.id)].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
+  return list[h % list.length];
+}
+
 export function buildReel(item, secsPerSlide = 2.8) {
   const out = path.join(path.resolve(WORKSPACE, item.post_dir || item.project_dir), "output");
   const slides = fs.readdirSync(out).filter((f) => /^slide-\d+\.png$/.test(f)).sort().map((f) => path.join(out, f));
@@ -22,10 +34,13 @@ export function buildReel(item, secsPerSlide = 2.8) {
   const per = slides.map((_, i) => `[${i}:v]split[a${i}][b${i}];[a${i}]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3,eq=brightness=-0.25[bg${i}];` +
     `[b${i}]scale=1080:-2[fg${i}];[bg${i}][fg${i}]overlay=(W-w)/2:(H-h)/2,setsar=1,fps=30,format=yuv420p[v${i}]`).join(";");
   const filter = `${per};${slides.map((_, i) => `[v${i}]`).join("")}concat=n=${slides.length}:v=1:a=0[v]`;
-  const r = spawnSync("ffmpeg", ["-y", "-loglevel", "error", ...inputs, "-f", "lavfi", "-t", String(secsPerSlide * slides.length), "-i", "anullsrc=r=44100:cl=stereo",
-    "-filter_complex", filter, "-map", "[v]", "-map", `${slides.length}:a`, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-c:a", "aac", "-shortest", "-movflags", "+faststart", mp4], { encoding: "utf8" });
+  const T = secsPerSlide * slides.length, track = pickTrack(item);
+  const audioIn = track ? ["-stream_loop", "-1", "-i", path.join(MUSIC, track.file)] : ["-f", "lavfi", "-t", String(T), "-i", "anullsrc=r=44100:cl=stereo"];
+  const audioF = track ? `;[${slides.length}:a]atrim=0:${T},asetpts=N/SR/TB,afade=t=in:d=0.8,afade=t=out:st=${(T - 1.8).toFixed(1)}:d=1.8,volume=${track.volume || 0.7}[aud]` : "";
+  const r = spawnSync("ffmpeg", ["-y", "-loglevel", "error", ...inputs, ...audioIn,
+    "-filter_complex", filter + audioF, "-map", "[v]", "-map", track ? "[aud]" : `${slides.length}:a`, "-t", String(T), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-c:a", "aac", "-shortest", "-movflags", "+faststart", mp4], { encoding: "utf8" });
   if (r.status !== 0) throw new Error(`ffmpeg failed: ${(r.stderr || "").slice(-300)}`);
-  return mp4;
+  return { mp4, track };
 }
 
 async function api(p, params) {
@@ -36,8 +51,9 @@ async function api(p, params) {
 // caption: the carousel's caption with a pointer to the full post
 export async function publishTrialReel(item) {
   loadEnv();
-  const mp4 = buildReel(item);
-  const cap = JSON.parse(fs.readFileSync(path.join(path.resolve(WORKSPACE, item.post_dir || item.project_dir), "caption.json"), "utf8")).text;
+  const { mp4, track } = buildReel(item);
+  let cap = JSON.parse(fs.readFileSync(path.join(path.resolve(WORKSPACE, item.post_dir || item.project_dir), "caption.json"), "utf8")).text;
+  if (track?.credit) cap = cap.includes("Follow @watchwireco") ? cap.replace(/\n*Follow @watchwireco/, `\n\nMusic: ${track.credit}\n\nFollow @watchwireco`) : `${cap}\n\nMusic: ${track.credit}`;
   const c = await api(`${process.env.IG_USER_ID}/media`, { media_type: "REELS", upload_type: "resumable", caption: cap,
     trial_params: JSON.stringify({ graduation_strategy: "MANUAL" }) });
   const bytes = fs.readFileSync(mp4);
@@ -51,12 +67,12 @@ export async function publishTrialReel(item) {
     await new Promise((r) => setTimeout(r, 5000));
   }
   const pub = await api(`${process.env.IG_USER_ID}/media_publish`, { creation_id: c.id });
-  return { media_id: pub.id, trial: true };
+  return { media_id: pub.id, trial: true, music: track?.title || null };
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const [file, flag] = process.argv.slice(2);
   const item = JSON.parse(fs.readFileSync(file, "utf8"));
-  if (flag === "--dry") console.log("built", buildReel(item));
+  if (flag === "--dry") { const b = buildReel(item); console.log("built", b.mp4, "music:", b.track?.title || "none"); }
   else console.log("posting needs the engine with trial_reels.enabled; use --dry to just build the video");
 }
