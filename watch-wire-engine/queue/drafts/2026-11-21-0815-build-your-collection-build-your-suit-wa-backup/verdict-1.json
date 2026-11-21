@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: slide 2 has grey panels behind both watch photos, which the owner rules forbid and the lessons say the validator won't catch.",
+    "Gate 6: slide 2 is unbalanced. The left label is one line and the right label is two lines, so the prices sit at different heights.",
+    "Gate 7: the Cartier image source URL is for CRWSTA0052, but the post names WSTA0106. The reference match is unconfirmed."
+  ],
+  "fixes": [
+    "slide 2: Remove the grey panels so both watches sit on the plain black background.",
+    "slide 2: Show the Cartier label as 'TANK MUST' only, or shorten both labels, so both columns have the same line count and the prices line up.",
+    "slide 2: Move the 'US retail, 21 Nov 2026' note and the footer so they don't crowd each other.",
+    "Cartier: Use an image and source page that match WSTA0106. Otherwise rename the watch to the reference the page shows, and update the slides, caption and claim.",
+    "slide 1: Scale the Cartier watch to match the Grand Seiko's size and height.",
+    "slide 3: Change the footer to 'Source: Watches of Switzerland' only. Cartier isn't the source for this watch."
+  ],
+  "reason": "The validator passes, but slide 2 still has grey boxes behind the watches and is unbalanced. The Cartier reference also doesn't match its source page, so this needs a fix before it can go out."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2026-11-21-0815-build-your-collection-build-your-suit-wa-backup",
+  "lane": "rotation",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-21T07:37:05.966Z",
+  "post_at": "2026-11-21T13:15:00.000Z",
+  "backup_for": "2026-11-21-0815-build-your-collection-build-your-suit-wa",
+  "format": "WOULD YOU RATHER",
+  "title": "Backup WOULD YOU RATHER for the slot of: BUILD YOUR COLLECTION: Build Your Suit Watch Set, three picks under $6,000",
+  "hook": "",
+  "why": "Backup post. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
+  "sources": [],
+  "previous_attempts": [
+    "The draft stopped itself and still uses a Rolex that posted this week. The prices also don't match closely enough for a 'same money' choice, so it needs a new pair before it can go out. / Gate 9: Rolex 126610LN already ran in the 20 Nov collection and GTA6 posts, within the last 7 days. / Gate 2/10: the pair is not within about 10% on the same date, because the Navitimer is $10,700 and the Rolex is $11,350 on 20 Nov, and the draft itself says the pair needs a change. / Draft status is 'stopped', with the replacement unfinished and the slides left unchanged. / slide 1 and slide 3: replace the R",
+    "Slide 2 still has grey boxes behind both watches, which the owner's design rules don't allow. The validator passes, but the engine stopped the draft itself. It needs clean photos or a different pair. / Gate 6 / owner design rules: slide 2 still has grey boxes behind both watch photos. The draft status is 'stopped' because the engine could not fix them. / slide 2: Replace both watch photos with cut-outs on a true transparent or black background so no grey panels show. If no clean Omega photos exist, swap in a different pair priced within 10% on the same date. Update the caption and every slide "
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 2,
+      "hook": 4,
+      "visual": 2,
+      "clarity": 4,
+      "taste": 2
+    },
+    "hard_gate_failures": [
+      "Gate 6/owner rule: visible grey and black boxes behind the watches on slides 1 and 2 (stray shapes)",
+      "Gate 6: the watches are not scaled to the same size across slides; the Cartier on slide 1 is much taller and sits in a black box",
+      "Slide 2 footer and credit text are cramped at the bottom right"
+    ],
+    "fixes": [
+      "slide 1: use a Cartier photo with a transparent or true-black background, or cut it out, so no black rectangle shows against the #0f0f0f background; scale both watches to the same height",
+      "slide 2: remove the grey panel behind the Grand Seiko and the black panel behind the Cartier, using cutouts on the plain template background; scale both watches to the same height",
+      "slide 2: shorten the footer line 'US retail, 21 Nov 2026 · Image: Cartier' so it sits clear of the page number, and credit both Grand Seiko and Cartier",
+      "slide 3: the Grand Seiko is smaller than on slide 1, so match the watch size across slides"
+    ],
+    "reason": "The Grand Seiko and Cartier pair is fairly priced at about $4.5K, but slides 1 and 2 have visible boxes behind the watches and the watch sizes don't match. Those are owner design-rule breaks, so the post needs fixing before it can go out."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-21-0815-build-your-collection-build-your-suit-wa-backup",
+  "gave_up": true
+}

@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Gate 6/owner rule: visible grey and black boxes behind the watches on slides 1 and 2 (stray shapes)",
+    "Gate 6: the watches are not scaled to the same size across slides; the Cartier on slide 1 is much taller and sits in a black box",
+    "Slide 2 footer and credit text are cramped at the bottom right"
+  ],
+  "fixes": [
+    "slide 1: use a Cartier photo with a transparent or true-black background, or cut it out, so no black rectangle shows against the #0f0f0f background; scale both watches to the same height",
+    "slide 2: remove the grey panel behind the Grand Seiko and the black panel behind the Cartier, using cutouts on the plain template background; scale both watches to the same height",
+    "slide 2: shorten the footer line 'US retail, 21 Nov 2026 · Image: Cartier' so it sits clear of the page number, and credit both Grand Seiko and Cartier",
+    "slide 3: the Grand Seiko is smaller than on slide 1, so match the watch size across slides"
+  ],
+  "reason": "The Grand Seiko and Cartier pair is fairly priced at about $4.5K, but slides 1 and 2 have visible boxes behind the watches and the watch sizes don't match. Those are owner design-rule breaks, so the post needs fixing before it can go out."
+}

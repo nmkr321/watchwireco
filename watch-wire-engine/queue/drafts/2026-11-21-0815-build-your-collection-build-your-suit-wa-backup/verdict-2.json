@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 7: the Cartier photo comes from CRWSTA0052, but the slides name the Tank Must WSTA0106, so the watch on the slide is not confirmed as the reference named.",
+    "Gate 6 and owner rule: slide 2 shows grey panels behind both watches.",
+    "Gate 6: slide 1 shows the Cartier watch noticeably smaller than the Grand Seiko, so the two watches are not scaled to the same size.",
+    "Draft status is 'stopped' with an owner decision needed, and the engine says its own fixes are incomplete.",
+    "Slide 1: the $4.5K headline sits between $4,600 and $4,400, so it is not a same-date match on the exact prices. This is acceptable only if both prices are verified."
+  ],
+  "fixes": [
+    "slide 2: Replace the Cartier photo with one that shows the exact reference named. It should have a transparent or plain black background. Remove the grey panels behind both watches.",
+    "slide 1: Scale both watches to the same height and size after the Cartier photo is swapped.",
+    "slides 2-3: Make sure the label, price, photo and footer all name the same Cartier reference. Name the model only if the photo cannot be matched to WSTA0106.",
+    "caption: Update it to match the final references and credits, and keep the Wikimedia or brand credits."
+  ],
+  "reason": "The draft stopped with unresolved problems: the Cartier photo is for a different reference than the one named, slide 2 has grey panels behind the watches, and the two watches are different sizes on the cover. Replace the Cartier image and re-render before it can be approved."
+}
