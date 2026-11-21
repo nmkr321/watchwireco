@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-21-1700-would-you-rather-first-watch-hamilton-retry",
+  "lane": "evergreen",
+  "status": "idea",
+  "found_at": "2026-11-21T11:25:05.894Z",
+  "post_at": "2026-11-21T22:00:00.000Z",
+  "backup_for": "2026-11-21-1700-would-you-rather-a-first-watch-under-1-0",
+  "format": "WOULD YOU RATHER",
+  "title": "First watch under $500: Hamilton Khaki Field black NATO ($445) or navy bracelet ($495)?",
+  "hook": "Your first real watch: strap or bracelet?",
+  "why": "Retry for an empty slot. The earlier version passed facts and prices but failed only on layout (grey boxes, lopsided names), which the template now fixes. Keep model names short (like Black Dial, NATO). Library prices and Hamilton photos, 21 Nov 2026.",
+  "sources": []
+}
