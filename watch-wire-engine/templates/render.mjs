@@ -25,6 +25,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
+import os from "node:os";
+import { createHash } from "node:crypto";
+import { cutout } from "../src/cutout.mjs";
 
 const CHROME = process.env.CHROME || (process.platform === "darwin" ? "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" : "google-chrome");
 const [specFile, outDir] = process.argv.slice(2);
@@ -42,6 +45,23 @@ const img = (p) => {
   const f = [path.resolve(path.dirname(specFile), p), path.resolve(p)].find((x) => fs.existsSync(x));
   if (!f) { console.error(`photo not found: ${p} (fetch it with watch-wire-engine/src/photo.js)`); process.exit(1); }
   return "file://" + f;
+};
+// watch product photos: plain light studio backgrounds are removed (src/cutout.mjs), so the watch sits on our
+// black slide instead of in a light box. Cached by file content; any failure falls back to the original photo.
+const cutCache = path.join(os.tmpdir(), "ww-cutouts");
+const wimg = (p) => {
+  const u = img(p);
+  if (!u.startsWith("file://") || process.env.WW_NO_CUTOUT) return u;
+  try {
+    const f = u.slice(7), key = createHash("sha1").update(fs.readFileSync(f)).digest("hex").slice(0, 16);
+    const out = path.join(cutCache, key + ".png"), kept = out + ".kept";
+    if (fs.existsSync(out)) return "file://" + out;
+    if (fs.existsSync(kept)) return u;
+    fs.mkdirSync(cutCache, { recursive: true });
+    const r = cutout(f, out);
+    if (r === "cut") return "file://" + out;
+    fs.writeFileSync(kept, ""); return u;
+  } catch { return u; }
 };
 
 const CSS = `
@@ -92,7 +112,7 @@ tr.on td:last-child{color:var(--ch)}
 .spot{position:absolute;inset:0 0 auto 0;height:860px;background:#141312 center 22%/cover no-repeat}.spot::before{content:"";position:absolute;inset:0 0 auto 0;height:240px;background:linear-gradient(rgba(11,11,12,.85),transparent)}.spot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:380px;background:linear-gradient(transparent,var(--jet))}
 .inset{position:absolute;right:48px;top:470px;width:340px;height:340px;border-radius:8px;background:#F4EFE6 center/82% no-repeat;background-blend-mode:multiply;box-shadow:0 18px 50px rgba(0,0,0,.55);border:3px solid var(--ch);z-index:2}
 .spotbox{position:absolute;left:48px;right:48px;bottom:150px;z-index:2}
-.hero{position:absolute;left:0;right:0;top:130px;height:770px;background:#F4EFE6 center/contain no-repeat;background-blend-mode:multiply;background-origin:content-box;padding:50px 90px 90px}.hero.cover{background-blend-mode:normal;top:0;height:900px;padding:0;background-color:#141312;background-size:cover;background-position:center 30%}
+.hero{position:absolute;left:0;right:0;top:130px;height:770px;background:radial-gradient(closest-side,rgba(200,169,106,.10),transparent) center/contain no-repeat;background-blend-mode:normal;background-origin:content-box;padding:50px 90px 90px}.hero.cover{background-blend-mode:normal;top:0;height:900px;padding:0;background-color:#141312;background-size:cover;background-position:center 30%}
 .hero.cover::before{content:"";position:absolute;inset:0 0 auto 0;height:200px;background:linear-gradient(rgba(11,11,12,.85),transparent)}.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:160px;background:linear-gradient(transparent,var(--jet))}
 .heroband{position:absolute;left:48px;right:48px;top:870px;bottom:120px;display:flex;flex-direction:column;justify-content:center;text-align:center;z-index:2}.heroband .h{margin-top:12px}.heroband .body{margin-top:18px;font-size:30px}
 .p3{position:absolute;left:36px;right:36px;top:380px;display:flex;gap:24px}.p3 .o{flex:1;text-align:center}
@@ -122,7 +142,7 @@ function render(s, i) {
   let credit = s.credit ? `<div class="credit">${esc(s.credit)}</div>` : "";
   switch (s.t) {
     case "A-cover": if (s.photo && s.credit) credit = `<div class="credit pcredit">${esc(s.credit)}</div>`;
-      return `${s.photo2 ? `<div class="photo pair"><div class="ph" style="background-image:url('${img(s.photo)}')"></div><div class="vs">or</div><div class="ph" style="background-image:url('${img(s.photo2)}')"></div></div><div class="fade"></div>`
+      return `${s.photo2 ? `<div class="photo pair"><div class="ph" style="background-image:url('${wimg(s.photo)}')"></div><div class="vs">or</div><div class="ph" style="background-image:url('${wimg(s.photo2)}')"></div></div><div class="fade"></div>`
         : s.photo ? `<div class="photo" style="background-image:url('${img(s.photo)}')"></div><div class="fade"></div>` : ""}${WM}
       <div class="cov${s.photo ? "" : " mid"}"><span class="tag">${esc(s.tag)}</span><h1>${hl(s.line1)}</h1>${s.line2 ? `<h2>${hl(s.line2)}</h2>` : ""}${s.meta ? `<div class="meta">${esc(s.meta)}</div>` : ""}</div>${credit}${foot(s.footLeft || "Swipe →")}`;
     case "A-number": return `${WM}<div class="q">${s.tag ? `<span class="tag">${esc(s.tag)}</span>` : ""}</div><div class="num">${hl(s.number)}</div>
@@ -133,10 +153,10 @@ function render(s, i) {
     case "A-list": return `${WM}<div class="box mid"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>
       <ul class="list">${s.items.map((x) => `<li>${hl(x)}</li>`).join("")}</ul>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${foot()}`;
     case "A-text": return `${WM}<div class="box mid"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div><p class="body">${hl(s.body)}</p></div>${foot()}`;
-    case "A-wyr": { const side = (x) => `<div class="w"><div class="pic" style="background-image:url('${img(x.photo)}')"></div><p>${esc(x.brand)}<span>${esc(x.model)}</span>${x.price ? `<em>${esc(x.price)}</em>` : ""}</p></div>`;
+    case "A-wyr": { const side = (x) => `<div class="w"><div class="pic" style="background-image:url('${wimg(x.photo)}')"></div><p>${esc(x.brand)}<span>${esc(x.model)}</span>${x.price ? `<em>${esc(x.price)}</em>` : ""}</p></div>`;
       return `${WM}<div class="q"><span class="tag">${esc(s.tag || "WOULD YOU RATHER")}</span></div><div class="duo">${side(s.left)}<div class="or">or</div>${side(s.right)}</div>${credit}${foot(s.prompt || "Vote in the comments")}`; }
     case "A-pick3": return `${WM}<div class="box" style="top:150px;text-align:center"><div class="lbl">${esc(s.label)}</div><div class="h" style="font-size:72px">${hl(s.headline)}</div></div>
-      <div class="p3">${(s.options || []).slice(0, 3).map((o, k) => `<div class="o"><div class="pic" style="background-image:url('${img(o.photo)}')"><span class="let">${"ABC"[k]}</span></div><div class="b">${esc(o.brand)}</div><div class="m">${esc(o.model)}</div><div class="pr">${esc(o.price)}</div></div>`).join("")}</div>${credit}${foot(s.footLeft || "Pick one · comment below")}`;
+      <div class="p3">${(s.options || []).slice(0, 3).map((o, k) => `<div class="o"><div class="pic" style="background-image:url('${wimg(o.photo)}')"><span class="let">${"ABC"[k]}</span></div><div class="b">${esc(o.brand)}</div><div class="m">${esc(o.model)}</div><div class="pr">${esc(o.price)}</div></div>`).join("")}</div>${credit}${foot(s.footLeft || "Pick one · comment below")}`;
     case "A-spotted": {
       // game/person shot zoomed toward the wrist, the real watch cut out in a gold medallion, a gold arrow to the wrist
       const w = s.wrist || { x: 50, y: 50 }, z = s.zoom || 1.12;
@@ -179,7 +199,7 @@ function render(s, i) {
         [g,cut].forEach(i=>{ if(i.complete) go(); else i.onload=go; });
       })();
       </script>`; }
-    case "A-photo": return `<div class="hero${s.fit === "cover" ? " cover" : ""}" style="background-image:url('${img(s.photo)}')"></div>${WM}<div class="heroband"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${s.credit ? `<div class="credit pcredit">${esc(s.credit)}</div>` : ""}${foot()}`;
+    case "A-photo": return `<div class="hero${s.fit === "cover" ? " cover" : ""}" style="background-image:url('${s.fit === "cover" ? img(s.photo) : wimg(s.photo)}')"></div>${WM}<div class="heroband"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${s.credit ? `<div class="credit pcredit">${esc(s.credit)}</div>` : ""}${foot()}`;
     case "A-photo-old": return `${WM}<div class="box"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div><div class="single" style="background-image:url('${img(s.photo)}')"></div>${s.body ? `<p class="body" style="margin-top:28px">${hl(s.body)}</p>` : ""}</div>${credit}${foot()}`;
     case "D-cover": return `${s.photo ? `<div class="bg" style="background-image:url('${img(s.photo)}')"></div><div class="ov"></div>` : ""}<div class="mono">WW</div>${s.tag ? `<div class="dtag"><span class="tag">${esc(s.tag)}</span></div>` : ""}
       <h1 class="dh">${hl(s.headline)}</h1><div class="arr">→</div><div class="wmd">THE WATCH WIRE</div>${s.credit ? `<div class="credit pcredit" style="top:150px">${esc(s.credit)}</div>` : ""}`;
