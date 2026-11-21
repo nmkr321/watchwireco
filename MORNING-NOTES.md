@@ -71,3 +71,8 @@ Fixed: browser closed; I won't script Instagram pages again (research now only t
 - **Batch API discount:** needs a separate paid API key, and saves only cents.
 - **Auto source-link comment:** links in comments can't be clicked, and it's an extra public action.
 - **`--bare` CLI flag:** it would ignore the Claude login your cloud runs use, which could stop every run.
+
+## James Bond posts + news-scan fix (21 Nov, evening)
+- **Research:** Amazon MGM named Robert Pattinson the seventh James Bond on 16 Nov 2026 (Denis Villeneuve directing, Steven Knight writing, no title or release date yet). Pattinson has been a Jaeger-LeCoultre ambassador since Sept 2026, and Omega has made Bond's watch since 1995. His on-screen watch is not confirmed (Fratello, WatchPro). Omega's 2026 Bond watches: 007 First Light chronograph ($9,400), James Bond and Spectre editions ($8,600 each, 5 Oct).
+- **Posts queued for today** (`manual: true`, cloud maker started): Pattinson CELEBRITY at 5:00pm NY (22:00Z), "Omega or JLC?" WOULD YOU RATHER at 6:15pm (23:15Z), and Omega's 2026 Bond watches NEWS at 10:00pm (03:00Z). Commit 3f14244.
+- **Why the scan missed it:** no search covered Bond, Variety/Deadline/Hollywood Reporter weren't trusted sources, and headlines without a watch word were thrown out. **Fix:** 4 new searches (James Bond, 007 Omega, celebrity watch, red carpet watch), entertainment outlets trusted only for Bond/007 headlines, and a one-line hint to triage. Tested without posting: the Bond story now comes out on top. Commit 3dc496d.
