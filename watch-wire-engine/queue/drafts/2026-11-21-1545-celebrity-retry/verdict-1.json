@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 2: I could not confirm the headline fact. The Hypebeast page returned blank content and the AOL link returned 404, so I could not check the Oscars sighting, the ref. 52506 or the ice-blue dial.",
+    "Gate 6: Layout flaws on slides 2 and 3."
+  ],
+  "fixes": [
+    "Slide 1 and caption: Re-open Hypebeast and AOL. Replace the AOL link with a working one, or drop AOL and credit Hypebeast alone, which is enough for a celebrity post. Log a quote in research.json that names the watch.",
+    "Slide 3: Add space between $33,600 and the 'US LIST · BEN BRIDGE' line, because the line touches the number. Centre the block vertically, since the bottom third is empty.",
+    "Slide 2: Enlarge the watch photo, since it is small with a lot of empty black space. Move the title and body closer to it so the block looks balanced.",
+    "Slide 2 and caption: Either source 'a dress watch, not a sports piece' to an outlet or Rolex, or remove it. Keep it on slide 4 only if it is labelled as our take.",
+    "Slide 1 and caption: The Oscars date is unconfirmed, so keep it as 'March 2026' or state the exact date only if the source gives it."
+  ],
+  "reason": "The check passes and the sourcing structure is fine. But I couldn't verify the main source (Hypebeast blank, AOL 404), and slides 2 and 3 have spacing problems that need fixing before approval."
+}

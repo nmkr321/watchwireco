@@ -313,3 +313,18 @@
 2026-11-21T14:17:27.506Z	learn 2026-11-21-2100-celebrity-one-outlet-backup	claude-haiku-5-5	0.0018	2
 2026-11-21T14:19:02.962Z	editor 2026-11-21-2100-celebrity-one-outlet-backup	claude-haiku-5-5	0.0344	28
 2026-11-21T14:19:18.483Z	approver 2026-11-21-2100-celebrity-one-outlet-backup r1	claude-sonnet-5-5	0.1024	12
+2026-11-21T14:23:50.646Z	editor 2026-11-21-1545-celebrity-retry	claude-haiku-5-5	0.0655	34
+2026-11-21T14:24:11.784Z	approver 2026-11-21-1545-celebrity-retry r1	claude-sonnet-5-5	0.0885	12
+2026-11-21T14:24:17.158Z	learn 2026-11-21-1545-celebrity-retry	claude-haiku-5-5	0.0021	2
+2026-11-21T14:24:50.467Z	editor-revise 2026-11-21-1545-celebrity-retry	claude-haiku-5-5	0.0069	8
+2026-11-21T14:25:03.272Z	approver 2026-11-21-1545-celebrity-retry r2	claude-sonnet-5-5	0.0413	8
+2026-11-21T14:25:33.344Z	editor-revise 2026-11-21-1545-celebrity-retry	claude-haiku-5-5	0.0069	7
+2026-11-21T14:25:43.507Z	approver 2026-11-21-1545-celebrity-retry r3	claude-sonnet-5-5	0.0260	7
+2026-11-21T14:25:49.259Z	learn 2026-11-21-1545-celebrity-retry	claude-haiku-5-5	0.0022	2
+2026-11-21T14:27:15.490Z	editor 2026-11-21-1545-celebrity-retry	claude-haiku-5-5	0.0487	27
+2026-11-21T14:27:21.971Z	learn 2026-11-21-1545-celebrity-retry	claude-haiku-5-5	0.0021	2
+2026-11-21T14:29:33.288Z	editor 2026-11-21-1545-celebrity-retry	claude-haiku-5-5	0.1006	30
+2026-11-21T14:29:57.694Z	approver 2026-11-21-1545-celebrity-retry r1	claude-sonnet-5-5	0.0945	15
+2026-11-21T14:30:03.330Z	learn 2026-11-21-1545-celebrity-retry	claude-haiku-5-5	0.0021	2
+2026-11-21T14:31:03.810Z	editor-revise 2026-11-21-1545-celebrity-retry	claude-haiku-5-5	0.0275	16
+2026-11-21T14:31:31.693Z	approver 2026-11-21-1545-celebrity-retry r2	claude-sonnet-5-5	0.0969	13

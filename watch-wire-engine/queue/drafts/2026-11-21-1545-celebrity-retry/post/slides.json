@@ -1,0 +1,42 @@
+{
+ "source": "Hypebeast, Watches of Switzerland, Ben Bridge",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "CELEBRITY",
+   "line1": "Leonardo DiCaprio's",
+   "line2": "Rolex 1908 Platinum",
+   "meta": "Spotted wearing it at the 2026 Oscars · Ref. 52506",
+   "photo": "watch-wire-engine/library/img/person-leonardo-dicaprio.jpg",
+   "credit": "Photo: Raph_PH / CC BY 4.0 via Wikimedia Commons",
+   "footLeft": "Source: Hypebeast · March 2026"
+  },
+  {
+   "t": "A-photo",
+   "label": "THE WATCH · REF. 52506",
+   "headline": "Rolex 1908, platinum",
+   "photo": "Content Creation/projects/2026-11-21-1545-celebrity-retry/assets/media/rolex-52506-trim.png",
+   "credit": "Image: Rolex",
+   "body": "39mm platinum case, ice-blue rice-grain dial."
+  },
+  {
+   "t": "A-text",
+   "label": "US LIST · BEN BRIDGE · CHECKED 21 NOV 2026",
+   "headline": "[[$33,600]] retail, not resale",
+   "body": "Pre-owned prices may differ. Resale not checked for this post.",
+   "source": "Ben Bridge"
+  },
+  {
+   "t": "A-text",
+   "label": "OUR TAKE",
+   "headline": "Black-tie watch, quiet dial",
+   "body": "Ice-blue dial and platinum case suit an Oscars tux better than a sports Rolex."
+  },
+  {
+   "t": "cta",
+   "line1": "Black tie: yes or no?",
+   "line2": "Follow @watchwireco",
+   "body": "Daily watch news, sourced and checked."
+  }
+ ]
+}

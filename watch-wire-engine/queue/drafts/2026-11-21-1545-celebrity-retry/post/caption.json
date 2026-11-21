@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Leonardo DiCaprio's Rolex 1908 Platinum, ref. 52506: spotted wearing it at the 2026 Oscars.\n\nPlatinum case, 39mm, ice-blue rice-grain dial. Ben Bridge lists it at $33,600 US (checked 21 Nov 2026); resale not checked.\n\nWould you wear this to black tie?\n\nSource: spotted by Hypebeast (March 2026); specs from Watches of Switzerland; price from Ben Bridge.\nPhoto: Raph_PH / CC BY 4.0 via Wikimedia Commons.\n\n#Rolex #Rolex1908 #LeonardoDiCaprio #WatchNews #LuxuryWatches\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3"
+  ],
+  "source_ids": [
+    "SRC-HYPE",
+    "SRC-WOS",
+    "SRC-BENBRIDGE"
+  ],
+  "attribution": "Spotted by Hypebeast; specs Watches of Switzerland; price Ben Bridge.",
+  "caption_credit": "Photo: Raph_PH / CC BY 4.0 via Wikimedia Commons",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "No wrist photo; watch shown on its own slide.",
+    "Retail price only."
+  ],
+  "carousel_sha256": "34e4fbff893c593a3a94060befcc57ba25824e2a901ba6cc7b6af6698830296d",
+  "completed_at": "2026-11-21T14:30:52.743Z"
+}
