@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-11-21T19:11:03.072Z",
+ "ran_at": "2026-11-21T19:21:12.886Z",
  "accounts": [
   {
    "handle": "hodinkee",
-   "followers": 1132656,
+   "followers": 1132658,
    "posts": 30,
    "median_eng": 0.143
   },
   {
    "handle": "teddybaldassarre",
-   "followers": 596906,
+   "followers": 596907,
    "posts": 30,
    "median_eng": 0.958
   },
@@ -21,39 +21,39 @@
   },
   {
    "handle": "fratellowatches",
-   "followers": 269586,
+   "followers": 269588,
    "posts": 30,
    "median_eng": 0.216
   },
   {
    "handle": "wristcheck",
-   "followers": 604225,
+   "followers": 604224,
    "posts": 18,
    "median_eng": 0.292
   },
   {
    "handle": "bobswatches",
-   "followers": 317878,
+   "followers": 317880,
    "posts": 30,
    "median_eng": 0.269
   },
   {
    "handle": "crownandcaliber",
-   "followers": 177154,
+   "followers": 177153,
    "posts": 30,
    "median_eng": 0.02
   },
   {
    "handle": "chrono24",
-   "followers": 776335,
+   "followers": 776339,
    "posts": 30,
    "median_eng": 0.219
   },
   {
    "handle": "monochromewatches",
-   "followers": 284240,
+   "followers": 284241,
    "posts": 30,
-   "median_eng": 0.114
+   "median_eng": 0.115
   },
   {
    "handle": "wornandwound",
@@ -74,18 +74,14 @@
    "median_eng": 0.166
   }
  ],
- "failed": [
-  "watchfinderandco (Invalid user id)",
-  "timeandtidewatches (Invalid user id)",
-  "europastar (Invalid user id)"
- ],
+ "failed": [],
  "posts": [
   {
    "handle": "hodinkee",
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
    "lift": 0.4,
-   "likes": 644,
+   "likes": 645,
    "comments": 0,
    "hour": 15,
    "question": false,
@@ -93,6 +89,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The new Breitling B09 and Cosmonaute collections represent an important moment for the Navitimer, bringing man",
+   "text": "The new Breitling B09 and Cosmonaute collections represent an important moment for the Navitimer, bringing manually-wound models previously seen in limited editions into the brand’s modern permanent collection for the first time. In addition to getting a first-hand look at the latest models, guests ",
    "permalink": "https://www.instagram.com/p/Df-dvrhFie_/",
    "timestamp": "2026-11-20T20:00:05+0000"
   },
@@ -101,7 +98,7 @@
    "type": "CAROUSEL",
    "format": "HISTORY",
    "lift": 1.44,
-   "likes": 2089,
+   "likes": 2092,
    "comments": 120,
    "hour": 14,
    "question": false,
@@ -109,6 +106,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "A ferdinandberthoud pièce unique eight years in the making, the Chronomètre FB 1R5-5 Edition 1785 marks the fi",
+   "text": "A ferdinandberthoud pièce unique eight years in the making, the Chronomètre FB 1R5-5 Edition 1785 marks the final watch in a five-piece series. Distinguished by its specially commissioned Black Olive Green dial and bronze case, the watch is the result of a two-year collaboration with collector Chris",
    "permalink": "https://www.instagram.com/p/Df-W5KknS2q/",
    "timestamp": "2026-11-20T19:01:19+0000"
   },
@@ -117,7 +115,7 @@
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
    "lift": 1.23,
-   "likes": 1936,
+   "likes": 1945,
    "comments": 25,
    "hour": 13,
    "question": false,
@@ -125,6 +123,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "bangalorewatchco has introduced the Epoch, a new 39mm dress watch featuring a hand-wound Sellita SW261 movemen",
+   "text": "bangalorewatchco has introduced the Epoch, a new 39mm dress watch featuring a hand-wound Sellita SW261 movement and a hinged “locket-style” case. Available in stainless steel with a champagne dial or rose gold PVD with an anthracite dial, the new model marks the brand’s return to dress watches. For ",
    "permalink": "https://www.instagram.com/p/Df-QCkKCdCm/",
    "timestamp": "2026-11-20T18:01:25+0000"
   },
@@ -133,7 +132,7 @@
    "type": "REEL",
    "format": "WOULD YOU RATHER",
    "lift": 0.79,
-   "likes": 1264,
+   "likes": 1265,
    "comments": 9,
    "hour": 12,
    "question": true,
@@ -141,6 +140,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "Daytona or Submariner? Daytona or F.P. Journe CB? Before sitting down with benclymer for our latest episode of",
+   "text": "Daytona or Submariner? Daytona or F.P. Journe CB? Before sitting down with benclymer for our latest episode of Talking Watches, kevinlove got asked a few quick-fire questions about which watch he’d prefer over another. \n\nTalking Watches with Kevin Love is now live on Hodinkee.com and the Hodinkee Yo",
    "permalink": "https://www.instagram.com/reel/Df-JKbhBoWQ/",
    "timestamp": "2026-11-20T17:02:14+0000"
   },
@@ -149,7 +149,7 @@
    "type": "CAROUSEL",
    "format": "HISTORY",
    "lift": 0.47,
-   "likes": 741,
+   "likes": 742,
    "comments": 8,
    "hour": 11,
    "question": false,
@@ -157,6 +157,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "This week’s Bring A Loupe takes a closer look at a vintage movado “Calatrava” with a salmon dial, a universalg",
+   "text": "This week’s Bring A Loupe takes a closer look at a vintage movado “Calatrava” with a salmon dial, a universalgeneve Polerouter Sub with its original box, and an unworn tudorwatch Submariner ref. 79090 from loupethis’ Time Capsule Collection. For all the details from wescutter, head to the link in ou",
    "permalink": "https://www.instagram.com/p/Df-CSzBkbBm/",
    "timestamp": "2026-11-20T16:01:19+0000"
   },
@@ -173,6 +174,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "patekphilippe is celebrating 25 years of its Geneva museum, marking the milestone with a tribute to founder Ph",
+   "text": "patekphilippe is celebrating 25 years of its Geneva museum, marking the milestone with a tribute to founder Philippe Stern and a retrospective of the Nautilus ahead of its 50th anniversary. thjeffreys offers a look at the museum’s collection, its history, and the anniversary exhibition. Read his sto",
    "permalink": "https://www.instagram.com/p/Df91Cyyljlq/",
    "timestamp": "2026-11-20T14:05:05+0000"
   },
@@ -181,7 +183,7 @@
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
    "lift": 1.3,
-   "likes": 2088,
+   "likes": 2090,
    "comments": 9,
    "hour": 13,
    "question": false,
@@ -189,6 +191,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "iamwatch_official 2026 brought together independent watchmakers and established brands in Singapore, with a nu",
+   "text": "iamwatch_official 2026 brought together independent watchmakers and established brands in Singapore, with a number of new releases making their debut around the fair. markkauzlarich rounds up some of the latest watches from names including remycools, raul_pages_watches, urwerkgeneve, and much more. ",
    "permalink": "https://www.instagram.com/p/Df7rPAgnAF4/",
    "timestamp": "2026-11-19T18:01:22+0000"
   },
@@ -205,6 +208,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Hong Kong auction season is almost here. markkauzlarich shares three trends to watch at phillipswatches and ch",
+   "text": "Hong Kong auction season is almost here. markkauzlarich shares three trends to watch at phillipswatches and christieswatches auctions that will take place end of this week and next, from the enduring appeal of vintage Patek Philippe to the continued rise of independent watchmakers. He also shares si",
    "permalink": "https://www.instagram.com/p/Df7dgO4EVdJ/",
    "timestamp": "2026-11-19T16:01:22+0000"
   },
@@ -212,7 +216,7 @@
    "handle": "hodinkee",
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
-   "lift": 0.98,
+   "lift": 0.97,
    "likes": 1557,
    "comments": 9,
    "hour": 9,
@@ -221,6 +225,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Oris introduces a Doraemon Limited Edition of its Big Crown Pointer Date, celebrating the beloved Japanese man",
+   "text": "Oris introduces a Doraemon Limited Edition of its Big Crown Pointer Date, celebrating the beloved Japanese manga and anime character. The 40mm stainless steel watch features a light blue vertically brushed dial, yellow pointer date hand, and Doraemon artwork on the caseback. For all the details from",
    "permalink": "https://www.instagram.com/p/Df7PyutkSSn/",
    "timestamp": "2026-11-19T14:01:35+0000"
   },
@@ -229,7 +234,7 @@
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
    "lift": 1,
-   "likes": 1565,
+   "likes": 1566,
    "comments": 25,
    "hour": 7,
    "question": false,
@@ -237,6 +242,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "To mark 25 years of his brand, rogerwsmithltd has unveiled the Series 7, an annual calendar tourbillon with th",
+   "text": "To mark 25 years of his brand, rogerwsmithltd has unveiled the Series 7, an annual calendar tourbillon with the co-axial escapement and more references to his mentor George Daniels than any watch he’s made before. It’s a series of firsts for Smith—his first “smart” calendar, adjusting for all months",
    "permalink": "https://www.instagram.com/p/Df7H1mGFhbx/",
    "timestamp": "2026-11-19T12:51:35+0000"
   },
@@ -253,6 +259,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The merciparis Super collection introduces four new watches inspired by the architectural and industrial desig",
+   "text": "The merciparis Super collection introduces four new watches inspired by the architectural and industrial design of the 1970s. Each features a 36mm stainless steel case, an automatic Miyota 9039 movement, and a dial referencing a different architectural landmark. For all the details from tantantalum,",
    "permalink": "https://www.instagram.com/p/Df5h5U0H0nB/",
    "timestamp": "2026-11-18T22:01:23+0000"
   },
@@ -269,6 +276,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "horologically_unique brings back Robert Cart’s historic “Chronoscope” jump-hour display with the new HU-02, fe",
+   "text": "horologically_unique brings back Robert Cart’s historic “Chronoscope” jump-hour display with the new HU-02, featuring a rotating minutes dial and jumping hour aperture housed in a 38mm Disco Volante case. Available in Naval brass or stainless steel, the HU-02 pairs a vintage-inspired design with an ",
    "permalink": "https://www.instagram.com/p/Df5UKFxCeNJ/",
    "timestamp": "2026-11-18T20:01:09+0000"
   },
@@ -285,6 +293,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "hublot revisits denim with four new additions to its Big Bang and Spirit of Big Bang collections, extending th",
+   "text": "hublot revisits denim with four new additions to its Big Bang and Spirit of Big Bang collections, extending the material beyond the dial with hand-finished cases that mimic the texture of woven denim. Offered in titanium and stainless steel, the lineup spans 32mm to 43mm, including two diamond-set m",
    "permalink": "https://www.instagram.com/p/Df5HMZQEmaH/",
    "timestamp": "2026-11-18T18:07:29+0000"
   },
@@ -301,6 +310,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "panerai takes one of the covers of Volume 17. In her feature, malaikamc explores the brand’s distinctive desig",
+   "text": "panerai takes one of the covers of Volume 17. In her feature, malaikamc explores the brand’s distinctive design language, tracing its roots in Italian industrial design and the enduring relationship between form and function. For the full story, head to the link in our bio. Shot by hawlinservices.",
    "permalink": "https://www.instagram.com/p/Df45ofyEVgb/",
    "timestamp": "2026-11-18T16:09:22+0000"
   },
@@ -308,7 +318,7 @@
    "handle": "hodinkee",
    "type": "REEL",
    "format": "CELEBRITY",
-   "lift": 1.09,
+   "lift": 1.08,
    "likes": 1659,
    "comments": 47,
    "hour": 9,
@@ -317,6 +327,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "For kevinlove, collecting watches is as much about knowing what to keep as it is about knowing what to buy. Fr",
+   "text": "For kevinlove, collecting watches is as much about knowing what to keep as it is about knowing what to buy. From marking the Cleveland Cavaliers’ 2016 NBA championship with a rolex Datejust to finding a pair of vintage GMT-Masters with his wife ahead of their wedding, his collection is filled with w",
    "permalink": "https://www.instagram.com/reel/Df2GF-OB0Rc/",
    "timestamp": "2026-11-17T14:00:07+0000"
   },
@@ -333,6 +344,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "A rolex Datejust commemorating an NBA title, a pair of vintage “Root Beer” GMT-Masters, and an fpjourneofficia",
+   "text": "A rolex Datejust commemorating an NBA title, a pair of vintage “Root Beer” GMT-Masters, and an fpjourneofficial Chronomètre Bleu. benclymer sits down with NBA champion and watch collector kevinlove to explore his collection, including the cartier Tank Normale engraved with his daughter’s name, which",
    "permalink": "https://www.instagram.com/p/Df2GKwoAEgu/",
    "timestamp": "2026-11-17T14:00:01+0000"
   },
@@ -349,6 +361,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "arnoldandson has introduced two new limited editions of its Time Pyramid, featuring 42.5mm cases in red gold o",
+   "text": "arnoldandson has introduced two new limited editions of its Time Pyramid, featuring 42.5mm cases in red gold or platinum, with red or blue agate stone elements. Both models are powered by the manually wound A&S1615 caliber, featuring symmetrical architecture, double barrels, and a 90-hour power rese",
    "permalink": "https://www.instagram.com/p/Df1j0afkYYh/",
    "timestamp": "2026-11-17T09:01:10+0000"
   },
@@ -365,6 +378,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "A slice, a steel Daytona, and New York at full volume.",
+   "text": "A slice, a steel Daytona, and New York at full volume.\n\nbenclymer and NBA champion kevinlove grab pizza in Brooklyn before getting into the watches. The Daytona is what Love calls his “comfort watch.” As for what else he brought, here’s a quick look.\n\nTalking Watches with Kevin Love drops tomorrow, ",
    "permalink": "https://www.instagram.com/reel/DfzhWTtB4D2/",
    "timestamp": "2026-11-16T14:00:06+0000"
   },
@@ -372,7 +386,7 @@
    "handle": "hodinkee",
    "type": "CAROUSEL",
    "format": "CELEBRITY",
-   "lift": 1.48,
+   "lift": 1.47,
    "likes": 2317,
    "comments": 33,
    "hour": 16,
@@ -381,6 +395,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Up next is kevinlove. NBA champion, founder of the Kevin Love Fund, and our next guest on Talking Watches.",
+   "text": "Up next is kevinlove. NBA champion, founder of the Kevin Love Fund, and our next guest on Talking Watches.\n\nbenclymer sits down with Love to find out why he keeps two Vacheron Constantin 222s in rotation and what Roger Federer had to do with the Rolex he bought to celebrate an NBA title. There are m",
    "permalink": "https://www.instagram.com/p/DfsjILikkeR/",
    "timestamp": "2026-11-13T21:01:27+0000"
   },
@@ -397,6 +412,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "On Tuesday night in Geneva, vacheronconstantin and phillipswatches, in association with Bacs & Russo, hosted t",
+   "text": "On Tuesday night in Geneva, vacheronconstantin and phillipswatches, in association with Bacs & Russo, hosted the inaugural Concours d’Élégance Horlogère, bringing together 34 exceptional timepieces dating from 1755, the year Vacheron Constantin was founded, to 1999. thjeffreys was there to take in t",
    "permalink": "https://www.instagram.com/p/DfscOBNH4s2/",
    "timestamp": "2026-11-13T20:01:30+0000"
   },
@@ -413,6 +429,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "This week’s Bring A Loupe takes a closer look at a girardperregaux Olimpico, a 39mm stainless steel chronograp",
+   "text": "This week’s Bring A Loupe takes a closer look at a girardperregaux Olimpico, a 39mm stainless steel chronograph, and a piaget Ref. 12423, a dress watch powered by the brand’s 1960s 12P movement (the thinnest automatic movement available at the time), alongside a selection of other noteworthy finds. ",
    "permalink": "https://www.instagram.com/p/DfsAuUXHOyh/",
    "timestamp": "2026-11-13T16:01:16+0000"
   },
@@ -429,6 +446,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "studio_underd0g has introduced the 04Series Calendar, its first watch to feature a calendar complication, comb",
+   "text": "studio_underd0g has introduced the 04Series Calendar, its first watch to feature a calendar complication, combining a retrograde pointer date, weekend indicator, and moonphase display in a 37mm or 38.5mm stainless steel case. Powered by a new Seagull automatic caliber developed for the brand, the co",
    "permalink": "https://www.instagram.com/p/Dfr54NPkepk/",
    "timestamp": "2026-11-13T15:01:26+0000"
   },
@@ -445,6 +463,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "march_lab’s Mansart Small Second Golden Hour features a 35mm gold-plated stainless steel case with an eight-si",
+   "text": "march_lab’s Mansart Small Second Golden Hour features a 35mm gold-plated stainless steel case with an eight-sided stepped design, an offset small seconds display, and a La Joux-Perret G121 automatic movement with a 68-hour power reserve. ahoffez went hands-on with the watch for a closer look at its ",
    "permalink": "https://www.instagram.com/p/Dfry_fqEWFr/",
    "timestamp": "2026-11-13T14:00:54+0000"
   },
@@ -452,7 +471,7 @@
    "handle": "hodinkee",
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
-   "lift": 0.66,
+   "lift": 0.65,
    "likes": 1046,
    "comments": 6,
    "hour": 18,
@@ -461,6 +480,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "watchesofespionage has released “Watches of Espionage: Tools of the Trade,” a book featuring more than 160 wat",
+   "text": "watchesofespionage has released “Watches of Espionage: Tools of the Trade,” a book featuring more than 160 watches from 40 brands, organized around issued watches, unit watches, private purchases, and spy gear. Available in two collector’s editions inspired by the Cold War and the Global War on Terr",
    "permalink": "https://www.instagram.com/p/DfqL_V2iX4w/",
    "timestamp": "2026-11-12T23:01:14+0000"
   },
@@ -477,6 +497,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Two 222s. One in stainless steel, one in yellow gold. This pair of Vacheron Constantin Historiques is just a g",
+   "text": "Two 222s. One in stainless steel, one in yellow gold. This pair of Vacheron Constantin Historiques is just a glimpse of our next Talking Watches guest’s rotation.⁠\n⁠\nOne hint. He’s got an NBA ring.⁠\n⁠\nTune in Nov. 17 on Hodinkee.com and YouTube.\n\n📸 dave.wavvy",
    "permalink": "https://www.instagram.com/p/DfqFGRYiRRt/",
    "timestamp": "2026-11-12T22:00:56+0000"
   },
@@ -493,6 +514,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "What watch does rexhep.rexhepi wear himself? The answer is a unique platinum Chronomètre Contemporain II, feat",
+   "text": "What watch does rexhep.rexhepi wear himself? The answer is a unique platinum Chronomètre Contemporain II, featuring a sage green Japanese enamel dial and gem-set indices. markkauzlarich spotted the watch on Rexhep’s wrist in Geneva, shortly after the watchmaker took home the Aiguille d’Or at the 202",
    "permalink": "https://www.instagram.com/p/Dfp3Z0bn3J2/",
    "timestamp": "2026-11-12T20:01:23+0000"
   },
@@ -509,6 +531,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "zenithwatches and jnshapiro_watches have collaborated on the G.F.J. Calibre 135 Double Signed, a 25-piece limi",
+   "text": "zenithwatches and jnshapiro_watches have collaborated on the G.F.J. Calibre 135 Double Signed, a 25-piece limited edition 39.15mm rose gold watch featuring a hand-turned guilloché silver dial with three distinct patterns and a manually wound Calibre 135 movement with damaskeening by Shapiro’s Califo",
    "permalink": "https://www.instagram.com/p/DfpprYbnKKj/",
    "timestamp": "2026-11-12T18:01:27+0000"
   },
@@ -525,6 +548,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Hodinkee Magazine Volume 17 is here. One issue, two covers, featuring Panerai and Vacheron Constantin. Availab",
+   "text": "Hodinkee Magazine Volume 17 is here. One issue, two covers, featuring Panerai and Vacheron Constantin. Available now via link in bio.⁠\nInside, an exploration of Panerai's distinctive industrial design, a visit to Stone Island's textile research laboratory, a conversation with artist Jeff Koons, an e",
    "permalink": "https://www.instagram.com/p/DfpcC5tkX9r/",
    "timestamp": "2026-11-12T16:02:20+0000"
   },
@@ -541,6 +565,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Hodinkee Magazine Volume 17 is here. One issue, two covers, featuring Vacheron Constantin and Panerai. Availab",
+   "text": "Hodinkee Magazine Volume 17 is here. One issue, two covers, featuring Vacheron Constantin and Panerai. Available now via link in bio.⁠\nInside, a deep dive into Vacheron Constantin's ultra-thin watchmaking legacy, a Patek Philippe Annual Calendar Reference Points, an oral history of the Ulysse Nardin",
    "permalink": "https://www.instagram.com/p/DfpcAilkVbA/",
    "timestamp": "2026-11-12T16:01:36+0000"
   },
@@ -557,6 +582,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "petermann_bedat has introduced the Reference 2914, a 36.5mm platinum monopusher chronograph powered by the new",
+   "text": "petermann_bedat has introduced the Reference 2914, a 36.5mm platinum monopusher chronograph powered by the new manually wound, in-house Caliber 234. The watch features a semi-open sector dial, an 18,000vph frequency, and a 56-hour power reserve. For all the details from markkauzlarich, head to the l",
    "permalink": "https://www.instagram.com/p/Dfn7yJdDfzq/",
    "timestamp": "2026-11-12T02:01:04+0000"
   },
@@ -564,8 +590,8 @@
    "handle": "teddybaldassarre",
    "type": "CAROUSEL",
    "format": "CELEBRITY",
-   "lift": 0.74,
-   "likes": 4128,
+   "lift": 0.76,
+   "likes": 4214,
    "comments": 56,
    "hour": 10,
    "question": false,
@@ -573,6 +599,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Few watches capture the appeal of traditional Patek Philippe watchmaking quite like the 5970 Perpetual Calenda",
+   "text": "Few watches capture the appeal of traditional Patek Philippe watchmaking quite like the 5970 Perpetual Calendar Chronograph. The reference combines two of the most celebrated complications in a design that builds on the brand’s long history of complicated wristwatches.  Its 40mm case houses a remark",
    "permalink": "https://www.instagram.com/p/DgAgOEkG8D2/",
    "timestamp": "2026-11-21T15:00:01+0000"
   },
@@ -581,7 +608,7 @@
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
    "lift": 1.09,
-   "likes": 6116,
+   "likes": 6123,
    "comments": 64,
    "hour": 10,
    "question": false,
@@ -589,6 +616,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Seiko refreshed its Prospex Speedtimer solar chronograph lineup with three updated colorways: the SSC961, SSC9",
+   "text": "Seiko refreshed its Prospex Speedtimer solar chronograph lineup with three updated colorways: the SSC961, SSC963, and SSC965. The updated collection replaces the discontinued SSC813 with a new panda configuration alongside salmon and mint dial options.\n\nAll three models retain the compact 39mm stain",
    "permalink": "https://www.instagram.com/p/Df9-_uIm3e3/",
    "timestamp": "2026-11-20T15:32:03+0000"
   },
@@ -597,7 +625,7 @@
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
    "lift": 1.6,
-   "likes": 8898,
+   "likes": 8905,
    "comments": 113,
    "hour": 9,
    "question": true,
@@ -605,6 +633,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Oris is bringing the beloved Japanese manga and anime character Doraemon to its Big Crown Pointer Date collect",
+   "text": "Oris is bringing the beloved Japanese manga and anime character Doraemon to its Big Crown Pointer Date collection with a playful new limited edition. The collaboration is limited to 1,000 pieces worldwide and incorporates subtle references to Doraemon without making the design feel overly cartoonish",
    "permalink": "https://www.instagram.com/p/Df7VgRGEd0m/",
    "timestamp": "2026-11-19T14:51:01+0000"
   },
@@ -613,7 +642,7 @@
    "type": "CAROUSEL",
    "format": "OTHER",
    "lift": 0.86,
-   "likes": 4799,
+   "likes": 4801,
    "comments": 59,
    "hour": 10,
    "question": true,
@@ -621,6 +650,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The Jaeger-LeCoultre Reverso has remained one of watchmaking’s most distinctive designs for nearly a century. ",
+   "text": "The Jaeger-LeCoultre Reverso has remained one of watchmaking’s most distinctive designs for nearly a century. This pink gold interpretation of the Reverso Tribute Monoface brings a different character to the collection through its matching Milanese bracelet and gives the familiar Art Deco design a m",
    "permalink": "https://www.instagram.com/p/Df4xwQpmr6U/",
    "timestamp": "2026-11-18T15:00:13+0000"
   },
@@ -629,7 +659,7 @@
    "type": "CAROUSEL",
    "format": "HISTORY",
    "lift": 0.72,
-   "likes": 3925,
+   "likes": 3926,
    "comments": 92,
    "hour": 10,
    "question": true,
@@ -637,6 +667,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The 38mm Tissot Gentleman makes a strong case for being the sweet spot of one of the brand’s most versatile co",
+   "text": "The 38mm Tissot Gentleman makes a strong case for being the sweet spot of one of the brand’s most versatile collections. It retains the familiar design of the original 40mm model while offering more compact proportions that work particularly well for everyday wear.\n\nAvailable in blue, green, silver,",
    "permalink": "https://www.instagram.com/p/Df2NBRIlZkp/",
    "timestamp": "2026-11-17T15:00:40+0000"
   },
@@ -645,7 +676,7 @@
    "type": "REEL",
    "format": "OTHER",
    "lift": 0.67,
-   "likes": 3741,
+   "likes": 3742,
    "comments": 52,
    "hour": 10,
    "question": true,
@@ -653,6 +684,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "Why titanium watches?",
+   "text": "Why titanium watches?",
    "permalink": "https://www.instagram.com/reel/DfzoKKhhaQx/",
    "timestamp": "2026-11-16T15:00:04+0000"
   },
@@ -661,7 +693,7 @@
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
    "lift": 1.7,
-   "likes": 9536,
+   "likes": 9539,
    "comments": 84,
    "hour": 10,
    "question": true,
@@ -669,6 +701,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The Omega Speedmaster 38 offers a different interpretation of one of the most recognizable chronograph designs",
+   "text": "The Omega Speedmaster 38 offers a different interpretation of one of the most recognizable chronograph designs in watchmaking. This 38mm variation brings a more refined character to the collection through its combination of stainless steel, 18K Moonshine Gold, and green accents.\n\nThe silvery opaline",
    "permalink": "https://www.instagram.com/p/DfxDZyPFXRs/",
    "timestamp": "2026-11-15T15:00:02+0000"
   },
@@ -685,6 +718,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "We invited a few friends from the watch community to our flagship boutique and gave them a challenge: pick two",
+   "text": "We invited a few friends from the watch community to our flagship boutique and gave them a challenge: pick two watches you’d be happy to own as your entire collection. It’s safe to say things got interesting.\n\nWatch the full episode now on YouTube to see which collection came out on top.\n\nThanks for",
    "permalink": "https://www.instagram.com/p/DfuenIimoUV/",
    "timestamp": "2026-11-14T15:00:02+0000"
   },
@@ -693,7 +727,7 @@
    "type": "CAROUSEL",
    "format": "HISTORY",
    "lift": 0.92,
-   "likes": 5146,
+   "likes": 5148,
    "comments": 63,
    "hour": 10,
    "question": false,
@@ -701,6 +735,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Zenith’s latest G.F.J. is a collaboration with American independent watchmaker J.N. Shapiro. Limited to 25 pie",
+   "text": "Zenith’s latest G.F.J. is a collaboration with American independent watchmaker J.N. Shapiro. Limited to 25 pieces, the special edition pairs Zenith’s historically significant Calibre 135 with the intricate hand-finishing techniques that have helped define Shapiro’s work.\n\nThe 39mm rose gold case hou",
    "permalink": "https://www.instagram.com/p/Dfr50uiFYwx/",
    "timestamp": "2026-11-13T15:00:07+0000"
   },
@@ -717,6 +752,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Longines has a history with monopusher chronographs that stretches back more than a century. The Master Collec",
+   "text": "Longines has a history with monopusher chronographs that stretches back more than a century. The Master Collection carries that tradition forward with a modern interpretation of its historic design. A single pusher integrated into the crown controls the chronograph’s start, stop, and reset functions",
    "permalink": "https://www.instagram.com/p/DfpVUEIlaML/",
    "timestamp": "2026-11-12T15:03:01+0000"
   },
@@ -733,6 +769,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The IWC Pilot’s Watch Chronograph 43 demonstrates how a design rooted in aviation can translate into a versati",
+   "text": "The IWC Pilot’s Watch Chronograph 43 demonstrates how a design rooted in aviation can translate into a versatile modern sports watch. Its blue dial brings a more contemporary character to IWC’s familiar instrument-inspired aesthetic, while the bold numerals and traditional chronograph layout preserv",
    "permalink": "https://www.instagram.com/p/DfmwMF5Fel1/",
    "timestamp": "2026-11-11T15:00:02+0000"
   },
@@ -741,7 +778,7 @@
    "type": "CAROUSEL",
    "format": "HISTORY",
    "lift": 1.63,
-   "likes": 9085,
+   "likes": 9087,
    "comments": 110,
    "hour": 10,
    "question": true,
@@ -749,6 +786,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The Tudor Monarch offers a different perspective on the brand’s approach to sports watch design. While much of",
+   "text": "The Tudor Monarch offers a different perspective on the brand’s approach to sports watch design. While much of Tudor’s modern identity is built around the Black Bay and Pelagos collections, the Monarch takes a more unconventional direction with its barrel-shaped case, integrated bracelet, and distin",
    "permalink": "https://www.instagram.com/p/DfkLZYBEaST/",
    "timestamp": "2026-11-10T15:00:15+0000"
   },
@@ -765,6 +803,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "Three of the most impressive quartz watches on the market.",
+   "text": "Three of the most impressive quartz watches on the market.",
    "permalink": "https://www.instagram.com/reel/DfhmpGKhfk4/",
    "timestamp": "2026-11-09T15:00:06+0000"
   },
@@ -781,6 +820,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "The watches worn most by first responders.",
+   "text": "The watches worn most by first responders.",
    "permalink": "https://www.instagram.com/reel/DffBysDhdZf/",
    "timestamp": "2026-11-08T15:00:05+0000"
   },
@@ -797,6 +837,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Oris has built a distinct identity for its ProPilot collection through aviation-inspired details that balance ",
+   "text": "Oris has built a distinct identity for its ProPilot collection through aviation-inspired details that balance functionality with a recognizable design. The ProPilot Date carries that approach forward with its signature turbine-inspired bezel, highly legible Arabic numerals, and a sharper, more angul",
    "permalink": "https://www.instagram.com/p/DfcdEMYmtWx/",
    "timestamp": "2026-11-07T15:00:04+0000"
   },
@@ -813,6 +854,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "We’re excited to announce that we’re now an authorized retailer of TAG Heuer.",
+   "text": "We’re excited to announce that we’re now an authorized retailer of TAG Heuer.\n\nWe’ve admired TAG Heuer for a long time, and we’re thrilled to welcome the brand to our lineup.\n\nFrom the legendary Carrera and Monaco to the Aquaracer and Formula 1, these collections are part of a legacy that includes g",
    "permalink": "https://www.instagram.com/reel/DfZ8q-DOYV4/",
    "timestamp": "2026-11-06T15:40:08+0000"
   },
@@ -829,6 +871,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The Tudor Black Bay 58 GMT shows how a small change can make a big difference. The addition of a five-link bra",
+   "text": "The Tudor Black Bay 58 GMT shows how a small change can make a big difference. The addition of a five-link bracelet at Watches & Wonders 2026 brings a more refined appearance to one of the brand’s most versatile travel watches.\n\nThe Black Bay 58 GMT was originally introduced in 2024 with a 39mm stai",
    "permalink": "https://www.instagram.com/p/DfXTaO-Ed3l/",
    "timestamp": "2026-11-05T15:00:07+0000"
   },
@@ -845,6 +888,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The Cartier Tank Américaine has offered an elongated, curved interpretation of the Tank since its debut in 198",
+   "text": "The Cartier Tank Américaine has offered an elongated, curved interpretation of the Tank since its debut in 1989. That profile carries through the Large, Small, and Mini shown here, alongside Roman numerals, blued-steel sword hands, and faceted crowns set with blue sapphires. All three feature sapphi",
    "permalink": "https://www.instagram.com/p/DfUuslmEc_Y/",
    "timestamp": "2026-11-04T15:00:02+0000"
   },
@@ -861,6 +905,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Grand Seiko’s Evolution 9 Ushio 300 Diver combines Spring Drive U.F.A. technology with two distinctive dial va",
+   "text": "Grand Seiko’s Evolution 9 Ushio 300 Diver combines Spring Drive U.F.A. technology with two distinctive dial variations inspired by the waters surrounding Japan. The blue SLGB023 evokes the deep ocean, while the green SLGB025 draws inspiration from shallower coastal waters. Both feature the signature",
    "permalink": "https://www.instagram.com/p/DfSJvyXkWnq/",
    "timestamp": "2026-11-03T14:59:25+0000"
   },
@@ -877,6 +922,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The Glashütte Original PanoMaticInverse offers a different perspective for watch enthusiasts who appreciate th",
+   "text": "The Glashütte Original PanoMaticInverse offers a different perspective for watch enthusiasts who appreciate the mechanics behind their timepieces. Rather than reserving its movement finishing for the caseback, the watch puts the signature Glashütte three-quarter plate on full display directly beneat",
    "permalink": "https://www.instagram.com/p/DfPlEJuERgN/",
    "timestamp": "2026-11-02T15:00:24+0000"
   },
@@ -893,6 +939,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "This mechanical watch accounts for daylight saving time.",
+   "text": "This mechanical watch accounts for daylight saving time.",
    "permalink": "https://www.instagram.com/reel/DfNATHaBs7w/",
    "timestamp": "2026-11-01T15:00:08+0000"
   },
@@ -909,6 +956,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Now that the Rolex Perpetual Padellone has had some time to settle in, we’re taking another look at one of the",
+   "text": "Now that the Rolex Perpetual Padellone has had some time to settle in, we’re taking another look at one of the brand’s most mechanically complex modern watches. Its moonphase display and instantaneous annual calendar draw on Rolex’s historic calendar watches of the 1940s and early 1950s while incorp",
    "permalink": "https://www.instagram.com/p/DfKUqguCT-R/",
    "timestamp": "2026-10-31T14:00:02+0000"
   },
@@ -925,6 +973,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Citizen is celebrating 50 years of its pioneering light powered technology with the Photon, a limited edition ",
+   "text": "Citizen is celebrating 50 years of its pioneering light powered technology with the Photon, a limited edition release capable of running for an entire year on a single full charge. The achievement marks another milestone in Citizen’s ongoing development of the technology it first introduced in 1976.",
    "permalink": "https://www.instagram.com/p/DfHv0e5kUBL/",
    "timestamp": "2026-10-30T14:00:03+0000"
   },
@@ -941,6 +990,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The Tudor Black Bay name is closely associated with dive watches, but the family also includes models with smo",
+   "text": "The Tudor Black Bay name is closely associated with dive watches, but the family also includes models with smooth, fixed bezels. The Black Bay One name gives these watches a clearer identity within the collection and helps distinguish them from the Black Bay divers.\n\nIn 2023, Tudor updated the steel",
    "permalink": "https://www.instagram.com/p/DfFK--3EWjn/",
    "timestamp": "2026-10-29T14:00:02+0000"
   },
@@ -957,6 +1007,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Now on YouTube: “Watches of Cinema,” hosted by glassofmilt.",
+   "text": "Now on YouTube: “Watches of Cinema,” hosted by glassofmilt.\n\nOur resident movie and watch expert Danny Milton takes you through the watches that helped define cinema in a guide spanning 10 decades of movie history.\n\nFrom Casio to Rolex and Cartier and everything in between, we explore what actors an",
    "permalink": "https://www.instagram.com/p/DfCmNiSEbJB/",
    "timestamp": "2026-10-28T14:00:47+0000"
   },
@@ -973,6 +1024,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Seiko is adding a new U.S. Limited Edition to its popular Seiko 5 Sports SKX GMT collection for 2026. Referenc",
+   "text": "Seiko is adding a new U.S. Limited Edition to its popular Seiko 5 Sports SKX GMT collection for 2026. Reference HDB016 introduces a deep maroon sunray dial and a bidirectional 24-hour bezel in red and dark brown, offering a fresh color combination within an already diverse lineup.\n\nIts 42.5mm stainl",
    "permalink": "https://www.instagram.com/p/DfABaY9kcKH/",
    "timestamp": "2026-10-27T14:00:02+0000"
   },
@@ -989,6 +1041,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "Omega uses a movement that no one else does at scale.",
+   "text": "Omega uses a movement that no one else does at scale.",
    "permalink": "https://www.instagram.com/reel/De9cnI4hT4W/",
    "timestamp": "2026-10-26T14:00:07+0000"
   },
@@ -1005,6 +1058,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Few modern field watches capture their military roots quite like the Hamilton Khaki Field Mechanical 36mm. Ins",
+   "text": "Few modern field watches capture their military roots quite like the Hamilton Khaki Field Mechanical 36mm. Inspired by the rare FAPD 5101 produced for U.S. Air Force navigators in 1970, this interpretation stays remarkably close to the original while incorporating modern mechanical watchmaking.\n\nThe",
    "permalink": "https://www.instagram.com/p/De635fiEYzZ/",
    "timestamp": "2026-10-25T14:00:12+0000"
   },
@@ -1021,6 +1075,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The IWC Schaffhausen Pilot’s Watch Automatic 41 TOP GUN Mojave Desert offers a distinctive interpretation of t",
+   "text": "The IWC Schaffhausen Pilot’s Watch Automatic 41 TOP GUN Mojave Desert offers a distinctive interpretation of the traditional pilot’s watch. Its warm earth tones and ceramic construction give it a character unlike the more conventional designs found throughout the collection.\n\nThe 41mm ceramic case m",
    "permalink": "https://www.instagram.com/p/De4TBW3DuVH/",
    "timestamp": "2026-10-24T14:00:07+0000"
   },
@@ -1037,6 +1092,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Kurono Tokyo has built its reputation around making Hajime Asaoka’s distinctive design language more accessibl",
+   "text": "Kurono Tokyo has built its reputation around making Hajime Asaoka’s distinctive design language more accessible. The Chronograph P1 Shanghai Special Edition was released in 2024 to celebrate the opening of the brand’s first overseas salon in Shanghai and reflects that philosophy through its intricat",
    "permalink": "https://www.instagram.com/p/De1uN_-kY4Q/",
    "timestamp": "2026-10-23T14:00:06+0000"
   },
@@ -1053,6 +1109,7 @@
    "hashtags": 2,
    "licensed_audio": null,
    "first_line": "A MISSION INSIDE RM012",
+   "text": "A MISSION INSIDE RM012\n\nWith the RM 012, the usual solid metal baseplate was replaced by a framework of Phynox tubes. Those thin supports take on the job of holding the movement’s components in position, tourbillon included.\n\nThat leaves a lot of empty space, and a rather difficult engineering probl",
    "permalink": "https://www.instagram.com/p/Df7kx1ljxdI/",
    "timestamp": "2026-11-19T17:08:26+0000"
   },
@@ -1069,6 +1126,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "My dad is from Dar es Salaam, so a watch with a dial made from empty safari lodge bottles in Tanzania was alwa",
+   "text": "My dad is from Dar es Salaam, so a watch with a dial made from empty safari lodge bottles in Tanzania was always going to get me.\n\nThis is the Sartory Billard SB04-E Shanga. Limited to 100 pieces, and €1,000 from every one goes back to the workshop in Arusha that made the glass.\n\nsartorybillard shan",
    "permalink": "https://www.instagram.com/reel/Dfz0OrfAKR_/",
    "timestamp": "2026-11-16T16:55:46+0000"
   },
@@ -1085,6 +1143,7 @@
    "hashtags": 2,
    "licensed_audio": null,
    "first_line": "Eight dials. Eight stories. And a rather unusual treasure hunt. 👀",
+   "text": "Eight dials. Eight stories. And a rather unusual treasure hunt. 👀\n\nVacheron Constantin has spent centuries proving that a dial can be far more than a place to tell the time.\n\nFrom mid-century cloisonné enamel depicting distant continents and sailing ships to miniature interpretations of Chagall, an",
    "permalink": "https://www.instagram.com/p/DfXw0uRlsYU/",
    "timestamp": "2026-11-05T19:17:04+0000"
   },
@@ -1101,6 +1160,7 @@
    "hashtags": 3,
    "licensed_audio": true,
    "first_line": "The rexhep.rexhepi RRCHF Roadster 2028 🫨 ",
+   "text": "The rexhep.rexhepi RRCHF Roadster 2028 🫨 \n\n#rexheprexhepi #watchanish #teslaroadster",
    "permalink": "https://www.instagram.com/reel/DemF4shgVp9/",
    "timestamp": "2026-10-17T12:24:36+0000"
   },
@@ -1117,6 +1177,7 @@
    "hashtags": 5,
    "licensed_audio": true,
    "first_line": "BREAKING: Montres Journe SA, Chanel and Pierre Jacques have just acquired 95% of Swiss watch brand ebel for $6",
+   "text": "BREAKING: Montres Journe SA, Chanel and Pierre Jacques have just acquired 95% of Swiss watch brand ebel for $66m \n\nWhat does this mean for the brand?!\n\n#fpjourne #chanel #ebel #pierrejacques #watchanish",
    "permalink": "https://www.instagram.com/reel/DeZJYNsgRoT/",
    "timestamp": "2026-10-12T11:40:50+0000"
   },
@@ -1133,6 +1194,7 @@
    "hashtags": 5,
    "licensed_audio": true,
    "first_line": "BREAKING: Montres Journe SA, Chanel and Pierre Jacques have just acquired 95% of Swiss watch brand ebel for $6",
+   "text": "BREAKING: Montres Journe SA, Chanel and Pierre Jacques have just acquired 95% of Swiss watch brand ebel for $66m \n\nWhat does this mean for the brand?!\n\n#fpjourne #chanel #ebel #pierrejacques #watchanish",
    "permalink": "https://www.instagram.com/reel/DePb06vgywI/",
    "timestamp": "2026-10-08T17:18:05+0000"
   },
@@ -1149,6 +1211,7 @@
    "hashtags": 5,
    "licensed_audio": true,
    "first_line": "LIVE FROM LONDON: The Rolex Daytona Four Season Collection sells for a combined £37,300,000 / $49,250,000 for ",
+   "text": "LIVE FROM LONDON: The Rolex Daytona Four Season Collection sells for a combined £37,300,000 / $49,250,000 for the 4 unique pieces, with all proceeds going to the respective charities of rogerfederer and leonardodicaprio 👏🏽 Congratulations to everyone involved including the charities, the bidders a",
    "permalink": "https://www.instagram.com/reel/Dd2Ye2_Icy4/",
    "timestamp": "2026-09-28T23:38:42+0000"
   },
@@ -1165,6 +1228,7 @@
    "hashtags": 5,
    "licensed_audio": true,
    "first_line": "Hottest in the game 🎙️",
+   "text": "Hottest in the game 🎙️\n\n#rexheprexhepi #fpjourne #watchanish #watches #akrivia",
    "permalink": "https://www.instagram.com/reel/Ddi2mepg0aP/",
    "timestamp": "2026-09-21T09:41:06+0000"
   },
@@ -1181,6 +1245,7 @@
    "hashtags": 5,
    "licensed_audio": true,
    "first_line": "In 1969 Zenith launched the El Primero, the World’s first automatic chronograph. Then quartz arrived and the S",
+   "text": "In 1969 Zenith launched the El Primero, the World’s first automatic chronograph. Then quartz arrived and the Swiss industry collapsed! In 1975 Zenith’s American owners ordered every El Primero press, mould and plan scrapped and sold for the weight of the steel. \n\nCharles Vermot, the foreman at Zenit",
    "permalink": "https://www.instagram.com/reel/Ddb174CzUcx/",
    "timestamp": "2026-09-18T16:32:11+0000"
   },
@@ -1197,6 +1262,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Hot Chocolate tropical 6265 🍫 What’s your favourite Daytona reference?",
+   "text": "Hot Chocolate tropical 6265 🍫 What’s your favourite Daytona reference?",
    "permalink": "https://www.instagram.com/p/Dc8kWC6ANcV/",
    "timestamp": "2026-09-06T12:45:45+0000"
   },
@@ -1213,6 +1279,7 @@
    "hashtags": 5,
    "licensed_audio": true,
    "first_line": "How many of these rare Daytona’s did you know existed? The gem set Rolex Daytona has had an incredibly diverse",
+   "text": "How many of these rare Daytona’s did you know existed? The gem set Rolex Daytona has had an incredibly diverse history over the past 40 years and here is a look at that journey 👑 \nA watchanish and amsterdamvintagewatches production\n\n#rolex #rolexdaytona#freezetheworld #6270 #khanjar",
    "permalink": "https://www.instagram.com/reel/DclgsDdgwyL/",
    "timestamp": "2026-08-28T14:03:57+0000"
   },
@@ -1229,6 +1296,7 @@
    "hashtags": 0,
    "licensed_audio": true,
    "first_line": "It’s official: the.escapement.event is now coming to Las Vegas",
+   "text": "It’s official: the.escapement.event is now coming to Las Vegas\n📆February 5–7, 2027\n🏟️T-Mobile Arena + Sphere Las Vegas\nA new city. The same collector-first vision.\nWhile this move was not made lightly, we couldn’t be more excited for what’s ahead. Abu Dhabi ticket holders will receive full refunds",
    "permalink": "https://www.instagram.com/reel/Dcg4Xc6gZQG/",
    "timestamp": "2026-08-26T18:49:07+0000"
   },
@@ -1245,6 +1313,7 @@
    "hashtags": 3,
    "licensed_audio": true,
    "first_line": "Do you know the story of how Philippe Stern saved Patek Philippe? ⛷️🚘🗽⚾️🇨🇭🃏🎰🏎️🏁🏆",
+   "text": "Do you know the story of how Philippe Stern saved Patek Philippe? ⛷️🚘🗽⚾️🇨🇭🃏🎰🏎️🏁🏆\n\n#patekphilippe #philippestern #watchanish",
    "permalink": "https://www.instagram.com/reel/Db3Ku8FAoW8/",
    "timestamp": "2026-08-10T13:58:17+0000"
   },
@@ -1261,6 +1330,7 @@
    "hashtags": 0,
    "licensed_audio": true,
    "first_line": "How this American coin went from illegal tender to an iconic Swiss timepiece 🪙🇺🇸🦅 ",
+   "text": "How this American coin went from illegal tender to an iconic Swiss timepiece 🪙🇺🇸🦅 \n\nAnish’s Guide To The Corum Coin Watch corumwatches",
    "permalink": "https://www.instagram.com/reel/DafQpyoghCF/",
    "timestamp": "2026-07-07T10:43:38+0000"
   },
@@ -1277,6 +1347,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "Fighting the people’s fight ✊🏼🗽",
+   "text": "Fighting the people’s fight ✊🏼🗽\n\n#watchanish #empirestate #nyc #fpjourne",
    "permalink": "https://www.instagram.com/reel/DaTMY_lASgn/",
    "timestamp": "2026-07-02T18:07:13+0000"
   },
@@ -1293,6 +1364,7 @@
    "hashtags": 2,
    "licensed_audio": true,
    "first_line": "For Collectors, By Collectors - I’m really excited to announce tickets go on sale, this Monday 15th June. ",
+   "text": "For Collectors, By Collectors - I’m really excited to announce tickets go on sale, this Monday 15th June. \n\nThe Escapement will take place on 20-22nd November at the Etihad Arena, Abu Dhabi and this one’s for us, the collectors 🚀\n\n#theescapement #forcollectorsbycollectors",
    "permalink": "https://www.instagram.com/reel/DZh2aZgN1P7/",
    "timestamp": "2026-06-13T14:11:17+0000"
   },
@@ -1309,6 +1381,7 @@
    "hashtags": 0,
    "licensed_audio": true,
    "first_line": "A tribute to the late Jean-Marie Schaller, founder of Les Atelier louismoinet and renowned figure in the watch",
+   "text": "A tribute to the late Jean-Marie Schaller, founder of Les Atelier louismoinet and renowned figure in the watch industry. Above his knowledge, experience and expertise, he was an energetic and incredibly happy soul that infected everyone with his positivity. He will be dearly missed 🙏🏽🕊️",
    "permalink": "https://www.instagram.com/reel/DZKwJ8isI4p/",
    "timestamp": "2026-06-04T15:12:05+0000"
   },
@@ -1325,6 +1398,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "AP x Swatch - Choose your fighter: Traditional Collector VS Gen Z flipper (and a secret character at the end) ",
+   "text": "AP x Swatch - Choose your fighter: Traditional Collector VS Gen Z flipper (and a secret character at the end) Insert Coin 🪙 \n\n#apxswatch #royalpop #apswatch #watchanish",
    "permalink": "https://www.instagram.com/reel/DYZd07vAH1Q/",
    "timestamp": "2026-05-16T11:38:35+0000"
   },
@@ -1341,6 +1415,7 @@
    "hashtags": 3,
    "licensed_audio": true,
    "first_line": "Anish’s Guide To: The meteoric rise of rexhep.rexhepi ☄️ ",
+   "text": "Anish’s Guide To: The meteoric rise of rexhep.rexhepi ☄️ \n\n#rexheprexhepi #akrivia #watchanish",
    "permalink": "https://www.instagram.com/reel/DX_xMAvN0ii/",
    "timestamp": "2026-05-06T12:22:01+0000"
   },
@@ -1357,6 +1432,7 @@
    "hashtags": 2,
    "licensed_audio": true,
    "first_line": "This idea changed watchmaking 100 years ago 👑 ",
+   "text": "This idea changed watchmaking 100 years ago 👑 \n\n#Rolex #watchanish",
    "permalink": "https://www.instagram.com/reel/DX6ZcNjtvQz/",
    "timestamp": "2026-05-04T12:20:05+0000"
   },
@@ -1373,6 +1449,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "The announcement I’ve been waiting to make for the past 8 months!",
+   "text": "The announcement I’ve been waiting to make for the past 8 months!\nAs one of the founders of the the.escapement.event , I can’t wait to see all of you in Abu Dhabi this November. For collectors, by collectors \n#TheEscapement",
    "permalink": "https://www.instagram.com/reel/DXwkjmNptyZ/",
    "timestamp": "2026-04-30T14:23:39+0000"
   },
@@ -1389,6 +1466,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "Is this the future of watchmaking 🫨 hazemannmonnin are on an incredible roll right now!",
+   "text": "Is this the future of watchmaking 🫨 hazemannmonnin are on an incredible roll right now!\n\n#hazemannmonnin #hazemannmonninschoolwatch #watchanish #watches",
    "permalink": "https://www.instagram.com/reel/DW37V_1DKKD/",
    "timestamp": "2026-04-08T14:25:57+0000"
   },
@@ -1405,6 +1483,7 @@
    "hashtags": 2,
    "licensed_audio": true,
    "first_line": "Anish’s guide to the vanguart Black Hole Tourbillon 🕳️ 🚀🎰",
+   "text": "Anish’s guide to the vanguart Black Hole Tourbillon 🕳️ 🚀🎰\n\n#vanguart #watchanish",
    "permalink": "https://www.instagram.com/reel/DWlooh0DUBW/",
    "timestamp": "2026-04-01T12:03:39+0000"
   },
@@ -1421,6 +1500,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "1/365. Wishing health, wealth, and no wait lists for everyone 🙏🏽🤲🏽",
+   "text": "1/365. Wishing health, wealth, and no wait lists for everyone 🙏🏽🤲🏽\n\n#watchanish znmuae",
    "permalink": "https://www.instagram.com/p/DS9mvr0AFvP/",
    "timestamp": "2026-01-01T09:12:01+0000"
   },
@@ -1429,7 +1509,7 @@
    "type": "REEL",
    "format": "AUCTIONS",
    "lift": 2.18,
-   "likes": 5484,
+   "likes": 5483,
    "comments": 49,
    "hour": 7,
    "question": false,
@@ -1437,6 +1517,7 @@
    "hashtags": 3,
    "licensed_audio": true,
    "first_line": "The ONE BILLION DOLLAR sothebys abudhabiretail Collectors week auction and exhibition in Abu Dhabi 🇦🇪 ",
+   "text": "The ONE BILLION DOLLAR sothebys abudhabiretail Collectors week auction and exhibition in Abu Dhabi 🇦🇪 \n\n#sothebys #abudhabi #watchanish",
    "permalink": "https://www.instagram.com/reel/DSSKfZ6jKzJ/",
    "timestamp": "2025-12-15T12:24:38+0000"
   },
@@ -1453,6 +1534,7 @@
    "hashtags": 0,
    "licensed_audio": true,
    "first_line": "The 7,500 year old story of the Abu Dhabi Pearl 🦪 and piaget’s exclusive tribute to the ‘Curated Luxury Capit",
+   "text": "The 7,500 year old story of the Abu Dhabi Pearl 🦪 and piaget’s exclusive tribute to the ‘Curated Luxury Capital’ of the world 🇦🇪 abudhabiretail",
    "permalink": "https://www.instagram.com/reel/DRkE1aZDHld/",
    "timestamp": "2025-11-27T14:52:03+0000"
   },
@@ -1469,6 +1551,7 @@
    "hashtags": 5,
    "licensed_audio": true,
    "first_line": "Class is in session 👨🏻‍🏫 ",
+   "text": "Class is in session 👨🏻‍🏫 \n\n#audemarspuguet #rd5 #ap #watchanish #watches",
    "permalink": "https://www.instagram.com/reel/DQmT5VZjHdH/",
    "timestamp": "2025-11-03T15:06:12+0000"
   },
@@ -1477,7 +1560,7 @@
    "type": "CAROUSEL",
    "format": "HISTORY",
    "lift": 0.54,
-   "likes": 292,
+   "likes": 297,
    "comments": 10,
    "hour": 1,
    "question": true,
@@ -1485,6 +1568,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "A panda on your wrist? Seiko actually made it happen! 🐼",
+   "text": "A panda on your wrist? Seiko actually made it happen! 🐼\n\nMeet the Seiko HHK001, better known as the Pandagraph. Originally developed as a design concept for Seiko’s Power Design Project in 2024, this playful chronograph made the jump to production with most of its original charm intact.\n\nFrom its 4",
    "permalink": "https://www.instagram.com/p/Df_jAcPjsBh/",
    "timestamp": "2026-11-21T06:05:01+0000"
   },
@@ -1493,7 +1577,7 @@
    "type": "REEL",
    "format": "HISTORY",
    "lift": 0.93,
-   "likes": 519,
+   "likes": 521,
    "comments": 12,
    "hour": 1,
    "question": true,
@@ -1501,6 +1585,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "A panda on your wrist? Seiko actually made it happen! 🐼",
+   "text": "A panda on your wrist? Seiko actually made it happen! 🐼\n\nMeet the Seiko HHK001, better known as the Pandagraph. Originally developed as a design concept for Seiko’s Power Design Project in 2024, this playful chronograph made the jump to production with most of its original charm intact.\n\nFrom its 4",
    "permalink": "https://www.instagram.com/reel/Df_iXLKSpky/",
    "timestamp": "2026-11-21T06:00:06+0000"
   },
@@ -1517,6 +1602,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Big ideas don’t always come from big brands. ",
+   "text": "Big ideas don’t always come from big brands. \n\nFrom a Dutch stroopwafel-inspired dial to a movement that becomes the dial itself, 2026 brought us some seriously creative releases from smaller names in the watch industry.\n\nFor this year’s Top 5, we picked the Lebois & Co Heritage Atelier Small Second",
    "permalink": "https://www.instagram.com/p/Df89lZCjsUK/",
    "timestamp": "2026-11-20T06:00:01+0000"
   },
@@ -1533,6 +1619,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "The Vacheron Constantin 222 or the Overseas? It’s a tough choice, but the modern Overseas has never made a str",
+   "text": "The Vacheron Constantin 222 or the Overseas? It’s a tough choice, but the modern Overseas has never made a stronger case for itself.\n\nThis platinum Overseas Self-Winding Ultra-Thin might be one of the most convincing examples yet. Measuring just 39.5mm across and 7.35mm thick, it pairs a stunning sa",
    "permalink": "https://www.instagram.com/reel/Df82qyNyi1l/",
    "timestamp": "2026-11-20T05:00:05+0000"
   },
@@ -1549,6 +1636,7 @@
    "hashtags": 5,
    "licensed_audio": true,
    "first_line": "A little Italian flair for your next trip. 🇮🇹",
+   "text": "A little Italian flair for your next trip. 🇮🇹\n\nHTD introduces its first-ever GMT watches with the new Aquatìc GMT series. Building on last year’s Aquatìc divers, this quartet combines familiar sporty styling with a practical flyer-style GMT complication.\n\nAll four models feature a 39mm stainless s",
    "permalink": "https://www.instagram.com/reel/Df60NIGyFMM/",
    "timestamp": "2026-11-19T10:00:05+0000"
   },
@@ -1565,6 +1653,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "A time-traveling robotic cat meets one of Oris’s most recognizable designs! ",
+   "text": "A time-traveling robotic cat meets one of Oris’s most recognizable designs! \n\nThe Oris Big Crown Pointer Date gets a playful Japanese twist with this new Doraemon Limited Edition. Its light blue vertically brushed dial takes inspiration from the beloved manga and anime character, while red minute ma",
    "permalink": "https://www.instagram.com/p/Df6mhC8Dnmh/",
    "timestamp": "2026-11-19T08:00:01+0000"
   },
@@ -1581,6 +1670,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "A deep shade of blue, a beautifully finished movement, and a chronograph that makes you want to keep pressing ",
+   "text": "A deep shade of blue, a beautifully finished movement, and a chronograph that makes you want to keep pressing the pushers. The Chopard L.U.C 1963 Heritage Chronograph in Prussian Blue is a seriously tempting piece of high-end watchmaking.\n\nHoused in a 42mm Lucent Steel case, this limited edition fea",
    "permalink": "https://www.instagram.com/p/Df6Y1emjhxo/",
    "timestamp": "2026-11-19T06:00:02+0000"
   },
@@ -1588,8 +1678,8 @@
    "handle": "fratellowatches",
    "type": "CAROUSEL",
    "format": "WOULD YOU RATHER",
-   "lift": 0.59,
-   "likes": 314,
+   "lift": 0.6,
+   "likes": 315,
    "comments": 16,
    "hour": 5,
    "question": true,
@@ -1597,6 +1687,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "The Vacheron Constantin 222 or the Overseas? It’s a tough choice, but the modern Overseas has never made a str",
+   "text": "The Vacheron Constantin 222 or the Overseas? It’s a tough choice, but the modern Overseas has never made a stronger case for itself.\n\nThis platinum Overseas Self-Winding Ultra-Thin might be one of the most convincing examples yet. Measuring just 39.5mm across and 7.35mm thick, it pairs a stunning sa",
    "permalink": "https://www.instagram.com/p/Df4TTIrjrwr/",
    "timestamp": "2026-11-18T10:34:01+0000"
   },
@@ -1613,6 +1704,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Nine different looks, but just one watch. 🌈 ",
+   "text": "Nine different looks, but just one watch. 🌈 \n\nMeet the ArtyA Purity Curvy HMS Sapphire Sport Edition, a colorful showcase of the Geneva-based brand’s expertise in sapphire crystal. Its fully transparent, curved 38.5 × 43mm case is machined from Saphir Absolu, requiring more than 120 hours of machin",
    "permalink": "https://www.instagram.com/p/Df4Ipq3ji6k/",
    "timestamp": "2026-11-18T09:00:59+0000"
   },
@@ -1629,6 +1721,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "A lightweight titanium automatic watch, three no-nonsense variations, and prices starting at €299. Casio is ma",
+   "text": "A lightweight titanium automatic watch, three no-nonsense variations, and prices starting at €299. Casio is making a strong case for an understated daily companion with the new CMK-100.\n\nMeasuring 38mm in diameter and 11.4mm thick, the CMK-100 combines a titanium case with a protective titanium carb",
    "permalink": "https://www.instagram.com/p/Df1ohJvjuhp/",
    "timestamp": "2026-11-17T09:41:43+0000"
   },
@@ -1645,6 +1738,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "Vietnamese craftsmanship meets bold 1970s-inspired colors in the latest additions to Awake’s Sơn Mài collectio",
+   "text": "Vietnamese craftsmanship meets bold 1970s-inspired colors in the latest additions to Awake’s Sơn Mài collection.\n\nThe new Silver Leaf Vignette series introduces four striking gradient dials: Purple Viola, Indian Red, Java Green, and Gentian Blue. Each one starts with pure silver leaf, followed by ap",
    "permalink": "https://www.instagram.com/reel/Df1PLSwyTJx/",
    "timestamp": "2026-11-17T06:00:05+0000"
   },
@@ -1661,6 +1755,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Meet the new James Bond: Robert Pattinson. But what will be on his wrist? ",
+   "text": "Meet the new James Bond: Robert Pattinson. But what will be on his wrist? \n\nThe official 007 account has confirmed that the British actor will take over the role from Daniel Craig. The first glimpse has all the familiar Bond ingredients: black tie, a gun, and an unmistakable 007 pose. There’s just o",
    "permalink": "https://www.instagram.com/p/DfzwKuBCtj5/",
    "timestamp": "2026-11-16T16:10:04+0000"
   },
@@ -1677,6 +1772,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Vacheron Constantin gives its Fiftysix collection a sophisticated new look with two tuxedo-dial models. ",
+   "text": "Vacheron Constantin gives its Fiftysix collection a sophisticated new look with two tuxedo-dial models. \n\nThe new Fiftysix Self-Winding and Complete Calendar both feature 40mm stainless steel cases and striking gray dégradé dials, combining contrasting textures and shades with a distinctly mid-centu",
    "permalink": "https://www.instagram.com/p/DfzkZ-uihrS/",
    "timestamp": "2026-11-16T14:27:18+0000"
   },
@@ -1693,6 +1789,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "Four dials, one distinctive complication, and a price of €899. Meet the new Maen Grand Tonneau Jump Hour.",
+   "text": "Four dials, one distinctive complication, and a price of €899. Meet the new Maen Grand Tonneau Jump Hour.\n\nMaen is adding four new references to its permanent collection, available in Steel, Anthracite Black, Midnight Blue, and Copper. Each features a vertically brushed dial with a jumping hour disp",
    "permalink": "https://www.instagram.com/reel/DfzF6awS3eM/",
    "timestamp": "2026-11-16T10:00:05+0000"
   },
@@ -1709,6 +1806,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Four dials, one distinctive complication, and a price of €899. Meet the new Maen Grand Tonneau Jump Hour.",
+   "text": "Four dials, one distinctive complication, and a price of €899. Meet the new Maen Grand Tonneau Jump Hour.\n\nMaen is adding four new references to its permanent collection, available in Steel, Anthracite Black, Midnight Blue, and Copper. Each features a vertically brushed dial with a jumping hour disp",
    "permalink": "https://www.instagram.com/p/DfzF4hLihK5/",
    "timestamp": "2026-11-16T10:00:02+0000"
   },
@@ -1725,6 +1823,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Two oversized divers, two very different approaches to professional dive-watch design. But which one deserves ",
+   "text": "Two oversized divers, two very different approaches to professional dive-watch design. But which one deserves the win? \n\nThis week’s Sunday Morning Showdown puts the new Panerai Submersible Marina Militare PAM01757 Destro against the Omega Seamaster Ploprof 1200M Summer Blue.\n\nThe 44mm Panerai combi",
    "permalink": "https://www.instagram.com/p/DfwFnNnCuKs/",
    "timestamp": "2026-11-15T06:00:03+0000"
   },
@@ -1741,6 +1840,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "Have you ever seen a gold UFO? ",
+   "text": "Have you ever seen a gold UFO? \n\nRado’s DiaStar Original Skeleton looks like something that could have landed straight from outer space. Inspired by the original 1962 DiaStar, these two new versions combine the collection’s unmistakable retro-futuristic shape with gold-colored Ceramos bezels and ful",
    "permalink": "https://www.instagram.com/reel/Dftgxayypcp/",
    "timestamp": "2026-11-14T06:00:04+0000"
   },
@@ -1748,8 +1848,8 @@
    "handle": "fratellowatches",
    "type": "REEL",
    "format": "NEW RELEASES",
-   "lift": 7.4,
-   "likes": 4179,
+   "lift": 7.41,
+   "likes": 4180,
    "comments": 69,
    "hour": 10,
    "question": true,
@@ -1757,6 +1857,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "Who saw this coming? Studio Underd0g has entered the world of calendar watches! ",
+   "text": "Who saw this coming? Studio Underd0g has entered the world of calendar watches! \n\nMeet the new 04Series Calendar, the brand’s most ambitious release yet. Available in four colorful dial variations and two case sizes (37mm and 38.5mm), it combines a retrograde pointer date, moonphase, and a clever we",
    "permalink": "https://www.instagram.com/reel/Dfr531Zyyfb/",
    "timestamp": "2026-11-13T15:00:58+0000"
   },
@@ -1773,6 +1874,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "Some watches don’t need to shout to make an impression. The A. Lange & Söhne Saxonia Annual Calendar is a perf",
+   "text": "Some watches don’t need to shout to make an impression. The A. Lange & Söhne Saxonia Annual Calendar is a perfect example.\n\nHoused in a remarkably compact 36mm 18K white gold case, this elegant calendar watch combines an oversized date, day and month displays, and a beautiful moonphase indication. T",
    "permalink": "https://www.instagram.com/reel/DfrLU08ui8O/",
    "timestamp": "2026-11-13T08:16:32+0000"
   },
@@ -1789,6 +1891,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "What if your chronograph could light up an entire room? ",
+   "text": "What if your chronograph could light up an entire room? \n\nFortis gives its space-inspired Novonaut N-42 a luminous makeover with the new Halo Series. Available in black, blue, and green, all three models feature full LumiCast X1 dials that glow brightly in the dark, creating a distinctive panda-styl",
    "permalink": "https://www.instagram.com/reel/DfqMe7xybLd/",
    "timestamp": "2026-11-12T23:05:05+0000"
   },
@@ -1805,6 +1908,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "Belgian watchmaking with a quiet confidence. Meet the Vander Avort Lovon, the debut collection from a brand wi",
+   "text": "Belgian watchmaking with a quiet confidence. Meet the Vander Avort Lovon, the debut collection from a brand with roots in Louvain dating back to 1985.\n\nAvailable in 18K rose gold or palladium-alloyed white gold, the Lovon combines elegant guilloché dials, hand-engraved lugs by master engraver Bram R",
    "permalink": "https://www.instagram.com/reel/DfpAbf3SJlB/",
    "timestamp": "2026-11-12T12:00:06+0000"
   },
@@ -1821,6 +1925,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "2026 was a relatively quiet year for the Omega Speedmaster. But sometimes, it only takes one release to make a",
+   "text": "2026 was a relatively quiet year for the Omega Speedmaster. But sometimes, it only takes one release to make an impression. \n\nOur pick for the best Speedmaster of the year is the Speedmaster Professional “Reverse Panda” in stainless steel.\n\nWith its black lacquered dial, contrasting white sub-dials,",
    "permalink": "https://www.instagram.com/p/Dfo9bYDjh3E/",
    "timestamp": "2026-11-12T11:34:18+0000"
   },
@@ -1837,6 +1942,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "What would a watch look like if it had been commissioned by one of the most visionary French engineers of the ",
+   "text": "What would a watch look like if it had been commissioned by one of the most visionary French engineers of the 1930s? Meet the Albishorn Voisin Aérosport.\n\nInspired by aviation pioneer and automobile designer Gabriel Voisin, and particularly his striking 1935 C28 Aérosport, this latest release explor",
    "permalink": "https://www.instagram.com/p/DfmROBDjpSg/",
    "timestamp": "2026-11-11T10:29:31+0000"
   },
@@ -1853,6 +1959,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "The new Submersible Marina Militare PAM01757 Destro and PAM01758 GMT draw on a century of naval history while ",
+   "text": "The new Submersible Marina Militare PAM01757 Destro and PAM01758 GMT draw on a century of naval history while bringing plenty of modern-day practicality to the table.\n\nThe 44mm Destro keeps things clean with a left-handed crown configuration, a date-free black dial, and the automatic P.980 caliber w",
    "permalink": "https://www.instagram.com/reel/Dfl8wkAywia/",
    "timestamp": "2026-11-11T07:30:07+0000"
   },
@@ -1869,6 +1976,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Awake brings a splash of color to its Sơn Mài collection with four new Silver Leaf Vignette dials. ",
+   "text": "Awake brings a splash of color to its Sơn Mài collection with four new Silver Leaf Vignette dials. \n\nCombining pure silver leaf with traditional Vietnamese Sơn Mài lacquer, each dial takes more than 10 hours of craftsmanship and features approximately 12 layers of colored lacquer. The result? Beauti",
    "permalink": "https://www.instagram.com/p/Dfjs3JIDmlG/",
    "timestamp": "2026-11-10T10:33:20+0000"
   },
@@ -1885,6 +1993,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "Yema shoots for the moon with its first-ever moonphase watch: the Senans Grande Lune CMM.22. ",
+   "text": "Yema shoots for the moon with its first-ever moonphase watch: the Senans Grande Lune CMM.22. \n\nLaunching an entirely new collection, this contemporary dress watch combines a 38.5mm stainless steel case with a beautifully detailed guilloché dial and an oversized moonphase display at 7 o’clock. The mo",
    "permalink": "https://www.instagram.com/reel/DfjNmLlStug/",
    "timestamp": "2026-11-10T06:00:06+0000"
   },
@@ -1901,6 +2010,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Have you ever seen a gold UFO? ",
+   "text": "Have you ever seen a gold UFO? \n\nRado’s DiaStar Original Skeleton looks like something that could have landed straight from outer space. Inspired by the original 1962 DiaStar, these two new versions combine the collection’s unmistakable retro-futuristic shape with gold-colored Ceramos bezels and ful",
    "permalink": "https://www.instagram.com/p/DfhYxUhjriH/",
    "timestamp": "2026-11-09T12:59:18+0000"
   },
@@ -1909,7 +2019,7 @@
    "type": "REEL",
    "format": "NEW RELEASES",
    "lift": 1.77,
-   "likes": 998,
+   "likes": 999,
    "comments": 17,
    "hour": 3,
    "question": true,
@@ -1917,6 +2027,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "The new Sinn EZM 19 is a mission timer with a rather unusual workplace: the command room. Developed in collabo",
+   "text": "The new Sinn EZM 19 is a mission timer with a rather unusual workplace: the command room. Developed in collaboration with a senior fire director, this purpose-built tool watch is designed to help emergency command staff manage briefings, operational shifts, and handovers.\n\nIts standout feature is a ",
    "permalink": "https://www.instagram.com/reel/Dfg7ASduWqr/",
    "timestamp": "2026-11-09T08:40:30+0000"
   },
@@ -1933,6 +2044,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Germany vs. Switzerland in this week’s Sunday Morning Showdown!",
+   "text": "Germany vs. Switzerland in this week’s Sunday Morning Showdown!\n\nIn one corner, we have the Sinn U50, a purpose-built dive watch with a 41mm case, 500m water resistance, and an unmistakable tool-watch aesthetic. In the other, the Oris Aquis Date, offering a 41.5mm case, 300m water resistance, and a ",
    "permalink": "https://www.instagram.com/p/DfeLvxdORJp/",
    "timestamp": "2026-11-08T07:08:47+0000"
   },
@@ -1949,6 +2061,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "The new Favre Leuba Chief Skeleton has nothing to hide, and it certainly isn’t afraid to show it.",
+   "text": "The new Favre Leuba Chief Skeleton has nothing to hide, and it certainly isn’t afraid to show it.\n\nAs the brand’s first-ever skeletonized watch, the Chief combines a 1970s-inspired, 40mm cushion-shaped stainless-steel case with a striking openworked movement and bold blue accents.\n\nInside beats the ",
    "permalink": "https://www.instagram.com/reel/DfbfS3FyxiF/",
    "timestamp": "2026-11-07T06:00:05+0000"
   },
@@ -1956,8 +2069,8 @@
    "handle": "wristcheck",
    "type": "CAROUSEL",
    "format": "OTHER",
-   "lift": 1.33,
-   "likes": 1978,
+   "lift": 1.34,
+   "likes": 1979,
    "comments": 190,
    "hour": 9,
    "question": true,
@@ -1965,6 +2078,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "You wake up with $1M - what watches are you spending it on? 💰",
+   "text": "You wake up with $1M - what watches are you spending it on? 💰\n\nEvery watch here is available now at Wristcheck, so DM us to make one yours.\n\n#wristcheck",
    "permalink": "https://www.instagram.com/p/Df4sFVTAZei/",
    "timestamp": "2026-11-18T14:10:35+0000"
   },
@@ -1981,6 +2095,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "HAPPY GTA 6 WEEK 🥹 we’ve come a long way since 2013.. and so has the watch world.",
+   "text": "HAPPY GTA 6 WEEK 🥹 we’ve come a long way since 2013.. and so has the watch world.\n\nWe went back to see what watches came out in 2013, versus this year’s releases. Which era are you picking? 👀\n\nAnd as always, if you’re looking for any of these watches, send us a DM.\n\n#wristcheck",
    "permalink": "https://www.instagram.com/p/DfziV5ok83s/",
    "timestamp": "2026-11-16T14:09:16+0000"
   },
@@ -1997,6 +2112,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "New in at Wristcheck, all GTS-graded and certified. 😮‍💨 Which one’s your pick?",
+   "text": "New in at Wristcheck, all GTS-graded and certified. 😮‍💨 Which one’s your pick?\n\nAll available now at Wristcheck. DM us to enquire, or visit globaltimepiecestandard.com to have your own watch GTS-certified.\n\n#wristcheck #GlobalTimepieceStandard #GTS",
    "permalink": "https://www.instagram.com/p/DfxB6hcE7pw/",
    "timestamp": "2026-11-15T14:47:26+0000"
   },
@@ -2005,7 +2121,7 @@
    "type": "CAROUSEL",
    "format": "OTHER",
    "lift": 2.15,
-   "likes": 3690,
+   "likes": 3691,
    "comments": 51,
    "hour": 8,
    "question": true,
@@ -2013,6 +2129,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "We’re going BIG this Saturday night. 👀 How about you? Which heavy-hitter are you picking?",
+   "text": "We’re going BIG this Saturday night. 👀 How about you? Which heavy-hitter are you picking?\n\nAll available now - DM us to make an offer.\n\n#wristcheck",
    "permalink": "https://www.instagram.com/p/DfuSNDQE3vz/",
    "timestamp": "2026-11-14T13:12:03+0000"
   },
@@ -2029,6 +2146,7 @@
    "hashtags": 2,
    "licensed_audio": false,
    "first_line": "A watch can look right and still be very wrong.",
+   "text": "A watch can look right and still be very wrong.\n\nAfter years of inspecting, authenticating, grading and restoring watches through the Wristcheck marketplace, our Director of Watches peterelliotglomb has seen everything from swapped dials and hidden movement work to fake papers, stolen watches and ou",
    "permalink": "https://www.instagram.com/reel/DfmhnMATfvx/",
    "timestamp": "2026-11-11T12:59:15+0000"
   },
@@ -2037,7 +2155,7 @@
    "type": "REEL",
    "format": "NEW RELEASES",
    "lift": 0.85,
-   "likes": 1427,
+   "likes": 1428,
    "comments": 38,
    "hour": 7,
    "question": false,
@@ -2045,6 +2163,7 @@
    "hashtags": 1,
    "licensed_audio": false,
    "first_line": "Pick your color from our lineup of the mighty and ever-versatile Rolex Oyster Perpetual.",
+   "text": "Pick your color from our lineup of the mighty and ever-versatile Rolex Oyster Perpetual.\n\nIn 2020, Rolex introduced five bright new dial colors for the OP. The range has kept growing since, from soft pastels to this year’s multicolored Jubilee dial we have here.\n\nAll available now at Wristcheck - he",
    "permalink": "https://www.instagram.com/reel/DfhTyF2BQUx/",
    "timestamp": "2026-11-09T12:18:27+0000"
   },
@@ -2061,6 +2180,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "The winners of this year’s GPHG Awards - the “Oscars of Watchmaking” - are in 🏆 Taking home the coveted Aigui",
+   "text": "The winners of this year’s GPHG Awards - the “Oscars of Watchmaking” - are in 🏆 Taking home the coveted Aiguille d’Or Grand Prix at the gphg_official is rexhep.rexhepi’s Chronograph Flyback.\n\nSwipe through for the full list of the 2026 winners - what are your thoughts on the results?\n\n#wristcheck",
    "permalink": "https://www.instagram.com/p/Dfd7UFJgezq/",
    "timestamp": "2026-11-08T04:44:11+0000"
   },
@@ -2068,8 +2188,8 @@
    "handle": "wristcheck",
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
-   "lift": 1.58,
-   "likes": 2772,
+   "lift": 1.59,
+   "likes": 2773,
    "comments": 14,
    "hour": 9,
    "question": true,
@@ -2077,6 +2197,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "Did someone say heavy-hitters? New in this week, all available at Wristcheck.",
+   "text": "Did someone say heavy-hitters? New in this week, all available at Wristcheck.\n\nHead to Wristcheck.com or send us a DM to enquire.\n\n#wristcheck",
    "permalink": "https://www.instagram.com/p/DfcZ1_EgYrU/",
    "timestamp": "2026-11-07T14:32:28+0000"
   },
@@ -2093,6 +2214,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "30 years of the Vacheron Constantin Overseas. Which generation is your favorite?",
+   "text": "30 years of the Vacheron Constantin Overseas. Which generation is your favorite?\n\nIntroduced in 1996, the Overseas took on a bolder design in 2004, before a complete redesign in 2016 brought new in-house movements and interchangeable straps.\n\nFor its 30th anniversary, we’re looking back at some stan",
    "permalink": "https://www.instagram.com/p/DfZjWaNgYIT/",
    "timestamp": "2026-11-06T11:57:49+0000"
   },
@@ -2109,6 +2231,7 @@
    "hashtags": 1,
    "licensed_audio": false,
    "first_line": "Which stone makes the best watch dial? ",
+   "text": "Which stone makes the best watch dial? \n\nEven two dials cut from the same stone can have different colors and patterns. Which is part of the fun of picking one. Which of these would you wear?\n\nSend us a DM if you see something you like, or let us know if you have another stone in mind and we’ll sour",
    "permalink": "https://www.instagram.com/reel/DfXK0gDT8Zc/",
    "timestamp": "2026-11-05T13:46:41+0000"
   },
@@ -2125,6 +2248,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "What watches were born around the same time as you? ☝️",
+   "text": "What watches were born around the same time as you? ☝️\n\nBecause if you’re looking for something a little more personal, this is a great start. DM us and we’ll help you track down a watch from your birth year.\n\n#wristcheck",
    "permalink": "https://www.instagram.com/p/DfUoU94kwXE/",
    "timestamp": "2026-11-04T14:05:07+0000"
   },
@@ -2133,7 +2257,7 @@
    "type": "CAROUSEL",
    "format": "CELEBRITY",
    "lift": 2.47,
-   "likes": 4258,
+   "likes": 4260,
    "comments": 49,
    "hour": 9,
    "question": false,
@@ -2141,6 +2265,7 @@
    "hashtags": 2,
    "licensed_audio": null,
    "first_line": "Some of the best #wristchecks from October (it’s been a great month for indies!): vancityreynolds wearing an F",
+   "text": "Some of the best #wristchecks from October (it’s been a great month for indies!): vancityreynolds wearing an F.P. Journe T30 Anniversary Tourbillon, jayz in a rare Patek Philippe Chronograph, kyrieirving in a 1-of-5 AP Royal Oak with a Tiger’s Eye dial - plus much more.\n\nSwipe to see who wore what, ",
    "permalink": "https://www.instagram.com/p/DfSHWSIE9UB/",
    "timestamp": "2026-11-03T14:38:27+0000"
   },
@@ -2157,6 +2282,7 @@
    "hashtags": 1,
    "licensed_audio": false,
    "first_line": "Real or fake? Let’s see if these watches can fool you this Halloween. 💀",
+   "text": "Real or fake? Let’s see if these watches can fool you this Halloween. 💀\n\nThere’s nothing scarier than buying a watch that isn’t what it claims to be. With Wristcheck, you never have to guess. Know exactly what you’re buying, with every watch authenticated and graded by our Swiss-trained team.\n\nCan ",
    "permalink": "https://www.instagram.com/reel/DfKQ39ZTe-8/",
    "timestamp": "2026-10-31T13:29:20+0000"
   },
@@ -2173,6 +2299,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "Collaborations are everywhere in watches now, but jacobandco’s archive goes in a lot of different directions. ",
+   "text": "Collaborations are everywhere in watches now, but jacobandco’s archive goes in a lot of different directions. With Victoria’s Secret now added to the list, we went back through some of their past collaborations across sports, automotive, fashion, entertainment and pop culture. And there are a lot. \n",
    "permalink": "https://www.instagram.com/p/DfHm5ark4s5/",
    "timestamp": "2026-10-30T12:42:29+0000"
   },
@@ -2189,6 +2316,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "Another week, another round of watches finding new homes through us at Wristcheck - including a rose gold F.P.",
+   "text": "Another week, another round of watches finding new homes through us at Wristcheck - including a rose gold F.P. Journe Octa Automatique Lune Nacre, a Honeygold A. Lange & Söhne Zeitwerk, and a Patek Philippe Nautilus Moonphase 5712. 😮‍💨\n\nLooking to sell your watch? DM us to get started. And if you’",
    "permalink": "https://www.instagram.com/p/DfCpn2EkyNl/",
    "timestamp": "2026-10-28T14:30:06+0000"
   },
@@ -2205,6 +2333,7 @@
    "hashtags": 2,
    "licensed_audio": null,
    "first_line": "harrykane takes home the 2026 Ballon d’Or wearing an off-catalog Rolex Daytona, and so many more #wristchecks.",
+   "text": "harrykane takes home the 2026 Ballon d’Or wearing an off-catalog Rolex Daytona, and so many more #wristchecks. 🏆\n\nWe rounded up some of the best watches spotted at last night’s ceremony in London, including k.mbappe in the brand-new Hublot Classic Fusion Tributo, and lamineyamal in a rose gold RM67",
    "permalink": "https://www.instagram.com/p/De_c8YZE6UC/",
    "timestamp": "2026-10-27T08:41:35+0000"
   },
@@ -2221,6 +2350,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "POV: you’re on a long haul flight, choose your seat.. and what your neighbors are wearing. 👀 ",
+   "text": "POV: you’re on a long haul flight, choose your seat.. and what your neighbors are wearing. 👀 \n\nIf you’re looking for any of these watches for yourself to match with your row, send us a DM or head to wristcheck.com to shop now. \n\n#wristcheck",
    "permalink": "https://www.instagram.com/p/De9gYDdk8Bg/",
    "timestamp": "2026-10-26T14:33:06+0000"
   },
@@ -2237,6 +2367,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "Have you heard of Ebel? Chanel and F.P. Journe certainly have. 👀",
+   "text": "Have you heard of Ebel? Chanel and F.P. Journe certainly have. 👀\n\nThe two are part of a group acquiring a 95% stake in the Swiss watchmaker in a US$66.5 million deal. But what’s the story behind the name?\n\nFrom the Sport Classic to connections with Cartier, Zenith and Miami Vice, there’s more to Eb",
    "permalink": "https://www.instagram.com/p/De1uy3Tk1vC/",
    "timestamp": "2026-10-23T14:05:10+0000"
   },
@@ -2244,8 +2375,8 @@
    "handle": "bobswatches",
    "type": "CAROUSEL",
    "format": "CELEBRITY",
-   "lift": 1.14,
-   "likes": 942,
+   "lift": 1.15,
+   "likes": 948,
    "comments": 17,
    "hour": 16,
    "question": false,
@@ -2253,6 +2384,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "“Some watches you buy to sell. This one I bought to keep.” Our CEO Paul Altieri had handled plenty of rare Rol",
+   "text": "“Some watches you buy to sell. This one I bought to keep.” Our CEO Paul Altieri had handled plenty of rare Rolex watches, but never a steel Dato-Compax.\n\nThen a man walked in wearing one he’d casually worn for decades. When he heard it was worth a quarter of a million dollars, he went pale. \n\nThe fu",
    "permalink": "https://www.instagram.com/p/Df-rY0xk5E9/",
    "timestamp": "2026-11-20T21:59:57+0000"
   },
@@ -2261,7 +2393,7 @@
    "type": "CAROUSEL",
    "format": "HISTORY",
    "lift": 2.14,
-   "likes": 1737,
+   "likes": 1738,
    "comments": 46,
    "hour": 20,
    "question": true,
@@ -2269,6 +2401,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Which decade made the best Pepsi?",
+   "text": "Which decade made the best Pepsi?\n \nOver the decades before Rolex retired the Pepsi this past April, the red-and-blue GMT went from sun-faded aluminum to ceramic and, in 1989, gained a third time zone. Here’s one from each of five decades, 1966 to 2022.\n \nFrom where we sit, we’ll take any of ‘em. \n\n",
    "permalink": "https://www.instagram.com/p/Df8dyklFQND/",
    "timestamp": "2026-11-20T01:22:39+0000"
   },
@@ -2285,6 +2418,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Is 34mm too small for a Royal Oak?",
+   "text": "Is 34mm too small for a Royal Oak?\n\nThe Audemars Piguet all-black ceramic Royal Oak makes a good case that it isn’t. When the 34mm launched in 2020, it was the smallest automatic Royal Oak in the lineup (the size below it ran on quartz). \n\nToo small or just right?",
    "permalink": "https://www.instagram.com/p/Df52OVcFH3L/",
    "timestamp": "2026-11-19T00:58:26+0000"
   },
@@ -2301,6 +2435,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Steel Sprite or white gold Sprite?",
+   "text": "Steel Sprite or white gold Sprite?\n \nRolex makes its left-handed GMT-Master II in two metals, with two noticeable changes: the material (obviously) and a green ceramic dial matched to the bezel. Well, and of course its price. \n \nA steel GMT-Master II ref. 126720 won’t have the green dial and feature",
    "permalink": "https://www.instagram.com/p/Df3SX7LvZJF/",
    "timestamp": "2026-11-18T01:09:10+0000"
   },
@@ -2317,6 +2452,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "A new James Bond has been chosen, and the debate is already raging on which watch comes next for the storied f",
+   "text": "A new James Bond has been chosen, and the debate is already raging on which watch comes next for the storied franchise. \n\nPattinson famously has played Batman (amongst other coveted roles) and will now collect another historic movie to add to his collection. \n\nWill Bond return to wearing a Rolex, co",
    "permalink": "https://www.instagram.com/reel/Df2vwXBT2uK/",
    "timestamp": "2026-11-17T20:08:48+0000"
   },
@@ -2333,6 +2469,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The watches in this week’s New Arrivals come from the same year - this one. ",
+   "text": "The watches in this week’s New Arrivals come from the same year - this one. \n\nThese 2026 pre-owned watches may have been with their previous owners only moments, but they could stay with their next owner for life (contingent on taste change of course).\n\nHow long do you usually keep a new watch befor",
    "permalink": "https://www.instagram.com/p/Df0qddYlB2i/",
    "timestamp": "2026-11-17T00:39:27+0000"
   },
@@ -2349,6 +2486,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "She gave him a Rolex Daytona ref. 6263 when he earned his pilot’s license. Decades later, when the couple sold",
+   "text": "She gave him a Rolex Daytona ref. 6263 when he earned his pilot’s license. Decades later, when the couple sold the watch to Paul Altieri, she still had the original papers.\n\nThis “Paul Newman” Panda is one of 134 vintage Rolex watches Paul chose to keep. Read its story in NOT FOR SALE, available at ",
    "permalink": "https://www.instagram.com/reel/DfyKIsUv1jO/",
    "timestamp": "2026-11-16T01:21:32+0000"
   },
@@ -2357,7 +2495,7 @@
    "type": "IMAGE",
    "format": "WOULD YOU RATHER",
    "lift": 2.43,
-   "likes": 1836,
+   "likes": 1837,
    "comments": 121,
    "hour": 17,
    "question": true,
@@ -2365,6 +2503,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Day-Date 40 or Day-Date 36?",
+   "text": "Day-Date 40 or Day-Date 36?\n \nThe Day-Date debuted in 1956 at 36mm and kept that size for over 50 years, until Rolex added the 41mm Day-Date II in 2008. Seven years later Rolex changed it again to 40mm. Through all of it, the 36 has never left the lineup.\n \nThe 1971 on the right adds one more differ",
    "permalink": "https://www.instagram.com/p/DfvP68uvL3X/",
    "timestamp": "2026-11-14T22:13:28+0000"
   },
@@ -2381,6 +2520,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "A Rolex with some extra toppings.",
+   "text": "A Rolex with some extra toppings.\n \nFor years, plenty of buyers didn’t want a pizza logo on their Rolex (understandably). Since 1977, Domino’s has rewarded record-breaking franchise owners with a watch. \n\nIt started when founder Tom Monaghan offered the one on his wrist to anyone who could hit $20,0",
    "permalink": "https://www.instagram.com/p/Dfs5lgMFAYm/",
    "timestamp": "2026-11-14T00:17:41+0000"
   },
@@ -2397,6 +2537,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "For years, this book has lived in my head, on my desk, and in far too many late-night conversations. Today, I ",
+   "text": "For years, this book has lived in my head, on my desk, and in far too many late-night conversations. Today, I get to put it in your hands.\n \nNOT FOR SALE: A Private Collection of Vintage Rolex Watches brings together 134 watches from my personal archive, each with its own character and story. Puttin",
    "permalink": "https://www.instagram.com/p/DfqEczagcwV/",
    "timestamp": "2026-11-12T21:54:54+0000"
   },
@@ -2413,6 +2554,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Three millimeters is a lot, if you’re a Calatrava. ",
+   "text": "Three millimeters is a lot, if you’re a Calatrava. \n\nPatek made the jump from 36mm to 39mm with the 6119 in 2021, and this white gold example was produced this year. The hobnail bezel (a name that does its beauty no favors) continued, and the dial is brushed in a way that looks dark charcoal in one ",
    "permalink": "https://www.instagram.com/p/DfnxkwslA6U/",
    "timestamp": "2026-11-12T00:31:29+0000"
   },
@@ -2429,6 +2571,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "We are excited to finally share a first look at NOT FOR SALE: A Private Collection of Vintage Rolex Watches.",
+   "text": "We are excited to finally share a first look at NOT FOR SALE: A Private Collection of Vintage Rolex Watches.\n\nThe book explores 134 exceptional timepieces from founder Paul Altieri’s private collection — along with the provenance, rarity, and character that have kept them off the market. \n\nSecure ea",
    "permalink": "https://www.instagram.com/p/Dfk2_Wnkm0T/",
    "timestamp": "2026-11-10T21:21:05+0000"
   },
@@ -2445,6 +2588,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "There’s no doubt Cartier is having a moment. ",
+   "text": "There’s no doubt Cartier is having a moment. \n \nSince 2022, searches for Cartier Santos in the US have more than doubled (searches for the Submariner grew 38%). Cartier Panthère searches have tripled in that same stretch, and the Cartier auction record has fallen twice this year at Sotheby’s: first ",
    "permalink": "https://www.instagram.com/p/DfibA11mela/",
    "timestamp": "2026-11-09T22:38:08+0000"
   },
@@ -2461,6 +2605,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "These two Tiffany dial Rolexes just arrived (breakfast not included).",
+   "text": "These two Tiffany dial Rolexes just arrived (breakfast not included).\n\nFrom the 1950s to the early 1990s, Tiffany & Co. sold Rolex watches with a double-signed dial. At first, these were done by hand at the New York City Tiffany & Co. flagship. Later they would be added by Rolex in Geneva. \n\nIf any ",
    "permalink": "https://www.instagram.com/p/Dff7jlIj6Ke/",
    "timestamp": "2026-11-08T23:24:47+0000"
   },
@@ -2477,6 +2622,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "A gold watch for people who’d rather not wear gold. ",
+   "text": "A gold watch for people who’d rather not wear gold. \n\nOn this 2024 GMT-Master II “Pepsi”, the primary tell is the blue dial, which has been reserved for this white gold ref. 126719. Pick it up (or wear it) and you’ll know this well-weighted watch is not steel. But the real question is, will anyone e",
    "permalink": "https://www.instagram.com/p/DfdGMukAbG0/",
    "timestamp": "2026-11-07T21:00:03+0000"
   },
@@ -2493,6 +2639,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "They say you never really own a Patek Philippe, you merely look after it. We’d like to think the Nautlius 3710",
+   "text": "They say you never really own a Patek Philippe, you merely look after it. We’d like to think the Nautlius 3710 puts that to the test. \n\nIntroduced in 1998, the 3710 was the first Nautilus with a complication that wasn’t a date. Collectors have nicknamed it “The Comet” for the power reserve swoosh, a",
    "permalink": "https://www.instagram.com/p/Dfa9HA1nZ5W/",
    "timestamp": "2026-11-07T01:02:09+0000"
   },
@@ -2509,6 +2656,7 @@
    "hashtags": 0,
    "licensed_audio": true,
    "first_line": "“You can buy any Rolex model you want, as long as it starts with Day and ends with Tona.” Our CEO Paul Altieri",
+   "text": "“You can buy any Rolex model you want, as long as it starts with Day and ends with Tona.” Our CEO Paul Altieri had the hard choice of choosing one modern Rolex to call his favorite. What‘s yours?",
    "permalink": "https://www.instagram.com/reel/DfYZqoDvW3X/",
    "timestamp": "2026-11-06T01:22:40+0000"
   },
@@ -2525,6 +2673,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Gold or steel? ",
+   "text": "Gold or steel? \n\nDespite sharing almost every spec, these two watches couldn’t feel more different. Most Submariners likely spend their days at desks and dinner tables, and an all gold dive watch might be too impractical for some. But whether you’re jumping in the deep end or the deep blue, sometime",
    "permalink": "https://www.instagram.com/p/DfVyxG2vst-/",
    "timestamp": "2026-11-05T01:06:04+0000"
   },
@@ -2541,6 +2690,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "This is what a 1945 Rolex grade looks like.",
+   "text": "This is what a 1945 Rolex grade looks like.\n\nIn French, German, Italian and English, it reads “especially good results,” the mark the Bienne bureau gave this Rolex ref. 4411 in December 1945. 80 years later the watch and its papers are still together. No small feat, as watches this age typically sho",
    "permalink": "https://www.instagram.com/p/DfTPnCSFcCf/",
    "timestamp": "2026-11-04T01:09:53+0000"
   },
@@ -2557,6 +2707,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "If you could only own five watches, these new arrivals would be hard to beat. Each is available now at the lin",
+   "text": "If you could only own five watches, these new arrivals would be hard to beat. Each is available now at the link in our bio.\n\nWatch featured:\n2021 Rolex Submariner “Cookie Monster” Ref. 126619LB\n\nWatch featured:\n2024 Rolex GMT-Master II “Zombie” Ref. 126718GRNR \n\nWatch featured:\n2018 Rolex Daytona Re",
    "permalink": "https://www.instagram.com/p/DfQVH7qElI5/",
    "timestamp": "2026-11-02T22:00:02+0000"
   },
@@ -2573,6 +2724,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The end of daylight saving gives us the only 25-hour day of the year. For most cities on these dials, it was j",
+   "text": "The end of daylight saving gives us the only 25-hour day of the year. For most cities on these dials, it was just another Sunday.\n \nHow many watches did you have to set back this morning?\n \nFeatured: Patek Philippe World Time ref. 5230P-001 in platinum, and the Omega Seamaster Aqua Terra Worldtimer ",
    "permalink": "https://www.instagram.com/p/DfNc1oCAWvD/",
    "timestamp": "2026-11-01T19:10:02+0000"
   },
@@ -2589,6 +2741,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The Santos de Cartier Skeleton. Dressed for Halloween every day of the year. ",
+   "text": "The Santos de Cartier Skeleton. Dressed for Halloween every day of the year. \n\n2026 Santos de Cartier Skeleton Ref. WHSA0028, 40MM. Available now at Bob’s Watches.",
    "permalink": "https://www.instagram.com/p/DfKoyJhGp1X/",
    "timestamp": "2026-10-31T16:56:41+0000"
   },
@@ -2605,6 +2758,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Whether you call them beauty marks or flaws, there is something perfect in the imperfections of a vintage watc",
+   "text": "Whether you call them beauty marks or flaws, there is something perfect in the imperfections of a vintage watch. \n\nIn an ideal world, most people would want the watch to stay as pristine as the day it left the factory. But the truth is wearing a watch means taking pride in the way it ages with each ",
    "permalink": "https://www.instagram.com/p/DfIseFMAcfk/",
    "timestamp": "2026-10-30T22:50:25+0000"
   },
@@ -2621,6 +2775,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Tudor gets to try things Rolex hasn’t, and these two are a great example. ",
+   "text": "Tudor gets to try things Rolex hasn’t, and these two are a great example. \n\nTwo Tudor Black Bays. One steel, one ceramic, and both wearing factory PVD. \n\nShould Rolex take a page from Tudor’s book?\n\nPictured: \nTudor Heritage Black Bay Ref. 79230DK PVD Steel, available now.\nTudor Black Bay Ceramic Re",
    "permalink": "https://www.instagram.com/p/DfGSct7mUZl/",
    "timestamp": "2026-10-30T00:24:34+0000"
   },
@@ -2637,6 +2792,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The Rolex Root Beer, across two generations.",
+   "text": "The Rolex Root Beer, across two generations.\n \nThe Rolex GMT-Master II “Root Beer” takes its name from the brown-and-gold bezel collectors first saw in the 1970s. The 1990 ref. 16713 stays close to that formula, pairing steel and yellow gold with a brown dial and an aluminum bezel in brown and gold.",
    "permalink": "https://www.instagram.com/p/DfDrdVIPPFu/",
    "timestamp": "2026-10-29T00:06:47+0000"
   },
@@ -2653,6 +2809,7 @@
    "hashtags": 0,
    "licensed_audio": false,
    "first_line": "Introducing 𝙉𝙊𝙏 𝙁𝙊𝙍 𝙎𝘼𝙇𝙀: 𝘼 𝙋𝙧𝙞𝙫𝙖𝙩𝙚 𝘾𝙤𝙡𝙡𝙚𝙘𝙩𝙞𝙤𝙣 𝙤𝙛 𝙑𝙞𝙣𝙩𝙖𝙜𝙚 𝙍𝙤𝙡𝙚𝙭 𝙒𝙖",
+   "text": "Introducing 𝙉𝙊𝙏 𝙁𝙊𝙍 𝙎𝘼𝙇𝙀: 𝘼 𝙋𝙧𝙞𝙫𝙖𝙩𝙚 𝘾𝙤𝙡𝙡𝙚𝙘𝙩𝙞𝙤𝙣 𝙤𝙛 𝙑𝙞𝙣𝙩𝙖𝙜𝙚 𝙍𝙤𝙡𝙚𝙭 𝙒𝙖𝙩𝙘𝙝𝙚𝙨 \n\nA rare look inside the private collection of Bob’s Watches founder Paul Altieri, featuring extraordinary vintage Rolex timepieces collected over decades.\n\nMore than a collection",
    "permalink": "https://www.instagram.com/reel/DfBAWxNPeCd/",
    "timestamp": "2026-10-27T23:16:40+0000"
   },
@@ -2669,6 +2826,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "If you’ve never owned a green dial, these new arrivals are the place to start.",
+   "text": "If you’ve never owned a green dial, these new arrivals are the place to start.\n\nRolex Submariner “Hulk” Ref. 116610LV\n\nSure to make everyone green with envy.\n\nAudemars Piguet Royal Oak Offshore Selfwinding Chronograph Ref. 26420IO.OO.A402CA.01\n\nA different shade of green for every room you walk into",
    "permalink": "https://www.instagram.com/p/De-Drx2AVXk/",
    "timestamp": "2026-10-26T19:41:37+0000"
   },
@@ -2685,6 +2843,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Timepiece of the day, the vintage Rolex Submariner Ref 5512. ",
+   "text": "Timepiece of the day, the vintage Rolex Submariner Ref 5512. \n\nThis circa 1961 classic pairs the rare glossy black dial with lume that’s aged beautifully. Seen on the wrist of Bob’s Watches Head of Vintage, brandonfrazin1680 and available now at Bob’s Watches.",
    "permalink": "https://www.instagram.com/p/De7eFn9B0Vd/",
    "timestamp": "2026-10-25T21:00:10+0000"
   },
@@ -2701,6 +2860,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "If you’ve got a sweet tooth and taste to match, this chocolate dial Daytona is for you.",
+   "text": "If you’ve got a sweet tooth and taste to match, this chocolate dial Daytona is for you.\n\nWould you wear it daily or bring it out for special occasions? Hard to keep something this beautiful tucked away. \n\nPictured: \n2026 Rolex Daytona, Ref. 126505, in 18k Everose with Chocolate Dial. 40mm.",
    "permalink": "https://www.instagram.com/p/De4eqDBmhBb/",
    "timestamp": "2026-10-24T15:41:52+0000"
   },
@@ -2717,6 +2877,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The Yacht-Master you’d wear every day, or the one you’d talk about every day?",
+   "text": "The Yacht-Master you’d wear every day, or the one you’d talk about every day?\n \nThe Yacht-Master I keeps it understated, 40mm of steel with a platinum bezel and dial. The Yacht-Master II goes the other way, a 44mm regatta chronograph that counts down, set through a bezel linked to the movement.\n \nFi",
    "permalink": "https://www.instagram.com/p/De2xwqLDzdy/",
    "timestamp": "2026-10-23T23:50:19+0000"
   },
@@ -2733,6 +2894,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Which watch has your favorite blue dial? Give us the watch—and the reason.",
+   "text": "Which watch has your favorite blue dial? Give us the watch—and the reason.\n\nThe Sartory Billard SB04-E Shanga starts with something unexpected: recycled bottles, transformed into blue glass by artisans in Arusha, Tanzania.\n\nThe finished watch carries a promise, too: €1,000 from every sale goes direc",
    "permalink": "https://www.instagram.com/p/Df-key_mymU/",
    "timestamp": "2026-11-20T20:59:36+0000"
   },
@@ -2749,6 +2911,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Does Zenith belong in the $80K conversation?",
+   "text": "Does Zenith belong in the $80K conversation?",
    "permalink": "https://www.instagram.com/p/Df5x1BVGxZh/",
    "timestamp": "2026-11-19T00:20:02+0000"
   },
@@ -2765,6 +2928,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "A $214 million Geneva auction weekend. Three jungle-themed MB&F designs. A Zenith dial signed by J.N. Shapiro.",
+   "text": "A $214 million Geneva auction weekend. Three jungle-themed MB&F designs. A Zenith dial signed by J.N. Shapiro.\n\nThere was plenty for collectors to talk about this week—and those are only a few of the stories.\n\nKathleen McGivney rounds up the new releases, industry news and events worth knowing about",
    "permalink": "https://www.instagram.com/p/Dfuej4lGza2/",
    "timestamp": "2026-11-14T15:00:04+0000"
   },
@@ -2781,6 +2945,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Antiqua DNA. About $6,000. One very odd day out.",
+   "text": "Antiqua DNA. About $6,000. One very odd day out.\n\nThe Louis Erard × Vianney Halter Futur Antérieur brings the Antiqua’s riveted portholes to a more approachable price point.\n\nJustin Mastine-Frost took it hunting for curiosities at Toronto’s St. Lawrence Antiques Market. The finds got suitably strang",
    "permalink": "https://www.instagram.com/p/DfseSXrG2O4/",
    "timestamp": "2026-11-13T20:19:09+0000"
   },
@@ -2797,6 +2962,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Miami brought the horsepower. The collectors brought the wrist checks.",
+   "text": "Miami brought the horsepower. The collectors brought the wrist checks.\n\nTime to Drive Fest’s debut put rare cars, independent watchmakers and collector culture together at Mana Wynwood.\n\nBarbara Palumbo goes inside the festival that organizers say generated more than $20 million in combined watch an",
    "permalink": "https://www.instagram.com/p/DfpTYX-m-7y/",
    "timestamp": "2026-11-12T14:46:08+0000"
   },
@@ -2813,6 +2979,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "His first chronograph. GPHG’s top prize.",
+   "text": "His first chronograph. GPHG’s top prize.\n\nRexhep Rexhepi’s Chronograph Flyback took the Aiguille d’Or—and the rest of the winners list had plenty to talk about.\n\nA melody co-written by KISS drummer Eric Singer. A diamond-set walnut with a watch hidden inside. Twenty prizes spanning very different id",
    "permalink": "https://www.instagram.com/p/DfoCUi4gDrG/",
    "timestamp": "2026-11-12T02:57:49+0000"
   },
@@ -2829,6 +2996,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "A Tudor with a Rolls-Royce. What do we think?",
+   "text": "A Tudor with a Rolls-Royce. What do we think?",
    "permalink": "https://www.instagram.com/p/DfhSGOZm7jX/",
    "timestamp": "2026-11-09T12:00:59+0000"
   },
@@ -2845,6 +3013,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Warhol’s camouflage, rebuilt in stone and gold. A tourbillon dial cut on a machine from the 1800s.",
+   "text": "Warhol’s camouflage, rebuilt in stone and gold. A tourbillon dial cut on a machine from the 1800s.\n\nAnd that’s just the start of this week in watches.\n\nFrom new releases to independent watchmaking and Geneva auction week, Kathleen McGivney brings together the stories worth catching up on.\n\nEverythin",
    "permalink": "https://www.instagram.com/p/DfdZg6em1zo/",
    "timestamp": "2026-11-07T23:48:50+0000"
   },
@@ -2861,6 +3030,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Zion’s cliffs are ancient. The dial on her wrist is older—by about four billion years.",
+   "text": "Zion’s cliffs are ancient. The dial on her wrist is older—by about four billion years.\n\nAlexandra Cheney takes Audi’s Q9 and SQ9 through Utah with a Gerald Charles Maestro 2.0 Meteorite Darkblast along for the ride.\n\nBig SUVs, tight hairpins and a very different way of thinking about time.\n\nRead the",
    "permalink": "https://www.instagram.com/p/DfXPN26m_25/",
    "timestamp": "2026-11-05T14:23:25+0000"
   },
@@ -2877,6 +3047,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Ancient Canadian stone. A watch that looks like science fiction.",
+   "text": "Ancient Canadian stone. A watch that looks like science fiction.\n\nUlysse Nardin’s Freak S Howlite brings the two together—and only 15 are being made, all for the US.\n\nWhy create a Freak just for America? Kathleen McGivney explores the new release and the 25 years of experimentation behind it.\n\nRead ",
    "permalink": "https://www.instagram.com/p/DfSU8r7m6aW/",
    "timestamp": "2026-11-03T16:37:17+0000"
   },
@@ -2893,6 +3064,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "World premieres have put Bangkok in the spotlight. The people building its watch scene are thinking generation",
+   "text": "World premieres have put Bangkok in the spotlight. The people building its watch scene are thinking generations ahead.\n\nEducation, community and a growing base of collectors are shaping the city’s next chapter.\n\nTom Vater goes inside Bangkok’s watch culture to ask what it takes to become an Asian wa",
    "permalink": "https://www.instagram.com/p/DfPQgC8G21V/",
    "timestamp": "2026-11-02T12:00:01+0000"
   },
@@ -2909,6 +3081,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "What does a Rolex service really cost? The brand has published its suggested prices and that’s only one story ",
+   "text": "What does a Rolex service really cost? The brand has published its suggested prices and that’s only one story from this past week.\n\nThere’s also a Louis Erard × Vianney Halter with two movements in one case, plus a platinum Datograph Perpetual with a bracelet to match.\n\nNew releases. Industry news. ",
    "permalink": "https://www.instagram.com/p/DfNVP_bm9rO/",
    "timestamp": "2026-11-01T18:03:43+0000"
   },
@@ -2925,6 +3098,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "When Alison Fox began collecting, gold-tone bracelet watches were the plan. Anything on a strap was easy to di",
+   "text": "When Alison Fox began collecting, gold-tone bracelet watches were the plan. Anything on a strap was easy to dismiss.\n\nA 1959 Longines from her dad changed that. Soon, she was considering vintage watches she once would have passed over—until a detail on a 1930s Omega gave her pause.\n\nNew watches. New",
    "permalink": "https://www.instagram.com/p/DfKidhlm5U5/",
    "timestamp": "2026-10-31T16:01:27+0000"
   },
@@ -2941,6 +3115,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Would you pay more for a secondhand AP if Audemars Piguet itself checked it?",
+   "text": "Would you pay more for a secondhand AP if Audemars Piguet itself checked it?\n\nThe brand’s new resale platform, The Watch Keepers, puts AP’s own experts behind pre-owned watches and gives buyers a two-year warranty.\n\nSellers pay a fee. Could that mean higher asking prices?\n\nWe break down how it works",
    "permalink": "https://www.instagram.com/p/DfDrH_qmyoI/",
    "timestamp": "2026-10-29T00:02:28+0000"
   },
@@ -2957,6 +3132,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Every hour, this piece rearranges itself.",
+   "text": "Every hour, this piece rearranges itself.\n\nThe UR-300 Time Quantum carries a design detail with roots in Harry Winston’s Opus 5, then takes its choreography somewhere new.\n\nWhat makes collectors want another Urwerk? Justin Mastine-Frost explores the mechanism and the minds behind it.\n\nTap the link i",
    "permalink": "https://www.instagram.com/p/DfA1W3TG2iJ/",
    "timestamp": "2026-10-27T21:34:09+0000"
   },
@@ -2973,6 +3149,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The first Grand Seiko. The Kodo constant-force tourbillon. Credor’s Eichi II.",
+   "text": "The first Grand Seiko. The Kodo constant-force tourbillon. Credor’s Eichi II.\n\nThree collector grails, all in one night in New York.\n\nNow swipe for the bigger question.\n\nImages: Seiko Group\n\nMaking extraordinary watches is one thing. Winning the next generation of collectors is another.\n\nHow does Se",
    "permalink": "https://www.instagram.com/p/De91hZGm9RT/",
    "timestamp": "2026-10-26T17:37:52+0000"
   },
@@ -2989,6 +3166,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "A kelp-inspired Oris. A major reset at Zenith. And plenty happening beyond the new releases.",
+   "text": "A kelp-inspired Oris. A major reset at Zenith. And plenty happening beyond the new releases.\n\nSwipe for your week in watches.\n\nPhoto: Oris.\n\nEverything You Need to Know This Week in Watches (October 19–23).\n\nNew releases. Industry news. Events to keep on your radar. It’s all in one place.\n\nTap the l",
    "permalink": "https://www.instagram.com/p/De5T08nm4lt/",
    "timestamp": "2026-10-24T23:26:29+0000"
   },
@@ -3005,6 +3183,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "A Super Bowl champion. A Swiss independent. What brought Saquon Barkley and H. Moser & Cie. together?",
+   "text": "A Super Bowl champion. A Swiss independent. What brought Saquon Barkley and H. Moser & Cie. together?\n\nSwipe for the first clue.\n\nPhoto: H. Moser & Cie.\n\n“I felt like the ‘hype’ stuff is kind of in the past.”\n\nSaquon Barkley’s priorities have changed. His taste in watches followed.\n\nCheck out the li",
    "permalink": "https://www.instagram.com/p/Dez6VACm6o7/",
    "timestamp": "2026-10-22T21:07:28+0000"
   },
@@ -3021,6 +3200,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "IWC asked artist Werner Bronkhorst to paint the sky. The result is “Engineering Dreams,” a one-off piece he pa",
+   "text": "IWC asked artist Werner Bronkhorst to paint the sky. The result is “Engineering Dreams,” a one-off piece he painted through all of August. It was shown in Berlin October 2 to 4, and IWC says it will hang in its Miami store when it reopens in spring 2027.\n\nPhoto: Werner Bronkhorst\n\nThe painting moves",
    "permalink": "https://www.instagram.com/p/Dep6NC0m38A/",
    "timestamp": "2026-10-18T23:53:58+0000"
   },
@@ -3037,6 +3217,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Patina is the name for the signs of age on a watch, like a faded bezel or a dial that has changed color after ",
+   "text": "Patina is the name for the signs of age on a watch, like a faded bezel or a dial that has changed color after years of sun and humidity. Some collectors pay more for it. In 2022, Bonhams in London sold this Omega Speedmaster from about 1960, cataloged with a “tropicalized dial,” for £19,125 with buy",
    "permalink": "https://www.instagram.com/p/DeQtO2Fk_bX/",
    "timestamp": "2026-10-09T04:59:37+0000"
   },
@@ -3053,6 +3234,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Most GMT watches track a second time zone in full hours. In Nepal, that doesn’t work. ",
+   "text": "Most GMT watches track a second time zone in full hours. In Nepal, that doesn’t work. \n\nPhoto: Tom Vater\n\nNepal runs at UTC+5:45. Only one other place on Earth uses a 45-minute offset. \n\nPhoto: Tom Vater\n\nKathmandu watch seller Ankur Jhunjhunwala says that when he travels, his GMT watch only shows a",
    "permalink": "https://www.instagram.com/p/DeMcL-uk8Ax/",
    "timestamp": "2026-10-07T13:13:42+0000"
   },
@@ -3069,6 +3251,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Everyone says the nice watch stays home on concert night. Our writer disagreed and wore a Hublot Big Bang Unic",
+   "text": "Everyone says the nice watch stays home on concert night. Our writer disagreed and wore a Hublot Big Bang Unico to Phish at the Sphere in Las Vegas. \n\nPhoto: Alexandra Cheney\n\nPetrol blue ceramic, 42mm, and a skeleton dial. Is it a lot of watch? Yes. So is a Phish show. \n\nPhoto: Hublot\n\nLook closely",
    "permalink": "https://www.instagram.com/p/DeE3r41k0dy/",
    "timestamp": "2026-10-04T14:40:04+0000"
   },
@@ -3085,6 +3268,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Inside two months the industry produced the reboot of Gallet, a Blancpain Bathyscaphe anniversary edition, and",
+   "text": "Inside two months the industry produced the reboot of Gallet, a Blancpain Bathyscaphe anniversary edition, and a 50th anniversary tribute to the IWC Ingenieur SL. Justin Mastine-Frost asked the obvious question. Talk to one collector and heritage means history with modern reliability. Talk to the ne",
    "permalink": "https://www.instagram.com/p/Dd0XBokk50e/",
    "timestamp": "2026-09-28T04:46:50+0000"
   },
@@ -3101,6 +3285,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Alexandra Cheney had it on good authority that swell was coming. Point Conception and the Channel Islands bloc",
+   "text": "Alexandra Cheney had it on good authority that swell was coming. Point Conception and the Channel Islands block most of what tries to reach Santa Barbara, but somewhere in the hundred plus miles of coast between southern Los Angeles and the Ritz Carlton Bacara there had to be something. Longboards w",
    "permalink": "https://www.instagram.com/p/Ddp_15pE-j5/",
    "timestamp": "2026-09-24T04:11:51+0000"
   },
@@ -3117,6 +3302,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Alison Fox went to Portobello Road with a specific plan. There is a table there covered in no name watches, ev",
+   "text": "Alison Fox went to Portobello Road with a specific plan. There is a table there covered in no name watches, every colour you can think of, priced at almost nothing. She had seen it a year earlier when she was just starting out, and she had come back to buy one.\n\nPhoto: Alison Fox\n\nThe day before, in",
    "permalink": "https://www.instagram.com/p/Ddn2j3gE-SG/",
    "timestamp": "2026-09-23T08:12:16+0000"
   },
@@ -3133,6 +3319,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Roughly a thousand people around the world get a vote on watchmaking’s biggest prize. Exactly one of them live",
+   "text": "Roughly a thousand people around the world get a vote on watchmaking’s biggest prize. Exactly one of them lives in Nepal.\n\nPhoto: Tom Vater\n\nHis name is Ankur Jhunjhunwala, and he joined the GPHG Academy in 2024. His family has been selling watches in Kathmandu since 1962, which is the part of the s",
    "permalink": "https://www.instagram.com/p/DdlCc5yk9_D/",
    "timestamp": "2026-09-22T05:58:27+0000"
   },
@@ -3149,6 +3336,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "A Forest Green Rivian R1T. Three motors, 850 horsepower, an EPA rating of 371 miles. Bozeman to the Ranch at R",
+   "text": "A Forest Green Rivian R1T. Three motors, 850 horsepower, an EPA rating of 371 miles. Bozeman to the Ranch at Rock Creek, through the mountain passes of western Montana, in February.\n\nThe ranch runs to 6,600 acres and works as both a cattle operation and a guest ranch, open year round. It has held a ",
    "permalink": "https://www.instagram.com/p/DdgdH1YEzHB/",
    "timestamp": "2026-09-20T11:15:18+0000"
   },
@@ -3165,6 +3353,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Padellone means big frying pan. Italian collectors gave that name to the reference 8171, because at 38mm it wa",
+   "text": "Padellone means big frying pan. Italian collectors gave that name to the reference 8171, because at 38mm it was enormous for 1949. Rolex built around a thousand, stopped in 1953, and never used the word itself.\n\nThis week Rolex used it.\n\nThe Perpetual Padellone is an annual calendar with a moonphase",
    "permalink": "https://www.instagram.com/p/DdeNAT_kzFc/",
    "timestamp": "2026-09-19T14:15:59+0000"
   },
@@ -3181,6 +3370,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "The State of Geneva created the Poinçon de Genève 140 years ago. Since a 2011 overhaul it covers chronometric ",
+   "text": "The State of Geneva created the Poinçon de Genève 140 years ago. Since a 2011 overhaul it covers chronometric precision and the working of the finished watch, not only the craftsmanship.\n\nWhat it actually demands is beauty in places nobody will ever look. Every component down to a pin, a screw or a ",
    "permalink": "https://www.instagram.com/p/DdXo3Sik-fp/",
    "timestamp": "2026-09-17T01:04:44+0000"
   },
@@ -3197,6 +3387,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "Several intruders entered the Ulysse Nardin manufacture at 3 Rue du Jardin at around 3 a.m. on September 14, f",
+   "text": "Several intruders entered the Ulysse Nardin manufacture at 3 Rue du Jardin at around 3 a.m. on September 14, forced open the display cases in its museum and left with part of the collection.\n\nAn alarm did trigger. A private security firm attended and could not find the point of entry. The theft was ",
    "permalink": "https://www.instagram.com/p/DdVBwfyE8Qt/",
    "timestamp": "2026-09-16T00:44:32+0000"
   },
@@ -3205,7 +3396,7 @@
    "type": "CAROUSEL",
    "format": "WOULD YOU RATHER",
    "lift": 0.4,
-   "likes": 665,
+   "likes": 678,
    "comments": 3,
    "hour": 10,
    "question": true,
@@ -3213,6 +3404,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Gifting for two this year? 🎁",
+   "text": "Gifting for two this year? 🎁\n\nHis, hers, and a little bit of both. We’ve paired watches for him and her, from a pink Grand Seiko and a Bvlgari Tubogas to a Submariner and Lady-Datejust that share the same crown.\n\nSwipe through four holiday pairs. Which one would you choose for the two of you?\n\n#chr",
    "permalink": "https://www.instagram.com/p/DgAhOMnDBD5/",
    "timestamp": "2026-11-21T15:09:39+0000"
   },
@@ -3221,7 +3413,7 @@
    "type": "CAROUSEL",
    "format": "HISTORY",
    "lift": 0.14,
-   "likes": 234,
+   "likes": 236,
    "comments": 3,
    "hour": 4,
    "question": true,
@@ -3229,6 +3421,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "5 weeks. 5 brands. 5 stories.",
+   "text": "5 weeks. 5 brands. 5 stories.\nWeek four of our journey into independent watchmaking, and this week the spotlight is on dwisswatch !\nA different perspective on telling time, and another story worth discovering.\nOne more week. One more brand. Any guesses who’s closing the series? 🤔\n#Chrono24 #DWISS #",
    "permalink": "https://www.instagram.com/p/Df9V8I1Aqw_/",
    "timestamp": "2026-11-20T09:33:18+0000"
   },
@@ -3237,7 +3430,7 @@
    "type": "CAROUSEL",
    "format": "MARKET",
    "lift": 0.64,
-   "likes": 1062,
+   "likes": 1063,
    "comments": 13,
    "hour": 9,
    "question": true,
@@ -3245,6 +3438,7 @@
    "hashtags": 11,
    "licensed_audio": null,
    "first_line": "Some watches make a statement through their design, others through their heritage. But sometimes, you might be",
+   "text": "Some watches make a statement through their design, others through their heritage. But sometimes, you might be surprised by how much style you can find at a different price point. Here are four pairings that bring together iconic designs and interesting alternatives. ✨⌚\n\n1️⃣ Rolex Yacht-Master vs. T",
    "permalink": "https://www.instagram.com/p/Df4vo58iPa-/",
    "timestamp": "2026-11-18T14:41:46+0000"
   },
@@ -3261,6 +3455,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "New Bond, new watch? 🍸 ",
+   "text": "New Bond, new watch? 🍸 \n\nWith a new actor taking on the role, we couldn’t resist picking a few watches that would suit a modern Bond, from elegant classics to tool watches made for the next mission.\n\nSwipe through our five picks.\n\nWhich one would you choose, or is there a watch you think Bond shoul",
    "permalink": "https://www.instagram.com/p/Df2H-evG_zH/",
    "timestamp": "2026-11-17T14:16:53+0000"
   },
@@ -3269,7 +3464,7 @@
    "type": "CAROUSEL",
    "format": "OTHER",
    "lift": 2.51,
-   "likes": 4210,
+   "likes": 4211,
    "comments": 27,
    "hour": 9,
    "question": true,
@@ -3277,6 +3472,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "That moment when a watch matches the whole vibe without even trying. 🩶💛💚",
+   "text": "That moment when a watch matches the whole vibe without even trying. 🩶💛💚\nWe’re so used to seeing the Seamaster in blue that this green version feels like a breath of fresh air. And those gold accents? Such a nice touch. 🤌\n\nWould you take this over the blue version? 👇\n\n📸: watch.tommy\n\n#chrono24",
    "permalink": "https://www.instagram.com/p/DfzhWYsm3xb/",
    "timestamp": "2026-11-16T14:00:49+0000"
   },
@@ -3285,7 +3481,7 @@
    "type": "CAROUSEL",
    "format": "WOULD YOU RATHER",
    "lift": 3.27,
-   "likes": 5454,
+   "likes": 5457,
    "comments": 45,
    "hour": 9,
    "question": true,
@@ -3293,6 +3489,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Not every Cartier has to be a Santos or a Tank. ☺️",
+   "text": "Not every Cartier has to be a Santos or a Tank. ☺️\nThe Roadster has its own thing going on, especially with that deep blue dial and the chunky steel case. 💙\n\nWould you wear this on the rubber strap or go for steel? 👇\n\n📸: watch.tommy\n\n#chrono24 #cartier #cartierroadster #watchcommunity",
    "permalink": "https://www.instagram.com/p/Dfw8q7QGz1S/",
    "timestamp": "2026-11-15T14:01:50+0000"
   },
@@ -3309,6 +3506,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Looking for the perfect gift?",
+   "text": "Looking for the perfect gift?\n\nFrom timeless classics to unexpected favorites, these were some of the watches that made it under the Christmas tree last year.\n\nWhich one would you love to unwrap this Christmas? 🎄\n\n#Chrono24 #GiftGuide #ChristmasWishlist #WatchLovers #LuxuryWatches",
    "permalink": "https://www.instagram.com/p/DfujNftG7zY/",
    "timestamp": "2026-11-14T15:40:53+0000"
   },
@@ -3325,6 +3523,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "During our Leica x Chrono24 workshop, participants learned how to capture the perfect watch shot. Now it's tim",
+   "text": "During our Leica x Chrono24 workshop, participants learned how to capture the perfect watch shot. Now it's time to see their skills in action!\n\nSwipe through some of the amazing shots they captured →\n\nWant to improve your own watch photography? Watch the full tutorial on our YouTube channel. Link in",
    "permalink": "https://www.instagram.com/p/Dfry6I6CDni/",
    "timestamp": "2026-11-13T14:00:41+0000"
   },
@@ -3341,6 +3540,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "5 weeks. 5 brands. 5 stories.",
+   "text": "5 weeks. 5 brands. 5 stories.\n\nHalfway through our journey into independent watchmaking, and this week the spotlight is on maenwatches!\n\nAnother brand with its own approach to watchmaking, and another story worth discovering.\n\n2 more weeks, 2 more brands. Any guesses who's next? 🤔\n\n#chrono24 #MAEN ",
    "permalink": "https://www.instagram.com/p/DfpQ7PhCEhY/",
    "timestamp": "2026-11-12T14:25:00+0000"
   },
@@ -3357,6 +3557,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "One wrist, two gold Speedmasters, and no easy way to choose. 😊",
+   "text": "One wrist, two gold Speedmasters, and no easy way to choose. 😊\nThe black dial brings a sporty edge, while the white dial and burgundy bezel add a different kind of character.\n\nWhich one catches your eye? 😍👇\n\n📸: rjbroer\n\n#chrono24 #omegaspeedmaster #speedytuesday #watchenthusiast",
    "permalink": "https://www.instagram.com/p/DfkI9eGiM_g/",
    "timestamp": "2026-11-10T14:39:05+0000"
   },
@@ -3365,7 +3566,7 @@
    "type": "REEL",
    "format": "OTHER",
    "lift": 0.84,
-   "likes": 1381,
+   "likes": 1382,
    "comments": 20,
    "hour": 9,
    "question": true,
@@ -3373,6 +3574,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "Green might not be the first colour that comes to mind when you think of the Royal Oak, but this one makes a p",
+   "text": "Green might not be the first colour that comes to mind when you think of the Royal Oak, but this one makes a pretty convincing case. 😮‍💨\nThat khaki Grande Tapisserie dial against the stainless steel is a combination that’s hard to ignore.\n\nWhat’s your take on this piece? Let us know below. 👇☺️\n\n\ud83c",
    "permalink": "https://www.instagram.com/reel/DfhiMmjTWxX/",
    "timestamp": "2026-11-09T14:22:35+0000"
   },
@@ -3381,7 +3583,7 @@
    "type": "CAROUSEL",
    "format": "WOULD YOU RATHER",
    "lift": 1.73,
-   "likes": 2879,
+   "likes": 2881,
    "comments": 25,
    "hour": 9,
    "question": true,
@@ -3389,6 +3591,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Socks? No thanks. Chocolates? We're good. Another watch? Now we're talking. 🎄",
+   "text": "Socks? No thanks. Chocolates? We're good. Another watch? Now we're talking. 🎄\n\nWe picked 5 watches so your girlfriend (or Santa) doesn't have to guess. Consider this your sign to send a VERY subtle hint. 👀\n\nWhich one is on your Christmas wishlist?\n\n#Chrono24 #ChristmasWishlist #GiftGuide #WatchLov",
    "permalink": "https://www.instagram.com/p/DfZ3luoCFiw/",
    "timestamp": "2026-11-06T14:54:46+0000"
   },
@@ -3405,6 +3608,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "5 weeks. 5 brands. 5 stories.",
+   "text": "5 weeks. 5 brands. 5 stories.\n\nWeek 2 is here! Meet airain, another independent watch brand worth discovering.\n\nAnd we’re just getting started! 3 more brands are coming over the next 3 weeks.\n\nExplore independent brands on the Chrono24 website and stay tuned to discover who’s next!\n\n#Chrono24 #Airai",
    "permalink": "https://www.instagram.com/p/DfXMi9JiNX3/",
    "timestamp": "2026-11-05T14:00:11+0000"
   },
@@ -3421,6 +3625,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "Some watches tell the time. Others make you stop and watch how they do it. 🤔",
+   "text": "Some watches tell the time. Others make you stop and watch how they do it. 🤔\nThe Duomètre is definitely in the second category. 😍\n\nWould you spend more time looking at the movement or the dial? 👇\n\n🎥: chadwatches\n\n#chrono24 #jaegerlecoultre #tourbillon #luxurywatches",
    "permalink": "https://www.instagram.com/reel/DfUg4VrI2gc/",
    "timestamp": "2026-11-04T13:01:00+0000"
   },
@@ -3429,7 +3634,7 @@
    "type": "CAROUSEL",
    "format": "OTHER",
    "lift": 3.49,
-   "likes": 5820,
+   "likes": 5821,
    "comments": 53,
    "hour": 7,
    "question": false,
@@ -3437,6 +3642,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Some watches reveal more the closer you look. 🤔",
+   "text": "Some watches reveal more the closer you look. 🤔\nA few details from this magnificent Speedmaster, captured from every angle. 🤌\n\nSwipe through and tell us which detail catches your eye. 👇\n\n📷: centralseconds\n\n#chrono24 #omegaspeedmaster #speedytuesday #moonwatch",
    "permalink": "https://www.instagram.com/p/DfR4HyeiMC0/",
    "timestamp": "2026-11-03T12:25:46+0000"
   },
@@ -3453,6 +3659,7 @@
    "hashtags": 8,
    "licensed_audio": true,
    "first_line": "Have you ever heard of a school watch? 👀",
+   "text": "Have you ever heard of a school watch? 👀\n\nIn this episode of Watch Talk, we sit down with Heist Out to explore their personal watch collection, the stories behind their favorite pieces, and what makes watch culture so special.\n\nWatch the full episode on Chrono24’s YouTube channel.\n\n#Chrono24 #Watch",
    "permalink": "https://www.instagram.com/reel/DfKUlxeNc29/",
    "timestamp": "2026-10-31T14:02:13+0000"
   },
@@ -3469,6 +3676,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "The Santos and Tank have been doing their own thing for decades, and neither needs much introduction. 🥰",
+   "text": "The Santos and Tank have been doing their own thing for decades, and neither needs much introduction. 🥰\n\nOne stands out with its bold shape, sharp lines and signature screws. The other keeps it simple with a clean, rectangular dial and timeless design. Two very different looks, both unmistakably Ca",
    "permalink": "https://www.instagram.com/p/DfFmb9yF3ST/",
    "timestamp": "2026-10-29T18:00:02+0000"
   },
@@ -3485,6 +3693,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "5 weeks. 5 brands. 5 stories.",
+   "text": "5 weeks. 5 brands. 5 stories.\n\nWe’re bringing you a new independent watch brand to discover every week. First up: fearswatches \n\nExplore independent brands on the Chrono24 website, and join us here every week to get to know another name in watchmaking.\n\n#Chrono24 #Fears #FearsWatches #IndependentWat",
    "permalink": "https://www.instagram.com/p/DfE2YHIgIDV/",
    "timestamp": "2026-10-29T11:00:04+0000"
   },
@@ -3501,6 +3710,7 @@
    "hashtags": 8,
    "licensed_audio": true,
    "first_line": "🖤💛 Beast Mode Speedy - the Dark Side of the Moon in ceramic. What do you think of this Speedmaster variant? ",
+   "text": "🖤💛 Beast Mode Speedy - the Dark Side of the Moon in ceramic. What do you think of this Speedmaster variant? Top 👍🏻 or Flop? 👎🏻\n\n🎥: zeitauktion\n\n#chrono24 #omega #omegaspeedmaster #fyp #explore #watches #speedy #chrono24",
    "permalink": "https://www.instagram.com/reel/DfAEqkpqiXb/",
    "timestamp": "2026-10-27T14:29:53+0000"
   },
@@ -3517,6 +3727,7 @@
    "hashtags": 11,
    "licensed_audio": null,
    "first_line": "Great style doesn’t come with one price tag. These four pairings share the same look at very different budgets",
+   "text": "Great style doesn’t come with one price tag. These four pairings share the same look at very different budgets.\n\n1️⃣ Rolex 1908 vs. NOMOS Club Campus\n2️⃣ Patek Philippe Calatrava vs. Baltic MR01\n3️⃣ Omega Seamaster Diver 300M vs. Mido Ocean Star\n4️⃣ Tudor Ranger vs. Seiko Alpinist\n\nWhich one would y",
    "permalink": "https://www.instagram.com/p/De9r9J3m5Vm/",
    "timestamp": "2026-10-26T16:14:31+0000"
   },
@@ -3533,6 +3744,7 @@
    "hashtags": 6,
    "licensed_audio": null,
    "first_line": "The dial everyone recognises from across the room vs. the dial you need to see in person to believe. ⚪🌳",
+   "text": "The dial everyone recognises from across the room vs. the dial you need to see in person to believe. ⚪🌳\n\nRolex Datejust for the fluted bezel, the Oyster bracelet, and a face that's instantly Rolex. Grand Seiko White Birch for a dial textured like birch bark from the forests around Shinshu, and fini",
    "permalink": "https://www.instagram.com/p/De66ZDFiA23/",
    "timestamp": "2026-10-25T14:22:48+0000"
   },
@@ -3549,6 +3761,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "Not every great watch needs a black dial and a sporty bracelet. 😉",
+   "text": "Not every great watch needs a black dial and a sporty bracelet. 😉\nThis Zenith brings a different kind of charm, with its calendar displays, moonphase and unmistakably classic look.\n\nCould you see this in your collection? 😍👇\n\n🎥IG: aleksmladenovic\n\n#chrono24 #zenithwatches #elprimero #watchcommuni",
    "permalink": "https://www.instagram.com/reel/De4NHp7IjJJ/",
    "timestamp": "2026-10-24T13:09:54+0000"
   },
@@ -3565,6 +3778,7 @@
    "hashtags": 9,
    "licensed_audio": true,
    "first_line": "A look back at an evening of watches and photography at the Leica Store Frankfurt 📸",
+   "text": "A look back at an evening of watches and photography at the Leica Store Frankfurt 📸\n\nPhotographer Kristian Dowling shared his tips for taking better watch photos. Thanks to everyone who joined us!\n\n#WatchPhotography #WatchCommunity #WatchLovers #WatchPhotographyTips #Leica #LeicaStoreFrankfurt #Pho",
    "permalink": "https://www.instagram.com/reel/De4MKGjSzEE/",
    "timestamp": "2026-10-24T13:01:03+0000"
   },
@@ -3581,6 +3795,7 @@
    "hashtags": 0,
    "licensed_audio": true,
    "first_line": "Fueled by a shared passion for watches, cars, and the thrill of the drive, the Hanhart 417 ES × 0260 & BAIT ha",
+   "text": "Fueled by a shared passion for watches, cars, and the thrill of the drive, the Hanhart 417 ES × 0260 & BAIT has officially crossed the starting line.\n\nAvailable exclusively on Chrono24 for the next 24 hours.\n\nThe clock is ticking. Don't miss your chance to get yours through the link in bio.",
    "permalink": "https://www.instagram.com/reel/De1uP8SmP-8/",
    "timestamp": "2026-10-23T14:01:25+0000"
   },
@@ -3597,6 +3812,7 @@
    "hashtags": 7,
    "licensed_audio": null,
    "first_line": "White dials are great. But Cartier in colour hits different. 🎨⌚️",
+   "text": "White dials are great. But Cartier in colour hits different. 🎨⌚️\n\nThese aren't your average white dials. Five Cartier references, five bold colour stories, all backed by our marketplace data. 📊\n\nSwipe through and tell us which colour would you wear? 👇\n\nLink in bio for more on different Cartier di",
    "permalink": "https://www.instagram.com/p/DezF-rwle3e/",
    "timestamp": "2026-10-22T13:30:05+0000"
   },
@@ -3613,6 +3829,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "Day, date, month, and moonphase, all in one beautifully balanced dial. 😍",
+   "text": "Day, date, month, and moonphase, all in one beautifully balanced dial. 😍\nThis is the charm of a Patek Philippe Annual Calendar.\n\nCould this be your one watch choice? 👇\n\n🎥: aleksmladenovic\n\n#chrono24 #patekphilippe #annualcalendar #moonphase",
    "permalink": "https://www.instagram.com/reel/DexHPs5FFum/",
    "timestamp": "2026-10-21T19:03:35+0000"
   },
@@ -3629,6 +3846,7 @@
    "hashtags": 9,
    "licensed_audio": true,
    "first_line": "Sometimes, just a glance at your watch can take you somewhere else. 🕰️",
+   "text": "Sometimes, just a glance at your watch can take you somewhere else. 🕰️\n\nThe Reverso Tribute Geographic does exactly that: classic time and date on one side, and a second time zone with a day/night indicator on the other - perfect for those who live between worlds. ✈️\nIts reversible case isn’t just ",
    "permalink": "https://www.instagram.com/reel/DeweA32EYIZ/",
    "timestamp": "2026-10-21T13:03:37+0000"
   },
@@ -3645,6 +3863,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "There’s something about a Speedmaster in black and white. ⚫️⚪️",
+   "text": "There’s something about a Speedmaster in black and white. ⚫️⚪️\nFrom the crisp subdials to the brushed bracelet, every detail feels right in this setting.\n\nWould you wear this one? 👇\n\n📸: dowoo1950\n\n#chrono24 #omegaspeedmaster #speedytuesday #watchenthusiast",
    "permalink": "https://www.instagram.com/p/Deucudem3p-/",
    "timestamp": "2026-10-20T18:12:38+0000"
   },
@@ -3661,6 +3880,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "The golden age of Hollywood meets the spirit of racing. Discover the Hanhart 417 ES × 0260 & BAIT, bringing mo",
+   "text": "The golden age of Hollywood meets the spirit of racing. Discover the Hanhart 417 ES × 0260 & BAIT, bringing motorsport heritage and timeless design to the wrist.\n\nTwo versions, available exclusively on Chrono24 for 24 hours starting October 23.\n\nExplore the full story in Chrono24 Magazine. Link in b",
    "permalink": "https://www.instagram.com/p/Det3j86GwfJ/",
    "timestamp": "2026-10-20T12:47:55+0000"
   },
@@ -3677,6 +3897,7 @@
    "hashtags": 7,
    "licensed_audio": null,
    "first_line": "Timeless style with a cozy autumn touch. 🍁",
+   "text": "Timeless style with a cozy autumn touch. 🍁\nThe Cartier Santos 100 XL paired with a warm leather strap - the perfect match for the season.\n\nWould you wear this combo? Let us know in the comments! 👇\n\n#chrono24 #cartier #santos #leatherstrap #cartiersantos #santos100xl #autumnvibes",
    "permalink": "https://www.instagram.com/p/DehBRsWG50l/",
    "timestamp": "2026-10-15T13:02:39+0000"
   },
@@ -3693,6 +3914,7 @@
    "hashtags": 8,
    "licensed_audio": null,
    "first_line": "Saturday's The ABCs of Time: The Watches of James Bond, The Complete Guide to Every Watch Worn by 007",
+   "text": "Saturday's The ABCs of Time: The Watches of James Bond, The Complete Guide to Every Watch Worn by 007\n\nFrom Sean Connery's iconic Rolex Submariner to Daniel Craig's titanium Omega Seamaster, watches have been part of James Bond's identity (and equipment kit) for more than six decades. \n\nBut 007's on",
    "permalink": "https://www.instagram.com/p/DgAgzhODR9d/",
    "timestamp": "2026-11-21T15:05:02+0000"
   },
@@ -3700,8 +3922,8 @@
    "handle": "monochromewatches",
    "type": "CAROUSEL",
    "format": "OTHER",
-   "lift": 1.2,
-   "likes": 384,
+   "lift": 1.21,
+   "likes": 387,
    "comments": 3,
    "hour": 6,
    "question": false,
@@ -3709,6 +3931,7 @@
    "hashtags": 7,
    "licensed_audio": null,
    "first_line": "Petermann Bédat Reference 2914: A Traditional Chronograph, Reimagined",
+   "text": "Petermann Bédat Reference 2914: A Traditional Chronograph, Reimagined\n\nThe very recent Petermann Bédat petermann_bedat Reference 2914 is the hand-wound calibre 234, an evolution of the movement developed for the duo’s Reference 2941 split-seconds chronograph. \n\nWith the rattrapante mechanism removed",
    "permalink": "https://www.instagram.com/p/DgAKjzQjV7x/",
    "timestamp": "2026-11-21T11:51:01+0000"
   },
@@ -3716,8 +3939,8 @@
    "handle": "monochromewatches",
    "type": "CAROUSEL",
    "format": "OTHER",
-   "lift": 0.87,
-   "likes": 280,
+   "lift": 0.88,
+   "likes": 282,
    "comments": 2,
    "hour": 4,
    "question": false,
@@ -3725,6 +3948,7 @@
    "hashtags": 7,
    "licensed_audio": null,
    "first_line": "Return of a Classic Complication",
+   "text": "Return of a Classic Complication\n\nThe latest moserwatches Heritage Chronograph White Fumé comes in the collection’s vintage-inspired 42mm case with a classic bi-compax display. \n\nThe stainless steel case measures 13.8mm thick and frames a sunray-brushed silver dial with a subtle fumé edge, large Ara",
    "permalink": "https://www.instagram.com/p/Df_28TFDWnd/",
    "timestamp": "2026-11-21T09:00:04+0000"
   },
@@ -3733,7 +3957,7 @@
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
    "lift": 0.81,
-   "likes": 254,
+   "likes": 256,
    "comments": 4,
    "hour": 12,
    "question": false,
@@ -3741,6 +3965,7 @@
    "hashtags": 9,
    "licensed_audio": null,
    "first_line": "A Worldtimer to Make Daylight Saving Time Simple",
+   "text": "A Worldtimer to Make Daylight Saving Time Simple\n\nmingwatches recently released the 57.05 Comet, a worldtimer designed around a detail often overlooked: daylight saving time. \n\nIts patent-pending bezel system distinguishes cities that observe DST from those that do not,offering a feasible resolution",
    "permalink": "https://www.instagram.com/p/Df-M13PjexJ/",
    "timestamp": "2026-11-20T17:33:02+0000"
   },
@@ -3749,7 +3974,7 @@
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
    "lift": 1.07,
-   "likes": 338,
+   "likes": 340,
    "comments": 5,
    "hour": 9,
    "question": false,
@@ -3757,6 +3982,7 @@
    "hashtags": 7,
    "licensed_audio": null,
    "first_line": "Dive with the Seiko Marinemaster Save the Ocean",
+   "text": "Dive with the Seiko Marinemaster Save the Ocean\n\nseikowatchofficial brings its Save the Ocean treatment to the latest Marinemaster 1968 Heritage, introducing the limited-edition HBF003. \n\nIts sunray-brushed green dial takes inspiration from Okinawa’s coastal mangrove forests, while a rose gold-colou",
    "permalink": "https://www.instagram.com/p/Df91I3CDWmU/",
    "timestamp": "2026-11-20T14:05:02+0000"
   },
@@ -3764,7 +3990,7 @@
    "handle": "monochromewatches",
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
-   "lift": 0.45,
+   "lift": 0.44,
    "likes": 137,
    "comments": 4,
    "hour": 6,
@@ -3773,6 +3999,7 @@
    "hashtags": 7,
    "licensed_audio": null,
    "first_line": "A Field Watch in Alpine Twilight",
+   "text": "A Field Watch in Alpine Twilight\n\ncimierwatches puts new colour on the dial of its accessible 47° North field watch with the Purple Dusk edition. \n\nInspired by the last light over the Swiss Alps, the gradient purple dial retains the grained texture of the existing models, with Arabic numerals and ba",
    "permalink": "https://www.instagram.com/p/Df9gf0JjXTP/",
    "timestamp": "2026-11-20T11:05:02+0000"
   },
@@ -3789,6 +4016,7 @@
    "hashtags": 8,
    "licensed_audio": null,
    "first_line": "A Blacked-Out, Compact Brellum Chronograph",
+   "text": "A Blacked-Out, Compact Brellum Chronograph\n\nbrellum_swiss_watchmaking adds a more compact format to its aviation-inspired Pilot collection with the new Pilot 39 Power Reserve Black DLC Chronometer. \n\nIts 39mm Duobox stainless steel case is coated in black DLC and paired with a matching bracelet, whi",
    "permalink": "https://www.instagram.com/p/Df9L8HIDdlM/",
    "timestamp": "2026-11-20T08:05:02+0000"
   },
@@ -3805,6 +4033,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Thursday's Reftresher: Daniel Roth Tourbillon Rose Gold, A Modern Classic Revisited",
+   "text": "Thursday's Reftresher: Daniel Roth Tourbillon Rose Gold, A Modern Classic Revisited\n\nThe Daniel Roth danielrothofficial Tourbillon Rose Gold (2024) was an important step in reviving the watchmaker’s eponymous brand. \n\nThe model's roots lie in the Tourbillon C187, one of the defining watches of Danie",
    "permalink": "https://www.instagram.com/p/Df7rltkIBGZ/",
    "timestamp": "2026-11-19T17:30:01+0000"
   },
@@ -3813,7 +4042,7 @@
    "type": "CAROUSEL",
    "format": "OTHER",
    "lift": 1.33,
-   "likes": 423,
+   "likes": 424,
    "comments": 4,
    "hour": 9,
    "question": false,
@@ -3821,6 +4050,7 @@
    "hashtags": 9,
    "licensed_audio": null,
    "first_line": "A Rugged Diver with a GMT",
+   "text": "A Rugged Diver with a GMT\n\nThe panerai Submersible Marina Militare GMT PAM01758 is robust, military-inspired dive watch, now with a useful complication. \n\nIts 42mm brushed stainless steel case features a black ceramic unidirectional bezel and a textured matte black dial, with beige Super-LumiNova ad",
    "permalink": "https://www.instagram.com/p/Df7TJPyjSHe/",
    "timestamp": "2026-11-19T14:30:02+0000"
   },
@@ -3837,6 +4067,7 @@
    "hashtags": 9,
    "licensed_audio": null,
    "first_line": "A Darker Take on Three Glashütte Classics",
+   "text": "A Darker Take on Three Glashütte Classics\n\nnomos_glashuette took its signature designs and added a more formal character with the new Noir Series. \n\nThe Tangente 33, Ludwig 33 and Tetra 27 retain their compact proportions and clean German design, but trade their traditional silver-plated dials for b",
    "permalink": "https://www.instagram.com/p/Df6_I2Xjc7F/",
    "timestamp": "2026-11-19T11:35:01+0000"
   },
@@ -3853,6 +4084,7 @@
    "hashtags": 9,
    "licensed_audio": false,
    "first_line": "Doraemon Takes Flight with Oris",
+   "text": "Doraemon Takes Flight with Oris\n\noris is clearly enjoying its pop-culture collaborations, and we’re not complaining. After Kermit, Miss Piggy and Gonzo, the brand welcomes Doraemon, the beloved blue robotic cat from the 22nd century.\n \nThis time, the character lands on the Big Crown Pointer Date, dr",
    "permalink": "https://www.instagram.com/reel/Df6nFkCBDCA/",
    "timestamp": "2026-11-19T08:05:06+0000"
   },
@@ -3860,8 +4092,8 @@
    "handle": "monochromewatches",
    "type": "REEL",
    "format": "NEW RELEASES",
-   "lift": 4.31,
-   "likes": 1341,
+   "lift": 4.3,
+   "likes": 1342,
    "comments": 30,
    "hour": 2,
    "question": false,
@@ -3869,6 +4101,7 @@
    "hashtags": 5,
    "licensed_audio": false,
    "first_line": "A Complicated Watch, a Surprisingly Accessible Price",
+   "text": "A Complicated Watch, a Surprisingly Accessible Price\n \nfrederiqueconstant continues to make high complications more accessible (relatively, of course) with the new Classic Tourbillon Perpetual Calendar Manufacture.\n \nThis latest edition combines the two complications in a compact 40mm stainless stee",
    "permalink": "https://www.instagram.com/reel/Df6gxVvBIS9/",
    "timestamp": "2026-11-19T07:00:27+0000"
   },
@@ -3885,6 +4118,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Wednesday’s Brand Intro: Awake",
+   "text": "Wednesday’s Brand Intro: Awake\n \nAwake is a French indie brand awakeconcept, founded in 2019 by Lilian Thibault lilianawake, who set out to explore a responsible approach to watchmaking with alternative materials and a thoughtful production process.\n \n#watchcollecting #watchfam #watchcollector #MONO",
    "permalink": "https://www.instagram.com/p/Df5Cbkgjc8O/",
    "timestamp": "2026-11-18T17:25:01+0000"
   },
@@ -3901,6 +4135,7 @@
    "hashtags": 6,
    "licensed_audio": null,
    "first_line": "A Translucent Take on the Time Pyramid ",
+   "text": "A Translucent Take on the Time Pyramid \n\narnoldandson offers two new versions of its distinctive Time Pyramid, both featuring translucent natural agate, and both limited to 8 pieces. \n\nHoused in 42.5mm cases of 18k red gold or platinum, the watches pair red or blue agate accents with the collection’",
    "permalink": "https://www.instagram.com/p/Df41uGCDckJ/",
    "timestamp": "2026-11-18T15:34:48+0000"
   },
@@ -3917,6 +4152,7 @@
    "hashtags": 6,
    "licensed_audio": null,
    "first_line": "A Different Kind of Dress Watch",
+   "text": "A Different Kind of Dress Watch\n\nalbishorn_watches stepped away from its familiar chronograph territory with the Voisin Aerosport, a dress watch shaped by the streamlined automotive design of Gabriel Voisin’s C28.\n\nThe 38mm stainless steel case is anything but conventional. Its stepped construction ",
    "permalink": "https://www.instagram.com/p/Df4X6s8De1H/",
    "timestamp": "2026-11-18T11:14:17+0000"
   },
@@ -3933,6 +4169,7 @@
    "hashtags": 8,
    "licensed_audio": null,
    "first_line": "The Slim Yema Senans Grand Lune CMM.22",
+   "text": "The Slim Yema Senans Grand Lune CMM.22\n\nyema_watches has just launched the Senans, a new collection, with its first moonphase watch. \n\nDrawing on the styling of mid-century dress watches, the new model pairs a slim profile with an unusual, luminous interpretation of the lunar cycle.\n\nThe stainless s",
    "permalink": "https://www.instagram.com/p/Df4FgnODWrL/",
    "timestamp": "2026-11-18T08:33:02+0000"
   },
@@ -3941,7 +4178,7 @@
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
    "lift": 1,
-   "likes": 311,
+   "likes": 312,
    "comments": 7,
    "hour": 12,
    "question": false,
@@ -3949,6 +4186,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Tuesday’s Comparison: The Pointer Date Watches",
+   "text": "Tuesday’s Comparison: The Pointer Date Watches\n \nThe pointer date is one of watchmaking’s enduring calendar complications. Rather than displaying the date through a window, it uses a central hand to indicate it on a numbered scale around the dial’s periphery.\n \nIts origins are rooted in traditional ",
    "permalink": "https://www.instagram.com/p/Df2calMDaNY/",
    "timestamp": "2026-11-17T17:15:02+0000"
   },
@@ -3965,6 +4203,7 @@
    "hashtags": 8,
    "licensed_audio": null,
    "first_line": "More Money Left for the Cocktails",
+   "text": "More Money Left for the Cocktails\n\nInspired by Tokyo’s cocktail bars, the recent seikowatchofficial Presage Cocktail Time models bring colour and texture to an accessible mechanical watch. \n\nThe trio comes in blue (HCB001), green (HCB002) and brown (HCB003), each with a subtly textured gradient dial",
    "permalink": "https://www.instagram.com/p/Df2H9SRjb4Z/",
    "timestamp": "2026-11-17T14:16:02+0000"
   },
@@ -3981,6 +4220,7 @@
    "hashtags": 8,
    "licensed_audio": null,
    "first_line": "A Starry Saxon Celebration",
+   "text": "A Starry Saxon Celebration\n\nLast year, celebrating 180 years of Saxon watchmaking, glashuetteoriginal presented a special PanoMaticLunar. \n\nFor the first time in the series, the 40mm x 12.8mm case was crafted from platinum and paired with a dark blue aventurine glass dial, whose copper inclusions cr",
    "permalink": "https://www.instagram.com/p/Df11asWjX2M/",
    "timestamp": "2026-11-17T11:34:01+0000"
   },
@@ -3988,7 +4228,7 @@
    "handle": "monochromewatches",
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
-   "lift": 2.7,
+   "lift": 2.69,
    "likes": 858,
    "comments": 9,
    "hour": 3,
@@ -3997,6 +4237,7 @@
    "hashtags": 8,
    "licensed_audio": null,
    "first_line": "A Restrained Bovet",
+   "text": "A Restrained Bovet\n\nIntroduced in 2024, the bovet1822 Dimier Récital 15 offered a very nice yet much quieter interpretation of the brand’s mechanical ingenuity. \n\nIts closed salmon dial, finished with seven layers of lacquer, presents the time from right to left. At 3 o’clock, an aperture shows the ",
    "permalink": "https://www.instagram.com/p/Df1hQehjduc/",
    "timestamp": "2026-11-17T08:38:01+0000"
   },
@@ -4004,7 +4245,7 @@
    "handle": "monochromewatches",
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
-   "lift": 1.51,
+   "lift": 1.5,
    "likes": 476,
    "comments": 7,
    "hour": 12,
@@ -4013,6 +4254,7 @@
    "hashtags": 9,
    "licensed_audio": null,
    "first_line": "Aussie Goes Diving",
+   "text": "Aussie Goes Diving\n\nThe second Sundowner collaboration between tagheuer and Australian retailer Time+Tide timetidewatches takes the watch into deeper waters. \n\nUnlike the solar-powered 2024 edition, the new Aquaracer Professional 300 Sundowner II is a mechanical dive watch, with 300m water resistanc",
    "permalink": "https://www.instagram.com/p/Dfz4gnDjfie/",
    "timestamp": "2026-11-16T17:22:58+0000"
   },
@@ -4029,6 +4271,7 @@
    "hashtags": 12,
    "licensed_audio": null,
    "first_line": "Monday’s Horology 101: The Cleguer Horology Inspiration One and its Innate Escapement",
+   "text": "Monday’s Horology 101: The Cleguer Horology Inspiration One and its Innate Escapement\n \nThe cleguer.horology Inspiration One, a time-only piece from independent watchmaker Mathieu Cleguer, won the Complication Watch Prize at the 2026 gphg_official . The complication? A proprietary Innate escapement,",
    "permalink": "https://www.instagram.com/p/DfzjBFCjfif/",
    "timestamp": "2026-11-16T14:15:01+0000"
   },
@@ -4045,6 +4288,7 @@
    "hashtags": 7,
    "licensed_audio": null,
    "first_line": "A Retro Shape with Added Functionality",
+   "text": "A Retro Shape with Added Functionality\n\nLast year, midowatches expanded its successful Multifort TV collection with an automatic chronograph, bringing a new complication to its distinctive 1970s-inspired design. \n\nThe rounded square stainless steel case measures 42mm x 14.4mm thick, retaining the be",
    "permalink": "https://www.instagram.com/p/DfzMuDJjesH/",
    "timestamp": "2026-11-16T11:00:05+0000"
   },
@@ -4061,6 +4305,7 @@
    "hashtags": 8,
    "licensed_audio": null,
    "first_line": "Carbon-Fibre to the Rescue",
+   "text": "Carbon-Fibre to the Rescue\n\nCelebrating 15 years of partnership with Swiss alpine rescue specialists Air Zermatt, hamiltonwatch introduces a new pilot's watch with a technical edge, the Hamilton Khaki Pilot GMT Air Zermatt. \n\nThe new 42mm forged carbon case measures 13.38mm thick and offers 100m wat",
    "permalink": "https://www.instagram.com/p/Dfy5JlfjYWs/",
    "timestamp": "2026-11-16T08:09:19+0000"
   },
@@ -4077,6 +4322,7 @@
    "hashtags": 6,
    "licensed_audio": null,
    "first_line": "A New Flight Path",
+   "text": "A New Flight Path\nJust recently, bellrosswatches revisited one of its most flight-connected designs with the BR-03 Green Radar Ceramic, a new take on the radar-inspired display first introduced in 2010. \n\nHoused in a 41mm microblasted black ceramic case, measuring 10.6mm thick, the watch features a ",
    "permalink": "https://www.instagram.com/p/DfxMGJrDcyM/",
    "timestamp": "2026-11-15T16:16:01+0000"
   },
@@ -4093,6 +4339,7 @@
    "hashtags": 7,
    "licensed_audio": null,
    "first_line": "A Silver Mist Over the Jura",
+   "text": "A Silver Mist Over the Jura\n\nIn 2025, marking the brand’s 50th anniversary, mauricelacroix launched the 1975 Legacy GMT, offering a classic design with a subtle regional touch. \n\nIts 40mm stainless steel case measures 10mm thick and frames a silver dial decorated with the Vagues du Jura guilloché pa",
    "permalink": "https://www.instagram.com/p/Dfw3gHyDf9J/",
    "timestamp": "2026-11-15T13:16:02+0000"
   },
@@ -4109,6 +4356,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Sunday’s Buying Guide: The Serene Beauty of White Dials, Through Six of Today’s Best",
+   "text": "Sunday’s Buying Guide: The Serene Beauty of White Dials, Through Six of Today’s Best\n \nColour has dominated watchmaking over the past decade, but classic dial colours never go out of style. Among them, white remains one of the most timeless, dating back to the early days of pocket watches. \n \nYet wh",
    "permalink": "https://www.instagram.com/p/DfwlpCyjdF_/",
    "timestamp": "2026-11-15T10:40:02+0000"
   },
@@ -4116,7 +4364,7 @@
    "handle": "monochromewatches",
    "type": "CAROUSEL",
    "format": "CELEBRITY",
-   "lift": 1.08,
+   "lift": 1.07,
    "likes": 334,
    "comments": 8,
    "hour": 3,
@@ -4125,6 +4373,7 @@
    "hashtags": 6,
    "licensed_audio": null,
    "first_line": "Look on the Light Side",
+   "text": "Look on the Light Side\n\ncartier has never been particularly associated with titanium, making last year's full-titanium Santos an interesting departure from the Maison’s familiar materials. \n\nMeasuring 39.8mm across, 47.5mm lug-to-lug, and just 9.38mm thick, the lightweight case offers a different we",
    "permalink": "https://www.instagram.com/p/DfwW7Jzjdym/",
    "timestamp": "2026-11-15T08:31:46+0000"
   },
@@ -4141,6 +4390,7 @@
    "hashtags": 5,
    "licensed_audio": null,
    "first_line": "Saturday's The ABCs of Time: Dial Styles, History and Evolution of a Watch's Crucial Part",
+   "text": "Saturday's The ABCs of Time: Dial Styles, History and Evolution of a Watch's Crucial Part\n \nOver time, the watch dial has reflected changing tastes, artistic movements, technological advances and the practical demands of everyday life. \n\nFrom the fine decorations of early pocket watches to the restr",
    "permalink": "https://www.instagram.com/p/DfufKVFDdpA/",
    "timestamp": "2026-11-14T15:05:01+0000"
   },
@@ -4148,7 +4398,7 @@
    "handle": "monochromewatches",
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
-   "lift": 1.22,
+   "lift": 1.21,
    "likes": 395,
    "comments": 0,
    "hour": 6,
@@ -4157,6 +4407,7 @@
    "hashtags": 9,
    "licensed_audio": null,
    "first_line": "Black Meets Gold",
+   "text": "Black Meets Gold\n\nAt the start of the fall, schwarzetienne presented the new version of its 1902 Petite Seconde, a limited edition with a darker character, in a black DLC-coated Grade 5 titanium case with warm gold-toned accents. \n\nMeasuring 39mm in diameter and 10.9mm thick, the case alternates sat",
    "permalink": "https://www.instagram.com/p/DfuG1liDSd1/",
    "timestamp": "2026-11-14T11:32:01+0000"
   },
@@ -4164,8 +4415,8 @@
    "handle": "wornandwound",
    "type": "IMAGE",
    "format": "NEW RELEASES",
-   "lift": 0.83,
-   "likes": 142,
+   "lift": 0.84,
+   "likes": 143,
    "comments": 3,
    "hour": 10,
    "question": false,
@@ -4173,6 +4424,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Not all enamel is the same. ",
+   "text": "Not all enamel is the same. \n\nBeyond classic grand feu there are cloisonné, champlevé, plique-à-jour, flinqué, paillonné, grisaille and contre-jour. Even within grand feu, the results change with the surface underneath and whether the enamels are opaque or transparent.\n\nO&HoraPictor is one of the fe",
    "permalink": "https://www.instagram.com/p/Df9-yuvFzIF/",
    "timestamp": "2026-11-20T15:30:26+0000"
   },
@@ -4189,6 +4441,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Eric Wind has worn a lot of hats: vintage dealer, auction house VP, podcaster, collaborator with Seiko, Rowing",
+   "text": "Eric Wind has worn a lot of hats: vintage dealer, auction house VP, podcaster, collaborator with Seiko, Rowing Blazers and True North, and adviser on the revival of Universal Genève. Now he can add one more.\n\nThis week, Wind and Charlie Dunne, Vice President of Wind Vintage, release Vintage Watches:",
    "permalink": "https://www.instagram.com/p/Df7aADLlwtw/",
    "timestamp": "2026-11-19T15:30:27+0000"
   },
@@ -4196,8 +4449,8 @@
    "handle": "wornandwound",
    "type": "REEL",
    "format": "NEW RELEASES",
-   "lift": 2.72,
-   "likes": 465,
+   "lift": 2.74,
+   "likes": 467,
    "comments": 10,
    "hour": 11,
    "question": false,
@@ -4205,6 +4458,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "Zach goes hands-on with Studio Underd0g’s new 04Series: a moonphase, a retrograde date and a weekend indicator",
+   "text": "Zach goes hands-on with Studio Underd0g’s new 04Series: a moonphase, a retrograde date and a weekend indicator, all on a new movement developed with Seagull. Watch the reel, then get the full story on the blog. Link in bio.\n#StudioUnderd0g #04Series #WeekendIndicator #WatchEnthusiast",
    "permalink": "https://www.instagram.com/reel/Df48k0zjEv9/",
    "timestamp": "2026-11-18T16:36:22+0000"
   },
@@ -4221,6 +4475,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Can you separate the watch from the person who made it? ",
+   "text": "Can you separate the watch from the person who made it? \n\nThis week on the podcast, Zach Kazan welcomes Cait Bazemore back for another conversation about collecting. This time they’re talking about the people behind the brands. Between Windup, other industry events and social media, more enthusiasts",
    "permalink": "https://www.instagram.com/p/Df4x32nl5Rj/",
    "timestamp": "2026-11-18T15:01:20+0000"
   },
@@ -4237,6 +4492,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Every year, Hamilton and Variety host the Behind the Camera Awards in Los Angeles, and every year Zach's misse",
+   "text": "Every year, Hamilton and Variety host the Behind the Camera Awards in Los Angeles, and every year Zach's missed it. Not this time. \n\nThis isn’t an Oscars-style show with envelopes and nominees. It’s a curated celebration of the people who make films happen, and it grows out of Hamilton’s long run as",
    "permalink": "https://www.instagram.com/p/Df2UtnVFwl9/",
    "timestamp": "2026-11-17T16:08:12+0000"
   },
@@ -4244,8 +4500,8 @@
    "handle": "wornandwound",
    "type": "CAROUSEL",
    "format": "NEW RELEASES",
-   "lift": 2.04,
-   "likes": 354,
+   "lift": 2.06,
+   "likes": 356,
    "comments": 5,
    "hour": 10,
    "question": false,
@@ -4253,6 +4509,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Studio Underd0g just dropped its next chapter. ",
+   "text": "Studio Underd0g just dropped its next chapter. \n\nThe new 04Series brings the brand’s first-ever calendar complication, powered by an all-new movement developed with Seagull. You get a moonphase, a retrograde date, and yes, a dedicated weekend indicator, because Fridays deserve a complication of thei",
    "permalink": "https://www.instagram.com/p/DfzroUKFy5Z/",
    "timestamp": "2026-11-16T15:32:44+0000"
   },
@@ -4269,6 +4526,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Junghans has taken over the Windup Watch Shop Showroom in Brooklyn, and it’s happening right now.",
+   "text": "Junghans has taken over the Windup Watch Shop Showroom in Brooklyn, and it’s happening right now.\n\nThe full collection is out, from Bauhaus-inspired Max Bill classics to the Meister Chronoscope. The Junghans USA CEO is here, the newest models are ready to try on, and the Junghans Lounge is open. Com",
    "permalink": "https://www.instagram.com/p/DfuvwCflzoT/",
    "timestamp": "2026-11-14T17:30:23+0000"
   },
@@ -4285,6 +4543,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Horologically Unique just released the HU-02, a tribute to Robert Cart’s legendary Chronoscope design, best kn",
+   "text": "Horologically Unique just released the HU-02, a tribute to Robert Cart’s legendary Chronoscope design, best known from a Breguet pocket watch. It’s Art Deco at its finest, and it’s a design collectors have been championing long before everyone else caught on. \n\nRead the full article to get the story",
    "permalink": "https://www.instagram.com/p/Dfr9OjPFy1X/",
    "timestamp": "2026-11-13T15:30:25+0000"
   },
@@ -4301,6 +4560,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Two new Fiftysix references just landed, and they’re worth a closer look.",
+   "text": "Two new Fiftysix references just landed, and they’re worth a closer look.\n\nAt the top tier of watchmaking, brands guard their image carefully, and few will admit that a watch is designed to be accessible. Vacheron Constantin does exactly that with the Fiftysix: it’s openly positioned as a way into t",
    "permalink": "https://www.instagram.com/p/DfpYcUNF0UI/",
    "timestamp": "2026-11-12T15:30:31+0000"
   },
@@ -4317,6 +4577,7 @@
    "hashtags": 0,
    "licensed_audio": null,
    "first_line": "GIVEAWAY: Win a STERNGLAS Zirkel X, the 10th Anniversary Edition!",
+   "text": "GIVEAWAY: Win a STERNGLAS Zirkel X, the 10th Anniversary Edition!\n\nTen years of Hamburg watch design, condensed into a compact 38mm package. The Zirkel X was shaped directly by feedback from more than 5,000 STERNGLAS community members, and it’s built around the circle. “Zirkel” is German for draftin",
    "permalink": "https://www.instagram.com/p/Dfm-BbQF5fx/",
    "timestamp": "2026-11-11T17:01:09+0000"
   },
@@ -4333,6 +4594,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Specs and photos only tell you so much. This Saturday, come try one on!",
+   "text": "Specs and photos only tell you so much. This Saturday, come try one on!\n\nJunghans is taking over the Windup Watch Shop Showroom in Brooklyn with its full collection, from Bauhaus-inspired Max Bill classics to the Meister Chronoscope. Meet the Junghans USA CEO, try on the latest models, and take your",
    "permalink": "https://www.instagram.com/p/DfmwXiSl_4K/",
    "timestamp": "2026-11-11T15:01:51+0000"
   },
@@ -4349,6 +4611,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Ming’s take on the modern dress watch. ",
+   "text": "Ming’s take on the modern dress watch. \n\nThe new 51.01 Halo is time-only and hand-wound. It measures 37mm across and 8mm thick, with a compact 43mm lug-to-lug. Inside, the 7380.M1 caliber, developed with La Joux-Perret, delivers an impressive 90-hour power reserve.\n\nRead our full take on the blog no",
    "permalink": "https://www.instagram.com/p/DfkO2AVF8dQ/",
    "timestamp": "2026-11-10T15:30:26+0000"
   },
@@ -4365,6 +4628,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Awake’s Son Mai – Silver Leaf collection, first unveiled at Geneva Watch Days 2024, takes its next step. Four ",
+   "text": "Awake’s Son Mai – Silver Leaf collection, first unveiled at Geneva Watch Days 2024, takes its next step. Four new gradient “Vignette” dials pair one of Vietnam’s oldest lacquer traditions with hand-applied silver leaf, so every dial is a small canvas made by hand.\n\nThree join the permanent catalog a",
    "permalink": "https://www.instagram.com/p/Dfhw2udF7cE/",
    "timestamp": "2026-11-09T16:30:07+0000"
   },
@@ -4381,6 +4645,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "What happens when a G-SHOCK does less on purpose?",
+   "text": "What happens when a G-SHOCK does less on purpose?\n\nWe teamed up with G-SHOCK on the new all-analog GMC2500: no screen, no alarm, just steel and time moving at its own pace. We took three versions out for a record session, a roll of film, and the long way home through the city to see what being unrea",
    "permalink": "https://www.instagram.com/p/Dfaal7tl5qx/",
    "timestamp": "2026-11-06T20:00:50+0000"
   },
@@ -4397,6 +4662,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Serica’s 8315 Travel Chronometer is back in a new Golden Green colorway.",
+   "text": "Serica’s 8315 Travel Chronometer is back in a new Golden Green colorway.\n\nThe French microbrand has spent seven years refining its look: rounded forms, precise proportions, and 1970s-inspired style. The 8315 is its most function-focused design yet, a no-date GMT built for travel with a cleanly balan",
    "permalink": "https://www.instagram.com/p/DfZ7qa3Fy5i/",
    "timestamp": "2026-11-06T15:30:25+0000"
   },
@@ -4413,6 +4679,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Fossil’s new Signature Collection made its debut at Windup Watch Fair NYC ‘26. ",
+   "text": "Fossil’s new Signature Collection made its debut at Windup Watch Fair NYC ‘26. \n\nWe kicked off the launch with a morning for the people who matter most: the enthusiasts who showed up ready to see what it was all about. The morning included a behind-the-scenes film, a Q&A with Senior Creative Directo",
    "permalink": "https://www.instagram.com/p/DfVNiwQjC4i/",
    "timestamp": "2026-11-04T19:30:27+0000"
   },
@@ -4429,6 +4696,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Another Windup Watch Fair NYC is in the books, and what a year it was. ",
+   "text": "Another Windup Watch Fair NYC is in the books, and what a year it was. \n\nWhat started in 2015 as a handful of brands in a SoHo storefront has grown into a national tour with hundreds of brands and tens of thousands of visitors. Some of you were at your fifth Fair, and some of you were at your first ",
    "permalink": "https://www.instagram.com/p/DfU-FxClQY6/",
    "timestamp": "2026-11-04T17:15:26+0000"
   },
@@ -4445,6 +4713,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "A waitlist to 2030 for a $2,500 watch? anOrdain has earned it. And now - they’re trying porcelain. ",
+   "text": "A waitlist to 2030 for a $2,500 watch? anOrdain has earned it. And now - they’re trying porcelain. \n\nZach spent several weeks with the new Model 1, and it inevitably won him over. Where enamel feels like glass you can look into, porcelain has the solid, structural character of fine china, and the ty",
    "permalink": "https://www.instagram.com/reel/DfSQMenglSF/",
    "timestamp": "2026-11-03T16:02:09+0000"
   },
@@ -4461,6 +4730,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Louis Erard x Vianney Halter just went full Antiqua. ",
+   "text": "Louis Erard x Vianney Halter just went full Antiqua. \n\nThe Futur Antérieur is the closest thing yet to Halter’s iconic Antiqua at a semi-approachable price. It has an all-new 67-part steel case with portholes, articulating lugs and contrast rivets, plus layered dials and heat-blued hands. It measure",
    "permalink": "https://www.instagram.com/p/DfPqWZQl-6c/",
    "timestamp": "2026-11-02T15:46:44+0000"
   },
@@ -4477,6 +4747,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Skull watches aren’t just a Halloween gimmick. ",
+   "text": "Skull watches aren’t just a Halloween gimmick. \n\nThey go back to 17th-century memento mori pocket watches, skull-shaped cases with a hinged jaw that opened to reveal the dial. A reminder that your time is running out, built right into your timepiece. Today’s watchmakers keep the tradition alive with",
    "permalink": "https://www.instagram.com/p/DfHzO7Yl2Bz/",
    "timestamp": "2026-10-30T14:30:25+0000"
   },
@@ -4493,6 +4764,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "What actually makes a watch brand a “microbrand”? ",
+   "text": "What actually makes a watch brand a “microbrand”? \n\nThe Windup Watch Fairs gets called “the microbrand show” a lot, but try to define the term and it gets slippery fast. Micro-indie, challenger brand, independent: every label comes with its own baggage. We dug into what these terms really mean and w",
    "permalink": "https://www.instagram.com/p/DfFTlcVlO8f/",
    "timestamp": "2026-10-29T15:15:23+0000"
   },
@@ -4509,6 +4781,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "This week on the podcast, we’re looking back at the biggest Windup yet. ",
+   "text": "This week on the podcast, we’re looking back at the biggest Windup yet. \n\nZach Kazan sits down with Worn & Wound cofounder and CEO Blake Malin and Lorier brand manager Ilya Ryvin to break down the show, talk about what’s next, and yes, address those long lines. They go behind the scenes on how Windu",
    "permalink": "https://www.instagram.com/p/DfCppOMlzya/",
    "timestamp": "2026-10-28T14:30:25+0000"
   },
@@ -4525,6 +4798,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Oris has a long track record of dive watches that give back to the ocean, and the new Aquis Date Kelp Forest L",
+   "text": "Oris has a long track record of dive watches that give back to the ocean, and the new Aquis Date Kelp Forest Limited Edition turns the spotlight on one of the sea’s most vital and overlooked ecosystems.\n\nUnderneath the theme, it’s the Aquis you know: a 41.5mm case, 300 meters of water resistance, a ",
    "permalink": "https://www.instagram.com/p/DfAWqp7lyIR/",
    "timestamp": "2026-10-27T17:06:08+0000"
   },
@@ -4541,6 +4815,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Breitling just filled a big hole in the Navitimer lineup. The new Navitimer B09 Chronograph 41 and Navitimer B",
+   "text": "Breitling just filled a big hole in the Navitimer lineup. The new Navitimer B09 Chronograph 41 and Navitimer B02 Chronograph 41 Cosmonaute aren’t limited editions, they’re joining the core collection, and they feel squarely aimed at enthusiasts, especially fans of vintage Breitling and classic chron",
    "permalink": "https://www.instagram.com/p/De9gDjEF6Sc/",
    "timestamp": "2026-10-26T14:30:26+0000"
   },
@@ -4557,6 +4832,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "The Christopher Ward C1 Loco Classic started as a 3D render that design director Adrian Buchmann unveiled to t",
+   "text": "The Christopher Ward C1 Loco Classic started as a 3D render that design director Adrian Buchmann unveiled to the team in Biel back in July 2024, and two years later, the finished watch lives up to that first impression. We got to see it in person at Windup Watch Fair NYC, and it feels like a confide",
    "permalink": "https://www.instagram.com/reel/De4gPWcEUSd/",
    "timestamp": "2026-10-24T16:01:02+0000"
   },
@@ -4573,6 +4849,7 @@
    "hashtags": 4,
    "licensed_audio": true,
    "first_line": "Every case curve, dial detail, and finishing choice matters, but it’s how they come together that counts. In o",
+   "text": "Every case curve, dial detail, and finishing choice matters, but it’s how they come together that counts. In our recent interview, Fossil Creative Director Ryan White shares the advice that shaped his approach to the Signature Collection, and why a great watch should be more than the sum of its part",
    "permalink": "https://www.instagram.com/reel/De11LIWCcOD/",
    "timestamp": "2026-10-23T15:01:38+0000"
   },
@@ -4589,6 +4866,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Purpose-built watches are Nodus’s whole thing, and the Obscura II might be the most purpose-built of them all.",
+   "text": "Purpose-built watches are Nodus’s whole thing, and the Obscura II might be the most purpose-built of them all. A collaboration with Beers and Cameras, it pairs an LA-assembled watch with an exposure gauge designed for film shooters. We spent some time behind the lens with it to see what it could tea",
    "permalink": "https://www.instagram.com/p/De1xqvWDFmI/",
    "timestamp": "2026-10-23T14:30:26+0000"
   },
@@ -4605,6 +4883,7 @@
    "hashtags": 3,
    "licensed_audio": null,
    "first_line": "Baltic is coming to Brooklyn!!",
+   "text": "Baltic is coming to Brooklyn!!\n\nJoin us at the Windup Watch Shop Showroom on November 5th from 6:30 to 8:30 PM, where the Baltic team will be on hand to preview an all-new collection that’s never been seen before, and we’re told it’s a colorful one. Attendance is limited, so be one of the first to R",
    "permalink": "https://www.instagram.com/p/DezaxvnF3Ip/",
    "timestamp": "2026-10-22T16:31:55+0000"
   },
@@ -4621,6 +4900,7 @@
    "hashtags": 3,
    "licensed_audio": true,
    "first_line": "Few watches carry a story like this one. Jones & Horan calls this Bulova Spillmann “Jumbo” one of the most his",
+   "text": "Few watches carry a story like this one. Jones & Horan calls this Bulova Spillmann “Jumbo” one of the most historically important pieces they’ve ever handled, and it’s easy to see why: it belonged to Edward R. Murrow, one of the most consequential newsmen of the 20th century. A 38mm 14K gold chronog",
    "permalink": "https://www.instagram.com/reel/DezPyOZj_CS/",
    "timestamp": "2026-10-22T15:02:52+0000"
   },
@@ -4637,6 +4917,7 @@
    "hashtags": 4,
    "licensed_audio": null,
    "first_line": "Some collaborations deserve a sequel. ",
+   "text": "Some collaborations deserve a sequel. \n\nThe 2026 Solar Hiker from Worn & Wound, Vaer Watches, and Topo Designs keeps everything we loved about the original, from the dual-index bezel to the 200m of water resistance. This time it adds two new colorways, a slightly larger case, and fresh straps and a ",
    "permalink": "https://www.instagram.com/p/Dewu_z9Fx6a/",
    "timestamp": "2026-10-21T15:32:32+0000"
   },
@@ -4653,6 +4934,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "In today’s video, teddybaldassarre and I go luxury watch shopping in his very own boutique in Cleveland, Ohio!",
+   "text": "In today’s video, teddybaldassarre and I go luxury watch shopping in his very own boutique in Cleveland, Ohio! To make things interesting, we flipped the script with a watch-picking challenge. Each of us had to browse the cases and pick out the watches we thought would best suit the other person’s s",
    "permalink": "https://www.instagram.com/reel/Df-DWd0NNX-/",
    "timestamp": "2026-11-20T16:11:10+0000"
   },
@@ -4669,6 +4951,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "Discovery is my passion and one of the core drivers of my mission within this small and beautiful world of wat",
+   "text": "Discovery is my passion and one of the core drivers of my mission within this small and beautiful world of watchmaking. Today I had the opportunity to film and shoot the inaugural piece from mickaelgaspar.horlogerie. Another Morteau wachmaking school graduate, he spent many years honing his skils in",
    "permalink": "https://www.instagram.com/p/Df4qe2eDRk3/",
    "timestamp": "2026-11-18T13:56:36+0000"
   },
@@ -4685,6 +4968,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "Today on my YouTube channel we visit royterwatches. We went to Brooklyn, NY to meet independent American watch",
+   "text": "Today on my YouTube channel we visit royterwatches. We went to Brooklyn, NY to meet independent American watchmaker Dan Royter. In this interview, we explore his journey in bespoke horology, the craftsmanship behind the stunning Nova watch, and his work and connection with master watchmaker Andreas ",
    "permalink": "https://www.instagram.com/reel/DfsICChtN7M/",
    "timestamp": "2026-11-13T17:06:35+0000"
   },
@@ -4701,6 +4985,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "During our video with esperluxe there was a very special URWERK on the table and available. One of only 23 pie",
+   "text": "During our video with esperluxe there was a very special URWERK on the table and available. One of only 23 pieces ever made, the UR-220 The Grove XXIII Edition, made with a special sports legend. Check out all the watches on my YouTube - link in BIO.\n♢\n📽️YouTube: swisswatchgang\n#swisswatchgang",
    "permalink": "https://www.instagram.com/reel/Dfp3pKDNNVx/",
    "timestamp": "2026-11-12T20:06:29+0000"
   },
@@ -4717,6 +5002,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "During my visit at bucherer for our YouTube watch shopping video in Lucerne, we stumbled upon De Bethune. One ",
+   "text": "During my visit at bucherer for our YouTube watch shopping video in Lucerne, we stumbled upon De Bethune. One of my favorite indie brands and their incredible DB25 Perpetual Sky. A watch featuring so many details it deserves its own video. A perpetual calendar, featuring a heat blued titanium dial b",
    "permalink": "https://www.instagram.com/reel/Dfmx9_UtkfH/",
    "timestamp": "2026-11-11T15:37:18+0000"
   },
@@ -4733,6 +5019,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "Today we visit esperluxe! A destination where you can find some of the best and rarest watches made by indepen",
+   "text": "Today we visit esperluxe! A destination where you can find some of the best and rarest watches made by independent watchmakers. christopher.daaboul is a curator, friend and often ahead of the curve when it comes to bringing on a new watchmaker to his growing retail operation and wonderful client lis",
    "permalink": "https://www.instagram.com/reel/DfaFQ29tUiw/",
    "timestamp": "2026-11-06T16:55:09+0000"
   },
@@ -4749,6 +5036,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "Part of the ongoing marteauandco auction is also this stunning 1/1 Girard-Perregaux Quasar Azure tourbillon wi",
+   "text": "Part of the ongoing marteauandco auction is also this stunning 1/1 Girard-Perregaux Quasar Azure tourbillon with three bridges with a blue sapphire case. An iconic movement, skeletonised and hand decorated, hiding a small micro rotor at 12 o‘clock. A watch which shines most once you put it on your w",
    "permalink": "https://www.instagram.com/reel/DfVC-FVtu5u/",
    "timestamp": "2026-11-04T17:59:29+0000"
   },
@@ -4765,6 +5053,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "US watchmaking is growing and this jnshapiro_watches Infinity, which is available marteauandco is a fantastic ",
+   "text": "US watchmaking is growing and this jnshapiro_watches Infinity, which is available marteauandco is a fantastic example of such masters. A very tasteful edition with lots of details to adore. It features multiple different patterns of guilloche on the dial, all which are made by Josh himself on a trad",
    "permalink": "https://www.instagram.com/reel/DfSx3wRtIr4/",
    "timestamp": "2026-11-03T20:57:30+0000"
   },
@@ -4781,6 +5070,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "Currently there’s an awesome Paul Gerber marteauandco going at auction. The Retro Twin ref. 158 has lots of fu",
+   "text": "Currently there’s an awesome Paul Gerber marteauandco going at auction. The Retro Twin ref. 158 has lots of fun and intricate details. All the way from the 34mm white gold case sporting special lugs. To the heavily reworked manual Pesseux 7001 manual movement, featuring an in-house double rotor wind",
    "permalink": "https://www.instagram.com/reel/DfPv04zNLVA/",
    "timestamp": "2026-11-02T16:35:32+0000"
   },
@@ -4797,6 +5087,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "Part of the current marteauandco auction and one of my favorite watches is this very unexpected and unique pro",
+   "text": "Part of the current marteauandco auction and one of my favorite watches is this very unexpected and unique prototype Baltic Stepgraph. A watch and collection that we’ve never seen before from the brand. The case is made out of tantalum, finished in different ways, featuring a manual winding chronogr",
    "permalink": "https://www.instagram.com/reel/DfNUkXLtdvT/",
    "timestamp": "2026-11-01T17:59:54+0000"
   },
@@ -4813,6 +5104,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "Another epic marteauandco video just went live on my YouTube channel and it’s one you don’t want to miss. I sa",
+   "text": "Another epic marteauandco video just went live on my YouTube channel and it’s one you don’t want to miss. I sat down with co-founder Arthur to talk about 12 of the many incredible watches they have currently for sale at their “The Blueprint” auction. In this video we will take a look at watches from",
    "permalink": "https://www.instagram.com/reel/DfKjqT8NuxF/",
    "timestamp": "2026-10-31T16:13:59+0000"
   },
@@ -4829,6 +5121,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "Live on YouTube! Today we review the louiserardofficial  x Vianney Halter „Futur Antérieur“—essentially a „Bab",
+   "text": "Live on YouTube! Today we review the louiserardofficial  x Vianney Halter „Futur Antérieur“—essentially a „Baby Antiqua“ bringing Haute Horlogerie steampunk design into an accessible price point. Powered by two independent automatic Sellita movements, this 38mm x 8.85mm ultra-slim timepiece features",
    "permalink": "https://www.instagram.com/reel/DfHOBkCtJf7/",
    "timestamp": "2026-10-30T09:05:55+0000"
   },
@@ -4845,6 +5138,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "I love it when jacobandco incorporates sculptures into their watches. The way the sculpted and hand-painted bl",
+   "text": "I love it when jacobandco incorporates sculptures into their watches. The way the sculpted and hand-painted blue dragon wraps around the movement and makes sure it doesn’t obstruct it, is extremely intricate work. The Astronomia Solar model is perfect for these excercises in watchmaking and art. An ",
    "permalink": "https://www.instagram.com/p/DfFVyyIDSrw/",
    "timestamp": "2026-10-29T15:34:33+0000"
   },
@@ -4861,6 +5155,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "Some of the nicest casebacks I had the chance to shoot this year. Some videos are already live, others are sti",
+   "text": "Some of the nicest casebacks I had the chance to shoot this year. Some videos are already live, others are still in the making. Which one is your favourite? 🤔 You can see the stories and people behind them on my Youtube. Link in BIO 🔗\n♢\n📽️YouTube: swisswatchgang\n#swisswatchgang",
    "permalink": "https://www.instagram.com/p/DfAQCChjXGq/",
    "timestamp": "2026-10-27T16:08:00+0000"
   },
@@ -4877,6 +5172,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "I went to New York to jacobandco to chat with the man himself jacobarabo about the engineering marvel of the J",
+   "text": "I went to New York to jacobandco to chat with the man himself jacobarabo about the engineering marvel of the Jean Bugatti timepiece, review the breathtaking Mystery Tourbillon set with rare yellow diamonds, and revisit the legendary Victoria’s Secret fantasy bra, worn by Kylie Jenner valued at over ",
    "permalink": "https://www.instagram.com/reel/De4hyvtRhXE/",
    "timestamp": "2026-10-24T16:10:53+0000"
   },
@@ -4893,6 +5189,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "Discover the new ercigojart Jacquart watch, with a dial made entirely by stitching thousands of threads, a new",
+   "text": "Discover the new ercigojart Jacquart watch, with a dial made entirely by stitching thousands of threads, a new case, new hands and much more! Watch the full video on YouTube - link in BIO. 🧵 \n♢\n📽️YouTube: swisswatchgang\n#swisswatchgang",
    "permalink": "https://www.instagram.com/reel/DeelBdixJij/",
    "timestamp": "2026-10-14T14:20:43+0000"
   },
@@ -4909,6 +5206,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "Another marteauandco lot which I love and is going wild at the moment is this one of only 38 F.P. Journe Chron",
+   "text": "Another marteauandco lot which I love and is going wild at the moment is this one of only 38 F.P. Journe Chronometre a Resonance. A great addition to anyone’s watch collection, a symmetrical symphony and truly a rare gem. Go watch the full video of me and Arthur talk about the special box set of onl",
    "permalink": "https://www.instagram.com/reel/Deb_fs7NbZq/",
    "timestamp": "2026-10-13T14:13:29+0000"
   },
@@ -4925,6 +5223,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "A true gem going up for auction marteauandco at the moment is this one of 38 F.P. Journe Tourbillon Souverain.",
+   "text": "A true gem going up for auction marteauandco at the moment is this one of 38 F.P. Journe Tourbillon Souverain. A special one, in that the case is made out of stainless steel and the movement is made ouf ot gold. Aside from those details, it’s truly a staple of the F.P. Journe brand and just a mesmer",
    "permalink": "https://www.instagram.com/reel/DeZjgboNgNz/",
    "timestamp": "2026-10-12T15:28:43+0000"
   },
@@ -4941,6 +5240,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "A unique Yosuke Sekiguchi is available at marteauandco. And not just any one, a Primavera model with a custom ",
+   "text": "A unique Yosuke Sekiguchi is available at marteauandco. And not just any one, a Primavera model with a custom dial, featuring white grand feu enamel and a unique red aventurine small seconds subdial. Flip the watch around and you get a stunning movement, inspired by a 19th-century Jules Jürgensen po",
    "permalink": "https://www.instagram.com/reel/DeW4hw2toJy/",
    "timestamp": "2026-10-11T14:34:56+0000"
   },
@@ -4957,6 +5257,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "Another unicorn in the latest marteauandco auction which is happening now is this Marco Lang Zweigesicht-1. A ",
+   "text": "Another unicorn in the latest marteauandco auction which is happening now is this Marco Lang Zweigesicht-1. A watch which I wanted to film since ages. A one of 18 pieces limited edition with as many details as you can imagine. You can flip the dial with a proprietary system and tools. The amount of ",
    "permalink": "https://www.instagram.com/reel/DeUXl4hN1cj/",
    "timestamp": "2026-10-10T15:09:14+0000"
   },
@@ -4973,6 +5274,7 @@
    "hashtags": 2,
    "licensed_audio": true,
    "first_line": "I sit down with marteauandco co-founder Arthur to talk about the legendary 5-piece F.P. Journe Stainless Steel",
+   "text": "I sit down with marteauandco co-founder Arthur to talk about the legendary 5-piece F.P. Journe Stainless Steel Set (Set #37/38 up for auction in his latest „The Encore“ auction.  In this video, we unbox and inspect all 5 ultra-rare 38mm steel timepieces—including the Tourbillon Souverain, Chronomètr",
    "permalink": "https://www.instagram.com/reel/DeR1KtFN54I/",
    "timestamp": "2026-10-09T15:29:04+0000"
   },
@@ -4989,6 +5291,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "When we shot our bucherer youtube watch shopping video in their big and awesome Lucerne store. I stumbled upon",
+   "text": "When we shot our bucherer youtube watch shopping video in their big and awesome Lucerne store. I stumbled upon a watch which really made me think. It was this gem from Zenith,  the G.F.J. with a striking green jasper bloodstone center dial, a green mother of pearl small seconds dial and guilloche mi",
    "permalink": "https://www.instagram.com/reel/DePW8hzNDVL/",
    "timestamp": "2026-10-08T16:26:26+0000"
   },
@@ -5005,6 +5308,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "Clocks are one of my side-quests in this wonderful world of watchmaking. I love to discover them, as well as c",
+   "text": "Clocks are one of my side-quests in this wonderful world of watchmaking. I love to discover them, as well as collect them. This is my unique (lapis lazuli moon disc) Kubernet secular perpetual calendar clock, made by a wonderful watchmaker Mr. chiehlinting. He is giving an old alarm clock a new chan",
    "permalink": "https://www.instagram.com/p/Dd_9TTIDZ_l/",
    "timestamp": "2026-10-02T16:52:56+0000"
   },
@@ -5021,6 +5325,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "To this day of my favorite watches that I had the chance to film for my YouTube channel. The piece unique made",
+   "text": "To this day of my favorite watches that I had the chance to film for my YouTube channel. The piece unique made by Julien Tixier. His watch features a unique movement architecture, a detent escapement, various decoration techniques as well as lapis lazuli surrounding the hand-guilloche’d barrel. If y",
    "permalink": "https://www.instagram.com/p/Dd6wLaVjT_0/",
    "timestamp": "2026-09-30T16:22:04+0000"
   },
@@ -5037,6 +5342,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "I had the pleasure of filming another beast of a watch from jacobandco - The Bugatti Tourbillon. Capturing som",
+   "text": "I had the pleasure of filming another beast of a watch from jacobandco - The Bugatti Tourbillon. Capturing something this micro-engineered on camera is always an incredible experience, especially when every single component directly mirrors the architecture of a hypercar. Congrats on the Jacob&Co te",
    "permalink": "https://www.instagram.com/reel/Dd4HXhmNgIt/",
    "timestamp": "2026-09-29T15:47:51+0000"
   },
@@ -5053,6 +5359,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "I had the utmost pleasure to film with mikieleta. To step into his wonderful world of clockmaking, kinetic art",
+   "text": "I had the utmost pleasure to film with mikieleta. To step into his wonderful world of clockmaking, kinetic art and immense imagination was a day well spent. I wanted to capture his life, work and thoughts behind the wonderful creations he has crafted with his own hands. I hope you enjoy the video an",
    "permalink": "https://www.instagram.com/reel/Dd1sE9YNNo0/",
    "timestamp": "2026-09-28T17:10:41+0000"
   },
@@ -5069,6 +5376,7 @@
    "hashtags": 1,
    "licensed_audio": null,
    "first_line": "Had the pleasure to meet with the legendary thomasprescherhautehorlogerie. This is his school watch, a tourbil",
+   "text": "Had the pleasure to meet with the legendary thomasprescherhautehorlogerie. This is his school watch, a tourbillon he did as a final result, since he was so talented! He’s is built different and one of the nicest souls I have met sp far. Don’t worry, I saw a lot of cool watches too, which I’ll featur",
    "permalink": "https://www.instagram.com/p/DdrEyCFDQBy/",
    "timestamp": "2026-09-24T14:14:15+0000"
   },
@@ -5085,6 +5393,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "hazemannmonnin are two very talented and ambitious young watchmakers, graduated from the Lycée Edgar Faure wat",
+   "text": "hazemannmonnin are two very talented and ambitious young watchmakers, graduated from the Lycée Edgar Faure watchmaking school in Morteau, France. With their first watch they really made a name for themselves and today we are taking a closer look at it. Special thanks to Sacha & Roy Davidoff for the ",
    "permalink": "https://www.instagram.com/reel/DdRn3jBtg6I/",
    "timestamp": "2026-09-14T17:01:51+0000"
   },
@@ -5101,6 +5410,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "Another fun and talented watchmaker I met this week is gregory_proz . After discovering his work, I knew I had",
+   "text": "Another fun and talented watchmaker I met this week is gregory_proz . After discovering his work, I knew I had to sit down with watchmaker gregory_proz . His inaugural creation, the Genèse, features so many details. Inverting the movement so the mechanical heart takes center stage on the dial side. ",
    "permalink": "https://www.instagram.com/reel/DczgCk4MU-o/",
    "timestamp": "2026-09-03T00:15:55+0000"
   },
@@ -5117,6 +5427,7 @@
    "hashtags": 1,
    "licensed_audio": true,
    "first_line": "After his launch, I knew I had to meet the watchmaker alexandre.martin.watches. His inagural piece called “196",
+   "text": "After his launch, I knew I had to meet the watchmaker alexandre.martin.watches. His inagural piece called “1965” is clean, almost minimalist, with subtle elements every watch collector can appreciate. From the applied indexes, new shape of hands, the little extra curve on the left side of the case. ",
    "permalink": "https://www.instagram.com/reel/DczcbhuMNmc/",
    "timestamp": "2026-09-02T23:47:44+0000"
   }

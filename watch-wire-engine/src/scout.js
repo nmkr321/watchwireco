@@ -53,6 +53,8 @@ export function hotTopics(posts, days = 7) {
     .sort((x, y) => (y.accounts + (y.topic.includes(" ") ? 1 : 0)) - (x.accounts + (x.topic.includes(" ") ? 1 : 0)) || y.lift - x.lift);
   // prefer "james bond" over "bond" when they cover the same posts
   out = out.filter((o) => !out.some((b) => b !== o && b.topic.includes(" ") && b.topic.split(" ").includes(o.topic) && b.accounts >= o.accounts - 1));
+  // one story, several words ("doraemon", "pointer date"): keep the first per best-example post
+  const seenEx = new Set(); out = out.filter((o) => !seenEx.has(o.example.permalink) && seenEx.add(o.example.permalink));
   return out.slice(0, 6);
 }
 

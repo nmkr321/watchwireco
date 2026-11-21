@@ -1,6 +1,13 @@
 # Scout: what works on other watch accounts
-Last run 2026-11-21T19:11Z · 315 posts from 12 accounts. "Lift" = a post's likes + 2×comments vs that account's usual post (1.0 = usual).
-Couldn't read: watchfinderandco (Invalid user id); timeandtidewatches (Invalid user id); europastar (Invalid user id)
+Last run 2026-11-21T19:21Z · 315 posts from 12 accounts. "Lift" = a post's likes + 2×comments vs that account's usual post (1.0 = usual).
+
+## Hot topics this week (3+ accounts posting about the same thing: cover these fast)
+- crown pointer: 4 accounts, lift 1.85 · best: @fratellowatches "A time-traveling robotic cat meets one of Oris’s most recognizable designs! " https://www.instagram.com/p/Df6mhC8Dnmh/
+- gmt: 4 accounts, lift 1.39 · best: @hodinkee "A rolex Datejust commemorating an NBA title, a pair of vintage “Root Beer” GMT-Masters, an" https://www.instagram.com/p/Df2GKwoAEgu/
+- james bond: 3 accounts, lift 1.04 · best: @fratellowatches "Meet the new James Bond: Robert Pattinson. But what will be on his wrist? " https://www.instagram.com/p/DfzwKuBCtj5/
+- calendar: 3 accounts, lift 2.12 · best: @monochromewatches "A Complicated Watch, a Surprisingly Accessible Price" https://www.instagram.com/reel/Df6gxVvBIS9/
+- each: 3 accounts, lift 1.24 · best: @swisswatchgang "In today’s video, teddybaldassarre and I go luxury watch shopping in his very own boutique" https://www.instagram.com/reel/Df-DWd0NNX-/
+- seamaster: 3 accounts, lift 1.09 · best: @chrono24 "That moment when a watch matches the whole vibe without even trying. 🩶💛💚" https://www.instagram.com/p/DfzhWYsm3xb/
 
 ## Formats (avg lift, posts)
 - CELEBRITY: 2.81 (23)
@@ -26,7 +33,7 @@ Couldn't read: watchfinderandco (Invalid user id); timeandtidewatches (Invalid u
 - With a question: 1.58 · without: 1.27
 
 ## Music on Reels
-- 63 of 94 Reels likely use licensed/popular music (Instagram hides their video file). Lift with it: 1.39 · original/no music: 1.36
+- 63 of 94 Reels likely use licensed/popular music (Instagram hides their video file). Lift with it: 1.40 · original/no music: 1.36
 
 ## Top posts to learn from
 - 27.7× @wristcheck CAROUSEL CELEBRITY: "harrykane takes home the 2026 Ballon d’Or wearing an off-catalog Rolex Daytona, and so many more #wristchecks." https://www.instagram.com/p/De_c8YZE6UC/
@@ -43,15 +50,15 @@ Couldn't read: watchfinderandco (Invalid user id); timeandtidewatches (Invalid u
 - 3.6× @watchanish REEL OTHER: "Hottest in the game 🎙️" https://www.instagram.com/reel/Ddi2mepg0aP/
 
 ## Accounts
-- @hodinkee: 1132656 followers, 30 posts read
-- @teddybaldassarre: 596906 followers, 30 posts read
+- @hodinkee: 1132658 followers, 30 posts read
+- @teddybaldassarre: 596907 followers, 30 posts read
 - @watchanish: 1564403 followers, 27 posts read
-- @fratellowatches: 269586 followers, 30 posts read
-- @wristcheck: 604225 followers, 18 posts read
-- @bobswatches: 317878 followers, 30 posts read
-- @crownandcaliber: 177154 followers, 30 posts read
-- @chrono24: 776335 followers, 30 posts read
-- @monochromewatches: 284240 followers, 30 posts read
+- @fratellowatches: 269588 followers, 30 posts read
+- @wristcheck: 604224 followers, 18 posts read
+- @bobswatches: 317880 followers, 30 posts read
+- @crownandcaliber: 177153 followers, 30 posts read
+- @chrono24: 776339 followers, 30 posts read
+- @monochromewatches: 284241 followers, 30 posts read
 - @wornandwound: 232645 followers, 30 posts read
 - @revolutionwatch: 35 followers, 0 posts read
 - @swisswatchgang: 223894 followers, 30 posts read
