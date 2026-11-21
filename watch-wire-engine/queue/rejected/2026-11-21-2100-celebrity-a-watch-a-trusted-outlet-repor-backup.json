@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-21-2100-celebrity-a-watch-a-trusted-outlet-repor-backup",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-21T11:20:22.452Z",
+  "post_at": "2026-11-22T02:00:00.000Z",
+  "backup_for": "2026-11-21-2100-celebrity-a-watch-a-trusted-outlet-repor",
+  "format": "STORY BEHIND",
+  "title": "Backup STORY BEHIND for the slot of: CELEBRITY: a watch a trusted outlet reported a celebrity wearing (to be picked)",
+  "hook": "",
+  "why": "Backup post. Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
+  "sources": [],
+  "previous_attempts": [
+    "Stopped before drafting: only one licensed, credited photo of an exact reference was found for the Genta story (Royal Oak ref. 15202, Wikimedia Commons CC BY-SA 4.0). The STORY BEHIND rule needs at least 7 beats with licensed, credited photos of the exact reference. Nautilus ref. 5711 Commons search",
+    "Stopped before drafting. The Bash tool was denied, so the project could not be started (steps.js start), the pull could not run, and no research or rendering was possible. Also, the prior attempt (Genta, Royal Oak ref. 15202) had only one licensed, credited exact-reference photo, below the 7-beat mi"
+  ],
+  "stop_reason": "Bash was denied, so the engine could not run: no git pull, no steps.js start, no photo.js lookups, no render or finish check. Also, state/permissions.json lists only Rockstar Games (game images), so no watch-photo source is licensed for this format. Under the STORY BEHIND rule (7+ beats with licensed, credited exact-reference photos, or owned brand-kit art), this run cannot be completed. Needs: Bash allowed for this run, and either a permission entry for a watch photo source or a choice of a format built on owned brand-kit art.",
+  "gave_up": true
+}

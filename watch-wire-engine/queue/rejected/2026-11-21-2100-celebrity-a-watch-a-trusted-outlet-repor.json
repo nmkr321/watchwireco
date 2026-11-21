@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-21-2100-celebrity-a-watch-a-trusted-outlet-repor",
+  "status": "stopped",
+  "found_at": "2026-11-21T07:23:31.497Z",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "post_at": "2026-11-22T02:00:00.000Z",
+  "slot": 12,
+  "title": "CELEBRITY: a watch a trusted outlet reported a celebrity wearing (to be picked)",
+  "hook": "Name + watch + twist, once a source is confirmed.",
+  "why": "A celebrity post needs a confirmed sighting. No name is verified yet, so this idea stays open; do not guess. It should not be the same person as slots 3 or 8.",
+  "sources_to_check": [
+    "Search for 'spotted wearing' reports in GQ, Esquire, Hodinkee, Hypebeast in the last 2 weeks",
+    "Confirm the exact reference from a photo or the outlet's caption; use 'spotted wearing' unless ownership is confirmed",
+    "US retail from the brand site, dated Nov 2026. If nothing is confirmed, swap to a different format"
+  ],
+  "sources": [
+    {
+      "title": "Search for 'spotted wearing' reports in GQ, Esquire, Hodinkee, Hypebeast in the last 2 weeks",
+      "link": "",
+      "source": "Search for 'spotted wearing' reports in GQ, Esquire, Hodinkee, Hypebeast in the last 2 weeks",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Confirm the exact reference from a photo or the outlet's caption; use 'spotted wearing' unless ownership is confirmed",
+      "link": "",
+      "source": "Confirm the exact reference from a photo or the outlet's caption; use 'spotted wearing' unless ownership is confirmed",
+      "tier": "to-verify"
+    },
+    {
+      "title": "US retail from the brand site, dated Nov 2026. If nothing is confirmed, swap to a different format",
+      "link": "",
+      "source": "US retail from the brand site, dated Nov 2026. If nothing is confirmed, swap to a different format",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "No confirmed celebrity watch sighting from a trusted outlet dated Nov 2026. One standard search found only older or earlier-2026 sightings (Brad Pitt Vacheron Constantin at Roland Garros, Serena Williams Audemars Piguet at the Met Gala, Conan O'Brien Rolex Land-Dweller at the 2026 Oscars). The idea ",
+    "No confirmed Nov 2026 celebrity watch sighting from a trusted outlet (attempt 2). Extended search surfaced Robb Report roundups dated Nov 7 and Nov 14 2026 (Pete Davidson Audemars Piguet Royal Oak; Owen Wilson Rolex Submariner at SiriusXM; Denis Villeneuve Bulgari at LACMA gala), but none could be c"
+  ],
+  "stop_reason": "No celebrity watch sighting could be verified (attempt 4). Robb Report LACMA article (Denis Villeneuve, Bulgari) redirects to a gated proxy and was not opened; no other source found for Villeneuve's watch. Owen Wilson Submariner at SiriusXM and Pete Davidson Royal Oak for How to Rob a Bank: no outlet source found linking them. Standard and extended searches returned only roundup listings, which the lessons say do not count. No project created. Swap to a different format or give a named source article.",
+  "gave_up": true
+}
