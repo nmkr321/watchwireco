@@ -81,6 +81,8 @@ if (cmd === "start") {
 } else if (cmd === "finish") {
   const P = rel(arg);
   const spec = JSON.parse(fs.readFileSync(path.join(ROOT, P, "slides.json"), "utf8"));
+  // clear slide images from earlier renders, so a dropped slide can't linger in previews or get posted
+  for (const d of ["render", "output"]) { const dir = path.join(ROOT, P, d); if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir)) if (/^slide-\d+\.png$/.test(f)) fs.unlinkSync(path.join(dir, f)); }
   const r = spawnSync("node", [path.join(ENGINE, "templates/render.mjs"), path.join(P, "slides.json"), path.join(P, "render")], { cwd: ROOT, encoding: "utf8" });
   if (r.status !== 0) { console.log(`FAILED at render:\n${(r.stderr || r.stdout).trim().split("\n").slice(-5).join("\n")}`); process.exit(1); }
   spec.slides.forEach((_, i) => {

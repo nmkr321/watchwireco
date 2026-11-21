@@ -53,6 +53,9 @@ export function lint(P, format = "") {
       else seen.set(s[k], i + 1);
     }
   });
+  // photo rights must be on record (photo.js --project registers each photo in assets/manifest.json)
+  if (seen.size) { let n = 0; try { n = (readJson(f("assets/manifest.json")).assets || []).length; } catch {}
+    if (!n) out.push("photos are not registered: fetch every photo with photo.js ... --project <P> so its rights are recorded"); }
   if (fmt.startsWith("WOULD YOU RATHER") || fmt === "SAME MONEY") {
     if (slides[0]?.t === "A-cover" && !slides[0].photo2) out.push("comparison cover needs both watches (photo and photo2)");
   }
