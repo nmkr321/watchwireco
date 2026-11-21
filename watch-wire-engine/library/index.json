@@ -904,5 +904,50 @@
   "caption_credit": "Photo: Patek Philippe SA / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
   "usage": "File:Patek-Philippe-Nautilus-5711-1A-010-1.jpg (CC BY-SA 4.0), credited",
   "fetched": "2026-11-20"
+ },
+ {
+  "kind": "credited",
+  "title": "Rockstar Games image 1: Jason aiming an assault rifle after disembarking from a military plane. A combat",
+  "about": "drops a pile of new GTA 6 launch screenshots featuring dancers, combat dogs, and",
+  "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-screenshots",
+  "image_url": "https://cdn.mos.cms.futurecdn.net/wpPuo2HfzvoFR6Nf4gw3mc.jpg",
+  "file": "watch-wire-engine/library/img/gta6-pcgamer-01.jpg",
+  "w": 1920,
+  "h": 1080,
+  "rights": "licensed",
+  "creator": "Rockstar Games",
+  "credit": "Image: Rockstar Games, via Pcgamer",
+  "usage": "Rockstar Games image used with owner-stated permission, credited",
+  "fetched": "2026-11-21"
+ },
+ {
+  "kind": "credited",
+  "title": "Rockstar Games image 2: Key art of Port Gellhorn in Grand Theft Auto 6.",
+  "about": "calls Port Gellhorn \"Leonida's forgotten coast,\" being a run-down area with aban",
+  "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-screenshots",
+  "image_url": "https://cdn.mos.cms.futurecdn.net/gzwskPe6aC5MFMjVMCb52Q-1280-80.jpg",
+  "file": "watch-wire-engine/library/img/gta6-pcgamer-02.jpg",
+  "w": 1280,
+  "h": 720,
+  "rights": "licensed",
+  "creator": "Rockstar Games",
+  "credit": "Image: Rockstar Games, via Pcgamer",
+  "usage": "Rockstar Games image used with owner-stated permission, credited",
+  "fetched": "2026-11-21"
+ },
+ {
+  "kind": "credited",
+  "title": "Rockstar Games image 3: DreQuan Priest in Grand Theft Auto 6.",
+  "about": "has introduced us to a wealth of supporting characters due to appear in Grand Th",
+  "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-screenshots",
+  "image_url": "https://cdn.mos.cms.futurecdn.net/p5mB8wuR9wd7NNxtmfbbt6-1280-80.jpg",
+  "file": "watch-wire-engine/library/img/gta6-pcgamer-03.jpg",
+  "w": 1280,
+  "h": 720,
+  "rights": "licensed",
+  "creator": "Rockstar Games",
+  "credit": "Image: Rockstar Games, via Pcgamer",
+  "usage": "Rockstar Games image used with owner-stated permission, credited",
+  "fetched": "2026-11-21"
  }
 ]
