@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-21-0815-build-your-collection-build-your-suit-wa",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.496Z",
+  "lane": "rotation",
+  "format": "BUILD YOUR COLLECTION",
+  "post_at": "2026-11-21T13:15:00.000Z",
+  "slot": 2,
+  "title": "BUILD YOUR COLLECTION: Build Your Suit Watch Set, three picks under $6,000",
+  "hook": "Build Your Suit Watch Set. Three Picks, All Under $6,000.",
+  "why": "Use case: watches for a suit. Tiers are different types (thin dress steel, gold or leather, field) inside a tight band. Viewers comment their pick, which makes it interactive. It does not repeat the 3-watch collection post because the tiers and use case differ.",
+  "sources_to_check": [
+    "Candidate refs to verify (not confirmed): Nomos Tangente 38 (steel, dress); Longines Master Collection (steel, dress); Oris Artelier (dress) or a field watch",
+    "US retail from each brand's US site, dated Nov 2026; check each tier cap and that each option is under its cap",
+    "Photos only from photo.js with permissions.json credit lines"
+  ],
+  "sources": [
+    {
+      "title": "Candidate refs to verify (not confirmed): Nomos Tangente 38 (steel, dress); Longines Master Collection (steel, dress); Oris Artelier (dress) or a field watch",
+      "link": "",
+      "source": "Candidate refs to verify (not confirmed): Nomos Tangente 38 (steel, dress); Longines Master Collection (steel, dress); Oris Artelier (dress) or a field watch",
+      "tier": "to-verify"
+    },
+    {
+      "title": "US retail from each brand's US site, dated Nov 2026; check each tier cap and that each option is under its cap",
+      "link": "",
+      "source": "US retail from each brand's US site, dated Nov 2026; check each tier cap and that each option is under its cap",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Photos only from photo.js with permissions.json credit lines",
+      "link": "",
+      "source": "Photos only from photo.js with permissions.json credit lines",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Not enough verified candidates to build three tiers with three options each. Dress steel tier is covered: Nomos Tangente 38 at $2,510 (Exquisite Timepieces, library, dated 2026-11-20); Longines Master Date 38.5 at about $2,850-$3,000 (Watches of Switzerland US and Wempe US, dates not confirmed); Ori",
+    "Not enough verified candidates for three tiers with three options each. Only the dress steel tier (under $3,000) has three priced options in the library: Oris Artelier 01 733 7721 4051-07 5 21 64FC at $1,950, Oris Artelier 01 733 7810 4054-07 6 at $2,200, and Nomos Tangente 38 165 at $2,510 (all dat"
+  ]
+}

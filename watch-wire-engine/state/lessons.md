@@ -1,9 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [STORY BEHIND] Rerun the posted-story duplicate check right before submitting, since another story may have run during drafting.
-- [STORY BEHIND] Plan the slide count before drafting; if dropping an unverified claim leaves fewer than 7 slides, verify another beat from a second source.
-- [STORY BEHIND] Before rendering, map where the watch dial sits in each photo and keep the cover headline and every beat's text in clear space.
 - [STORY BEHIND] Map a watch-bearing photo to slides 1, 3, 4 and 6 before drafting; reject any image where no watch or wrist is visible.
 - [STORY BEHIND] Leave no empty band on the cover: size headline and image together to fill the slide, then centre them as one block before rendering.
 - [STORY BEHIND] Brighten every photo until the watch dial reads clearly before rendering; use a brighter crop, never a dark overlay.
@@ -21,3 +18,6 @@ The editor reads this before every post. Written automatically from rejections; 
 - [LISTICLE] Library records are not a source for current prices; re-fetch each price's page in this run and log it as opened before using the figure.
 - [LISTICLE] Before starting, confirm this run has the tools and budget for every required gate; if not, choose a format or idea you can finish.
 - [LISTICLE] Estimate the remaining budget against research, render and validation before starting; pick a shorter format if it can't cover all three.
+- [BUILD YOUR COLLECTION] Before drafting a multi-tier list, count verified options per tier; if any tier falls short, drop that tier or reduce the tier count.
+- [BUILD YOUR COLLECTION] Fix the tier count from verified options after one search pass; if still short, cut tiers instead of retrying the same sources.
+- [BUILD YOUR COLLECTION] Count only options whose price was fetched this run toward tier minimums; dated library entries from earlier runs don't qualify.
