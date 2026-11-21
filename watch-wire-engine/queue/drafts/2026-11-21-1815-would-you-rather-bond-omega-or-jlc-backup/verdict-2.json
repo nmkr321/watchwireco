@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. I fetched the Omega green-dial page and it confirms $5,500, 40mm steel and the reference number. Omega's blue-dial page, fetched in the earlier review, confirmed $5,100. The two prices are about 8% apart, on the same source and date, and both photos are official Omega images with credit. The previous slide 5 headline problem is fixed: the CTA headline is back to the stock wording."
+}

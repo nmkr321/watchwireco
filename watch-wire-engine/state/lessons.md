@@ -1,17 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [LISTICLE] Include only picks whose reference, price and movement are confirmed on the manufacturer page in research; drop any unconfirmed pick instead of padding the list.
-- [CELEBRITY] Owner rules (2026-11-21): one readable trusted outlet naming the watch is enough, credited by name; for a paywalled outlet its readable headline or summary naming the watch counts. The celebrity's photo does not need to show the watch: use their photo plus the official photo of the named watch (A-spotted). If a celebrity has no usable photo at all, pick another celebrity.
-- [CELEBRITY] Keep cover headlines to 2–6 words; move extra detail into a gold subline on the cover.
-- [CELEBRITY] Build every slide the format recipe requires, and log each slide claim in research.json with its source and attribution.
-- [CELEBRITY] Aim the arrow only at a visible wrist or watch; if the photo shows none, use the official watch photo on its own slide.
-- [CELEBRITY] Give every slide a distinct photo; never reuse the cover image, even cropped or zoomed, on a later slide.
-- [CELEBRITY] If the research validator marks a celebrity's single-outlet claim unverified, find a second trusted outlet naming the watch before drafting, or pick another story.
-- [CELEBRITY] Run the research validator on every celebrity claim before drafting; resolve each flag with a second source or drop the claim.
-- [CELEBRITY] Write event dates at the precision the source states; if the source gives only a month, use only month and year.
-- [CELEBRITY] Before finishing, check each slide for cramped text, unbalanced empty space and undersized photos; adjust spacing, centring and image size.
-- [CELEBRITY] A comparison post must show every compared watch on the cover, each with its own official photo, before drafting.
 - [CELEBRITY] Cite only sources listed in research.json in slide footers; after rendering, check that slide text and caption match carousel.json.
 - [CELEBRITY] Name a specific watch model only when the photo on that slide shows that exact model; otherwise name the brand alone.
 - [CELEBRITY] Say a celebrity wears or is linked to a watch only if a listed source says so; never imply on-screen use without one.
@@ -21,3 +10,14 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY] Keep the caption's source list unchanged when shortening an on-slide footer, so the footer and caption still match carousel.json.
 - [CELEBRITY] Add every image to assets/manifest.json with its rights type and source URL before placing it on any slide, so the credit matches the manifest.
 - [CELEBRITY] Never repeat a slide's label as its headline; write a distinct headline that adds a new point under each label.
+- [WOULD YOU RATHER] Pick two watches only when both have confirmed current prices from the manufacturer or a trusted retailer, within about 10% of each other; otherwise choose a different pair.
+- [WOULD YOU RATHER] Match the same reference, material and generation on both sides of the pair, and log each price with its source and check date in research.json.
+- [WOULD YOU RATHER] Quote both prices on the same basis (currency, region, and before or after tax), and check the gap before choosing the pair.
+- [WOULD YOU RATHER] If a pair fails the price check, swap in another model from the same brand and price band rather than abandoning the format.
+- [WOULD YOU RATHER] Source both watches' prices from the same retailer or manufacturer site and currency, so the price-gap check compares like with like before the pair is chosen.
+- [WOULD YOU RATHER] If a pair's price is missing from research.json, look up that exact reference on the brand site or a trusted retailer first.
+- [WOULD YOU RATHER] Use background-free product photos with no shadow or dark box; size and centre each watch identically on the cover and every slide.
+- [WOULD YOU RATHER] Write each model name identically on every slide and in the caption; shorten it to fit one line, never break it mid-word.
+- [WOULD YOU RATHER] Scale both watch photos to the same measured pixel height and keep them clear of header and credit bands on every slide.
+- [WOULD YOU RATHER] Count words in every slide headline before rendering; keep each within the 2–6 word limit, using the recipe's stock wording when shortening.
+- [WOULD YOU RATHER] Use only the recipe's stock closing or vote line on the final slide; never add extra taglines or accent lines beyond the recipe.

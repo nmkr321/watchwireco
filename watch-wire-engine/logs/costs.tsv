@@ -352,3 +352,24 @@
 2026-11-21T19:34:35.750Z	approver 2026-11-21-1700-celebrity-pattinson-bond-watch r2	claude-sonnet-5-5	0.0959	11
 2026-11-21T19:34:55.207Z	editor-revise 2026-11-21-1700-celebrity-pattinson-bond-watch	claude-haiku-5-5	0.0039	6
 2026-11-21T19:35:17.854Z	approver 2026-11-21-1700-celebrity-pattinson-bond-watch r3	claude-sonnet-5-5	0.0976	13
+2026-11-21T19:35:44.382Z	editor 2026-11-21-1815-would-you-rather-bond-omega-or-jlc	claude-haiku-5-5	0.0330	7
+2026-11-21T19:35:47.778Z	learn 2026-11-21-1815-would-you-rather-bond-omega-or-jlc	claude-haiku-5-5	0.0018	2
+2026-11-21T19:36:08.753Z	editor 2026-11-21-1815-would-you-rather-bond-omega-or-jlc	claude-haiku-5-5	0.0274	6
+2026-11-21T19:36:14.360Z	learn 2026-11-21-1815-would-you-rather-bond-omega-or-jlc	claude-haiku-5-5	0.0023	3
+2026-11-21T19:36:55.982Z	editor 2026-11-21-1815-would-you-rather-bond-omega-or-jlc	claude-haiku-5-5	0.0539	9
+2026-11-21T19:37:03.375Z	learn 2026-11-21-1815-would-you-rather-bond-omega-or-jlc	claude-haiku-5-5	0.0022	2
+2026-11-21T19:37:24.939Z	editor 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup	claude-haiku-5-5	0.0169	7
+2026-11-21T19:37:32.536Z	learn 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup	claude-haiku-5-5	0.0023	2
+2026-11-21T19:38:51.547Z	editor 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup	claude-haiku-5-5	0.0237	25
+2026-11-21T19:39:10.600Z	approver 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup r1	claude-sonnet-5-5	0.0957	12
+2026-11-21T19:39:17.535Z	learn 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup	claude-haiku-5-5	0.0023	2
+2026-11-21T19:39:59.262Z	editor-revise 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup	claude-haiku-5-5	0.0103	13
+2026-11-21T19:40:09.154Z	approver 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup r2	claude-sonnet-5-5	0.0375	6
+2026-11-21T19:41:16.808Z	editor-revise 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup	claude-haiku-5-5	0.0250	20
+2026-11-21T19:41:34.267Z	approver 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup r3	claude-sonnet-5-5	0.0755	10
+2026-11-21T19:41:41.631Z	learn 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup	claude-haiku-5-5	0.0024	2
+2026-11-21T19:43:11.166Z	editor 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup	claude-haiku-5-5	0.0312	22
+2026-11-21T19:43:31.030Z	approver 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup r1	claude-sonnet-5-5	0.0846	12
+2026-11-21T19:43:36.331Z	learn 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup	claude-haiku-5-5	0.0021	2
+2026-11-21T19:43:48.809Z	editor-revise 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup	claude-haiku-5-5	0.0023	4
+2026-11-21T19:44:08.223Z	approver 2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup r2	claude-sonnet-5-5	0.0972	15

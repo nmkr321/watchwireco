@@ -1,0 +1,55 @@
+{
+ "source": "Omega (omegawatches.com), US list prices, 21 Nov 2026",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "SAME MONEY",
+   "line1": "Same money.",
+   "line2": "Which one?",
+   "meta": "Omega De Ville Prestige 40mm · Prices 21 Nov 2026",
+   "photo": "watch-wire-engine/library/img/omega-43413402003001.png",
+   "photo2": "watch-wire-engine/library/img/omega-43410402010001.png",
+   "credit": "Image: Omega"
+  },
+  {
+   "t": "A-wyr",
+   "tag": "SAME MONEY",
+   "left": {
+    "brand": "Omega",
+    "model": "De Ville Prestige 40mm",
+    "price": "$5,100",
+    "photo": "watch-wire-engine/library/img/omega-43413402003001.png"
+   },
+   "right": {
+    "brand": "Omega",
+    "model": "De Ville Prestige 40mm",
+    "price": "$5,500",
+    "photo": "watch-wire-engine/library/img/omega-43410402010001.png"
+   },
+   "credit": "Prices: omegawatches.com, 21 Nov 2026"
+  },
+  {
+   "t": "A-photo",
+   "label": "Option A · $5,100",
+   "headline": "Blue dial, leather strap",
+   "body": "Steel 40mm, domed blue PVD dial. Ref 434.13.40.20.03.001.",
+   "photo": "watch-wire-engine/library/img/omega-43413402003001.png",
+   "credit": "Image: Omega",
+   "source": "Omega (omegawatches.com), 21 Nov 2026"
+  },
+  {
+   "t": "A-photo",
+   "label": "Option B · $5,500",
+   "headline": "Green dial, steel bracelet",
+   "body": "Steel 40mm, domed pine-green PVD dial. Ref 434.10.40.20.10.001.",
+   "photo": "watch-wire-engine/library/img/omega-43410402010001.png",
+   "credit": "Image: Omega",
+   "source": "Omega (omegawatches.com), 21 Nov 2026"
+  },
+  {
+   "t": "cta",
+   "line1": "Vote in the comments.",
+   "body": "Which dial would you wear for the money?"
+  }
+ ]
+}

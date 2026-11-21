@@ -1,0 +1,18 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Owner design rule: slide 5 headline is 7 words (\"Vote in the comments. A or B?\"), over the 2–6 word limit."
+  ],
+  "fixes": [
+    "slide 5: cut the headline to the recipe's \"Vote in the comments.\" (4 words) and drop the gold \"A OR B?\" line. Keep the body line \"Which dial would you wear for the money?\"."
+  ],
+  "reason": "The check passes, and the two prices ($5,100 and $5,500, about 8% apart) match Omega's official pages. The blue strap reference matches the page I fetched; I did not fetch the green one. Only the slide 5 headline is too long, so shortening it should clear approval."
+}

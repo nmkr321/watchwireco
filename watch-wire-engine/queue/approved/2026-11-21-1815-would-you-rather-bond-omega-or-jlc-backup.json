@@ -1,0 +1,35 @@
+{
+  "id": "2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup",
+  "lane": "news",
+  "status": "approved",
+  "found_at": "2026-11-21T19:37:03.383Z",
+  "post_at": "2026-11-21T23:15:00.000Z",
+  "backup_for": "2026-11-21-1815-would-you-rather-bond-omega-or-jlc",
+  "format": "WOULD YOU RATHER",
+  "title": "Backup WOULD YOU RATHER for the slot of: WOULD YOU RATHER: Pattinson's 007 wears the Omega Seamaster James Bond Edition or a Jaeger-LeCoultre Master Control?",
+  "hook": "",
+  "why": "Backup post. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
+  "sources": [],
+  "previous_attempts": [
+    "No same-reference price pair within about 10%. The library has no confirmed price for the Omega Seamaster James Bond Edition, and the only confirmed JLC Master Control price is $14,200 (Watches of Switzerland, 2026-11-21), against Omega prices of $5,100 to $9,000 (2026-11-20/21). The one JLC Master ",
+    "The check passes, but the watch sizes are inconsistent across slides 1 to 4, and slide 3's Rolex runs off the top edge behind the header. The two prices also come from different retailers, which the format lessons say not to do. / Gate 6: slides 3 and 4 show the two watches at very different sizes. The Rolex on slide 3 is oversized and runs off the top edge behind the header. The Breitling on slide 4 is small. / Gate 6: on slide 2 the Rolex is clearly smaller than the Breitling, about 118px against 135px tall. This breaks the lesson to size and centre each watch identically. / Lesson breach: t"
+  ],
+  "scheduled_for": "2026-11-21T23:15:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup",
+  "project_dir": "/home/runner/work/watchwireco/watchwireco/Content Creation/projects/2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-21-1815-would-you-rather-bond-omega-or-jlc-backup/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The check passes. I fetched the Omega green-dial page and it confirms $5,500, 40mm steel and the reference number. Omega's blue-dial page, fetched in the earlier review, confirmed $5,100. The two prices are about 8% apart, on the same source and date, and both photos are official Omega images with credit. The previous slide 5 headline problem is fixed: the CTA headline is back to the stock wording."
+  }
+}
