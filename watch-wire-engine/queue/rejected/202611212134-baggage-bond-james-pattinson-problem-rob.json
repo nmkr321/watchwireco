@@ -1,0 +1,24 @@
+{
+  "id": "202611212134-baggage-bond-james-pattinson-problem-rob",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-21T21:34:33.030Z",
+  "title": "Robert Pattinson and James Bond’s baggage problem",
+  "score": 6,
+  "sources": [
+    {
+      "title": "Robert Pattinson and James Bond’s baggage problem",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbUJ4U0VhTDBCc2ppT0ZUeXk1QUVwNjNyajNHX3hycHNPd2ppd0VxWEdGRGFvcG1Ya2MtVndua3BncXNFT0dPZGFsNy1VM29SU2ZFTmpDZUJuM1UzM3JpeDVqakdoSTNYVC1iWE1WNFBydEktUms2ZnZZOFZnZGJXRE9JQ0lYS09IeWxITHRXQVBQbWpXZzM1UGY4aDVRUFREN1FN?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "The Guardian",
+      "domain": "theguardian.com",
+      "tier": "major_news",
+      "published": "Sat, 21 Nov 2026 21:02:00 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NONE",
+    "reason": "Headline is about Robert Pattinson's casting and the baggage around the James Bond role. It is commentary on the franchise, with no watch angle (no Omega, no Bond watch, no watch deal or moment). Judged from the headline only; the Guardian article was not opened."
+  }
+}
