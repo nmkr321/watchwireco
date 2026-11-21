@@ -1,0 +1,19 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: slide 2 layout is not centred. There is a large gap under the header tag and above the photos, and empty space below the prices. This was flagged in the last round and is still unfixed."
+  ],
+  "fixes": [
+    "slide 2: Fill the empty space below the prices so the block sits centred. Show the body line 'Same case and movement. $50 apart.' (or similar) in one even line under the prices, and make sure the headline 'Which dial would you pick?' shows too. If the template can't do this, re-render with a layout that vertically centres the photos, names and prices between the header and the footer.",
+    "slide 5: Check that the CTA headline reads 'Vote in the comments.' only. The gold 'EVERY DAY.' line has nothing to do with this post and reads as filler."
+  ],
+  "reason": "The facts are good: both prices ($445 and $495), the specs and the Hamilton images match Hamilton's official US pages, and the check passes. Slide 2 is still lopsided, with a big gap above the photos and empty space below the prices, so it needs a re-render before it can go out."
+}

@@ -1,0 +1,21 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "6: slide 2 layout is crowded, with four-line headlines pressed up against the photos and uneven empty space below",
+    "6: slide 3 body text wraps and leaves 'Nov 2026.' as an orphan line"
+  ],
+  "fixes": [
+    "slide 2: shorten each option name to 2–3 lines, e.g. 'Black dial, green NATO' and 'Navy dial, steel bracelet'. Keep the price under each name, re-render, and make sure the photo, name and price block is vertically centred between the tag and the footer.",
+    "slide 3: shorten the body to one line or two even lines, e.g. 'Quartz Caliber F06.105. Checked 21 Nov 2026.' Slide 4 is fine, but keep its body to one line so the two option slides match.",
+    "slide 3 and slide 4: the headline-to-body spacing should be identical on both slides after the edit."
+  ],
+  "reason": "The facts check out: both prices, the 38mm case, the quartz movement and the dial colours match Hamilton's official page. The check passes, the two prices are 11% apart, and the photos are official Hamilton images. Slide 2 is crowded and slide 3 has an orphaned line, so it needs a quick text and layout fix before it can go out."
+}

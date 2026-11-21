@@ -1,0 +1,19 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: slide 2 layout is unbalanced"
+  ],
+  "fixes": [
+    "slide 2: Shorten the right option name to 2 lines, for example 'Navy dial, bracelet', so it matches the left name's 2 lines. The two prices should then sit at the same height.",
+    "slide 2: Re-balance the vertical spacing so the block is centred. At the moment there is empty space below the prices and a big gap above the photos."
+  ],
+  "reason": "The prices and specs match Hamilton's official US pages and the check passes. Slide 2 is lopsided, though: the right name runs to three lines, so its price sits lower than the left one and the block isn't centred. Fix that and it should be ready."
+}

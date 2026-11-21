@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-21-1700-would-you-rather-a-first-watch-under-1-0",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-21T07:23:31.497Z",
+  "lane": "rotation",
+  "format": "WOULD YOU RATHER",
+  "post_at": "2026-11-21T22:00:00.000Z",
+  "slot": 9,
+  "title": "WOULD YOU RATHER: a first watch under $1,000 (Hamilton Khaki Field vs Seiko 5 Sports, to verify)",
+  "hook": "Your First Watch Under $1,000. Which One?",
+  "why": "Binary aimed at a clear buyer (first watch, under $1,000). Interactive. Prices need to be within about 10%; if they are not, choose a different pair.",
+  "sources_to_check": [
+    "Candidate refs to verify: Hamilton Khaki Field (mechanical or quartz), Seiko 5 Sports (check current ref and US retail)",
+    "Both US retail prices from the brand sites on the same day, dated Nov 2026",
+    "If the prices differ by more than 10%, change the pair before the post is made"
+  ],
+  "sources": [
+    {
+      "title": "Candidate refs to verify: Hamilton Khaki Field (mechanical or quartz), Seiko 5 Sports (check current ref and US retail)",
+      "link": "",
+      "source": "Candidate refs to verify: Hamilton Khaki Field (mechanical or quartz), Seiko 5 Sports (check current ref and US retail)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Both US retail prices from the brand sites on the same day, dated Nov 2026",
+      "link": "",
+      "source": "Both US retail prices from the brand sites on the same day, dated Nov 2026",
+      "tier": "to-verify"
+    },
+    {
+      "title": "If the prices differ by more than 10%, change the pair before the post is made",
+      "link": "",
+      "source": "If the prices differ by more than 10%, change the pair before the post is made",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Price check failed for the input pair. Hamilton Khaki Field Mechanical 36mm (H69399930) is about $725 US (Watches of Switzerland and Abt listings, Nov 2026), while Seiko 5 Sports SRPK (SRPK29/SRPK33K1) has a $350 US retail reference (WatchCharts Apr 2026; StockX). The gap is about 2x, far above the ",
+    "The facts, prices ($675 and $845, confirmed on Hamilton's site), photos, credits, caption and validation all pass. The cover headline is one word over the 6-word limit, so it needs a short rewrite before approval. / Owner design rule: the slide 1 headline is 7 words ('Your first watch under $1,000. Which one?'). The limit is 6. / slide 1: shorten the headline to 6 words or fewer, e.g. 'First watch under $1,000?' on the first lines and 'Which one?' as the gold line. Total ≤6 words. Keep the FIRST WATCH tag. / slide 2: the block sits a little high with empty space below. Check that it looks vert"
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 3
+    },
+    "hard_gate_failures": [
+      "Gate 6: slide 2 layout is not centred. There is a large gap under the header tag and above the photos, and empty space below the prices. This was flagged in the last round and is still unfixed."
+    ],
+    "fixes": [
+      "slide 2: Fill the empty space below the prices so the block sits centred. Show the body line 'Same case and movement. $50 apart.' (or similar) in one even line under the prices, and make sure the headline 'Which dial would you pick?' shows too. If the template can't do this, re-render with a layout that vertically centres the photos, names and prices between the header and the footer.",
+      "slide 5: Check that the CTA headline reads 'Vote in the comments.' only. The gold 'EVERY DAY.' line has nothing to do with this post and reads as filler."
+    ],
+    "reason": "The facts are good: both prices ($445 and $495), the specs and the Hamilton images match Hamilton's official US pages, and the check passes. Slide 2 is still lopsided, with a big gap above the photos and empty space below the prices, so it needs a re-render before it can go out."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-21-1700-would-you-rather-a-first-watch-under-1-0",
+  "gave_up": true
+}

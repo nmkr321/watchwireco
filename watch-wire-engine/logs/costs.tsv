@@ -202,3 +202,35 @@
 2026-11-21T10:40:42.231Z	learn 2026-11-21-1545-celebrity-a-watch-a-trusted-outlet-repor-backup	claude-haiku-5-5	0.0022	2
 2026-11-21T10:43:09.762Z	editor 2026-11-21-1545-celebrity-a-watch-a-trusted-outlet-repor-backup	claude-haiku-5-5	0.0460	34
 2026-11-21T10:43:15.613Z	learn 2026-11-21-1545-celebrity-a-watch-a-trusted-outlet-repor-backup	claude-haiku-5-5	0.0021	2
+2026-11-21T10:43:32.924Z	editor 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0271	6
+2026-11-21T10:43:38.604Z	learn 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0021	2
+2026-11-21T10:45:17.198Z	editor 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0463	22
+2026-11-21T10:45:33.045Z	approver 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0 r1	claude-sonnet-5-5	0.0689	10
+2026-11-21T10:45:37.554Z	learn 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0020	2
+2026-11-21T10:46:36.653Z	editor-revise 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0246	12
+2026-11-21T10:46:52.883Z	approver 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0 r2	claude-sonnet-5-5	0.0789	13
+2026-11-21T10:47:54.300Z	editor-revise 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0123	14
+2026-11-21T10:48:13.766Z	approver 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0 r3	claude-sonnet-5-5	0.0770	12
+2026-11-21T10:48:18.060Z	learn 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0020	2
+2026-11-21T10:50:46.346Z	editor 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0488	44
+2026-11-21T10:51:08.930Z	approver 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0 r1	claude-sonnet-5-5	0.0959	16
+2026-11-21T10:51:15.298Z	learn 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0023	2
+2026-11-21T10:51:35.005Z	editor-revise 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0045	7
+2026-11-21T10:51:48.444Z	approver 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0 r2	claude-sonnet-5-5	0.0642	10
+2026-11-21T10:52:09.399Z	editor-revise 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0040	7
+2026-11-21T10:52:27.314Z	approver 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0 r3	claude-sonnet-5-5	0.0702	14
+2026-11-21T10:52:31.785Z	learn 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0	claude-haiku-5-5	0.0020	2
+2026-11-21T10:54:57.519Z	editor 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup	claude-haiku-5-5	0.0808	30
+2026-11-21T10:55:15.417Z	approver 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup r1	claude-sonnet-5-5	0.0920	12
+2026-11-21T10:55:19.921Z	learn 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup	claude-haiku-5-5	0.0020	2
+2026-11-21T10:56:27.140Z	editor-revise 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup	claude-haiku-5-5	0.0153	17
+2026-11-21T10:56:37.896Z	approver 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup r2	claude-sonnet-5-5	0.0338	5
+2026-11-21T10:57:19.418Z	editor-revise 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup	claude-haiku-5-5	0.0076	8
+2026-11-21T10:57:28.089Z	approver 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup r3	claude-sonnet-5-5	0.0193	4
+2026-11-21T10:57:34.861Z	learn 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup	claude-haiku-5-5	0.0023	2
+2026-11-21T10:59:23.177Z	editor 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup	claude-haiku-5-5	0.0542	26
+2026-11-21T10:59:34.598Z	approver 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup r1	claude-sonnet-5-5	0.0548	7
+2026-11-21T10:59:40.440Z	learn 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup	claude-haiku-5-5	0.0022	2
+2026-11-21T10:59:43.802Z	learn 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup	claude-haiku-5-5	0.0019	2
+2026-11-21T11:02:20.536Z	editor 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup	claude-haiku-5-5	0.0628	32
+2026-11-21T11:02:25.753Z	learn 2026-11-21-1700-would-you-rather-a-first-watch-under-1-0-backup	claude-haiku-5-5	0.0020	2

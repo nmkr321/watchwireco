@@ -1,23 +1,23 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [WOULD YOU RATHER] Before drafting, confirm each option has a clean, permitted product photo of its exact reference; if not, pick a different pair.
-- [WOULD YOU RATHER] Use product shots of each option alone, not worn; if a photo is worn or reused, switch to another pair.
-- [WOULD YOU RATHER] After a failed pair attempt, choose a different pair from the start; don't retry the same pair with new prices or a cheaper variant.
-- [STORY BEHIND] Choose only references with both a sourced historical event and enough listed exact-reference photos; a photo count alone is not a story.
-- [STORY BEHIND] Before drafting, shortlist two stories that each have enough listed exact-reference photos, so a backup is ready if the primary fails.
-- [STORY BEHIND] Generic brand or family photos never count toward photo slides; only exact-reference images listed in library/index.json do.
-- [STORY BEHIND] Rank candidate references by exact-reference photo count in library/index.json first, then research events only for the top few.
-- [STORY BEHIND] If no reference reaches the slide count in library/index.json, switch to a format needing fewer exact-reference photos instead of retrying.
-- [CELEBRITY] Before drafting, find a dated sighting from a trusted outlet within the current news window, with its source link; if none, use another format.
-- [CELEBRITY] Never treat older red-carpet roundups or event recaps as a sighting; they cannot support a current celebrity post.
-- [CELEBRITY] After one search finds no dated sighting in the current window, switch to another format at once; don't run more searches or fall back on older coverage.
-- [CELEBRITY] Before writing a celebrity idea, check queue/rejected for earlier celebrity rejections; if one lacked a dated sighting, choose a non-celebrity format.
-- [CELEBRITY] Find the dated trusted-outlet sighting first, then write the idea around it; never write the idea first and search for proof afterward.
-- [STORY BEHIND] Every dated or numeric claim needs two independent trusted sources (e.g. brand site, Watchonista); if only one, write 'reportedly' or cut it.
-- [STORY BEHIND] Each slide's factual statement needs its own sourced claim_id; cut any slide whose statement lacks one.
-- [STORY BEHIND] Plan 7–9 slides before drafting and check the count before finishing; if short, add verified facts rather than shortening.
-- [STORY BEHIND] Give each slide a new verified fact or exact-reference photo; avoid slides that only restate or soften earlier claims.
-- [STORY BEHIND] Check library/index.json photo counts for the whole watch family before choosing a story; if none are listed, switch families, not just reference numbers.
 - [STORY BEHIND] Pick the backup story from a different watch family than the primary, so one missing photo set cannot fail both.
 - [STORY BEHIND] Before drafting, check each beat's two-source status during research; drop single-source beats then, and confirm the rest still fill 7 slides.
+- [WOULD YOU RATHER] Pick two options whose current US retail prices are within about 25% of each other; check both before drafting.
+- [WOULD YOU RATHER] Price each option from a dated US source in the current news window; if its sources disagree by over 2x, choose another pair.
+- [WOULD YOU RATHER] Give each option its own exact-reference photo slide, with its rights 'official' entry confirmed in assets/manifest.json before drafting.
+- [WOULD YOU RATHER] Every option spec (movement, size, dial, price) needs its own verified claim_id; drop any wording that lacks one.
+- [WOULD YOU RATHER] Count every headline's words against the 6-word limit before finishing; shorten the wording until it fits, keeping the format tag.
+- [WOULD YOU RATHER] After any text change, check each slide's text block is vertically centred; re-render and rebalance the spacing rather than leaving empty space below.
+- [WOULD YOU RATHER] Keep every slide body to one or two even-length lines with no orphan words, checking wrap before rendering.
+- [WOULD YOU RATHER] Match headline-to-body spacing across paired option slides; keep option names to 2–3 lines so photo, name and price balance.
+- [WOULD YOU RATHER] Before finishing, check each rendered slide shows its planned headline and body text, not only the template data.
+- [WOULD YOU RATHER] CTA slides carry only this post's call-to-action line; leave out unrelated taglines or filler copy.
+- [STORY BEHIND] Headlines must use only the strength of their sourced claim; don't turn 'inspired by' into 'came from' or add origins the sources don't state.
+- [STORY BEHIND] Keep photo overlays light enough that the watch stays clearly visible; check each rendered photo slide before finishing and lighten any that hide the product.
+- [STORY BEHIND] Apply every planned fix, re-run validation, and confirm the draft status is ready before finishing; never hand off a 'stopped' draft.
+- [STORY BEHIND] Run validate and the source checks on the finished draft before finishing; if any gate fails, fix it and re-run until all pass.
+- [STORY BEHIND] Before choosing a story, check previously posted and queued posts for the same watch or hook; if one exists, pick a different story.
+- [STORY BEHIND] Show only the exact reference named in the claim; never substitute a different reference or model photo, even within the same family.
+- [STORY BEHIND] Before choosing the story, confirm at least 7 two-source-verified beats exist; if fewer, pick a different story rather than drafting a short one.
+- [STORY BEHIND] Log each beat's source count and claim_id during research, so two-source status is checked before any slide is drafted.

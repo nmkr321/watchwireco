@@ -33,5 +33,9 @@
       "source": "If the prices differ by more than 10%, change the pair before the post is made",
       "tier": "to-verify"
     }
+  ],
+  "previous_attempts": [
+    "Price check failed for the input pair. Hamilton Khaki Field Mechanical 36mm (H69399930) is about $725 US (Watches of Switzerland and Abt listings, Nov 2026), while Seiko 5 Sports SRPK (SRPK29/SRPK33K1) has a $350 US retail reference (WatchCharts Apr 2026; StockX). The gap is about 2x, far above the ",
+    "The facts, prices ($675 and $845, confirmed on Hamilton's site), photos, credits, caption and validation all pass. The cover headline is one word over the 6-word limit, so it needs a short rewrite before approval. / Owner design rule: the slide 1 headline is 7 words ('Your first watch under $1,000. Which one?'). The limit is 6. / slide 1: shorten the headline to 6 words or fewer, e.g. 'First watch under $1,000?' on the first lines and 'Which one?' as the gold line. Total ≤6 words. Keep the FIRST WATCH tag. / slide 2: the block sits a little high with empty space below. Check that it looks vert"
   ]
 }
