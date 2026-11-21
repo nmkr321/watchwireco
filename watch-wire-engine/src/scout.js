@@ -48,7 +48,7 @@ export async function scout(log = console.log) {
     accounts.push({ handle: h, followers: b.followers_count, posts: m.length, median_eng: +med.toFixed(3) });
     for (const x of m) posts.push({ handle: h, type: x.media_product_type === "REELS" ? "REEL" : x.media_type === "CAROUSEL_ALBUM" ? "CAROUSEL" : "IMAGE",
       format: fmtOf(x.caption), lift: +(eng(x) / med).toFixed(2), likes: x.like_count, comments: x.comments_count || 0, hour: nyHour(x.timestamp),
-      question: /\?/.test(x.caption || ""), hashtags: ((x.caption || "").match(/#\w+/g) || []).length,
+      question: /\?/.test(x.caption || ""), words: (x.caption || "").split(/\s+/).filter(Boolean).length, hashtags: ((x.caption || "").match(/#\w+/g) || []).length,
       licensed_audio: x.media_product_type === "REELS" ? !x.media_url : null, first_line: (x.caption || "").split("\n")[0].slice(0, 110), permalink: x.permalink, timestamp: x.timestamp });
   }
   fs.mkdirSync(path.dirname(RAW), { recursive: true });
@@ -81,6 +81,20 @@ export async function scout(log = console.log) {
   fs.writeFileSync(OUT, md.join("\n") + "\n");
   log(`scout: ${posts.length} posts from ${accounts.length} accounts; best format ${fmt[0]?.[0]} ${fmt[0] ? pct(fmt[0][1]) : ""}`);
   return { fmt, type, hours, q, lic: lic.length, reels: reels.length };
+}
+
+// for the editor, about THIS format only (2-3 short lines, free): how the winning posts of this format look
+export function scoutEditorHint(format = "") {
+  try {
+    const r = JSON.parse(fs.readFileSync(RAW, "utf8")); if (Date.now() - Date.parse(r.ran_at) > 7 * 864e5) return "";
+    const f = (r.posts || []).filter((p) => p.format === format.toUpperCase());
+    const win = f.filter((p) => p.lift >= 1.3).sort((a, b) => b.lift - a.lift), rest = f.filter((p) => p.lift < 1.3);
+    if (win.length < 2) return "";
+    const pc = (a, k) => Math.round(100 * a.filter((p) => p[k]).length / a.length);
+    const w = (a) => Math.round(avg(a.map((p) => p.words || 0)));
+    return `\nWhat wins for ${format} on other watch accounts now (scout): captions ~${w(win)} words${rest.length ? ` (others ~${w(rest)})` : ""}, ${pc(win, "question")}% ask a question; ` +
+      `mostly ${win.filter((p) => p.type === "CAROUSEL").length >= win.length / 2 ? "carousels" : "Reels"}. Best openers: ${[...new Map(win.map((p) => [p.first_line, p])).values()].slice(0, 2).map((p) => `"${p.first_line.slice(0, 80)}"`).join(" / ")}. Borrow the angle, never the words.`;
+  } catch { return ""; }
 }
 
 // short lines for the planner prompt (free: no extra AI call)

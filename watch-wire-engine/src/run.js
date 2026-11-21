@@ -19,7 +19,7 @@ import { publishPost } from "./publish.js";
 import { lint } from "./lint.js";
 import { publishTrialReel } from "./reel.js";
 import { collectInsights, plannerHint, dailySummary } from "./insights.js";
-import { scout, scoutDue, scoutHint } from "./scout.js";
+import { scout, scoutDue, scoutHint, scoutEditorHint } from "./scout.js";
 import { loadEnv } from "./publish.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -130,7 +130,7 @@ function formatBrief(format = "") {
   let row = "", lessons = "";
   try { row = fs.readFileSync(path.join(ROOT, "FORMATS.md"), "utf8").split("\n").find((l) => l.startsWith("| ") && l.toUpperCase().includes(format.toUpperCase().split(" ")[0])) || ""; } catch {}
   try { lessons = fs.readFileSync(LESSONS, "utf8").split("\n").filter((l) => /^- \[(any|[^\]]*)\]/.test(l) && (/\[any\]/.test(l) || l.toUpperCase().includes(`[${format.toUpperCase()}]`))).slice(-12).join("\n"); } catch {}
-  return `\nFormat recipe (| format | hook | slides | recipe |): ${row.trim()}\nLessons (never repeat):\n${lessons}`;
+  return `\nFormat recipe (| format | hook | slides | recipe |): ${row.trim()}\nLessons (never repeat):\n${lessons}` + scoutEditorHint(format);
 }
 
 export function make(file) {

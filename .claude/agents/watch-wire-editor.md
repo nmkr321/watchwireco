@@ -84,6 +84,8 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
 - Game or permitted outlets: sources in `watch-wire-engine/state/permissions.json` only, via
   `PH credited <article-url> --credit "<credit text>" --owner "<name>"` (images credited to that source alone).
 - Official media pages: `PH gallery <url> --owner "<Owner>" --slug <name>`, then read its sheet.png once.
+- Official product photos on white, cream or grey studio backgrounds are fine: the renderer removes plain
+  backgrounds automatically. Never skip a watch for its studio background.
 - Never image search, forums, Reddit, paparazzi or other creators' posts. No right photo after two tries: no photo.
 
 Never run git. Only write inside `<P>` and the draft folder; never edit templates, scripts, agents or config.
