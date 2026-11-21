@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-21-1930-history-marie-antoinette-ordered-a-bregu",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.497Z",
+  "lane": "history",
+  "format": "HISTORY",
+  "post_at": "2026-11-22T00:30:00.000Z",
+  "slot": 11,
+  "title": "HISTORY: Marie Antoinette ordered a Breguet in 1783. It was finished in 1827.",
+  "hook": "Marie Antoinette Ordered A Breguet. It Took 44 Years To Finish.",
+  "why": "The story of one famous watch (Breguet No. 160) with a tension hook. A date plus a fact alone flops, so the hook carries the 44-year gap. It does not repeat the Genta post.",
+  "sources_to_check": [
+    "Breguet's own history pages and the Breguet No. 160 record",
+    "Sotheby's Geneva auction record (2007) for the sale price, and whether it includes fees",
+    "Mark any unconfirmed detail as 'reportedly'; quote the 1783 and 1827 dates only from the Breguet record"
+  ],
+  "sources": [
+    {
+      "title": "Breguet's own history pages and the Breguet No. 160 record",
+      "link": "",
+      "source": "Breguet's own history pages and the Breguet No. 160 record",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Sotheby's Geneva auction record (2007) for the sale price, and whether it includes fees",
+      "link": "",
+      "source": "Sotheby's Geneva auction record (2007) for the sale price, and whether it includes fees",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Mark any unconfirmed detail as 'reportedly'; quote the 1783 and 1827 dates only from the Breguet record",
+      "link": "",
+      "source": "Mark any unconfirmed detail as 'reportedly'; quote the 1783 and 1827 dates only from the Breguet record",
+      "tier": "to-verify"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-21-1700-would-you-rather-a-first-watch-under-1-0",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.497Z",
+  "lane": "rotation",
+  "format": "WOULD YOU RATHER",
+  "post_at": "2026-11-21T22:00:00.000Z",
+  "slot": 9,
+  "title": "WOULD YOU RATHER: a first watch under $1,000 (Hamilton Khaki Field vs Seiko 5 Sports, to verify)",
+  "hook": "Your First Watch Under $1,000. Which One?",
+  "why": "Binary aimed at a clear buyer (first watch, under $1,000). Interactive. Prices need to be within about 10%; if they are not, choose a different pair.",
+  "sources_to_check": [
+    "Candidate refs to verify: Hamilton Khaki Field (mechanical or quartz), Seiko 5 Sports (check current ref and US retail)",
+    "Both US retail prices from the brand sites on the same day, dated Nov 2026",
+    "If the prices differ by more than 10%, change the pair before the post is made"
+  ],
+  "sources": [
+    {
+      "title": "Candidate refs to verify: Hamilton Khaki Field (mechanical or quartz), Seiko 5 Sports (check current ref and US retail)",
+      "link": "",
+      "source": "Candidate refs to verify: Hamilton Khaki Field (mechanical or quartz), Seiko 5 Sports (check current ref and US retail)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Both US retail prices from the brand sites on the same day, dated Nov 2026",
+      "link": "",
+      "source": "Both US retail prices from the brand sites on the same day, dated Nov 2026",
+      "tier": "to-verify"
+    },
+    {
+      "title": "If the prices differ by more than 10%, change the pair before the post is made",
+      "link": "",
+      "source": "If the prices differ by more than 10%, change the pair before the post is made",
+      "tier": "to-verify"
+    }
+  ]
+}

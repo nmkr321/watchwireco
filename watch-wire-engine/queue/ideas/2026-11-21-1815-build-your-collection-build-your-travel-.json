@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-21-1815-build-your-collection-build-your-travel-",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.497Z",
+  "lane": "rotation",
+  "format": "BUILD YOUR COLLECTION",
+  "post_at": "2026-11-21T23:15:00.000Z",
+  "slot": 10,
+  "title": "BUILD YOUR COLLECTION: Build Your Travel Set, three GMT or travel picks under $5,000",
+  "hook": "Build Your Travel Set. Three Picks Under $5,000.",
+  "why": "Use case: travel GMTs. Tiers are different types (GMT, field, dress or quartz), and the band is tight. It is a different use case from the suit set in slot 2.",
+  "sources_to_check": [
+    "Candidate refs to verify: Tudor Black Bay GMT (check the current ref and US retail), Seiko Prospex or Grand Seiko GMT, Oris Big Crown or Hamilton Khaki Field GMT (verify refs and prices)",
+    "US retail from each brand's US site, dated Nov 2026; check each tier cap",
+    "Photos only from photo.js with permissions.json credit lines"
+  ],
+  "sources": [
+    {
+      "title": "Candidate refs to verify: Tudor Black Bay GMT (check the current ref and US retail), Seiko Prospex or Grand Seiko GMT, Oris Big Crown or Hamilton Khaki Field GMT (verify refs and prices)",
+      "link": "",
+      "source": "Candidate refs to verify: Tudor Black Bay GMT (check the current ref and US retail), Seiko Prospex or Grand Seiko GMT, Oris Big Crown or Hamilton Khaki Field GMT (verify refs and prices)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "US retail from each brand's US site, dated Nov 2026; check each tier cap",
+      "link": "",
+      "source": "US retail from each brand's US site, dated Nov 2026; check each tier cap",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Photos only from photo.js with permissions.json credit lines",
+      "link": "",
+      "source": "Photos only from photo.js with permissions.json credit lines",
+      "tier": "to-verify"
+    }
+  ]
+}

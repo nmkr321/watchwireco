@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-21-1430-would-you-rather-cartier-tank-must-vs-ja",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.497Z",
+  "lane": "rotation",
+  "format": "WOULD YOU RATHER",
+  "post_at": "2026-11-21T19:30:00.000Z",
+  "slot": 7,
+  "title": "WOULD YOU RATHER: Cartier Tank Must vs Jaeger-LeCoultre Reverso (~$3K–$5K)",
+  "hook": "$3,950. Which One?",
+  "why": "Binary with a clear buyer question (dress watch, rectangular case). Prices must be within about 10% and dated the same day. Interactive: viewers vote in the comments.",
+  "sources_to_check": [
+    "Candidate refs to verify: Cartier Tank Must (ref. and steel/quartz or automatic version, check the current US retail), JLC Reverso Classic (check the current ref and US retail)",
+    "Both prices from the brand US sites on the same day, dated Nov 2026; if they are not within 10%, pick another pair",
+    "Use the SAME MONEY tag only if the two prices match"
+  ],
+  "sources": [
+    {
+      "title": "Candidate refs to verify: Cartier Tank Must (ref. and steel/quartz or automatic version, check the current US retail), JLC Reverso Classic (check the current ref and US retail)",
+      "link": "",
+      "source": "Candidate refs to verify: Cartier Tank Must (ref. and steel/quartz or automatic version, check the current US retail), JLC Reverso Classic (check the current ref and US retail)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Both prices from the brand US sites on the same day, dated Nov 2026; if they are not within 10%, pick another pair",
+      "link": "",
+      "source": "Both prices from the brand US sites on the same day, dated Nov 2026; if they are not within 10%, pick another pair",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Use the SAME MONEY tag only if the two prices match",
+      "link": "",
+      "source": "Use the SAME MONEY tag only if the two prices match",
+      "tier": "to-verify"
+    }
+  ]
+}

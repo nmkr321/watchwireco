@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-21-1200-listicle-5-first-dive-watches-under-3-00",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.496Z",
+  "lane": "rotation",
+  "format": "LISTICLE",
+  "post_at": "2026-11-21T17:00:00.000Z",
+  "slot": 5,
+  "title": "LISTICLE: 5 first dive watches under $3,000 (one use case, tight band)",
+  "hook": "5 Dive Watches Under $3,000 For A First Buy.",
+  "why": "Listicles are strong performers. One use case (first dive watch) and one price band (roughly within 2x) keep it useful and saveable. Avoids the Seiko eBay post and the Explorer vs Speedmaster repeat.",
+  "sources_to_check": [
+    "Candidate refs to verify: Seiko Prospex SRPD (e.g. SRPD55 or current ref), Tudor Black Bay 58 (check it is under $3,000 US retail), Oris Aquis Date, Christopher Ward C60, Hamilton Khaki Navy Scuba",
+    "US retail from each brand's official US site, dated Nov 2026; drop any option above the cap",
+    "Specs from brand spec sheets (water resistance, movement), not forum posts"
+  ],
+  "sources": [
+    {
+      "title": "Candidate refs to verify: Seiko Prospex SRPD (e.g. SRPD55 or current ref), Tudor Black Bay 58 (check it is under $3,000 US retail), Oris Aquis Date, Christopher Ward C60, Hamilton Khaki Navy Scuba",
+      "link": "",
+      "source": "Candidate refs to verify: Seiko Prospex SRPD (e.g. SRPD55 or current ref), Tudor Black Bay 58 (check it is under $3,000 US retail), Oris Aquis Date, Christopher Ward C60, Hamilton Khaki Navy Scuba",
+      "tier": "to-verify"
+    },
+    {
+      "title": "US retail from each brand's official US site, dated Nov 2026; drop any option above the cap",
+      "link": "",
+      "source": "US retail from each brand's official US site, dated Nov 2026; drop any option above the cap",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Specs from brand spec sheets (water resistance, movement), not forum posts",
+      "link": "",
+      "source": "Specs from brand spec sheets (water resistance, movement), not forum posts",
+      "tier": "to-verify"
+    }
+  ]
+}

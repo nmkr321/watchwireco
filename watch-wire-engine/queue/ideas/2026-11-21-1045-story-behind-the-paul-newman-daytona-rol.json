@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-21-1045-story-behind-the-paul-newman-daytona-rol",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.496Z",
+  "lane": "history",
+  "format": "STORY BEHIND",
+  "post_at": "2026-11-21T15:45:00.000Z",
+  "slot": 4,
+  "title": "STORY BEHIND: the Paul Newman Daytona (Rolex Daytona ref. 6239)",
+  "hook": "Rolex Made A Daytona Nobody Wanted. Then Paul Newman Wore One.",
+  "why": "The story behind one famous watch with a tension hook. It is evergreen and shareable, and it does not repeat the Genta post or the Breguet post in slot 11.",
+  "sources_to_check": [
+    "Rolex history and Daytona pages on rolex.com",
+    "Phillips auction record for the Newman Daytona (Geneva, 2017): check the hammer price and whether the figure includes fees before quoting it",
+    "Reputable history pieces (Hodinkee, Bonhams, Phillips press releases); mark anything unconfirmed as 'reportedly'"
+  ],
+  "sources": [
+    {
+      "title": "Rolex history and Daytona pages on rolex.com",
+      "link": "",
+      "source": "Rolex history and Daytona pages on rolex.com",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Phillips auction record for the Newman Daytona (Geneva, 2017): check the hammer price and whether the figure includes fees before quoting it",
+      "link": "",
+      "source": "Phillips auction record for the Newman Daytona (Geneva, 2017): check the hammer price and whether the figure includes fees before quoting it",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Reputable history pieces (Hodinkee, Bonhams, Phillips press releases); mark anything unconfirmed as 'reportedly'",
+      "link": "",
+      "source": "Reputable history pieces (Hodinkee, Bonhams, Phillips press releases); mark anything unconfirmed as 'reportedly'",
+      "tier": "to-verify"
+    }
+  ]
+}

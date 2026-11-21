@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-21-1545-celebrity-a-watch-a-trusted-outlet-repor",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.497Z",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "post_at": "2026-11-21T20:45:00.000Z",
+  "slot": 8,
+  "title": "CELEBRITY: a watch a trusted outlet reported a celebrity wearing (to be picked)",
+  "hook": "Name + watch + twist, once a source is confirmed.",
+  "why": "A celebrity post needs a confirmed sighting. No suitable name is verified yet, so this idea stays open until a source is found; do not guess.",
+  "sources_to_check": [
+    "Search for 'spotted wearing' reports in GQ, Esquire, Hodinkee, WWD, Vogue, Hypebeast in the last 2 weeks",
+    "Confirm the exact reference from a photo or the outlet's caption; use 'spotted wearing' unless ownership is confirmed",
+    "US retail from the brand site, dated Nov 2026. If nothing is confirmed by the time the slot is made, swap to a different format"
+  ],
+  "sources": [
+    {
+      "title": "Search for 'spotted wearing' reports in GQ, Esquire, Hodinkee, WWD, Vogue, Hypebeast in the last 2 weeks",
+      "link": "",
+      "source": "Search for 'spotted wearing' reports in GQ, Esquire, Hodinkee, WWD, Vogue, Hypebeast in the last 2 weeks",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Confirm the exact reference from a photo or the outlet's caption; use 'spotted wearing' unless ownership is confirmed",
+      "link": "",
+      "source": "Confirm the exact reference from a photo or the outlet's caption; use 'spotted wearing' unless ownership is confirmed",
+      "tier": "to-verify"
+    },
+    {
+      "title": "US retail from the brand site, dated Nov 2026. If nothing is confirmed by the time the slot is made, swap to a different format",
+      "link": "",
+      "source": "US retail from the brand site, dated Nov 2026. If nothing is confirmed by the time the slot is made, swap to a different format",
+      "tier": "to-verify"
+    }
+  ]
+}

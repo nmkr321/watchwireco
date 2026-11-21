@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more-",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.496Z",
+  "lane": "news",
+  "format": "MARKET",
+  "post_at": "2026-11-21T18:15:00.000Z",
+  "slot": 6,
+  "title": "MARKET: a brass F.P. Journe sold for more than gold",
+  "hook": "A Brass F.P. Journe Sold For More Than Gold.",
+  "why": "Key number stated plainly, and it is timely (a current auction). It is a MARKET post, not an auction post, so the caveat carries the story: the price is for one brass watch, not a trend.",
+  "sources_to_check": [
+    "Antiquorum lot page and results for the brass F.P. Journe (from the headline 'Antiquorum proves brass can be worth more than gold')",
+    "State whether the hammer price includes buyer's premium; quote the hammer and the total separately if both are published",
+    "Current gold price per gram from a dated source, to show the comparison; do not predict prices"
+  ],
+  "sources": [
+    {
+      "title": "Antiquorum lot page and results for the brass F.P. Journe (from the headline 'Antiquorum proves brass can be worth more than gold')",
+      "link": "",
+      "source": "Antiquorum lot page and results for the brass F.P. Journe (from the headline 'Antiquorum proves brass can be worth more than gold')",
+      "tier": "to-verify"
+    },
+    {
+      "title": "State whether the hammer price includes buyer's premium; quote the hammer and the total separately if both are published",
+      "link": "",
+      "source": "State whether the hammer price includes buyer's premium; quote the hammer and the total separately if both are published",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Current gold price per gram from a dated source, to show the comparison; do not predict prices",
+      "link": "",
+      "source": "Current gold price per gram from a dated source, to show the comparison; do not predict prices",
+      "tier": "to-verify"
+    }
+  ]
+}
