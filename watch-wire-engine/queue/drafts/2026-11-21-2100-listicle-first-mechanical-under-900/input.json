@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-21-2100-listicle-first-mechanical-under-900",
+  "lane": "evergreen",
+  "status": "idea",
+  "found_at": "2026-11-21T11:25:05.894Z",
+  "post_at": "2026-11-22T02:00:00.000Z",
+  "backup_for": "2026-11-21-2100-celebrity-a-watch-a-trusted-outlet-repor",
+  "format": "LISTICLE",
+  "title": "First mechanical watch under $900: 4 picks",
+  "hook": "Ready for your first automatic? Four under $900.",
+  "why": "Retry for an empty slot. Value test: one buyer (first mechanical watch), tight band about $575 to $900, from the library only (Seiko SRPL15/SRPL13, Hamilton Khaki Field mechanical models; verified 21 Nov 2026). Do not reuse watches from todays approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "This draft is unchanged from the last round. The Seiko prices still come from an unconfirmed retailer, and 'automatic' still rests on a search summary. I won't approve unverified prices. / Gate 2/3: The Seiko prices on slides 2 and 3 ($575 and $595) come from Exquisite Timepieces. Nobody has confirmed it is an authorised Seiko retailer. The research gaps note says Seiko's own price may be $560. Slide 2 also calls $575 'the lowest price here'. / Gate 2: CLM-5 says the Seiko 4R35 is 'automatic', but it rests on a search summary. Seiko's page was never fetched. Slide 2 states 'automatic' as fact,",
+    "finish did not PASS: research step rejects the file set (research schema 2.0 needs a completed browser trace, specialist analysis and governance ledgers; the unattended run cannot produce these). Source_type and verification values were corrected to allowed values. Prices: Seiko US pages SRPL15 $575"
+  ]
+}

@@ -291,3 +291,15 @@
 2026-11-21T11:29:02.784Z	learn 2026-11-21-1700-would-you-rather-first-watch-hamilton-retry	claude-haiku-5-5	0.0021	2
 2026-11-21T11:29:19.638Z	editor 2026-11-21-1700-would-you-rather-first-watch-hamilton-retry	claude-haiku-5-5	0.0149	5
 2026-11-21T11:29:26.406Z	learn 2026-11-21-1700-would-you-rather-first-watch-hamilton-retry	claude-haiku-5-5	0.0021	2
+2026-11-21T11:30:59.552Z	editor 2026-11-21-2100-listicle-first-mechanical-under-900	claude-haiku-5-5	0.0361	23
+2026-11-21T11:31:19.878Z	approver 2026-11-21-2100-listicle-first-mechanical-under-900 r1	claude-sonnet-5-5	0.0807	12
+2026-11-21T11:31:26.203Z	learn 2026-11-21-2100-listicle-first-mechanical-under-900	claude-haiku-5-5	0.0022	2
+2026-11-21T11:33:08.607Z	editor-revise 2026-11-21-2100-listicle-first-mechanical-under-900	claude-haiku-5-5	0.0296	17
+2026-11-21T11:33:24.740Z	approver 2026-11-21-2100-listicle-first-mechanical-under-900 r2	claude-sonnet-5-5	0.0707	9
+2026-11-21T11:34:20.739Z	editor-revise 2026-11-21-2100-listicle-first-mechanical-under-900	claude-haiku-5-5	0.0141	30
+2026-11-21T11:34:35.860Z	approver 2026-11-21-2100-listicle-first-mechanical-under-900 r3	claude-sonnet-5-5	0.0660	10
+2026-11-21T11:34:41.600Z	learn 2026-11-21-2100-listicle-first-mechanical-under-900	claude-haiku-5-5	0.0022	2
+2026-11-21T11:36:17.462Z	editor 2026-11-21-2100-listicle-first-mechanical-under-900	claude-haiku-5-5	0.0595	31
+2026-11-21T11:36:23.285Z	learn 2026-11-21-2100-listicle-first-mechanical-under-900	claude-haiku-5-5	0.0021	2
+2026-11-21T11:37:06.900Z	editor 2026-11-21-2100-listicle-first-mechanical-under-900	claude-haiku-5-5	0.0478	12
+2026-11-21T11:37:11.593Z	learn 2026-11-21-2100-listicle-first-mechanical-under-900	claude-haiku-5-5	0.0019	2

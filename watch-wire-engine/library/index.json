@@ -2613,5 +2613,29 @@
   "caption_credit": "Photo: OpaleHorse / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
   "usage": "File:Audemars Piguet Royal Oak ref. 15202.jpg (CC BY-SA 4.0), credited",
   "fetched": "2026-11-21"
+ },
+ {
+  "kind": "watch",
+  "brand": "Hamilton",
+  "ref": "H70455533",
+  "title": "Hamilton H70455533",
+  "source": "https://www.watchesofswitzerland.com/products/hamilton-khaki-field-h70455533-17150374",
+  "image_url": "https://www.watchesofswitzerland.com/cdn/shop/files/17150374_1.jpg?v=1743888779",
+  "file": "watch-wire-engine/library/img/hamilton-h70455533.jpg",
+  "w": 1600,
+  "h": 1600,
+  "ref_on_page": true,
+  "ref_in_image_name": false,
+  "price": {
+   "amount": 795,
+   "currency": "USD",
+   "source": "https://www.watchesofswitzerland.com/products/hamilton-khaki-field-h70455533-17150374",
+   "date": "2026-11-21"
+  },
+  "rights": "official",
+  "creator": "Hamilton",
+  "credit": "Image: Hamilton",
+  "usage": "Hamilton H70455533 official product image, credited",
+  "fetched": "2026-11-21"
  }
 ]

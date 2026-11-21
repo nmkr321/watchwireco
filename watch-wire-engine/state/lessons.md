@@ -1,14 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY] Open each cited article and confirm the named celebrity, watch model and date appear in it; search snippets or roundup listings alone don't count.
-- [CELEBRITY] Roundup pages can name several sightings; confirm each one at its own source article before using it, and drop any that won't verify.
-- [CELEBRITY] If a cited source is gated, paywalled or redirects to a proxy, treat it as unopened; find an open source for that sighting or drop it.
-- [CELEBRITY] After two failed verification attempts on a candidate, switch to a different candidate instead of retrying or drafting from unconfirmed pairings.
-- [STORY BEHIND] If a candidate fails the 7-beat photo count, switch to the next candidate and recount; never end the run on one story.
-- [STORY BEHIND] Search Wikimedia Commons for each exact reference during research, and record each photo's licence and credit before choosing the story.
-- [STORY BEHIND] If Bash is denied, create the project folder and its JSON files directly with Write, then continue research and drafting.
-- [STORY BEHIND] If Bash is denied, never skip engine start, photo lookup, render or finish checks; return the idea to queue/ideas instead.
 - [STORY BEHIND] Treat a photo source as licensed only if permissions.json lists that exact subject; game or unrelated credits don't count for watch photos.
 - [WOULD YOU RATHER] Product slides need a clear, close-up photo of the exact reference; if the library photo is lifestyle, use brand-kit art instead.
 - [WOULD YOU RATHER] Pick the reference photo during research, not after drafting; if no clear product view exists, switch to a brand-kit format.
@@ -21,3 +13,11 @@ The editor reads this before every post. Written automatically from rejections; 
 - [WOULD YOU RATHER] Before naming any reference, confirm its exact model number against the manufacturer's current catalogue; similar references often differ in price, dial and bracelet.
 - [WOULD YOU RATHER] After two failed price checks on a pairing, switch to a different pairing instead of making a third search.
 - [WOULD YOU RATHER] Remove any premise claim whose figures are unverified before drafting slides, rather than leaving it for the approver to catch.
+- [LISTICLE] Verify each watch's movement type on the manufacturer's page before calling it automatic or hand-wound; otherwise write 'mechanical' or omit the term.
+- [LISTICLE] Source each price from the manufacturer or an official retailer, confirm that retailer's authorised status, or replace the pick with a verified one.
+- [LISTICLE] Cite specs like power reserve and calibre only when the manufacturer's page confirms them; otherwise omit the figure.
+- [LISTICLE] Drop superlatives like 'lowest price here' unless every compared price comes from one verified source.
+- [LISTICLE] Use only the allowed enum values for source_type and verification in research files; check the schema before writing them.
+- [LISTICLE] Validate the research file set against the engine's current schema before finishing; use only the unattended-compatible format, not browser traces or governance ledgers.
+- [LISTICLE] Before drafting, confirm verified picks at least equal the planned item count; if short, cut the list to the verified count or switch format.
+- [LISTICLE] Include only picks whose reference, price and movement are confirmed on the manufacturer page in research; drop any unconfirmed pick instead of padding the list.
