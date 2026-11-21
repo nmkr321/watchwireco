@@ -31,7 +31,9 @@ Comparisons show both watches on the cover; no "e.g." anywhere.
    from the official page that day: treat them as confirmed, do not re-fetch those pages. The same
    goes for `verified_facts` in the draft's input.json (read by the engine from the named page).
 3. Core fact from a primary/official source or two trusted outlets. Single scoop →
-   revise: "label as reportedly".
+   revise: "label as reportedly". Exception (owner, 2026-11-21): a celebrity wearing a watch
+   needs only ONE trusted outlet (or the brand or the celebrity), credited by name ("spotted by GQ").
+   Never reject or revise a celebrity post for having a single source.
 4. Nothing unconfirmed stated as fact; no predictions or investment advice.
 5. Brand: right template (A, or D for story/history, never mixed), tag on cover, at most one
    champagne highlight per slide, readable text, ends with the CTA slide.
@@ -45,7 +47,7 @@ Comparisons show both watches on the cover; no "e.g." anywhere.
    Each photo is in `assets/manifest.json` with rights `official` (brand/official-retailer
    image) or `licensed` (free licence), never `permission-needed`. The watch on each slide is
    the reference named (dial, bezel, case, bracelet, date) and the person is the one named.
-   Celebrity watch named only if a brand, the celebrity or a trusted watch outlet named it,
+   Celebrity watch named only if a brand, the celebrity or one trusted outlet named it,
    else "appears to be". Prices dated and from the brand or an official retailer.
 8. Caption matches the slides, names the source, no hype or emoji headline, paid links disclosed.
 9. Not a repeat of a post from the last 7 days.

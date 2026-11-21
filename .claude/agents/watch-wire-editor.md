@@ -31,7 +31,9 @@ Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, 
 2. Research. WebFetch the article and the primary/official source. Blocked or paywalled: never get around
    it; use the input's `feed_summary` as a lead, go to the primary source it names, and WebSearch the exact
    headline plus outlet (other editions like uk. are often readable). Facts need a readable primary source
-   or two trusted outlets; single-outlet facts say "reportedly". An outlet's own analysis or comparison
+   or two trusted outlets; single-outlet facts say "reportedly". Celebrity sightings (who wore which watch)
+   need only ONE trusted outlet, credited by name ("spotted by GQ"); don't hunt for a second one. If that
+   outlet is paywalled, its readable headline or summary naming the watch is enough (never get around the paywall). An outlet's own analysis or comparison
    ("Esquire says it resembles…") needs only that outlet, attributed. Already verified, cite and don't
    re-fetch: `verified_facts` in the input (read by the engine) and library prices (`PH find "<ref>"`).
    Write `<P>/research-work/evidence.json` and `analysis.json` (every number a claim with a source id), then

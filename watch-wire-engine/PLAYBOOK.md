@@ -60,7 +60,7 @@ launches and dealer stories are skipped. The triage step enforces this.
 
 **Idea test** (every idea must pass before it gets made):
 - **Would a collector stop?** Name, number, question or tension in the hook.
-- **Can we prove it?** A primary source, or two trusted outlets.
+- **Can we prove it?** A primary source, or two trusted outlets. A celebrity wearing a watch needs only one trusted outlet, credited by name (owner, 2026-11-21).
 - **Which format and template?** A for news, data and debates; D for stories and history.
 
 ## 4. The production line
