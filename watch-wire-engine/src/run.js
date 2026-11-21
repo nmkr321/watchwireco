@@ -428,7 +428,14 @@ function tidy() {
   log(`tidy: cost report written ($${sum(rows).toFixed(2)} in 7 days)`);
 }
 
-async function makeIdeas() {
+async function makeIdeas({ selfPlan = false } = {}) {
+  // GitHub sometimes skips the scheduled plan run: if nothing is planned for today yet, plan first (overnight runs only)
+  if (selfPlan && new Date().getHours() < 12) {
+    const today = new Date().toDateString();
+    const has = ["ideas", "approved", "posted", "rejected"].some((d) => fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json"))
+      .some((f) => { try { const o = readJson(path.join(Q(d), f)); return o.lane !== "breaking" && new Date(o.post_at || 0).toDateString() === today; } catch { return false; } }));
+    if (!has) { log("no posts planned for today yet (plan run was skipped?): planning now"); try { await collectInsights(log); } catch {} plan(); }
+  }
   reviveRejected();
   // earliest post first, and save after each one so the publisher sees it while the rest are still being made
   const ideas = fs.readdirSync(Q("ideas")).filter((x) => x.endsWith(".json"))
@@ -532,7 +539,7 @@ try {
     plan({ today: true, slots: slotsArg });
     await makeIdeas();
   }
-  else if (cmd === "make-ideas") await makeIdeas();
+  else if (cmd === "make-ideas") { loadEnv(); await makeIdeas({ selfPlan: true }); }
   else if (cmd === "status") status();
   else console.log("usage: node src/run.js tick | make <file> | publish-due | status");
 } finally {

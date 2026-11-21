@@ -15,6 +15,11 @@ or run `git revert <code>` and then `git push`.
 | Alt text | Every slide gets a plain description (headline, watches, prices) when it posts. This helps accessibility and search. If Instagram ever refuses it, the slide posts without it. | 5ac2afc |
 | Editor rule | Every post must add our own take (protection against Instagram's April 2026 "aggregator" reach cut). Captions open with the brand, model and reference, like a search headline. | 5ac2afc |
 
+| Planner memory | The planner no longer re-suggests ideas the approver rejected in the past week. Last night it had re-planned the rejected Tyson Fury post; I swapped that slot to a fresh celebrity idea. | see `git log` |
+| Skipped-run safety | If GitHub skips the 1:30am plan, the 2:00am maker now plans first. A backup maker at 3:40am does the same and does nothing if the work is already done. | see `git log` |
+
+**Tonight's run:** GitHub skipped the 1:30am scheduled plan (it does this when busy), so I started the plan and the maker by hand at about 2:25am New York time. 12 ideas were planned for today, 7:00am to 9:00pm.
+
 ## Needs you (2 minutes each)
 1. **Insights permission.** Your token can't read reach, saves or shares yet. When you next regenerate the token in Meta, also tick **instagram_manage_insights**. Until then the loop uses likes and comments only.
 2. **Trial Reels: on or off?** To switch them on, set `"trial_reels": {"enabled": true}` in `config/schedule.json`, or just tell Claude "turn on trial reels". They post silently, because the API can't add Instagram music.

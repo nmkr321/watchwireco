@@ -11,6 +11,7 @@ on:
     - cron: "*/15 * * * *"   # publisher
     - cron: "30 6 * * *"     # plan  (01:30 New York, winter time; overnight to spare daytime usage)
     - cron: "0 7 * * *"      # make-ideas (02:00 New York, winter time)
+    - cron: "40 8 * * *"     # make-ideas backup (03:40 New York): plans + makes if the earlier runs were skipped; no-op otherwise
     - cron: "0 8 * * 0"      # tidy (Sunday 03:00 New York): condense lessons, cost report
   workflow_dispatch:
     inputs:
@@ -54,7 +55,7 @@ jobs:
         run: |
           case "${{ github.event.schedule }}" in
             "30 6 * * *") echo "CMD=plan" >> "$GITHUB_ENV" ;;
-            "0 7 * * *") echo "CMD=make-ideas" >> "$GITHUB_ENV" ;;
+            "0 7 * * *"|"40 8 * * *") echo "CMD=make-ideas" >> "$GITHUB_ENV" ;;
             "0 8 * * 0") echo "CMD=tidy" >> "$GITHUB_ENV" ;;
             "*/15 * * * *") echo "CMD=publish-due" >> "$GITHUB_ENV" ;;
             *) echo "CMD=${{ github.event.inputs.command || 'tick' }}" >> "$GITHUB_ENV" ;;
