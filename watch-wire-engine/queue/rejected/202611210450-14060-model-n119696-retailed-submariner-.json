@@ -1,0 +1,24 @@
+{
+  "id": "202611210450-14060-model-n119696-retailed-submariner-",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-21T04:50:33.323Z",
+  "title": "DAYTONA 'LE MANS' MODEL, REF. 126528LN, CASE NO. 9W28Q100, CIRCA 2024",
+  "score": 7,
+  "sources": [
+    {
+      "title": "SUBMARINER MODEL, RETAILED BY TIFFANY & CO., REF. 14060, CASE NO. N119696, CIRCA 1991",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2eS1jVlNKeWI3RzdnRzN6TWNjSlBJNTFNSWdVd0RMN09kWDhsbmF2R2RTaXhxSGVueDJFb2xKeXJEOHJiVHZIazFhUkVJeDNPY3hyUnhuMA?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Christie’s",
+      "domain": "christies.com",
+      "tier": "primary",
+      "published": "Sat, 21 Nov 2026 03:39:13 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "AUCTIONS",
+    "reason": "No breaking post. This is a Christie's catalogue entry for a 2024 Daytona \"Le Mans\" (ref. 126528LN, case no. 9W28Q100), not a reported result. There is no hammer price, record, or market-moving event in the story, so it is not real breaking news. If it is a sale result rather than a lot listing, reconsider: the category would be AUCTIONS and the decision depends on the price."
+  }
+}

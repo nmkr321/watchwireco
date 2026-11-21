@@ -1,0 +1,24 @@
+{
+  "id": "202611210450-6264-cherry-circa-daytona-logo-model",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-21T04:50:33.323Z",
+  "title": "DAYTONA 'CHERRY LOGO' MODEL, REF. 6264, CASE NO. 2'802'694, CIRCA 1971",
+  "score": 7,
+  "sources": [
+    {
+      "title": "DAYTONA 'CHERRY LOGO' MODEL, REF. 6264, CASE NO. 2'802'694, CIRCA 1971",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1IZGhaWnJwTVBFel9MWnEzRUdDNzktaElwT1FGMkxqNklkMDhHU2JmWi1RQkxWbWRqSEwzRU94LWlib3c4c0tKRmI0STlsQ0VPV2NVMzlFdw?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Christie’s",
+      "domain": "christies.com",
+      "tier": "primary",
+      "published": "Sat, 21 Nov 2026 02:58:51 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NEWS",
+    "reason": "The story is a Christie's catalog lot listing (Daytona cherry logo ref. 6264, circa 1971) with no hammer price, sale result, or auction date, so it is not breaking news a collector needs today. Re-triage if Christie's publishes the realized price after the sale; that would qualify as AUCTIONS."
+  }
+}
