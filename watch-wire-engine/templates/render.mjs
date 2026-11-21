@@ -98,7 +98,7 @@ tr.on td:last-child{color:var(--ch)}
 .note{font:400 24px/1.45 var(--b);color:var(--smoke);margin-top:24px}
 .list{list-style:none;margin-top:44px;display:grid;gap:14px}.list li{background:var(--ink);padding:28px 32px;border-radius:6px;font:600 34px/1.3 var(--b)}
 .duo{position:absolute;top:50%;transform:translateY(-44%);left:0;right:0;display:flex;justify-content:space-around;align-items:flex-start;text-align:center}.duo .or{margin-top:170px}
-.duo .w{width:380px}.duo .pic{width:380px;height:440px;background:var(--ink) center/contain no-repeat;border-radius:6px}
+.duo .w{width:380px}.duo .pic{width:380px;height:440px;background:center/contain no-repeat}.duo .w{background:radial-gradient(closest-side,rgba(200,169,106,.10),transparent) center 220px/380px 440px no-repeat}.duo p span.long{font-size:44px}
 .duo p{font:600 24px var(--b);letter-spacing:.14em;color:var(--smoke);margin-top:20px;text-transform:uppercase}.duo p span{display:block;font:700 60px/1.05 var(--n);color:var(--ivory);letter-spacing:.02em;margin-top:6px}.duo p em{display:block;font:600 30px var(--b);font-style:normal;color:var(--ch);letter-spacing:.06em;margin-top:10px}
 .or{font:600 88px var(--m);color:var(--ch)}
 .q{position:absolute;top:150px;left:0;right:0;text-align:center}
@@ -116,7 +116,7 @@ tr.on td:last-child{color:var(--ch)}
 .hero.cover::before{content:"";position:absolute;inset:0 0 auto 0;height:200px;background:linear-gradient(rgba(11,11,12,.85),transparent)}.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:160px;background:linear-gradient(transparent,var(--jet))}
 .heroband{position:absolute;left:48px;right:48px;top:870px;bottom:120px;display:flex;flex-direction:column;justify-content:center;text-align:center;z-index:2}.heroband .h{margin-top:12px}.heroband .body{margin-top:18px;font-size:30px}
 .p3{position:absolute;left:36px;right:36px;top:380px;display:flex;gap:24px}.p3 .o{flex:1;text-align:center}
-.p3 .pic{height:540px;border-radius:8px;background:#F4EFE6 center/contain no-repeat;background-blend-mode:multiply;background-origin:content-box;padding:28px;position:relative}
+.p3 .pic{height:540px;border-radius:8px;background:center/contain no-repeat,radial-gradient(closest-side,rgba(200,169,106,.10),transparent);background-origin:content-box;padding:28px;position:relative}
 .p3 .let{position:absolute;left:14px;top:14px;width:54px;height:54px;border-radius:50%;background:var(--ch);color:var(--jet);font:700 32px/54px var(--n)}
 .p3 .b{font:600 20px var(--b);letter-spacing:.14em;color:var(--smoke);text-transform:uppercase;margin-top:22px}
 .p3 .m{font:700 40px/1.05 var(--n);text-transform:uppercase;margin-top:6px;text-wrap:balance}.p3 .pr{font:600 28px var(--b);color:var(--ch);margin-top:10px}
@@ -153,7 +153,7 @@ function render(s, i) {
     case "A-list": return `${WM}<div class="box mid"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>
       <ul class="list">${s.items.map((x) => `<li>${hl(x)}</li>`).join("")}</ul>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${foot()}`;
     case "A-text": return `${WM}<div class="box mid"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div><p class="body">${hl(s.body)}</p></div>${foot()}`;
-    case "A-wyr": { const side = (x) => `<div class="w"><div class="pic" style="background-image:url('${wimg(x.photo)}')"></div><p>${esc(x.brand)}<span>${esc(x.model)}</span>${x.price ? `<em>${esc(x.price)}</em>` : ""}</p></div>`;
+    case "A-wyr": { const side = (x) => `<div class="w"><div class="pic" style="background-image:url('${wimg(x.photo)}')"></div><p>${esc(x.brand)}<span${String(x.model||"").length > 13 ? ' class="long"' : ""}>${esc(x.model)}</span>${x.price ? `<em>${esc(x.price)}</em>` : ""}</p></div>`;
       return `${WM}<div class="q"><span class="tag">${esc(s.tag || "WOULD YOU RATHER")}</span></div><div class="duo">${side(s.left)}<div class="or">or</div>${side(s.right)}</div>${credit}${foot(s.prompt || "Vote in the comments")}`; }
     case "A-pick3": return `${WM}<div class="box" style="top:150px;text-align:center"><div class="lbl">${esc(s.label)}</div><div class="h" style="font-size:72px">${hl(s.headline)}</div></div>
       <div class="p3">${(s.options || []).slice(0, 3).map((o, k) => `<div class="o"><div class="pic" style="background-image:url('${wimg(o.photo)}')"><span class="let">${"ABC"[k]}</span></div><div class="b">${esc(o.brand)}</div><div class="m">${esc(o.model)}</div><div class="pr">${esc(o.price)}</div></div>`).join("")}</div>${credit}${foot(s.footLeft || "Pick one · comment below")}`;
