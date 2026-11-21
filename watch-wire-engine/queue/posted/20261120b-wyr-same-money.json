@@ -7,7 +7,7 @@
   "why": "Prices and photos are already verified in watch-wire-engine/library (run photo.js find \"<ref>\"; each match has price, source page and date): Rolex Explorer 40 224270 $8,350 vs Omega Speedmaster Moonwatch 310.30.42.50.01.002 $9,000 (7.8% apart). A-wyr with both prices, then one A-photo each. US retail, Nov 2026.",
   "sources": [],
   "lane": "rotation",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-20T19:50:00Z",
   "scheduled_for": "2026-11-21T01:30:00Z",
   "draft_dir": "watch-wire-engine/queue/drafts/20261120b-wyr-same-money",
@@ -26,5 +26,21 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes. Both prices (Rolex Explorer 40 $8,350, Omega Speedmaster $9,000, 7.8% apart) come from the engine's library, which was read from the official pages on 20 Nov. The photos are official and credited. The cover, price comparison, option and vote slides now look balanced, and the earlier layout flaws are fixed. This is evergreen content, not breaking news. I did not re-fetch the prices, so the headline fact is confirmed only through the library."
+  },
+  "posted_at": "2026-11-21T01:32:33.425Z",
+  "publish": {
+    "live": true,
+    "media_id": "18418184581090731",
+    "permalink": "https://www.instagram.com/p/Df_DtCyl6vn/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 428
+    }
   }
 }
