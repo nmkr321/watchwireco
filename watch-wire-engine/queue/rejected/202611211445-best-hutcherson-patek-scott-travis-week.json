@@ -1,0 +1,24 @@
+{
+  "id": "202611211445-best-hutcherson-patek-scott-travis-week",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-21T14:45:35.411Z",
+  "title": "The Best Watches of the Week, From Travis Scott’s AP Trio to Josh Hutcherson’s Patek",
+  "score": 6,
+  "sources": [
+    {
+      "title": "The Best Watches of the Week, From Travis Scott’s AP Trio to Josh Hutcherson’s Patek",
+      "link": "https://robbreport.com/style/watch-collector/gallery/best-watches-21-november-1238849477/",
+      "feed_summary": "Seven celebs showed off stylish timepieces on the streets this week.",
+      "source": "Robb Report",
+      "domain": "robbreport.com",
+      "tier": "watch_press",
+      "published": "Sat, 21 Nov 2026 14:00:00 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NEWS",
+    "reason": "This is a Robb Report weekly \"Best Watches of the Week\" roundup, a curated list of picks rather than a single breaking news event, so it does not qualify for an immediate breaking post. The celebrity items (Travis Scott AP trio, Josh Hutcherson Patek) are only two entries in the list and too thin to stand alone. The story is current (21 Nov 2026), so age is not the reason for declining."
+  }
+}
