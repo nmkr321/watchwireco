@@ -59,7 +59,7 @@ html,body{width:1080px;height:1350px;overflow:hidden;background:var(--jet);color
 .lbl{font:600 22px var(--b);letter-spacing:.16em;color:var(--smoke);text-transform:uppercase}
 .h{font:700 80px/1.05 var(--n);text-transform:uppercase;margin-top:22px;text-wrap:balance}
 .body{font:400 34px/1.45 var(--b);color:#d8d2c7;margin-top:40px}
-.box{position:absolute;left:48px;right:48px;top:170px}.box.mid{top:50%;transform:translateY(-50%);max-height:1060px}
+.box{position:absolute;left:48px;right:48px;top:170px}.box.mid{top:50%;transform:translateY(-50%);max-height:1060px;text-align:center}.box.mid td:first-child,.box.mid th:first-child{text-align:left}
 .photo{position:absolute;inset:0 0 auto 0;height:920px;background:#141312 center 25%/cover no-repeat}.photo::before{content:"";position:absolute;inset:0 0 auto 0;height:240px;background:linear-gradient(rgba(11,11,12,.8),transparent)}
 .fade{position:absolute;left:0;right:0;top:560px;height:420px;background:linear-gradient(transparent,var(--jet))}
 .photo.pair{display:flex;align-items:center;gap:0;padding:150px 40px 170px;background:var(--jet)}.photo.pair .ph{flex:1;height:100%;background:center/contain no-repeat}.photo.pair .vs{flex:none;width:84px;height:84px;border:2px solid var(--ch);border-radius:50%;display:flex;align-items:center;justify-content:center;font:700 30px var(--n);color:var(--ch);text-transform:uppercase}

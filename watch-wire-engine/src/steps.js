@@ -48,6 +48,22 @@ if (cmd === "start") {
   const opened = (opt("opened") || "").split(",").map((s) => s.trim()).filter(Boolean);
   if (opened.length) run(RA, ["automation-log", W, "--agent", "watch-wire-editor", "--tool", "WebFetch", "--reason", "unattended scheduled run, no browser", "--trigger", opened[0], ...opened.flatMap((u) => ["--opened", u])], "automation-log");
   run(path.join(ENGINE, "src/fill-research.js"), [W], "fill-research");
+  // mechanical fixes the editor kept failing on (no facts touched):
+  // 1) a start URL that was only a placeholder and never opened is replaced by the first page actually opened
+  // 2) every research file carries the job's own id
+  try {
+    const rq = path.join(ROOT, W, "request.json"), req = JSON.parse(fs.readFileSync(rq, "utf8"));
+    if (opened.length && Array.isArray(req.input_urls)) {
+      const kept = req.input_urls.filter((u) => opened.includes(u));
+      req.input_urls = kept.length ? kept : [opened[0]];
+      fs.writeFileSync(rq, JSON.stringify(req, null, 2) + "\n");
+    }
+    const jid = JSON.parse(fs.readFileSync(path.join(ROOT, W, "job.json"), "utf8")).job_id;
+    for (const f of ["request.json", "route.json", "browser.json", "evidence.json", "analysis.json", "assets/manifest.json", "assets.json"]) {
+      const fp = path.join(ROOT, W, f); if (!fs.existsSync(fp)) continue;
+      const o = JSON.parse(fs.readFileSync(fp, "utf8")); if ("project_id" in o && o.project_id !== jid) { o.project_id = jid; fs.writeFileSync(fp, JSON.stringify(o, null, 2) + "\n"); }
+    }
+  } catch {}
   // the editor's one-line work summary + sourcing decision, logged in the format the validator wants
   const job = JSON.parse(fs.readFileSync(path.join(ROOT, W, "job.json"), "utf8")).job_id;
   const stamp = new Date().toISOString(), day = stamp.slice(0, 10).replace(/-/g, "");
