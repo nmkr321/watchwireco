@@ -1699,5 +1699,53 @@
   "caption_credit": "Photo: NASA / Public domain via Wikimedia Commons",
   "usage": "File:Załogi misji Gemini 11 s66-50772.jpg (Public domain), credited",
   "fetched": "2026-11-21"
+ },
+ {
+  "kind": "watch",
+  "brand": "Timex",
+  "ref": "TW6A07200",
+  "title": "Timex TW6A07200",
+  "source": "https://timex.com/products/timex-atelier-gmt-premiere-m1a-38mm-swiss-made-automatic-stainless-steel-bracelet-tw6a07200",
+  "image_url": "https://timex.com/cdn/shop/files/TW6A07200_31c12f81-247c-4c42-84c3-97ed0dab613c.png?v=1789765531",
+  "file": "watch-wire-engine/library/img/timex-tw6a07200.png",
+  "w": 1000,
+  "h": 1200,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 1450,
+   "currency": "USD",
+   "source": "https://timex.com/products/timex-atelier-gmt-premiere-m1a-38mm-swiss-made-automatic-stainless-steel-bracelet-tw6a07200",
+   "date": "2026-11-21"
+  },
+  "rights": "official",
+  "creator": "Timex",
+  "credit": "Image: Timex",
+  "usage": "Timex TW6A07200 official product image, credited",
+  "fetched": "2026-11-21"
+ },
+ {
+  "kind": "watch",
+  "brand": "Casio G-Shock",
+  "ref": "GAC-2500-3A",
+  "title": "Casio G-Shock GAC-2500-3A",
+  "source": "https://teddybaldassarre.com/products/gac-2500-3a-2500-series-analog-44-5mm-green-on-green-resin-strap",
+  "image_url": "https://teddybaldassarre.com/cdn/shop/files/GAC-2500-7A-Soldier_bbd48865-bbf6-4a31-b072-eecbfdf3acdf.png?v=1793651855",
+  "file": "watch-wire-engine/library/img/casio-g-shock-gac-2500-3a.png",
+  "w": 1200,
+  "h": 1200,
+  "ref_on_page": true,
+  "ref_in_image_name": false,
+  "price": {
+   "amount": 145,
+   "currency": "USD",
+   "source": "https://teddybaldassarre.com/products/gac-2500-3a-2500-series-analog-44-5mm-green-on-green-resin-strap",
+   "date": "2026-11-21"
+  },
+  "rights": "official",
+  "creator": "Casio G-Shock",
+  "credit": "Image: Casio G-Shock",
+  "usage": "Casio G-Shock GAC-2500-3A official product image, credited",
+  "fetched": "2026-11-21"
  }
 ]
