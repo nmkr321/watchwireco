@@ -78,6 +78,9 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
   celebrity or a trusted outlet named it; else "appears to be". No usable photo of that celebrity after two
   tries → drop them and pick ANOTHER celebrity sighting (sports, red carpets, music, film; there are many).
   Celebrity posts do best (owner): keep switching celebrities; stop only after five have failed.
+  Celebrity shape (owner, 2026-11-21): cover (person) → WATCH SPOTLIGHT slide (the watch, 2-3 specs, price)
+  → our take → a YOUR CALL slide that asks readers to act ("Wear it or pass? Comment WEAR or PASS") → cta.
+  Never a slide that only hedges ("resale not checked", "prices may differ"); put caveats in the caption.
 - Game or permitted outlets: sources in `watch-wire-engine/state/permissions.json` only, via
   `PH credited <article-url> --credit "<credit text>" --owner "<name>"` (images credited to that source alone).
 - Official media pages: `PH gallery <url> --owner "<Owner>" --slug <name>`, then read its sheet.png once.
