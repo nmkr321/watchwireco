@@ -37,6 +37,8 @@ or run `git revert <code>` and then `git push`.
 2. **Trial Reels: on or off?** To switch them on, set `"trial_reels": {"enabled": true}` in `config/schedule.json`, or just tell Claude "turn on trial reels". They post silently, because the API can't add Instagram music.
 3. **Check Account Status** in the Instagram app (Settings → Account Status) once a week. Since April 2026, Instagram stops recommending accounts that look like they repost others' content.
 
+**Your decision (21 Nov):** celebrity posts now need only one trusted outlet, credited by name (commit a4a3fec).
+
 ## Ideas the critic held back for you to decide
 - **Volume (strong flag).** 12 posts a day on a 2-follower account is aggressive. Buffer's data says more posts help, but no study covers 35+ posts a week, and our reject rate already burns money. Suggestion: after the 27 Nov trial review, keep 3–5 a day and pick the slots by the insights data.
 - **Citations rework.** Drop the per-slide source footers, which cause many rejects. Instead, credit sources in the text ("per Phillips") and add one "Sources: X, Y · Nov 20" line on the last slide. Photo credits stay on the photos. This changes how posts look in public, so it's your call.
