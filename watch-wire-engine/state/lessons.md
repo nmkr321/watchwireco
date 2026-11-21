@@ -1,23 +1,23 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [STORY BEHIND] Credit the exact source in the manifest. If rights are unproven, swap in a Wikimedia Commons image and record its licence and credit.
-- [STORY BEHIND] Keep the overlay light enough that the watch is clearly visible; view each rendered slide and lighten it if the watch fades.
-- [STORY BEHIND] Keep each slide body to one short fact of about 15 words or fewer; move extra detail to the caption or another slide.
-- [STORY BEHIND] Use a watch photo only if its credit matches an entry in state/permissions.json; swap any unlisted credit, such as a bare 'Image: Rolex', before rendering.
-- [STORY BEHIND] If no permitted photo exists for a watch, switch to a reference that has one; never use auction or agency lot photos.
-- [STORY BEHIND] Before picking a format, count permitted or Commons photos for the subject; choose a format whose slide count the photo count can fill.
-- [STORY BEHIND] If permitted photos fall short of the format's slides, switch to a shorter format or subject; never pad with unlicensed images.
-- [STORY BEHIND] Verify dates and named facts against an official source such as NASA, the manufacturer or the Smithsonian; label single-outlet claims as 'reportedly'.
-- [STORY BEHIND] Before drafting slides, choose a specific angle for the post, such as a choice or niche detail, so it gives readers a reason to save or share.
-- [STORY BEHIND] Put the save-or-share hook (a question or a choice) on slide 1 or the last slide, not only in the caption or angle note.
-- [STORY BEHIND] Each slide needs its own distinct photo; a repeated image, or another crop of the same photo, does not count toward the slide total.
-- [STORY BEHIND] Finish sourcing every slide's photo during research, before drafting any slide text, so shortfalls surface before work begins.
-- [LISTICLE] Before drafting a listicle, verify each item's US price from a dated retailer or brand source; drop items with undated or unverified prices.
-- [LISTICLE] Choose listicle items only after confirming enough verified prices fall in one tight band to fill the slide count; otherwise pick another topic.
-- [LISTICLE] Before rendering, shorten any slide body that wraps to a one-word orphan or runs near the margins; view the PNG to confirm it sits clear.
-- [LISTICLE] Every spec, date or price named in the caption must appear on a slide; delete caption claims no slide shows.
-- [LISTICLE] Name the exact site each price was read from in footers and captions; never a brand or regional variant of it.
 - [LISTICLE] List in caption claim_ids every claim whose figure the caption states, including prices, so each sourced number is traceable.
 - [LISTICLE] Keep every slide headline to six words or fewer; shorten it or move the detail to a second line before rendering.
 - [LISTICLE] Name a spec on a slide or in the caption only when a verified claim with a claim_id supports it; otherwise drop it.
+- [MARKET] Keep comparisons like 'more than gold' only if both figures come from dated sources with claim_ids; otherwise state only the verified sale.
+- [MARKET] Cite each auction result's house, date, sale and lot number from the house's own page, with its exact currency and price.
+- [MARKET] Use only auction results sold within the last few weeks; for older sales, lead with a current market trend from dated sources.
+- [MARKET] Give each market post a reason to save or share, such as a current trend or a buyer's choice question, not a lone past sale.
+- [MARKET] Before drafting, confirm a permitted photo of the exact named model exists; if none, switch to a watch that has one.
+- [MARKET] Never close a market post by saying its single sale proves nothing; end on a current trend or a buyer's choice question.
+- [MARKET] When converting an auction price to USD or another currency, cite a dated exchange rate with a claim_id; otherwise show only the original currency.
+- [STORY BEHIND] Use only photos listed in assets/manifest.json, and list every photo's exact credit in the caption, matching the slides.
+- [STORY BEHIND] Every photo slide must clearly show the featured watch; replace photos without it, and keep overlays light so images stay visible.
+- [STORY BEHIND] Before drafting, check each candidate photo's caption or source page names the featured reference; skip images of other models or unidentified caseback variants.
+- [STORY BEHIND] If a story can't fill every photo slide with a listed, matching image, drop it and pick another story.
+- [STORY BEHIND] Before choosing a story, check the posted history and queue; skip any reference or event already covered in the last 14 days.
+- [STORY BEHIND] Name the draft folder and idea title after the story actually drafted, and rename them if the topic changes.
+- [STORY BEHIND] Backup drafts must use a different story from the primary draft; never duplicate one story across both.
+- [STORY BEHIND] Check queue/rejected as well as posted history; never redraft a story the approver rejected, even under a new title.
+- [STORY BEHIND] Before choosing a story, count its exact-reference photos in library/index.json; choose it only if they fill every photo slide.
+- [STORY BEHIND] After any failed attempt, switch to a different reference with enough listed photos instead of retrying the same story with new wording.

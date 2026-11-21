@@ -154,3 +154,23 @@
 2026-11-21T10:15:52.317Z	approver 2026-11-21-1200-listicle-5-first-dive-watches-under-3-00 r2	claude-sonnet-5-5	0.0340	6
 2026-11-21T10:18:31.178Z	editor-revise 2026-11-21-1200-listicle-5-first-dive-watches-under-3-00	claude-haiku-5-5	0.0752	50
 2026-11-21T10:18:55.865Z	approver 2026-11-21-1200-listicle-5-first-dive-watches-under-3-00 r3	claude-sonnet-5-5	0.1002	16
+2026-11-21T10:19:21.031Z	editor 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more-	claude-haiku-5-5	0.0157	6
+2026-11-21T10:19:27.584Z	learn 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more-	claude-haiku-5-5	0.0023	2
+2026-11-21T10:20:46.058Z	editor 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more-	claude-haiku-5-5	0.0267	17
+2026-11-21T10:21:01.199Z	approver 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more- r1	claude-sonnet-5-5	0.0651	10
+2026-11-21T10:21:06.588Z	learn 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more-	claude-haiku-5-5	0.0020	2
+2026-11-21T10:21:12.296Z	learn 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more-	claude-haiku-5-5	0.0024	3
+2026-11-21T10:21:25.019Z	editor 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more-	claude-haiku-5-5	0.0144	4
+2026-11-21T10:21:29.212Z	learn 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more-	claude-haiku-5-5	0.0019	2
+2026-11-21T10:25:21.503Z	editor 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup	claude-haiku-5-5	0.1034	49
+2026-11-21T10:25:40.080Z	approver 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup r1	claude-sonnet-5-5	0.0986	12
+2026-11-21T10:25:44.847Z	learn 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup	claude-haiku-5-5	0.0021	2
+2026-11-21T10:26:24.050Z	editor-revise 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup	claude-haiku-5-5	0.0214	12
+2026-11-21T10:26:36.788Z	approver 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup r2	claude-sonnet-5-5	0.0406	6
+2026-11-21T10:26:41.994Z	learn 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup	claude-haiku-5-5	0.0022	2
+2026-11-21T10:28:37.937Z	editor 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup	claude-haiku-5-5	0.0418	31
+2026-11-21T10:28:48.173Z	approver 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup r1	claude-sonnet-5-5	0.0547	5
+2026-11-21T10:28:55.346Z	learn 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup	claude-haiku-5-5	0.0023	2
+2026-11-21T10:29:04.379Z	learn 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup	claude-haiku-5-5	0.0024	2
+2026-11-21T10:29:38.062Z	editor 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup	claude-haiku-5-5	0.0206	13
+2026-11-21T10:29:46.196Z	learn 2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup	claude-haiku-5-5	0.0024	2

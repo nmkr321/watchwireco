@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more--backup",
+  "lane": "news",
+  "status": "stopped",
+  "found_at": "2026-11-21T10:21:29.217Z",
+  "post_at": "2026-11-21T18:15:00.000Z",
+  "backup_for": "2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more-",
+  "format": "STORY BEHIND",
+  "title": "Backup STORY BEHIND for the slot of: MARKET: a brass F.P. Journe sold for more than gold",
+  "hook": "",
+  "why": "Backup post. Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
+  "sources": [],
+  "previous_attempts": [
+    "The facts pass the check, but the editor couldn't find Speedmaster photos for slides 2, 3 and 6, and slide 4 shows the wrong watch with a credit missing from the manifest. The draft has stalled with these problems unfixed, so I'm rejecting it and asking for a restart with the photos sourced first. / Gate 7: the watch is not visible on slides 2, 3 and 6, and slide 4 shows the wrong Speedmaster (a Schumacher-signed caseback). / Gate 7: the slide 4 photo credit (Pittigrilli, CC BY-SA 4.0) is not in assets/manifest.json or the caption. / Owner design rules: slide 5 repeats the cover's watches, and",
+    "This is the Genta Royal Oak/Nautilus story we already posted yesterday, and most of its slides have no photos. Choose a new story with a matching photo on every slide. / Gate 9: repeat. The same Genta Royal Oak/Nautilus story was posted yesterday as 20261120d-story-genta. / Gate 7 and story rule: only 2 of 8 slides have photos (asset-4 on the cover and asset-3 on slide 6). Story slides must keep images to the end. The caption admits the cover photo is a 15202, not the 5402 Jumbo the slides discuss. / Draft folder name says F.P. Journe market news, but the content is the Genta story, so it does"
+  ],
+  "stop_reason": "No story could be drafted with matching, listed photos on every slide. Checked: Genta (posted 2026-11-20), Paul Newman Daytona (rejected 2026-11-21), Santos-Dumont/Cartier Santos (rejected 2026-11-20 as a pilot-watch story), Speedmaster (rejected in attempt 3, photos missing). Cartier Tank: the only library photos of the classic Tank show a Must de Cartier and other Tank models, not the 1917 reference, so they fail the matching-photo rule. Owner: add a sourced photo of a 1917-era Tank or pick a featured watch with a permitted, matching photo set, then rerun.",
+  "gave_up": true
+}

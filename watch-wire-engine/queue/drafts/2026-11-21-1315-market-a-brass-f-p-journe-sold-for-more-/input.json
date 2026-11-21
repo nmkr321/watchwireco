@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more-",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.496Z",
+  "lane": "news",
+  "format": "MARKET",
+  "post_at": "2026-11-21T18:15:00.000Z",
+  "slot": 6,
+  "title": "MARKET: a brass F.P. Journe sold for more than gold",
+  "hook": "A Brass F.P. Journe Sold For More Than Gold.",
+  "why": "Key number stated plainly, and it is timely (a current auction). It is a MARKET post, not an auction post, so the caveat carries the story: the price is for one brass watch, not a trend.",
+  "sources_to_check": [
+    "Antiquorum lot page and results for the brass F.P. Journe (from the headline 'Antiquorum proves brass can be worth more than gold')",
+    "State whether the hammer price includes buyer's premium; quote the hammer and the total separately if both are published",
+    "Current gold price per gram from a dated source, to show the comparison; do not predict prices"
+  ],
+  "sources": [
+    {
+      "title": "Antiquorum lot page and results for the brass F.P. Journe (from the headline 'Antiquorum proves brass can be worth more than gold')",
+      "link": "",
+      "source": "Antiquorum lot page and results for the brass F.P. Journe (from the headline 'Antiquorum proves brass can be worth more than gold')",
+      "tier": "to-verify"
+    },
+    {
+      "title": "State whether the hammer price includes buyer's premium; quote the hammer and the total separately if both are published",
+      "link": "",
+      "source": "State whether the hammer price includes buyer's premium; quote the hammer and the total separately if both are published",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Current gold price per gram from a dated source, to show the comparison; do not predict prices",
+      "link": "",
+      "source": "Current gold price per gram from a dated source, to show the comparison; do not predict prices",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Not built. The 'more than gold' claim is unverified: no source compares the brass-movement lot with gold, and no dated gold price was found. The only verified sale is Antiquorum Hong Kong, 31 May 2025, lot 152, Octa Calendrier, platinum case with rhodium-plated brass movement: HKD 1,500,000 sold vs ",
+    "The numbers match the Antiquorum lot page and the check passes. But this is an old, single-lot result with no watch photo, and it ends by saying it proves nothing, so it gives readers no reason to save or share it. / Gate 10: the post gives no reason to save, share or comment. It covers one lot sold on 31 May 2025, which is about 6 months old. Slide 4 then says it shows no trend. / Gate 7 and owner rule: the post names the F.P. Journe Octa Calendrier but has no photo of the watch, and the pictures must match the subject. The research notes say no lot photo was found. / Do not re-render this dr"
+  ]
+}
