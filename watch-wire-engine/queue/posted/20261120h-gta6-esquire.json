@@ -3,7 +3,7 @@
   "replaces": "20261120e-gta6-watch-brands",
   "lane": "rotation",
   "format": "LISTICLE",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-20T22:50:00Z",
   "post_at": "2026-11-21T00:30:00Z",
   "priority": "owner",
@@ -88,5 +88,11 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes. The round-2 fixes are in: slide 2 is now a full-width game image, the slide 4 credit is shortened, and slide 6 is 14 words. Every claim is attributed to Esquire UK, the 34-watch figure is marked as reported, and Rockstar images are covered by the owner's permission. I did not re-fetch the Esquire page, because the engine had already read it (`verified_facts`) and it blocks cloud servers. Visual is held at 3 because the Day-Date slide has no watch photo."
+  },
+  "posted_at": "2026-11-21T00:33:00Z",
+  "publish": {
+    "live": true,
+    "permalink": "https://www.instagram.com/p/Df-82NMiahO/",
+    "note": "media_publish returned an error but the post went live; recorded by hand"
   }
 }
