@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-21-1045-story-behind-the-paul-newman-daytona-rol",
+  "status": "stopped",
+  "found_at": "2026-11-21T07:23:31.496Z",
+  "lane": "history",
+  "format": "STORY BEHIND",
+  "post_at": "2026-11-21T15:45:00.000Z",
+  "slot": 4,
+  "title": "STORY BEHIND: the Paul Newman Daytona (Rolex Daytona ref. 6239)",
+  "hook": "Rolex Made A Daytona Nobody Wanted. Then Paul Newman Wore One.",
+  "why": "The story behind one famous watch with a tension hook. It is evergreen and shareable, and it does not repeat the Genta post or the Breguet post in slot 11.",
+  "sources_to_check": [
+    "Rolex history and Daytona pages on rolex.com",
+    "Phillips auction record for the Newman Daytona (Geneva, 2017): check the hammer price and whether the figure includes fees before quoting it",
+    "Reputable history pieces (Hodinkee, Bonhams, Phillips press releases); mark anything unconfirmed as 'reportedly'"
+  ],
+  "sources": [
+    {
+      "title": "Rolex history and Daytona pages on rolex.com",
+      "link": "",
+      "source": "Rolex history and Daytona pages on rolex.com",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Phillips auction record for the Newman Daytona (Geneva, 2017): check the hammer price and whether the figure includes fees before quoting it",
+      "link": "",
+      "source": "Phillips auction record for the Newman Daytona (Geneva, 2017): check the hammer price and whether the figure includes fees before quoting it",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Reputable history pieces (Hodinkee, Bonhams, Phillips press releases); mark anything unconfirmed as 'reportedly'",
+      "link": "",
+      "source": "Reputable history pieces (Hodinkee, Bonhams, Phillips press releases); mark anything unconfirmed as 'reportedly'",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Facts, sources and the check all pass. The photo is a different Daytona reference (6263, black bezel) from Newman's 6239, and one photo is repeated on every slide. Swap in the correct watch photos and the post is fine. / Gate 7: the photo shows a ref. 6263 Daytona with a black bezel. The story is about Newman's ref. 6239, which has a steel bezel, so the watch is not the reference named. / Lesson not met: the same photo is on all 8 slides, so there is no variety. It is dimmed so far on the body slides that the watch is barely visible. / slides 1-8: Replace the 6263 photo with a licensed Wikimed",
+    "No usable watch photo. Every slide needs a licensed or sourced watch photo with a credit. Wikimedia Commons had no free-licence file for ref. 6239 (two searches). The library photo rolex-6239.jpg is credited 'Image: Rolex', which is not on permissions.json. Phillips lot photos are not a permitted so"
+  ],
+  "stop_reason": "Attempt 3 still has no usable watch photo for ref. 6239. Wikimedia Commons searches (six queries, including the exact ref and 'Paul Newman Daytona') returned no free-licence file for the 6239. The library photo rolex-6239.jpg is credited 'Image: Rolex', which is not on state/permissions.json (the only entry there is Rockstar Games, for GTA VI). Phillips lot photos are auction lot photos and are not allowed. Facts are sourced (Rolex 1963 introduction, Newman's 1968 6239 per Phillips, roughly 14,000 6239s per Sotheby's). Input correction: the Newman Daytona sale was in New York (Phillips, 26 Oct 2017), not Geneva; the $17.75m total includes buyer's premium, hammer not confirmed. To unblock: owner supplies a licensed 6239 photo with a credit added to permissions.json, or a Commons file naming the 6239 (licence and credit recorded), then the run can be retried.",
+  "gave_up": true
+}

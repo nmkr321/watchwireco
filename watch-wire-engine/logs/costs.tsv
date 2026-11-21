@@ -113,3 +113,27 @@
 2026-11-21T09:42:25.583Z	learn 2026-11-21-0815-build-your-collection-build-your-suit-wa-backup	claude-haiku-5-5	0.0023	2
 2026-11-21T09:44:35.625Z	editor 2026-11-21-0930-celebrity-tyson-fury-bet-his-rolex-on-a--backup	claude-haiku-5-5	0.0322	36
 2026-11-21T09:44:51.923Z	approver 2026-11-21-0930-celebrity-tyson-fury-bet-his-rolex-on-a--backup r1	claude-sonnet-5-5	0.0731	10
+2026-11-21T09:47:35.562Z	editor 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol	claude-haiku-5-5	0.0748	40
+2026-11-21T09:47:53.067Z	approver 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol r1	claude-sonnet-5-5	0.0768	12
+2026-11-21T09:47:57.390Z	learn 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol	claude-haiku-5-5	0.0020	2
+2026-11-21T09:48:47.717Z	editor-revise 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol	claude-haiku-5-5	0.0199	9
+2026-11-21T09:49:00.099Z	approver 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol r2	claude-sonnet-5-5	0.0434	6
+2026-11-21T09:49:50.358Z	editor-revise 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol	claude-haiku-5-5	0.0089	13
+2026-11-21T09:50:04.761Z	approver 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol r3	claude-sonnet-5-5	0.0524	8
+2026-11-21T09:50:09.700Z	learn 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol	claude-haiku-5-5	0.0021	2
+2026-11-21T09:50:44.255Z	editor 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol	claude-haiku-5-5	0.0429	11
+2026-11-21T09:50:49.603Z	learn 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol	claude-haiku-5-5	0.0021	2
+2026-11-21T09:51:32.512Z	editor 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol	claude-haiku-5-5	0.0443	12
+2026-11-21T09:51:39.105Z	learn 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol	claude-haiku-5-5	0.0022	2
+2026-11-21T09:54:35.752Z	editor 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup	claude-haiku-5-5	0.0414	27
+2026-11-21T09:54:41.547Z	learn 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup	claude-haiku-5-5	0.0022	2
+2026-11-21T09:57:51.782Z	editor 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup	claude-haiku-5-5	0.0496	35
+2026-11-21T09:58:09.801Z	approver 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup r1	claude-sonnet-5-5	0.0993	10
+2026-11-21T09:58:14.201Z	learn 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup	claude-haiku-5-5	0.0022	2
+2026-11-21T09:59:48.846Z	editor-revise 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup	claude-haiku-5-5	0.0448	19
+2026-11-21T10:00:02.106Z	approver 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup r2	claude-sonnet-5-5	0.0398	5
+2026-11-21T10:03:23.232Z	editor-revise 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup	claude-haiku-5-5	0.0646	32
+2026-11-21T10:03:38.113Z	approver 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup r3	claude-sonnet-5-5	0.0393	8
+2026-11-21T10:03:45.185Z	learn 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup	claude-haiku-5-5	0.0024	2
+2026-11-21T10:04:26.341Z	editor 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup	claude-haiku-5-5	0.0184	12
+2026-11-21T10:04:33.077Z	learn 2026-11-21-1045-story-behind-the-paul-newman-daytona-rol-backup	claude-haiku-5-5	0.0026	3
