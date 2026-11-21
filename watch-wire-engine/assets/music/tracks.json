@@ -1,0 +1,11 @@
+[
+  { "file": "lobby-time.mp3", "title": "Lobby Time", "artist": "Kevin MacLeod", "volume": 0.9,
+    "credit": "\"Lobby Time\" Kevin MacLeod (incompetech.com), licensed under CC BY 4.0",
+    "license": "CC BY 4.0", "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Lobby%20Time.mp3", "added": "2026-11-21" },
+  { "file": "bossa-antigua.mp3", "title": "Bossa Antigua", "artist": "Kevin MacLeod", "volume": 1.6,
+    "credit": "\"Bossa Antigua\" Kevin MacLeod (incompetech.com), licensed under CC BY 4.0",
+    "license": "CC BY 4.0", "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Bossa%20Antigua.mp3", "added": "2026-11-21" },
+  { "file": "wallpaper.mp3", "title": "Wallpaper", "artist": "Kevin MacLeod", "volume": 0.5,
+    "credit": "\"Wallpaper\" Kevin MacLeod (incompetech.com), licensed under CC BY 4.0",
+    "license": "CC BY 4.0", "source_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Wallpaper.mp3", "added": "2026-11-21" }
+]
