@@ -73,7 +73,9 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
   (needs ref_on_page:true); else `PH commons "<brand> <model>" --ref R`.
 - Celebrity: brand ambassador/campaign photo (`PH press <url> --brand B --person "Name"`), else
   `PH person "Name"` + the watch on an A-spotted slide. Name a watch on a celebrity only if a brand, the
-  celebrity or a trusted outlet named it; else "appears to be".
+  celebrity or a trusted outlet named it; else "appears to be". No usable photo of that celebrity after two
+  tries → drop them and pick ANOTHER celebrity sighting (sports, red carpets, music, film; there are many).
+  Celebrity posts do best (owner): keep switching celebrities; stop only after five have failed.
 - Game or permitted outlets: sources in `watch-wire-engine/state/permissions.json` only, via
   `PH credited <article-url> --credit "<credit text>" --owner "<name>"` (images credited to that source alone).
 - Official media pages: `PH gallery <url> --owner "<Owner>" --slug <name>`, then read its sheet.png once.

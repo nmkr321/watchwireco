@@ -381,8 +381,10 @@ function backup(item) {
   // library formats first: they reuse verified prices and photos and pass far more often (STORY BEHIND needs 7+
   // exact-reference photos, which the library rarely has). A same type nearby beats an empty slot.
   const lib = ["LISTICLE", "WOULD YOU RATHER", "BUILD YOUR COLLECTION"].filter((f) => libraryCanFill(f));
-  const format = lib.find((f) => !near.has(f)) || lib[0] || "STORY BEHIND";
+  // celebrity posts do best (owner): a failed celebrity slot gets another celebrity first
+  const format = item.format === "CELEBRITY" ? "CELEBRITY" : lib.find((f) => !near.has(f)) || lib[0] || "STORY BEHIND";
   const how = {
+    "CELEBRITY": `A DIFFERENT celebrity from the failed post (${item.title}). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.`,
     "STORY BEHIND": "Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
     "LISTICLE": "Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
     "WOULD YOU RATHER": "Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
