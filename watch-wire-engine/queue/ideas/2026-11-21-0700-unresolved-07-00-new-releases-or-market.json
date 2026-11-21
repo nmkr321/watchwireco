@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-21-0700-unresolved-07-00-new-releases-or-market",
+  "status": "idea",
+  "found_at": "2026-11-21T07:50:13.408Z",
+  "lane": "news",
+  "format": "NEW RELEASES",
+  "post_at": "2026-11-21T12:00:00.000Z",
+  "slot": 1,
+  "title": "UNRESOLVED: 07:00 NEW RELEASES or MARKET",
+  "hook": "No hook yet. The France F.P. Journe record headline is unconfirmed: no France or Antiquorum sale found.",
+  "why": "Needs a verified news item with a number, date, and fee status before it can run.",
+  "sources_to_check": [
+    "Original article for the 'F.P. Journe most expensive in France' headline",
+    "Phillips and Christie's results pages",
+    "Antiquorum archive"
+  ],
+  "sources": [
+    {
+      "title": "Original article for the 'F.P. Journe most expensive in France' headline",
+      "link": "",
+      "source": "Original article for the 'F.P. Journe most expensive in France' headline",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Phillips and Christie's results pages",
+      "link": "",
+      "source": "Phillips and Christie's results pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Antiquorum archive",
+      "link": "",
+      "source": "Antiquorum archive",
+      "tier": "to-verify"
+    }
+  ]
+}

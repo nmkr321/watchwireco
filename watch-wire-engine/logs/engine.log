@@ -468,3 +468,17 @@
 2026-11-21T07:47:43.431Z learned: [LISTICLE] Use a price only if you fetched its page this run, in any format; search snippets and single dealer quotes don't count as current prices. | [LISTICLE] Pick one retailer or brand category page that lists several items with prices, and fetch it first, so one fetch can yield multiple fetched prices.
 2026-11-21T07:47:43.431Z gave up: Backup LISTICLE for the slot of: NEW RELEASES: fallback to an official 2026 release (no headline qualifies)
 2026-11-21T07:47:45.518Z editor start: Backup WOULD YOU RATHER for the slot of: BUILD YOUR COLLECTION: Build Your Suit Watch Set, three picks under $6,000
+2026-11-21T07:49:41.491Z insights: 0 new snapshot(s); report in state/performance.md
+2026-11-21T07:49:41.974Z daily summary written; token ok
+2026-11-21T07:50:13.408Z planned 07:00 [NEW RELEASES] UNRESOLVED: 07:00 NEW RELEASES or MARKET
+2026-11-21T07:50:13.409Z planned 08:15 [BUILD YOUR COLLECTION] UNRESOLVED: 08:15 BUILD YOUR COLLECTION
+2026-11-21T07:50:13.409Z planned 09:30 [CELEBRITY] UNRESOLVED: 09:30 CELEBRITY
+2026-11-21T07:50:13.409Z planned 10:45 [STORY BEHIND] UNRESOLVED: 10:45 STORY BEHIND or HISTORY (tension hook)
+2026-11-21T07:50:13.409Z planned 12:00 [LISTICLE] UNRESOLVED: 12:00 LISTICLE
+2026-11-21T07:50:13.409Z planned 13:15 [MARKET] UNRESOLVED: 13:15 MARKET or NEW RELEASES
+2026-11-21T07:50:13.409Z planned 14:30 [WOULD YOU RATHER] UNRESOLVED: 14:30 WOULD YOU RATHER
+2026-11-21T07:50:13.409Z planned 15:45 [CELEBRITY] UNRESOLVED: 15:45 CELEBRITY
+2026-11-21T07:50:13.410Z planned 17:00 [WOULD YOU RATHER] UNRESOLVED: 17:00 WOULD YOU RATHER
+2026-11-21T07:50:13.410Z planned 18:15 [BUILD YOUR COLLECTION] UNRESOLVED: 18:15 BUILD YOUR COLLECTION
+2026-11-21T07:50:13.410Z planned 19:30 [HISTORY] UNRESOLVED: 19:30 HISTORY (tension hook)
+2026-11-21T07:50:13.410Z planned 21:00 [CELEBRITY] UNRESOLVED: 21:00 CELEBRITY

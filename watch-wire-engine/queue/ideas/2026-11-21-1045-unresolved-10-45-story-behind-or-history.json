@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-21-1045-unresolved-10-45-story-behind-or-history",
+  "status": "idea",
+  "found_at": "2026-11-21T07:50:13.409Z",
+  "lane": "history",
+  "format": "STORY BEHIND",
+  "post_at": "2026-11-21T15:45:00.000Z",
+  "slot": 4,
+  "title": "UNRESOLVED: 10:45 STORY BEHIND or HISTORY (tension hook)",
+  "hook": "Not researched. Must avoid Genta, Cartier Santos and Patek museum topics.",
+  "why": "Needs one person or one famous watch, plus one verified anniversary if used.",
+  "sources_to_check": [
+    "Brand heritage pages",
+    "Phillips, Christie's and Sotheby's editorial pages"
+  ],
+  "sources": [
+    {
+      "title": "Brand heritage pages",
+      "link": "",
+      "source": "Brand heritage pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Phillips, Christie's and Sotheby's editorial pages",
+      "link": "",
+      "source": "Phillips, Christie's and Sotheby's editorial pages",
+      "tier": "to-verify"
+    }
+  ]
+}

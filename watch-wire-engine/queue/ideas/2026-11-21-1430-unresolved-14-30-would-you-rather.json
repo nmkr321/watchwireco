@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-21-1430-unresolved-14-30-would-you-rather",
+  "status": "idea",
+  "found_at": "2026-11-21T07:50:13.409Z",
+  "lane": "rotation",
+  "format": "WOULD YOU RATHER",
+  "post_at": "2026-11-21T19:30:00.000Z",
+  "slot": 7,
+  "title": "UNRESOLVED: 14:30 WOULD YOU RATHER",
+  "hook": "Not researched.",
+  "why": "Needs two watches within about 10% of each other in price, with verified US retail prices.",
+  "sources_to_check": [
+    "Brand US price pages for both options"
+  ],
+  "sources": [
+    {
+      "title": "Brand US price pages for both options",
+      "link": "",
+      "source": "Brand US price pages for both options",
+      "tier": "to-verify"
+    }
+  ]
+}

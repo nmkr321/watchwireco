@@ -1,4 +1,4 @@
-# Daily summary (2026-11-21 07:22 UTC, last 24 hours)
+# Daily summary (2026-11-21 07:49 UTC, last 24 hours)
 
 - Instagram token: OK · 2 followers · 6 posts on the account
 - Posted: 6
@@ -8,7 +8,7 @@
   - Gérald Genta: the man who designed both the Royal Oak and the Nautilus [STORY BEHIND] https://www.instagram.com/p/Df-19mHmvkI/
   - The real watches behind GTA 6 [LISTICLE] https://www.instagram.com/p/Df-82NMiahO/
   - Swiss watch exports grew 9.1% in October, a fifth consecutive month of growth [MARKET] 
-- Rejected or stopped: 26
+- Rejected or stopped: 28
 - Waiting to post: 0
 - On hold: 8
-- AI usage: $0.01 plan-equivalent over 4 calls, $0.00 per post
+- AI usage: $0.62 plan-equivalent over 30 calls, $0.10 per post

@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-21-1930-unresolved-19-30-history-tension-hook-",
+  "status": "idea",
+  "found_at": "2026-11-21T07:50:13.410Z",
+  "lane": "history",
+  "format": "HISTORY",
+  "post_at": "2026-11-22T00:30:00.000Z",
+  "slot": 11,
+  "title": "UNRESOLVED: 19:30 HISTORY (tension hook)",
+  "hook": "Not researched.",
+  "why": "Needs one person or one famous watch, and a verified anniversary if used.",
+  "sources_to_check": [
+    "Brand heritage pages",
+    "Auction house editorial pages"
+  ],
+  "sources": [
+    {
+      "title": "Brand heritage pages",
+      "link": "",
+      "source": "Brand heritage pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Auction house editorial pages",
+      "link": "",
+      "source": "Auction house editorial pages",
+      "tier": "to-verify"
+    }
+  ]
+}

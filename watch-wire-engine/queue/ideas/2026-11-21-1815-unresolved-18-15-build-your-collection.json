@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-21-1815-unresolved-18-15-build-your-collection",
+  "status": "idea",
+  "found_at": "2026-11-21T07:50:13.410Z",
+  "lane": "rotation",
+  "format": "BUILD YOUR COLLECTION",
+  "post_at": "2026-11-21T23:15:00.000Z",
+  "slot": 10,
+  "title": "UNRESOLVED: 18:15 BUILD YOUR COLLECTION",
+  "hook": "Not researched. Must differ in tier types from the recent post.",
+  "why": "Needs three price-banded tiers with verified US retail prices.",
+  "sources_to_check": [
+    "Brand US price pages"
+  ],
+  "sources": [
+    {
+      "title": "Brand US price pages",
+      "link": "",
+      "source": "Brand US price pages",
+      "tier": "to-verify"
+    }
+  ]
+}

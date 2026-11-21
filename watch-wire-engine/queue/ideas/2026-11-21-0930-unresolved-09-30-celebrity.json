@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-21-0930-unresolved-09-30-celebrity",
+  "status": "idea",
+  "found_at": "2026-11-21T07:50:13.409Z",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "post_at": "2026-11-21T14:30:00.000Z",
+  "slot": 3,
+  "title": "UNRESOLVED: 09:30 CELEBRITY",
+  "hook": "Not researched. Must avoid Tyson Fury, Ryan Gosling and TAG Heuer, and Chrome Hearts topics.",
+  "why": "Needs a watch a trusted outlet reported the person wearing, plus a US retail price.",
+  "sources_to_check": [
+    "Trusted outlet articles naming the watch",
+    "Brand US price pages"
+  ],
+  "sources": [
+    {
+      "title": "Trusted outlet articles naming the watch",
+      "link": "",
+      "source": "Trusted outlet articles naming the watch",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand US price pages",
+      "link": "",
+      "source": "Brand US price pages",
+      "tier": "to-verify"
+    }
+  ]
+}

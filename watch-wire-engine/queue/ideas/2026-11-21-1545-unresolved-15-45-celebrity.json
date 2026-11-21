@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-21-1545-unresolved-15-45-celebrity",
+  "status": "idea",
+  "found_at": "2026-11-21T07:50:13.409Z",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "post_at": "2026-11-21T20:45:00.000Z",
+  "slot": 8,
+  "title": "UNRESOLVED: 15:45 CELEBRITY",
+  "hook": "Not researched. Must avoid the rejected celebrity topics.",
+  "why": "Needs a trusted outlet report and a US retail price.",
+  "sources_to_check": [
+    "Trusted outlet articles",
+    "Brand US price pages"
+  ],
+  "sources": [
+    {
+      "title": "Trusted outlet articles",
+      "link": "",
+      "source": "Trusted outlet articles",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand US price pages",
+      "link": "",
+      "source": "Brand US price pages",
+      "tier": "to-verify"
+    }
+  ]
+}

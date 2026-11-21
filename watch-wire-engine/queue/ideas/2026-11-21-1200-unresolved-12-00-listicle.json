@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-21-1200-unresolved-12-00-listicle",
+  "status": "idea",
+  "found_at": "2026-11-21T07:50:13.409Z",
+  "lane": "rotation",
+  "format": "LISTICLE",
+  "post_at": "2026-11-21T17:00:00.000Z",
+  "slot": 5,
+  "title": "UNRESOLVED: 12:00 LISTICLE",
+  "hook": "Not researched. Must avoid the rejected under-$6,000 suit list.",
+  "why": "Needs one use case, a price band within 2x, and 8 to 10 verified items.",
+  "sources_to_check": [
+    "Official US brand price pages for each item"
+  ],
+  "sources": [
+    {
+      "title": "Official US brand price pages for each item",
+      "link": "",
+      "source": "Official US brand price pages for each item",
+      "tier": "to-verify"
+    }
+  ]
+}

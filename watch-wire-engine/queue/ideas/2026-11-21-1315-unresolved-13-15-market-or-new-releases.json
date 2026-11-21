@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-21-1315-unresolved-13-15-market-or-new-releases",
+  "status": "idea",
+  "found_at": "2026-11-21T07:50:13.409Z",
+  "lane": "news",
+  "format": "MARKET",
+  "post_at": "2026-11-21T18:15:00.000Z",
+  "slot": 6,
+  "title": "UNRESOLVED: 13:15 MARKET or NEW RELEASES",
+  "hook": "No verified news item yet. The Daytona 126528LN price is only a dealer and guide figure ($227,400 unverified against rolex.com).",
+  "why": "Needs an official price or a verified market number.",
+  "sources_to_check": [
+    "rolex.com US price for 126528LN",
+    "Market data sources, with the date and whether fees are included"
+  ],
+  "sources": [
+    {
+      "title": "rolex.com US price for 126528LN",
+      "link": "",
+      "source": "rolex.com US price for 126528LN",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Market data sources, with the date and whether fees are included",
+      "link": "",
+      "source": "Market data sources, with the date and whether fees are included",
+      "tier": "to-verify"
+    }
+  ]
+}
