@@ -14,11 +14,17 @@ or run `git revert <code>` and then `git push`.
 | Daily summary + token check | `watch-wire-engine/state/daily.md` each night: what posted (with links), rejects, cost, and whether the Instagram token still works. You get an alert if the token breaks. | 5ac2afc |
 | Alt text | Every slide gets a plain description (headline, watches, prices) when it posts. This helps accessibility and search. If Instagram ever refuses it, the slide posts without it. | 5ac2afc |
 | Editor rule | Every post must add our own take (protection against Instagram's April 2026 "aggregator" reach cut). Captions open with the brand, model and reference, like a search headline. | 5ac2afc |
+| Planner memory | The planner no longer re-suggests ideas the approver rejected in the past week. Last night it had re-planned the rejected Tyson Fury post; I swapped that slot to a fresh celebrity idea. | a90a387 |
+| Skipped-run safety | If GitHub skips the 1:30am plan, the 2:00am maker now plans first. A backup maker at 3:40am does the same and does nothing if the work is already done. | 750163b |
 
-| Planner memory | The planner no longer re-suggests ideas the approver rejected in the past week. Last night it had re-planned the rejected Tyson Fury post; I swapped that slot to a fresh celebrity idea. | see `git log` |
-| Skipped-run safety | If GitHub skips the 1:30am plan, the 2:00am maker now plans first. A backup maker at 3:40am does the same and does nothing if the work is already done. | see `git log` |
+## Bugs found and fixed tonight (these caused many of the "rejected" posts)
+| Bug | Fix | Commit |
+|---|---|---|
+| The editor started posts with a placeholder source (like hodinkee.com) it never opened, and the research checker refused them | The research step now swaps in the first page actually opened and fixes the job IDs automatically (no facts touched) | f59bf94 |
+| Table, list and text slides were left-aligned, breaking your "everything centred" rule, and the editor gave up because it can't edit templates | Those slides now centre their label, headline, list and note. Tables keep their columns. | f59bf94 |
+| Old learned "lessons" told the editor that the engine's own verified library prices don't count, so backups quit in 20 seconds | Replaced them with one rule: library prices dated within 7 days count, with the source and date cited | 4b00133 |
 
-**Tonight's run:** GitHub skipped the 1:30am scheduled plan (it does this when busy), so I started the plan and the maker by hand at about 2:25am New York time. 12 ideas were planned for today, 7:00am to 9:00pm.
+**Tonight's run:** GitHub skipped the 1:30am scheduled plan (it does this when busy), so I started the plan by hand at about 2:25am New York time. 12 ideas were planned for today, 7:00am to 9:00pm. I restarted the maker twice to pick up the fixes above. The 8:15 collection failed for a real reason (not enough verified watches) and its backup post took the slot.
 
 ## Needs you (2 minutes each)
 1. **Insights permission.** Your token can't read reach, saves or shares yet. When you next regenerate the token in Meta, also tick **instagram_manage_insights**. Until then the loop uses likes and comments only.
