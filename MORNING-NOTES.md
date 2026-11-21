@@ -40,7 +40,7 @@ or run `git revert <code>` and then `git push`.
 | Celebrity post shape: cover → Watch Spotlight → our take → "Your call: wear it or pass?" → follow. No hedge-only slides. The DiCaprio post (3:45pm) was fixed this way | a66278e |
 | Trial Reels switched on, but Instagram refuses trial Reels for this account (error 2207081). Normal Reels work: set `"mode": "normal"` in `config/schedule.json` trial_reels to post regular Reels instead | f9ed7ff, b203f5a |
 | Reel music: Kevin MacLeod tracks tried and removed (owner: wrong style). Reels are silent until a style is picked. Each Reel's sound gets a clickable name | 996cb2b, eb4764c |
-| **Scout**: every 2 days (inside the nightly plan, free, no AI) it reads the last 30 posts of 15 watch accounts (`config/scout.json`), scores each against that account's usual post, and writes `state/scout.md` (best formats, post types, times, questions, music) and tells the planner. **Needs the token permission `pages_read_engagement`** (add it with `instagram_manage_insights` when you renew the token) | 41037bc |
+| **Scout**: every 2 days (inside the nightly plan, free, no AI) it reads the last 30 posts of 15 watch accounts (`config/scout.json`), scores each against that account's usual post, and writes `state/scout.md` (best formats, post types, times, questions, music) and tells the planner. Working since 21 Nov (new token) | 41037bc |
 
 **Reel music (21 Nov):** Reels now attach real Instagram library tracks through Meta's Audio API (Chopin Nocturne, Satie Gymnopédie, Moonlight Sonata, Swan Lake Waltz, Chopin Waltz), listed in `config/schedule.json` → trial_reels.music.
 
@@ -49,7 +49,7 @@ or run `git revert <code>` and then `git push`.
 **Music research (by hand, 21 Nov):** 13 of 13 Reels read from Hodinkee, Teddy Baldassarre and Swiss Watch Gang use "Original audio" (their own voice or event sound), not Instagram library songs.
 
 ## Needs you (2 minutes each)
-1. **Insights permission.** Your token can't read reach, saves or shares yet. When you next regenerate the token in Meta, also tick **instagram_manage_insights**. Until then the loop uses likes and comments only.
+1. ~~Insights permission~~ Done 21 Nov: new token reads reach, saves and shares, and the scout works.
 2. **Trial Reels: on or off?** To switch them on, set `"trial_reels": {"enabled": true}` in `config/schedule.json`, or just tell Claude "turn on trial reels". They post silently, because the API can't add Instagram music.
 3. **Check Account Status** in the Instagram app (Settings → Account Status) once a week. Since April 2026, Instagram stops recommending accounts that look like they repost others' content.
 
