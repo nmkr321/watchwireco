@@ -1,6 +1,6 @@
 {
   "id": "2026-11-21-1200-listicle-5-first-dive-watches-under-3-00",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-21T07:23:31.496Z",
   "lane": "rotation",
   "format": "LISTICLE",
@@ -55,5 +55,25 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes. All six dive watches have official, dated US prices in a tight $925–$1,545 band. I re-fetched the Hamilton Scuba page, and its price, size and water resistance match the slides. Every slide has an official product photo with a credit, the layout is clean, and the post ends on a comment-prompt CTA, so it's worth saving or sharing."
+  },
+  "posted_at": "2026-11-21T17:13:18.740Z",
+  "publish": {
+    "live": true,
+    "media_id": "18417384142091130",
+    "permalink": "https://www.instagram.com/p/DgAvUQ3Ce8Z/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png",
+        "slide-08.png"
+      ],
+      "caption_chars": 658
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
