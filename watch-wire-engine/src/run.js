@@ -19,6 +19,7 @@ import { publishPost } from "./publish.js";
 import { lint } from "./lint.js";
 import { publishTrialReel } from "./reel.js";
 import { collectInsights, plannerHint, dailySummary } from "./insights.js";
+import { scout, scoutDue, scoutHint } from "./scout.js";
 import { loadEnv } from "./publish.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -286,7 +287,7 @@ Value test for every idea: why would someone save, share or comment? Make each o
 Use each format's hook pattern. Pictures must match the subject (celebrity → the celebrity, game → gameplay, otherwise the watch). Photo formats: name every watch by brand, model and exact reference, with current US retail prices you can source; for CELEBRITY pick a watch a trusted outlet reported the person wearing. Every idea provable from primary or trusted sources; list the exact URLs or source names to check. No two ideas about the same watch.
 News headlines from the last day: ${JSON.stringify(recentHeadlines())}
 Do not repeat any of these recent posts: ${JSON.stringify(posted)}
-Do not plan these again; they were rejected in the last week (title: reason): ${JSON.stringify(recentRejects())}` + plannerHint();
+Do not plan these again; they were rejected in the last week (title: reason): ${JSON.stringify(recentRejects())}` + plannerHint() + scoutHint();
   const out = parseResult(claude(["--output-format", "json", "--json-schema", schema, "--max-budget-usd", String(Math.max(0.3, slotDefs.length * 0.06)), "--effort", EFFORT.planner, "--allowedTools", "Read WebSearch WebFetch"], prompt, "planner"));
   const stamp = new Date().toISOString().slice(0, 10);
   for (const idea of out.ideas) {
@@ -537,9 +538,11 @@ try {
     await collectInsights(log).catch((e) => log(`insights failed: ${e.message}`));
     const bad = await dailySummary(log).catch(() => "");
     if (bad) notify(`Watch Wire: Instagram token ${bad}`);
+    if (scoutDue()) await scout(log).catch((e) => log(`scout failed: ${e.message}`));   // other accounts, every 2 days
     plan();
   }
   else if (cmd === "insights") { loadEnv(); await collectInsights(log); await dailySummary(log); }
+  else if (cmd === "scout") await scout(log);
   else if (cmd === "tidy") tidy();
   else if (cmd === "plan-now") {            // plan-now "19:05 NEWS,20:05 CELEBRITY": extra posts for today at these times
     const slotsArg = (process.argv[3] || process.env.WW_SLOTS || "").split(",").map((x) => x.trim()).filter(Boolean).map((x) => {

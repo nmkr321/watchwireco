@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
     inputs:
       command:
-        description: "tick, plan, make-ideas, publish-due, status, or plan-now"
+        description: "tick, plan, make-ideas, publish-due, status, scout, insights, or plan-now"
         default: "tick"
       slots:
         description: 'for plan-now: "19:05 NEWS,20:05 CELEBRITY"'
