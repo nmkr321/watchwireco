@@ -416,7 +416,15 @@ async function publishDue({ breakingOnly = false } = {}) {
     const breakingToday = posted.filter((p) => p.lane === "breaking" && new Date(p.posted_at).toDateString() === today).length;
     if (item.lane === "breaking" && breakingToday >= schedule.breaking.max_per_day) { log(`breaking cap reached, holding ${item.id}`); continue; }
     if (Date.now() - lastPost < schedule.breaking.min_minutes_between_posts * 60e3 && item.lane === "breaking") { log(`too soon after last post, holding ${item.id}`); continue; }
-    const result = await publishPost(item, { live: schedule.auto_publish === true });
+    let result;
+    try { result = await publishPost(item, { live: schedule.auto_publish === true }); }
+    catch (e) {
+      // keep it queued and try at the next check; after 3 failed checks, hold it and tell the owner
+      item.publish_failures = (item.publish_failures || 0) + 1; item.last_publish_error = e.message.slice(0, 200); writeJson(file, item);
+      log(`publish failed (${item.publish_failures}/3) for ${item.id}: ${e.message.slice(0, 160)}`);
+      if (item.publish_failures >= 3) { move(file, "hold"); notify(`Watch Wire: could not publish "${item.title}" after 3 tries, moved to hold: ${e.message.slice(0, 120)}`); }
+      continue;
+    }
     Object.assign(item, { status: result.live ? "posted" : "ready-to-post", posted_at: new Date().toISOString(), publish: result });
     writeJson(file, item); move(file, "posted"); postedThisRun++;
     log(`${result.live ? "POSTED" : "DRY RUN (auto_publish is off)"}: ${item.title} ${result.permalink || ""}`);

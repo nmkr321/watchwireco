@@ -90,8 +90,30 @@ export async function publishPost(item, { live = false } = {}) {
   for (const id of children) await waitReady(id);
   const carousel = await graph(`${process.env.IG_USER_ID}/media`, { media_type: "CAROUSEL", children: children.join(","), caption });
   await waitReady(carousel.id);
-  const pub = await graph(`${process.env.IG_USER_ID}/media_publish`, { creation_id: carousel.id });
-  return { live: true, media_id: pub.id, permalink: await permalink(pub.id), plan };
+  // Instagram sometimes answers media_publish with "unexpected error" although the post went live.
+  // So after an error: look for it on the account first, retry only if it isn't there (never post twice).
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const pub = await graph(`${process.env.IG_USER_ID}/media_publish`, { creation_id: carousel.id });
+      return { live: true, media_id: pub.id, permalink: await permalink(pub.id), plan };
+    } catch (e) {
+      await new Promise((r) => setTimeout(r, 20000));
+      const found = await findRecent(caption);
+      if (found) return { live: true, media_id: found.id, permalink: found.permalink || null, plan, note: `went live despite: ${e.message.slice(0, 120)}` };
+      if (attempt >= 3) throw e;
+      await new Promise((r) => setTimeout(r, 30000));
+    }
+  }
+}
+
+// a post on the account from the last 15 minutes with this caption (used after a publish error)
+async function findRecent(caption) {
+  try {
+    const v = process.env.GRAPH_VERSION || "v21.0";
+    const r = await fetch(`https://${process.env.GRAPH_HOST || "graph.instagram.com"}/${v}/${process.env.IG_USER_ID}/media?fields=id,caption,timestamp,permalink&limit=5&access_token=${process.env.IG_ACCESS_TOKEN}`).then((x) => x.json());
+    const head = caption.slice(0, 80);
+    return (r.data || []).find((m) => (m.caption || "").slice(0, 80) === head && Date.now() - Date.parse(m.timestamp) < 15 * 60e3) || null;
+  } catch { return null; }
 }
 
 // the post's public link (instagram.com/p/...), for logs and the owner
