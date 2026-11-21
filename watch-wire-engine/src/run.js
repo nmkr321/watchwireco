@@ -90,6 +90,7 @@ function triage(candidate) {
   const prompt = `You triage breaking news for The Watch Wire, a luxury watch news Instagram page for enthusiasts and collectors.
 Decide if this story deserves an immediate breaking post. Say yes only for real news a collector would care about today
 (major brand moves, record auction results, notable launches, price changes, industry data, big celebrity watch moments).
+Pop culture with a clear watch angle counts too: e.g. a new James Bond actor or Bond film news (Bond wears Omega) -> CELEBRITY.
 Say no for reviews, opinion pieces, minor microbrand launches, sponsored content, or anything already old.
 Format must be one of: NEWS, NEW RELEASES, AUCTIONS, MARKET, CELEBRITY.
 

@@ -22,7 +22,11 @@
     "Swiss watch exports",
     "watch industry",
     "new watch release",
-    "luxury watch"
+    "luxury watch",
+    "James Bond",
+    "007 Omega",
+    "celebrity watch",
+    "red carpet watch"
   ],
   "lookback": "2h",
   "trusted_domains": {
@@ -75,6 +79,13 @@
       "forbes.com",
       "gq.com",
       "esquire.com"
+    ],
+    "entertainment": [
+      "variety.com",
+      "hollywoodreporter.com",
+      "deadline.com",
+      "people.com",
+      "vogue.com"
     ]
   },
   "breaking_keywords": [
@@ -118,7 +129,9 @@
     "journe",
     "tudor",
     "swatch",
-    "tag heuer"
+    "tag heuer",
+    "james bond",
+    "007"
   ],
   "direct_feeds": [
     "https://robbreport.com/style/watch-collector/feed/",
@@ -128,5 +141,10 @@
     "https://monochrome-watches.com/feed/",
     "https://www.fratellowatches.com/feed/",
     "https://revolutionwatch.com/feed/"
+  ],
+  "_pop_culture_note": "pop_culture_names: headlines with these count as watch stories even without the word 'watch' (Bond = Omega). Keep this list short: every match costs a cheap triage call.",
+  "pop_culture_names": [
+    "james bond",
+    "007"
   ]
 }

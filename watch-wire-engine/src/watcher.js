@@ -21,7 +21,7 @@ const THRESHOLD = Number(process.env.WW_THRESHOLD || 6);
 
 const tierOf = {};
 for (const [tier, domains] of Object.entries(cfg.trusted_domains)) for (const d of domains) tierOf[d] = tier;
-const TIER_POINTS = { primary: 5, watch_press: 3, major_news: 3 };
+const TIER_POINTS = { primary: 5, watch_press: 3, major_news: 3, entertainment: 3 };
 
 function domainOf(url) {
   try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; }
@@ -103,7 +103,9 @@ async function main() {
   const isWatchStory = (i) => {
     const t = i.title.toLowerCase();
     if (i.tier === "watch_press") return true;
+    if ((cfg.pop_culture_names || []).some((n) => t.includes(n))) return true; // big film/celebrity watch moments (e.g. a new James Bond)
     if (/^(watch|watch live|watch now)\b[: ]/.test(t) || /\| (closing bell|video)/.test(t)) return false; // "Watch: video" headlines
+    if (i.tier === "entertainment") return false;                       // entertainment outlets only for pop-culture names
     return WATCH_WORDS.filter((w) => w !== "watch").some((w) => t.includes(w)) || /\bwatch(es|maker|making)?\b/.test(t.replace(/^watch\b/, ""));
   };
   const trusted = all.map((i) => ({ ...i, tier: trustedTier(i.domain) })).filter((i) => i.tier && isWatchStory(i));
