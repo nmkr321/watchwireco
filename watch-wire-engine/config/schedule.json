@@ -190,6 +190,7 @@
   },
   "trial_reels": {
     "enabled": true,
-    "_note": "Every scheduled carousel is also posted as a trial Reel (shown to non-followers first, not on the grid). Music comes from assets/music/tracks.json (silent if none). Switched on by the owner 2026-11-21."
+    "mode": "trial",
+    "_note": "mode trial = shown to non-followers first, not on the grid (Instagram refused this for the account on 2026-11-21, error 2207081); mode normal = a regular Reel on the grid. Every scheduled carousel is also posted as a trial Reel (shown to non-followers first, not on the grid). Music comes from assets/music/tracks.json (silent if none). Switched on by the owner 2026-11-21."
   }
 }

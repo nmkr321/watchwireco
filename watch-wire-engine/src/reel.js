@@ -54,8 +54,11 @@ export async function publishTrialReel(item) {
   const { mp4, track } = buildReel(item);
   let cap = JSON.parse(fs.readFileSync(path.join(path.resolve(WORKSPACE, item.post_dir || item.project_dir), "caption.json"), "utf8")).text;
   if (track?.credit) cap = cap.includes("Follow @watchwireco") ? cap.replace(/\n*Follow @watchwireco/, `\n\nMusic: ${track.credit}\n\nFollow @watchwireco`) : `${cap}\n\nMusic: ${track.credit}`;
+  // "trial" (default): shown to non-followers first, not on the grid. "normal": a regular Reel on the grid.
+  // Instagram refused trial Reels for this account on 2026-11-21 (error 2207081), so the owner can pick "normal".
+  let mode = "trial"; try { mode = JSON.parse(fs.readFileSync(path.join(ROOT, "config/schedule.json"), "utf8")).trial_reels?.mode || "trial"; } catch {}
   const c = await api(`${process.env.IG_USER_ID}/media`, { media_type: "REELS", upload_type: "resumable", caption: cap,
-    trial_params: JSON.stringify({ graduation_strategy: "MANUAL" }),
+    ...(mode === "normal" ? { share_to_feed: "true" } : { trial_params: JSON.stringify({ graduation_strategy: "MANUAL" }) }),
     // the clickable audio label under the Reel (an audio page others can open and reuse); can only be set once
     ...(track ? { audio_name: `${track.title} · ${track.artist || "The Watch Wire"}` } : {}) });
   const bytes = fs.readFileSync(mp4);
@@ -69,7 +72,7 @@ export async function publishTrialReel(item) {
     await new Promise((r) => setTimeout(r, 5000));
   }
   const pub = await api(`${process.env.IG_USER_ID}/media_publish`, { creation_id: c.id });
-  return { media_id: pub.id, trial: true, music: track?.title || null };
+  return { media_id: pub.id, trial: mode !== "normal", music: track?.title || null };
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
