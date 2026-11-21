@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 5,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "This is a clean, centred, tightly priced gift shortlist ($4,100 to $5,700). Each price comes from the official brand or Watches of Switzerland (the engine's library and research.json), and each photo is a credited official product shot of the named reference. Validate passes, the caption matches the slides and credits the sources, and there is no repeat in the posted queue. I did not re-fetch the source pages."
+}

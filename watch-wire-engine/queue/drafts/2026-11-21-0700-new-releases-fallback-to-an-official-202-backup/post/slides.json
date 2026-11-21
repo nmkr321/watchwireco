@@ -1,0 +1,59 @@
+{
+ "source": "Source: Watches of Switzerland, Cartier, Breitling",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "GIFTS",
+   "line1": "Gift watches",
+   "line2": "Under $6,000",
+   "meta": "Five listed prices · 20–21 Nov 2026",
+   "footLeft": "Source: brand and retailer pages"
+  },
+  {
+   "t": "A-photo",
+   "label": "1 · USD 4,600",
+   "headline": "Grand Seiko SBGW279",
+   "body": "Listed at USD 4,600 by Watches of Switzerland, 21 Nov 2026.",
+   "photo": "watch-wire-engine/library/img/grand-seiko-sbgw279.jpg",
+   "credit": "Image: Grand Seiko"
+  },
+  {
+   "t": "A-photo",
+   "label": "2 · USD 4,100",
+   "headline": "Cartier Tank Must WSTA0108",
+   "body": "Listed at USD 4,100 by Cartier US, 21 Nov 2026.",
+   "photo": "watch-wire-engine/library/img/cartier-wsta0108.jpg",
+   "credit": "Image: Cartier"
+  },
+  {
+   "t": "A-photo",
+   "label": "3 · USD 4,400",
+   "headline": "Cartier Tank Must WSTA0106",
+   "body": "Listed at USD 4,400 by Cartier US, 21 Nov 2026.",
+   "photo": "watch-wire-engine/library/img/cartier-wsta0106.jpg",
+   "credit": "Image: Cartier"
+  },
+  {
+   "t": "A-photo",
+   "label": "4 · USD 4,950",
+   "headline": "Breitling Superocean 42",
+   "body": "Listed at USD 4,950 by Breitling US, 20 Nov 2026.",
+   "photo": "watch-wire-engine/library/img/breitling-a17366d81c1a1.webp",
+   "credit": "Image: Breitling"
+  },
+  {
+   "t": "A-photo",
+   "label": "5 · USD 5,700",
+   "headline": "Cartier Tank Must WSTA0141",
+   "body": "Listed at USD 5,700 by Watches of Switzerland, 20 Nov 2026.",
+   "photo": "watch-wire-engine/library/img/cartier-wsta0141.jpg",
+   "credit": "Image: Cartier"
+  },
+  {
+   "t": "cta",
+   "line1": "Save this shortlist",
+   "line2": "Follow @watchwireco",
+   "body": "Prices change. Check the retailer before you buy."
+  }
+ ]
+}

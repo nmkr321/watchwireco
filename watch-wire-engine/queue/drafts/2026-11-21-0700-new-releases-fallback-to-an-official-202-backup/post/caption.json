@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Gift watches under $6,000: Grand Seiko SBGW279, Cartier Tank Must WSTA0108, WSTA0106, WSTA0141 and Breitling Superocean Automatic 42 (A17366D81C1A1).\n\nListed prices: USD 4,100 to USD 5,700. The Cartier and Breitling prices are from their US sites (20–21 Nov 2026). Grand Seiko and WSTA0141 are from Watches of Switzerland.\n\nPrices change and do not include tax. Check the retailer before you buy.\n\nWhich of these five would you put on your gift list?\n\nSource: Watches of Switzerland, Cartier US and Breitling US product pages, listed 20–21 November 2026.\n\nImage credits: Grand Seiko, Cartier, Breitling (brand product images).\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4",
+    "CLM-5"
+  ],
+  "source_ids": [
+    "SRC-GS-SBGW279",
+    "SRC-CA-WSTA0108",
+    "SRC-CA-WSTA0106",
+    "SRC-BR-A17366",
+    "SRC-CA-WSTA0141"
+  ],
+  "attribution": "Data: Watches of Switzerland, Cartier and Breitling product pages, listed 20–21 November 2026.",
+  "caption_credit": "Images: Grand Seiko, Cartier, Breitling (brand product images).",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Social reaction not covered (automation mode)."
+  ],
+  "carousel_sha256": "663a2f636b22f64667bbe477c78a6510e2b3673d50c10a2fc1c466b8d21076dc",
+  "completed_at": "2026-11-21T09:29:54.627Z"
+}
