@@ -2637,5 +2637,41 @@
   "credit": "Image: Hamilton",
   "usage": "Hamilton H70455533 official product image, credited",
   "fetched": "2026-11-21"
+ },
+ {
+  "kind": "person",
+  "title": "Pete Davidson",
+  "who": "American comedian and actor (born 1993)",
+  "source": "https://commons.wikimedia.org/wiki/File:Pete_Davidson_portrait_(cropped).png",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Pete_Davidson_portrait_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "file": "watch-wire-engine/library/img/person-pete-davidson.png",
+  "w": 543,
+  "h": 704,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "LaVar James",
+  "license": "CC BY-SA 4.0",
+  "credit": "Photo: LaVar James / CC BY-SA 4.0",
+  "caption_credit": "Photo: LaVar James / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
+  "usage": "Portrait of Pete Davidson, CC BY-SA 4.0, credited",
+  "fetched": "2026-11-21"
+ },
+ {
+  "kind": "person",
+  "title": "David Corenswet",
+  "who": "American actor (born 1993)",
+  "source": "https://commons.wikimedia.org/wiki/File:David_Corenswet_Manila_2025.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/David_Corenswet_Manila_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "file": "watch-wire-engine/library/img/person-david-corenswet.jpg",
+  "w": 710,
+  "h": 940,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "U.S. Embassy in the Philippines",
+  "license": "Public domain",
+  "credit": "Photo: U.S. Embassy in the Philippines / Public domain",
+  "caption_credit": "Photo: U.S. Embassy in the Philippines / Public domain via Wikimedia Commons",
+  "usage": "Portrait of David Corenswet, Public domain, credited",
+  "fetched": "2026-11-21"
  }
 ]

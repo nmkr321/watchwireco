@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. All four prices, references, sizes and movements match the verified Hamilton US pages, which are the manufacturer's own. The photos are official and credited, the layout is clean, and the CTA is present. It is an evergreen buyer's guide rather than news, so it should go in the next slot, not now."
+}

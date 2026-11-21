@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-21-2100-celebrity-one-outlet",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-21T14:13:13.350Z",
+  "post_at": "2026-11-22T02:00:00.000Z",
+  "format": "CELEBRITY",
+  "title": "CELEBRITY: a watch a trusted outlet reported a celebrity wearing (recent)",
+  "hook": "Name + watch + twist or price",
+  "why": "Owner asked for a celebrity post tonight. New owner rule (21 Nov): ONE trusted outlet naming the watch is enough, credited by name (spotted by GQ); do not look for a second outlet. Prefer a sighting from the last few weeks with a clear photo of the person (brand campaign or free-licence photo) and an official photo of the watch. Not Tyson Fury.",
+  "sources": [],
+  "previous_attempts": [
+    "No usable watch photo for the sighting. Candidate: Pete Davidson wearing an Audemars Piguet Royal Oak 26240BA, reportedly per Robb Report (Nov 14, 2026 weekly roundup). The Robb Report page is redirected to a gated URL, so only the search summary was available and was not read in full. The 26240BA s",
+    "No post made. (1) Esquire Australia Brad Pitt / Vacheron Constantin article: Access Denied when opened, so the watch cannot be named. (2) Hypebeast Michael B. Jordan Golden Globes and Kevin Hart pages: returned empty, so not readable. (3) Boss Hunting Oscars 2026 page (readable) names Michael B. Jor"
+  ],
+  "stop_reason": "No post made (attempt 3). WatchGuys 2026 VMAs roundup is readable and names David Corenswet's Rolex GMT-Master II 'Pepsi' (ref. 126710BLRO), but the only free photo of him (Wikimedia Commons, public domain) shows no wrist or watch, so the sighting cannot be confirmed from the photo, as the lessons require. Hypebeast Kevin Hart Patek Golden Ellipse page returned empty. Robb Report Nov 14 and Nov 21 roundups redirect to a gated tollbit URL and were not read. Needed: a readable article naming the watch plus a photo where the case or dial is visible (brand campaign or press photo of the person wearing it).",
+  "gave_up": true
+}

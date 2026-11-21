@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Hamilton under $1,000: four Khaki picks with US prices, checked 21 November 2026.\n\nKhaki Field Mechanical H69439931, $675. Hamilton H70455133, $845. Khaki Navy Auto H82425140, $975. Khaki Navy Scuba Auto H82335131, $975. All four are inside a band of about 1.5x.\n\nWhich one would you put on your wrist first?\n\nSource: Hamilton Watch US site, product pages checked 21 November 2026.\nPhotos: Image: Hamilton.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4"
+  ],
+  "source_ids": [
+    "SRC-H1",
+    "SRC-H2",
+    "SRC-H3",
+    "SRC-H4"
+  ],
+  "attribution": "Data: Hamilton Watch US site, checked 21 November 2026.",
+  "caption_credit": "Image: Hamilton",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "US list prices only; they may change."
+  ],
+  "hashtags": [
+    "#Hamilton",
+    "#WatchNews",
+    "#LuxuryWatches"
+  ],
+  "carousel_sha256": "1549b4ea7a1841a7502b797b0457f9add2534699f34050c987269427c4267369",
+  "completed_at": "2026-11-21T14:18:55.121Z"
+}

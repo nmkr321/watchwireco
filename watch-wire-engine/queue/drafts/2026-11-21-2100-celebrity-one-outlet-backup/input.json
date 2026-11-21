@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-21-2100-celebrity-one-outlet-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-21T14:17:07.432Z",
+  "post_at": "2026-11-22T02:00:00.000Z",
+  "backup_for": "2026-11-21-2100-celebrity-one-outlet",
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: CELEBRITY: a watch a trusted outlet reported a celebrity wearing (recent)",
+  "hook": "",
+  "why": "Backup post. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "Only 2 picks verified on the manufacturer page under $5K (Longines L2.793.4.78.3 at $2,550 and Breitling A17366D81C1A1 at $4,950, both checked 2026-11-21). A LISTICLE needs at least 4 verified picks. The Nomos Tangente 38 165 ($2,510, exquisitetimepieces.com) is not confirmed as an authorised retail"
+  ]
+}
