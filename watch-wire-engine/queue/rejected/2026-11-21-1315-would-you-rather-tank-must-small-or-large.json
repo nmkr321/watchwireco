@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-21-1315-would-you-rather-tank-must-small-or-large",
+  "lane": "evergreen",
+  "status": "stopped",
+  "found_at": "2026-11-21T11:25:05.894Z",
+  "post_at": "2026-11-21T18:15:00.000Z",
+  "backup_for": "2026-11-21-1315-market-a-brass-f-p-journe-sold-for-more-",
+  "format": "WOULD YOU RATHER",
+  "title": "Tank Must: small or large? (Cartier WSTA0135 $3,750 vs WSTA0136 $3,900)",
+  "hook": "Same watch, two sizes, $150 apart: which wrist size wins?",
+  "why": "Retry for an empty slot. Library pair (verified US prices 21 Nov 2026, official Cartier photos). Use case: the size question every Tank buyer asks. Give case sizes from Cartier pages. Cut-out photos on black are handled by the renderer.",
+  "sources": [],
+  "previous_attempts": [
+    "The small-model (WSTA0135) photo in the library is a lifestyle shot where the watch is hard to see, so slides 1-3 do not show a clear product view of the small watch. Two photo tries failed (library has one image; Commons had nothing). Needs a clean WSTA0135 product photo before posting.",
+    "No clean product photo of the WSTA0135 (small Tank Must). The library image is still the lifestyle shot (same lesson as attempt 1). Watches of Switzerland and Bucherer both returned the same cached image, so two photo tries failed. A comparison needs both watches on the cover, so the post cannot run"
+  ],
+  "stop_reason": "No clean product photo of the small Tank Must (WSTA0135). The library image is a lifestyle shot. Commons had nothing. Cartier's page, Tourneau and Watches of Switzerland all returned the same cached lifestyle image (attempt 3 and 4 failed the same way). A comparison needs both watches on the cover, so the post cannot run. Options: find a clean WSTA0135 product photo (upload to the library), or switch to a single-watch brand-kit format.",
+  "gave_up": true
+}

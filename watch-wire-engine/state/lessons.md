@@ -1,12 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [STORY BEHIND] Before choosing a photo-led format, check state/permissions.json covers the brand's images; if no outlet is listed, choose a format using owned brand-kit art.
-- [STORY BEHIND] When a story's origin is disputed by sources, drop the origin beats or state the dispute on-slide; never present the disputed origin as settled.
-- [HISTORY] Captions and cover headlines must repeat the same hedging as the body slides (e.g. 'reportedly', 'per oral tradition'); never state a hedged claim more firmly.
-- [HISTORY] Before finishing, check CTA and closing headlines for repeated words and line wraps; keep each to two lines with no duplicated phrase.
-- [HISTORY] Cover photos must be clean, unfiltered product shots on plain black; never posterised or heavily processed. Keep the headline block clear of the watch face.
-- [HISTORY] Choose a cover only if a clean black-background shot of the exact reference exists; otherwise use owned brand-kit art.
 - [HISTORY] Render each cover and confirm the headline clears the watch face; if it overlaps, move the headline or crop the photo.
 - [HISTORY] Check every slide's wrap before finishing: never split a hyphenated word, or leave one word alone on a line; shorten the body to fix.
 - [HISTORY] Re-render after any text change and confirm each body's last line holds several words, not a lone word or fragment.
@@ -21,3 +15,9 @@ The editor reads this before every post. Written automatically from rejections; 
 - [STORY BEHIND] If Bash is denied, create the project folder and its JSON files directly with Write, then continue research and drafting.
 - [STORY BEHIND] If Bash is denied, never skip engine start, photo lookup, render or finish checks; return the idea to queue/ideas instead.
 - [STORY BEHIND] Treat a photo source as licensed only if permissions.json lists that exact subject; game or unrelated credits don't count for watch photos.
+- [WOULD YOU RATHER] Product slides need a clear, close-up photo of the exact reference; if the library photo is lifestyle, use brand-kit art instead.
+- [WOULD YOU RATHER] Pick the reference photo during research, not after drafting; if no clear product view exists, switch to a brand-kit format.
+- [WOULD YOU RATHER] Comparison posts need clean, close-up photos of both watches confirmed during research. If either is missing, pick a different pairing or a single-watch format.
+- [WOULD YOU RATHER] If a photo source returns the same cached image on retry, stop using that source and use another licensed photo or brand-kit art.
+- [WOULD YOU RATHER] When a comparison lacks clean photos of both watches, build the cover from brand-kit art showing both references side by side.
+- [WOULD YOU RATHER] Log each rejected photo source and its reason (lifestyle, cached, unlicensed) in the idea's why field, so the next run skips it.
