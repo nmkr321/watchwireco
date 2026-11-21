@@ -17,6 +17,7 @@ import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { publishPost } from "./publish.js";
 import { lint } from "./lint.js";
+import { publishTrialReel } from "./reel.js";
 import { collectInsights, plannerHint } from "./insights.js";
 import { loadEnv } from "./publish.js";
 
@@ -439,6 +440,11 @@ async function publishDue({ breakingOnly = false } = {}) {
       continue;
     }
     Object.assign(item, { status: result.live ? "posted" : "ready-to-post", posted_at: new Date().toISOString(), publish: result });
+    // optional: the same slides as a trial Reel (shown to non-followers first; off unless trial_reels.enabled)
+    if (result.live && schedule.trial_reels?.enabled && item.lane !== "breaking") {
+      try { item.trial_reel = await publishTrialReel(item); log(`trial reel posted for ${item.id}`); }
+      catch (e) { item.trial_reel = { error: e.message.slice(0, 200) }; log(`trial reel failed for ${item.id}: ${e.message.slice(0, 160)}`); }
+    }
     writeJson(file, item); move(file, "posted"); postedThisRun++;
     log(`${result.live ? "POSTED" : "DRY RUN (auto_publish is off)"}: ${item.title} ${result.permalink || ""}`);
     notify(`Watch Wire ${result.live ? "posted" : "ready to post (auto-publish off)"}: ${item.title}`);

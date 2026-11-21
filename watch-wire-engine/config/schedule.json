@@ -187,5 +187,9 @@
       }
     ],
     "_note": "Owner 2026-11-20: 12 posts on Nov 21 (one-day push), then back to the 5-a-day trial."
+  },
+  "trial_reels": {
+    "enabled": false,
+    "_note": "When true, every scheduled carousel is also posted as a silent trial Reel (shown to non-followers first, not on the grid). Built 2026-11-21; owner to switch on."
   }
 }
