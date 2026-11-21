@@ -378,8 +378,10 @@ function backup(item) {
     try { const o = readJson(path.join(Q(d), f)); const ot = Date.parse(o.scheduled_for || o.post_at || o.posted_at);
       if (o.id !== item.id && Math.abs(ot - t) < 4 * 3600e3) near.add(o.format); } catch {}
   }
-  const options = ["STORY BEHIND", "LISTICLE", "WOULD YOU RATHER", "BUILD YOUR COLLECTION"].filter((f) => !near.has(f) && libraryCanFill(f));
-  const format = options[0] || "STORY BEHIND";
+  // library formats first: they reuse verified prices and photos and pass far more often (STORY BEHIND needs 7+
+  // exact-reference photos, which the library rarely has). A same type nearby beats an empty slot.
+  const lib = ["LISTICLE", "WOULD YOU RATHER", "BUILD YOUR COLLECTION"].filter((f) => libraryCanFill(f));
+  const format = lib.find((f) => !near.has(f)) || lib[0] || "STORY BEHIND";
   const how = {
     "STORY BEHIND": "Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
     "LISTICLE": "Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
