@@ -42,6 +42,8 @@ or run `git revert <code>` and then `git push`.
 | Reel music: Kevin MacLeod tracks tried and removed (owner: wrong style). Reels are silent until a style is picked. Each Reel's sound gets a clickable name | 996cb2b, eb4764c |
 | **Scout**: every 2 days (inside the nightly plan, free, no AI) it reads the last 30 posts of 15 watch accounts (`config/scout.json`), scores each against that account's usual post, and writes `state/scout.md` (best formats, post types, times, questions, music) and tells the planner. **Needs the token permission `pages_read_engagement`** (add it with `instagram_manage_insights` when you renew the token) | 41037bc |
 
+**Reel music (21 Nov):** Reels now attach real Instagram library tracks through Meta's Audio API (Chopin Nocturne, Satie Gymnopédie, Moonlight Sonata, Swan Lake Waltz, Chopin Waltz), listed in `config/schedule.json` → trial_reels.music.
+
 **Music research (by hand, 21 Nov):** 13 of 13 Reels read from Hodinkee, Teddy Baldassarre and Swiss Watch Gang use "Original audio" (their own voice or event sound), not Instagram library songs.
 
 ## Needs you (2 minutes each)
