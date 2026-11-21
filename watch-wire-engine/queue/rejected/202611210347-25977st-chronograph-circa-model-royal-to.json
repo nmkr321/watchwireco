@@ -1,0 +1,24 @@
+{
+  "id": "202611210347-25977st-chronograph-circa-model-royal-to",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-21T03:47:38.733Z",
+  "title": "ROYAL OAK CHRONOGRAPH TOURBILLON MODEL, REF. 25977ST, CIRCA 2000s",
+  "score": 7,
+  "sources": [
+    {
+      "title": "ROYAL OAK CHRONOGRAPH TOURBILLON MODEL, REF. 25977ST, CIRCA 2000s",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2M0F4UEl0eTFLRlJxY1RPNi1uM182ZDRjMEwyVndQaE5mV1pyMUtVX3plaHRoTWFJMnZHWDI5cjJrS2ZqdFNpdjdEYnJGMGJqU24yRk9PWQ?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Christie’s",
+      "domain": "christies.com",
+      "tier": "primary",
+      "published": "Sat, 21 Nov 2026 02:46:25 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "AUCTIONS",
+    "reason": "Christie's pre-sale lot listing for a 2000s Royal Oak Chronograph Tourbillon (ref. 25977ST). It shows no result, record, or market-moving event, so it is not breaking news. The format would be AUCTIONS if a realized result or record is published later."
+  }
+}

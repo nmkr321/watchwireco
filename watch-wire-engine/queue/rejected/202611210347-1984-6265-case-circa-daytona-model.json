@@ -1,0 +1,24 @@
+{
+  "id": "202611210347-1984-6265-case-circa-daytona-model",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-21T03:47:38.733Z",
+  "title": "DAYTONA 'LE MANS' MODEL, REF. 126528LN, CASE NO. 9W28Q100, CIRCA 2024",
+  "score": 8,
+  "sources": [
+    {
+      "title": "DAYTONA 'BIG RED' MODEL, REF. 6265, CASE NO. 5’643’834, CIRCA 1984",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVeTlFQjQwX0pMSFZHUVROdW5Jd1JKVmtTMHhGQ3hITGtOSTVyNG95SWFWbE9sSzg5WWdVLW5HUWRUWHpBZzN2cy1iX1hBYmQzLW5oRHJidw?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Christie’s",
+      "domain": "christies.com",
+      "tier": "primary",
+      "published": "Sat, 21 Nov 2026 02:58:51 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "AUCTIONS",
+    "reason": "Christie's catalogue listing for a single Daytona \"Le Mans\" 126528LN lot, circa 2024. It has no realised price, so it is not a record or market-moving result and does not qualify as breaking news. It fits as a regular auction feature after the sale results are in."
+  }
+}
