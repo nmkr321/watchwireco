@@ -1,0 +1,12 @@
+{
+  "id": "2026-11-21-1545-celebrity-retry",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-21T14:20:31.040Z",
+  "post_at": "2026-11-21T20:45:00.000Z",
+  "format": "CELEBRITY",
+  "title": "CELEBRITY: a watch a trusted outlet reported a celebrity wearing (recent)",
+  "hook": "Name + watch + twist or price",
+  "why": "Owner wants celebrity posts. One readable trusted outlet naming the watch is enough, credited by name. Celebrity photo does not need to show the watch: their photo + the official watch photo (A-spotted). Lead found earlier today: WatchGuys 2026 VMAs roundup (readable) names David Corenswet wearing a Rolex GMT-Master II Pepsi ref. 126710BLRO; free Wikimedia photo of him exists. If no usable photo, pick another celebrity. Not Tyson Fury.",
+  "sources": []
+}

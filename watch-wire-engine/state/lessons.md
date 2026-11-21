@@ -16,8 +16,4 @@ The editor reads this before every post. Written automatically from rejections; 
 - [LISTICLE] Validate the research file set against the engine's current schema before finishing; use only the unattended-compatible format, not browser traces or governance ledgers.
 - [LISTICLE] Before drafting, confirm verified picks at least equal the planned item count; if short, cut the list to the verified count or switch format.
 - [LISTICLE] Include only picks whose reference, price and movement are confirmed on the manufacturer page in research; drop any unconfirmed pick instead of padding the list.
-- [CELEBRITY] Name a celebrity's watch only after opening the source page and reading the full article; search snippets and gated or redirected links don't count.
-- [CELEBRITY] Identify a sighting watch only when the photo itself shows the case or dial clearly; a report alone isn't enough, so drop it or pick another sighting.
-- [CELEBRITY] If a watch claim's source is paywalled, errors or comes back empty, find another readable source naming that same watch, or drop the claim.
-- [CELEBRITY] Build each celebrity post around the one watch that a fully readable source names for that exact person; discard other candidates.
-- [CELEBRITY] After two failed verification attempts on any post claim, change the claim or format instead of retrying the same source.
+- [CELEBRITY] Owner rules (2026-11-21): one readable trusted outlet naming the watch is enough, credited by name; for a paywalled outlet its readable headline or summary naming the watch counts. The celebrity's photo does not need to show the watch: use their photo plus the official photo of the named watch (A-spotted). If a celebrity has no usable photo at all, pick another celebrity.

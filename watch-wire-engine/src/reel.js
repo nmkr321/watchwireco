@@ -55,7 +55,9 @@ export async function publishTrialReel(item) {
   let cap = JSON.parse(fs.readFileSync(path.join(path.resolve(WORKSPACE, item.post_dir || item.project_dir), "caption.json"), "utf8")).text;
   if (track?.credit) cap = cap.includes("Follow @watchwireco") ? cap.replace(/\n*Follow @watchwireco/, `\n\nMusic: ${track.credit}\n\nFollow @watchwireco`) : `${cap}\n\nMusic: ${track.credit}`;
   const c = await api(`${process.env.IG_USER_ID}/media`, { media_type: "REELS", upload_type: "resumable", caption: cap,
-    trial_params: JSON.stringify({ graduation_strategy: "MANUAL" }) });
+    trial_params: JSON.stringify({ graduation_strategy: "MANUAL" }),
+    // the clickable audio label under the Reel (an audio page others can open and reuse); can only be set once
+    ...(track ? { audio_name: `${track.title} · ${track.artist || "The Watch Wire"}` } : {}) });
   const bytes = fs.readFileSync(mp4);
   const up = await fetch(`https://rupload.facebook.com/ig-api-upload/${ver()}/${c.id}`, { method: "POST",
     headers: { Authorization: `OAuth ${process.env.IG_ACCESS_TOKEN}`, offset: "0", file_size: String(bytes.length) }, body: bytes }).then((x) => x.json());
