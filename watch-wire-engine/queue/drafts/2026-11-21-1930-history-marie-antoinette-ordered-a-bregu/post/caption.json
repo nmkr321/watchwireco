@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Breguet Marie-Antoinette N° 160: ordered around 1783, finished in 1827.\n\nBreguet's own records say an officer of the Queen's Guard placed the order around 1783, and the client is unknown. The queen link is per oral tradition. Marie Antoinette never saw the finished watch; she was guillotined on 16 October 1793.\n\nAntoine-Louis Breguet completed it in 1827 after numerous interruptions. It was bought in 1887 by Sir Spencer Brunton, stolen in 1983 and reappeared in 2007.\n\nWould you wait 44 years for a watch?\n\nSource: Breguet, N° 160 history pages (breguet.com).\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4",
+    "CLM-5",
+    "CLM-6",
+    "CLM-7"
+  ],
+  "source_ids": [
+    "SRC-BRG-ORDER",
+    "SRC-BRG-MAG"
+  ],
+  "attribution": "Source: Breguet, N° 160 history pages.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Text-only cover: no clean black-background product photo found."
+  ],
+  "carousel_sha256": "8a1126d577061a910279b4e14bc1e70220fce12e4d29f8a69050fc3f37f742da",
+  "completed_at": "2026-11-21T11:18:25.000Z"
+}

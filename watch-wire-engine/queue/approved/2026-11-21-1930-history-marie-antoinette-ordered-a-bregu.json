@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-21-1930-history-marie-antoinette-ordered-a-bregu",
+  "status": "approved",
+  "found_at": "2026-11-21T07:23:31.497Z",
+  "lane": "history",
+  "format": "HISTORY",
+  "post_at": "2026-11-22T00:30:00.000Z",
+  "slot": 11,
+  "title": "HISTORY: Marie Antoinette ordered a Breguet in 1783. It was finished in 1827.",
+  "hook": "Marie Antoinette Ordered A Breguet. It Took 44 Years To Finish.",
+  "why": "The story of one famous watch (Breguet No. 160) with a tension hook. A date plus a fact alone flops, so the hook carries the 44-year gap. It does not repeat the Genta post.",
+  "sources_to_check": [
+    "Breguet's own history pages and the Breguet No. 160 record",
+    "Sotheby's Geneva auction record (2007) for the sale price, and whether it includes fees",
+    "Mark any unconfirmed detail as 'reportedly'; quote the 1783 and 1827 dates only from the Breguet record"
+  ],
+  "sources": [
+    {
+      "title": "Breguet's own history pages and the Breguet No. 160 record",
+      "link": "",
+      "source": "Breguet's own history pages and the Breguet No. 160 record",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Sotheby's Geneva auction record (2007) for the sale price, and whether it includes fees",
+      "link": "",
+      "source": "Sotheby's Geneva auction record (2007) for the sale price, and whether it includes fees",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Mark any unconfirmed detail as 'reportedly'; quote the 1783 and 1827 dates only from the Breguet record",
+      "link": "",
+      "source": "Mark any unconfirmed detail as 'reportedly'; quote the 1783 and 1827 dates only from the Breguet record",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "The check passes, but the cover is not publishable. The headline overlaps a heavily processed watch photo, and it states the queen link without the 'reportedly' hedge the lessons require. The engine also stopped this draft itself, because the template overlay is still unfixed. / Gate 6: Slide 1 has the headline sitting on top of the pocket-watch photo. The photo is harsh and posterised, not a clean watch on black. The draft status is still 'stopped' because of the unresolved template overlay. / Gate 8 and the history lesson: The slide 1 preview shows no 'reportedly' line. The cover headline 'T",
+    "Cover is not publishable: the headline sits over the watch face, and the photo is darkened with a light-background product shot rather than a clean watch on plain black. Only one photo is used (cover). Needs a clean black-background Breguet 1160 shot or a template fix before publishing. Checks passe"
+  ],
+  "scheduled_for": "2026-11-22T00:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-21-1930-history-marie-antoinette-ordered-a-bregu",
+  "project_dir": "Content Creation/projects/2026-11-21-1930-history-marie-antoinette-ordered-a-bregu",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-21-1930-history-marie-antoinette-ordered-a-bregu/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 3,
+      "clarity": 5,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The check passes and the facts match Breguet's own pages (I fetched the order page; the 1827 date comes from Breguet's magazine page, which I did not re-fetch). The queen link is hedged as oral tradition, and the three layout flaws from the last round are fixed. The post is text-only with no watch photo, which holds the visual score at 3, but no clean black-background photo of the original watch was found."
+  }
+}

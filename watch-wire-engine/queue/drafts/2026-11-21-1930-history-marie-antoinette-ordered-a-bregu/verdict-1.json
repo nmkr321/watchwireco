@@ -1,0 +1,21 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Layout: slide 8 splits 're-creation' across two lines at the hyphen, which a previous lesson says to avoid."
+  ],
+  "fixes": [
+    "slide 8: shorten the body so 're-creation' doesn't break across lines, e.g. 'Ordered around 1783, finished 1827. Re-created in 2008.' Check it wraps cleanly.",
+    "slide 3: shorten the body so 'tradition.' isn't left alone on the last line, e.g. 'No client is named. The queen link is oral tradition.'",
+    "slide 7: shorten the body so '2007.' isn't left alone on the last line, e.g. 'Taken from a Jerusalem museum, April 1983. Found 2007.'"
+  ],
+  "reason": "The facts are all verified against Breguet's own pages, the hedging is consistent and the validator passes. Slide 8 has a hyphen line-break flaw, and slides 3 and 7 end on single-word lines, so please fix those. I didn't re-fetch the Breguet source myself, and the cover is text-only with no watch photo.",
+  "post_timing_note": "Not breaking news."
+}

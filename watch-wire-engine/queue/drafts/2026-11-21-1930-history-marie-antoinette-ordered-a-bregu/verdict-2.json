@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 5,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes and the facts match Breguet's own pages (I fetched the order page; the 1827 date comes from Breguet's magazine page, which I did not re-fetch). The queen link is hedged as oral tradition, and the three layout flaws from the last round are fixed. The post is text-only with no watch photo, which holds the visual score at 3, but no clean black-background photo of the original watch was found."
+}

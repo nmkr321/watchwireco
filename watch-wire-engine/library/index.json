@@ -2575,5 +2575,43 @@
   "caption_credit": "Photo: User:Eternalsleeper / Public domain via Wikimedia Commons",
   "usage": "File:Rolex Oyster Perpetual Date Submariner Watch.JPG (Public domain), credited",
   "fetched": "2026-11-21"
+ },
+ {
+  "kind": "watch",
+  "brand": "Breguet",
+  "ref": "160",
+  "title": "Breguet 160",
+  "source": "https://www.breguet.com/en/magazine-quai-de-l-horloge/edition-no-10/marie-antoinette-watch-no-160",
+  "image_url": "https://www.breguet.com/sites/default/files/2025-07/BREGUET-No160_FACE_MONTRE-MARIE-ANTOINETTE.png?im=Resize%2Cwidth%3D800",
+  "file": "watch-wire-engine/library/img/breguet-160.png",
+  "w": 800,
+  "h": 1047,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": null,
+  "rights": "official",
+  "creator": "Breguet",
+  "credit": "Image: Breguet",
+  "usage": "Breguet 160 official product image, credited",
+  "fetched": "2026-11-21"
+ },
+ {
+  "kind": "watch",
+  "brand": "Breguet",
+  "ref": "1160",
+  "title": "Breguet 1160",
+  "source": "https://www.breguet.com/en/breguet-house/1999-present/presentation-marie-antoinette-watch-re-edition-version",
+  "image_url": "https://www.breguet.com/sites/default/files/2024-03/breguet-1160_1.png",
+  "file": "watch-wire-engine/library/img/breguet-1160.png",
+  "w": 772,
+  "h": 989,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": null,
+  "rights": "official",
+  "creator": "Breguet",
+  "credit": "Image: Breguet",
+  "usage": "Breguet 1160 official product image, credited",
+  "fetched": "2026-11-21"
  }
 ]

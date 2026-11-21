@@ -252,3 +252,18 @@
 2026-11-21T11:09:41.632Z	learn 2026-11-21-1815-build-your-collection-build-your-travel--backup	claude-haiku-5-5	0.0021	2
 2026-11-21T11:10:11.066Z	editor 2026-11-21-1815-build-your-collection-build-your-travel--backup	claude-haiku-5-5	0.0176	9
 2026-11-21T11:10:17.132Z	learn 2026-11-21-1815-build-your-collection-build-your-travel--backup	claude-haiku-5-5	0.0021	2
+2026-11-21T11:12:00.329Z	editor 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu	claude-haiku-5-5	0.0572	21
+2026-11-21T11:12:22.153Z	approver 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu r1	claude-sonnet-5-5	0.0909	14
+2026-11-21T11:12:28.524Z	learn 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu	claude-haiku-5-5	0.0026	3
+2026-11-21T11:13:07.613Z	editor-revise 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu	claude-haiku-5-5	0.0077	9
+2026-11-21T11:13:18.748Z	approver 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu r2	claude-sonnet-5-5	0.0407	7
+2026-11-21T11:14:06.921Z	editor-revise 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu	claude-haiku-5-5	0.0090	12
+2026-11-21T11:14:20.697Z	approver 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu r3	claude-sonnet-5-5	0.0418	7
+2026-11-21T11:14:26.900Z	learn 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu	claude-haiku-5-5	0.0022	2
+2026-11-21T11:16:01.526Z	editor 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu	claude-haiku-5-5	0.0488	24
+2026-11-21T11:16:07.895Z	learn 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu	claude-haiku-5-5	0.0022	2
+2026-11-21T11:17:46.732Z	editor 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu	claude-haiku-5-5	0.0481	24
+2026-11-21T11:18:04.974Z	approver 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu r1	claude-sonnet-5-5	0.0746	11
+2026-11-21T11:18:12.059Z	learn 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu	claude-haiku-5-5	0.0022	2
+2026-11-21T11:18:34.026Z	editor-revise 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu	claude-haiku-5-5	0.0049	11
+2026-11-21T11:18:59.891Z	approver 2026-11-21-1930-history-marie-antoinette-ordered-a-bregu r2	claude-sonnet-5-5	0.1023	17
