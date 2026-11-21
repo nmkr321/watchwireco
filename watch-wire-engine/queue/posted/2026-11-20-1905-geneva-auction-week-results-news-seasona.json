@@ -1,6 +1,6 @@
 {
   "id": "2026-11-20-1905-geneva-auction-week-results-news-seasona",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-20T23:41:08.651Z",
   "lane": "news",
   "format": "NEWS",
@@ -62,5 +62,21 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes, and Phillips' release confirms the $112.3M total, 217 of 217 lots sold, 24 world records and the CHF 8,680,500 top lot. The fee basis is attributed to The Watchology, since Phillips' page doesn't state it. The earlier layout problems are fixed: the NEWS tag is off the dial, the deck is 5 slides ending on the CTA, and every slide with a photo carries the Phillips credit."
+  },
+  "posted_at": "2026-11-21T01:08:14.336Z",
+  "publish": {
+    "live": true,
+    "media_id": "18404055178167436",
+    "permalink": "https://www.instagram.com/p/Df_A6yrl4QN/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 531
+    }
   }
 }
