@@ -13,6 +13,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import { lint } from "./lint.js";
 
 const ENGINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ROOT = path.resolve(ENGINE, "..");
@@ -73,6 +74,9 @@ if (cmd === "start") {
   run(CC, ["caption-register", P], "caption-register");
   const v = run(CC, ["validate", P], "validate");
   run(CC, ["brief", P], "brief");
+  // free pre-checks (the approver's most common rejections): fix these before anyone reviews the post
+  const probs = lint(path.join(ROOT, P), opt("format"));
+  if (probs.length) { console.log(`FAILED at pre-check (fix these, then run finish again):\n${probs.map((p) => "- " + p).join("\n")}`); process.exit(1); }
   const line = v.split("\n").find((l) => /PASS|FAIL/.test(l)) || "PASS";
   console.log(`OK ${spec.slides.length} slides rendered and registered · ${line.trim()}\nnext: look at ${P}/output/slide-01.png (and any slide with a photo), then write draft.json`);
 } else {

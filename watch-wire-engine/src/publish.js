@@ -24,7 +24,7 @@ const WORKSPACE = path.resolve(ROOT, "..");
 // post_dir (saved in the queue at approval, so a later cloud run still has the slides) wins over project_dir
 const projectDir = (item) => path.resolve(WORKSPACE, item.post_dir || item.project_dir);
 
-function loadEnv() {
+export function loadEnv() {
   const f = path.join(ROOT, ".env");
   if (!fs.existsSync(f)) return;
   for (const line of fs.readFileSync(f, "utf8").split("\n")) {

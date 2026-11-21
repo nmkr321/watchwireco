@@ -16,6 +16,9 @@ import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { publishPost } from "./publish.js";
+import { lint } from "./lint.js";
+import { collectInsights, plannerHint } from "./insights.js";
+import { loadEnv } from "./publish.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const WORKSPACE = path.resolve(ROOT, "..");
@@ -182,12 +185,22 @@ export function make(file) {
       if (r.error || r.status !== 0) spawnSync("convert", [src, "-resize", "540x540", "-quality", "80", dst]);
     }
   };
+  // free pre-check before the paid approver: if the editor left known mistakes, it fixes them first (one cheap round)
+  let pre = lint(path.resolve(WORKSPACE, draft.project_dir), item.format);
+  if (pre.length) {
+    log(`pre-check: ${pre.length} problem(s), editor fixes them before review`);
+    claude(["--agent", "watch-wire-editor", "--effort", EFFORT.editor, "--max-budget-usd", EDITOR_BUDGET,
+      "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--disallowedTools", "Bash(git:*)", "--permission-mode", "acceptEdits", "--output-format", "json"],
+      `Fix the Watch Wire draft in ${draftDir} (project ${draft.project_dir}). The free pre-check found: ${JSON.stringify(pre)}. Fix exactly these, run node watch-wire-engine/src/steps.js finish on the project until it says PASS, then update draft.json.`,
+      `editor-precheck ${item.id}`);
+    pre = lint(path.resolve(WORKSPACE, draft.project_dir), item.format);
+  }
   let verdict;
   for (let round = 1; round <= 3; round++) {
     makePreviews();
     verdict = parseResult(claude(["--model", APPROVER_MODEL, "--agent", "watch-wire-approver", "--effort", EFFORT.approver, "--max-budget-usd", APPROVER_BUDGET,
       "--allowedTools", "Read Glob Grep Bash WebFetch", "--disallowedTools", "Bash(git:*)", "--output-format", "json", "--json-schema", schema],
-      `Review this Watch Wire draft and decide. Draft folder: ${draftDir}` + formatBrief(item.format), `approver ${item.id} r${round}`));
+      `Review this Watch Wire draft and decide. Draft folder: ${draftDir}` + formatBrief(item.format) + (pre.length ? `\nThe free pre-check still flags (check these; some may be false alarms): ${JSON.stringify(pre)}` : ""), `approver ${item.id} r${round}`));
     writeJson(path.join(draftDir, `verdict-${round}.json`), verdict);
     log(`approver r${round}: ${verdict.decision} (${verdict.reason})`);
     if (round === 1 && verdict.decision !== "approve") learn(item, [...(verdict.hard_gate_failures || []), ...(verdict.fixes || [])]);
@@ -254,7 +267,7 @@ ${slots.map((s, i) => `${i + 1}. ${s.time} ${s.format}${s.lane === "news" ? " (b
 Value test for every idea: why would someone save, share or comment? Make each one useful (a clear use or buyer, e.g. "watches for a suit", "first luxury watch under $5K"), timely or interactive. Lists need one use case and a tight price band (roughly within 2x). Seasonal angles for this month (optional: at most ONE of the day's ideas may use one, only if it genuinely fits; most days none): ${JSON.stringify((() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "config/seasons.json"), "utf8"))[String(day.getMonth() + 1)] || []; } catch { return []; } })())}
 Use each format's hook pattern. Pictures must match the subject (celebrity → the celebrity, game → gameplay, otherwise the watch). Photo formats: name every watch by brand, model and exact reference, with current US retail prices you can source; for CELEBRITY pick a watch a trusted outlet reported the person wearing. Every idea provable from primary or trusted sources; list the exact URLs or source names to check. No two ideas about the same watch.
 News headlines from the last day: ${JSON.stringify(recentHeadlines())}
-Do not repeat any of these recent posts: ${JSON.stringify(posted)}`;
+Do not repeat any of these recent posts: ${JSON.stringify(posted)}` + plannerHint();
   const out = parseResult(claude(["--output-format", "json", "--json-schema", schema, "--max-budget-usd", String(Math.max(0.3, slotDefs.length * 0.06)), "--effort", EFFORT.planner, "--allowedTools", "Read WebSearch WebFetch"], prompt, "planner"));
   const stamp = new Date().toISOString().slice(0, 10);
   for (const idea of out.ideas) {
@@ -467,7 +480,8 @@ try {
   if (cmd === "tick") await tick();
   else if (cmd === "make") makeWithRetries(path.resolve(arg));
   else if (cmd === "publish-due") await publishDue();
-  else if (cmd === "plan") plan();
+  else if (cmd === "plan") { loadEnv(); await collectInsights(log); plan(); }
+  else if (cmd === "insights") { loadEnv(); await collectInsights(log); }
   else if (cmd === "tidy") tidy();
   else if (cmd === "plan-now") {            // plan-now "19:05 NEWS,20:05 CELEBRITY": extra posts for today at these times
     const slotsArg = (process.argv[3] || process.env.WW_SLOTS || "").split(",").map((x) => x.trim()).filter(Boolean).map((x) => {

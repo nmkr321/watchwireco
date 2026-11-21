@@ -34,7 +34,7 @@ Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, 
    Write `<P>/research-work/evidence.json` and `analysis.json` (every number a claim with a source id), then
    `S research <P> --opened <url,url> --summary "<one line>" --decision "<one line on sources used>"`.
 3. Write `<P>/hook.json`, `<P>/carousel.json`, `<P>/slides.json`, `<P>/caption.json` (caption ends with the
-   source line and "Follow @watchwireco for daily watch news."), then `S finish <P>`. It renders, registers
+   source line and "Follow @watchwireco for daily watch news."), then `S finish <P>`. It renders, registers, runs free pre-checks
    and validates; fix what it prints and run it again until it says PASS.
 4. Look at `<P>/output/slide-01.png` and each photo slide once. Then write `draft.json` in the draft folder:
    `{"status":"ready"|"stopped","project_dir":"<P>","format":"...","lane":"...","headline":"...","slides":["output/slide-01.png"],"caption_file":"caption.json","stop_reason":""}`
