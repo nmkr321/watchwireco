@@ -10,8 +10,7 @@
     "output/slide-03.png",
     "output/slide-04.png",
     "output/slide-05.png",
-    "output/slide-06.png",
-    "output/slide-07.png"
+    "output/slide-06.png"
   ],
   "caption_file": "caption.json",
   "stop_reason": "Approver fixes applied: slide 2 now a full-width game image (A-photo, no inset, Rockstar credit on slide and caption); slide 4 credit shortened to 'Rockstar, via Esquire · Watch: Rolex'; slide 6 body cut to 13 words, 34-watch figure kept in caption. Re-rendered, registered, validated PASS. Daytona, Submariner and Pro Trek rest on Esquire comparisons."

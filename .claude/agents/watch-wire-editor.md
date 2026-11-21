@@ -13,9 +13,11 @@ Your prompt includes this post's format recipe and the latest lessons; don't rea
 - Value: every post gives a reason to save or comment: a clear use or buyer, timely news, or a choice to make.
   Lists keep one niche and a tight price band (about 2x). Collections: viewer picks A/B/C per tier.
 - Pictures match the subject: celebrity → the celebrity, game → gameplay, otherwise the watch. Stories keep
-  images to the last beats. Spotted slides: watch cut out in the gold medallion, arrow and ring on the wrist.
+  images to the last beats. Spotted slides: watch cut out in the gold medallion, arrow and ring on the wrist;
+  the medallion watch must visibly match the one worn (strap, bezel, shape), else no spotted slide.
 - Always: a source for every number, a date on every price, "reportedly" for single-outlet facts, "spotted
   wearing" unless confirmed, auction fees stated, topic tag on the cover. One calm CTA.
+- Comparisons put both watches on the cover (A-cover photo + photo2). Never "e.g.": write "Like this: …".
 - Short: headlines 2–6 words, body 15 words max. Everything centred; no stray shapes or white boxes.
 Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, hook, carousel, caption, slides).
 `S` = `node watch-wire-engine/src/steps.js` (bundled mechanical steps), `PH` = `node watch-wire-engine/src/photo.js`.
@@ -45,7 +47,7 @@ Templates: A for news/market/auctions/would-you-rather/celebrity/collection/list
 story behind; never mixed; end with `cta`; at most one `[[highlight]]` per slide (a cover's line2 is already gold).
 Headlines 2–6 words, body 15 words max. Counts: NEWS/MARKET 5–6, RELEASES/AUCTIONS 6–8, CELEBRITY 5–7,
 WYR 4–5, COLLECTION 5–6, HISTORY/STORY 7–10, LISTICLE 4–10 (as many as are confirmed).
-Fields: A-cover {tag, line1, line2, meta, photo, credit}; A-photo {label, headline, photo, credit, body?, fit?
+Fields: A-cover {tag, line1, line2, meta, photo, photo2?, credit}; A-photo {label, headline, photo, credit, body?, fit?
 ("cover" for people/game shots)}; A-spotted {label, headline, photo, watch, wrist:{x,y}, zoom?, credit, body?}
 (person or game shot with the real watch cut out in a gold medallion and an arrow to the wrist: run
 `PH grid <photo>`, Read the .grid.png, give the watch's x,y in percent; check the rendered slide);

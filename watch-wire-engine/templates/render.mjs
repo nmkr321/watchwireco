@@ -7,7 +7,7 @@
 // slides.json: { "source": "Source line for every slide", "slides": [ {...}, ... ] }
 // Each slide has "t" (template) plus fields. Text fields accept [[word]] = champagne highlight.
 //
-//   A-cover   tag, line1, line2, meta, photo?, credit?          news cover (photo fades to jet)
+//   A-cover   tag, line1, line2, meta, photo?, photo2? (two-watch cover for comparisons), credit?          news cover (photo fades to jet)
 //   A-number  tag, number, label, headline, body?                big stat
 //   A-table   label, headline, cols:[a,b,c], rows:[[a,b,c],..], hl?:rowIndex, note?, body?
 //   A-list    label, headline, items:[text,..], body?            boxed list
@@ -62,6 +62,7 @@ html,body{width:1080px;height:1350px;overflow:hidden;background:var(--jet);color
 .box{position:absolute;left:48px;right:48px;top:170px}.box.mid{top:50%;transform:translateY(-50%);max-height:1060px}
 .photo{position:absolute;inset:0 0 auto 0;height:920px;background:#141312 center 25%/cover no-repeat}.photo::before{content:"";position:absolute;inset:0 0 auto 0;height:240px;background:linear-gradient(rgba(11,11,12,.8),transparent)}
 .fade{position:absolute;left:0;right:0;top:560px;height:420px;background:linear-gradient(transparent,var(--jet))}
+.photo.pair{display:flex;align-items:center;gap:0;padding:150px 40px 170px;background:var(--jet)}.photo.pair .ph{flex:1;height:100%;background:center/contain no-repeat}.photo.pair .vs{flex:none;width:84px;height:84px;border:2px solid var(--ch);border-radius:50%;display:flex;align-items:center;justify-content:center;font:700 30px var(--n);color:var(--ch);text-transform:uppercase}
 .pcredit{top:100px;bottom:auto;font-size:18px;color:rgba(244,239,230,.85);text-shadow:0 1px 6px rgba(0,0,0,.9)}
 .cov{position:absolute;left:48px;right:48px;bottom:150px;text-align:center;z-index:2}.cov.mid{top:50%;bottom:auto;transform:translateY(-50%)}
 .cov h1{font:700 118px/1 var(--n);text-transform:uppercase;margin-top:28px;text-wrap:balance}
@@ -121,7 +122,8 @@ function render(s, i) {
   let credit = s.credit ? `<div class="credit">${esc(s.credit)}</div>` : "";
   switch (s.t) {
     case "A-cover": if (s.photo && s.credit) credit = `<div class="credit pcredit">${esc(s.credit)}</div>`;
-      return `${s.photo ? `<div class="photo" style="background-image:url('${img(s.photo)}')"></div><div class="fade"></div>` : ""}${WM}
+      return `${s.photo2 ? `<div class="photo pair"><div class="ph" style="background-image:url('${img(s.photo)}')"></div><div class="vs">or</div><div class="ph" style="background-image:url('${img(s.photo2)}')"></div></div><div class="fade"></div>`
+        : s.photo ? `<div class="photo" style="background-image:url('${img(s.photo)}')"></div><div class="fade"></div>` : ""}${WM}
       <div class="cov${s.photo ? "" : " mid"}"><span class="tag">${esc(s.tag)}</span><h1>${hl(s.line1)}</h1>${s.line2 ? `<h2>${hl(s.line2)}</h2>` : ""}${s.meta ? `<div class="meta">${esc(s.meta)}</div>` : ""}</div>${credit}${foot(s.footLeft || "Swipe →")}`;
     case "A-number": return `${WM}<div class="q">${s.tag ? `<span class="tag">${esc(s.tag)}</span>` : ""}</div><div class="num">${hl(s.number)}</div>
       <div class="lbl" style="text-align:center;margin-top:14px">${esc(s.label)}</div><div class="box" style="top:720px;text-align:center"><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${foot()}`;

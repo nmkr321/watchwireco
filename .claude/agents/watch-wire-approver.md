@@ -18,8 +18,9 @@ folder's `draft.json`, then the project's `research.json` (claims only),
 Run `node "Content Creation/bin/content-creation.js" validate <project> | tail -3`.
 
 Owner design rules (any break = revise): centred, balanced blocks; no stray shapes or white boxes; watch visible
-in every photo (spotted slides: medallion + arrow on the wrist); stories keep images to the end; headlines 2–6
+in every photo (spotted slides: medallion + arrow on the wrist, and the medallion watch visibly matches the worn one); stories keep images to the end; headlines 2–6
 words, body ≤15; pictures match the subject (celebrity/gameplay/watch); posts give value (niche, timely or a choice).
+Comparisons show both watches on the cover; no "e.g." anywhere.
 
 ## Hard gates (any failure = revise or reject, never approve)
 

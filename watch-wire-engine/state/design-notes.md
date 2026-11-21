@@ -16,3 +16,6 @@ Add each new owner praise or critique here (dated, one line). Newest last.
 - 2026-11-20 Pre-picked lists with nothing to do, or random watches with a huge price spread: give choices and a clear niche.
 - 2026-11-20 Game posts without in-game gameplay; celebrity posts without the celebrity.
 - 2026-11-20 Too much text: headlines 2-6 words, body 15 words max.
+- 2026-11-20 Spotted slides: the watch in the medallion must clearly be the watch on that wrist. If the in-game/photo watch doesn't visibly match (strap, bezel, shape), drop the slide. (GTA Submariner slide removed.)
+- 2026-11-20 Comparisons (WYR, X vs Y): put BOTH watches on the cover, side by side with a gold "or" (A-cover photo + photo2). Liked.
+- 2026-11-20 No "e.g." on slides or captions; write "Like this: 1B · 2A · 3C". Collection format: owner likes it a lot.
