@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-21-1430-would-you-rather-cartier-tank-must-vs-ja",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.497Z",
+  "lane": "rotation",
+  "format": "WOULD YOU RATHER",
+  "post_at": "2026-11-21T19:30:00.000Z",
+  "slot": 7,
+  "title": "WOULD YOU RATHER: Cartier Tank Must vs Jaeger-LeCoultre Reverso (~$3K–$5K)",
+  "hook": "$3,950. Which One?",
+  "why": "Binary with a clear buyer question (dress watch, rectangular case). Prices must be within about 10% and dated the same day. Interactive: viewers vote in the comments.",
+  "sources_to_check": [
+    "Candidate refs to verify: Cartier Tank Must (ref. and steel/quartz or automatic version, check the current US retail), JLC Reverso Classic (check the current ref and US retail)",
+    "Both prices from the brand US sites on the same day, dated Nov 2026; if they are not within 10%, pick another pair",
+    "Use the SAME MONEY tag only if the two prices match"
+  ],
+  "sources": [
+    {
+      "title": "Candidate refs to verify: Cartier Tank Must (ref. and steel/quartz or automatic version, check the current US retail), JLC Reverso Classic (check the current ref and US retail)",
+      "link": "",
+      "source": "Candidate refs to verify: Cartier Tank Must (ref. and steel/quartz or automatic version, check the current US retail), JLC Reverso Classic (check the current ref and US retail)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Both prices from the brand US sites on the same day, dated Nov 2026; if they are not within 10%, pick another pair",
+      "link": "",
+      "source": "Both prices from the brand US sites on the same day, dated Nov 2026; if they are not within 10%, pick another pair",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Use the SAME MONEY tag only if the two prices match",
+      "link": "",
+      "source": "Use the SAME MONEY tag only if the two prices match",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Price gap too big for a SAME MONEY pair. Cartier Tank Must small steel strap is $3,750 (US list, from the May 21, 2026 increase, per Luxury Bazaar and Bucherer US). Jaeger-LeCoultre Reverso Classic new US prices found are about $6,200 to $6,850 (2026 buying guide, Bucherer US, Watchonista CHF list),",
+    "Option A photo (cartier-wsta0135.jpg) is a lifestyle shot of a model wearing a gold-bangled watch, not a clean product shot of the steel WSTA0135. No clean WSTA0135 product image was found (Watches of Switzerland and Wempe return the same cached file). Need a clean WSTA0135 product photo before this"
+  ]
+}

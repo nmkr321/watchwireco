@@ -1,6 +1,6 @@
 {
   "id": "2026-11-21-1430-would-you-rather-cartier-tank-must-vs-ja",
-  "status": "idea",
+  "status": "stopped",
   "found_at": "2026-11-21T07:23:31.497Z",
   "lane": "rotation",
   "format": "WOULD YOU RATHER",
@@ -33,5 +33,11 @@
       "source": "Use the SAME MONEY tag only if the two prices match",
       "tier": "to-verify"
     }
-  ]
+  ],
+  "previous_attempts": [
+    "Price gap too big for a SAME MONEY pair. Cartier Tank Must small steel strap is $3,750 (US list, from the May 21, 2026 increase, per Luxury Bazaar and Bucherer US). Jaeger-LeCoultre Reverso Classic new US prices found are about $6,200 to $6,850 (2026 buying guide, Bucherer US, Watchonista CHF list),",
+    "Option A photo (cartier-wsta0135.jpg) is a lifestyle shot of a model wearing a gold-bangled watch, not a clean product shot of the steel WSTA0135. No clean WSTA0135 product image was found (Watches of Switzerland and Wempe return the same cached file). Need a clean WSTA0135 product photo before this"
+  ],
+  "stop_reason": "Attempt 3 stopped before drafting. The JLC Reverso Classic pair is still about 60% above the Tank Must (roughly $6,200+ vs $3,750-$3,900 US), so SAME MONEY is not possible. A closer pair was checked: Baume & Mercier Clifton steel M0A10468 is $3,150 on Bucherer US (2026 page, undated day), about 19% under the large Tank Must strap at $3,900 (Luxury Bazaar, after the May 21, 2026 increase). That is outside the 10% band, and no same-day, same-source price pair was found. No clean, permitted product photo was found for either reference (library has no matches for WSTA0109 or Reverso). Next step: pick a pair with two same-day US list prices within 10% and clean permitted product shots, then rerun.",
+  "gave_up": true
 }

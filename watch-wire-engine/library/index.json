@@ -2413,5 +2413,53 @@
   "caption_credit": "Photo: OpaleHorse / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
   "usage": "File:Audemars Piguet Royal Oak ref. 15202.jpg (CC BY-SA 4.0), credited",
   "fetched": "2026-11-21"
+ },
+ {
+  "kind": "watch",
+  "brand": "Cartier",
+  "ref": "WSTA0136",
+  "title": "Cartier WSTA0136",
+  "source": "https://www.watchesofswitzerland.com/collections/mens-watches/products/cartier-tank-must-wsta0136-17311716",
+  "image_url": "http://www.watchesofswitzerland.com/cdn/shop/files/17311557_1.jpg?v=1743890184",
+  "file": "watch-wire-engine/library/img/cartier-wsta0136.jpg",
+  "w": 2400,
+  "h": 2400,
+  "ref_on_page": true,
+  "ref_in_image_name": false,
+  "price": {
+   "amount": 3900,
+   "currency": "USD",
+   "source": "https://www.watchesofswitzerland.com/collections/mens-watches/products/cartier-tank-must-wsta0136-17311716",
+   "date": "2026-11-21"
+  },
+  "rights": "official",
+  "creator": "Cartier",
+  "credit": "Image: Cartier",
+  "usage": "Cartier WSTA0136 official product image, credited",
+  "fetched": "2026-11-21"
+ },
+ {
+  "kind": "watch",
+  "brand": "Cartier",
+  "ref": "WSTA0135",
+  "title": "Cartier WSTA0135",
+  "source": "https://www.watchesofswitzerland.com/collections/watches/products/cartier-tank-must-wsta0135-17311717",
+  "image_url": "https://www.watchesofswitzerland.com/cdn/shop/files/17311574_8.jpg?v=1743888938",
+  "file": "watch-wire-engine/library/img/cartier-wsta0135.jpg",
+  "w": 1600,
+  "h": 1600,
+  "ref_on_page": true,
+  "ref_in_image_name": false,
+  "price": {
+   "amount": 3750,
+   "currency": "USD",
+   "source": "https://www.watchesofswitzerland.com/collections/watches/products/cartier-tank-must-wsta0135-17311717",
+   "date": "2026-11-21"
+  },
+  "rights": "official",
+  "creator": "Cartier",
+  "credit": "Image: Cartier",
+  "usage": "Cartier WSTA0135 official product image, credited",
+  "fetched": "2026-11-21"
  }
 ]
