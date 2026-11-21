@@ -1,7 +1,7 @@
 {
   "id": "2026-11-21-0700-new-releases-fallback-to-an-official-202-backup",
   "lane": "news",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-21T07:46:10.659Z",
   "post_at": "2026-11-21T12:00:00.000Z",
   "backup_for": "2026-11-21-0700-new-releases-fallback-to-an-official-202",
@@ -27,5 +27,23 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "This is a clean, centred, tightly priced gift shortlist ($4,100 to $5,700). Each price comes from the official brand or Watches of Switzerland (the engine's library and research.json), and each photo is a credited official product shot of the named reference. Validate passes, the caption matches the slides and credits the sources, and there is no repeat in the posted queue. I did not re-fetch the source pages."
+  },
+  "posted_at": "2026-11-21T12:12:53.900Z",
+  "publish": {
+    "live": true,
+    "media_id": "18505853554100538",
+    "permalink": "https://www.instagram.com/p/DgAM-PLCWya/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "caption_chars": 669
+    }
   }
 }
