@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-21-1815-build-your-collection-build-your-travel--backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-21T11:03:38.297Z",
+  "post_at": "2026-11-21T23:15:00.000Z",
+  "backup_for": "2026-11-21-1815-build-your-collection-build-your-travel-",
+  "format": "STORY BEHIND",
+  "title": "Backup STORY BEHIND for the slot of: BUILD YOUR COLLECTION: Build Your Travel Set, three GMT or travel picks under $5,000",
+  "hook": "",
+  "why": "Backup post. Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
+  "sources": [],
+  "previous_attempts": [
+    "This Speedmaster/NASA story is unfinished. Only 4 of its beats have photos, so slides 6–8 are text-only, and the cover credit sits next to the logo. Scrap it and pick a story that has enough sourced photos. / Draft status is 'stopped', not ready / Story body slides 6, 7 and 8 have no licensed, credited photo of the named model (only 4 beats have photos) / Fewer than 7 photo-backed, verified beats, so the story is too short / Slide 1 photo credit sits beside the WW logo instead of in the footer / Draft was never fully validated (the validate check wasn't run) / Pick a different story with at le",
+    "No slides drafted. Gates cannot be met: permissions.json lists only Rockstar Games, so no outlet photos are usable; the Cartier Tank story (1917 original, disputed Renault FT-17 inspiration) needs 7 beats each with a licensed, credited photo of the exact reference, and the library and Cartier press "
+  ]
+}

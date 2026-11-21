@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-21-1815-build-your-collection-build-your-travel-",
+  "status": "idea",
+  "found_at": "2026-11-21T07:23:31.497Z",
+  "lane": "rotation",
+  "format": "BUILD YOUR COLLECTION",
+  "post_at": "2026-11-21T23:15:00.000Z",
+  "slot": 10,
+  "title": "BUILD YOUR COLLECTION: Build Your Travel Set, three GMT or travel picks under $5,000",
+  "hook": "Build Your Travel Set. Three Picks Under $5,000.",
+  "why": "Use case: travel GMTs. Tiers are different types (GMT, field, dress or quartz), and the band is tight. It is a different use case from the suit set in slot 2.",
+  "sources_to_check": [
+    "Candidate refs to verify: Tudor Black Bay GMT (check the current ref and US retail), Seiko Prospex or Grand Seiko GMT, Oris Big Crown or Hamilton Khaki Field GMT (verify refs and prices)",
+    "US retail from each brand's US site, dated Nov 2026; check each tier cap",
+    "Photos only from photo.js with permissions.json credit lines"
+  ],
+  "sources": [
+    {
+      "title": "Candidate refs to verify: Tudor Black Bay GMT (check the current ref and US retail), Seiko Prospex or Grand Seiko GMT, Oris Big Crown or Hamilton Khaki Field GMT (verify refs and prices)",
+      "link": "",
+      "source": "Candidate refs to verify: Tudor Black Bay GMT (check the current ref and US retail), Seiko Prospex or Grand Seiko GMT, Oris Big Crown or Hamilton Khaki Field GMT (verify refs and prices)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "US retail from each brand's US site, dated Nov 2026; check each tier cap",
+      "link": "",
+      "source": "US retail from each brand's US site, dated Nov 2026; check each tier cap",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Photos only from photo.js with permissions.json credit lines",
+      "link": "",
+      "source": "Photos only from photo.js with permissions.json credit lines",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Not enough verified facts to build a 3-tier pick set. Research found only: Seiko SPB383 at US$1,500 (Seiko US site); Tudor Black Bay GMT M79830RB-0001 at $5,275 MSRP on Tudor's site (US market not confirmed); Oris Big Crown Pointer Date at $2,400 (not a GMT, so it does not fit the GMT tier). No Oris",
+    "Attempt 3 stopped before building. Verified so far: Seiko SPB383 at US$1,500 (Seiko US site, 2026 price not re-dated). Tudor Black Bay GMT 41mm is about $4,925 (fabric) to $5,275 (bracelet) per dealer listings as of Aug-Sep 2026, with sources disagreeing, so it does not clear a firm under-$5,000 cap"
+  ]
+}

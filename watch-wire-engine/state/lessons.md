@@ -1,17 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [STORY BEHIND] Pick the backup story from a different watch family than the primary, so one missing photo set cannot fail both.
-- [STORY BEHIND] Before drafting, check each beat's two-source status during research; drop single-source beats then, and confirm the rest still fill 7 slides.
-- [WOULD YOU RATHER] Pick two options whose current US retail prices are within about 25% of each other; check both before drafting.
-- [WOULD YOU RATHER] Price each option from a dated US source in the current news window; if its sources disagree by over 2x, choose another pair.
-- [WOULD YOU RATHER] Give each option its own exact-reference photo slide, with its rights 'official' entry confirmed in assets/manifest.json before drafting.
-- [WOULD YOU RATHER] Every option spec (movement, size, dial, price) needs its own verified claim_id; drop any wording that lacks one.
-- [WOULD YOU RATHER] Count every headline's words against the 6-word limit before finishing; shorten the wording until it fits, keeping the format tag.
-- [WOULD YOU RATHER] After any text change, check each slide's text block is vertically centred; re-render and rebalance the spacing rather than leaving empty space below.
-- [WOULD YOU RATHER] Keep every slide body to one or two even-length lines with no orphan words, checking wrap before rendering.
-- [WOULD YOU RATHER] Match headline-to-body spacing across paired option slides; keep option names to 2–3 lines so photo, name and price balance.
-- [WOULD YOU RATHER] Before finishing, check each rendered slide shows its planned headline and body text, not only the template data.
 - [WOULD YOU RATHER] CTA slides carry only this post's call-to-action line; leave out unrelated taglines or filler copy.
 - [STORY BEHIND] Headlines must use only the strength of their sourced claim; don't turn 'inspired by' into 'came from' or add origins the sources don't state.
 - [STORY BEHIND] Keep photo overlays light enough that the watch stays clearly visible; check each rendered photo slide before finishing and lighten any that hide the product.
@@ -21,3 +10,14 @@ The editor reads this before every post. Written automatically from rejections; 
 - [STORY BEHIND] Show only the exact reference named in the claim; never substitute a different reference or model photo, even within the same family.
 - [STORY BEHIND] Before choosing the story, confirm at least 7 two-source-verified beats exist; if fewer, pick a different story rather than drafting a short one.
 - [STORY BEHIND] Log each beat's source count and claim_id during research, so two-source status is checked before any slide is drafted.
+- [BUILD YOUR COLLECTION] For tiered pick lists, search each tier's required spec (e.g., GMT) first; choose only models that match it with a dated US price.
+- [BUILD YOUR COLLECTION] If a tier has no verified candidate after research, replace the whole format with one whose every slot has a confirmed source.
+- [BUILD YOUR COLLECTION] If a tier has a price cap, keep only candidates whose dated US price clears it by at least 10%.
+- [BUILD YOUR COLLECTION] Drop any candidate whose price sources disagree, in any format, before drafting; never keep it on one source.
+- [BUILD YOUR COLLECTION] Price claims need the brand's own listing or a dated primary source; dealer agreement alone is not verification.
+- [STORY BEHIND] Give every story body slide a licensed, credited photo of the named model; never leave body slides as text-only.
+- [STORY BEHIND] Put photo credits in the footer, away from the logo; captions must not imply a photo shows a specific historic watch unless sourced.
+- [STORY BEHIND] Before drafting, count beats that have a licensed, credited photo of the exact reference; if fewer than 7, pick another story.
+- [STORY BEHIND] Check each photo's entry in state/permissions.json before using it; a photo without a listed permission can't be placed on any slide.
+- [STORY BEHIND] Before choosing a photo-led format, check state/permissions.json covers the brand's images; if no outlet is listed, choose a format using owned brand-kit art.
+- [STORY BEHIND] When a story's origin is disputed by sources, drop the origin beats or state the dispute on-slide; never present the disputed origin as settled.
