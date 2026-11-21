@@ -9,5 +9,9 @@
   "title": "First watch under $500: Hamilton Khaki Field black NATO ($445) or navy bracelet ($495)?",
   "hook": "Your first real watch: strap or bracelet?",
   "why": "Retry for an empty slot. The earlier version passed facts and prices but failed only on layout (grey boxes, lopsided names), which the template now fixes. Keep model names short (like Black Dial, NATO). Library prices and Hamilton photos, 21 Nov 2026.",
-  "sources": []
+  "sources": [],
+  "previous_attempts": [
+    "Premise not verified: no 2026 source found for a $445 black NATO or a $495 navy bracelet Khaki Field. Retailers list the black-dial NATO H69399930 at $725 (Watches of Switzerland, Abt, 2026). Only a quartz steel-bracelet price of $445 (Gear Patrol, undated) was found. No library photos for Hamilton ",
+    "Premise still not verified. The black-dial NATO H69399930 is listed at $725 by retailers (Watches of Switzerland, Abt, 2026), not $445. No 2026 source found for a $495 navy bracelet Khaki Field. The only $445 figure is a quartz steel-bracelet price from Gear Patrol (undated), which does not match th"
+  ]
 }

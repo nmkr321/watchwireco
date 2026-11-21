@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-21-1700-would-you-rather-first-watch-hamilton-retry",
+  "lane": "evergreen",
+  "status": "stopped",
+  "found_at": "2026-11-21T11:25:05.894Z",
+  "post_at": "2026-11-21T22:00:00.000Z",
+  "backup_for": "2026-11-21-1700-would-you-rather-a-first-watch-under-1-0",
+  "format": "WOULD YOU RATHER",
+  "title": "First watch under $500: Hamilton Khaki Field black NATO ($445) or navy bracelet ($495)?",
+  "hook": "Your first real watch: strap or bracelet?",
+  "why": "Retry for an empty slot. The earlier version passed facts and prices but failed only on layout (grey boxes, lopsided names), which the template now fixes. Keep model names short (like Black Dial, NATO). Library prices and Hamilton photos, 21 Nov 2026.",
+  "sources": [],
+  "previous_attempts": [
+    "Premise not verified: no 2026 source found for a $445 black NATO or a $495 navy bracelet Khaki Field. Retailers list the black-dial NATO H69399930 at $725 (Watches of Switzerland, Abt, 2026). Only a quartz steel-bracelet price of $445 (Gear Patrol, undated) was found. No library photos for Hamilton ",
+    "Premise still not verified. The black-dial NATO H69399930 is listed at $725 by retailers (Watches of Switzerland, Abt, 2026), not $445. No 2026 source found for a $495 navy bracelet Khaki Field. The only $445 figure is a quartz steel-bracelet price from Gear Patrol (undated), which does not match th"
+  ],
+  "stop_reason": "Premise still not verified (attempt 3). Retailers and Hamilton list the black-dial NATO H69399930 at $725 (Watches of Switzerland, Abt, 2026; Hamilton US and Finland sites list $725 and EUR 675). No 2026 source found for a $495 navy bracelet Khaki Field. The only steel-bracelet figure is $445 for the quartz Khaki Field (Gear Patrol, undated), which is a different movement and is not a verified match. No clean, licensed Hamilton product photo found in the library (PH find returned no matches for H69399930 or Hamilton Khaki Field). Rejected sources: library (no match), Watches of Switzerland product pages (sign-up/unavailable state, no usable photo checked). Stopped rather than publish an unverified price pair. Suggest a brand-kit format or a different pairing for the backup slot.",
+  "gave_up": true
+}
