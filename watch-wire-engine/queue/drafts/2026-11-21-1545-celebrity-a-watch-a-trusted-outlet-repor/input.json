@@ -33,5 +33,9 @@
       "source": "US retail from the brand site, dated Nov 2026. If nothing is confirmed by the time the slot is made, swap to a different format",
       "tier": "to-verify"
     }
+  ],
+  "previous_attempts": [
+    "No confirmed celebrity watch sighting from a trusted outlet dated November 2026. The idea itself says not to guess. One standard search returned only older 2026 red-carpet roundups (Golden Globes, Met Gala, Emmys) and no November item. Swap to a different format or add a dated, sourced sighting to t",
+    "No dated celebrity watch sighting from a trusted outlet in the current news window (November 2026). One standard search (attempt 3) returned only older 2026 red-carpet roundups (Golden Globes, Oscars, Met Gala, Roland Garros, Wimbledon) and no November item. Per the CELEBRITY lesson, the slot should"
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-21-1545-celebrity-a-watch-a-trusted-outlet-repor-backup",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-21T10:36:06.877Z",
+  "post_at": "2026-11-21T20:45:00.000Z",
+  "backup_for": "2026-11-21-1545-celebrity-a-watch-a-trusted-outlet-repor",
+  "format": "STORY BEHIND",
+  "title": "Backup STORY BEHIND for the slot of: CELEBRITY: a watch a trusted outlet reported a celebrity wearing (to be picked)",
+  "hook": "",
+  "why": "Backup post. Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
+  "sources": [],
+  "previous_attempts": [
+    "The Tank story has only 6 slides against the 7–9 required, and most of them have no Tank photo. The check passes, but the post is too thin and doesn't show the watch, so it shouldn't go out. / Story Behind needs 7–9 slides and this draft has 6; the engine stopped it for that reason / Gate 7 and the visual rule: slides 2, 3 and 5 are text-only and the Tank has no exact-reference photos, so the pictures don't match the subject / Gate 10: the draft is thin, with no extra verified fact and several items softened to 'reportedly' / Do not retry the Tank story. Use a different reference that has enou",
+    "No backup story cleared the pre-draft check. Library index.json has at most 3 exact-reference photos per watch (Rolex 126610LN is the only one with 3; every other reference has 1-2), and the Submariner history references (6200, 6204, 6536, 6538, 5512) have no listed exact-reference photos at all. Th"
+  ],
+  "stop_reason": "Stopped. Only the NASA 1 March 1965 certification and the 11 trials are double-sourced (T3 and Swatch Group press). The Apollo and Gemini beats are single-outlet (T3), so they cannot be published as facts. Cutting them leaves too few verified beats for a 7-9 slide story, and the Speedmaster has only 2 exact-reference photos in the library. Needs a second independent source for the Apollo history, or a different story.",
+  "gave_up": true
+}
