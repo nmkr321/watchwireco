@@ -48,3 +48,21 @@
 2026-11-21T07:47:43.431Z	learn 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0021	2
 2026-11-21T07:49:04.865Z	editor 2026-11-21-0815-build-your-collection-build-your-suit-wa-backup	claude-haiku-5-5	0.0255	20
 2026-11-21T07:50:13.408Z	planner	claude-haiku-5-5	0.0424	7
+2026-11-21T07:52:12.309Z	editor 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0167	18
+2026-11-21T07:52:28.316Z	approver 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup r1	claude-sonnet-5-5	0.0777	10
+2026-11-21T07:52:34.888Z	learn 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0022	2
+2026-11-21T07:54:20.085Z	editor-revise 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0207	16
+2026-11-21T07:54:42.560Z	approver 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup r2	claude-sonnet-5-5	0.1045	11
+2026-11-21T07:55:57.208Z	editor-revise 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0157	17
+2026-11-21T07:56:22.472Z	approver 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup r3	claude-sonnet-5-5	0.1065	16
+2026-11-21T07:56:27.615Z	learn 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0021	2
+2026-11-21T07:58:01.691Z	editor 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0229	22
+2026-11-21T07:58:14.876Z	approver 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup r1	claude-sonnet-5-5	0.0643	9
+2026-11-21T07:58:19.404Z	learn 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0020	2
+2026-11-21T07:59:02.598Z	editor-revise 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0124	19
+2026-11-21T07:59:16.392Z	approver 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup r2	claude-sonnet-5-5	0.0657	6
+2026-11-21T08:00:20.963Z	editor-revise 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0149	15
+2026-11-21T08:00:41.377Z	approver 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup r3	claude-sonnet-5-5	0.0811	11
+2026-11-21T08:00:49.255Z	learn 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0024	2
+2026-11-21T08:02:02.195Z	editor 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0228	23
+2026-11-21T08:02:05.933Z	learn 2026-11-21-0700-new-releases-fallback-to-an-official-202-backup	claude-haiku-5-5	0.0018	2
