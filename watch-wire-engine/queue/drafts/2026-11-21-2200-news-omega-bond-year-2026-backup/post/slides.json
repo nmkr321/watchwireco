@@ -1,0 +1,22 @@
+{
+ "source": "Brand and retailer US listings, 20-21 Nov 2026",
+ "slides": [
+  {"t": "A-cover", "tag": "COLLECTION", "line1": "Build your 3-watch", "line2": "collection. $25K.", "meta": "Three tiers · Prices 20-21 Nov 2026", "photo": "watch-wire-engine/library/img/omega-210-30-42-20-01-001.png", "credit": "Image: Omega"},
+  {"t": "A-pick3", "label": "Pick 1 · up to $1,000", "headline": "Field watch", "options": [
+    {"brand": "Hamilton", "model": "Khaki Field Mechanical", "price": "$675", "photo": "watch-wire-engine/library/img/hamilton-h69439931.png"},
+    {"brand": "Hamilton", "model": "Khaki Field", "price": "$795", "photo": "watch-wire-engine/library/img/hamilton-h70455533.jpg"},
+    {"brand": "Hamilton", "model": "Khaki Field", "price": "$845", "photo": "watch-wire-engine/library/img/hamilton-h70455133.png"}
+  ], "credit": "Images: Hamilton"},
+  {"t": "A-pick3", "label": "Pick 2 · up to $6,000", "headline": "Dress watch", "options": [
+    {"brand": "Nomos", "model": "Tangente 38", "price": "$2,510", "photo": "watch-wire-engine/library/img/nomos-tangente-38-165.jpg"},
+    {"brand": "Longines", "model": "Master Collection", "price": "$2,550", "photo": "watch-wire-engine/library/img/longines-l2-793-4-78-3.png"},
+    {"brand": "Cartier", "model": "Tank Must", "price": "$5,700", "photo": "watch-wire-engine/library/img/cartier-wsta0141.jpg"}
+  ], "credit": "Images: Nomos, Longines, Cartier"},
+  {"t": "A-pick3", "label": "Pick 3 · up to $18,000", "headline": "Sports diver", "options": [
+    {"brand": "Omega", "model": "Seamaster Diver 300M", "price": "$6,700", "photo": "watch-wire-engine/library/img/omega-210-30-42-20-01-001.png"},
+    {"brand": "Rolex", "model": "Submariner", "price": "$10,050", "photo": "watch-wire-engine/library/img/rolex-124060.png"},
+    {"brand": "Rolex", "model": "Submariner Date", "price": "$11,350", "photo": "watch-wire-engine/library/img/rolex-126610ln.png"}
+  ], "credit": "Images: Omega, Rolex"},
+  {"t": "cta", "line1": "Comment your collection", "line2": "1B, 2A, 3C", "body": "Pick one from each tier. Tell us why."}
+ ]
+}

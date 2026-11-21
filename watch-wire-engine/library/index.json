@@ -2853,5 +2853,53 @@
   "credit": "Image: Jaeger-LeCoultre",
   "usage": "Jaeger-LeCoultre campaign/press image of Robert Pattinson, credited",
   "fetched": "2026-11-21"
+ },
+ {
+  "kind": "watch",
+  "brand": "Omega",
+  "ref": "210.30.42.20.01.023",
+  "title": "Omega 210.30.42.20.01.023",
+  "source": "https://www.watchesofswitzerland.com/en-int/products/omega-seamaster-o21030422001023-17332490",
+  "image_url": "https://www.watchesofswitzerland.com/cdn/shop/files/omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422001023-72e2b8.png?v=1791202322",
+  "file": "watch-wire-engine/library/img/omega-210-30-42-20-01-023.png",
+  "w": 700,
+  "h": 700,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 8600,
+   "currency": "USD",
+   "source": "https://www.watchesofswitzerland.com/en-int/products/omega-seamaster-o21030422001023-17332490",
+   "date": "2026-11-21"
+  },
+  "rights": "official",
+  "creator": "Omega",
+  "credit": "Image: Omega",
+  "usage": "Omega 210.30.42.20.01.023 official product image, credited",
+  "fetched": "2026-11-21"
+ },
+ {
+  "kind": "watch",
+  "brand": "Omega",
+  "ref": "210.32.44.51.01.002",
+  "title": "Omega 210.32.44.51.01.002",
+  "source": "https://www.watchesofswitzerland.com/en-int/products/omega-seamaster-o21032445101002-17332464",
+  "image_url": "https://www.watchesofswitzerland.com/cdn/shop/files/OMEGA_2026_SeamasterDiver300MChronograph007FirstLight_210.32.44.51.01.002_SE_Packshot_Front_RGB.jpg?v=1779381582",
+  "file": "watch-wire-engine/library/img/omega-210-32-44-51-01-002.jpg",
+  "w": 1787,
+  "h": 2680,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 9400,
+   "currency": "USD",
+   "source": "https://www.watchesofswitzerland.com/en-int/products/omega-seamaster-o21032445101002-17332464",
+   "date": "2026-11-21"
+  },
+  "rights": "official",
+  "creator": "Omega",
+  "credit": "Image: Omega",
+  "usage": "Omega 210.32.44.51.01.002 official product image, credited",
+  "fetched": "2026-11-21"
  }
 ]

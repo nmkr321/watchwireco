@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 5,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. All nine prices match verified claims from official brand pages or official retailers, and the photos are official brand images. The three tiers (field $1K, dress $6K, diver $18K) total $25K, with three options each and nothing pre-picked. The Omega Seamaster Diver 300M is the only watch shared with yesterday's collection post, and it's a different tier mix and different options. The post is timeless rather than breaking, so it goes in the next slot."
+}

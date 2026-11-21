@@ -10,7 +10,17 @@
   "hook": "Omega dropped three Bond watches this year. Then 007 changed.",
   "why": "Third Bond post: what you can actually buy. FACTS (Omega's own US site for prices): (1) Seamaster Diver 300M Chronograph 007 First Light, made for the 007 First Light video game (released 27 May 2026), first chronograph in Bond's Seamaster line, 44 mm steel, US$9,400 (Monochrome: https://monochrome-watches.com/omega-seamaster-diver-300m-chronograph-007-first-light-from-video-game-to-reality-review-price/ ; Fratello: https://www.fratellowatches.com/omega-introduces-the-seamaster-diver-300m-chronograph-007-first-light/). (2) Seamaster Diver 300M James Bond Edition 210.30.42.20.03.004, blue, US$8,600, and (3) Spectre Edition 210.30.42.20.01.023, black, US$8,600, both launched 5 Oct 2026 (Global James Bond Day), non-limited; plus limited sets of 77 at US$89,800 (Monochrome: https://monochrome-watches.com/omega-seamaster-diver-300m-james-bond-and-spectre-collection-2026-review-price/ ; Omega catalogue: https://www.omegawatches.com/en-us/watches/seamaster/diver-300-m/007-edition/catalog). Re-check each price on omegawatches.com before use (Fratello quotes $8,700 for the Oct pair). Context: Amazon MGM named Robert Pattinson the new Bond on 16 Nov 2026 (https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film); his film watch is not confirmed. End with a vote: 'Which one would you wear: First Light, Bond or Spectre?' then follow.",
   "sources": [
-    {"title": "Omega 007 Edition catalogue", "link": "https://www.omegawatches.com/en-us/watches/seamaster/diver-300-m/007-edition/catalog"},
-    {"title": "Monochrome: Omega Seamaster Diver 300M James Bond and Spectre Collection", "link": "https://monochrome-watches.com/omega-seamaster-diver-300m-james-bond-and-spectre-collection-2026-review-price/"}
+    {
+      "title": "Omega 007 Edition catalogue",
+      "link": "https://www.omegawatches.com/en-us/watches/seamaster/diver-300-m/007-edition/catalog"
+    },
+    {
+      "title": "Monochrome: Omega Seamaster Diver 300M James Bond and Spectre Collection",
+      "link": "https://monochrome-watches.com/omega-seamaster-diver-300m-james-bond-and-spectre-collection-2026-review-price/"
+    }
+  ],
+  "previous_attempts": [
+    "The prices and the Pattinson casting check out (Amazon MGM, 16 Nov), and the check passes. It needs another round: the cover shows only two of the three watches it compares, and slide 2's 'lineup' headline reads as a complete list of Omega's Bond watches. / Gate 6 and the comparison rule: the cover compares three watches but shows only two (First Light and Bond). The Spectre is missing. / NEWS lesson on complete lists: slide 2's headline \"Omega's 2026 Bond lineup\" reads as the full Bond range. Research only covers the Omega US 007 catalogue and two Monochrome reviews. The 77-piece sets are a f",
+    "Slide 2: the label 'James Bond and Spectre Editions · US' touches the descenders of the $8,600 price (overlap). Fixing needs template spacing, not text, so it is stopped for the approver. Slide 1 cover shows the First Light photo (credit: Image: Omega); the Bond and Spectre photos were not found wit"
   ]
 }

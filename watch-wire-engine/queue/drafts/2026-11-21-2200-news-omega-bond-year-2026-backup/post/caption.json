@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Build a 3-watch collection for $25,000: Hamilton, Nomos, Longines, Cartier, Omega and Rolex.\n\nThree tiers, three options each. Field up to $1,000, dress up to $6,000, sports diver up to $18,000. Prices are US list, 20-21 Nov 2026, from brand and retailer listings. Prices change, so check before you buy.\n\nWhich would you pick? Comment your collection: 1B, 2A, 3C.\n\n#WatchCollection #LuxuryWatches #Omega #Rolex #Hamilton\n\nSource: brand and retailer US listings, 20-21 Nov 2026. Photos: Hamilton, Omega, Rolex, Nomos, Longines, Cartier.\n\nFollow @watchwireco for daily watch news.",
+  "caption_credit": "Photos: Hamilton, Omega, Rolex, Nomos, Longines, Cartier (brand images)",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4",
+    "CLM-5",
+    "CLM-6",
+    "CLM-7",
+    "CLM-8",
+    "CLM-9"
+  ],
+  "source_ids": [
+    "SRC-HAM-H69",
+    "SRC-HAM-H70455533",
+    "SRC-HAM-H70455133",
+    "SRC-NOMOS",
+    "SRC-LONG",
+    "SRC-CART",
+    "SRC-OMEGA",
+    "SRC-BCC-124060",
+    "SRC-BCC-126610"
+  ],
+  "attribution": "Prices: brand and retailer US listings, 20-21 Nov 2026.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "carousel_sha256": "e0e741273ce7ed7ba2d1f63fcd2c4821174479a2b1130bca47ad6430f30f3b06",
+  "completed_at": "2026-11-21T19:52:49.824Z"
+}

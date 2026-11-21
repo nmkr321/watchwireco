@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-21-2200-news-omega-bond-year-2026-backup",
+  "lane": "news",
+  "status": "approved",
+  "found_at": "2026-11-21T19:50:44.659Z",
+  "post_at": "2026-11-22T03:00:00.000Z",
+  "backup_for": "2026-11-21-2200-news-omega-bond-year-2026",
+  "format": "BUILD YOUR COLLECTION",
+  "title": "Backup BUILD YOUR COLLECTION for the slot of: NEWS: Every 007 watch Omega released in 2026, just before a new Bond was named",
+  "hook": "",
+  "why": "Backup post. Tiered collection from watch-wire-engine/library, watches not used today.",
+  "sources": [],
+  "scheduled_for": "2026-11-22T03:00:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-21-2200-news-omega-bond-year-2026-backup",
+  "project_dir": "Content Creation/projects/2026-11-21-2200-news-omega-bond-year-2026-backup",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-21-2200-news-omega-bond-year-2026-backup/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 5,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The check passes. All nine prices match verified claims from official brand pages or official retailers, and the photos are official brand images. The three tiers (field $1K, dress $6K, diver $18K) total $25K, with three options each and nothing pre-picked. The Omega Seamaster Diver 300M is the only watch shared with yesterday's collection post, and it's a different tier mix and different options. The post is timeless rather than breaking, so it goes in the next slot."
+  }
+}
