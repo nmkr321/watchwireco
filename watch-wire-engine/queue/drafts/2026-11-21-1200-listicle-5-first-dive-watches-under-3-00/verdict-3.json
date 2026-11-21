@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. All six dive watches have official, dated US prices in a tight $925–$1,545 band. I re-fetched the Hamilton Scuba page, and its price, size and water resistance match the slides. Every slide has an official product photo with a credit, the layout is clean, and the post ends on a comment-prompt CTA, so it's worth saving or sharing."
+}

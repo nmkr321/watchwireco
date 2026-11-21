@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 2,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Draft status is 'stopped'. The last revision was never finished.",
+    "The slide renders are stale. The edits to slide 1 (line2 'From $925'), the Tissot slide and the caption claim_ids were never re-rendered, so the slides don't match the text.",
+    "There are only 6 slides, but the LISTICLE recipe needs 8–10.",
+    "Slide 1 says '4 first dive watches', but the draft title says 5. The count doesn't match."
+  ],
+  "fixes": [
+    "Whole post: add 2–4 more first-dive watches, each with a price read from a dated official US brand or retailer page, to reach 8 or more slides. If there aren't enough prices in one tight band, pick another topic.",
+    "Slide 1: make the cover count match the number of watches listed, and keep the headline to six words or fewer.",
+    "Tissot slide: confirm 43mm and Powermatic 80 stay removed, since no verified claim supports them.",
+    "Caption: every price and spec it states must appear on a slide and be listed in claim_ids. Name the exact site each price came from.",
+    "Run steps.js finish to re-render, then re-run the check and view every PNG for centring and orphan words."
+  ],
+  "reason": "The check passes, but the draft stopped partway through. The renders are stale and it has 6 slides instead of at least 8. The cover count also doesn't match the list, so it needs a full rerun before it can be reviewed."
+}

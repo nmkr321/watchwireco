@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Hamilton Khaki Navy Scuba H82425140 and 5 more first dive watches: US list prices from $925 to $1,545 (checked 21 Nov 2026).\n\nTissot Seastar 1000 at $925 (watchesofswitzerland.com, US). Hamilton Khaki Navy Scuba at $975 (hamiltonwatch.com/en-us). Seiko Prospex SPB143 at $1,200, SPB301 at $1,350 and SPB455 at $1,400 (seikowatches.com/us-en). Hamilton Khaki Navy Frogman H77855330 at $1,545 (hamiltonwatch.com/en-us).\n\nWhich one would you pick first?\n\nSource: hamiltonwatch.com/en-us, seikowatches.com/us-en and watchesofswitzerland.com (US pricing), checked 21 Nov 2026. Images: Hamilton, Seiko, Tissot (official).\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-TISSOT-PRICE",
+    "CLM-HAM-PRICE",
+    "CLM-SEIKO143-PRICE",
+    "CLM-SEIKO455-PRICE",
+    "CLM-SEIKO455-SPEC",
+    "CLM-HAM-SPEC",
+    "CLM-SEIKO143-SPEC",
+    "CLM-SEIKO301-PRICE",
+    "CLM-SEIKO301-SPEC",
+    "CLM-HAM-FROG-PRICE"
+  ],
+  "source_ids": [
+    "SRC-HAM",
+    "SRC-SEIKO-143",
+    "SRC-SEIKO-455",
+    "SRC-SEIKO-301",
+    "SRC-HAM-FROG",
+    "SRC-WOS-TISSOT"
+  ],
+  "attribution": "Prices: hamiltonwatch.com/en-us, seikowatches.com/us-en, watchesofswitzerland.com (US), checked 21 Nov 2026.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Prices can change after the check date."
+  ],
+  "carousel_sha256": "5a10392c5b215417104479b1f6bb56180496c2a8c096ec51bc3b2a1248aa5001",
+  "completed_at": "2026-11-21T10:18:22.232Z"
+}

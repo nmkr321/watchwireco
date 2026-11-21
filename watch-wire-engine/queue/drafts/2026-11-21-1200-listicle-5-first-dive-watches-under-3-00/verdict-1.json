@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Format: the listicle recipe calls for 8–10 slides and this one has 6, because only 4 items were verified. The lesson says to confirm enough verified prices to fill the slide count before choosing the topic.",
+    "Design rule: the cover headline runs 7 words ('4 first dive watches' plus '$925 to $1,400'). The limit is 6.",
+    "Caption claim_ids: the Tissot slide and caption state 'Powermatic 80' and '43mm'. No verified claim covers either one, and CLM-TISSOT-PRICE only supports the price."
+  ],
+  "fixes": [
+    "Whole post: verify 2–4 more first-dive-watch prices in the same band (about $900–$1,500) from dated official US pages, and add one slide per watch. This brings the post to 8+ slides. If that isn't possible, pick another topic.",
+    "slide 1: shorten the headline to 6 words or fewer, e.g. '4 first dive watches' with a 'From $925' second line, or drop the price range from the headline.",
+    "slide 4: add a verified Tissot spec claim for 43mm and Powermatic 80, with its claim_id in the caption. Otherwise remove 'Powermatic 80' and '43mm' from the slide and caption.",
+    "caption: add CLM-HAM-SPEC, CLM-SEIKO143-SPEC and any new Tissot spec claim to claim_ids for every spec the slides show."
+  ],
+  "reason": "The prices I checked and the Hamilton page are accurate, the photos are official and credited, and the validate check passes. It can't go out because it has 6 slides where the format needs 8–10, the cover headline is 7 words, and the Tissot specs have no verified claim behind them."
+}
