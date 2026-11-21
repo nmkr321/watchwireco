@@ -240,6 +240,13 @@ function recentHeadlines() {
   return out.slice(-15);
 }
 
+// ideas the approver rejected in the last 7 days, so the planner doesn't suggest them again
+function recentRejects() {
+  return fs.readdirSync(Q("rejected")).filter((x) => x.endsWith(".json")).map((f) => { try { return readJson(path.join(Q("rejected"), f)); } catch { return {}; } })
+    .filter((i) => i.lane !== "breaking" && !i.backup_for && Date.now() - Date.parse(i.found_at) < 7 * 864e5)
+    .map((i) => `${i.title}: ${String(i.verdict?.reason || i.stop_reason || "").slice(0, 90)}`).slice(-12);
+}
+
 // ---------- plan: create tomorrow's midday + evening ideas ----------
 function plan(opts = {}) {
   const posted = fs.readdirSync(Q("posted")).concat(fs.readdirSync(Q("approved"))).filter((f) => f.endsWith(".json"))
@@ -269,7 +276,8 @@ ${slots.map((s, i) => `${i + 1}. ${s.time} ${s.format}${s.lane === "news" ? " (b
 Value test for every idea: why would someone save, share or comment? Make each one useful (a clear use or buyer, e.g. "watches for a suit", "first luxury watch under $5K"), timely or interactive. Lists need one use case and a tight price band (roughly within 2x). Seasonal angles for this month (optional: at most ONE of the day's ideas may use one, only if it genuinely fits; most days none): ${JSON.stringify((() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "config/seasons.json"), "utf8"))[String(day.getMonth() + 1)] || []; } catch { return []; } })())}
 Use each format's hook pattern. Pictures must match the subject (celebrity → the celebrity, game → gameplay, otherwise the watch). Photo formats: name every watch by brand, model and exact reference, with current US retail prices you can source; for CELEBRITY pick a watch a trusted outlet reported the person wearing. Every idea provable from primary or trusted sources; list the exact URLs or source names to check. No two ideas about the same watch.
 News headlines from the last day: ${JSON.stringify(recentHeadlines())}
-Do not repeat any of these recent posts: ${JSON.stringify(posted)}` + plannerHint();
+Do not repeat any of these recent posts: ${JSON.stringify(posted)}
+Do not plan these again; they were rejected in the last week (title: reason): ${JSON.stringify(recentRejects())}` + plannerHint();
   const out = parseResult(claude(["--output-format", "json", "--json-schema", schema, "--max-budget-usd", String(Math.max(0.3, slotDefs.length * 0.06)), "--effort", EFFORT.planner, "--allowedTools", "Read WebSearch WebFetch"], prompt, "planner"));
   const stamp = new Date().toISOString().slice(0, 10);
   for (const idea of out.ideas) {

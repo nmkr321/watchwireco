@@ -6,32 +6,9 @@
   "format": "CELEBRITY",
   "post_at": "2026-11-21T14:30:00.000Z",
   "slot": 3,
-  "title": "CELEBRITY: Tyson Fury bet his Rolex on a sparring round",
-  "hook": "Tyson Fury Put His Rolex On The Line Against Anthony Joshua.",
-  "why": "Current and shareable: the headline is recent and the story is a bet. The watch must be the one trusted outlets reported him wearing, not a guess.",
-  "sources_to_check": [
-    "The original report of the sparring bet (the headline source, found by searching 'Fury Joshua sparring Rolex bet')",
-    "Confirm the exact Rolex model and reference from the outlet's photo or the video; do not infer it",
-    "US retail from rolex.com, dated Nov 2026. If the model is not confirmed, skip this idea and use another celebrity"
-  ],
-  "sources": [
-    {
-      "title": "The original report of the sparring bet (the headline source, found by searching 'Fury Joshua sparring Rolex bet')",
-      "link": "",
-      "source": "The original report of the sparring bet (the headline source, found by searching 'Fury Joshua sparring Rolex bet')",
-      "tier": "to-verify"
-    },
-    {
-      "title": "Confirm the exact Rolex model and reference from the outlet's photo or the video; do not infer it",
-      "link": "",
-      "source": "Confirm the exact Rolex model and reference from the outlet's photo or the video; do not infer it",
-      "tier": "to-verify"
-    },
-    {
-      "title": "US retail from rolex.com, dated Nov 2026. If the model is not confirmed, skip this idea and use another celebrity",
-      "link": "",
-      "source": "US retail from rolex.com, dated Nov 2026. If the model is not confirmed, skip this idea and use another celebrity",
-      "tier": "to-verify"
-    }
-  ]
+  "title": "CELEBRITY: a watch a trusted outlet or the brand named on a celebrity this month (not Tyson Fury)",
+  "hook": "",
+  "why": "Pick a celebrity whose watch is named by the brand (ambassador campaign) or a trusted watch outlet, with an official photo of the watch for the medallion. Not Tyson Fury: rejected 20 Nov (old anecdote, watch not identifiable).",
+  "sources_to_check": [],
+  "sources": []
 }
