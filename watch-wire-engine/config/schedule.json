@@ -189,9 +189,9 @@
     "_note": "Owner 2026-11-20: 12 posts on Nov 21 (one-day push), then back to the 5-a-day trial."
   },
   "trial_reels": {
-    "enabled": true,
+    "enabled": false,
     "mode": "trial",
-    "_note": "mode trial = shown to non-followers first, not on the grid (Instagram refused this for the account on 2026-11-21, error 2207081); mode normal = a regular Reel on the grid. Every scheduled carousel is also posted as a trial Reel (shown to non-followers first, not on the grid). Music comes from assets/music/tracks.json (silent if none). Switched on by the owner 2026-11-21.",
+    "_note": "OFF (owner, 2026-11-21): no slideshow videos. Checked: Instagram's API rejects music on carousels (error 2207065), and top watch accounts post carousels without music and Reels only as real video with their own sound. Library music (below) works for real video Reels if we ever make them.",
     "music": [
       {
         "audio_id": "383836292195844",

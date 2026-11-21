@@ -44,6 +44,8 @@ or run `git revert <code>` and then `git push`.
 
 **Reel music (21 Nov):** Reels now attach real Instagram library tracks through Meta's Audio API (Chopin Nocturne, Satie Gymnopédie, Moonlight Sonata, Swan Lake Waltz, Chopin Waltz), listed in `config/schedule.json` → trial_reels.music.
 
+**Reels turned OFF (owner, 21 Nov):** you don't want slideshow videos. Music on carousels is refused by Instagram's API (tested), and the top accounts post silent carousels plus real-video Reels. Library music stays ready for real video.
+
 **Music research (by hand, 21 Nov):** 13 of 13 Reels read from Hodinkee, Teddy Baldassarre and Swiss Watch Gang use "Original audio" (their own voice or event sound), not Instagram library songs.
 
 ## Needs you (2 minutes each)
