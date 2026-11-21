@@ -243,10 +243,13 @@ function recentHeadlines() {
 }
 
 // is there already a scheduled (non-breaking) post for this calendar day in any queue folder?
+// (a day counts as planned once 3+ planner ideas exist; one or two hand-added ideas don't stop the planner)
 function plannedFor(day) {
-  const key = day.toDateString();
-  return ["ideas", "approved", "posted", "rejected", "hold"].some((d) => fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json"))
-    .some((f) => { try { const o = readJson(path.join(Q(d), f)); return o.lane !== "breaking" && !/^UNRESOLVED/.test(o.title || "") && o.post_at && new Date(o.post_at).toDateString() === key; } catch { return false; } }));
+  const key = day.toDateString(); let n = 0;
+  for (const d of ["ideas", "approved", "posted", "rejected", "hold"]) for (const f of fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json"))) {
+    try { const o = readJson(path.join(Q(d), f)); if (o.lane !== "breaking" && !o.backup_for && !o.manual && !/^UNRESOLVED/.test(o.title || "") && o.post_at && new Date(o.post_at).toDateString() === key) n++; } catch {}
+  }
+  return n >= 3;
 }
 
 // ideas the approver rejected in the last 7 days, so the planner doesn't suggest them again
