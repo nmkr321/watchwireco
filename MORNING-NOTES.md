@@ -48,6 +48,12 @@ or run `git revert <code>` and then `git push`.
 
 **Music research (by hand, 21 Nov):** 13 of 13 Reels read from Hodinkee, Teddy Baldassarre and Swiss Watch Gang use "Original audio" (their own voice or event sound), not Instagram library songs.
 
+
+## ⚠️ 21 Nov evening: Instagram restricted the account from advertising
+Instagram said the account was "created or used with an automation that doesn't follow our rules". Most likely cause: earlier that day I (Claude) used the browser on your logged-in Instagram to open about 25 Reels and profile pages by script, to check which music other accounts use. That looks like bot browsing. Other possible factors: many test calls to the API that day, the Meta app holding ads permissions we don't use, and 12 posts in one day on a new account.
+Fixed: browser closed; I won't script Instagram pages again (research now only through the official API). Posting itself uses Meta's official API and is allowed.
+**You:** request a review (steps in chat / below).
+
 ## Needs you (2 minutes each)
 1. ~~Insights permission~~ Done 21 Nov: new token reads reach, saves and shares, and the scout works.
 2. **Trial Reels: on or off?** To switch them on, set `"trial_reels": {"enabled": true}` in `config/schedule.json`, or just tell Claude "turn on trial reels". They post silently, because the API can't add Instagram music.
