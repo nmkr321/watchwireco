@@ -1747,5 +1747,24 @@
   "credit": "Image: Casio G-Shock",
   "usage": "Casio G-Shock GAC-2500-3A official product image, credited",
   "fetched": "2026-11-21"
+ },
+ {
+  "kind": "watch",
+  "brand": "Seiko",
+  "ref": "HAB009",
+  "title": "Seiko HAB009",
+  "source": "https://www.seikowatches.com/uk-en/products/astron/hab009j1",
+  "image_url": "https://www.seikowatches.com/uk-en/-/media/Images/GlobalEn/Seiko/Home/products/astron/HAB009/pc_kv.jpg",
+  "file": "watch-wire-engine/library/img/seiko-hab009.jpg",
+  "w": 1920,
+  "h": 1080,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": null,
+  "rights": "official",
+  "creator": "Seiko",
+  "credit": "Image: Seiko",
+  "usage": "Seiko HAB009 official product image, credited",
+  "fetched": "2026-11-21"
  }
 ]

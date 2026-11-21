@@ -2,7 +2,7 @@
   "id": "2026-11-21-0700-new-releases-fallback-to-an-official-202-backup",
   "lane": "news",
   "status": "idea",
-  "found_at": "2026-11-21T07:32:57.182Z",
+  "found_at": "2026-11-21T07:46:10.659Z",
   "post_at": "2026-11-21T12:00:00.000Z",
   "backup_for": "2026-11-21-0700-new-releases-fallback-to-an-official-202",
   "format": "LISTICLE",
@@ -11,7 +11,7 @@
   "why": "Backup post. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
   "sources": [],
   "previous_attempts": [
-    "steps.js finish fails validation on the research gate: it requires a completed browser research trace (research.browser, origin, governance ledgers) that automation mode did not produce. Slides, hook, carousel and caption are drafted in the project folder but not rendered or validated. I did not fab",
-    "Research gate fails: steps.js research requires browser.opened_urls to include the start URL (https://www.hodinkee.com) and a completed browser trace, and this automation run did not open those pages. The five prices come from engine library records dated 20-21 Nov 2026, not from pages fetched in th"
+    "Not enough verified current prices for a LISTICLE (need at least 4 items plus cover and CTA). Verified today (2026-11-21): Nomos Tangente 38 165 at USD 2,510 (nomos-glashuette.com) and Longines Master Collection L2.793.4.78.3 at USD 2,550 (longines.com). Hamilton H32515641 and H32755851 are past col",
+    "Not enough verified current prices for a LISTICLE: the guessed product-page URLs (Nomos Tangente 38 165, Longines L2.793.4.78.3, Hamilton Khaki Field, Tissot PRX, Oris Artelier, Nomos Tangente index) all returned HTTP 404, so no item has a fetched price today. Need at least four items with fetched p"
   ]
 }

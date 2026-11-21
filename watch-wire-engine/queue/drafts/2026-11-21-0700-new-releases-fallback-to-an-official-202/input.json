@@ -35,7 +35,7 @@
     }
   ],
   "previous_attempts": [
-    "The source labels are fixed, and the Timex 38mm GMT is a recent release with a clear buyer use. Slides 3 and 4 still look off-balance, though. Slide 4 is left-aligned with empty space, and slide 3 sits high. Centre both and resubmit. / Gate 6: slide 4 is still the left-aligned block with a large empty area. This was asked for in the last round and not fixed. / Gate 6: slide 3 is left-aligned and sits high, with an uneven gap above the table and below the note. / slide 4: centre the 'OUR TAKE' block (kicker, headline and body) horizontally and vertically on the slide. Shorten the body to 'One-w",
-    "Layout not centred: slide 3 (table) and slide 4 (Timing) render left-aligned and high on the page. Both are template layouts; text edits cannot centre them and CSS is off-limits. The release itself is sourced (The Gadgeteer, 22 Oct 2026) and in the window; no product photo was available (Casio pages"
+    "The GAC-2500 post relies on one outlet for its price and is about 30 days old, past the four-week limit. Its cover photo is also sourced from a third-party retailer, so it isn't ready to post. / Gate 3: the core fact (price and US arrival) comes from a single outlet, The Gadgeteer. Casio's official page returned 403. / Gate 9 / lesson: the release was reported on 22 Oct 2026, which is about 30 days ago, outside the four-week window. The draft states no reason to save or share it. / Gate 7: the manifest source_url for the cover is a third-party retailer, Teddy Baldassarre, not Casio or an offic",
+    "Release timing is unconfirmed: the only support for 'on sale November 2026' is one unopened retailer search snippet (reportedly). Seiko UK page gives price GBP 2,800 and 1,500 pieces (checked 21 Nov 2026) but no release date, and no US price is confirmed. Research record evidence.json and analysis.j"
   ]
 }

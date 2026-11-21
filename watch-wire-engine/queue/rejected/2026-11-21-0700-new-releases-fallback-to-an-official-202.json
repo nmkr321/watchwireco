@@ -1,6 +1,6 @@
 {
   "id": "2026-11-21-0700-new-releases-fallback-to-an-official-202",
-  "status": "idea",
+  "status": "stopped",
   "found_at": "2026-11-21T07:23:31.495Z",
   "lane": "news",
   "format": "NEW RELEASES",
@@ -33,5 +33,11 @@
       "source": "Confirm the US retail price on the brand's US site and date it (US retail, Nov 2026)",
       "tier": "to-verify"
     }
-  ]
+  ],
+  "previous_attempts": [
+    "The GAC-2500 post relies on one outlet for its price and is about 30 days old, past the four-week limit. Its cover photo is also sourced from a third-party retailer, so it isn't ready to post. / Gate 3: the core fact (price and US arrival) comes from a single outlet, The Gadgeteer. Casio's official page returned 403. / Gate 9 / lesson: the release was reported on 22 Oct 2026, which is about 30 days ago, outside the four-week window. The draft states no reason to save or share it. / Gate 7: the manifest source_url for the cover is a third-party retailer, Teddy Baldassarre, not Casio or an offic",
+    "Release timing is unconfirmed: the only support for 'on sale November 2026' is one unopened retailer search snippet (reportedly). Seiko UK page gives price GBP 2,800 and 1,500 pieces (checked 21 Nov 2026) but no release date, and no US price is confirmed. Research record evidence.json and analysis.j"
+  ],
+  "stop_reason": "No release qualifies on this attempt (attempt 3). WebSearch found only third-party roundups (The Gadgeteer, Oracle of Time, A Blog to Watch) with no official press release dated November 2026. The Grand Seiko news page (fetched 21 Nov 2026) shows no release dates or US prices. Seiko UK page (checked 21 Nov 2026) gives GBP 2,800 and 1,500 pieces but no release date. No release has an official page showing its release date, a second fetched source, and a confirmed permitted product photo. Nothing was rendered. Next step: find a brand newsroom post dated Nov 2026 (Omega, Rolex, Tudor, Casio) and check the permissions list for a product photo.",
+  "gave_up": true
 }

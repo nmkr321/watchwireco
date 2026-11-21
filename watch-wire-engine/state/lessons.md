@@ -1,23 +1,23 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [STORY BEHIND] Map a watch-bearing photo to slides 1, 3, 4 and 6 before drafting; reject any image where no watch or wrist is visible.
-- [STORY BEHIND] Leave no empty band on the cover: size headline and image together to fill the slide, then centre them as one block before rendering.
-- [STORY BEHIND] Brighten every photo until the watch dial reads clearly before rendering; use a brighter crop, never a dark overlay.
-- [STORY BEHIND] Check each slide's photo shows the exact model or event its text names; if the credit is for another subject, swap the image.
-- [NEW RELEASES] Write 'checked [date]' only for figures you fetched yourself; otherwise name the outlet and date, e.g. 'per Gear Patrol, Sept 2026'.
-- [NEW RELEASES] Pick only releases from the last four weeks; a fallback item needs a stated reason to save or share, or gets replaced.
-- [NEW RELEASES] Before rendering, centre each slide's text block horizontally and vertically, with equal gaps above and below the content.
-- [NEW RELEASES] Shorten slide body copy and notes to fit the allowed line count before rendering; never shrink type or let text touch margins.
-- [NEW RELEASES] Use only centred template layouts; never fix a left-aligned table or timing layout with text edits.
-- [NEW RELEASES] Before choosing a release, confirm a permitted product photo exists; if none, pick a release that has one.
-- [NEW RELEASES] Give the research record the same job and project IDs as the draft, and mark a URL as opened only after it fetched successfully.
-- [NEW RELEASES] If an official page is blocked or errors, record the block and rely on a named second source, with its date, for the price.
-- [LISTICLE] Before submitting, run the finish validator; for any gate, log only sources you actually fetched, and never fill trace fields just to pass.
-- [LISTICLE] Open the research start URL in the browser and complete its trace before drafting; the research gate fails if that page is not in opened URLs.
 - [LISTICLE] Library records are not a source for current prices; re-fetch each price's page in this run and log it as opened before using the figure.
 - [LISTICLE] Before starting, confirm this run has the tools and budget for every required gate; if not, choose a format or idea you can finish.
 - [LISTICLE] Estimate the remaining budget against research, render and validation before starting; pick a shorter format if it can't cover all three.
 - [BUILD YOUR COLLECTION] Before drafting a multi-tier list, count verified options per tier; if any tier falls short, drop that tier or reduce the tier count.
 - [BUILD YOUR COLLECTION] Fix the tier count from verified options after one search pass; if still short, cut tiers instead of retrying the same sources.
 - [BUILD YOUR COLLECTION] Count only options whose price was fetched this run toward tier minimums; dated library entries from earlier runs don't qualify.
+- [NEW RELEASES] Before rendering, add each cover image to assets/manifest.json with rights and exact credit; an empty manifest means the cover is not usable.
+- [NEW RELEASES] Label any price or date from a single outlet 'reportedly' in slides and caption; remove it only after a second source confirms.
+- [NEW RELEASES] Before drafting, name the release's niche, why it is timely now, and one save-or-share reason; if you can't, choose another release.
+- [NEW RELEASES] On covers, keep the watch clear of headline text and use an even gradient; move the text block to a clear zone before rendering.
+- [NEW RELEASES] Confirm each release date and price on a fetched page; search snippets don't count. Missing one? Find a second fetched source or omit it.
+- [NEW RELEASES] Choose a release only when its official page shows the release date; otherwise pick a release whose date is confirmed.
+- [NEW RELEASES] For release news, treat third-party roundups only as leads; fetch the brand's own press page before choosing or naming a release.
+- [NEW RELEASES] After one search pass finds no dated official release, switch to a brand newsroom that lists release dates instead of repeating searches.
+- [LISTICLE] Before drafting, fetch at least six candidate product pages; keep only those with fetched prices, and require four or more.
+- [LISTICLE] If fewer than four fetched prices remain, switch to a format whose items are all fetched; never pad with unverified items.
+- [LISTICLE] Take product-page URLs from the brand's collection or search page, never from guessed slugs; a 404 means find the real URL.
+- [LISTICLE] After a failed URL, make at most one replacement from a search or brand listing page; otherwise drop that item, don't retry slug variants.
+- [LISTICLE] Use a price only if you fetched its page this run, in any format; search snippets and single dealer quotes don't count as current prices.
+- [LISTICLE] Pick one retailer or brand category page that lists several items with prices, and fetch it first, so one fetch can yield multiple fetched prices.
