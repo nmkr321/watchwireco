@@ -1,6 +1,6 @@
 {
   "id": "2026-11-21-1930-history-marie-antoinette-ordered-a-bregu",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-21T07:23:31.497Z",
   "lane": "history",
   "format": "HISTORY",
@@ -55,5 +55,26 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes and the facts match Breguet's own pages (I fetched the order page; the 1827 date comes from Breguet's magazine page, which I did not re-fetch). The queen link is hedged as oral tradition, and the three layout flaws from the last round are fixed. The post is text-only with no watch photo, which holds the visual score at 3, but no clean black-background photo of the original watch was found."
+  },
+  "posted_at": "2026-11-22T01:15:58.719Z",
+  "publish": {
+    "live": true,
+    "media_id": "18112354298225146",
+    "permalink": "https://www.instagram.com/p/DgBmj-XCQ4I/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png",
+        "slide-08.png",
+        "slide-09.png"
+      ],
+      "caption_chars": 606
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
