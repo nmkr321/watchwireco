@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-22-2030-celebrity-ambassador-wrist-backup",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-22T18:15:46.790Z",
+  "post_at": "2026-11-23T01:30:00.000Z",
+  "backup_for": "2026-11-22-2030-celebrity-ambassador-wrist",
+  "format": "CELEBRITY",
+  "title": "Backup CELEBRITY for the slot of: CELEBRITY: a celebrity brand ambassador wearing their watch (official campaign photo)",
+  "hook": "",
+  "why": "Backup post. A DIFFERENT celebrity from the failed post (CELEBRITY: a celebrity brand ambassador wearing their watch (official campaign photo)). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.",
+  "sources": [],
+  "previous_attempts": [
+    "No carousel made. Candidate story: Shin Min-a named OMEGA global ambassador on 2026-07-23 (wearing an Aqua Terra 30mm in 18K Moonshine Gold, per press coverage). Could not read the OMEGA brand page in this run, so the exact reference is unconfirmed (the 220.50.30.20.08.001 match is only an inference",
+    "No candidate passed every check. Checked (1) Shin Min-a / OMEGA: brand page not readable, reference unconfirmed. (2) Nick Jonas / Fossil (extension announced 2026-11-12, reportedly via Fossil Group press release reproduced by mediainfoline): no watch model or reference named, and Fossil's own pages "
+  ],
+  "stop_reason": "No candidate passed every check. (1) Robert Pattinson / Jaeger-LeCoultre (ambassador named 2026-09-02): the brand's press page, read this run, names no watch model or reference and does not say he wears one; the Oscars watch is only press-reported, so no model can be named. (2) Brad Pitt / Vacheron Constantin Overseas Self-Winding Ultra-Thin (Roland Garros, June 2026): the brand's own pages returned 403 and press sources give conflicting references (2500V/220P-H028 vs 2500V/210P-H028), so the reference is unconfirmed. Earlier candidates (Shin Min-a / OMEGA, Nick Jonas / Fossil) also remain unconfirmed. No carousel built; research budget left at about $0.54. Next run needs a brand page that can be read, or a story whose brand page names the model.",
+  "gave_up": true
+}

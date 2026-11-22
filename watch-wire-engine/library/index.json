@@ -3695,23 +3695,6 @@
   "fetched": "2026-11-22"
  },
  {
-  "kind": "press",
-  "brand": "Breitling",
-  "title": "Austin Butler for Breitling",
-  "person": "Austin Butler",
-  "source": "https://www.breitling.com/gb-en/about/ambassadors/austin-butler",
-  "image_url": "https://www.breitling.com/cdn-cgi/image/format=auto,quality=90,width=860,height=968,fit=cover,gravity=0.5x0.5/api/image-proxy/images.ctfassets.net/11yu5j5b14kx/50JZf4sPo2INTrri3odpm3/2087cf0f09f207d67f46c116a22bee6e/Austin_butler_hero_mobile.png",
-  "file": "watch-wire-engine/library/img/press-breitling-austin-butler.png",
-  "w": 860,
-  "h": 968,
-  "ref_on_page": null,
-  "rights": "official",
-  "creator": "Breitling",
-  "credit": "Image: Breitling",
-  "usage": "Breitling campaign/press image of Austin Butler, credited",
-  "fetched": "2026-11-22"
- },
- {
   "kind": "watch",
   "brand": "Breitling",
   "ref": "AB3113281A1X1",
@@ -3733,6 +3716,41 @@
   "creator": "Breitling",
   "credit": "Image: Breitling",
   "usage": "Breitling AB3113281A1X1 official product image, credited",
+  "fetched": "2026-11-22"
+ },
+ {
+  "kind": "press",
+  "brand": "Breitling",
+  "title": "Austin Butler for Breitling",
+  "person": "Austin Butler",
+  "source": "https://www.breitling.com/gb-en/about/ambassadors/austin-butler",
+  "image_url": "https://www.breitling.com/cdn-cgi/image/format=auto,quality=90,width=860,height=968,fit=cover,gravity=0.5x0.5/api/image-proxy/images.ctfassets.net/11yu5j5b14kx/50JZf4sPo2INTrri3odpm3/2087cf0f09f207d67f46c116a22bee6e/Austin_butler_hero_mobile.png",
+  "file": "watch-wire-engine/library/img/press-breitling-austin-butler.png",
+  "w": 860,
+  "h": 968,
+  "ref_on_page": null,
+  "rights": "official",
+  "creator": "Breitling",
+  "credit": "Image: Breitling",
+  "usage": "Breitling campaign/press image of Austin Butler, credited",
+  "fetched": "2026-11-22"
+ },
+ {
+  "kind": "person",
+  "title": "Jake Gyllenhaal",
+  "who": "American actor (born 1980)",
+  "source": "https://commons.wikimedia.org/wiki/File:Jake_Gyllenhaal_2019_by_Glenn_Francis.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Jake_Gyllenhaal_2019_by_Glenn_Francis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "file": "watch-wire-engine/library/img/person-jake-gyllenhaal.jpg",
+  "w": 1802,
+  "h": 2703,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "Toglenn",
+  "license": "CC BY-SA 4.0",
+  "credit": "Photo: Toglenn / CC BY-SA 4.0",
+  "caption_credit": "Photo: Toglenn / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
+  "usage": "Portrait of Jake Gyllenhaal, CC BY-SA 4.0, credited",
   "fetched": "2026-11-22"
  }
 ]

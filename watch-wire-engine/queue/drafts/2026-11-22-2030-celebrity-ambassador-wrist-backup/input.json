@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-22-2030-celebrity-ambassador-wrist-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-22T18:15:46.790Z",
+  "post_at": "2026-11-23T01:30:00.000Z",
+  "backup_for": "2026-11-22-2030-celebrity-ambassador-wrist",
+  "format": "CELEBRITY",
+  "title": "Backup CELEBRITY for the slot of: CELEBRITY: a celebrity brand ambassador wearing their watch (official campaign photo)",
+  "hook": "",
+  "why": "Backup post. A DIFFERENT celebrity from the failed post (CELEBRITY: a celebrity brand ambassador wearing their watch (official campaign photo)). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.",
+  "sources": [],
+  "previous_attempts": [
+    "No carousel made. Candidate story: Shin Min-a named OMEGA global ambassador on 2026-07-23 (wearing an Aqua Terra 30mm in 18K Moonshine Gold, per press coverage). Could not read the OMEGA brand page in this run, so the exact reference is unconfirmed (the 220.50.30.20.08.001 match is only an inference",
+    "No candidate passed every check. Checked (1) Shin Min-a / OMEGA: brand page not readable, reference unconfirmed. (2) Nick Jonas / Fossil (extension announced 2026-11-12, reportedly via Fossil Group press release reproduced by mediainfoline): no watch model or reference named, and Fossil's own pages "
+  ]
+}
