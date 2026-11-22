@@ -1,6 +1,6 @@
 {
   "id": "2026-11-22-0830-market-no-candidate-yet-headline-fit-not",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-22T07:44:12.400Z",
   "lane": "news",
   "format": "MARKET",
@@ -48,5 +48,22 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes. Every figure (CHF 3,121m vs 3,059m, +8.5% at constant exchange rates, about CHF 200m currency hit) matches the Monochrome article, which I re-fetched and which is dated 21 July 2026. Layouts are centred, and the caption dates the figures and credits both outlets. The news is four months old, so it scores low on timeliness, but the post is clearly labelled and adds a useful point: reported growth was only 2.0%, against 8.5% at constant exchange rates."
+  },
+  "posted_at": "2026-11-22T13:42:56.969Z",
+  "publish": {
+    "live": true,
+    "media_id": "18117464294115678",
+    "permalink": "https://www.instagram.com/p/DgC8CrPFz8c/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 843
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
