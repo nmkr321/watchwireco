@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-22T19:05:33.550Z",
+  "post_at": "2026-11-23T01:30:00.000Z",
+  "backup_for": "2026-11-22-2030-celebrity-collection-kevin-oleary",
+  "backup_depth": 2,
+  "tried_formats": [
+    "LISTICLE",
+    "CELEBRITY COLLECTION"
+  ],
+  "format": "WOULD YOU RATHER",
+  "title": "Backup WOULD YOU RATHER for the slot of: Backup LISTICLE for the slot of: CELEBRITY COLLECTION: Inside Kevin O'Leary's watch collection",
+  "hook": "",
+  "why": "Backup post. Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
+  "sources": [],
+  "previous_attempts": [
+    "No same-money pair in the verified library. The only two watches priced near $11K are Rolex 126610LN at USD 11,350 (bcclark.com, 2026-11-20) and Omega 210.32.44.51.01.002 at USD 9,400 (2026-11-21), which are about 17% apart, outside the ~10% rule. Needs a second verified watch priced about USD 10,20"
+  ]
+}

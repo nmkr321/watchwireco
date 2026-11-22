@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-22-2030-celebrity-collection-kevin-oleary-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-22T18:39:15.070Z",
+  "post_at": "2026-11-23T01:30:00.000Z",
+  "backup_for": "2026-11-22-2030-celebrity-collection-kevin-oleary",
+  "backup_depth": 1,
+  "tried_formats": [
+    "CELEBRITY COLLECTION"
+  ],
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: CELEBRITY COLLECTION: Inside Kevin O'Leary's watch collection",
+  "hook": "",
+  "why": "Backup post. Start with `node watch-wire-engine/src/photo.js list --min X --max Y` to see unused verified watches. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "The post is a clean, well-priced six-watch dress-watch list with a PASS check. All prices are verified, library-sourced and dated. It isn't ready: two photos aren't recorded as rights-cleared in the manifest, slide 2 has no photo, and the CTA wording differs from the caption. / Gate 7: assets/manifest.json lists only 5 images (Tissot, 2 Oris, Longines, Seiko). The Hamilton (slide 5) and Timex (slide 6) photos have no manifest entry with an 'official' rights status. The engine library does hold an official Hamilton image, but the manifest doesn't record it. / Gate 5/9: the CTA slide ends 'EVERY",
+    "The Khaki Field slide is numbered 7 in a six-item list, the cover collage shows stray black boxes, and carousel.json and the caption still describe the old Tissot slide. These are quick fixes, so I'm sending it back for revision. / Gate 2: slide 7 is labelled '7 · Hamilton Khaki Field' but it is item 6 of the six, so the numbering on the slide doesn't match the caption. / Gate 2/9: carousel.json is out of date. Slide 7 still reads 'Tissot T932 at $1,800' and the cover still names the Jazzmaster and tag BUYING GUIDE, while the render shows the Khaki Field at $795 with tag BEST VALUE PICKS. The "
+  ]
+}

@@ -1,0 +1,56 @@
+{
+ "source": "Source: Watches of Switzerland, Exquisite Timepieces",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "SAME MONEY",
+   "line1": "Tudor Ranger or",
+   "line2": "[[Grand Seiko?]]",
+   "meta": "USD 3,675 vs USD 3,900 · 22 Nov 2026",
+   "photo": "watch-wire-engine/library/img/tudor-m79950-0003.jpg",
+   "photo2": "Content Creation/projects/2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup/assets/media/grand-seiko-sbgw231-clean.png",
+   "credit": "Images: Tudor; Grand Seiko"
+  },
+  {
+   "t": "A-wyr",
+   "tag": "WOULD YOU RATHER",
+   "left": {
+    "brand": "Tudor",
+    "model": "RANGER",
+    "price": "USD 3,675 · 22 Nov",
+    "photo": "watch-wire-engine/library/img/tudor-m79950-0003.jpg"
+   },
+   "right": {
+    "brand": "Grand Seiko",
+    "model": "SBGW231",
+    "price": "USD 3,900 · 22 Nov",
+    "photo": "Content Creation/projects/2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup/assets/media/grand-seiko-sbgw231-clean.png"
+   },
+   "credit": "Images: Tudor; Grand Seiko"
+  },
+  {
+   "t": "A-photo",
+   "label": "Option A · Tudor Ranger",
+   "headline": "Steel field watch",
+   "photo": "watch-wire-engine/library/img/tudor-m79950-0003.jpg",
+   "credit": "Image: Tudor",
+   "body": "Black dial, fabric strap, sport look. USD 3,675 on 22 Nov 2026.",
+   "source": "Source: Watches of Switzerland"
+  },
+  {
+   "t": "A-photo",
+   "label": "Option B · Grand Seiko",
+   "headline": "Steel dress watch",
+   "photo": "Content Creation/projects/2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup/assets/media/grand-seiko-sbgw231-clean.png",
+   "credit": "Image: Grand Seiko",
+   "body": "Cream dial, leather strap, dress look. USD 3,900 on 22 Nov 2026.",
+   "source": "Source: Exquisite Timepieces"
+  },
+  {
+   "t": "cta",
+   "line1": "Vote in the comments.",
+   "line2": "A or B?",
+   "body": "Which one would you buy at this price?"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "ready",
+  "project_dir": "Content Creation/projects/2026-11-22-2030-celebrity-collection-kevin-oleary-backup",
+  "format": "LISTICLE",
+  "lane": "rotation",
+  "headline": "Six first watches under $1,000",
+  "slides": [
+    "output/slide-01.png",
+    "output/slide-02.png",
+    "output/slide-03.png",
+    "output/slide-04.png",
+    "output/slide-05.png",
+    "output/slide-06.png",
+    "output/slide-07.png",
+    "output/slide-08.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": ""
+}

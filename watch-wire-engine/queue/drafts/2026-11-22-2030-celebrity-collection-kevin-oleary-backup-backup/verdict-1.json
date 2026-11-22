@@ -1,0 +1,22 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Layout: the Grand Seiko photo sits in a visible pure-black rectangle that reads as a stray box on slides 1, 2 and 4",
+    "Layout: slide 2 breaks the Tudor model name across two lines as 'RANGER M79950-' / '0003'"
+  ],
+  "fixes": [
+    "slide 1: use a Grand Seiko image with its background removed or blended to the page colour, so no box shows. Make both watches the same visual size and level.",
+    "slide 2: same background fix for the Grand Seiko. Shorten the Tudor label to 'RANGER' or 'TUDOR RANGER' so it stays on one line.",
+    "slide 4: remove the visible black box around the Grand Seiko photo.",
+    "Slides 3 and 4: the footer source line names both retailers. Name the matching retailer for each watch, or keep it identical on both."
+  ],
+  "reason": "The facts and prices check out (PASS, a 6% gap, two different brands, both pictured). But the Grand Seiko photo's black box shows against the dark page, and a model number wraps awkwardly, so it needs a layout fix before it goes out."
+}

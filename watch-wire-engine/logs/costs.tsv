@@ -531,3 +531,52 @@
 2026-11-22T18:17:34.256Z	learn 2026-11-22-2030-celebrity-ambassador-wrist-backup	claude-haiku-5-5	0.0020	2
 2026-11-22T18:18:16.846Z	editor 2026-11-22-2030-celebrity-ambassador-wrist-backup	claude-haiku-5-5	0.0599	11
 2026-11-22T18:18:22.877Z	learn 2026-11-22-2030-celebrity-ambassador-wrist-backup	claude-haiku-5-5	0.0021	2
+2026-11-22T18:28:18.527Z	editor 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0454	36
+2026-11-22T18:28:41.933Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary r1	claude-sonnet-5-5	0.1083	12
+2026-11-22T18:28:47.448Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0020	2
+2026-11-22T18:30:00.637Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0128	15
+2026-11-22T18:30:18.537Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary r2	claude-sonnet-5-5	0.0751	11
+2026-11-22T18:31:05.486Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0237	16
+2026-11-22T18:31:31.663Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary r3	claude-sonnet-5-5	0.1035	13
+2026-11-22T18:31:37.242Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0021	2
+2026-11-22T18:34:03.070Z	editor 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0518	41
+2026-11-22T18:34:20.503Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary r1	claude-sonnet-5-5	0.0777	11
+2026-11-22T18:34:26.186Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0020	2
+2026-11-22T18:35:27.436Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0114	15
+2026-11-22T18:35:43.946Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary r2	claude-sonnet-5-5	0.0733	11
+2026-11-22T18:36:24.163Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0210	11
+2026-11-22T18:36:41.940Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary r3	claude-sonnet-5-5	0.0743	12
+2026-11-22T18:36:47.706Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0021	2
+2026-11-22T18:39:11.149Z	editor 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0422	32
+2026-11-22T18:39:15.057Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary	claude-haiku-5-5	0.0018	2
+2026-11-22T18:41:00.610Z	editor 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0227	22
+2026-11-22T18:41:17.270Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup r1	claude-sonnet-5-5	0.0728	9
+2026-11-22T18:41:22.505Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0020	2
+2026-11-22T18:42:26.093Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0258	14
+2026-11-22T18:42:38.344Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup r2	claude-sonnet-5-5	0.0413	6
+2026-11-22T18:44:41.492Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0597	23
+2026-11-22T18:45:12.634Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup r3	claude-sonnet-5-5	0.1196	18
+2026-11-22T18:45:19.341Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0022	2
+2026-11-22T18:48:22.013Z	editor 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0410	37
+2026-11-22T18:48:42.636Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup r1	claude-sonnet-5-5	0.0889	11
+2026-11-22T18:48:48.230Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0021	2
+2026-11-22T18:51:13.666Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0552	31
+2026-11-22T18:51:31.978Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup r2	claude-sonnet-5-5	0.0798	12
+2026-11-22T18:58:34.354Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0469	50
+2026-11-22T18:58:51.306Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup r3	claude-sonnet-5-5	0.0560	8
+2026-11-22T18:58:56.748Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0021	2
+2026-11-22T19:01:37.899Z	editor 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0264	25
+2026-11-22T19:01:59.173Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup r1	claude-sonnet-5-5	0.1015	14
+2026-11-22T19:02:06.594Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0023	2
+2026-11-22T19:03:03.554Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0141	17
+2026-11-22T19:03:32.602Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup r2	claude-sonnet-5-5	0.1209	15
+2026-11-22T19:05:10.467Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0217	13
+2026-11-22T19:05:27.951Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup r3	claude-sonnet-5-5	0.0693	10
+2026-11-22T19:05:33.539Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary-backup	claude-haiku-5-5	0.0021	2
+2026-11-22T19:05:46.300Z	editor 2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup	claude-haiku-5-5	0.0040	6
+2026-11-22T19:05:51.468Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup	claude-haiku-5-5	0.0020	2
+2026-11-22T19:07:32.495Z	editor 2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup	claude-haiku-5-5	0.0308	36
+2026-11-22T19:07:50.640Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup r1	claude-sonnet-5-5	0.0812	12
+2026-11-22T19:07:58.225Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup	claude-haiku-5-5	0.0023	2
+2026-11-22T19:09:02.377Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup	claude-haiku-5-5	0.0145	20
+2026-11-22T19:09:16.469Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup r2	claude-sonnet-5-5	0.0835	11

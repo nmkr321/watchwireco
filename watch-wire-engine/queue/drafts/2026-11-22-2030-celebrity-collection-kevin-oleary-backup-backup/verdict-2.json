@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 5,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check says PASS. The Tudor Ranger at $3,675 and the Grand Seiko SBGW231 at $3,900 (a gap of about 6%) both match the dated library prices. The two watches are different brands and both are pictured and credited. The black-box and wrapped model-name problems from the first review are fixed, and each footer now names its own retailer. I did not fetch any pages, since the prices are confirmed in the library."
+}

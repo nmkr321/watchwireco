@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 7 / lesson: slide 4 (Seiko SPB121) photo is a 'LIVE IMAGES COMING SOON' placeholder, not the actual product.",
+    "Gate 2: claim IDs are out of sync. research.json CLM-1 is the Hamilton Khaki Quartz at $445, but carousel.json and caption.json use CLM-1 for the Casio. The Casio $145 (GAC-2500-3A) has no verified claim, and the research has the Hamilton Khaki Mechanical $795 (CLM-4), which isn't on any slide.",
+    "Owner rule: the list has two Seiko Prospex models (SPB121, SRPL13), and the post is only a loose 'under $1,000' list with no clear niche."
+  ],
+  "fixes": [
+    "slide 4: replace the SPB121 photo with a real product image, or swap in a different sub-$1,000 watch from another brand (for example a dressy, GMT or digital model) that has an official photo and price.",
+    "slide 5: keep only one Seiko in the list. Either drop SRPL13 or replace the SPB121 slot with a non-Seiko, so the six picks are six distinct watches.",
+    "research.json: add a verified claim for the Casio GAC-2500-3A at $145 (Teddy Baldassarre source). Remove or replace the unused Hamilton Mechanical claim. Renumber claims so the carousel.json and caption.json claim_ids match for each slide.",
+    "slide 8 / caption: the pick line should be shorter, like 'Our pick: Khaki Field Quartz.' (one line).",
+    "caption: update the numbered list and photo credits to match the final six slides, in slide order."
+  ],
+  "reason": "The check passes, but slide 4 shows a 'live images coming soon' placeholder instead of the watch, and the claim file doesn't match the slides (the Casio price has no claim). It also still has two Seiko Prospex models. Fix the photo, the claims and the duplicate, then resubmit."
+}

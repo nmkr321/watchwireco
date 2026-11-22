@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-22-2030-celebrity-collection-kevin-oleary",
+  "lane": "rotation",
+  "status": "stopped",
+  "manual": true,
+  "found_at": "2026-11-22T18:23:03.643Z",
+  "post_at": "2026-11-23T01:30:00.000Z",
+  "format": "CELEBRITY COLLECTION",
+  "title": "CELEBRITY COLLECTION: Inside Kevin O'Leary's watch collection",
+  "hook": "Mr. Wonderful's watches: which one would you take?",
+  "why": "Owner wants celebrity collection posts like @nauvetimepieces (Reynolds/Zuckerberg). Kevin O'Leary is known for his watches; one trusted outlet naming them is enough (credit it). Photos: cover = his free portrait Wikimedia \"KevinOLeary2023.jpg\" (CC BY-SA 4.0, PaleyFest 2023) via PH person or PH commons; a WRIST shot exists: Wikimedia \"Kevin O'Leary and Andrew Scheer - 2018 (46074811621).jpg\" (CC0, 6247px; his watch is visible on his left wrist, left side of the photo) — use it on an A-spotted slide with wrist set. Each watch slide: official brand photo + price or rarity. End with Your call: which one would you take?",
+  "sources": [],
+  "previous_attempts": [
+    "The post says the AP 15202 is discontinued, and the source doesn't say that. The CTA headline also leaves 'AP' alone on a line, and the slide 5 price columns are uneven. Fix those and it can go. / Gate 2/4: slide 3, slide 5 and the caption say the Royal Oak 15202 is 'Discontinued'. Wristenthusiast does not say that. It says only the Nautilus is discontinued. / Gate 6: slide 6 headline breaks badly, with 'AP' alone on the last line. Slide 5 has uneven columns: the right-hand price text runs to 4 lines and the left to 3. / Slide 2 body is over 15 words (soft limit). / slide 3: Delete 'Discontinu",
+    "The Kevin O'Leary collection post names the Royal Oak but doesn't show it on the cover, which breaks the owner's rule. Its prices are from January 2022, so it gives readers little timely value. The check passes, and the watch slides, source credit and wording are otherwise fine. / Owner rule: the post names two watches but the cover pictures only the Nautilus. The Royal Oak is not on the cover. / Prices are from January 2022, almost five years old. They are labelled with the date but are too stale to give a timely reason to save or share. / slide 1: show both watches on the cover, with the Nau"
+  ],
+  "stop_reason": "Stopped for owner review. Validation passes (finish PASS, 6 slides). Open issue: the Royal Oak 15202 slide (slide 3) uses a personal wrist snapshot from Wikimedia Commons (OpaleHorse), not an official studio product photo like the Nautilus slide, so the watch-slide photo style does not match (lesson: one photo source type for all watch slides). Also, the Royal Oak is described only as listed by Wristenthusiast (single outlet, reportedly), so it is not on a publishable ownership claim; the caption says reportedly. Research ledgers for the full browser trace were not produced in this unattended run. Prices are not used; the source article is dated 4 January 2022.",
+  "gave_up": true
+}

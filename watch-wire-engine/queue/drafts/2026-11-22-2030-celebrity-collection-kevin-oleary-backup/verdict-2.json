@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 2 sync: research.json CLM-2 is the Seiko SPB121 at $543, but slide 3 and the caption show SRPL15 at $575. The library confirms the $575 price, but the claim file and caption claim_ids are out of sync.",
+    "Owner rule: slides 3 and 4 are the same Seiko Prospex diver in two colourways (SRPL15 black, SRPL13 silver). Slides 2 and 5 are two Hamilton Khaki Fields (quartz and mechanical). That is near-duplicate versions of one watch, so the list lacks variety."
+  ],
+  "fixes": [
+    "slide 3: replace the Seiko SRPL15 with a genuinely different sub-$1,000 watch from another brand, such as a dressy, GMT or digital model. It needs a library image with an official price and the same layout. Keep the Seiko diver to one slide only (SRPL13 on slide 4, or drop it too).",
+    "slide 3/4 and slide 5: keep only one Khaki Field (either quartz or mechanical). Fill the freed slots with different styles, so the six picks are six distinct watches. Re-order by price, and keep the item count at 6 or more so the post stays 8 to 10 slides.",
+    "slide 7: shorten the headline 'Jazzmaster Viewmatic Auto' to 'Jazzmaster Viewmatic'. It almost reaches the side margins.",
+    "slide 8: shorten the body to 'Our pick: the Khaki Field Quartz, lowest price.' or remove it. It wraps to two lines.",
+    "research.json and caption.json: add a verified claim for every final slide price (the SRPL15 claim is missing). Re-sync claim_ids, caption order and photo credits to the final slides. Also fix the six 'asset has no local_path' warnings in manifest.json if the engine needs them."
+  ],
+  "reason": "The check passes, the prices come from official pages and the layouts are clean. But the list repeats near-identical watches (two Seiko divers, two Hamilton Khaki Fields) and the research claims don't match slide 3. Swap in distinct watches and re-sync the claims, and it should be approvable."
+}

@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 7: slide 3's photo is a faded 'LIVE IMAGES COMING SOON' placeholder, not a real image of the Seiko SPB121.",
+    "Layout: slide 7 is a square lifestyle photo in a visible box, so it doesn't match the other item slides' layout (lesson: same photo layout on every item slide).",
+    "Layout: slide 6 body wraps to 2 lines and the headline is a long reference number. Slide 8's CTA has body text that is not required."
+  ],
+  "fixes": [
+    "slide 3: replace the placeholder photo with a real, clean Seiko SPB121 product image that has a manifest entry with rights 'official'. If none exists, swap in another Seiko with a real photo and update the slide, the caption, carousel.json and the claims.",
+    "slide 7: use a cut-out product shot of the Jazzmaster Viewmatic H32515641 on black, with no boxed lifestyle crop. It must have the same layout as slides 2, 4 and 5.",
+    "slide 6: change the headline to 'Seastar Powermatic 80', or just 'Tissot Seastar', and move the ref into a body of 15 words or fewer, such as 'Ref T1204071104103 · $925, checked 21 Nov 2026.' so it fits on one line.",
+    "Re-sync carousel.json and caption.json with the final slide text and photo credits."
+  ],
+  "reason": "The check passes and the prices are verified. But the Seiko SPB121 slide shows a 'live images coming soon' placeholder, and the Jazzmaster slide uses a boxed lifestyle crop that breaks the layout of the other item slides, so it needs a fix before posting."
+}
