@@ -1,21 +1,21 @@
-# Is it learning? (week to 2026-11-21)
+# Is it learning? (week to 2026-11-22)
 
 ## Needs attention
-- Scout has no data: other accounts aren't being studied. Usual fix: token needs pages_read_engagement.
+- Nothing: every loop has fresh data.
 
 ## This week vs last week
-- Posts live: 8 (last week 0)
-- Reject rate: 87% (last week 0%)
-- AI cost: $9.53, $1.19 per live post (last week $0.00)
-- Followers: 2 (a week ago 2)
+- Posts live: 14 (last week 0)
+- Reject rate: 81% (last week 0%)
+- AI cost: $13.70, $0.98 per live post (last week $0.00)
+- Followers: 3 (a week ago 2)
 
 ## What it learned
-- New lessons from rejects: 20
-  - [WOULD YOU RATHER] Before naming any reference, confirm its exact model number against the manufacturer's current catalogue; similar references often differ in price, dial and bracelet.
-  - [WOULD YOU RATHER] After two failed price checks on a pairing, switch to a different pairing instead of making a third search.
-  - [WOULD YOU RATHER] Remove any premise claim whose figures are unverified before drafting slides, rather than leaving it for the approver to catch.
-  - [LISTICLE] Verify each watch's movement type on the manufacturer's page before calling it automatic or hand-wound; otherwise write 'mechanical' or omit the term.
-  - [LISTICLE] Source each price from the manufacturer or an official retailer, confirm that retailer's authorised status, or replace the pick with a verified one.
-- Your notes this week: 6 taste, 16 design
-- Other accounts: no scout data yet
-- Our best post: not enough results yet
+- New lessons from rejects: 12
+  - [any] When picks fall short or fail, search more brand pages for a dated, sourced replacement; never leave a post unstarted.
+  - [MARKET] Match each number to its named source, dropping unsupported figures; say "leads" or "largest" only when verified.
+  - [MARKET] Count the cover headline's words against the six-word maximum before rendering; shorten until it fits.
+  - [MARKET] Give each slide a new fact, never repeat an earlier figure; date any figure older than a few weeks.
+  - [MARKET] Keep table rows to one line by shortening labels and values; show bare numbers when the label names the measure.
+- Your notes this week: 7 taste, 16 design
+- Other accounts' best format now: CELEBRITY: 2.81 (23)
+- Our best post: Geneva Auction Week Results (NEWS, seasonal angle) [NEWS]: 3 likes, 0 comments, 0 saves, 0 shares, 3 reach
