@@ -377,7 +377,10 @@ function libraryCanFill(format) {
 function backup(item) {
   const rej = path.join(Q("rejected"), `${item.id}.json`);
   if (fs.existsSync(rej)) { const r = readJson(rej); r.gave_up = true; writeJson(rej, r); }
-  if (item.backup_for || item.lane === "breaking" || !item.post_at) { log(`gave up: ${item.title}`); return; }
+  // a failed slot gets up to two backups in different formats (owner: "keep trying, don't leave the slot empty"),
+  // unless the slot has already passed
+  const depth = item.backup_depth || (item.backup_for ? 1 : 0);
+  if (depth >= 2 || item.lane === "breaking" || !item.post_at || Date.now() - Date.parse(item.post_at) > 3600e3) { log(`gave up: ${item.title}`); return; }
   const id = `${item.id}-backup`;
   // pick a type different from every post within 4 hours of this slot (never the same type back to back)
   const t = Date.parse(item.post_at), near = new Set();
@@ -389,17 +392,19 @@ function backup(item) {
   // exact-reference photos, which the library rarely has). A same type nearby beats an empty slot.
   const lib = ["LISTICLE", "WOULD YOU RATHER", "BUILD YOUR COLLECTION"].filter((f) => libraryCanFill(f));
   // celebrity posts do best (owner): a failed celebrity slot gets another celebrity first
-  const format = item.format === "CELEBRITY" ? "CELEBRITY" : lib.find((f) => !near.has(f)) || lib[0] || "STORY BEHIND";
+  const tried = new Set([item.format, ...(item.tried_formats || [])]);
+  const format = item.format === "CELEBRITY" && depth === 0 ? "CELEBRITY"
+    : lib.find((f) => !near.has(f) && !tried.has(f)) || lib.find((f) => !tried.has(f)) || ["LISTICLE", "WOULD YOU RATHER", "STORY BEHIND"].find((f) => !tried.has(f)) || "STORY BEHIND";
   const how = {
     "CELEBRITY": `A DIFFERENT celebrity from the failed post (${item.title}). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.`,
     "STORY BEHIND": "Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
     "LISTICLE": "Start with `node watch-wire-engine/src/photo.js list --min X --max Y` to see unused verified watches. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
     "WOULD YOU RATHER": "Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
     "BUILD YOUR COLLECTION": "Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Tiered collection from watch-wire-engine/library, watches not used today." }[format];
-  writeJson(path.join(Q("ideas"), `${id}.json`), { id, lane: item.lane, status: "idea", found_at: new Date().toISOString(), post_at: item.post_at, backup_for: item.id,
+  writeJson(path.join(Q("ideas"), `${id}.json`), { id, lane: item.lane, status: "idea", found_at: new Date().toISOString(), post_at: item.post_at, backup_for: item.backup_for || item.id, backup_depth: depth + 1, tried_formats: [...tried],
     format, title: `Backup ${format} for the slot of: ${item.title}`, hook: "", why: `Backup post. ${how}`, sources: [] });
   log(`backup for ${item.post_at}: making it now (${item.title})`);
-  makeWithRetries(path.join(Q("ideas"), `${id}.json`));   // backup_for stops it from queueing another backup
+  makeWithRetries(path.join(Q("ideas"), `${id}.json`));   // backup_depth caps it at two backups per slot
 }
 
 function reviveRejected() {

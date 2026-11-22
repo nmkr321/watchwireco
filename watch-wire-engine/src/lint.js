@@ -60,6 +60,28 @@ export function lint(P, format = "") {
     if (slides[0]?.t === "A-cover" && !slides[0].photo2) out.push("comparison cover needs both watches (photo and photo2)");
   }
 
+  // owner rules 2026-11-22: plain words, two different watches in a vote, every watch named on the cover is pictured
+  const jargon = allText.match(/\b(H1|H2|Q[1-4]|YoY|CAGR|bps|constant (exchange rates|currency)|FY\d\d)\b/);
+  if (jargon) out.push(`"${jargon[0]}" is jargon readers won't know; write it plainly (like "first half of 2026", "up 8.5% on last year")`);
+  if (/WOULD YOU RATHER|SAME MONEY/.test(fmt)) {   // however the vote is laid out, the options must be two different brands
+    const fromFile = (f) => String(f || "").split("/").pop().split(/-\d|\d/)[0].replace(/-/g, " ").trim();
+    const opts = slides[0]?.photo && slides[0]?.photo2 ? [fromFile(slides[0].photo), fromFile(slides[0].photo2)]
+      : slides.filter((x) => /option/i.test(x.label || "")).map((x) => (x.credit || "").replace(/^Image:\s*/i, "").toLowerCase());
+    if (opts.length === 2 && opts[0] && opts[0] === opts[1]) out.push(`the vote's two options are both ${opts[0]}; pick two genuinely different watches (different brands)`);
+  }
+  for (const s of slides.filter((x) => x.t === "A-wyr")) {
+    const L = s.left || {}, R = s.right || {}, w = (m) => String(m || "").toLowerCase().split(/\s+/)[0];
+    if (L.brand && R.brand && L.brand.toLowerCase() === R.brand.toLowerCase() && w(L.model) === w(R.model)) out.push(`the vote compares two versions of the same watch (${L.brand} ${L.model} / ${R.model}); pick two genuinely different watches`);
+  }
+  const BR = { "jaeger-lecoultre": /jaeger|jlc/, "audemars piguet": /audemars|\bap\b/, "patek philippe": /patek/, "vacheron constantin": /vacheron/, "a. lange": /lange/,
+    omega: /omega/, rolex: /rolex/, cartier: /cartier/, tudor: /tudor/, breitling: /breitling/, "tag heuer": /tag heuer/, hublot: /hublot/, iwc: /\biwc\b/, "f.p. journe": /journe/,
+    "grand seiko": /grand seiko/, panerai: /panerai/, longines: /longines/, "richard mille": /richard mille/ };
+  const cover = slides[0] ? [slides[0].headline, slides[0].line1, slides[0].line2, slides[0].meta].join(" ").toLowerCase() : "";
+  // watch photos only: a press photo of a person doesn't count as showing the watch
+  const isWatch = (f) => f && !/\/(press|person)-|people|portrait/i.test(f);
+  const pics = slides.map((x) => [x.photo, x.photo2, x.watch, x.left?.photo, x.right?.photo, ...(x.options || []).map((o) => o.photo)].filter(isWatch).join(" ")).join(" ").toLowerCase().replace(/[-_]/g, " ");
+  for (const [name, re] of Object.entries(BR)) if (re.test(cover) && !re.test(pics) && !pics.includes(name.split(" ")[0])) out.push(`the cover names ${name} but no slide shows a ${name} photo; picture every watch you name`);
+
   // caption
   if (!/Follow @watchwireco for daily watch news\.\s*$/.test(caption)) out.push('caption must end with "Follow @watchwireco for daily watch news."');
   if (!/source/i.test(caption)) out.push("caption needs a source line");
