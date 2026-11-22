@@ -1,0 +1,41 @@
+{
+ "source": "Source: Yahoo Entertainment, Wristcheck, Audemars Piguet",
+ "slides": [
+  {
+   "t": "A-spotted",
+   "tag": "CELEBRITY",
+   "label": "CELEBRITY",
+   "headline": "Kelly Piquet wears Royal Oak Mini",
+   "photo": "watch-wire-engine/library/img/person-kelly-piquet.jpg",
+   "watch": "watch-wire-engine/library/img/audemars-piguet-67630bc-gg-1312bc-01.png",
+   "credit": "Photo: meshugas / CC BY 2.0",
+   "footLeft": "Source: Yahoo Entertainment · Nov 2026"
+  },
+  {
+   "t": "A-photo",
+   "label": "THE WATCH",
+   "headline": "Frosted white gold Royal Oak Mini",
+   "photo": "watch-wire-engine/library/img/audemars-piguet-67630bc-gg-1312bc-01.png",
+   "credit": "Image: Audemars Piguet",
+   "body": "23mm quartz. Audemars Piguet lists it in yellow, white and pink gold."
+  },
+  {
+   "t": "A-number",
+   "tag": "CELEBRITY",
+   "number": "$122,000",
+   "label": "Listed price · 22 Nov 2026 (USD)",
+   "headline": "Retail listing, not an auction",
+   "body": "Wristcheck listing. Yahoo reportedly values her watch at $138,400.",
+   "source": "Source: Wristcheck (22 Nov 2026), Yahoo Entertainment"
+  },
+  {
+   "t": "A-text",
+   "label": "YOUR CALL",
+   "headline": "Wear it or pass?",
+   "body": "Comment WEAR or PASS. Would a $122,000 quartz watch earn a place on your wrist?"
+  },
+  {
+   "t": "cta"
+  }
+ ]
+}

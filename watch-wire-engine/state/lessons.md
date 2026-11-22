@@ -1,10 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY COLLECTION] Show every watch the post names on the cover slide, as a rights-cleared photo or labelled medallion, not as text alone.
-- [CELEBRITY COLLECTION] Build every visual element the recipe or carousel.json specifies, such as a cover medallion, and check each one off before rendering.
-- [CELEBRITY COLLECTION] Before drafting, pick a cover template with a medallion or photo slot for every watch the post names.
-- [CELEBRITY COLLECTION] Use one photo source type, such as official product shots, for all watch slides so they match in style.
 - [LISTICLE] Before drafting, check the format recipe's slide-count range and build the carousel to fit it, not the reverse.
 - [LISTICLE] Give each watch named on the cover its own numbered item slide, in cover order, and repeat that order in the caption.
 - [LISTICLE] Before using any photo, add its manifest entry with rights status, credit and source; skip photos that lack a cleared entry.
@@ -21,3 +17,7 @@ The editor reads this before every post. Written automatically from rejections; 
 - [WOULD YOU RATHER] Calculate the percentage gap between the two options' dated, sourced prices before writing any slide, and swap in a closer watch when the gap is too wide.
 - [WOULD YOU RATHER] Before rendering, make every photo's background match the slide colour by cutout or blending; reject any photo showing a visible box or rectangle.
 - [WOULD YOU RATHER] Name each item's own retailer in its footer source line; never reuse one shared retailer list across paired watch slides.
+- [CELEBRITY] Name a reference only when a primary source states it; news reports alone are not enough. Otherwise swap in a watch that has both.
+- [CELEBRITY] Pick each lead watch from brand-published or retailer-listed references with a cleared photo, not from a single article.
+- [CELEBRITY] Every watch named on the cover must be pictured on a slide; a celebrity portrait alone does not count.
+- [CELEBRITY] Place medallions and callouts clear of photo credits, wordmark and headline block; never point arrows at a face.

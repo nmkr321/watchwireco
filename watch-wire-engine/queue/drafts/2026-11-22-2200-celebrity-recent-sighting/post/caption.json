@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Audemars Piguet Royal Oak Mini frosted white gold, worn by Kelly Piquet\n\nSpotted at an F1 Academy dinner hosted by Apple TV on 18 November 2026. Yahoo Entertainment reportedly values the watch at $138,400.\n\nA Wristcheck listing shows the same model at $122,000 USD as of 22 November 2026. Retail listing, not an auction, and prices change.\n\nWould you wear it, or pass? Comment WEAR or PASS.\n\nSource: Yahoo Entertainment (sighting, 21 November 2026); Wristcheck (price, 22 November 2026); Audemars Piguet collection page.\nPhoto credit: meshugas / CC BY 2.0 (Wikimedia Commons).\n\n#AudemarsPiguet #RoyalOakMini #WatchNews #LuxuryWatches\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4"
+  ],
+  "source_ids": [
+    "SRC-YAHOO",
+    "SRC-WRIST",
+    "SRC-AP"
+  ],
+  "attribution": "Sighting: Yahoo Entertainment, 21 November 2026. Price: Wristcheck, 22 November 2026.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "caption_credit": "Photo: meshugas / CC BY 2.0 (Wikimedia Commons)",
+  "gaps": [
+    "No wrist photo confirms the watch on her arm; sighting is reported by one outlet."
+  ],
+  "carousel_sha256": "89626ecfe2a5c3c384c9666c171e1aa20f6d8585fea825fbb09430751ca41c4c",
+  "completed_at": "2026-11-22T19:12:46.735Z"
+}

@@ -1,0 +1,20 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 7 / owner rule: the cover photo is a 2014 portrait of Kelly Piquet with no watch visible and no gold circle. No slide shows the watch with her.",
+    "Gate 8: the Royal Oak Mini is named on the cover but not pictured on that slide."
+  ],
+  "fixes": [
+    "slide 1: Use the A-spotted layout. Add a gold circle (medallion) on the portrait showing the same frosted white gold Royal Oak Mini as slide 2. Do not point an arrow at her face. Keep the headline and tag centred and unchanged.",
+    "slide 1: Keep the photo credit (meshugas / CC BY 2.0). Make sure the medallion doesn't touch the credit, the wordmark or the headline block."
+  ],
+  "reason": "Facts, prices, sources, caption and the check (PASS) all hold up. But the cover shows only an old portrait with no watch, and the owner requires the watch in a gold circle when there is no wrist photo."
+}

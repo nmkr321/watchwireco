@@ -580,3 +580,10 @@
 2026-11-22T19:07:58.225Z	learn 2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup	claude-haiku-5-5	0.0023	2
 2026-11-22T19:09:02.377Z	editor-revise 2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup	claude-haiku-5-5	0.0145	20
 2026-11-22T19:09:16.469Z	approver 2026-11-22-2030-celebrity-collection-kevin-oleary-backup-backup r2	claude-sonnet-5-5	0.0835	11
+2026-11-22T19:10:14.268Z	editor 2026-11-22-2200-celebrity-recent-sighting	claude-haiku-5-5	0.0691	15
+2026-11-22T19:10:21.611Z	learn 2026-11-22-2200-celebrity-recent-sighting	claude-haiku-5-5	0.0023	2
+2026-11-22T19:12:12.651Z	editor 2026-11-22-2200-celebrity-recent-sighting	claude-haiku-5-5	0.0627	33
+2026-11-22T19:12:26.978Z	approver 2026-11-22-2200-celebrity-recent-sighting r1	claude-sonnet-5-5	0.0822	10
+2026-11-22T19:12:32.217Z	learn 2026-11-22-2200-celebrity-recent-sighting	claude-haiku-5-5	0.0021	2
+2026-11-22T19:12:54.936Z	editor-revise 2026-11-22-2200-celebrity-recent-sighting	claude-haiku-5-5	0.0050	8
+2026-11-22T19:13:15.453Z	approver 2026-11-22-2200-celebrity-recent-sighting r2	claude-sonnet-5-5	0.0895	12

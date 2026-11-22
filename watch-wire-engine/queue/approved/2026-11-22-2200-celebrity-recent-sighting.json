@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-22-2200-celebrity-recent-sighting",
+  "lane": "rotation",
+  "status": "approved",
+  "manual": true,
+  "found_at": "2026-11-22T18:07:46.341Z",
+  "post_at": "2026-11-23T03:00:00.000Z",
+  "format": "CELEBRITY",
+  "title": "CELEBRITY: a celebrity watch sighting from the last few weeks",
+  "hook": "Name + watch + price + Your call vote",
+  "why": "Owner wants celebrity posts today (scout: celebrity posts get 2.8x normal engagement). A trusted outlet (one is enough, credited by name) reported a famous person wearing a specific watch in the last few weeks. Use a wrist photo if rights-cleared; otherwise their free-licence portrait with the watch in the gold circle (A-spotted, no wrist). Not DiCaprio or Pattinson.",
+  "sources": [],
+  "previous_attempts": [
+    "No usable watch photo. Lead: Shah Rukh Khan wore an Audemars Piguet Royal Oak 'Jumbo' Extra-Thin Titanium BMG openworked dial at the Global Peace Honours, Mumbai, Nov 21, 2026 (reported by Free Press Journal, market price about $377,000). The article gives no reference, and the 16204XT.OO.1240XT.01 "
+  ],
+  "scheduled_for": "2026-11-23T03:00:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-22-2200-celebrity-recent-sighting",
+  "project_dir": "Content Creation/projects/2026-11-22-2200-celebrity-recent-sighting",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-22-2200-celebrity-recent-sighting/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The check passes. Yahoo confirms Kelly Piquet wore a $138,400 frosted white gold AP Royal Oak Mini at the 18 Nov F1 Academy dinner. The $122,000 price is a dated Wristcheck listing, and the official AP image is used. The cover now shows her portrait with the watch in a gold circle, credited and clear of her face. The caption carries the CC BY credit, and the 'Wear it or pass?' slide gives readers something to vote on."
+  }
+}
