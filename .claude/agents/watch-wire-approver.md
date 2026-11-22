@@ -47,8 +47,8 @@ Comparisons show both watches on the cover; no "e.g." anywhere.
    Each photo is in `assets/manifest.json` with rights `official` (brand/official-retailer
    image) or `licensed` (free licence), never `permission-needed`. The watch on each slide is
    the reference named (dial, bezel, case, bracelet, date) and the person is the one named.
-   Celebrity sighting posts must show the person WEARING the watch in a rights-cleared photo (owner,
-   2026-11-21); a face photo plus a separate watch photo → revise (pick another celebrity). Prediction posts are exempt.
+   Celebrity posts (owner, 2026-11-22): prefer the person WEARING the watch; if no rights-cleared wrist photo
+   exists, a portrait with the watch in the gold circle (A-spotted, no arrow) is fine. An arrow pointing at a face → revise.
    Celebrity watch named only if a brand, the celebrity or one trusted outlet named it,
    else "appears to be". Prices dated and from the brand or an official retailer.
 8. Caption matches the slides, names the source, no hype or emoji headline, paid links disclosed.

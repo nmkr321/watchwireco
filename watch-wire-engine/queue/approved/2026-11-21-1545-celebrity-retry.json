@@ -13,7 +13,7 @@
     "The spotted slide's arrow points at David Corenswet's cheek, not a wrist, and it reuses the cover photo. The draft is also marked 'stopped' with that problem unresolved. Fix or drop slide 2 and resubmit. / Layout/design rule: on slide 2 the arrow points at the cheek, not the wrist, because the photo shows no wrist. / Slide 2 reuses the cover photo, a zoomed crop of the same picture. / Draft status is 'stopped' with its own stop_reason unresolved. / slide 2: Drop the A-spotted slide, or use a different Corenswet photo that shows the wrist. Do not point the arrow at the face. / slide 1: The head",
     "Research validator blocks the Corenswet claim: WatchGuys is the only outlet naming the watch, and the validator marks single-outlet claims unverified and non-publishable. Owner rule says one readable trusted outlet is enough; the validator disagrees. Needs a second outlet or a validator/rule decisio"
   ],
-  "scheduled_for": "2026-11-21T20:45:00.000Z",
+  "scheduled_for": "2026-11-22T22:30:00.000Z",
   "draft_dir": "watch-wire-engine/queue/drafts/2026-11-21-1545-celebrity-retry",
   "project_dir": "Content Creation/projects/2026-11-21-1545-celebrity-retry",
   "post_dir": "watch-wire-engine/queue/drafts/2026-11-21-1545-celebrity-retry/post",
@@ -30,5 +30,6 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "DiCaprio's platinum Rolex 1908 (ref. 52506) at the Oscars is credited to Hypebeast, which the owner's one-outlet celebrity rule allows. The $33,600 price is confirmed on Ben Bridge's page, which is an official retailer. The check passes, the layouts are clean, and there are no duplicates. Hypebeast's page returned nothing when I fetched it, so I confirmed the sighting only from its headline and URL, which name the watch. The post doesn't show the watch on his wrist."
-  }
+  },
+  "owner_note": "Re-done 22 Nov with a face + watch circle cover (owner OK'd that style when no wrist photo exists)"
 }

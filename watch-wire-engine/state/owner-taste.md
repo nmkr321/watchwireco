@@ -25,3 +25,4 @@ approved), with the date and the reason. Newest at the top.
 - 2026-11-21: Owner overruled the two-outlet rule for celebrity posts: one trusted outlet reporting a celebrity wearing a watch is enough to post, credited by name. Owner wants celebrity posts; don't reject them for single sourcing.
 - 2026-11-21: Owner: celebrity posts do best. If a celebrity has no usable photo, pick another celebrity instead of giving up; a failed celebrity slot is refilled with another celebrity.
 - 2026-11-21: Owner on the DiCaprio post: a celebrity post must show the celebrity WEARING the watch, not just their face. Post held (no rights-cleared wrist photo exists). Prefer brand ambassadors (brands publish photos of them wearing the watch).
+- 2026-11-22: Owner: wrist photos where possible; otherwise a celebrity portrait with the watch in a gold circle (like the GTA posts) is fine. DiCaprio post re-done that way and scheduled 5:30pm.

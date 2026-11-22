@@ -2,13 +2,13 @@
   "source": "Hypebeast, Watches of Switzerland, Ben Bridge",
   "slides": [
     {
-      "t": "A-cover",
-      "tag": "CELEBRITY",
-      "line1": "Leonardo DiCaprio's",
-      "line2": "Rolex 1908 Platinum",
-      "meta": "Spotted wearing it at the 2026 Oscars · Ref. 52506",
+      "t": "A-spotted",
+      "label": "Spotted at the 2026 Oscars",
+      "headline": "DiCaprio's [[Rolex 1908]] Platinum",
       "photo": "watch-wire-engine/library/img/person-leonardo-dicaprio.jpg",
-      "credit": "Photo: Raph_PH / CC BY 4.0 via Wikimedia Commons",
+      "watch": "watch-wire-engine/library/img/rolex-52506.png",
+      "credit": "Photo: Raph_PH / CC BY 4.0 via Wikimedia Commons · Watch: Rolex",
+      "body": "Ref. 52506, ice-blue dial. Spotted by Hypebeast.",
       "footLeft": "Source: Hypebeast · March 2026"
     },
     {

@@ -15,7 +15,7 @@
 //   A-wyr     tag, left:{brand,model,price?,photo?}, right:{...}, prompt?   would you rather / same money
 //   A-photo   label, headline, photo, credit, body?, fit?        big photo on top + caps headline band (fit:"cover" for people/lifestyle shots; default shows the whole watch on ivory)
 //   A-pick3   label, headline, options:[{brand, model, price, photo},x3], credit?   one tier: 3 choices A/B/C
-//   A-spotted label, headline, photo (person/game shot), watch (watch image), wrist:{x,y} (% of the photo where the watch is), zoom?, credit, body?
+//   A-spotted label, headline, photo (person/game shot), watch (watch image), wrist:{x,y} (% of the photo where the watch is; omit when the watch isn't visible → circle only, no arrow), zoom?, credit, body?
 //             → shot zoomed toward the wrist, watch cut out in a gold medallion, gold arrow + ring on the wrist
 //   D-cover   tag, headline, photo?, credit?                          story cover (title case)
 //   D-body    kicker, text, photo?, credit?                               story beat
@@ -159,12 +159,13 @@ function render(s, i) {
       <div class="p3">${(s.options || []).slice(0, 3).map((o, k) => `<div class="o"><div class="pic" style="background-image:url('${wimg(o.photo)}')"><span class="let">${"ABC"[k]}</span></div><div class="b">${esc(o.brand)}</div><div class="m">${esc(o.model)}</div><div class="pr">${esc(o.price)}</div></div>`).join("")}</div>${credit}${foot(s.footLeft || "Pick one · comment below")}`;
     case "A-spotted": {
       // game/person shot zoomed toward the wrist, the real watch cut out in a gold medallion, a gold arrow to the wrist
-      const w = s.wrist || { x: 50, y: 50 }, z = s.zoom || 1.12;
+      // no "wrist" (a face/portrait photo, watch not visible): just the watch in the gold circle, no arrow
+      const noArrow = !s.wrist, w = s.wrist || { x: 50, y: 30 }, z = s.zoom || 1.12;
       return `<div class="sp2"><img id="g" src="${img(s.photo)}"></div><svg class="arw" id="arw" width="1080" height="900"></svg><div class="medal" id="medal"><img id="cut" src="${img(s.watch)}"></div>${WM}
       <div class="spotbox"><div class="lbl">${esc(s.label || "Spotted wearing")}</div><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body" style="margin-top:20px">${hl(s.body)}</p>` : ""}</div><div class="credit pcredit">${esc(s.credit || "")}</div>${foot()}
       <script>
       (function(){
-        const W=1080,H=900,wx=${Number(w.x) / 100},wy=${Number(w.y) / 100},z=${Number(z)};
+        const NA=${noArrow}, W=1080,H=900,wx=${Number(w.x) / 100},wy=${Number(w.y) / 100},z=${Number(z)};
         const g=document.getElementById("g"), cut=document.getElementById("cut"), medal=document.getElementById("medal"), svg=document.getElementById("arw");
         function place(){
           const iw=g.naturalWidth, ih=g.naturalHeight, sc=Math.max(W/iw,H/ih)*z, dw=iw*sc, dh=ih*sc;
@@ -173,6 +174,7 @@ function render(s, i) {
           g.style.width=dw+"px"; g.style.height=dh+"px"; g.style.left=left+"px"; g.style.top=top+"px";
           const px = left + wx*dw, py = top + wy*dh;                       // wrist on the slide
           const mx = px < W/2 ? W-48-165 : 48+165, my = py < H*0.5 ? 640 : 330;   // opposite side; below a high wrist, above a low one (keeps faces clear)
+          if (NA) { medal.style.left=(W-48-330)+"px"; medal.style.top=(H-330-30)+"px"; svg.innerHTML=""; return; }
           medal.style.left=(mx-165)+"px"; medal.style.top=(my-165)+"px";
           const dx=px-mx, dy=py-my, d=Math.hypot(dx,dy), ux=dx/d, uy=dy/d, ring=70;
           const sx=mx+ux*182, sy=my+uy*182, ex=px-ux*(ring+16), ey=py-uy*(ring+16);

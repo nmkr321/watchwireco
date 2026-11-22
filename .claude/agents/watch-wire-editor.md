@@ -80,11 +80,10 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
   celebrity or a trusted outlet named it; else "appears to be". No usable photo of that celebrity after two
   tries → drop them and pick ANOTHER celebrity sighting (sports, red carpets, music, film; there are many).
   Celebrity posts do best (owner): keep switching celebrities; stop only after five have failed.
-  WRIST SHOT REQUIRED (owner, 2026-11-21): a celebrity sighting post needs a photo of THAT person WEARING
-  the watch, with rights: a brand ambassador/campaign or press photo from the brand (official), a free-licence
-  Wikimedia photo where the watch is visible, or a source in permissions.json. A face photo plus a separate watch
-  photo is not enough. No wrist shot → pick another celebrity (brand ambassadors are the easiest: brands publish
-  photos of them wearing the watch). Prediction posts ("what will Bond wear?") may use a face + the watch options.
+  Celebrity photos (owner, 2026-11-22): BEST is a rights-cleared photo of the person WEARING the watch (brand
+  ambassador/campaign/press photo, a free-licence Wikimedia photo showing the watch, or a source in permissions.json)
+  on an A-spotted slide with `wrist` set. If none exists, use their free-licence portrait on an A-spotted slide
+  WITHOUT `wrist`: the real watch sits in the gold circle, no arrow. Never point an arrow at a face.
   Celebrity shape (owner, 2026-11-21): cover (person) → WATCH SPOTLIGHT slide (the watch, 2-3 specs, price)
   → our take → a YOUR CALL slide that asks readers to act ("Wear it or pass? Comment WEAR or PASS") → cta.
   Never a slide that only hedges ("resale not checked", "prices may differ"); put caveats in the caption.
