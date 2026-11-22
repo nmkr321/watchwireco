@@ -8,7 +8,8 @@
       "formats": [
         "NEWS",
         "NEW RELEASES",
-        "MARKET"
+        "MARKET",
+        "TOP 5 THIS WEEK"
       ],
       "_note": "built from the last day's headlines"
     },
@@ -17,6 +18,7 @@
       "lane": "rotation",
       "formats": [
         "CELEBRITY",
+        "CELEBRITY COLLECTION",
         "WOULD YOU RATHER",
         "BUILD YOUR COLLECTION",
         "LISTICLE"
@@ -27,6 +29,7 @@
       "lane": "rotation",
       "formats": [
         "CELEBRITY",
+        "CELEBRITY COLLECTION",
         "WOULD YOU RATHER",
         "BUILD YOUR COLLECTION",
         "LISTICLE"
@@ -37,6 +40,7 @@
       "lane": "rotation",
       "formats": [
         "CELEBRITY",
+        "CELEBRITY COLLECTION",
         "WOULD YOU RATHER",
         "BUILD YOUR COLLECTION",
         "LISTICLE"
