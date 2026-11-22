@@ -1,7 +1,7 @@
 {
   "id": "2026-11-21-1545-celebrity-retry",
   "lane": "rotation",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-21T14:20:31.040Z",
   "post_at": "2026-11-21T20:45:00.000Z",
   "format": "CELEBRITY",
@@ -31,5 +31,22 @@
     "fixes": [],
     "reason": "DiCaprio's platinum Rolex 1908 (ref. 52506) at the Oscars is credited to Hypebeast, which the owner's one-outlet celebrity rule allows. The $33,600 price is confirmed on Ben Bridge's page, which is an official retailer. The check passes, the layouts are clean, and there are no duplicates. Hypebeast's page returned nothing when I fetched it, so I confirmed the sighting only from its headline and URL, which name the watch. The post doesn't show the watch on his wrist."
   },
-  "owner_note": "Re-done 22 Nov with a face + watch circle cover (owner OK'd that style when no wrist photo exists)"
+  "owner_note": "Re-done 22 Nov with a face + watch circle cover (owner OK'd that style when no wrist photo exists)",
+  "posted_at": "2026-11-22T23:11:31.084Z",
+  "publish": {
+    "live": true,
+    "media_id": "18145914349627774",
+    "permalink": "https://www.instagram.com/p/DgD9G5RiRR9/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 514
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
+  }
 }
