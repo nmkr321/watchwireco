@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 7 / format recipe: there is no dedicated, rights-cleared watch photo slide showing the B31 clearly. The recipe and the CELEBRITY lesson both require one. The cover shows the watch only small on his wrist.",
+    "Gate 10: slide 3 only repeats the slide 2 prices, so it adds no value. The story is also not timely, because the watch launched in March 2025 and nothing new happened on 22 Nov 2026."
+  ],
+  "fixes": [
+    "slide 3: replace it with an official Breitling Top Time B31 watch photo, listed in assets/manifest.json with rights official and a visible credit 'Image: Breitling'. Use a headline of 2–6 words that adds a new fact, such as the manufacture three-hand movement or the first time-and-date model, taken from a verified claim.",
+    "slide 3: delete the repeated price text, 'Strap decides the cost'.",
+    "research/caption: add a claim to research.json for any new fact you put on the watch slide, and add it to the caption. Name the source, and keep the caption in line with the slides.",
+    "post: give the post a timely or niche hook, for example a dated news item from Breitling or Butler this week. Otherwise pick a different celebrity sighting that is current.",
+    "slide 2: keep as is. The spacing is now fine, and the undated GBP price is gone."
+  ],
+  "reason": "The cover is good: Butler is Breitling's ambassador, in a Breitling campaign photo with the watch on his wrist. The check passes. But the post has no dedicated watch photo slide, slide 3 only repeats the prices, and a March 2025 launch gives readers little reason to save or share it today."
+}

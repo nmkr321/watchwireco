@@ -1,0 +1,16 @@
+{
+  "status": "ready",
+  "project_dir": "Content Creation/projects/202611221042-bare-bond-industry-james-sets-wrist",
+  "format": "CELEBRITY",
+  "lane": "breaking",
+  "headline": "Austin Butler wears Breitling's Top Time B31",
+  "slides": [
+    "output/slide-01.png",
+    "output/slide-02.png",
+    "output/slide-03.png",
+    "output/slide-04.png",
+    "output/slide-05.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": ""
+}

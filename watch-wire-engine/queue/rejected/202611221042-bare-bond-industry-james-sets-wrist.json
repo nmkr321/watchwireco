@@ -1,0 +1,50 @@
+{
+  "id": "202611221042-bare-bond-industry-james-sets-wrist",
+  "lane": "breaking",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-22T10:42:33.739Z",
+  "title": "James Bond’s Bare Wrist Sets Off Watch Industry War",
+  "score": 6,
+  "sources": [
+    {
+      "title": "James Bond’s Bare Wrist Sets Off Watch Industry War",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWGhWdW1YYVVOMUZPdDNGdzItMEFSQUk1elh6RllfUHptOURkMVZtbjhKOVhMRl9XdFNSNDMtcU9pVzZSTFlZWkxnN1FzdGh2aEZSaDctYWpSWWpXNEpBbGpTWjJTWGRSZUhibjIzQ3ZhZGtEWHBnbUFHVzRTdXo3UDFhZXMxdmMyS1BYUndMREMwVFNmTWNmd1ROZw?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "WSJ",
+      "domain": "wsj.com",
+      "tier": "major_news",
+      "published": "Sun, 22 Nov 2026 10:30:00 GMT"
+    }
+  ],
+  "format": "CELEBRITY",
+  "previous_attempts": [
+    "No rights-cleared wrist photo: James Bond is a fictional character, so no person wearing a watch could be used. The story's watch (Vertex Cal 59 WWW / M36, per Gear Patrol) had no usable Commons or official product photo. A search for a replacement celebrity sighting (Nov 2026) found no sourced, dat",
+    "The Bond story was dropped (Bond is fictional). Replacement: Henry Cavill in Longines' official HydroConquest 2026 campaign photos (rights: Longines official gallery, credit Image: Longines). Research, hook, carousel, slides and caption are written, but finish fails: the gallery photos are not regis"
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 2,
+      "hook": 3,
+      "visual": 3,
+      "clarity": 4,
+      "taste": 3
+    },
+    "hard_gate_failures": [
+      "Gate 2/7: the slide 3 watch is AB3113281A1X1, which has a light-blue bezel and a tan perforated strap. Breitling UK lists it at GBP 4,750. The cover shows a different, brown-strap watch with no blue bezel, so the photo doesn't match the watch he wears.",
+      "Gate 2: the GBP 5,050 price in the caption and research belongs to references AB3113A71L1A1 and AB3113A71C2A1. It is not the reference shown on slide 3.",
+      "Gate 3/4: the Breitling page never states outright that Butler is an ambassador or which B31 he wears. The 'wears the B31' headline rests on one image link and the trade press."
+    ],
+    "fixes": [
+      "slide 3: replace the photo with the Breitling product image of the reference that matches the cover watch (white dial, brown leather strap). Use AB3113A71L1A1 or AB3113A71C2A1 if one matches, and update manifest.json.",
+      "caption: remove the reference number AB3113281A1X1, or use the reference that matches the new slide 3 photo. Drop the GBP 5,050 line unless it applies to that reference, and give the date on any price you keep.",
+      "slide 2: either remove 'Breitling UK now lists GBP 5,050' or tie it to the shown reference. The slide is also half-empty and the $5,900 line is crowded under the big price. Keep one price for the leather reference.",
+      "slide 1/caption: say 'Breitling's campaign features Butler with the Top Time B31', credited to Breitling and Time+Tide, instead of implying he wears this exact reference.",
+      "slide 3: shorten the headline to avoid the awkward 'THREE-' / 'HAND' line break, e.g. 'First in-house three-hander'."
+    ],
+    "reason": "The Austin Butler and Breitling idea works, and the check passes. But the slide 3 watch is a different blue-bezel reference from the one on his wrist, and the GBP 5,050 price belongs to other references. Fix the watch photo and prices so they match, then resubmit."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/202611221042-bare-bond-industry-james-sets-wrist",
+  "gave_up": true
+}

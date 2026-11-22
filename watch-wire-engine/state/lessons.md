@@ -1,24 +1,6 @@
 # Lessons from the approver
-The engine passes the relevant ones to the editor (condensed weekly).
+The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [LISTICLE] Use only transparent or background-matched product photos, and keep each pick's watch at similar frame size across slides.
-- [LISTICLE] Write CTAs that match the slides: number each pick slide if the CTA asks for a number; otherwise use 'Comment your pick'.
-- [LISTICLE] Date each price eyebrow with the exact date of that pick's verified price claim, not the research date or an assumed date.
-- [LISTICLE] Recompute research summary ranges and min/max values from the final pick prices before validating, so they match the caption.
-- [LISTICLE] Before using a background-removed photo, check its edges at full size for halos or fringes; if present, re-cut the mask or choose another photo.
-- [LISTICLE] Prefer picks the brand page lists as available; if a pick shows 'Unavailable online', swap in an in-stock pick before building.
-- [STORY BEHIND] Give every story beat slide a rights-cleared photo, and make the cover photo show the story's actual subject.
-- [STORY BEHIND] Don't state a claim from one outlet as fact; confirm it with a second source or use the brand's own verified wording.
-- [STORY BEHIND] Verify each photo shows the exact model its slide names; if no credited match exists, reword the slide to describe the photo's actual watch.
-- [STORY BEHIND] Place cover headlines on a clear, uncluttered part of the image, or add a darker overlay, and keep the watch visible.
-- [STORY BEHIND] Before writing beats, search for rights-cleared photos of each named person and model; plan beats around the images found.
-- [STORY BEHIND] If a beat's model has no rights-cleared photo, cut that beat or retell it around a licensed image's subject.
-- [STORY BEHIND] Reject Creative Commons NC (non-commercial) images; the account is commercial, so only use photos whose licence permits commercial reuse and is recorded in permissions.json.
-- [LISTICLE] Before writing a price-capped listicle, verify at least three library picks under the cap; if fewer, raise the cap to fit verified picks.
-- [LISTICLE] Source a verified, dated price for every candidate before choosing a price band; never estimate prices from memory.
-- [LISTICLE] Keep each slide body to one line by shortening it; never let a body wrap, and check line widths before submitting.
-- [LISTICLE] Don't repeat a headline's facts in the slide body; the body should add new detail such as material, dial or strap.
-- [LISTICLE] Count the words in every cover headline before submitting; the owner's limit is six words, so shorten any headline with seven or more.
 - [LISTICLE] If the library lacks three verified picks for a band, research and add new dated, verified picks before building; don't abandon the attempt.
 - [LISTICLE] Before each attempt, list the verified picks available for the chosen band and choose the format from that list, so a run can't stall on too few picks.
 - [any] When picks fall short or fail, search more brand pages for a dated, sourced replacement; never leave a post unstarted.
@@ -33,3 +15,9 @@ The engine passes the relevant ones to the editor (condensed weekly).
 - [LISTICLE] Visually review every rendered slide before finishing; fix any photo, model or text mismatch.
 - [LISTICLE] Before finishing, fill every research handoff field and rerun validate until it passes.
 - [WOULD YOU RATHER] Keep product names to two lines in side-by-side columns; keep footnotes legible with clear space above the footer.
+- [CELEBRITY] Only feature real, named people wearing watches; fictional characters cannot anchor a post. Choose a real person whose wrist photo is listed in permissions.json.
+- [CELEBRITY] Before choosing a story, confirm its watch or person has a rights-cleared photo in permissions.json; if none exists, pick a story that does.
+- [CELEBRITY] Support every slide claim with a named source in research; delete vague generalisations such as "often costs more" instead of stating them as fact.
+- [CELEBRITY] Include a dedicated, rights-cleared watch photo slide with the watch clearly visible, plus a new fact in its headline.
+- [CELEBRITY] Use one reference per post: the slide photo, reference number and price must all be that exact model, verified against the brand page.
+- [CELEBRITY] Say a person wears or endorses a watch only when the brand's own page states it; otherwise write 'the brand's campaign features'.

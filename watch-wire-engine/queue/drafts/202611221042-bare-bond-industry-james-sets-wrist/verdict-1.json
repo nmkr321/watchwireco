@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 3,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Gate 6: slide 2 layout is crowded, because the small caption sits touching the bottom of the big $5,600 number.",
+    "Gate 7: the GBP 5,050 price is undated, and prices must be dated and from the brand or an official retailer.",
+    "Gate 4: slide 3 says 'Campaign watches often cost more than the launch price suggests'. No claim supports that, so it is a vague generalisation stated as fact.",
+    "Gate 10: slide 3 is filler. The format recipe also expects a dedicated watch photo slide, and there isn't one."
+  ],
+  "fixes": [
+    "slide 2: add space between the $5,600 number and the 'TOP TIME B31, LEATHER' caption so they don't touch. Keep the block centred.",
+    "slide 2: delete the undated GBP 5,050 line and the matching GBP line in the caption. Keep only the dated March 2025 launch prices, or use a dated Breitling US or UK price from library/index.json.",
+    "slide 3: replace it with an official Breitling Top Time B31 watch photo (rights official, credited) with a short headline, e.g. 'Top Time B31 details'. Or cut it. Drop the 'often cost more' claim.",
+    "slide 1: confirm the cover photo shows the B31 on his wrist, since the watch is small in the frame. Ideally add a spotted or watch slide with the watch clearly visible.",
+    "slide 4: keep the comment prompt, which is fine."
+  ],
+  "reason": "The cover works. Austin Butler is Breitling's ambassador, shown in a Breitling campaign photo with the watch on his wrist. But slide 2 is cramped, it uses an undated GBP price, and slide 3 makes an unsupported claim and adds no value. I did not fetch the sources, because the draft already needs these changes.."
+}
