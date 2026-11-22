@@ -1,0 +1,24 @@
+{
+  "id": "202611220943-against-auto-grand-james-measures-theft",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-22T09:43:26.224Z",
+  "title": "How Grand Theft Auto Measures Up Against James Bond",
+  "score": 6,
+  "sources": [
+    {
+      "title": "How Grand Theft Auto Measures Up Against James Bond",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWxnYUdpWkJ1SDdCaEUwQko0Z1BXZHg1TnJZeDhycVBYM1VfenpWazR4Wk9KbG9OQnB2XzdJdmc3RWJXck5iWUJuTlk3UTN4azRvTER5M214aWtYYmlFZHlFTTc3OHlIOVlfNU00YWVGNU5FQmJtOUphY1VLTEd5WDlFRjdLTEFlS0NMdDJuLXN6MGFTRWs4T1Q2a05yYTZKZ3M2VlFTMWJaTUxvTGxialVqSGRYZTlwR09aUS1VQ0RqalYxcHc?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Bloomberg.com",
+      "domain": "bloomberg.com",
+      "tier": "major_news",
+      "published": "Sun, 22 Nov 2026 09:00:01 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NO",
+    "reason": "The story is a Grand Theft Auto vs James Bond comparison, which reads as gaming/entertainment. The headline shows no clear watch angle, and the article was not opened to confirm one. Not real watch-collector news today, so no breaking post."
+  }
+}
