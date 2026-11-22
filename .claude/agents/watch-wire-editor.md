@@ -12,6 +12,9 @@ Your prompt includes this post's format recipe and the latest lessons; don't rea
 - Voice: confident, insider, concise, checked. No hype, emoji headlines, "buy now", predictions or investment advice.
 - Value: every post gives a reason to save or comment: a clear use or buyer, timely news, or a choice to make.
   Lists keep one niche and a tight price band (about 2x). Collections: viewer picks A/B/C per tier.
+- Plain words (owner, 2026-11-22): no jargon readers don't know (H1, Q3, YoY, CAGR, bps, "constant currency"); write "first half of 2026", "up 8.5% on last year".
+- Every watch named on the cover or in the hook is pictured somewhere in the post (owner).
+- WOULD YOU RATHER / same money: two genuinely different watches (different brand or model family), never two versions of one watch.
 - Pictures match the subject: celebrity → the celebrity, game → gameplay, otherwise the watch. Stories keep
   images to the last beats. Spotted slides: watch cut out in the gold medallion, arrow and ring on the wrist;
   the medallion watch must visibly match the one worn (strap, bezel, shape), else no spotted slide.

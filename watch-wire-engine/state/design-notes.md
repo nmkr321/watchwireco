@@ -21,3 +21,4 @@ Add each new owner praise or critique here (dated, one line). Newest last.
 - 2026-11-20 No "e.g." on slides or captions; write "Like this: 1B · 2A · 3C". Collection format: owner likes it a lot.
 - 2026-11-21 (engine, from the owner's 20 Nov rule) Watch product photos now have their plain studio background removed automatically (src/cutout.mjs) and sit on black; the cream panel behind single watch photos is gone.
 - 2026-11-21: Owner: a slide like "$33,600 retail, not resale / resale not checked" gives readers no reason to act. Celebrity posts use a Watch Spotlight slide and a "Your call: wear it or pass? Comment WEAR or PASS" slide; hedges go in the caption, never a slide of their own.
+- 2026-11-22: Owner: posts that break up the feed visually (Pattinson as Bond, the GTA post: people/scenes instead of a product on black) are good; mix them in. Every watch named on a cover must appear in a photo in the post.
