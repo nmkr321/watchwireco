@@ -2838,23 +2838,6 @@
   "fetched": "2026-11-21"
  },
  {
-  "kind": "press",
-  "brand": "Jaeger-LeCoultre",
-  "title": "Robert Pattinson for Jaeger-LeCoultre",
-  "person": "Robert Pattinson",
-  "source": "https://press.jaeger-lecoultre.com/introducing-robert-pattinson/",
-  "image_url": "https://content.presspage.com/uploads/2085/c7c2e56b-3eb3-4213-acc4-eaa36dfde04b/1920_2026_q3_master_rp_q4178180_mccqpsteel_rec1_0128_07_srgb_16-9.jpg?10000",
-  "file": "watch-wire-engine/library/img/press-jaeger-lecoultre-robert-pattinson.jpg",
-  "w": 1920,
-  "h": 1079,
-  "ref_on_page": null,
-  "rights": "official",
-  "creator": "Jaeger-LeCoultre",
-  "credit": "Image: Jaeger-LeCoultre",
-  "usage": "Jaeger-LeCoultre campaign/press image of Robert Pattinson, credited",
-  "fetched": "2026-11-21"
- },
- {
   "kind": "watch",
   "brand": "Omega",
   "ref": "210.30.42.20.01.023",
@@ -2901,5 +2884,22 @@
   "credit": "Image: Omega",
   "usage": "Omega 210.32.44.51.01.002 official product image, credited",
   "fetched": "2026-11-21"
+ },
+ {
+  "kind": "press",
+  "brand": "Jaeger-LeCoultre",
+  "title": "Robert Pattinson for Jaeger-LeCoultre",
+  "person": "Robert Pattinson",
+  "source": "https://press.jaeger-lecoultre.com/introducing-robert-pattinson/",
+  "image_url": "https://content.presspage.com/uploads/2085/c7c2e56b-3eb3-4213-acc4-eaa36dfde04b/1920_2026_q3_master_rp_q4178180_mccqpsteel_rec1_0128_07_srgb_16-9.jpg?10000",
+  "file": "watch-wire-engine/library/img/press-jaeger-lecoultre-robert-pattinson.jpg",
+  "w": 1920,
+  "h": 1079,
+  "ref_on_page": null,
+  "rights": "official",
+  "creator": "Jaeger-LeCoultre",
+  "credit": "Image: Jaeger-LeCoultre",
+  "usage": "Jaeger-LeCoultre campaign/press image of Robert Pattinson, credited",
+  "fetched": "2026-11-22"
  }
 ]

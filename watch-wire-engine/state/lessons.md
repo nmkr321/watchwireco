@@ -1,13 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY] Never repeat a slide's label as its headline; write a distinct headline that adds a new point under each label.
-- [WOULD YOU RATHER] Pick two watches only when both have confirmed current prices from the manufacturer or a trusted retailer, within about 10% of each other; otherwise choose a different pair.
-- [WOULD YOU RATHER] Match the same reference, material and generation on both sides of the pair, and log each price with its source and check date in research.json.
-- [WOULD YOU RATHER] Quote both prices on the same basis (currency, region, and before or after tax), and check the gap before choosing the pair.
-- [WOULD YOU RATHER] If a pair fails the price check, swap in another model from the same brand and price band rather than abandoning the format.
-- [WOULD YOU RATHER] Source both watches' prices from the same retailer or manufacturer site and currency, so the price-gap check compares like with like before the pair is chosen.
-- [WOULD YOU RATHER] If a pair's price is missing from research.json, look up that exact reference on the brand site or a trusted retailer first.
 - [WOULD YOU RATHER] Use background-free product photos with no shadow or dark box; size and centre each watch identically on the cover and every slide.
 - [WOULD YOU RATHER] Write each model name identically on every slide and in the caption; shorten it to fit one line, never break it mid-word.
 - [WOULD YOU RATHER] Scale both watch photos to the same measured pixel height and keep them clear of header and credit bands on every slide.
@@ -21,3 +14,10 @@ The editor reads this before every post. Written automatically from rejections; 
 - [NEWS] Name in the text and caption only photos actually placed on a slide; if a referenced photo is missing, drop that claim and its credit.
 - [NEWS] Before choosing a comparison's watches, confirm each has a rights-cleared photo in permissions.json or the asset manifest; if one is missing, pick a different model that has one.
 - [NEWS] Measure every slide label against its line width before rendering, and shorten long names like edition titles to fit on one line, keeping the full name in the caption.
+- [CELEBRITY] Before choosing a celebrity story, confirm a named watch appears in the source or search results; otherwise pick a story that names one.
+- [CELEBRITY] Use a celebrity wrist shot only when its rights are cleared in permissions.json; otherwise find a different celebrity who has one.
+- [CELEBRITY] Choose only stories dated within 7 days, and skip any whose person or angle already appears in the queue or recent posts.
+- [CELEBRITY] Only state a story's claims as fact when a dated, named source confirms them; attribute single-outlet reports or cut predictions.
+- [CELEBRITY] Name a watch in the text only when its own photo appears on that slide; otherwise describe it without the model name.
+- [CELEBRITY] When a celebrity story fails the named-watch or repeat check, choose the next candidate story instead of retrying the same one.
+- [CELEBRITY] Before picking a celebrity angle, check queue/approved and recent posts for the same person and watch pairing, including items posted in the last 7 days.

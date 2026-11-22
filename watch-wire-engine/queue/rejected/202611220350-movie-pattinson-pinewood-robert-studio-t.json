@@ -1,0 +1,26 @@
+{
+  "id": "202611220350-movie-pattinson-pinewood-robert-studio-t",
+  "lane": "breaking",
+  "status": "stopped",
+  "found_at": "2026-11-22T03:50:19.228Z",
+  "title": "Robert Pattinson’s 007 Movie in Talks to Shoot at Pinewood as Studio Says ‘We’re the Home of Bond’",
+  "score": 6,
+  "sources": [
+    {
+      "title": "Robert Pattinson’s 007 Movie in Talks to Shoot at Pinewood as Studio Says ‘We’re the Home of Bond’",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUHdIRHpUc2VjSTRhZk9Wb2xmVTEzdDljWUhrQ0FnWTR5dWR1TlJaVXZOTWJjYkoyTlBGRDV4dXBTdWNxNnlpaVZXUnJpX0habFNDY3U1T3ZGejUxS2R5OVJUaE55N1c3QzhvZGdRVEpaZnlRUzJnLTdaSTJYZWNpZ1Y1anU2X1R1eGFXTF9JcjI5bWRSX0lHamtzYw?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Variety Australia",
+      "domain": "au.variety.com",
+      "tier": "entertainment",
+      "published": "Sun, 22 Nov 2026 02:48:45 GMT"
+    }
+  ],
+  "format": "CELEBRITY",
+  "previous_attempts": [
+    "No watch is named in the story or in the search results for Robert Pattinson's Bond casting, so a CELEBRITY watch post cannot be built. The story is about a film set and casting, not a sighted watch. No wrist shot of him wearing a watch with usable rights was found, so the wrist-shot rule fails. Sug",
+    "Pattinson and Jaeger-LeCoultre was already posted yesterday, so this repeats it. It also has an unsourced claim about studio watch choices and no photo of the rose-gold watch it names. Pick a different celebrity who is shown wearing a watch. / Gate 9: repeat. 'celebrity-pattinson-bond-watch' (2026-11-21-1700) already posted within 7 days, with the same Pattinson/JLC/Bond angle. / Gate 7: slide 2 names a rose-gold Master Control but shows no photo of it. The only photo is the cover, which shows a steel watch. / Gate 4: slide 3 says the studio picks the on-screen Bond watch. That is an unsourced"
+  ],
+  "stop_reason": "Stopped before building. Attempt 3 on the same story, and the two earlier attempts found no named watch in the story or search results. Pattinson and Jaeger-LeCoultre was also posted within the last 7 days (2026-11-21-1700), so this angle repeats a queued or recent post and fails the repeat lesson. No wrist shot with cleared rights was found. Recommend picking a different celebrity sighting that names a watch in a dated source and has a cleared wrist photo.",
+  "gave_up": true
+}
