@@ -1,23 +1,23 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [LISTICLE] When confirmed in-band picks are below the slide minimum, search more brand pages for candidates before building the project.
-- [LISTICLE] Before finishing, fill every research handoff field (job id, browser trace, governance) and rerun validate until it passes.
-- [WOULD YOU RATHER] Keep each product name to two lines or fewer in side-by-side columns so prices align; shorten official names to a known short form.
-- [WOULD YOU RATHER] Keep footnotes at a legible size with clear space above the footer; merge short source notes into the cover line instead.
-- [BUILD YOUR COLLECTION] Check each price tier separately; if one has fewer dated, photographed options than needed, search more brand or retailer pages before building.
-- [BUILD YOUR COLLECTION] Count only options with a dated brand or retailer price and a rights-cleared photo toward a tier's minimum.
-- [BUILD YOUR COLLECTION] If a price tier lacks enough verified options after extra searching, drop it and rebuild around qualifying tiers, not another retry.
-- [BUILD YOUR COLLECTION] Spread each price tier's options across different brands and styles; never pick two near-identical references from the same brand and price.
-- [BUILD YOUR COLLECTION] Classify each watch by its real use (diver, dress, field) and make every headline and label match that category.
-- [BUILD YOUR COLLECTION] Keep manifest, caption credits and source line in sync: remove placeholder or unused entries, and make credits name each final photo's source.
-- [BUILD YOUR COLLECTION] Photos from independent retailers need a recorded licence in permissions.json; otherwise use brand or official-retailer images only.
-- [LISTICLE] Check every price-cap headline against each pick's verified price, treating a price equal to the cap as inside it; use "up to" or raise the cap.
-- [LISTICLE] Don't repeat a pick's price in its slide body when the eyebrow line already shows it; use the body for material, dial or strap.
-- [LISTICLE] On revision, apply every requested change to the files, verify each one landed, then resubmit. A revision that changes nothing is a failure.
 - [LISTICLE] Use only transparent or background-matched product photos, and keep each pick's watch at similar frame size across slides.
 - [LISTICLE] Write CTAs that match the slides: number each pick slide if the CTA asks for a number; otherwise use 'Comment your pick'.
 - [LISTICLE] Date each price eyebrow with the exact date of that pick's verified price claim, not the research date or an assumed date.
 - [LISTICLE] Recompute research summary ranges and min/max values from the final pick prices before validating, so they match the caption.
 - [LISTICLE] Before using a background-removed photo, check its edges at full size for halos or fringes; if present, re-cut the mask or choose another photo.
 - [LISTICLE] Prefer picks the brand page lists as available; if a pick shows 'Unavailable online', swap in an in-stock pick before building.
+- [STORY BEHIND] Give every story beat slide a rights-cleared photo, and make the cover photo show the story's actual subject.
+- [STORY BEHIND] Don't state a claim from one outlet as fact; confirm it with a second source or use the brand's own verified wording.
+- [STORY BEHIND] Verify each photo shows the exact model its slide names; if no credited match exists, reword the slide to describe the photo's actual watch.
+- [STORY BEHIND] Place cover headlines on a clear, uncluttered part of the image, or add a darker overlay, and keep the watch visible.
+- [STORY BEHIND] Before writing beats, search for rights-cleared photos of each named person and model; plan beats around the images found.
+- [STORY BEHIND] If a beat's model has no rights-cleared photo, cut that beat or retell it around a licensed image's subject.
+- [STORY BEHIND] Reject Creative Commons NC (non-commercial) images; the account is commercial, so only use photos whose licence permits commercial reuse and is recorded in permissions.json.
+- [LISTICLE] Before writing a price-capped listicle, verify at least three library picks under the cap; if fewer, raise the cap to fit verified picks.
+- [LISTICLE] Source a verified, dated price for every candidate before choosing a price band; never estimate prices from memory.
+- [LISTICLE] Keep each slide body to one line by shortening it; never let a body wrap, and check line widths before submitting.
+- [LISTICLE] Don't repeat a headline's facts in the slide body; the body should add new detail such as material, dial or strap.
+- [LISTICLE] Count the words in every cover headline before submitting; the owner's limit is six words, so shorten any headline with seven or more.
+- [LISTICLE] If the library lacks three verified picks for a band, research and add new dated, verified picks before building; don't abandon the attempt.
+- [LISTICLE] Before each attempt, list the verified picks available for the chosen band and choose the format from that list, so a run can't stall on too few picks.

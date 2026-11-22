@@ -473,3 +473,27 @@
 2026-11-22T08:58:44.471Z	learn 2026-11-22-1730-build-your-collection-3-watch-collection-backup	claude-haiku-5-5	0.0022	2
 2026-11-22T09:01:28.667Z	editor 2026-11-22-1730-build-your-collection-3-watch-collection-backup	claude-haiku-5-5	0.0990	44
 2026-11-22T09:01:33.795Z	learn 2026-11-22-1730-build-your-collection-3-watch-collection-backup	claude-haiku-5-5	0.0021	2
+2026-11-22T09:03:43.987Z	editor 2026-11-22-2030-story-behind-george-daniels-and-the-co-a	claude-haiku-5-5	0.0469	24
+2026-11-22T09:04:03.914Z	approver 2026-11-22-2030-story-behind-george-daniels-and-the-co-a r1	claude-sonnet-5-5	0.0858	13
+2026-11-22T09:04:08.195Z	learn 2026-11-22-2030-story-behind-george-daniels-and-the-co-a	claude-haiku-5-5	0.0020	2
+2026-11-22T09:05:41.652Z	editor-revise 2026-11-22-2030-story-behind-george-daniels-and-the-co-a	claude-haiku-5-5	0.0151	15
+2026-11-22T09:06:01.270Z	approver 2026-11-22-2030-story-behind-george-daniels-and-the-co-a r2	claude-sonnet-5-5	0.1137	11
+2026-11-22T09:07:31.877Z	editor-revise 2026-11-22-2030-story-behind-george-daniels-and-the-co-a	claude-haiku-5-5	0.0186	14
+2026-11-22T09:07:48.918Z	approver 2026-11-22-2030-story-behind-george-daniels-and-the-co-a r3	claude-sonnet-5-5	0.0721	12
+2026-11-22T09:07:52.719Z	learn 2026-11-22-2030-story-behind-george-daniels-and-the-co-a	claude-haiku-5-5	0.0020	2
+2026-11-22T09:08:33.933Z	editor 2026-11-22-2030-story-behind-george-daniels-and-the-co-a	claude-haiku-5-5	0.0326	13
+2026-11-22T09:08:38.436Z	learn 2026-11-22-2030-story-behind-george-daniels-and-the-co-a	claude-haiku-5-5	0.0020	2
+2026-11-22T09:09:13.745Z	editor 2026-11-22-2030-story-behind-george-daniels-and-the-co-a	claude-haiku-5-5	0.0417	11
+2026-11-22T09:09:19.651Z	learn 2026-11-22-2030-story-behind-george-daniels-and-the-co-a	claude-haiku-5-5	0.0022	2
+2026-11-22T09:09:29.635Z	editor 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup	claude-haiku-5-5	0.0028	5
+2026-11-22T09:09:35.245Z	learn 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup	claude-haiku-5-5	0.0022	2
+2026-11-22T09:11:34.028Z	editor 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup	claude-haiku-5-5	0.0411	32
+2026-11-22T09:11:55.046Z	approver 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup r1	claude-sonnet-5-5	0.0927	14
+2026-11-22T09:12:00.407Z	learn 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup	claude-haiku-5-5	0.0021	2
+2026-11-22T09:12:35.424Z	editor-revise 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup	claude-haiku-5-5	0.0072	11
+2026-11-22T09:12:49.304Z	approver 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup r2	claude-sonnet-5-5	0.0689	11
+2026-11-22T09:13:34.555Z	editor-revise 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup	claude-haiku-5-5	0.0118	15
+2026-11-22T09:14:03.815Z	approver 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup r3	claude-sonnet-5-5	0.1303	20
+2026-11-22T09:14:08.982Z	learn 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup	claude-haiku-5-5	0.0021	2
+2026-11-22T09:14:21.008Z	editor 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup	claude-haiku-5-5	0.0032	6
+2026-11-22T09:14:25.979Z	learn 2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup	claude-haiku-5-5	0.0023	3

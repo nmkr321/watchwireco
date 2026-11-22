@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-22-2030-story-behind-george-daniels-and-the-co-a-backup",
+  "lane": "history",
+  "status": "idea",
+  "found_at": "2026-11-22T09:09:19.659Z",
+  "post_at": "2026-11-23T01:30:00.000Z",
+  "backup_for": "2026-11-22-2030-story-behind-george-daniels-and-the-co-a",
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: STORY BEHIND: George Daniels and the co-axial escapement",
+  "hook": "",
+  "why": "Backup post. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "Stopped before building. The input asks for a tight price band under $10K for one niche, but the library holds only two verified watches (Rolex 126610LN and Patek Philippe 5811/1G-001), both far above $10K, and no dated, verified prices or rights-cleared photos for an under-$10K set exist yet. Resea",
+    "The check passes. The slides 2–7 prices, dates, photo credits and CTA are in order. The cover has a grey banded background and a 7-word headline, and two bodies repeat their headlines, so the cover and those two slides need fixing. / Gate 6 and owner rule: the slide 1 cover photo sits on a grey/white banded gradient that looks like a stray panel behind the Oris. / Owner rule: the cover headline 'Six watches for a suit, under $5K' is 7 words, over the 6-word limit. / Gate 2: I could not re-fetch the main source because WebFetch returned HTTP 429. The prices rely on the research claims, which ar"
+  ]
+}

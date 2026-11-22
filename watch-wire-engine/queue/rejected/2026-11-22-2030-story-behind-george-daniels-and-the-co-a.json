@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-22-2030-story-behind-george-daniels-and-the-co-a",
+  "status": "stopped",
+  "found_at": "2026-11-22T07:44:12.400Z",
+  "lane": "history",
+  "format": "STORY BEHIND",
+  "post_at": "2026-11-23T01:30:00.000Z",
+  "slot": 5,
+  "title": "STORY BEHIND: George Daniels and the co-axial escapement",
+  "hook": "A watchmaker solved a 200-year-old problem, then gave the answer to Omega",
+  "why": "Tension hook with a person who changed watchmaking. Avoids Genta, Breguet and Wilsdorf (already posted or used). Launch date and the Daniels story are unverified; no On This Day check for 22 November was run.",
+  "sources_to_check": [
+    "Omega official history pages (co-axial escapement launch date)",
+    "Antiquarian Horology and a Daniels biography",
+    "Omega press pages for the co-axial history"
+  ],
+  "sources": [
+    {
+      "title": "Omega official history pages (co-axial escapement launch date)",
+      "link": "",
+      "source": "Omega official history pages (co-axial escapement launch date)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Antiquarian Horology and a Daniels biography",
+      "link": "",
+      "source": "Antiquarian Horology and a Daniels biography",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Omega press pages for the co-axial history",
+      "link": "",
+      "source": "Omega press pages for the co-axial history",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "The Omega-sourced facts check out and the validator passes. But slide 2 has no photo, and slides 4 and 5 show Speedmasters that aren't co-axial watches. The cover headline also sits on a busy dial. / Gate 7 / owner rule: slide 2 has no photo, but story slides must keep their images to the end. / Gate 7: the photos don't match the watches named. Slide 4 is about the 1999 co-axial launch but shows a Speedmaster Professional. Slide 5 is about co-axial reliability but also shows a Speedmaster Professional. Neither is shown to be a co-axial watch. / Gate 6: on slide 1 the headline sits over the bus",
+    "No rights-cleared photos for the story beats. Checked Wikimedia Commons, the Daniels person search and the watch search: the only free-licence George Daniels image is a Grand Complication pocket watch (Andrewrabbott, CC BY-SA 4.0), and no free or press photo of the 1999 Omega De Ville Co-Axial or th"
+  ],
+  "stop_reason": "No rights-cleared photo of the co-axial watch. Checked Wikimedia Commons (Daniels: only a Grand Complication pocket watch, CC BY-SA 4.0; Omega Co-Axial: nothing), the library (no Co-Axial match), and a press-image search (none found). The Science Museum 'Millenium' photo is CC BY-NC-SA, so it is not usable for a commercial account. Story beats need rights-cleared images, so the post cannot be built to the recipe. Facts checked so far: Omega's chronicle says the Co-Axial escapement was released on 12 April 1999 and calls it the first practical new escapement in some 250 years. Accounts differ on whether Omega bought the rights or co-developed it with Daniels, so that claim needs a second source before use. Next step: find a licensed photo of a Co-Axial Omega (or Daniels' watch with a Co-Axial movement) or an Omega press photo, then retry.",
+  "gave_up": true
+}
