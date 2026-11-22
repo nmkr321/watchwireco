@@ -1,7 +1,7 @@
 {
   "id": "2026-11-21-2200-news-omega-bond-year-2026-backup",
   "lane": "news",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-21T19:50:44.659Z",
   "post_at": "2026-11-22T03:00:00.000Z",
   "backup_for": "2026-11-21-2200-news-omega-bond-year-2026",
@@ -27,5 +27,22 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes. All nine prices match verified claims from official brand pages or official retailers, and the photos are official brand images. The three tiers (field $1K, dress $6K, diver $18K) total $25K, with three options each and nothing pre-picked. The Omega Seamaster Diver 300M is the only watch shared with yesterday's collection post, and it's a different tier mix and different options. The post is timeless rather than breaking, so it goes in the next slot."
+  },
+  "posted_at": "2026-11-22T03:17:43.982Z",
+  "publish": {
+    "live": true,
+    "media_id": "18170250943507362",
+    "permalink": "https://www.instagram.com/p/DgB0eqaAc1K/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 579
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
