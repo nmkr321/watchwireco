@@ -1,0 +1,24 @@
+{
+  "id": "202611220050-bond-debunking-james-most-popular-theory",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-22T00:50:20.238Z",
+  "title": "Debunking The Most Popular James Bond 007 Theory",
+  "score": 6,
+  "sources": [
+    {
+      "title": "Debunking The Most Popular James Bond 007 Theory",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR3ZWcVBkRTljUjJwR1VGRHRyRmdqbEhQRjdlREdBZmUyZWtqY2s4NlloSGJfRGJwM00xVVhyak9ENkN1djhMSnVSa2d4bHhDZk1Td2pCdXZSX1dpUk9kSUdUN2ZiYm9aNVlHU3FnZ3NlYS1jZXhsaFRERUdlWWZQOUlraHl2SWZLQ201R2pCdWQ4ZXZXcHBOYThCMl9rR1VyUHc?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Forbes",
+      "domain": "forbes.com",
+      "tier": "major_news",
+      "published": "Sun, 22 Nov 2026 00:01:01 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NONE",
+    "reason": "\"Debunking The Most Popular James Bond 007 Theory\" (Forbes) is an opinion-style explainer about a fan theory, not breaking news. It has no new brand move, release, auction result, price change, market data, or confirmed watch fact. Not posting; no format applies."
+  }
+}
