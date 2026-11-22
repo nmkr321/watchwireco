@@ -438,3 +438,8 @@
 2026-11-22T08:32:18.179Z	learn 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup	claude-haiku-5-5	0.0018	2
 2026-11-22T08:33:30.792Z	editor 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup	claude-haiku-5-5	0.0191	22
 2026-11-22T08:33:35.757Z	learn 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup	claude-haiku-5-5	0.0023	3
+2026-11-22T08:35:11.733Z	editor 2026-11-22-1430-would-you-rather-breitling-navitimer-b09	claude-haiku-5-5	0.0690	24
+2026-11-22T08:35:35.554Z	approver 2026-11-22-1430-would-you-rather-breitling-navitimer-b09 r1	claude-sonnet-5-5	0.0906	13
+2026-11-22T08:35:39.868Z	learn 2026-11-22-1430-would-you-rather-breitling-navitimer-b09	claude-haiku-5-5	0.0019	2
+2026-11-22T08:35:59.203Z	editor-revise 2026-11-22-1430-would-you-rather-breitling-navitimer-b09	claude-haiku-5-5	0.0040	6
+2026-11-22T08:36:22.122Z	approver 2026-11-22-1430-would-you-rather-breitling-navitimer-b09 r2	claude-sonnet-5-5	0.1002	17

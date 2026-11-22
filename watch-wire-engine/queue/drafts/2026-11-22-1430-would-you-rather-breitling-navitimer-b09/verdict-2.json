@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. I re-confirmed the Omega price ($7,800, ref 310.30.42.50.01.001) on The 1916 Company's page, and the earlier review confirmed the Breitling's $8,400 at Betteridge. Both names now fit on two lines, so the prices on slide 2 line up. The footnote is merged into the cover line, and the two prices are about 8% apart. The Moonwatch also appeared in the Nov 20 Explorer post, but this is a different matchup."
+}

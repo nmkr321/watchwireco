@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-22-1430-would-you-rather-breitling-navitimer-b09",
+  "status": "approved",
+  "found_at": "2026-11-22T07:44:12.400Z",
+  "lane": "rotation",
+  "format": "WOULD YOU RATHER",
+  "post_at": "2026-11-22T19:30:00.000Z",
+  "slot": 3,
+  "title": "WOULD YOU RATHER: Breitling Navitimer B09 Chronograph 41 vs Omega Speedmaster Moonwatch",
+  "hook": "Breitling Navitimer B09 or Omega Speedmaster Moonwatch? Vote in the comments.",
+  "why": "Ties to today's Sunday Showdown headline. Needs prices within about 10% of each other (SAME MONEY tag if they match). Risk: close to the already-posted Moonwatch 'same money' post; drop it if that is judged too close.",
+  "sources_to_check": [
+    "Breitling US price and reference (B09 Chronograph 41)",
+    "Omega US price and reference (Speedmaster Moonwatch)",
+    "Source of the Sunday Showdown headline"
+  ],
+  "sources": [
+    {
+      "title": "Breitling US price and reference (B09 Chronograph 41)",
+      "link": "",
+      "source": "Breitling US price and reference (B09 Chronograph 41)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Omega US price and reference (Speedmaster Moonwatch)",
+      "link": "",
+      "source": "Omega US price and reference (Speedmaster Moonwatch)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Source of the Sunday Showdown headline",
+      "link": "",
+      "source": "Source of the Sunday Showdown headline",
+      "tier": "to-verify"
+    }
+  ],
+  "scheduled_for": "2026-11-22T19:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-22-1430-would-you-rather-breitling-navitimer-b09",
+  "project_dir": "Content Creation/projects/2026-11-22-1430-would-you-rather-breitling-navitimer-b09",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-22-1430-would-you-rather-breitling-navitimer-b09/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The check passes. I re-confirmed the Omega price ($7,800, ref 310.30.42.50.01.001) on The 1916 Company's page, and the earlier review confirmed the Breitling's $8,400 at Betteridge. Both names now fit on two lines, so the prices on slide 2 line up. The footnote is merged into the cover line, and the two prices are about 8% apart. The Moonwatch also appeared in the Nov 20 Explorer post, but this is a different matchup."
+  }
+}

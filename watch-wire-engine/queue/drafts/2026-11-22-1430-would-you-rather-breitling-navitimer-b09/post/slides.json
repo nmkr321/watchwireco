@@ -1,0 +1,55 @@
+{
+ "source": "Source: Betteridge, The 1916 Company, CD Peacock, OMEGA · prices 22 Nov 2026",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "WOULD YOU RATHER",
+   "line1": "Breitling or Omega?",
+   "line2": "$8.4K vs $7.8K. Which one?",
+   "meta": "Dealer retail prices · 22 Nov 2026",
+   "photo": "watch-wire-engine/library/img/breitling-ab0950211b1a1.jpg",
+   "photo2": "watch-wire-engine/library/img/omega-310-30-42-50-01-001.jpg",
+   "credit": "Image: Breitling · Image: Omega"
+  },
+  {
+   "t": "A-wyr",
+   "tag": "WOULD YOU RATHER",
+   "left": {
+    "brand": "Breitling",
+    "model": "Navitimer B09 Chronograph 41",
+    "price": "$8,400",
+    "photo": "watch-wire-engine/library/img/breitling-ab0950211b1a1.jpg"
+   },
+   "right": {
+    "brand": "Omega",
+    "model": "Moonwatch Professional 42",
+    "price": "$7,800",
+    "photo": "watch-wire-engine/library/img/omega-310-30-42-50-01-001.jpg"
+   },
+   "credit": ""
+  },
+  {
+   "t": "A-photo",
+   "label": "Option A · Breitling",
+   "headline": "Navitimer B09, 41 mm",
+   "photo": "watch-wire-engine/library/img/breitling-ab0950211b1a1.jpg",
+   "credit": "Image: Breitling",
+   "body": "Steel bracelet, black dial. Our take: the pricier of the two, steel on steel.",
+   "source": "Source: Betteridge · 22 Nov 2026"
+  },
+  {
+   "t": "A-photo",
+   "label": "Option B · Omega",
+   "headline": "Moonwatch Professional 42",
+   "photo": "watch-wire-engine/library/img/omega-310-30-42-50-01-001.jpg",
+   "credit": "Image: Omega",
+   "body": "Calibre 3861, Master Chronometer. Our take: the cheaper of the two, with the bigger name.",
+   "source": "Source: The 1916 Company, CD Peacock · 22 Nov 2026"
+  },
+  {
+   "t": "cta",
+   "line1": "Vote in the comments.",
+   "line2": "Breitling or Omega?"
+  }
+ ]
+}

@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY] Before picking a celebrity angle, check queue/approved and recent posts for the same person and watch pairing, including items posted in the last 7 days.
-- [MARKET] When the key figure is on the do-not-repeat list, find a fresh 2026 number from an official brand or trade source before starting the project.
 - [MARKET] Check a fallback candidate with a dated, sourced figure before ending research; never leave a post unstarted after one pick fails.
 - [MARKET] Use a superlative such as "largest" or "leads" only when a verified claim states it; otherwise use the exact figure instead.
 - [MARKET] Before rendering, match each number to the source named beside it on the slide or caption; drop any figure that source does not contain.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [LISTICLE] After any pick is added, removed or swapped, re-derive every headline, folder name and caption number from the final pick list.
 - [LISTICLE] When confirmed in-band picks are below the slide minimum, search more brand pages for candidates before building the project.
 - [LISTICLE] Before finishing, fill every research handoff field (job id, browser trace, governance) and rerun validate until it passes.
+- [WOULD YOU RATHER] Keep each product name to two lines or fewer in side-by-side columns so prices align; shorten official names to a known short form.
+- [WOULD YOU RATHER] Keep footnotes at a legible size with clear space above the footer; merge short source notes into the cover line instead.

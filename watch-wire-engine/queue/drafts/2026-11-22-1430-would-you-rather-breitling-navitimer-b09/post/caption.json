@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Breitling Navitimer B09 Chronograph 41 (AB0950211B1A1) or Omega Speedmaster Moonwatch Professional 42 (310.30.42.50.01.001)? $8,400 vs $7,800.\n\nBoth are steel chronographs in the same price band. Breitling: $8,400 at Betteridge. Omega: $7,800 retail at The 1916 Company and CD Peacock. Prices dated 22 November 2026; dealer prices vary, so check before you buy.\n\nWhich would you rather wear: the Navitimer or the Moonwatch?\n\nSource: Betteridge, The 1916 Company, CD Peacock, OMEGA product sheet, 22 November 2026. Image credits: Image: Breitling, Image: Omega.\n\n#Breitling #Omega #Speedmaster #Navitimer #WatchWire\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4"
+  ],
+  "source_ids": [
+    "SRC-BETTERIDGE",
+    "SRC-1916-OMEGA",
+    "SRC-CDPEACOCK",
+    "SRC-OMEGA-SHEET"
+  ],
+  "attribution": "Data: Betteridge, The 1916 Company, CD Peacock, OMEGA, 22 November 2026.",
+  "caption_credit": "Image credits: Image: Breitling, Image: Omega",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Dealer prices, not official Breitling US list."
+  ],
+  "carousel_sha256": "2bd12b90a64f49424a55eb5f8605550f7ea1d9e990fd0bc9eac4ed3f42e0d6da",
+  "completed_at": "2026-11-22T08:35:51.570Z"
+}

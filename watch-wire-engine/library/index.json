@@ -3045,5 +3045,53 @@
   "credit": "Image: Longines",
   "usage": "Longines L2.949.4.73.6 official product image, credited",
   "fetched": "2026-11-22"
+ },
+ {
+  "kind": "watch",
+  "brand": "Breitling",
+  "ref": "AB0950211B1A1",
+  "title": "Breitling AB0950211B1A1",
+  "source": "https://www.betteridge.com/Breitling-Navitimer-B09-Chronograph-41mm-Mens-Watch-Black-Dial-Stainless-Steel-Bracelet-AB0950211B1A1/p/17533125",
+  "image_url": "https://content.thewosgroup.com/productimage/17533125/17533125_1.jpg",
+  "file": "watch-wire-engine/library/img/breitling-ab0950211b1a1.jpg",
+  "w": 1600,
+  "h": 1600,
+  "ref_on_page": true,
+  "ref_in_image_name": false,
+  "price": {
+   "amount": 8400,
+   "currency": "USD",
+   "source": "https://www.betteridge.com/Breitling-Navitimer-B09-Chronograph-41mm-Mens-Watch-Black-Dial-Stainless-Steel-Bracelet-AB0950211B1A1/p/17533125",
+   "date": "2026-11-22"
+  },
+  "rights": "official",
+  "creator": "Breitling",
+  "credit": "Image: Breitling",
+  "usage": "Breitling AB0950211B1A1 official product image, credited",
+  "fetched": "2026-11-22"
+ },
+ {
+  "kind": "watch",
+  "brand": "Omega",
+  "ref": "310.30.42.50.01.001",
+  "title": "Omega 310.30.42.50.01.001",
+  "source": "https://www.the1916company.com/watches/omega/speedmaster/o31030425001001/",
+  "image_url": "https://watchbox-product-cdn.imgix.net/new-goods/310.30.42.50.01.001.jpg",
+  "file": "watch-wire-engine/library/img/omega-310-30-42-50-01-001.jpg",
+  "w": 1280,
+  "h": 1280,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 7800,
+   "currency": "USD",
+   "source": "https://www.the1916company.com/watches/omega/speedmaster/o31030425001001/",
+   "date": "2026-11-22"
+  },
+  "rights": "official",
+  "creator": "Omega",
+  "credit": "Image: Omega",
+  "usage": "Omega 310.30.42.50.01.001 official product image, credited",
+  "fetched": "2026-11-22"
  }
 ]

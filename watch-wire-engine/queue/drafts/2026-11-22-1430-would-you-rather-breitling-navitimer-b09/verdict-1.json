@@ -1,0 +1,19 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: slide 2 layout is unbalanced. The Omega name wraps to 3 lines, so its price sits lower than the Breitling price. The two columns don't line up."
+  ],
+  "fixes": [
+    "slide 2: shorten the Omega name to 2 lines, for example 'MOONWATCH PROFESSIONAL' or 'SPEEDMASTER MOONWATCH', so both prices sit at the same height. Also keep the Breitling name to 2 lines.",
+    "slide 2: the 'Dealer retail, 22 Nov 2026' footnote is tiny and sits just above the footer. Make it larger or merge it into the cover line so it doesn't crowd the footer."
+  ],
+  "reason": "The Breitling $8,400 price is confirmed at Betteridge, and the check passes. Slide 2's two columns are misaligned (the Omega name runs to 3 lines, which pushes its price lower), so shorten the Omega name and resubmit. I couldn't re-confirm the Omega $7,800 because CD Peacock's page blocked my fetch (HTTP 429)."
+}
