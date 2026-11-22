@@ -1,14 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [WOULD YOU RATHER] Use background-free product photos with no shadow or dark box; size and centre each watch identically on the cover and every slide.
-- [WOULD YOU RATHER] Write each model name identically on every slide and in the caption; shorten it to fit one line, never break it mid-word.
-- [WOULD YOU RATHER] Scale both watch photos to the same measured pixel height and keep them clear of header and credit bands on every slide.
-- [WOULD YOU RATHER] Count words in every slide headline before rendering; keep each within the 2–6 word limit, using the recipe's stock wording when shortening.
-- [WOULD YOU RATHER] Use only the recipe's stock closing or vote line on the final slide; never add extra taglines or accent lines beyond the recipe.
-- [NEWS] Never claim a complete list ("all", "three this year", "the full lineup") unless research.json lists every item; otherwise name the sample covered.
-- [NEWS] Place every fetched photo on a slide, and credit each by source name in its footer and in the caption.
-- [NEWS] Show every watch the cover compares on the cover itself; count the named watches against the cover images before rendering.
 - [NEWS] After rendering, check each big price sits evenly above its headline, keeps the body to one line, and the text block is centred; adjust spacing to match.
 - [NEWS] After rendering, check that no slide label touches or overlaps the big price below it; if they do, fix the template spacing and re-render.
 - [NEWS] Name in the text and caption only photos actually placed on a slide; if a referenced photo is missing, drop that claim and its credit.
@@ -21,3 +13,11 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY] Name a watch in the text only when its own photo appears on that slide; otherwise describe it without the model name.
 - [CELEBRITY] When a celebrity story fails the named-watch or repeat check, choose the next candidate story instead of retrying the same one.
 - [CELEBRITY] Before picking a celebrity angle, check queue/approved and recent posts for the same person and watch pairing, including items posted in the last 7 days.
+- [MARKET] When the key figure is on the do-not-repeat list, find a fresh 2026 number from an official brand or trade source before starting the project.
+- [MARKET] Check a fallback candidate with a dated, sourced figure before ending research; never leave a post unstarted after one pick fails.
+- [MARKET] Use a superlative such as "largest" or "leads" only when a verified claim states it; otherwise use the exact figure instead.
+- [MARKET] Before rendering, match each number to the source named beside it on the slide or caption; drop any figure that source does not contain.
+- [MARKET] Keep every table cell on one line: shorten row labels and values so all rows render at the same height before rendering.
+- [MARKET] Show only the bare number in a table value cell when the row label already names what it measures; drop repeated words like 'of value'.
+- [MARKET] Count the cover headline's words against the six-word maximum before rendering; shorten it until it fits.
+- [MARKET] Give each slide a new fact, never repeating an earlier slide's figure; caption any figure older than a few weeks with its report date.

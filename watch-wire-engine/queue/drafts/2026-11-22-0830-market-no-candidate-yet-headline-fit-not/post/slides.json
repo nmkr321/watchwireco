@@ -1,0 +1,63 @@
+{
+  "source": "Source: Swatch Group H1 2026, via Monochrome",
+  "slides": [
+    {
+      "t": "A-cover",
+      "tag": "MARKET",
+      "line1": "Swatch sales",
+      "line2": "[[up 8.5% in H1]]",
+      "meta": "At constant exchange rates · Jan-Jun 2026",
+      "footLeft": "Source: Swatch Group · H1 2026"
+    },
+    {
+      "t": "A-number",
+      "tag": "MARKET",
+      "number": "+8.5%",
+      "label": "Swatch Group sales · constant FX · H1 2026",
+      "headline": "CHF 3,121 million in six months",
+      "body": "Up from CHF 3,059 million in H1 2025."
+    },
+    {
+      "t": "A-table",
+      "label": "Net sales · H1 2025 vs H1 2026",
+      "headline": "Currency cut the growth",
+      "cols": [
+        "Period",
+        "Net sales",
+        "Change"
+      ],
+      "rows": [
+        [
+          "H1 2025",
+          "CHF 3,059m",
+          "Base"
+        ],
+        [
+          "H1 2026",
+          "CHF 3,121m",
+          "+2.0%"
+        ],
+        [
+          "Constant FX",
+          "n/a",
+          "+8.5%"
+        ]
+      ],
+      "hl": 2,
+      "body": "Currency took about 6.5 points off growth. Our calc: 8.5% minus 2.0%."
+    },
+    {
+      "t": "A-list",
+      "label": "What the figure leaves out",
+      "headline": "Read the 8.5% carefully",
+      "items": [
+        "Net sales, not profit.",
+        "Constant FX removes currency swings.",
+        "Franc effect: almost CHF 200 million, per Monochrome."
+      ]
+    },
+    {
+      "t": "cta"
+    }
+  ]
+}

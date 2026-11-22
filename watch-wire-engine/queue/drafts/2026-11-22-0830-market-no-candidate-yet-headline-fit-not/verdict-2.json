@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 2: the 'almost CHF 200 million' franc effect on slide 4 is not a verified claim in research.json. I confirmed it on Monochrome, but it needs to be added as a claim.",
+    "Gate 10: the results are from 21 July, four months old, so the post gives little reason to save or share. Soft total is 15/25, below the 17 needed.",
+    "Slide text in carousel.json does not match the rendered slides: the cover headline and slide 4 differ."
+  ],
+  "fixes": [
+    "Add the franc effect ('negative currency effects of almost CHF 200 million', Monochrome) to research.json as a verified claim, and tie it to slide 4 in carousel.json.",
+    "Sync carousel.json with the rendered slides: the cover should read 'Swatch sales up 8.5% in H1', and slide 4 should show the text now rendered.",
+    "slide 4: the small label repeats the headline ('Read the number carefully' above 'Read the 8.5% carefully'). Change the label to something new, such as 'What the figure leaves out'.",
+    "slide 3: replace the awkward 'Not given' cell in the Constant FX row with a bare value such as 'n/a', or drop that cell. Slides 2 and 3 also repeat the CHF totals, so give slide 3 a new fact.",
+    "Swap this for a fresher 2026 market figure, or add a timely angle such as a current Swatch or industry update. A July half-year result is not news in late November."
+  ],
+  "reason": "The numbers check out against Monochrome and the validator says PASS. But the news is four months old, slide 4 repeats its own label, the carousel.json text doesn't match the rendered slides, and the soft total is 15/25."
+}

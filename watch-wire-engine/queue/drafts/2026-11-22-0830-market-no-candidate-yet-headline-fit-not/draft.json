@@ -1,0 +1,16 @@
+{
+ "status": "ready",
+ "project_dir": "Content Creation/projects/2026-11-22-0830-market-no-candidate-yet-headline-fit-not",
+ "format": "MARKET",
+ "lane": "news",
+ "headline": "Swatch sales up 8.5% in H1",
+ "slides": [
+  "output/slide-01.png",
+  "output/slide-02.png",
+  "output/slide-03.png",
+  "output/slide-04.png",
+  "output/slide-05.png"
+ ],
+ "caption_file": "caption.json",
+ "stop_reason": ""
+}

@@ -401,3 +401,20 @@
 2026-11-22T03:53:11.413Z	learn 202611220350-movie-pattinson-pinewood-robert-studio-t	claude-haiku-5-5	0.0019	2
 2026-11-22T06:58:27.422Z	triage 202611220658-breitling-chronograph-moonwatch-navitime	claude-haiku-5-5	0.0044	3
 2026-11-22T07:44:12.399Z	planner	claude-haiku-5-5	0.0078	4
+2026-11-22T08:12:14.418Z	editor 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0157	4
+2026-11-22T08:12:20.171Z	learn 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0045	2
+2026-11-22T08:13:36.752Z	editor 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0522	19
+2026-11-22T08:14:01.165Z	approver 2026-11-22-0830-market-no-candidate-yet-headline-fit-not r1	claude-sonnet-5-5	0.1159	13
+2026-11-22T08:14:05.022Z	learn 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0019	2
+2026-11-22T08:14:29.558Z	editor-revise 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0055	12
+2026-11-22T08:14:49.007Z	approver 2026-11-22-0830-market-no-candidate-yet-headline-fit-not r2	claude-sonnet-5-5	0.0917	13
+2026-11-22T08:15:04.288Z	editor-revise 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0030	4
+2026-11-22T08:15:21.657Z	approver 2026-11-22-0830-market-no-candidate-yet-headline-fit-not r3	claude-sonnet-5-5	0.0762	11
+2026-11-22T08:15:27.012Z	learn 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0020	2
+2026-11-22T08:16:52.004Z	editor 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0322	20
+2026-11-22T08:17:11.757Z	approver 2026-11-22-0830-market-no-candidate-yet-headline-fit-not r1	claude-sonnet-5-5	0.0680	9
+2026-11-22T08:17:18.604Z	learn 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0022	2
+2026-11-22T08:17:55.162Z	editor-revise 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0085	9
+2026-11-22T08:18:14.846Z	approver 2026-11-22-0830-market-no-candidate-yet-headline-fit-not r2	claude-sonnet-5-5	0.0851	11
+2026-11-22T08:19:12.932Z	editor-revise 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0264	12
+2026-11-22T08:19:30.885Z	approver 2026-11-22-0830-market-no-candidate-yet-headline-fit-not r3	claude-sonnet-5-5	0.0747	11

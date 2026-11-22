@@ -1,0 +1,52 @@
+{
+  "id": "2026-11-22-0830-market-no-candidate-yet-headline-fit-not",
+  "status": "approved",
+  "found_at": "2026-11-22T07:44:12.400Z",
+  "lane": "news",
+  "format": "MARKET",
+  "post_at": "2026-11-22T13:30:00.000Z",
+  "slot": 1,
+  "title": "MARKET: no candidate yet (headline fit not found)",
+  "hook": "No candidate. The only headline with a market number, Swiss watch exports +9.1% in October, is on the do-not-repeat list. Fallback: an official 2026 release from a brand press page.",
+  "why": "Slot needs a key number from a trusted source. None was found in the headlines or in FORMATS.md, and no web check was run.",
+  "sources_to_check": [
+    "Federation of the Swiss Watch Industry (FH) monthly export release",
+    "Brand press pages (official 2026 releases)"
+  ],
+  "sources": [
+    {
+      "title": "Federation of the Swiss Watch Industry (FH) monthly export release",
+      "link": "",
+      "source": "Federation of the Swiss Watch Industry (FH) monthly export release",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand press pages (official 2026 releases)",
+      "link": "",
+      "source": "Brand press pages (official 2026 releases)",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "No usable MARKET candidate. The only key number found (Swiss watch exports +9.1% in October 2026, FH via Keystone-SDA/Bloomberg) is on the do-not-repeat list. No fallback candidate (official 2026 brand press release with a number) was found or checked, so no project was started.",
+    "The $10.5B, +37.2% figure checks out. JCK confirms it, citing EveryWatch's 30 July report, and the sourcing and the earlier fixes are now correct. Slide 3 still has wrapping table cells that make the rows uneven, so it needs a layout fix before approval. / Gate 6: slide 3 table rows wrap unevenly. 'US AND CANADA SALES', '41% of value' and '$633.8 million' each break onto two lines. The rows end up different heights, and I would nudge this slide by hand. / slide 3: change the row label 'US and Canada sales' to 'US and Canada' so it fits on one line. / slide 3: change the Rolex change cell '41% "
+  ],
+  "scheduled_for": "2026-11-22T13:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-22-0830-market-no-candidate-yet-headline-fit-not",
+  "project_dir": "Content Creation/projects/2026-11-22-0830-market-no-candidate-yet-headline-fit-not",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-22-0830-market-no-candidate-yet-headline-fit-not/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 2,
+      "hook": 3,
+      "visual": 4,
+      "clarity": 5,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The check passes. Every figure (CHF 3,121m vs 3,059m, +8.5% at constant exchange rates, about CHF 200m currency hit) matches the Monochrome article, which I re-fetched and which is dated 21 July 2026. Layouts are centred, and the caption dates the figures and credits both outlets. The news is four months old, so it scores low on timeliness, but the post is clearly labelled and adds a useful point: reported growth was only 2.0%, against 8.5% at constant exchange rates."
+  }
+}

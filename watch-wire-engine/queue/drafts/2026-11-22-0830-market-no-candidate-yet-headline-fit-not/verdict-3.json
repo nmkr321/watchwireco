@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 4,
+    "clarity": 5,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. Every figure (CHF 3,121m vs 3,059m, +8.5% at constant exchange rates, about CHF 200m currency hit) matches the Monochrome article, which I re-fetched and which is dated 21 July 2026. Layouts are centred, and the caption dates the figures and credits both outlets. The news is four months old, so it scores low on timeliness, but the post is clearly labelled and adds a useful point: reported growth was only 2.0%, against 8.5% at constant exchange rates."
+}

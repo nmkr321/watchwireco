@@ -26,5 +26,9 @@
       "source": "Brand press pages (official 2026 releases)",
       "tier": "to-verify"
     }
+  ],
+  "previous_attempts": [
+    "No usable MARKET candidate. The only key number found (Swiss watch exports +9.1% in October 2026, FH via Keystone-SDA/Bloomberg) is on the do-not-repeat list. No fallback candidate (official 2026 brand press release with a number) was found or checked, so no project was started.",
+    "The $10.5B, +37.2% figure checks out. JCK confirms it, citing EveryWatch's 30 July report, and the sourcing and the earlier fixes are now correct. Slide 3 still has wrapping table cells that make the rows uneven, so it needs a layout fix before approval. / Gate 6: slide 3 table rows wrap unevenly. 'US AND CANADA SALES', '41% of value' and '$633.8 million' each break onto two lines. The rows end up different heights, and I would nudge this slide by hand. / slide 3: change the row label 'US and Canada sales' to 'US and Canada' so it fits on one line. / slide 3: change the Rolex change cell '41% "
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: footer source line is cut off with '…' on slides 2, 3 and 4",
+    "Owner rule: cover headline is 7 words (max 6)",
+    "Gate 10: the results are from 21 July, four months old, and slides 3 and 4 repeat each other"
+  ],
+  "fixes": [
+    "slide 1: shorten the headline to 6 words or fewer, e.g. 'Swatch sales up 8.5% in H1'",
+    "slides 2-4: shorten the footer source to fit on one line with no '…', e.g. 'Source: Swatch Group H1 2026, via Monochrome'",
+    "slide 4: replace the repeated currency and 2.0% lines with a new point, such as 'Net sales, not profit' plus what the franc effect was (almost CHF 200 million per Monochrome). Drop the closing line that repeats slide 3.",
+    "slide 2: cut the body to about 12 words, e.g. 'Up from CHF 3,059 million in H1 2025.'",
+    "caption: add a line saying the figures are from the July 2026 half-year report, so the post doesn't read as fresh news"
+  ],
+  "reason": "The numbers check out against Monochrome and the validator says PASS. But the cover headline is too long, the footers are cut off, slides 3 and 4 repeat each other, and four-month-old results make the news value thin."
+}

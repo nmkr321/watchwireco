@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Swatch Group H1 2026 net sales: CHF 3,121 million, up 8.5% at constant exchange rates.\n\nIn reported francs, sales rose only 2.0%: CHF 3,121 million against CHF 3,059 million in H1 2025. The strong franc took about 6.5 points off the headline growth (our calculation).\n\nThese are net sales, not profit. Half-year results came out on 21 July 2026 (figures as of that report).\n\nTimely angle: Swatch Group USA reportedly named Bertrand Delvert its CEO in November 2026 (via Watch Collecting Lifestyle, 3 Nov 2026).\n\nWhich number matters more to you, the constant-currency growth or the franc-reported one?\n\nSource: Swatch Group H1 2026 results, as reported by Monochrome Watches and Asharq Al-Awsat, 21 July 2026; CEO news via Watch Collecting Lifestyle, 3 Nov 2026.\n\n#Swatch #SwissWatches #WatchIndustry\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4"
+  ],
+  "source_ids": [
+    "SRC-MONO",
+    "SRC-AAWSAT",
+    "SRC-WCL"
+  ],
+  "attribution": "Data: Swatch Group H1 2026 results, via Monochrome Watches and Asharq Al-Awsat, 21 July 2026.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Official Swatch release not readable; figures from two trade outlets. No brand-level data."
+  ],
+  "carousel_sha256": "35c6982263b8768e6b8c343fead85ae21a3211e16f05d672ec0339b9da0d936e",
+  "completed_at": "2026-11-22T08:19:03.781Z"
+}
