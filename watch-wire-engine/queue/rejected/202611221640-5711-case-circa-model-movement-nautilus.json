@@ -1,0 +1,24 @@
+{
+  "id": "202611221640-5711-case-circa-model-movement-nautilus",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-22T16:40:04.784Z",
+  "title": "NAUTILUS MODEL, REF. 5711/1A-010, MOVEMENT NO. 7'033'507, CASE NO. 6'160'997, CIRCA 2016",
+  "score": 7,
+  "sources": [
+    {
+      "title": "NAUTILUS MODEL, REF. 5711/1A-010, MOVEMENT NO. 7'033'507, CASE NO. 6'160'997, CIRCA 2016",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLRWxSSHJHbDdfVHAwUWZLR2poU3dvNjJEcmc1TVVwOGFrZ01UbHpuQllwQWFLLTlpajBNd3RGeTI4MDNFWmpvNDVkQTI1bHZWeGFOdjhJZw?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Christie’s",
+      "domain": "christies.com",
+      "tier": "primary",
+      "published": "Sun, 22 Nov 2026 15:06:21 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NEWS",
+    "reason": "Single 2016 Nautilus 5711/1A-010 catalogue listing from Christie's, not a record result, price change, launch, or industry news. Not breaking; do not post."
+  }
+}
