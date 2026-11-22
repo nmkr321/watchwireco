@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 7: the slide 2 option B photo is a different reference from the one named. The manifest shows Oris 01 733 7721 4051-07 5 21 64FC, but the slide says 01 733 7810 4051.",
+    "Gate 7: the Tudor Ranger and Seiko prices come from independent retailers. The Tudor claim carries no US label.",
+    "Gate 10: slide 2 gives two near-identical $2,200 Oris watches in one tier, which is weak variety. The post is also cut from the 3-watch format to 2 tiers with no strong niche."
+  ],
+  "fixes": [
+    "slide 2: Use a photo of the exact Oris 01 733 7810 4051 (the official Oris image). If none is available, replace option B with a different dress watch that has a dated price and a cleared photo.",
+    "slide 2: Swap one Oris for a different brand's dress watch so the tier isn't two near-identical $2,200 Oris.",
+    "slide 3: Seiko SRPL13 is a diver, not a field watch. Use matching tool watches, or retitle the slide 'Tool watch' consistently with a diver option.",
+    "slide 4: Rewrite the headline to match the slide 3 types (e.g. 'Dress plus tool watch'). Don't pre-pick a pairing.",
+    "slide 3: Put the Tudor price in a US-dated claim, or pick a tier option with a brand or official price.",
+    "slides 2 and 3: Reduce the large gap between the photos and the text, and make the watch sizes consistent. The Tudor and Oris look small next to the Seiko."
+  ],
+  "reason": "The $6,300 collection post fails on a mismatched photo: option B shows a different Oris reference from the one named. The tier variety is also weak. Fix the photo and the type labels, then resubmit."
+}

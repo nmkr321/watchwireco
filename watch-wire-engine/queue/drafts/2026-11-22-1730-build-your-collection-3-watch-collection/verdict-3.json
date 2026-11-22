@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Gate 7: assets/manifest.json lists only 6 photos. The slide photos for NOMOS Tangente 165, Hamilton Khaki Navy Frogman and Seiko SRPL13 are missing from it, so their rights status is unrecorded.",
+    "Gate 7: the manifest's Seiko entry (asset-5) is an SPB121 Alpinist placeholder reading 'Live images coming soon'. The slide uses a different file, norm/seiko-srpl13.png, with no manifest entry.",
+    "Gate 7: the Seiko image is supplied by Exquisite Timepieces, an independent retailer, and not the brand or an official retailer. Its 'official' rights status is unproven.",
+    "Gate 7: the Oris cover and slide photos come from the Watches of Switzerland and Exquisite Timepieces URLs, with the Oris 7721 image (asset-2) unused. The mapping from each photo to its manifest entry is unclear."
+  ],
+  "fixes": [
+    "Manifest: add an entry for every photo on slides 1 to 3 (Oris 7810, NOMOS 165, Longines, Hamilton Khaki Field, Seiko SRPL13, Hamilton Frogman). Each needs its real source URL and rights 'official' or 'licensed'. Remove the Alpinist placeholder and the unused Tudor and Oris 7721 entries.",
+    "Slide 3 option B: replace the Seiko SRPL13 photo with one from Seiko or an official Seiko retailer, or swap the watch for one with a rights-cleared photo and a dated price. Update CLM-5 and the caption to match.",
+    "Caption: after the swap, make the photo credits and source line match the final sources."
+  ],
+  "reason": "The slide text, prices and layout are fine, and the check passes. But three slide photos are missing from the rights manifest, and the Seiko photo is from an independent retailer with an unverified licence. Record the rights for each photo or replace the Seiko image, then it can go out."
+}

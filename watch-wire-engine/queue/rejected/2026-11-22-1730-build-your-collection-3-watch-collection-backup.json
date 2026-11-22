@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-22-1730-build-your-collection-3-watch-collection-backup",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-22T08:47:44.450Z",
+  "post_at": "2026-11-22T22:30:00.000Z",
+  "backup_for": "2026-11-22-1730-build-your-collection-3-watch-collection",
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: BUILD YOUR COLLECTION: 3-watch collection, $15K total (field, gold, leather dress)",
+  "hook": "",
+  "why": "Backup post. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "The draft is stuck: the last revision stopped without changing anything, so it still has repeated watches and a slide that repeats its price. It needs five new steel picks with verified November prices before it can be approved. / Draft status is 'stopped': the earlier revision was never applied. / Gate 9: some picks repeat watches already featured in recent posts. The draft's own stop note says so, and I did not check the posted list myself. / Lesson: slide 6 body repeats the price already in its eyebrow line. / Gate 2: the replacement picks' November 2026 prices were never confirmed, because",
+    "The check passes, but two slides show a price date (21 Nov) that doesn't match the verified date (22 Nov), and slide 5 has a grey smudge under the Longines watch. Fix those and the post should be ready. / Gate 2: slide 3 dates the Hamilton price 21 Nov 2026 and slide 6 dates the Tissot price 21 Nov 2026. The verified claims (CLM-2, CLM-5) are both dated 22 Nov 2026. / Gate 6: slide 5 has a grey smudge or shadow under the Longines watch, which counts as a stray shape. / slide 3: change the price eyebrow date to '22 NOV 2026' so it matches CLM-2. / slide 6: change the price eyebrow date to '22 N"
+  ],
+  "stop_reason": "Slide 4 (Cartier Tank Must, WSTA0106): the background-removed photo leaves a grey halo along the left edge of the bracelet. It counts as a stray shape. Needs a cleaner Cartier photo or an owner decision before approval. All prices are dated and sourced; the Cartier page shows 'Unavailable online', so check availability before the post goes out.",
+  "gave_up": true
+}

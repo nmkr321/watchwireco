@@ -1,0 +1,20 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Gate 8: the caption's source line is inaccurate. It reads 'Oris, NOMOS, Longines, Hamilton, Hamilton (Khaki Navy Frogman) and Seiko SRPL13 price pages'. Hamilton is listed twice. The Oris price came from Watches of Switzerland and the Seiko price from Exquisite Timepieces, not from brand pages."
+  ],
+  "fixes": [
+    "caption: Rewrite the source line to name the real sources once each: Watches of Switzerland (Oris), NOMOS, Longines, Hamilton (Khaki Field and Khaki Navy Frogman) and Exquisite Timepieces (Seiko SRPL13), all US prices dated 20–22 Nov 2026.",
+    "caption: Name all six watches in the opening line, or use a general lead such as 'Six watches, two tiers' instead of listing only three.",
+    "slide 4: Add a verified or useful pointer in the body (for example a price spread) or keep it as is. This is optional and not a blocker."
+  ],
+  "reason": "The slides pass the check and every price matches a verified claim. The caption's source line is wrong, though: Hamilton appears twice and two retailer sources are credited to brands. Fix that and it can go out."
+}

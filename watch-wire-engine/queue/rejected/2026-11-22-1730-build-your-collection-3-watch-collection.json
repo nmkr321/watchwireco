@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-22-1730-build-your-collection-3-watch-collection",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-22T07:44:12.400Z",
+  "lane": "rotation",
+  "format": "BUILD YOUR COLLECTION",
+  "post_at": "2026-11-22T22:30:00.000Z",
+  "slot": 4,
+  "title": "BUILD YOUR COLLECTION: 3-watch collection, $15K total (field, gold, leather dress)",
+  "hook": "Build Your 3-Watch Collection. $15K Total.",
+  "why": "Tier types are new (field, gold, leather dress), not the dress/sports/chronograph set already posted. Viewer builds the collection; each option must sit under its tier cap. References and prices are unverified.",
+  "sources_to_check": [
+    "Each brand's US price page (dated, US retail, Nov 2026)",
+    "Brand press pages for reference confirmation"
+  ],
+  "sources": [
+    {
+      "title": "Each brand's US price page (dated, US retail, Nov 2026)",
+      "link": "",
+      "source": "Each brand's US price page (dated, US retail, Nov 2026)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand press pages for reference confirmation",
+      "link": "",
+      "source": "Brand press pages for reference confirmation",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Not enough verified options to finish. Field tier has three options with official or retailer prices and photos (Hamilton H69529933 $795, Seiko SPB121 $543, Tudor M79950-0003 $3,675). Gold tier has only one usable option with a photo (Longines L2.628.5.77.7 $4,450, Reeds, 22 Nov 2026); it needs two ",
+    "Not enough verified options to finish (attempt 3). Field tier is ready: Hamilton H69529933 $795, Seiko SPB121 $543, Tudor M79950-0003 $3,675 (dated 22 Nov 2026, photos in library). Dress tier is ready: Oris Artelier Date 01 733 7810 4054 07 6, 4051 and 4055, $2,200 each (Watches of Switzerland, 21-2"
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 2,
+      "hook": 4,
+      "visual": 3,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [
+      "Gate 7: assets/manifest.json lists only 6 photos. The slide photos for NOMOS Tangente 165, Hamilton Khaki Navy Frogman and Seiko SRPL13 are missing from it, so their rights status is unrecorded.",
+      "Gate 7: the manifest's Seiko entry (asset-5) is an SPB121 Alpinist placeholder reading 'Live images coming soon'. The slide uses a different file, norm/seiko-srpl13.png, with no manifest entry.",
+      "Gate 7: the Seiko image is supplied by Exquisite Timepieces, an independent retailer, and not the brand or an official retailer. Its 'official' rights status is unproven.",
+      "Gate 7: the Oris cover and slide photos come from the Watches of Switzerland and Exquisite Timepieces URLs, with the Oris 7721 image (asset-2) unused. The mapping from each photo to its manifest entry is unclear."
+    ],
+    "fixes": [
+      "Manifest: add an entry for every photo on slides 1 to 3 (Oris 7810, NOMOS 165, Longines, Hamilton Khaki Field, Seiko SRPL13, Hamilton Frogman). Each needs its real source URL and rights 'official' or 'licensed'. Remove the Alpinist placeholder and the unused Tudor and Oris 7721 entries.",
+      "Slide 3 option B: replace the Seiko SRPL13 photo with one from Seiko or an official Seiko retailer, or swap the watch for one with a rights-cleared photo and a dated price. Update CLM-5 and the caption to match.",
+      "Caption: after the swap, make the photo credits and source line match the final sources."
+    ],
+    "reason": "The slide text, prices and layout are fine, and the check passes. But three slide photos are missing from the rights manifest, and the Seiko photo is from an independent retailer with an unverified licence. Record the rights for each photo or replace the Seiko image, then it can go out."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-22-1730-build-your-collection-3-watch-collection",
+  "gave_up": true
+}
