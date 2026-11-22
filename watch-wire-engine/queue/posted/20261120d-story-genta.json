@@ -1,60 +1,72 @@
 {
- "id": "20261120d-story-genta",
- "lane": "history",
- "format": "STORY BEHIND",
- "status": "posted",
- "found_at": "2026-11-20T22:18:00Z",
- "post_at": "2026-11-20T23:30:00Z",
- "title": "G\u00e9rald Genta: the man who designed both the Royal Oak and the Nautilus",
- "hook": "One Man Designed The Royal Oak And The Nautilus.",
- "why": "STORY BEHIND, person type (Template D, D-cover has tag 'STORY BEHIND'). Earlier attempts found sound sources: Sotheby's, Gear Patrol and Wikipedia name Genta as designer of both; Royal Oak 1972 on Audemars Piguet's own archive; Nautilus 1976. Drop the 'designed overnight / napkin' anecdote unless two outlets confirm it. The cover-credit legibility problem was a template issue and is now fixed. Photos in the library: person-g-rald-genta.jpg (CC BY-SA 3.0), commons-audemars-piguet-royal-oak-ref-15202.jpg (modern 15202, say so), commons-patek-philippe-nautilus-5711-1a-010-1.jpg (modern 5711, say so). Do not put body text over a dial: if a photo's subject sits where the text goes, use the slide without a photo. 7-8 slides.",
- "sources": [
-  {
-   "title": "Audemars Piguet Royal Oak history",
-   "link": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak.html",
-   "source": "Audemars Piguet",
-   "tier": "official"
+  "id": "20261120d-story-genta",
+  "lane": "history",
+  "format": "STORY BEHIND",
+  "status": "posted",
+  "found_at": "2026-11-20T22:18:00Z",
+  "post_at": "2026-11-20T23:30:00Z",
+  "title": "Gérald Genta: the man who designed both the Royal Oak and the Nautilus",
+  "hook": "One Man Designed The Royal Oak And The Nautilus.",
+  "why": "STORY BEHIND, person type (Template D, D-cover has tag 'STORY BEHIND'). Earlier attempts found sound sources: Sotheby's, Gear Patrol and Wikipedia name Genta as designer of both; Royal Oak 1972 on Audemars Piguet's own archive; Nautilus 1976. Drop the 'designed overnight / napkin' anecdote unless two outlets confirm it. The cover-credit legibility problem was a template issue and is now fixed. Photos in the library: person-g-rald-genta.jpg (CC BY-SA 3.0), commons-audemars-piguet-royal-oak-ref-15202.jpg (modern 15202, say so), commons-patek-philippe-nautilus-5711-1a-010-1.jpg (modern 5711, say so). Do not put body text over a dial: if a photo's subject sits where the text goes, use the slide without a photo. 7-8 slides.",
+  "sources": [
+    {
+      "title": "Audemars Piguet Royal Oak history",
+      "link": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak.html",
+      "source": "Audemars Piguet",
+      "tier": "official"
+    }
+  ],
+  "previous_attempts": [
+    "The facts, sources, photo rights and credits check out, and validation passes. The Nautilus slide has text running over the watch dial, and slides 5 and 6 repeat what slides 1 to 3 already said, so the post scores 16/25. / 6: slide 3 puts the headline and the champagne '1976' on top of the Nautilus dial. The photo is heavily dimmed, so the block looks crowded and overlapping the watch instead of sitting deliberately under a photo. / Soft total is 16/25, under the 17 needed to approve. / slide 3: Put the Nautilus photo in its own clear area, with the text block placed under it and the credit vi",
+    "The Genta story is a good hook, but two beats (IWC Ingenieur 1976, Pasha 1985) have no verified claims behind them, and the Nautilus photo slide has text over the dial. Fix the sourcing and that layout, then resubmit. / slides 5-6: delete them, or add verified claims for the IWC Ingenieur and Pasha facts to research.json, each from two outlets, and cite the outlets. Drop 'another steel sports design' unless it is sourced. / slide 3: shorten the text to one line, e.g. 'Patek Philippe launches the Nautilus.', and move the block clear of the dial, or use a text-only slide with the photo credit mo"
+  ],
+  "scheduled_for": "2026-11-20T23:30:00Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/20261120d-story-genta",
+  "project_dir": "watch-wire-engine/queue/drafts/20261120d-story-genta/cc",
+  "post_dir": "watch-wire-engine/queue/drafts/20261120d-story-genta/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 3,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The check passes. Sotheby's confirms every fact on the slides: Genta's dates, the Royal Oak and its diving-helmet inspiration, the 1976 Nautilus and Ingenieur, and Cartier's Pasha invitation around 1985. Template D is used consistently, the Wikimedia photos are credited on slides and in the caption, and the layouts are balanced. Visual scores 3 because the Ingenieur and Pasha slides have no photo."
+  },
+  "posted_at": "2026-11-20T23:32:34.946Z",
+  "publish": {
+    "live": true,
+    "media_id": "18172438672505924",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png",
+        "slide-08.png"
+      ],
+      "caption_chars": 623
+    },
+    "permalink": "https://www.instagram.com/p/Df-19mHmvkI/"
+  },
+  "insights": {
+    "d1": {
+      "at": "2026-11-22T07:43:47.930Z",
+      "likes": 3,
+      "comments": 0,
+      "reach": 3,
+      "saved": 0,
+      "shares": 0,
+      "views": 16,
+      "total_interactions": 3
+    }
   }
- ],
- "previous_attempts": [
-  "The facts, sources, photo rights and credits check out, and validation passes. The Nautilus slide has text running over the watch dial, and slides 5 and 6 repeat what slides 1 to 3 already said, so the post scores 16/25. / 6: slide 3 puts the headline and the champagne '1976' on top of the Nautilus dial. The photo is heavily dimmed, so the block looks crowded and overlapping the watch instead of sitting deliberately under a photo. / Soft total is 16/25, under the 17 needed to approve. / slide 3: Put the Nautilus photo in its own clear area, with the text block placed under it and the credit vi",
-  "The Genta story is a good hook, but two beats (IWC Ingenieur 1976, Pasha 1985) have no verified claims behind them, and the Nautilus photo slide has text over the dial. Fix the sourcing and that layout, then resubmit. / slides 5-6: delete them, or add verified claims for the IWC Ingenieur and Pasha facts to research.json, each from two outlets, and cite the outlets. Drop 'another steel sports design' unless it is sourced. / slide 3: shorten the text to one line, e.g. 'Patek Philippe launches the Nautilus.', and move the block clear of the dial, or use a text-only slide with the photo credit mo"
- ],
- "scheduled_for": "2026-11-20T23:30:00Z",
- "draft_dir": "watch-wire-engine/queue/drafts/20261120d-story-genta",
- "project_dir": "watch-wire-engine/queue/drafts/20261120d-story-genta/cc",
- "post_dir": "watch-wire-engine/queue/drafts/20261120d-story-genta/post",
- "verdict": {
-  "decision": "approve",
-  "post_timing": "next_slot",
-  "soft_scores": {
-   "news": 3,
-   "hook": 4,
-   "visual": 3,
-   "clarity": 4,
-   "taste": 4
-  },
-  "hard_gate_failures": [],
-  "fixes": [],
-  "reason": "The check passes. Sotheby's confirms every fact on the slides: Genta's dates, the Royal Oak and its diving-helmet inspiration, the 1976 Nautilus and Ingenieur, and Cartier's Pasha invitation around 1985. Template D is used consistently, the Wikimedia photos are credited on slides and in the caption, and the layouts are balanced. Visual scores 3 because the Ingenieur and Pasha slides have no photo."
- },
- "posted_at": "2026-11-20T23:32:34.946Z",
- "publish": {
-  "live": true,
-  "media_id": "18172438672505924",
-  "plan": {
-   "slides": [
-    "slide-01.png",
-    "slide-02.png",
-    "slide-03.png",
-    "slide-04.png",
-    "slide-05.png",
-    "slide-06.png",
-    "slide-07.png",
-    "slide-08.png"
-   ],
-   "caption_chars": 623
-  },
-  "permalink": "https://www.instagram.com/p/Df-19mHmvkI/"
- }
 }

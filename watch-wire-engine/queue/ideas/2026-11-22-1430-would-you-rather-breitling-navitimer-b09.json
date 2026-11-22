@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-22-1430-would-you-rather-breitling-navitimer-b09",
+  "status": "idea",
+  "found_at": "2026-11-22T07:44:12.400Z",
+  "lane": "rotation",
+  "format": "WOULD YOU RATHER",
+  "post_at": "2026-11-22T19:30:00.000Z",
+  "slot": 3,
+  "title": "WOULD YOU RATHER: Breitling Navitimer B09 Chronograph 41 vs Omega Speedmaster Moonwatch",
+  "hook": "Breitling Navitimer B09 or Omega Speedmaster Moonwatch? Vote in the comments.",
+  "why": "Ties to today's Sunday Showdown headline. Needs prices within about 10% of each other (SAME MONEY tag if they match). Risk: close to the already-posted Moonwatch 'same money' post; drop it if that is judged too close.",
+  "sources_to_check": [
+    "Breitling US price and reference (B09 Chronograph 41)",
+    "Omega US price and reference (Speedmaster Moonwatch)",
+    "Source of the Sunday Showdown headline"
+  ],
+  "sources": [
+    {
+      "title": "Breitling US price and reference (B09 Chronograph 41)",
+      "link": "",
+      "source": "Breitling US price and reference (B09 Chronograph 41)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Omega US price and reference (Speedmaster Moonwatch)",
+      "link": "",
+      "source": "Omega US price and reference (Speedmaster Moonwatch)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Source of the Sunday Showdown headline",
+      "link": "",
+      "source": "Source of the Sunday Showdown headline",
+      "tier": "to-verify"
+    }
+  ]
+}

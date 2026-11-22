@@ -78,5 +78,17 @@
       ],
       "caption_chars": 531
     }
+  },
+  "insights": {
+    "d1": {
+      "at": "2026-11-22T07:43:44.399Z",
+      "likes": 3,
+      "comments": 0,
+      "reach": 3,
+      "saved": 0,
+      "shares": 0,
+      "views": 16,
+      "total_interactions": 3
+    }
   }
 }

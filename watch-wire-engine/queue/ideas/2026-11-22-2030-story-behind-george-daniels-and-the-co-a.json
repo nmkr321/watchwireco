@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-22-2030-story-behind-george-daniels-and-the-co-a",
+  "status": "idea",
+  "found_at": "2026-11-22T07:44:12.400Z",
+  "lane": "history",
+  "format": "STORY BEHIND",
+  "post_at": "2026-11-23T01:30:00.000Z",
+  "slot": 5,
+  "title": "STORY BEHIND: George Daniels and the co-axial escapement",
+  "hook": "A watchmaker solved a 200-year-old problem, then gave the answer to Omega",
+  "why": "Tension hook with a person who changed watchmaking. Avoids Genta, Breguet and Wilsdorf (already posted or used). Launch date and the Daniels story are unverified; no On This Day check for 22 November was run.",
+  "sources_to_check": [
+    "Omega official history pages (co-axial escapement launch date)",
+    "Antiquarian Horology and a Daniels biography",
+    "Omega press pages for the co-axial history"
+  ],
+  "sources": [
+    {
+      "title": "Omega official history pages (co-axial escapement launch date)",
+      "link": "",
+      "source": "Omega official history pages (co-axial escapement launch date)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Antiquarian Horology and a Daniels biography",
+      "link": "",
+      "source": "Antiquarian Horology and a Daniels biography",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Omega press pages for the co-axial history",
+      "link": "",
+      "source": "Omega press pages for the co-axial history",
+      "tier": "to-verify"
+    }
+  ]
+}

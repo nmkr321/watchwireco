@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-22-1730-build-your-collection-3-watch-collection",
+  "status": "idea",
+  "found_at": "2026-11-22T07:44:12.400Z",
+  "lane": "rotation",
+  "format": "BUILD YOUR COLLECTION",
+  "post_at": "2026-11-22T22:30:00.000Z",
+  "slot": 4,
+  "title": "BUILD YOUR COLLECTION: 3-watch collection, $15K total (field, gold, leather dress)",
+  "hook": "Build Your 3-Watch Collection. $15K Total.",
+  "why": "Tier types are new (field, gold, leather dress), not the dress/sports/chronograph set already posted. Viewer builds the collection; each option must sit under its tier cap. References and prices are unverified.",
+  "sources_to_check": [
+    "Each brand's US price page (dated, US retail, Nov 2026)",
+    "Brand press pages for reference confirmation"
+  ],
+  "sources": [
+    {
+      "title": "Each brand's US price page (dated, US retail, Nov 2026)",
+      "link": "",
+      "source": "Each brand's US price page (dated, US retail, Nov 2026)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand press pages for reference confirmation",
+      "link": "",
+      "source": "Brand press pages for reference confirmation",
+      "tier": "to-verify"
+    }
+  ]
+}
