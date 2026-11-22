@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6",
+  "status": "idea",
+  "found_at": "2026-11-22T07:44:12.400Z",
+  "lane": "rotation",
+  "format": "LISTICLE",
+  "post_at": "2026-11-22T16:30:00.000Z",
+  "slot": 2,
+  "title": "LISTICLE: 5 dress watches from $3,000 to $6,000 for wearing with a suit",
+  "hook": "Watches for a suit: 5 dress watches from $3,000 to $6,000",
+  "why": "Clear use case (wear with a suit) and a tight price band (about 2x). Not a dive-watch list, which was already posted. Prices and references are unverified.",
+  "sources_to_check": [
+    "Each brand's US price page (dated, US retail, Nov 2026)",
+    "Brand press pages for model and reference confirmation"
+  ],
+  "sources": [
+    {
+      "title": "Each brand's US price page (dated, US retail, Nov 2026)",
+      "link": "",
+      "source": "Each brand's US price page (dated, US retail, Nov 2026)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand press pages for model and reference confirmation",
+      "link": "",
+      "source": "Brand press pages for model and reference confirmation",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "",
+    "Stopped before rendering. (1) Current official US prices: the searches only returned WatchCharts and retailer listings, which are aggregators or undated; no brand price page dated Nov 2026 was confirmed for the five picks. (2) Rights-cleared photos: permissions.json lists only Rockstar Games, and th"
+  ]
+}

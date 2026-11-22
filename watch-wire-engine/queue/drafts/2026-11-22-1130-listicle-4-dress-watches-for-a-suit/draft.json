@@ -1,0 +1,19 @@
+{
+  "status": "ready",
+  "project_dir": "Content Creation/projects/2026-11-22-1130-listicle-4-dress-watches-for-a-suit",
+  "format": "LISTICLE",
+  "lane": "rotation",
+  "headline": "4 dress watches for a suit",
+  "slides": [
+    "output/slide-01.png",
+    "output/slide-02.png",
+    "output/slide-03.png",
+    "output/slide-04.png",
+    "output/slide-05.png",
+    "output/slide-06.png",
+    "output/slide-07.png",
+    "output/slide-08.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": "Revised: Nomos US$2,510 now verified on the official Nomos page (captured 21 Nov 2026); slide 3 and footer say Nomos. Fifth pick not added (no verified in-band brand or retailer price), so folder and headline now say 4. Slide 7 replaced with a one-line take. Open item: the Exquisite Timepieces US$2,650 price (Longines 39, CLM-4) is backed by a search-result snippet dated 22 Nov 2026, not a full page capture, because the retailer returned HTTP 429. Confirm the listing before publishing. Finish check: PASS."
+}

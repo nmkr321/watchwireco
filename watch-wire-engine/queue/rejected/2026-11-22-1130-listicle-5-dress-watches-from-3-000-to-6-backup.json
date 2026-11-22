@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-22T08:27:07.466Z",
+  "post_at": "2026-11-22T16:30:00.000Z",
+  "backup_for": "2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6",
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: LISTICLE: 5 dress watches from $3,000 to $6,000 for wearing with a suit",
+  "hook": "",
+  "why": "Backup post. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "Slide 2 (Cartier WSTA0135) uses a lifestyle shot where the gold-cased Tank may not be the referenced WSTA0135; confirm the photo before publishing. Other slides not visually reviewed (budget).",
+    ""
+  ],
+  "stop_reason": "Only 5 picks confirmed in band from brand pages dated 21 Nov 2026 (Cartier WSTA0106 $4,400, WSTA0108 $4,100; Grand Seiko SBGW279 $4,600; Omega 434.13 $5,100, 434.10 $5,500); the recipe needs 8-10 slides. Finish checks still fail at validate: the research handoff (research job id, browser trace, governance ledgers) is produced only by the research agent, not by hand, so the carousel did not render or validate. Photos were checked by eye for the five picks. Needs a sixth confirmed pick and a proper research run.",
+  "gave_up": true
+}

@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: slide 3 photo sits in a visible black rectangle that clashes with the page (stray box). Slide 5 body wraps with the orphan 'IWC.' and the footer source is cut off ('CO…').",
+    "Gate 7: the Grand Seiko prices come from WatchCharts, not the brand or an official retailer. The $4,300 retail figure is from April 2025 and is stale.",
+    "Recipe: 6 slides against the 8–10 required for a listicle. The folder name still says '5 dress watches'."
+  ],
+  "fixes": [
+    "slide 3: use a cut-out or transparent-background Grand Seiko image, or a photo whose background matches the page, so no black box shows",
+    "slide 3: replace the Grand Seiko pick with a watch that has a current brand or official-retailer price. Otherwise drop the WatchCharts figures.",
+    "slides 2-4: add 2-3 more dress watches in the same price band. Each needs a brand or retailer price from today, a clean image and a credit. That brings the post to 8-10 slides.",
+    "slide 5: shorten the body to one balanced line, e.g. 'Longines is cheapest. IWC is the classic.'",
+    "slides 5 and 6: shorten the footer source so it is not truncated, e.g. 'Source: Longines, IWC, retailers'",
+    "cover: add a watch photo, or keep the text-only design, but the claim line must match the final prices"
+  ],
+  "reason": "The check passes, but the post has a stray black box on the Grand Seiko slide and an unbalanced take slide. The Grand Seiko price comes from a third-party site and is stale. It also has only 6 slides when a listicle needs 8–10, so send it back to fix those."
+}

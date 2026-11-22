@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 2: The research evidence for the Nomos US$2,510 price (CLM-2) is a WatchCharts page showing $4,300 retail (Apr 2025) and a $3,014 market price. It does not support the figure on slides 3 and 6. The lessons say to drop aggregator figures.",
+    "Gate 2: The evidence for the Longines Master 39 US$2,650 price (CLM-4) is copy-pasted from the Moonphase listing ($3,100 and EUR 3,050). It never shows $2,650. I could not re-check the Nomos listing because the fetch returned HTTP 429.",
+    "Gate 10 and the format recipe: this is a listicle with only 4 picks and a thin hook. The slide 7 take is just 'Nomos is cheapest. IWC is the classic.' The draft folder name still says 5."
+  ],
+  "fixes": [
+    "Research CLM-2: replace the WatchCharts evidence with a captured Nomos (or official retailer) page showing US$2,510 with its date. If it can't be verified, drop the Nomos pick or use the price actually shown, and update slides 1, 3, 6 and 7 and the caption to match.",
+    "Research CLM-4: attach real evidence of the $2,650 Exquisite Timepieces listing, with the date it was captured. Otherwise correct the price on slides 4 and 6 and in the caption.",
+    "Slide 3: say 'Nomos lists it at...' only if the price comes from Nomos. If it comes from Exquisite Timepieces, name that retailer in the body, as slide 4 does.",
+    "Slide 7: replace the generic take with one useful line, for example 'Slim and plain: Nomos. Moon dial: Longines. Classic: IWC.' Keep it to 15 words or fewer.",
+    "Add a fifth dress watch with a verified price from the brand or an official retailer, or keep 4 picks and rename the folder and headline to match."
+  ],
+  "reason": "The check passes and the layout is clean, but two of the four prices have no supporting evidence. The Nomos evidence is a WatchCharts page that shows different numbers, and the Longines Master 39 evidence is a copy of another watch's listing. Please verify both prices with real sources and sharpen the closing take."
+}

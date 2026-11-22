@@ -1,0 +1,19 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 4,
+    "clarity": 3,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Slide 1 headline says 5 watches, but slides 2-7 show 6 picks. The draft folder and the draft.json headline also say 5, and the cover brief and caption say six. The slides don't match the caption."
+  ],
+  "fixes": [
+    "slide 1: change the headline to '6 dress watches' so it matches the six pick slides and the caption (or cut one pick and renumber the slides).",
+    "draft folder and draft headline: rename them to say 6, not 5, so the title matches the post."
+  ],
+  "reason": "The cover promises 5 dress watches, but the post shows 6 and the caption says six. Fix the count on the cover and it is nearly ready. The check passed, and the photos, credits and prices look right. I did not fetch the main source."
+}

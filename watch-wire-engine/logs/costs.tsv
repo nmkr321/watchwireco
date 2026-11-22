@@ -418,3 +418,23 @@
 2026-11-22T08:18:14.846Z	approver 2026-11-22-0830-market-no-candidate-yet-headline-fit-not r2	claude-sonnet-5-5	0.0851	11
 2026-11-22T08:19:12.932Z	editor-revise 2026-11-22-0830-market-no-candidate-yet-headline-fit-not	claude-haiku-5-5	0.0264	12
 2026-11-22T08:19:30.885Z	approver 2026-11-22-0830-market-no-candidate-yet-headline-fit-not r3	claude-sonnet-5-5	0.0747	11
+2026-11-22T08:22:09.397Z	editor 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6	claude-haiku-5-5	0.1278	36
+2026-11-22T08:22:26.664Z	approver 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6 r1	claude-sonnet-5-5	0.0788	10
+2026-11-22T08:22:31.483Z	learn 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6	claude-haiku-5-5	0.0020	2
+2026-11-22T08:24:59.010Z	editor-revise 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6	claude-haiku-5-5	0.1003	26
+2026-11-22T08:25:21.075Z	approver 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6 r2	claude-sonnet-5-5	0.0985	14
+2026-11-22T08:26:17.915Z	editor-revise 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6	claude-haiku-5-5	0.0254	19
+2026-11-22T08:26:23.442Z	learn 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6	claude-haiku-5-5	0.0021	2
+2026-11-22T08:26:41.523Z	editor 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6	claude-haiku-5-5	0.0277	8
+2026-11-22T08:26:48.338Z	learn 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6	claude-haiku-5-5	0.0022	2
+2026-11-22T08:27:03.156Z	editor 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6	claude-haiku-5-5	0.0148	5
+2026-11-22T08:27:07.459Z	learn 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6	claude-haiku-5-5	0.0019	2
+2026-11-22T08:29:13.539Z	editor 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup	claude-haiku-5-5	0.0318	26
+2026-11-22T08:29:19.504Z	learn 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup	claude-haiku-5-5	0.0021	2
+2026-11-22T08:31:24.564Z	editor 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup	claude-haiku-5-5	0.0375	39
+2026-11-22T08:31:41.872Z	approver 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup r1	claude-sonnet-5-5	0.0742	11
+2026-11-22T08:31:45.926Z	learn 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup	claude-haiku-5-5	0.0020	2
+2026-11-22T08:32:15.254Z	editor-revise 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup	claude-haiku-5-5	0.0073	10
+2026-11-22T08:32:18.179Z	learn 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup	claude-haiku-5-5	0.0018	2
+2026-11-22T08:33:30.792Z	editor 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup	claude-haiku-5-5	0.0191	22
+2026-11-22T08:33:35.757Z	learn 2026-11-22-1130-listicle-5-dress-watches-from-3-000-to-6-backup	claude-haiku-5-5	0.0023	3

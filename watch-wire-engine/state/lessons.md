@@ -1,17 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [NEWS] After rendering, check each big price sits evenly above its headline, keeps the body to one line, and the text block is centred; adjust spacing to match.
-- [NEWS] After rendering, check that no slide label touches or overlaps the big price below it; if they do, fix the template spacing and re-render.
-- [NEWS] Name in the text and caption only photos actually placed on a slide; if a referenced photo is missing, drop that claim and its credit.
-- [NEWS] Before choosing a comparison's watches, confirm each has a rights-cleared photo in permissions.json or the asset manifest; if one is missing, pick a different model that has one.
-- [NEWS] Measure every slide label against its line width before rendering, and shorten long names like edition titles to fit on one line, keeping the full name in the caption.
-- [CELEBRITY] Before choosing a celebrity story, confirm a named watch appears in the source or search results; otherwise pick a story that names one.
-- [CELEBRITY] Use a celebrity wrist shot only when its rights are cleared in permissions.json; otherwise find a different celebrity who has one.
-- [CELEBRITY] Choose only stories dated within 7 days, and skip any whose person or angle already appears in the queue or recent posts.
-- [CELEBRITY] Only state a story's claims as fact when a dated, named source confirms them; attribute single-outlet reports or cut predictions.
-- [CELEBRITY] Name a watch in the text only when its own photo appears on that slide; otherwise describe it without the model name.
-- [CELEBRITY] When a celebrity story fails the named-watch or repeat check, choose the next candidate story instead of retrying the same one.
 - [CELEBRITY] Before picking a celebrity angle, check queue/approved and recent posts for the same person and watch pairing, including items posted in the last 7 days.
 - [MARKET] When the key figure is on the do-not-repeat list, find a fresh 2026 number from an official brand or trade source before starting the project.
 - [MARKET] Check a fallback candidate with a dated, sourced figure before ending research; never leave a post unstarted after one pick fails.
@@ -21,3 +10,14 @@ The editor reads this before every post. Written automatically from rejections; 
 - [MARKET] Show only the bare number in a table value cell when the row label already names what it measures; drop repeated words like 'of value'.
 - [MARKET] Count the cover headline's words against the six-word maximum before rendering; shorten it until it fits.
 - [MARKET] Give each slide a new fact, never repeating an earlier slide's figure; caption any figure older than a few weeks with its report date.
+- [LISTICLE] Take every price from the brand or an official retailer dated this month; drop aggregator figures such as WatchCharts.
+- [LISTICLE] Before rendering, count slides against the format's required range and add picks until it fits; name the folder after the final count.
+- [LISTICLE] Confirm every pick has a rights-cleared photo in permissions.json or the asset manifest; if one is missing, swap in a pick that has one.
+- [LISTICLE] Before picking, check queue/approved and recent posts; replace any watch already featured there with a new model.
+- [LISTICLE] If a pick's price can't be confirmed from a brand or official retailer dated this month, swap in another pick and finish.
+- [LISTICLE] Confirm each slide's photo shows the exact named reference; if it doesn't, swap in a product shot that does.
+- [LISTICLE] Visually review every rendered slide before finishing; fix any photo, model or text mismatch found.
+- [LISTICLE] Before rendering, make the cover headline's number, the slide count, and the caption's count all match the actual number of picks.
+- [LISTICLE] After any pick is added, removed or swapped, re-derive every headline, folder name and caption number from the final pick list.
+- [LISTICLE] When confirmed in-band picks are below the slide minimum, search more brand pages for candidates before building the project.
+- [LISTICLE] Before finishing, fill every research handoff field (job id, browser trace, governance) and rerun validate until it passes.
