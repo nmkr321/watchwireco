@@ -1,0 +1,24 @@
+{
+  "id": "202611220201-baggage-pattinson-problem-robert-saved-s",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-22T02:01:25.691Z",
+  "title": "Saved for Sunday: Robert Pattinson and James Bond’s baggage problem",
+  "score": 6,
+  "sources": [
+    {
+      "title": "Saved for Sunday: Robert Pattinson and James Bond’s baggage problem",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbUJ4U0VhTDBCc2ppT0ZUeXk1QUVwNjNyajNHX3hycHNPd2ppd0VxWEdGRGFvcG1Ya2MtVndua3BncXNFT0dPZGFsNy1VM29SU2ZFTmpDZUJuM1UzM3JpeDVqakdoSTNYVC1iWE1WNFBydEktUms2ZnZZOFZnZGJXRE9JQ0lYS09IeWxITHRXQVBQbWpXZzM1UGY4aDVRUFREN1FN?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "The Guardian",
+      "domain": "theguardian.com",
+      "tier": "major_news",
+      "published": "Sun, 22 Nov 2026 01:05:00 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NONE",
+    "reason": "The Guardian \"Saved for Sunday\" piece on Robert Pattinson and James Bond's \"baggage problem\" is a weekend feature/analysis, not breaking news. It is framed as commentary, and it is not a concrete new announcement, so it does not warrant an immediate breaking post. If Bond coverage is wanted later, wait for a concrete development such as an official casting announcement or film title and consider a CELEBRITY post with the Omega angle."
+  }
+}
