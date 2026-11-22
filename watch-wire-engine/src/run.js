@@ -392,9 +392,9 @@ function backup(item) {
   const how = {
     "CELEBRITY": `A DIFFERENT celebrity from the failed post (${item.title}). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.`,
     "STORY BEHIND": "Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
-    "LISTICLE": "Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
-    "WOULD YOU RATHER": "Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
-    "BUILD YOUR COLLECTION": "Tiered collection from watch-wire-engine/library, watches not used today." }[format];
+    "LISTICLE": "Start with `node watch-wire-engine/src/photo.js list --min X --max Y` to see unused verified watches. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+    "WOULD YOU RATHER": "Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
+    "BUILD YOUR COLLECTION": "Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Tiered collection from watch-wire-engine/library, watches not used today." }[format];
   writeJson(path.join(Q("ideas"), `${id}.json`), { id, lane: item.lane, status: "idea", found_at: new Date().toISOString(), post_at: item.post_at, backup_for: item.id,
     format, title: `Backup ${format} for the slot of: ${item.title}`, hook: "", why: `Backup post. ${how}`, sources: [] });
   log(`backup for ${item.post_at}: making it now (${item.title})`);
@@ -544,6 +544,7 @@ try {
     await collectInsights(log).catch((e) => log(`insights failed: ${e.message}`));
     const bad = await dailySummary(log).catch(() => "");
     if (bad) notify(`Watch Wire: Instagram token ${bad}`);
+    try { const r = spawnSync("node", [path.join(ROOT, "src/photo.js"), "refresh", "--days", "5"], { encoding: "utf8", timeout: 20 * 60e3 }); log(r.stdout.trim() || "library refresh: no output"); } catch {}   // keep library prices inside the 7-day rule (free)
     if (scoutDue()) await scout(log).catch((e) => log(`scout failed: ${e.message}`));   // other accounts, every 2 days
     try { const al = learningAlerts();   // loops that went quiet: top of daily.md + phone alert
       if (al.length) { fs.appendFileSync(path.join(ROOT, "state/daily.md"), `\n## Learning loops needing attention\n${al.map((x) => `- ${x}`).join("\n")}\n`); notify(`Watch Wire: ${al[0]}`); } } catch {}

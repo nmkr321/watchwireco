@@ -6,6 +6,8 @@
 //   node watch-wire-engine/src/photo.js person "Ryan Reynolds" [--project <P>]
 //   node watch-wire-engine/src/photo.js commons "Omega Speedmaster Professional" [--ref 311.30] [--project <P>]
 //   node watch-wire-engine/src/photo.js find "126610LN"          (library only, no download)
+//   node watch-wire-engine/src/photo.js list --min 3000 --max 6000 [--brand Omega]   (browse unused priced watches)
+//   node watch-wire-engine/src/photo.js refresh [--days 5]       (re-read old prices from official pages)
 //
 // watch:   official brand product/press page → the page's own product image (JSON-LD, og:image).
 //          Checks the page names the reference. Rights "official", credit "Image: <Brand>".
@@ -329,6 +331,32 @@ async function commons(query, ref) {
   out({ ok: true, photo: e.file, title: i.title, about: i.desc.slice(0, 120), credit: e.credit, caption_credit: e.caption_credit, rights: e.rights, size: `${e.w}x${e.h}`, other_matches: infos.length - 1, asset_id: register(e) });
 }
 
+// list: browse the library by price/brand (one short line each, cheap for the editor)
+//   PH list [--min 3000] [--max 6000] [--brand Omega] [--days 7] [--all]   (--all includes watches used in the last 3 days)
+function list() {
+  const min = Number(opt("min") || 0), max = Number(opt("max") || 1e9), brand = (opt("brand") || "").toLowerCase(), days = Number(opt("days") || 7);
+  let used = "";
+  if (!rest.includes("--all")) for (const d of ["approved", "ideas", "posted"]) { const D = path.join(ROOT, "watch-wire-engine/queue", d);
+    try { for (const f of fs.readdirSync(D).filter((x) => x.endsWith(".json"))) { const t = fs.readFileSync(path.join(D, f), "utf8"); const o = JSON.parse(t);
+      if (d === "posted" && Date.now() - Date.parse(o.posted_at) > 3 * 864e5) continue; used += t;
+      try { used += fs.readFileSync(path.join(ROOT, o.post_dir || "", "caption.json"), "utf8"); } catch {} } } catch {} }
+  const rows = lib().filter((e) => e.kind === "watch" && e.price?.amount >= min && e.price.amount <= max && fs.existsSync(path.join(ROOT, e.file))
+      && (!brand || (e.brand || "").toLowerCase().includes(brand)) && Date.now() - Date.parse(e.price.date) < days * 864e5 && !used.includes(e.ref))
+    .sort((a, b) => a.price.amount - b.price.amount);
+  console.log(rows.length ? rows.map((e) => `${e.brand} ${e.ref} | ${e.price.currency || "USD"} ${e.price.amount} | ${e.price.date} | ${e.file} | ${e.credit}`).join("\n")
+    : "no unused priced watches in that range: widen it, or add watches with PH watch <official url>");
+}
+
+// refresh: re-read prices older than N days from their official pages (free, no AI). Run nightly by the engine.
+function refresh() {
+  const days = Number(opt("days") || 5); let ok = 0, bad = 0;
+  for (const e of lib().filter((x) => x.kind === "watch" && x.source && (!x.price?.date || Date.now() - Date.parse(x.price.date) > days * 864e5))) {
+    try { execFileSync("node", [fileURLToPath(import.meta.url), "watch", e.source, "--brand", e.brand, "--ref", e.ref, "--refresh"], { cwd: ROOT, stdio: "pipe", timeout: 60000 }); ok++; }
+    catch { bad++; }
+  }
+  console.log(`refresh: ${ok} updated, ${bad} failed`);
+}
+
 function find(q) {
   const n = norm(q);
   out({ ok: true, matches: lib().filter((e) => norm([e.ref, e.title, e.brand].join(" ")).includes(n)).slice(0, 5).map((e) => ({ photo: e.file, title: e.title, credit: e.credit, source: e.source, price: e.price || null })) });
@@ -344,5 +372,7 @@ try {
   else if (cmd === "credited") await credited(arg, opt("credit"), opt("owner"), opt("slug"));
   else if (cmd === "commons") await commons(arg, opt("ref"));
   else if (cmd === "find") find(arg);
+  else if (cmd === "list") list();
+  else if (cmd === "refresh") refresh();
   else fail("commands: watch <url> --brand B --ref R | person \"Name\" | commons \"words\" [--ref R] | find \"words\"   (add --project <P> to register)");
 } catch (err) { fail(err.message.slice(0, 200)); }

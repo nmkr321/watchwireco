@@ -70,6 +70,8 @@ Fix layout by shortening text, never CSS.
 Celebrity post → the celebrity (wearing the watch where possible); game post → gameplay; everything else →
 the watch. Not every slide needs a photo. Every photo via PH with `--project <P>`; put its `photo` and
 `credit` in slides.json and `caption_credit` in the caption. Look at each photo once to confirm it is right.
+- Browse the verified library first: `PH list --min <$> --max <$> [--brand B]` lists every unused watch with a
+  price checked in the last 7 days (those prices count as verified; cite source + date).
 - Watch: `PH find "<ref>"`; else WebSearch the brand's product/press page or an official retailer page
   (Watches of Switzerland, B.C. Clark, Mayors for Rolex/Tudor), then `PH watch <url> --brand B --ref R`
   (needs ref_on_page:true); else `PH commons "<brand> <model>" --ref R`.
