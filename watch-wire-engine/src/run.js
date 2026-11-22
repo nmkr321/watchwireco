@@ -130,7 +130,8 @@ function restore(before, who) {
 // what the editor/approver need for THIS post only: its format row from FORMATS.md + relevant lessons (no file reads)
 function formatBrief(format = "") {
   let row = "", lessons = "";
-  try { row = fs.readFileSync(path.join(ROOT, "FORMATS.md"), "utf8").split("\n").find((l) => l.startsWith("| ") && l.toUpperCase().includes(format.toUpperCase().split(" ")[0])) || ""; } catch {}
+  try { const rows = fs.readFileSync(path.join(ROOT, "FORMATS.md"), "utf8").split("\n").filter((l) => l.startsWith("| "));
+    row = rows.find((l) => l.toUpperCase().startsWith(`| ${format.toUpperCase()} `)) || rows.find((l) => l.toUpperCase().includes(format.toUpperCase().split(" ")[0])) || ""; } catch {}
   try { lessons = fs.readFileSync(LESSONS, "utf8").split("\n").filter((l) => /^- \[(any|[^\]]*)\]/.test(l) && (/\[any\]/.test(l) || l.toUpperCase().includes(`[${format.toUpperCase()}]`))).slice(-12).join("\n"); } catch {}
   return `\nFormat recipe (| format | hook | slides | recipe |): ${row.trim()}\nLessons (never repeat):\n${lessons}` + scoutEditorHint(format);
 }
