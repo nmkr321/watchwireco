@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-22-2200-celebrity-recent-sighting",
+  "lane": "rotation",
+  "status": "idea",
+  "manual": true,
+  "found_at": "2026-11-22T18:07:46.341Z",
+  "post_at": "2026-11-23T03:00:00.000Z",
+  "format": "CELEBRITY",
+  "title": "CELEBRITY: a celebrity watch sighting from the last few weeks",
+  "hook": "Name + watch + price + Your call vote",
+  "why": "Owner wants celebrity posts today (scout: celebrity posts get 2.8x normal engagement). A trusted outlet (one is enough, credited by name) reported a famous person wearing a specific watch in the last few weeks. Use a wrist photo if rights-cleared; otherwise their free-licence portrait with the watch in the gold circle (A-spotted, no wrist). Not DiCaprio or Pattinson.",
+  "sources": []
+}
