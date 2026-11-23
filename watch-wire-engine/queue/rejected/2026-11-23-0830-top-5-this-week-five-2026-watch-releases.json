@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-23-0830-top-5-this-week-five-2026-watch-releases",
+  "status": "stopped",
+  "found_at": "2026-11-23T08:05:52.413Z",
+  "lane": "news",
+  "format": "TOP 5 THIS WEEK",
+  "post_at": "2026-11-23T13:30:00.000Z",
+  "slot": 1,
+  "title": "TOP 5 THIS WEEK: five 2026 watch releases from the past week (fallback: a single NEW RELEASES post)",
+  "hook": "Top 5 watch releases this week.",
+  "why": "A weekly roundup gives people one place to check what launched. None of today's headlines is a release, so this needs five verified official releases. Not buildable until they are found.",
+  "sources_to_check": [
+    "rolex.com press pages",
+    "omega.com press pages",
+    "breitling.com press pages",
+    "tudorwatch.com press pages",
+    "official US retail prices with dates"
+  ],
+  "sources": [
+    {
+      "title": "rolex.com press pages",
+      "link": "",
+      "source": "rolex.com press pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "omega.com press pages",
+      "link": "",
+      "source": "omega.com press pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "breitling.com press pages",
+      "link": "",
+      "source": "breitling.com press pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "tudorwatch.com press pages",
+      "link": "",
+      "source": "tudorwatch.com press pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "official US retail prices with dates",
+      "link": "",
+      "source": "official US retail prices with dates",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Not enough verified releases. The input has no source link, and one search returned only secondary listings (A Blog to Watch feed, The Gadgeteer, a guide) with no official brand press page for the past week. TOP 5 needs five official releases with dated prices. The project was not started because th",
+    "Could not find five official brand releases dated within the past week with their own dated price. Rolex, Omega and Tudor press pages were unreadable (404/403) or showed no dated releases; Breitling's newsroom had none dated this week. Searches returned only blogs, roundups and grey-market pages, wh"
+  ],
+  "stop_reason": "Not enough verified releases. Checked brand press pages: Omega (404), Tudor (403), Breitling newsroom (blog listing only, no dated releases). Rolex press page not readable in earlier attempts. Searches returned only blogs, roundups and grey-market listings, which cannot supply items under the TOP 5 rules. Fewer than five official releases with dated US prices were found, so no carousel was made. Fallback NEW RELEASES also needs one official dated release, none found. Suggest a different format or a later run when brand press pages post new releases.",
+  "gave_up": true
+}

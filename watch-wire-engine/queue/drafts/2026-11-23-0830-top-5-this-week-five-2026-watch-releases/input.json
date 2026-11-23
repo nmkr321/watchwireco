@@ -47,5 +47,9 @@
       "source": "official US retail prices with dates",
       "tier": "to-verify"
     }
+  ],
+  "previous_attempts": [
+    "Not enough verified releases. The input has no source link, and one search returned only secondary listings (A Blog to Watch feed, The Gadgeteer, a guide) with no official brand press page for the past week. TOP 5 needs five official releases with dated prices. The project was not started because th",
+    "Could not find five official brand releases dated within the past week with their own dated price. Rolex, Omega and Tudor press pages were unreadable (404/403) or showed no dated releases; Breitling's newsroom had none dated this week. Searches returned only blogs, roundups and grey-market pages, wh"
   ]
 }

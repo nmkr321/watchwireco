@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-23-0830-top-5-this-week-five-2026-watch-releases-backup-backup",
+  "lane": "news",
+  "status": "stopped",
+  "found_at": "2026-11-23T08:37:30.438Z",
+  "post_at": "2026-11-23T13:30:00.000Z",
+  "backup_for": "2026-11-23-0830-top-5-this-week-five-2026-watch-releases",
+  "backup_depth": 2,
+  "tried_formats": [
+    "LISTICLE",
+    "TOP 5 THIS WEEK"
+  ],
+  "format": "WOULD YOU RATHER",
+  "title": "Backup WOULD YOU RATHER for the slot of: Backup LISTICLE for the slot of: TOP 5 THIS WEEK: five 2026 watch releases from the past week (fallback: a single NEW RELEASES post)",
+  "hook": "",
+  "why": "Backup post. Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
+  "sources": [],
+  "previous_attempts": [
+    "No usable same-money pair yet. Longines L2.949.4.73.6 ($2,650) vs Fears BS23800B.047.124 ($2,850), 7.5% apart, both dated 22 Nov 2026, but the Fears product page does not show the reference (ref_on_page false), so its photo cannot be used. IWC IW356527 ($7,900) fails the same check, and Omega 210.30",
+    "The price check isn't settled. NOMOS is $2,510 on the page but 2290.00 in its data, and the two prices are dated different days. The draft is also marked stopped with earlier fixes unapplied, so it needs rebuilding with a verified same-day pair. / Gate 2: the NOMOS price is unresolved. The NOMOS page shows USD 2,510, but its embedded data says 2290.00. / Same-date price rule: NOMOS is dated 20–21 Nov and Longines 22 Nov. The Longines page returned HTTP 429, so no same-day pair could be confirmed. / The draft status is 'stopped'. The engine's own stop_reason says the approver's earlier fixes we"
+  ],
+  "stop_reason": "No verified same-money pair found. Checked library candidates: Tissot T1204071104103 ($925, 21 Nov 2026) vs Hamilton H32515641 ($945, 21 Nov): the Hamilton page shows no price (Not available online), and retailer searches give $625 to $945, so its price is unverified and the pair fails. Hamilton H77825330 ($1,545 in library, 21 Nov) vs Timex TW6A07200 ($1,450, 21 Nov): the Hamilton page now shows $1,395, so the library price disagrees and fails. Timex TW6A07200 page verified $1,450 (21 Nov) with its reference, but no other library watch sits within 10% on the same date. Tissot product page returned HTTP 429 on retry, so it could not be re-checked. No project was started and no slides or caption were built. Next step: add fresh verified watches to the library at about $1,300 to $1,600 or $800 to $1,000 dated the same day, then retry.",
+  "gave_up": true
+}
