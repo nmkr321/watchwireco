@@ -1,0 +1,57 @@
+{
+  "source": "Source: Timex, Hamilton · 21 Nov 2026",
+  "slides": [
+    {
+      "t": "A-cover",
+      "tag": "WOULD YOU RATHER",
+      "line1": "$1,500.",
+      "line2": "Which One?",
+      "meta": "Timex or Hamilton · prices 21 Nov 2026",
+      "photo": "watch-wire-engine/library/img/timex-tw6a07200.png",
+      "photo2": "watch-wire-engine/library/img/hamilton-h77825330.png",
+      "credit": "Images: Timex, Hamilton",
+      "footLeft": "Timex, Hamilton · 21 Nov 2026"
+    },
+    {
+      "t": "A-wyr",
+      "tag": "WOULD YOU RATHER",
+      "left": {
+        "brand": "Timex",
+        "model": "TW6A07200",
+        "price": "$1,450",
+        "photo": "watch-wire-engine/library/img/timex-tw6a07200.png"
+      },
+      "right": {
+        "brand": "Hamilton",
+        "model": "H77825330",
+        "price": "$1,545",
+        "photo": "watch-wire-engine/library/img/hamilton-h77825330.png"
+      },
+      "credit": "Prices: brand sites, 21 Nov 2026"
+    },
+    {
+      "t": "A-photo",
+      "label": "Option A · Timex",
+      "headline": "Timex TW6A07200",
+      "photo": "watch-wire-engine/library/img/timex-tw6a07200.png",
+      "credit": "Image: Timex",
+      "body": "38mm automatic GMT, steel bracelet. $1,450.",
+      "source": "Source: Timex · 21 Nov 2026"
+    },
+    {
+      "t": "A-photo",
+      "label": "Option B · Hamilton",
+      "headline": "Hamilton Frogman",
+      "photo": "watch-wire-engine/library/img/hamilton-h77825330.png",
+      "credit": "Image: Hamilton",
+      "body": "Khaki Navy Frogman, automatic. $1,545.",
+      "source": "Source: Hamilton · 21 Nov 2026"
+    },
+    {
+      "t": "cta",
+      "line1": "Vote in the comments.",
+      "line2": "Timex or Hamilton?",
+      "body": "Follow @watchwireco for daily watch news."
+    }
+  ]
+}

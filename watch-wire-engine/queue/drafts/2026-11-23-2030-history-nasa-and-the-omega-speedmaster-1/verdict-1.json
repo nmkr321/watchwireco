@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 7: the caption credits Torsten Bolten and Sandstein but leaves out Shane Lin (CC BY-SA 2.0), whose photo is the cover. Sandstein's photo (asset-2) appears on no slide.",
+    "Owner rule: stories keep images to the end. Slides 2-6 and 8-9 are text only, and slide 8 should show the Gemini 3 / astronaut photo from the carousel plan but is plain black.",
+    "Gate 3: the main source (OMEGA chronicle) was not re-fetched and checked in this review, so the headline fact is not confirmed independently."
+  ],
+  "fixes": [
+    "slide 8: add the astronaut Speedmaster photo (asset-2, Sandstein / CC BY 3.0 via Wikimedia Commons) with its credit line, or drop the Sandstein credit from the caption.",
+    "slides 3-6 and 9: put a Speedmaster or watch photo behind each text slide, as slide 7 does, with a credit on each, so images continue to the end.",
+    "caption: add 'Shane Lin / CC BY-SA 2.0' to the Wikimedia photo credits.",
+    "slide 1: move the photo credit so it does not crowd the WW wordmark. The cover headline also sits over a busy dial and could use a darker overlay."
+  ],
+  "reason": "The facts match the research notes and the check passes. However, the caption leaves out the cover photographer's credit, and most slides have no image, which breaks the owner's rule that stories keep images to the end."
+}

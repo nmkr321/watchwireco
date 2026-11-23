@@ -710,3 +710,34 @@
 2026-11-23T09:33:00.659Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0020	2
 2026-11-23T09:33:28.130Z	editor 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0104	13
 2026-11-23T09:33:33.430Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0021	2
+2026-11-23T09:35:12.349Z	editor 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1	claude-haiku-5-5	0.0316	23
+2026-11-23T09:35:18.005Z	learn 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1	claude-haiku-5-5	0.0021	2
+2026-11-23T09:36:48.757Z	editor 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1	claude-haiku-5-5	0.0453	23
+2026-11-23T09:36:52.711Z	learn 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1	claude-haiku-5-5	0.0019	2
+2026-11-23T09:38:58.646Z	editor 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1	claude-haiku-5-5	0.0644	28
+2026-11-23T09:39:20.808Z	approver 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1 r1	claude-sonnet-5-5	0.1071	16
+2026-11-23T09:39:26.390Z	learn 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1	claude-haiku-5-5	0.0021	2
+2026-11-23T09:40:44.693Z	editor-revise 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1	claude-haiku-5-5	0.0155	16
+2026-11-23T09:41:02.580Z	approver 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1 r2	claude-sonnet-5-5	0.0786	11
+2026-11-23T09:42:04.341Z	editor-revise 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1	claude-haiku-5-5	0.0125	14
+2026-11-23T09:42:21.491Z	approver 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1 r3	claude-sonnet-5-5	0.0633	9
+2026-11-23T09:42:26.681Z	learn 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1	claude-haiku-5-5	0.0021	2
+2026-11-23T09:42:40.405Z	editor 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup	claude-haiku-5-5	0.0031	5
+2026-11-23T09:42:48.016Z	learn 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup	claude-haiku-5-5	0.0024	2
+2026-11-23T09:43:01.215Z	editor 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup	claude-haiku-5-5	0.0028	4
+2026-11-23T09:43:08.254Z	learn 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup	claude-haiku-5-5	0.0024	3
+2026-11-23T09:43:21.553Z	editor 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup	claude-haiku-5-5	0.0034	5
+2026-11-23T09:43:26.845Z	learn 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup	claude-haiku-5-5	0.0020	2
+2026-11-23T09:45:11.493Z	editor 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup	claude-haiku-5-5	0.0272	34
+2026-11-23T09:45:35.971Z	approver 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup r1	claude-sonnet-5-5	0.0959	11
+2026-11-23T09:45:39.921Z	learn 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup	claude-haiku-5-5	0.0020	2
+2026-11-23T09:45:57.742Z	editor-revise 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup	claude-haiku-5-5	0.0042	7
+2026-11-23T09:46:18.113Z	approver 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup r2	claude-sonnet-5-5	0.0872	11
+2026-11-23T09:46:41.468Z	editor-revise 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup	claude-haiku-5-5	0.0098	8
+2026-11-23T09:46:53.297Z	approver 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup r3	claude-sonnet-5-5	0.0379	6
+2026-11-23T09:46:59.527Z	learn 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup	claude-haiku-5-5	0.0023	2
+2026-11-23T09:49:10.798Z	editor 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup	claude-haiku-5-5	0.0313	33
+2026-11-23T09:49:33.430Z	approver 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup r1	claude-sonnet-5-5	0.0881	12
+2026-11-23T09:49:37.582Z	learn 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup	claude-haiku-5-5	0.0020	2
+2026-11-23T09:49:54.769Z	editor-revise 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup	claude-haiku-5-5	0.0035	6
+2026-11-23T09:50:16.747Z	approver 2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup r2	claude-sonnet-5-5	0.0826	13

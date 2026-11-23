@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: Slide 1 has no dark overlay behind the headline, which sits over a busy dial. The photo credit still crowds the WW wordmark. The draft's stop_reason says this is unfixed.",
+    "Gate 7: Slide 3 says Hamilton sent a pocket watch, but the photo shows a strap wristwatch, so the picture doesn't match the text. Slide 8 says Gemini 3, but the photo is a museum case labelled for Gordon and Apollo 15. That watch is barely visible under the dark overlay.",
+    "Gate 2/3: I did not re-fetch the OMEGA chronicle in this review, so the headline fact is not confirmed. The caption says the sources disagree on the qualification date. The 'only one survived' claim rests on OMEGA's own chronicle."
+  ],
+  "fixes": [
+    "slide 1: add a dark overlay behind the headline and move the credit so it sits clear of the WW wordmark. If the template can't do this, use a different cover photo that has a dark area.",
+    "slide 3: replace the Hamilton wrist photo with one that shows a pocket watch. Otherwise rewrite the body so it matches the photo, for example 'Hamilton's entry was disqualified before testing.' Check that the text is a verified claim.",
+    "slide 8: use a photo where the Speedmaster is clearly visible and matches the text. Lighten the overlay. Make sure the credit and caption wording match the photo, or say 'Gordon's Apollo 15 Speedmaster'.",
+    "slides 2, 4, 5, 6 and 9: check that each has a visible watch photo with a credit. Slides 5 and 6 should show a Rolex and a Longines-Wittnauer that match the named references.",
+    "Before resubmitting, confirm the headline claim ('only one survived') against the OMEGA chronicle and one other source. Otherwise write 'OMEGA says' on the slide."
+  ],
+  "reason": "The check passes and the idea is good. But the cover still has the layout problems the draft says it couldn't fix, and the photos on slides 3 and 8 don't match their text. The headline fact also isn't independently confirmed."
+}

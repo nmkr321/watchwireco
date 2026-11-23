@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. Both official brand photos show two different watches, Timex at $1,450 and Hamilton at $1,545, both dated 21 Nov. The earlier fixes were applied: the slide text no longer leaves orphan lines, the Hamilton headline matches the cover and caption, and the caption states the 6.5% gap openly. The SAME MONEY tag is correctly left off. I did not re-fetch the brand pages, so the prices rest on the research claims and the engine's library."
+}

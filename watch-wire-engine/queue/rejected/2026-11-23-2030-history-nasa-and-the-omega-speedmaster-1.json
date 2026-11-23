@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-23T08:05:52.413Z",
+  "lane": "history",
+  "format": "HISTORY",
+  "post_at": "2026-11-24T01:30:00.000Z",
+  "slot": 5,
+  "title": "HISTORY: NASA and the Omega Speedmaster (1962 qualification), Template D with tension hook",
+  "hook": "NASA Didn't Pick Its Watch For Looks.",
+  "why": "Story people share. Uses a fresh angle, not the rejected Marie Antoinette/Breguet or Genta/Daniels stories. The hook is a draft and the qualification dates and wrist-test facts still need checking.",
+  "sources_to_check": [
+    "omega.com heritage pages",
+    "NASA history sources on Mercury-era watch qualification",
+    "credited archive or official Omega heritage photo"
+  ],
+  "sources": [
+    {
+      "title": "omega.com heritage pages",
+      "link": "",
+      "source": "omega.com heritage pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "NASA history sources on Mercury-era watch qualification",
+      "link": "",
+      "source": "NASA history sources on Mercury-era watch qualification",
+      "tier": "to-verify"
+    },
+    {
+      "title": "credited archive or official Omega heritage photo",
+      "link": "",
+      "source": "credited archive or official Omega heritage photo",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Research gate failed: the validator rejects the source_type for the WatchTime source (blocked with HTTP 403; facts come only from its search summary, marked reportedly). Tried official, news, press, primary, trade-press and others; none accepted. The OMEGA heritage page alone supports only the 1962 ",
+    "Research gate passed, but only the OMEGA chronicle facts are publishable: four brands invited, only one survived, qualified 1 March 1965. HISTORY needs 7-10 beats. The other story beats (1962 flight, 11 tests, Rolex and Longines failures, Apollo 11) rest only on T3, a single outlet whose page we cou"
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 2,
+      "clarity": 4,
+      "taste": 3
+    },
+    "hard_gate_failures": [
+      "Gate 6: Slide 1 has a weak overlay, so the headline sits over the busy dial. The credit still crowds the WW wordmark. The draft's own stop_reason says this is unfixed.",
+      "Gate 7: Slide 8 says Gemini 3, but the photo is a museum case labelled for Gordon and Apollo 15. The watches are almost hidden by the dark overlay. Slide 3 shows a modern Hamilton dress watch, not the 1964 entry. Slides 5 and 6 use illustrative product photos, not the watches that were tested.",
+      "Gate 2/3: The headline claim 'only one survived' rests on OMEGA's own chronicle alone. The caption admits the sources disagree on dates. I did not re-fetch the source, since the slide problems already force a revise.",
+      "Gate 8: Slides 5 and 6 use illustrative photos for Rolex and Longines. That conflicts with the rule that the watch pictured matches the reference named."
+    ],
+    "fixes": [
+      "slide 1: use a cover photo with a dark area, or strengthen the overlay behind the headline. Move the credit clear of the WW wordmark.",
+      "slide 3: use a photo that matches the text, or drop the watch claim. Do not show a modern Hamilton as the 1964 entry.",
+      "slide 8: use a photo where the Speedmaster is clearly visible and lighten the overlay. Make the body say 'Gus Grissom's Speedmaster flew on Gemini 3', or use a photo that matches it.",
+      "slides 5 and 6: use a photo of the named Rolex and Longines-Wittnauer model, or remove the claim that doesn't match.",
+      "slide 7: add a second independent source for 'only one survived', or write 'OMEGA says' on the slide."
+    ],
+    "reason": "The story is good and the check passes. The cover layout is still unfixed, and several photos don't match their text, so the post isn't ready. The 'only one survived' claim also needs a second source or an 'OMEGA says' label."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1",
+  "gave_up": true
+}

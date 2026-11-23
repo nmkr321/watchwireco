@@ -33,5 +33,9 @@
       "source": "credited archive or official Omega heritage photo",
       "tier": "to-verify"
     }
+  ],
+  "previous_attempts": [
+    "Research gate failed: the validator rejects the source_type for the WatchTime source (blocked with HTTP 403; facts come only from its search summary, marked reportedly). Tried official, news, press, primary, trade-press and others; none accepted. The OMEGA heritage page alone supports only the 1962 ",
+    "Research gate passed, but only the OMEGA chronicle facts are publishable: four brands invited, only one survived, qualified 1 March 1965. HISTORY needs 7-10 beats. The other story beats (1962 flight, 11 tests, Rolex and Longines failures, Apollo 11) rest only on T3, a single outlet whose page we cou"
   ]
 }

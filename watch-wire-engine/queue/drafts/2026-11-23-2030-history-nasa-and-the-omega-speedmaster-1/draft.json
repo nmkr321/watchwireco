@@ -1,0 +1,21 @@
+{
+ "status": "stopped",
+ "project_dir": "Content Creation/projects/2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1",
+ "format": "HISTORY",
+ "lane": "history",
+ "headline": "NASA Didn't Pick For Looks",
+ "slides": [
+  "output/slide-01.png",
+  "output/slide-02.png",
+  "output/slide-03.png",
+  "output/slide-04.png",
+  "output/slide-05.png",
+  "output/slide-06.png",
+  "output/slide-07.png",
+  "output/slide-08.png",
+  "output/slide-09.png",
+  "output/slide-10.png"
+ ],
+ "caption_file": "caption.json",
+ "stop_reason": "Fixes 1 and 4 not done: the D-cover credit position and the D-body overlay strength are fixed in templates/render.mjs, which I may not edit. Slide 8 still uses the Speedmaster Professional photo (matches the text). Slide 3 body rewritten to match the Hamilton photo; slides 5-6 credits now say illustrative product photos. OMEGA chronicle checked: 'Only one watch survived' (confirmed)."
+}

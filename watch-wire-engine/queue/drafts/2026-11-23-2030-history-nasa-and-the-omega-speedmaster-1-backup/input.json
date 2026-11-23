@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup",
+  "lane": "history",
+  "status": "idea",
+  "found_at": "2026-11-23T09:42:26.689Z",
+  "post_at": "2026-11-24T01:30:00.000Z",
+  "backup_for": "2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1",
+  "backup_depth": 1,
+  "tried_formats": [
+    "HISTORY"
+  ],
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: HISTORY: NASA and the Omega Speedmaster (1962 qualification), Template D with tension hook",
+  "hook": "",
+  "why": "Backup post. Start with `node watch-wire-engine/src/photo.js list --min X --max Y` to see unused verified watches. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "Not enough qualifying watches for an 8-slide listicle within this run's budget. The verified library has only 2 Omega watches (both 8,600 USD and up), and the NASA history angle needs fresh research on at least 12 candidates with reference checks, clean cut-out photos and prices in one tight band. R",
+    "Not enough qualifying watches for an 8-slide listicle. Checked the verified library (photo.js list, 2026-11-23): in the USD 1,800-2,850 band there are only about 7 distinct watches (Oris 01 733 7810 variants count as one model), and two of them are Oris. Omega has only 2 library watches, both at USD"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Slides 3 and 4 body text wraps and leaves a one-word orphan line (\"Nov 2026.\" and \"2026.\"), so the layout is not clean.",
+    "The prices differ by 6.5%. The WYR lesson says to choose the closest verified pair, preferably within 5%."
+  ],
+  "fixes": [
+    "slide 3: shorten the body to one or two balanced lines with no orphaned date, e.g. \"38mm automatic GMT, steel bracelet. $1,450.\" The date is already in the footer.",
+    "slide 4: shorten the body the same way, e.g. \"Khaki Navy Frogman, automatic. $1,545.\" Drop the date from the body because it is in the footer.",
+    "slide 4: name the headline \"Hamilton Frogman\" so it matches the cover and caption model naming (H77825330).",
+    "Prefer a closer-priced pair (within 5%) or keep the pair and make the caption say plainly that it is a 6.5% gap. The tag is correctly absent."
+  ],
+  "reason": "The prices check out against Timex's own page ($1,450), the check passes, and the images are official. The body text on slides 3 and 4 leaves a one-word orphan line, and a closer price pair would make a stronger would-you-rather, so please tighten the text and re-render."
+}
