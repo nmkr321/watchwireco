@@ -1,7 +1,7 @@
 {
   "id": "2026-11-22-2200-celebrity-recent-sighting",
   "lane": "rotation",
-  "status": "approved",
+  "status": "posted",
   "manual": true,
   "found_at": "2026-11-22T18:07:46.341Z",
   "post_at": "2026-11-23T03:00:00.000Z",
@@ -30,5 +30,22 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes. Yahoo confirms Kelly Piquet wore a $138,400 frosted white gold AP Royal Oak Mini at the 18 Nov F1 Academy dinner. The $122,000 price is a dated Wristcheck listing, and the official AP image is used. The cover now shows her portrait with the watch in a gold circle, credited and clear of her face. The caption carries the CC BY credit, and the 'Wear it or pass?' slide gives readers something to vote on."
+  },
+  "posted_at": "2026-11-23T03:52:54.571Z",
+  "publish": {
+    "live": true,
+    "media_id": "17994589473076983",
+    "permalink": "https://www.instagram.com/p/DgEdT15mgKf/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 676
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
