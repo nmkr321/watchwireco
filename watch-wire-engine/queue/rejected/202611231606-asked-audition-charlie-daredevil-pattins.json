@@ -1,0 +1,24 @@
+{
+  "id": "202611231606-asked-audition-charlie-daredevil-pattins",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-23T16:06:57.243Z",
+  "title": "‘Daredevil’ Star Charlie Cox Asked to Audition for James Bond but Was Told He’s Too Old: ‘Robert Pattinson Is the Same Age as Me!’",
+  "score": 6,
+  "sources": [
+    {
+      "title": "‘Daredevil’ Star Charlie Cox Asked to Audition for James Bond but Was Told He’s Too Old: ‘Robert Pattinson Is the Same Age as Me!’",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX0JMZGV6MnRzZkVZbnpHQXVDa04wXzRyZnBRcERpaEFKVG5WbzM4eHJvMF9ITUtOZ2xTalYzeEhwR0RZbWNncVNpNFlicVBuTEEtenljZGtwenFtblUyOVZQSkVFU2NjM0tpQ0JPSEFLUHdQVTRzQ3Zsb1hrWVV6ek51b3RISlNLazNMdzFCaw?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Variety",
+      "domain": "variety.com",
+      "tier": "entertainment",
+      "published": "Mon, 23 Nov 2026 15:37:00 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "N/A",
+    "reason": "Not a breaking post. The story is an actor's anecdote about being told he was too old for a past James Bond audition. It has no watch angle and is not a new Bond actor or film announcement, so it does not meet the CELEBRITY bar."
+  }
+}
