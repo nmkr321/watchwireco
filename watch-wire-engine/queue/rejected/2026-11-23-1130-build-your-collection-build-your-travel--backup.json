@@ -1,0 +1,49 @@
+{
+  "id": "2026-11-23-1130-build-your-collection-build-your-travel--backup",
+  "lane": "rotation",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-23T08:51:17.100Z",
+  "post_at": "2026-11-23T16:30:00.000Z",
+  "backup_for": "2026-11-23-1130-build-your-collection-build-your-travel-",
+  "backup_depth": 1,
+  "tried_formats": [
+    "BUILD YOUR COLLECTION"
+  ],
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: BUILD YOUR COLLECTION: Build Your Travel Watch Kit, $12K total",
+  "hook": "",
+  "why": "Backup post. Start with `node watch-wire-engine/src/photo.js list --min X --max Y` to see unused verified watches. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "Dropped after two topic search rounds: no dated primary source with priced items in one tight band for a travel-kit listicle. Failed searches logged in research-work/failed-searches.md. Input idea had no dated source URL attached.",
+    "Dropped at research: no dated primary source with 6+ priced watches in one tight band (two search rounds). Failed searches logged in research-work/failed-searches.md. Input idea had no dated source URL attached."
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 2,
+      "hook": 2,
+      "visual": 2,
+      "clarity": 3,
+      "taste": 2
+    },
+    "hard_gate_failures": [
+      "Layout: stray grey smoke/streak shape on slides 1, 4 and 5",
+      "Value: no niche. A women's 29mm diamond Tissot, a Hamilton dive watch and a Timex GMT share only a price band.",
+      "Recipe: 6 slides, but the listicle recipe asks for 8-10",
+      "Cover repeats the slide 4 photo, and two items are two sizes of the same Tissot Le Locle line"
+    ],
+    "fixes": [
+      "slide 1: remove the grey smoke streak to the right of the watch, and use a different watch photo from slide 4 (for example the Timex GMT)",
+      "slide 4: remove the grey smoke streak under the watch",
+      "slide 5: remove the grey smoke streak under the watch",
+      "slides 4-5: replace one of the two Tissot Le Locle items with a different brand's watch, so there are not two sizes of the same watch",
+      "slides 2-5: add items to reach 8 slides in total, or pick a clear buyer such as 'GMT watches under $2,300' or 'dive watches'. Each item must be confirmed on its dated spec page, and the cover headline must match that buyer.",
+      "slide 6: keep the CTA slide as it is"
+    ],
+    "reason": "The watch photos are clean and the prices look sourced from brand pages. But three slides have a stray grey smoke shape, the cover repeats a slide photo, and the four watches have no common buyer, so the post gives little reason to save or share. I also did not re-fetch the source pages."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-23-1130-build-your-collection-build-your-travel--backup",
+  "gave_up": true
+}

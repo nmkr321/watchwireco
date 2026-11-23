@@ -1,0 +1,17 @@
+{
+  "status": "ready",
+  "project_dir": "Content Creation/projects/2026-11-23-1130-build-your-collection-build-your-travel--backup",
+  "format": "listicle",
+  "lane": "collection",
+  "headline": "Four watches under $2,300",
+  "slides": [
+    "output/slide-01.png",
+    "output/slide-02.png",
+    "output/slide-03.png",
+    "output/slide-04.png",
+    "output/slide-05.png",
+    "output/slide-06.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": ""
+}

@@ -1,23 +1,23 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [TOP 5 THIS WEEK] Source every item from an official brand press page dated within the past week, recording its URL and release date in research before drafting.
-- [TOP 5 THIS WEEK] Count only releases with their own dated price; blogs, aggregator feeds and guides can't supply items, so search again until five are found.
-- [TOP 5 THIS WEEK] If fewer than five qualifying releases are found after checking every brand's press page, switch to a different format instead of padding with blogs.
-- [TOP 5 THIS WEEK] Log each brand's press-page status (readable, error, or no dated releases) in research before drafting, so gaps are visible.
-- [TOP 5 THIS WEEK] If a brand press page returns 403, 404 or is unreadable, try its official newsroom, RSS feed or regional site first.
-- [TOP 5 THIS WEEK] Search brand-domain pages directly for dated releases; use roundups only to find leads, then verify each item on the brand's own page.
-- [LISTICLE] Before drafting, confirm the topic has at least one cited source with a dated URL; if none exists, choose a different format.
-- [LISTICLE] Build listicle items only from prices inside the topic's stated band; if too few qualify, re-search that band instead of substituting other prices.
-- [LISTICLE] Check each source's publication date against the headline's time window; discard older sources before counting items.
-- [LISTICLE] If dated, priced sources cannot fill the listicle's item count, rewrite the headline to a window they support.
-- [LISTICLE] Reject topic-only ideas at intake; attach at least one dated source URL to each listicle idea before it enters the queue.
-- [LISTICLE] Cap topic searches at two rounds; if no dated primary source appears, drop the topic and log the failed searches in research.
-- [WOULD YOU RATHER] Before pairing watches, confirm each reference number and its photo appear on the cited product page; drop any candidate whose page omits them.
-- [WOULD YOU RATHER] Verify several candidate pairs before drafting; choose only a pair where both watches pass the reference, photo and price-date checks.
-- [WOULD YOU RATHER] Shorten each watch name to fit one line, and use the identical model name on the cover, every slide and the caption.
-- [WOULD YOU RATHER] Keep slide body text to new facts only; never repeat the footer date or price, and trim the body to fit.
-- [WOULD YOU RATHER] When a page's visible price disagrees with its embedded data, treat the price as unverified and replace the item rather than picking one figure.
-- [WOULD YOU RATHER] When changing a post's format or topic, rebuild all slides, footers and captions from scratch rather than editing the old draft, then re-run validate.
 - [WOULD YOU RATHER] Treat a price shown as "Not available" or missing as unverified; never fill it from retailer ranges or third-party listings.
 - [WOULD YOU RATHER] Make the same-money premise true only with official list prices from each brand's dated page; otherwise pick another pair.
+- [BUILD YOUR COLLECTION] Keep cover headlines to six words or fewer; make the title's theme match the watches, or rename the post.
+- [BUILD YOUR COLLECTION] Use clean product photos at matching height, with labels placed just below; reject any photo with shadows or smudges.
+- [BUILD YOUR COLLECTION] Make the cover photo one of the post's listed watches; never picture a model that is absent from the options list.
+- [BUILD YOUR COLLECTION] Before drafting, check the template fits the chosen photos at equal height; if it cannot, swap in watches whose photos already match.
+- [BUILD YOUR COLLECTION] Before choosing watches, confirm every tier has its own clean, same-height photo; if any tier lacks one, choose a different model.
+- [BUILD YOUR COLLECTION] Before drafting, check every tier's price date; re-verify any outlier date rather than mixing dates in one post.
+- [BUILD YOUR COLLECTION] Reject placeholder images such as "coming soon" graphics; use only photos of the actual watch from its product page.
+- [LISTICLE] Start each listicle search at brands' own dated price pages and catalogues, not general topic queries, so primary sources appear in the first round.
+- [LISTICLE] Before writing a price-band headline, count dated, priced items inside that band; if the count falls short, widen the band or lower the number.
+- [LISTICLE] Choose a listicle's price band only after checking that its items appear on one brand's dated catalogue page; otherwise pick a wider band.
+- [LISTICLE] Use full-watch product shots on every item slide; reject close-up crops that hide the case, strap or dial.
+- [LISTICLE] Title a listicle by a feature only after each item's dated spec page confirms that feature; otherwise use a neutral hook.
+- [LISTICLE] Count slides against the recipe's required range, such as 8-10 for listicles, before validating; add or cut items to fit.
+- [LISTICLE] Give each listicle one shared buyer niche; items that share only a price band must be swapped until they fit the niche.
+- [WOULD YOU RATHER] For would-you-rather pairs, search brand catalogues first and shortlist only pairs both confirmed on brand dated pages before drafting.
+- [WOULD YOU RATHER] Before using a library price, open its source link and confirm the same reference number and price appear there; if not, treat the entry as unverified and find the brand page.
+- [WOULD YOU RATHER] Before citing a brand URL, confirm it loads; if it returns 404, find the brand's current catalogue page, not a retailer page.
+- [WOULD YOU RATHER] Record each price's source URL and date in the draft notes; a price missing either is unverified and must be replaced.

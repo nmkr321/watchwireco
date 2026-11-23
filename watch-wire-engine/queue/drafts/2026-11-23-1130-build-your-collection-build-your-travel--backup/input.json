@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-23-1130-build-your-collection-build-your-travel--backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-23T08:51:17.100Z",
+  "post_at": "2026-11-23T16:30:00.000Z",
+  "backup_for": "2026-11-23-1130-build-your-collection-build-your-travel-",
+  "backup_depth": 1,
+  "tried_formats": [
+    "BUILD YOUR COLLECTION"
+  ],
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: BUILD YOUR COLLECTION: Build Your Travel Watch Kit, $12K total",
+  "hook": "",
+  "why": "Backup post. Start with `node watch-wire-engine/src/photo.js list --min X --max Y` to see unused verified watches. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "Dropped after two topic search rounds: no dated primary source with priced items in one tight band for a travel-kit listicle. Failed searches logged in research-work/failed-searches.md. Input idea had no dated source URL attached.",
+    "Dropped at research: no dated primary source with 6+ priced watches in one tight band (two search rounds). Failed searches logged in research-work/failed-searches.md. Input idea had no dated source URL attached."
+  ]
+}

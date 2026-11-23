@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-23-1130-build-your-collection-build-your-travel--backup-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-23T08:57:45.586Z",
+  "post_at": "2026-11-23T16:30:00.000Z",
+  "backup_for": "2026-11-23-1130-build-your-collection-build-your-travel-",
+  "backup_depth": 2,
+  "tried_formats": [
+    "LISTICLE",
+    "BUILD YOUR COLLECTION"
+  ],
+  "format": "WOULD YOU RATHER",
+  "title": "Backup WOULD YOU RATHER for the slot of: Backup LISTICLE for the slot of: BUILD YOUR COLLECTION: Build Your Travel Watch Kit, $12K total",
+  "hook": "",
+  "why": "Backup post. Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
+  "sources": [],
+  "previous_attempts": [
+    "No same-money pair met the rule of official list prices from each brand's dated page within about 10%. Checked the library's verified prices in the $9K-$13K band: most are retailer prices (Watches of Switzerland, Abt, Reeds, Exquisite Timepieces), not brand pages. The only official USD page found wa",
+    "No same-money pair met the rule of official list prices from each brand's dated page within about 10%. Only one official brand page was confirmed: Cartier WSSA0032 at USD 7,800 (cartier.com, checked 2026-11-23). The library's IWC IW356527 entry at USD 7,900 is wrong: its source link is a different r"
+  ]
+}

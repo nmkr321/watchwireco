@@ -1,0 +1,26 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 2,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Gate 7: slide 2 is a tight crop of a Hamilton dial, so the case and strap aren't visible. The lesson says to reject close-up crops.",
+    "Gate 6/7: the cover shows only the Tissot, but the post covers six watches from three brands. The Tissot photo is T932.408, not the T932.207 that slide 4 names.",
+    "Gate 10: the 'Travel' framing isn't supported. The list includes a Frogman diver and Oris dress watches, and no GMT or dual-time pick is confirmed.",
+    "Gate 2: the Oris prices come from retailers only. The sources are inconsistent, and the research says seven watches while the post shows six.",
+    "The draft status is 'stopped'. The earlier revision was never applied."
+  ],
+  "fixes": [
+    "slide 2: replace the dial macro with a full-watch Hamilton H32755851 product shot, or drop the Hamilton and use a watch that has a full-watch image.",
+    "slide 1: drop the 'Travel' tag and headline. Use a neutral title such as 'Six watches under $2,300', with a cover that doesn't favour one brand. Alternatively, rebuild the list around real GMT or dual-time watches from one brand's dated catalogue page.",
+    "slide 1/4: make the cover photo the same Tissot reference that slide 4 names. Add the model name to slide 4's headline, which is currently only a reference number.",
+    "Sources: give each Oris watch one consistent, dated source, and make the watch count match the research.",
+    "caption: name each watch and its source, and match the final slides."
+  ],
+  "reason": "The check passes, but the draft is stopped. Slide 2 is a cropped dial, the cover shows only one of three brands, and most of the six watches aren't travel watches. The Oris prices also come from retailers only. Rebuild it as a neutral price list with full-watch photos, or around real GMT watches."
+}
