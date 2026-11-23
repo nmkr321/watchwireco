@@ -1,0 +1,26 @@
+{
+  "id": "202611231958-between-bond-choose-first-omega-time",
+  "lane": "breaking",
+  "status": "stopped",
+  "found_at": "2026-11-23T19:58:52.446Z",
+  "title": "This Isn’t the First Time Bond Has Had to Choose Between Omega and JLC",
+  "score": 6,
+  "sources": [
+    {
+      "title": "This Isn’t the First Time Bond Has Had to Choose Between Omega and JLC",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdktZcjZ5N2NEdDJqZkV2NFNTbmhCYTl0SGVGM0xxYTRzWkVhUzAwc1R4M24tcS04VDRSQXdxZnlQdkhXdHBnRU12YmtwV2JCMm12T3licXFGRzA0WDZSTldTc254SUY5Rk10NXFUc1dINWJsd0gzZEpkMFR0RVBYTTVwcUE2UTZoX29BSHZRUU4?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "GQ",
+      "domain": "gq.com",
+      "tier": "major_news",
+      "published": "Mon, 23 Nov 2026 18:53:51 GMT"
+    }
+  ],
+  "format": "CELEBRITY",
+  "previous_attempts": [
+    "Repeat subject: James Bond and the Omega vs JLC choice was already covered in the last 7 days (queue/drafts 2026-11-21-1815 would-you-rather bond-omega-or-jlc, 2026-11-21-2200 news omega bond year 2026, and 2026-11-21-1700 celebrity pattinson-bond-watch). Stopped before research rather than retry th",
+    "Stopped before drafting. The input is the same James Bond Omega vs JLC subject already covered in the last 7 days (2026-11-21 Bond/Omega posts and the Pattinson Bond celebrity post), so it is a repeat. Replacement search for a different celebrity found only candidates that repeat a covered person, b"
+  ],
+  "stop_reason": "Repeat subject: James Bond and the Omega vs JLC choice is already covered in the last 7 days (queue/drafts 2026-11-21-1815 would-you-rather bond-omega-or-jlc, 2026-11-21-2200 news omega-bond-year-2026, 2026-11-21-1700 celebrity pattinson-bond-watch, 202611221042 bare-bond-industry-james-sets-wrist, 202611231156 jaeger-james-lecoultre-looks-pattinson-r). This is the third attempt on the same subject, so no research or drafting was done. Needs a different person and watch chosen by the owner or a new input.",
+  "gave_up": true
+}

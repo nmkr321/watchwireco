@@ -1,0 +1,24 @@
+{
+  "id": "202611231958-asked-audition-charlie-daredevil-james-s",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-23T19:58:52.446Z",
+  "title": "‘Daredevil’ Star Charlie Cox Asked to Audition for James Bond But Was Told He’s ‘Too Old’",
+  "score": 6,
+  "sources": [
+    {
+      "title": "‘Daredevil’ Star Charlie Cox Asked to Audition for James Bond But Was Told He’s ‘Too Old’",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbjE2RnpWbEtsSXRNclpNbDh0YmgyZHFOcG1Bd1h0QnJEMUdsODRVdnlYSVR4QndzNUpuWnF0TXBtOGFUb0hPQUptS3psY3Z1ejhXZFR4RU85dVdJdnMwV0l2NVhVOC1EanZNdnJUSWpScnpNMGtqMzNLZTU1Zjc4RzBubi1sdFVkRnlPS2d0VFpCODRCTk5rZXJzQmdwTkE?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "People.com",
+      "domain": "people.com",
+      "tier": "entertainment",
+      "published": "Mon, 23 Nov 2026 19:06:21 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "CELEBRITY",
+    "reason": "Charlie Cox audition anecdote about Bond being told he is too old. Not a casting decision or film announcement, and the article has no watch angle (no Omega or other brand mention), so it does not qualify for an immediate breaking post. CELEBRITY is the format if it is ever reconsidered."
+  }
+}

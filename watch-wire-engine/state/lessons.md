@@ -1,12 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [HISTORY] Check that each photo's own caption or credit names the same person, event and watch as its slide text; otherwise swap the photo or rewrite the claim.
-- [HISTORY] Never pair a named watch with an illustrative or generic product photo; use a photo of that exact reference or drop the specific claim.
-- [LISTICLE] Before choosing a listicle theme, count verified library watches in the target price band; pick a theme with at least 8 qualifiers.
-- [LISTICLE] Draw listicle candidates from several brands within the target price band, so no single brand must supply eight slides.
-- [LISTICLE] Count distinct watch models, not reference variants or colourways, toward the slide minimum; one model equals one slide.
-- [LISTICLE] Take the qualifier count from the library file in the current run, not from memory or earlier notes, and write the count into the plan.
 - [LISTICLE] If a theme's qualifier count falls short, pick another library-backed theme in the same run and draft it; never end an attempt before drafting.
 - [WOULD YOU RATHER] Before rendering, make every footer or source line fit on one line; shorten its text instead of allowing truncation or an ellipsis.
 - [WOULD YOU RATHER] For WOULD YOU RATHER posts, choose the two options with the closest verified prices, preferably within 5% of each other, before drafting.
@@ -21,3 +15,9 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY] Count drafts in queue/drafts as already covered, not only published posts, when applying the seven-day repeat check.
 - [CELEBRITY] Treat rejected drafts in `queue/rejected/` from the last 7 days as covered subjects, the same as posted and draft files.
 - [CELEBRITY] After any repeat-subject failure, choose a different person and watch for the next attempt; never retry the same subject with new wording.
+- [CELEBRITY] Before research, check approved, drafted and rejected posts from the last 7 days in every format, not just the one being drafted.
+- [CELEBRITY] Treat a shared person, brand or watch model across any format as a repeat, even if the angle or wording differs.
+- [CELEBRITY] When searching for a replacement subject, exclude every covered person, franchise and brand first; never pick a candidate tied to a covered franchise, even via a different actor.
+- [CELEBRITY] If replacement candidates all repeat covered people, widen to other celebrity categories (athletes, musicians, artists) before searching again.
+- [CELEBRITY] Before choosing a subject, search recent queue files for the character, franchise, and actor names. A match on any of them counts as a repeat.
+- [CELEBRITY] When an idea's main watch model already appears in a recent post, pick a different model or drop the pairing. Changing only the angle does not make it new.
