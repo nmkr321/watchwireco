@@ -1,11 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [LISTICLE] If a theme's qualifier count falls short, pick another library-backed theme in the same run and draft it; never end an attempt before drafting.
-- [WOULD YOU RATHER] Before rendering, make every footer or source line fit on one line; shorten its text instead of allowing truncation or an ellipsis.
-- [WOULD YOU RATHER] For WOULD YOU RATHER posts, choose the two options with the closest verified prices, preferably within 5% of each other, before drafting.
-- [WOULD YOU RATHER] Apply the SAME MONEY tag only when both verified prices are within 5%; otherwise choose a closer pair or drop the tag.
-- [WOULD YOU RATHER] Pick two options with the same verified date, and make the footer date, slide 2 date and caption date identical before rendering.
 - [WOULD YOU RATHER] Keep each slide body to one or two balanced lines with no one-word orphan; drop any date already shown in the footer.
 - [WOULD YOU RATHER] Name each option's headline with the same model name used on the cover and in the caption, so the three never disagree.
 - [CELEBRITY] Check posts from the last 7 days first; skip any person or watch already covered and choose a different subject.
@@ -21,3 +16,8 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY] If replacement candidates all repeat covered people, widen to other celebrity categories (athletes, musicians, artists) before searching again.
 - [CELEBRITY] Before choosing a subject, search recent queue files for the character, franchise, and actor names. A match on any of them counts as a repeat.
 - [CELEBRITY] When an idea's main watch model already appears in a recent post, pick a different model or drop the pairing. Changing only the angle does not make it new.
+- [CELEBRITY] When a candidate subject is a repeat, immediately research and draft a different subject in the same run; never end the run at the repeat check.
+- [CELEBRITY] Before the repeat check, research two backup subjects from uncovered people and franchises, so a failed check can switch subjects at once.
+- [CELEBRITY] Before drafting, confirm the sighting and watch model in at least two independent sources; a single outlet is not enough to publish.
+- [CELEBRITY] Before rendering, check that every price and reference has a dated source, and use only that source's figures in the slides and caption.
+- [CELEBRITY] Confirm each celebrity candidate's sighting is dated within 7 days before shortlisting; drop older articles and move to the next candidate.

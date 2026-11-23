@@ -4315,5 +4315,47 @@
   "credit": "Image: Jaeger-LeCoultre",
   "usage": "Jaeger-LeCoultre campaign/press image of Robert Pattinson, credited",
   "fetched": "2026-11-23"
+ },
+ {
+  "kind": "person",
+  "title": "Harry Kane",
+  "who": "English footballer (born 1993)",
+  "source": "https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-024_(cropped).jpg",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg/1920px-Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "file": "watch-wire-engine/library/img/person-harry-kane.jpg",
+  "w": 1920,
+  "h": 2662,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "Bryan Berlin",
+  "license": "CC BY-SA 4.0",
+  "credit": "Photo: Bryan Berlin / CC BY-SA 4.0",
+  "caption_credit": "Photo: Bryan Berlin / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
+  "usage": "Portrait of Harry Kane, CC BY-SA 4.0, credited",
+  "fetched": "2026-11-23"
+ },
+ {
+  "kind": "watch",
+  "brand": "Rolex",
+  "ref": "126599TSA",
+  "title": "Rolex 126599TSA",
+  "source": "https://www.watchguys.com/collections/all/products/rolex-daytona-126599tsa",
+  "image_url": "https://www.watchguys.com/cdn/shop/files/rolex_daytona_126599TSA_900x.webp?v=1791245798",
+  "file": "watch-wire-engine/library/img/rolex-126599tsa.png",
+  "w": 900,
+  "h": 900,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 1799995,
+   "currency": "USD",
+   "source": "https://www.watchguys.com/collections/all/products/rolex-daytona-126599tsa",
+   "date": "2026-11-23"
+  },
+  "rights": "official",
+  "creator": "Rolex",
+  "credit": "Image: Rolex",
+  "usage": "Rolex 126599TSA official product image, credited",
+  "fetched": "2026-11-23"
  }
 ]
