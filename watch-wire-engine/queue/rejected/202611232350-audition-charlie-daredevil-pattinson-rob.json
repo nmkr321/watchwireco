@@ -1,0 +1,24 @@
+{
+  "id": "202611232350-audition-charlie-daredevil-pattinson-rob",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-23T23:50:25.416Z",
+  "title": "'Daredevil's Charlie Cox Wanted To Audition For James Bond But Was Told He Was \"Too Old\": \"But Robert Pattinson Is The Same Age As Me!\"",
+  "score": 6,
+  "sources": [
+    {
+      "title": "'Daredevil's Charlie Cox Wanted To Audition For James Bond But Was Told He Was \"Too Old\": \"But Robert Pattinson Is The Same Age As Me!\"",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbDZmQVl5bERSYU5GRUNCaXF5cndxRjNMYTZncmNHU0RfSF9oNUVVd2xtaUJTWEdabEs2d3BwLVZxMWpFOHFfa1FMRHplWl95b2Y1S1FtYnlFVVpFZkpMNkN6eTQ1cDJDLTE4bnloUGRkWEI4a1E5OG1QbXhKX1MzMGI4TExpLUZnXzZhNTZmNEEwWVdlajJncUphblBwbGZkREE2aHV3?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Deadline",
+      "domain": "deadline.com",
+      "tier": "entertainment",
+      "published": "Mon, 23 Nov 2026 23:26:00 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "none",
+    "reason": "Charlie Cox's Bond audition anecdote is celebrity gossip with no Bond casting or film news and no clear watch angle in the story, so it does not qualify as a breaking post."
+  }
+}
