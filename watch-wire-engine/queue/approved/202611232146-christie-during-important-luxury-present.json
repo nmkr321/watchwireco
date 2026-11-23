@@ -1,0 +1,42 @@
+{
+  "id": "202611232146-christie-during-important-luxury-present",
+  "lane": "breaking",
+  "status": "approved",
+  "found_at": "2026-11-23T21:46:39.869Z",
+  "title": "Christie’s Presents Important Watches During New York Luxury Week",
+  "score": 7,
+  "sources": [
+    {
+      "title": "Christie’s Presents Important Watches During New York Luxury Week",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeGNKSjNMWFZLbF9WT1ZfTFNMOXpVVS1YcllfTnN5ZXVJdjZjM1lad1JuU2xCak13TFJkS3N5TjRSRmRJSU9jTG0yWTZyMFpDTWJIVlQ2TzU4YWdISTBQR2d4R0JJQWtiNndNMTJ0UUVZeHdSSmdheDE2T2VoMC1wNUxSTTZ4NmJZcmN6SmxkNUdWT01GcWNvTw?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Christie's Press",
+      "domain": "press.christies.com",
+      "tier": "primary",
+      "published": "Mon, 23 Nov 2026 21:23:28 GMT"
+    }
+  ],
+  "format": "AUCTIONS",
+  "previous_attempts": [
+    "No verifiable 2026 result for this sale. The only source is a Christie's press listing (Google News redirect, published 23 Nov 2026) that I could not open (press.christies.com blocked). Searches found only older Christie's Luxury Week results (Dec 2024, about $10.9M total) and other houses' 2026 Pau",
+    "This is the same Phillips Geneva sale we posted three days ago, so it's a repeat. The layout check passes, but the post should be replaced with a different auction story, such as a dated sale with final results published on the house's own site. / Repeat of a post from the last 7 days: the Geneva auction results (Phillips XXIV, CHF 92.0m) were already posted on 2026-11-20 (gates 8 and 9) / The engine stopped this draft itself as the same sale, and the draft cannot show it is a different one"
+  ],
+  "scheduled_for": "2026-11-24T13:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/202611232146-christie-during-important-luxury-present",
+  "project_dir": "Content Creation/projects/202611232146-christie-during-important-luxury-present",
+  "post_dir": "watch-wire-engine/queue/drafts/202611232146-christie-during-important-luxury-present/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 2,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The check passes. Phillips' own release and lot page confirm the HK$80.37M result for lot 941 (US$10.26M), the 30–31 May 2026 sale dates, the HK$24–48M estimate and the 293 of 294 lots sold. The earlier clipped figures are fixed, the cover watch is pictured with a credit, and the fee caveat appears once on slide 4 and in the caption. The sale is six months old, so I'm treating it as an evergreen record-price post, not breaking news."
+  }
+}

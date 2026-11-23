@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: the big gold figures on slides 2 and 4 run edge to edge and clip the margins",
+    "Slide 2 headline wraps awkwardly, splitting 'Hong Kong'"
+  ],
+  "fixes": [
+    "slide 2: shorten the big figure so it has clear side margins, e.g. 'US$10.3M', and make sure it is not clipped",
+    "slide 4: shorten the big figure to fit inside the margins, e.g. 'US$51.5M'",
+    "slide 2: shorten the headline to 'Lot 941, Ref. 2499' so it wraps cleanly on one line, and leave a clear gap below the figure's label",
+    "slide 2: cut 'Fees not stated in Phillips' release' from the body. Keep it on slide 4 and in the caption, which already say it",
+    "slide 4: shorten the body to 'HK$403.8M across two days. Fees not stated.'"
+  ],
+  "reason": "Phillips HK's 31 May 2026 results are verified and the check passes. But the oversized figures on slides 2 and 4 are cut off at the edges, so the post needs a layout fix before it can go out. It is also six months old, so it isn't timely, but it is still usable as an evergreen record-sale post once fixed."
+}

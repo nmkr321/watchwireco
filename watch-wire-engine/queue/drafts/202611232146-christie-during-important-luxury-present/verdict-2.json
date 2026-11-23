@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. Phillips' own release and lot page confirm the HK$80.37M result for lot 941 (US$10.26M), the 30–31 May 2026 sale dates, the HK$24–48M estimate and the 293 of 294 lots sold. The earlier clipped figures are fixed, the cover watch is pictured with a credit, and the fee caveat appears once on slide 4 and in the caption. The sale is six months old, so I'm treating it as an evergreen record-price post, not breaking news."
+}
