@@ -1,0 +1,27 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Slide count 7 is below the 8–10 required for a LISTICLE",
+    "Slides 2 and 3 are two versions of the same watch (Hamilton Khaki Field Quartz)",
+    "Slides 4 and 5 prices come from Exquisite Timepieces, which is not the brand or a confirmed official retailer",
+    "Slide 2/3 bodies use bare reference numbers instead of plain wording, and the Hamilton and Seiko items share no clear buyer niche",
+    "Format: the draft folder's title says celebrity collection but the post is a generic price listicle"
+  ],
+  "fixes": [
+    "Slides 2-3: replace one Khaki Field Quartz with a genuinely different watch, so no two items are versions of the same model",
+    "Slides 4-5: take Seiko Prospex prices from Seiko's own US page or an official retailer, dated, or swap in items with brand-page prices",
+    "Add items or fix the count so the post has 8–10 slides, including the cover and the CTA",
+    "Cover: name one shared buyer niche (e.g. 'first everyday watch') and make sure every item suits it",
+    "Item slides: lead the body with the watch's name and price, and drop bare reference numbers where they don't help",
+    "Confirm every item slide shows a full-watch product shot with a credit, and that the cover shows watches from the list"
+  ],
+  "reason": "The validator passes, but the post has only 7 slides when a listicle needs 8–10. It also includes two versions of the same Hamilton, and the Seiko prices come from an unofficial retailer."
+}

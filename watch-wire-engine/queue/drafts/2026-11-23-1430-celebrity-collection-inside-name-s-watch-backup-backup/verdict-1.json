@@ -1,0 +1,20 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "6: Slide 4 body wraps and leaves '2026.' alone on a second line. Slide 3 is close to the same."
+  ],
+  "fixes": [
+    "slide 4: Shorten the body to one line. Example: 'Steel bracelet, green bezel. $1,450 on Timex.' Drop the repeated date, since the footer already shows it.",
+    "slide 3: Shorten the same way, e.g. 'Black case, rubber strap. $1,395 on Hamilton.' so the two option slides match.",
+    "slides 3 and 4: Spec details (300m, GMT hand, green bezel) aren't in the verified claims. Remove '300m' or cite it from the brand page."
+  ],
+  "reason": "The prices check out: Hamilton's page shows H77825330 at $1,395 with Add to Cart, and Timex's $1,450 is a verified claim. The pair is within 10%, both watches are pictured, and validate passes. Slide 4 has an orphan word on its second line, and slide 3's spec line can't be tied to a verified claim, so both need a short text fix before this can go out."
+}

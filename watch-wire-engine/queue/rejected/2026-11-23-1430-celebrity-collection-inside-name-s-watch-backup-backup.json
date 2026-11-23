@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup",
+  "lane": "rotation",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-23T09:10:24.195Z",
+  "post_at": "2026-11-23T19:30:00.000Z",
+  "backup_for": "2026-11-23-1430-celebrity-collection-inside-name-s-watch",
+  "backup_depth": 2,
+  "tried_formats": [
+    "LISTICLE",
+    "CELEBRITY COLLECTION"
+  ],
+  "format": "WOULD YOU RATHER",
+  "title": "Backup WOULD YOU RATHER for the slot of: Backup LISTICLE for the slot of: CELEBRITY COLLECTION: Inside [Name]'s watch collection (name not yet chosen)",
+  "hook": "",
+  "why": "Backup post. Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
+  "sources": [],
+  "previous_attempts": [
+    "No same-money pair could be fully verified in budget. Candidates checked: Omega 210.30.42.20.01.023 ($8,600, 2026-11-21 library entry) could not be confirmed (Watches of Switzerland returned HTTP 429 twice; search found no page for that reference). Cartier WSSA0032 ($7,800, 2026-11-21, cartier.com c",
+    "The draft stopped before its price swap was finished. Both watches are list-price only, the prices sit slightly outside the 10% band, and the Omega photo may not match the named reference. / Gate 10/lesson: both watches are marked unavailable online (list price only), which breaks the rule to pair only watches that can be bought now. The slides say 'list price only' only in a small footnote. / Gate 2: the draft's own stop_reason says the pairing swap was not completed. The brand-page re-check is still pending, so the prices are not fully verified. / Format recipe: the prices must be within abo"
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 2,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [
+      "Lesson: slide copy must match carousel.json exactly. Slide 4 shows 'Steel bracelet. $1,450 on Timex.' but carousel.json says 'Steel bracelet, green bezel, GMT hand. $1,450 on Timex.'",
+      "Lesson: put a spec on a slide only if a verified claim or an opened brand page states it. Slide 3 says 'Black case, rubber strap', and no claim in research.json states either detail."
+    ],
+    "fixes": [
+      "slide 3: drop 'Black case, rubber strap.' Use body '$1,395 on Hamilton.' in both carousel.json and the render, or add a verified claim for those specs.",
+      "slide 4: make carousel.json and the render say the same thing. Use '$1,450 on Timex.' with no unverified specs, or add a verified claim for the bracelet.",
+      "Re-run validate after the edits and confirm it still passes."
+    ],
+    "reason": "Prices ($1,395 vs $1,450, about 4% apart) and the Hamilton reference check out, and the layout is clean. The slide text doesn't match the carousel file, and slide 3 states specs that no verified claim backs, so it needs a quick copy fix."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup",
+  "gave_up": true
+}

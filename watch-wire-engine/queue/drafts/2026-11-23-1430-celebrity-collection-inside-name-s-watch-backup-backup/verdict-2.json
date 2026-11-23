@@ -1,0 +1,21 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 3,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Layout, slide 2: 'KHAKI NAVY FROGMAN' wraps to two lines while 'ATELIER GMT' is on one line. The two columns and their prices do not line up, which breaks the lesson that both columns stay on one line.",
+    "Lesson: the slide copy does not match carousel.json. The slide 1 body, the slide 2 headline and body, and the slide 3 and 4 bodies all differ, and carousel.json still says '300m' and 'green bezel, GMT hand'."
+  ],
+  "fixes": [
+    "slide 2: shorten the Hamilton model label to 'FROGMAN' (or 'NAVY FROGMAN' if it fits one line), so both model names and both prices sit on the same baseline.",
+    "slide 2: add an 'Image: Hamilton / Timex' credit, because both photos sit on this slide and it has none.",
+    "Update carousel.json (slides 1-4 headline and body) to match exactly the text shown on the rendered slides, then re-run validate and confirm PASS."
+  ],
+  "reason": "The prices are right: Hamilton's page shows the Frogman H77825330 at $1,395, and Timex's page lists the Atelier GMT at $1,450. Validate passes. The pair is within 10% and both watches can be bought now. The slide 2 columns don't line up because the Hamilton name wraps to two lines, and the carousel text no longer matches the slides, so a quick fix is needed."
+}

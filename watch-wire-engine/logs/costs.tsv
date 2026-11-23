@@ -643,3 +643,38 @@
 2026-11-23T08:58:49.087Z	learn 2026-11-23-1130-build-your-collection-build-your-travel--backup-backup	claude-haiku-5-5	0.0019	2
 2026-11-23T08:59:16.835Z	editor 2026-11-23-1130-build-your-collection-build-your-travel--backup-backup	claude-haiku-5-5	0.0535	10
 2026-11-23T08:59:22.346Z	learn 2026-11-23-1130-build-your-collection-build-your-travel--backup-backup	claude-haiku-5-5	0.0021	2
+2026-11-23T08:59:48.964Z	editor 2026-11-23-1430-celebrity-collection-inside-name-s-watch	claude-haiku-5-5	0.0504	6
+2026-11-23T08:59:57.035Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch	claude-haiku-5-5	0.0024	2
+2026-11-23T09:01:14.535Z	editor 2026-11-23-1430-celebrity-collection-inside-name-s-watch	claude-haiku-5-5	0.0703	15
+2026-11-23T09:01:20.095Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch	claude-haiku-5-5	0.0021	2
+2026-11-23T09:01:33.295Z	editor 2026-11-23-1430-celebrity-collection-inside-name-s-watch	claude-haiku-5-5	0.0145	4
+2026-11-23T09:01:38.045Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch	claude-haiku-5-5	0.0020	2
+2026-11-23T09:03:49.778Z	editor 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup	claude-haiku-5-5	0.0313	31
+2026-11-23T09:04:01.587Z	approver 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup r1	claude-sonnet-5-5	0.0425	5
+2026-11-23T09:04:07.981Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup	claude-haiku-5-5	0.0023	2
+2026-11-23T09:07:14.952Z	editor-revise 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup	claude-haiku-5-5	0.0602	30
+2026-11-23T09:07:30.281Z	approver 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup r2	claude-sonnet-5-5	0.0646	8
+2026-11-23T09:08:56.238Z	editor-revise 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup	claude-haiku-5-5	0.0301	19
+2026-11-23T09:09:01.344Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup	claude-haiku-5-5	0.0023	3
+2026-11-23T09:09:44.841Z	editor 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup	claude-haiku-5-5	0.0137	16
+2026-11-23T09:09:49.196Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup	claude-haiku-5-5	0.0019	2
+2026-11-23T09:10:18.971Z	editor 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup	claude-haiku-5-5	0.0121	16
+2026-11-23T09:10:24.185Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup	claude-haiku-5-5	0.0021	2
+2026-11-23T09:11:59.937Z	editor 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0458	13
+2026-11-23T09:12:04.798Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0020	2
+2026-11-23T09:13:34.909Z	editor 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0313	26
+2026-11-23T09:13:56.692Z	approver 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup r1	claude-sonnet-5-5	0.0884	11
+2026-11-23T09:14:03.638Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0024	2
+2026-11-23T09:14:33.984Z	editor-revise 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0074	9
+2026-11-23T09:14:58.058Z	approver 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup r2	claude-sonnet-5-5	0.1100	15
+2026-11-23T09:15:42.187Z	editor-revise 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0327	11
+2026-11-23T09:15:54.559Z	approver 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup r3	claude-sonnet-5-5	0.0382	6
+2026-11-23T09:16:00.180Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0026	3
+2026-11-23T09:17:30.233Z	editor 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0315	30
+2026-11-23T09:17:51.925Z	approver 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup r1	claude-sonnet-5-5	0.0855	12
+2026-11-23T09:17:56.202Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0020	2
+2026-11-23T09:18:14.791Z	editor-revise 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0044	7
+2026-11-23T09:18:42.207Z	approver 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup r2	claude-sonnet-5-5	0.1093	14
+2026-11-23T09:19:09.898Z	editor-revise 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0057	7
+2026-11-23T09:19:30.203Z	approver 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup r3	claude-sonnet-5-5	0.0761	12
+2026-11-23T09:19:33.733Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0020	2

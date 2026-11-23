@@ -1,0 +1,17 @@
+{
+  "status": "stopped",
+  "project_dir": "Content Creation/projects/2026-11-23-1430-price-listicle-first-field-watches",
+  "format": "price listicle",
+  "lane": "price listicle",
+  "headline": "4 first field watches, $445 to $795",
+  "slides": [
+    "output/slide-01.png",
+    "output/slide-02.png",
+    "output/slide-03.png",
+    "output/slide-04.png",
+    "output/slide-05.png",
+    "output/slide-06.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": "Owner fixes partly applied. Renamed folders (price listicle), cover tag now FIELD WATCHES, caption lists the final four items and credits. Not done: (1) no Seiko Prospex diver under $800 with a brand-page price was found, so the diver swap could not be made; the Seiko SRPL15 price is from a retailer listing (Exquisite Timepieces, 21 Nov 2026), and its cover photo is a black diver that does not fit the field-watch headline. Owner to choose the buyer or the Seiko pick. (2) $495 (Hamilton H69401140) needs a sourced claim in the research file."
+}

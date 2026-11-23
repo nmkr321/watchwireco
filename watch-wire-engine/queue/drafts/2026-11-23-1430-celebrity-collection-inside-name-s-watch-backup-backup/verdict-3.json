@@ -1,0 +1,21 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Lesson: slide copy must match carousel.json exactly. Slide 4 shows 'Steel bracelet. $1,450 on Timex.' but carousel.json says 'Steel bracelet, green bezel, GMT hand. $1,450 on Timex.'",
+    "Lesson: put a spec on a slide only if a verified claim or an opened brand page states it. Slide 3 says 'Black case, rubber strap', and no claim in research.json states either detail."
+  ],
+  "fixes": [
+    "slide 3: drop 'Black case, rubber strap.' Use body '$1,395 on Hamilton.' in both carousel.json and the render, or add a verified claim for those specs.",
+    "slide 4: make carousel.json and the render say the same thing. Use '$1,450 on Timex.' with no unverified specs, or add a verified claim for the bracelet.",
+    "Re-run validate after the edits and confirm it still passes."
+  ],
+  "reason": "Prices ($1,395 vs $1,450, about 4% apart) and the Hamilton reference check out, and the layout is clean. The slide text doesn't match the carousel file, and slide 3 states specs that no verified claim backs, so it needs a quick copy fix."
+}

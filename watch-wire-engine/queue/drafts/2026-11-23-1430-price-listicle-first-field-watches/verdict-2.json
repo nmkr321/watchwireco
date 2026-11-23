@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Rule: items must be different models. Slides 4, 5 and 6 (SRPL13, SRPL53, SRPL51) look like colourways of one Seiko Prospex diver. Slides 4 and 6 are the same watch with a black or blue dial, both $595.",
+    "Draft folder and ID still say 'celebrity-collection' although this is a price listicle. The previous review flagged this and it is not fixed.",
+    "Shared niche is weak. A Hamilton field watch and several Seiko divers do not share one 'first everyday watch' buyer."
+  ],
+  "fixes": [
+    "slides 4-6: keep one Seiko Prospex diver and swap the other two for genuinely different models, such as a Seiko 5 or a Hamilton Khaki. Use brand-page prices with dates.",
+    "slides 2-7: pick items for one clear buyer, such as 'first field watches' or 'first dive watches'. Make sure the cover headline says what the items have in common.",
+    "cover: the two photos should show two different models from the list. Drop 'LISTICLE' as a visible label or keep it consistent with the format.",
+    "Rename the draft and project folder, and any title, to match the real format (price listicle). Remove 'celebrity-collection'.",
+    "Check the caption repeats the final item list and credits."
+  ],
+  "reason": "The validator passes, but three of the six items are colourways of one Seiko diver, which breaks the rule that items must be different models. The folder is also still labelled 'celebrity collection', so it needs another pass."
+}

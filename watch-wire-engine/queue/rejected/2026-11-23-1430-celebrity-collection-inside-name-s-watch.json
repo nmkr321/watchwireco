@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-23-1430-celebrity-collection-inside-name-s-watch",
+  "status": "stopped",
+  "found_at": "2026-11-23T08:05:52.413Z",
+  "lane": "rotation",
+  "format": "CELEBRITY COLLECTION",
+  "post_at": "2026-11-23T19:30:00.000Z",
+  "slot": 3,
+  "title": "CELEBRITY COLLECTION: Inside [Name]'s watch collection (name not yet chosen)",
+  "hook": "Inside [Name]'s watch collection is getting interesting.",
+  "why": "Needs a celebrity a trusted outlet has described with named watches. Kevin O'Leary is already rejected. Not buildable until a name is verified.",
+  "sources_to_check": [
+    "Hodinkee",
+    "Monochrome",
+    "WSJ",
+    "GQ",
+    "Esquire",
+    "brand official pages for each named watch's reference and price"
+  ],
+  "sources": [
+    {
+      "title": "Hodinkee",
+      "link": "",
+      "source": "Hodinkee",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Monochrome",
+      "link": "",
+      "source": "Monochrome",
+      "tier": "to-verify"
+    },
+    {
+      "title": "WSJ",
+      "link": "",
+      "source": "WSJ",
+      "tier": "to-verify"
+    },
+    {
+      "title": "GQ",
+      "link": "",
+      "source": "GQ",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Esquire",
+      "link": "",
+      "source": "Esquire",
+      "tier": "to-verify"
+    },
+    {
+      "title": "brand official pages for each named watch's reference and price",
+      "link": "",
+      "source": "brand official pages for each named watch's reference and price",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "No celebrity chosen. The input has no name. Searches found only blog or retailer write-ups for Ryan Reynolds and other actors, with no named watch list from Hodinkee, GQ, WSJ or Esquire that I could verify. Sources found: GQ Korea snippets (Pedro Pascal Cartier Santos and TAG Heuer Monaco; Brad Pitt",
+    "Subject found (Tom Brady, DuPont Registry, 3 Nov 2026, opened in full) with six named watches, but no matching photos: the library and Wikimedia have only a Patek Philippe 5172G photo and a Brady portrait. The Rolex Daytona Rainbow, AP Royal Oak Openworked Rainbow, AP Flying Tourbillon Openworked (r"
+  ],
+  "stop_reason": "No celebrity or watch list could be verified. The input still has no name ([Name] placeholder). This is attempt 3 and the search found only snippets, blog and retailer write-ups (Dupont Registry, Watch Time, Wrist Aficionado, Robb Report). No editorial source (Hodinkee, GQ, WSJ, Esquire, Monochrome) was opened that names a celebrity with a watch list, so no post was started. Recommend replacing this idea with a specific named subject whose watch list appears in an opened editorial source, such as the Tom Brady or Saquon Barkley leads, which still need matching licensed photos for each named reference.",
+  "gave_up": true
+}
