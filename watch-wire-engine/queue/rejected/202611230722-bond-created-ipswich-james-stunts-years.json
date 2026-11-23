@@ -1,0 +1,24 @@
+{
+  "id": "202611230722-bond-created-ipswich-james-stunts-years",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-23T07:22:09.196Z",
+  "title": "The Ipswich man who has created James Bond stunts for 40 years",
+  "score": 6,
+  "sources": [
+    {
+      "title": "The Ipswich man who has created James Bond stunts for 40 years",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4wRWx1dG8zS01temdWRXdNdUhfZE5YRU4xZEduM1VUUU1KM3haTFZQTXRNUndLc3dLMUhnb0JhZTRQN1hpTGdqbmVIcFdoSXNWMjhKd3VNVWFHemxaQ2c?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "BBC",
+      "domain": "bbc.co.uk",
+      "tier": "major_news",
+      "published": "Mon, 23 Nov 2026 06:45:28 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NO",
+    "reason": "Feature profile of a Bond stunt coordinator with no visible watch angle, brand, auction, launch, or price news. Not breaking news a collector would care about today. Judged from the headline and source only; the full article might show a watch tie-in that would change this."
+  }
+}
