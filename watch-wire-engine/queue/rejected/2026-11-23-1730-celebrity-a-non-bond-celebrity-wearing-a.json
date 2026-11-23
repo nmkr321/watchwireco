@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a",
+  "status": "stopped",
+  "found_at": "2026-11-23T08:05:52.413Z",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "post_at": "2026-11-23T22:30:00.000Z",
+  "slot": 4,
+  "title": "CELEBRITY: a non-Bond celebrity wearing a watch a trusted outlet reported (name not yet chosen)",
+  "hook": "[Name] wears [watch]. Here's the price.",
+  "why": "Bond is already covered several times this week, so this slot needs a non-Bond celebrity. Tyson Fury, Henry Cavill and Ryan Gosling are excluded. Mark as spotted wearing unless ownership is confirmed.",
+  "sources_to_check": [
+    "trusted outlet article naming the watch and the wearing",
+    "brand official page for reference and US retail price"
+  ],
+  "sources": [
+    {
+      "title": "trusted outlet article naming the watch and the wearing",
+      "link": "",
+      "source": "trusted outlet article naming the watch and the wearing",
+      "tier": "to-verify"
+    },
+    {
+      "title": "brand official page for reference and US retail price",
+      "link": "",
+      "source": "brand official page for reference and US retail price",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "This is the same DiCaprio Rolex 1908 post we already published on 21 Nov, so it repeats within 7 days. The cover also has no watch visible, and the Daytona is named but not pictured. Make a new celebrity post instead. / Gate 8/9: repeat. The same DiCaprio platinum Rolex 1908 (ref 52506, Oscars, $33,600) story was already posted on 2026-11-21 (2026-11-21-1545-celebrity-retry), which is inside the 7-day window. / Gate 7: slide 1 is a portrait with no watch visible and no gold-circle inset of the watch. The A-spotted recipe needs the inset. / Gate 8: slide 4 names the Daytona but never shows it. ",
+    "No usable celebrity sighting found. Searches returned only undated or older (2024-2026 Golden Globes, Met Gala, Oscars) sightings; none was dated within the past 90 days with a second outlet or a dated photo. Checked posted history: Pattinson, Tyson Fury, DiCaprio (Rolex 1908, 21 Nov), Kevin O'Leary"
+  ],
+  "stop_reason": "Attempt 3 stopped. Only candidate found: Roger Federer wearing a Rolex Oyster Perpetual with a Jubilee dial at the 2026 US Open (Esquire India, Euronews, Galerie, Man of Many). Sources conflict on the case size (36 mm vs 41 mm) and reference (134300 vs 126000), so no reference or price can be stated. Galerie dates the appearance to about 25 Aug 2026, which is at the edge of the 90-day window. No dated Rolex or Federer product photo wearing this watch was found, and no US retail price was verified. The other sightings found (DiCaprio, Michael B. Jordan, Josh Groban, Oscars and Golden Globes items) are older than 90 days. Next step: a new celebrity sighting dated within 90 days, with a second outlet and a product photo.",
+  "gave_up": true
+}

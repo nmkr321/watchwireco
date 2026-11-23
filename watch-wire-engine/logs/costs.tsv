@@ -678,3 +678,35 @@
 2026-11-23T09:19:09.898Z	editor-revise 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0057	7
 2026-11-23T09:19:30.203Z	approver 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup r3	claude-sonnet-5-5	0.0761	12
 2026-11-23T09:19:33.733Z	learn 2026-11-23-1430-celebrity-collection-inside-name-s-watch-backup-backup	claude-haiku-5-5	0.0020	2
+2026-11-23T09:21:27.945Z	editor 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a	claude-haiku-5-5	0.0531	32
+2026-11-23T09:21:48.775Z	approver 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a r1	claude-sonnet-5-5	0.0982	15
+2026-11-23T09:21:53.845Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a	claude-haiku-5-5	0.0021	2
+2026-11-23T09:21:57.832Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a	claude-haiku-5-5	0.0019	2
+2026-11-23T09:22:22.533Z	editor 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a	claude-haiku-5-5	0.0401	8
+2026-11-23T09:22:27.819Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a	claude-haiku-5-5	0.0020	2
+2026-11-23T09:23:00.718Z	editor 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a	claude-haiku-5-5	0.0430	10
+2026-11-23T09:23:06.351Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a	claude-haiku-5-5	0.0021	2
+2026-11-23T09:25:16.326Z	editor 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup	claude-haiku-5-5	0.0752	29
+2026-11-23T09:25:33.957Z	approver 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup r1	claude-sonnet-5-5	0.0761	11
+2026-11-23T09:25:41.386Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup	claude-haiku-5-5	0.0024	2
+2026-11-23T09:26:13.790Z	editor-revise 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup	claude-haiku-5-5	0.0076	11
+2026-11-23T09:26:24.488Z	approver 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup r2	claude-sonnet-5-5	0.0497	8
+2026-11-23T09:26:42.955Z	editor-revise 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup	claude-haiku-5-5	0.0041	5
+2026-11-23T09:26:57.247Z	approver 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup r3	claude-sonnet-5-5	0.0533	9
+2026-11-23T09:27:03.861Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup	claude-haiku-5-5	0.0024	2
+2026-11-23T09:27:23.115Z	editor 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup	claude-haiku-5-5	0.0274	6
+2026-11-23T09:27:28.544Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup	claude-haiku-5-5	0.0021	2
+2026-11-23T09:28:09.772Z	editor 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup	claude-haiku-5-5	0.0796	12
+2026-11-23T09:28:14.206Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup	claude-haiku-5-5	0.0019	2
+2026-11-23T09:29:56.375Z	editor 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0235	19
+2026-11-23T09:30:10.753Z	approver 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup r1	claude-sonnet-5-5	0.0686	8
+2026-11-23T09:30:15.775Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0021	2
+2026-11-23T09:31:27.856Z	editor-revise 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0163	15
+2026-11-23T09:31:36.223Z	approver 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup r2	claude-sonnet-5-5	0.0311	4
+2026-11-23T09:31:56.864Z	editor-revise 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0071	8
+2026-11-23T09:32:06.468Z	approver 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup r3	claude-sonnet-5-5	0.0252	4
+2026-11-23T09:32:10.674Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0021	2
+2026-11-23T09:32:56.078Z	editor 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0168	20
+2026-11-23T09:33:00.659Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0020	2
+2026-11-23T09:33:28.130Z	editor 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0104	13
+2026-11-23T09:33:33.430Z	learn 2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup	claude-haiku-5-5	0.0021	2

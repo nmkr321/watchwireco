@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a-backup-backup",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-23T09:28:14.214Z",
+  "post_at": "2026-11-23T22:30:00.000Z",
+  "backup_for": "2026-11-23-1730-celebrity-a-non-bond-celebrity-wearing-a",
+  "backup_depth": 2,
+  "tried_formats": [
+    "CELEBRITY"
+  ],
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: Backup CELEBRITY for the slot of: CELEBRITY: a non-Bond celebrity wearing a watch a trusted outlet reported (name not yet chosen)",
+  "hook": "",
+  "why": "Backup post. Start with `node watch-wire-engine/src/photo.js list --min X --max Y` to see unused verified watches. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "The draft stopped itself. Photos on slides 2 and 4 are not clean, the Fears watch is unverified, and the post is short of the 8-slide minimum. Fix the photos and facts, re-render, and resubmit. / Draft status is 'stopped' and its slides were never re-rendered or re-checked (gate 1). I did not run the validator. / Slide 2 (Tissot T932.207) has a grey shadow under the watch, so it is not a clean cut-out on black. The listicle lesson says to choose another photo. / The cover and slide 4 use the same Longines photo. The candidate cover photo has a shadow. / The Fears photo on slide 5 was never che",
+    "Only five watches in the $1,450–$2,650 band have clean cut-out photos and verified prices: Oris 01 733 7810 4054-07 6 ($2,200, Watches of Switzerland, 21 Nov 2026), Oris 01 733 7762 4054 ($2,300, Abt, 22 Nov 2026), Hamilton H77825330 Khaki Navy Frogman ($1,545, Hamilton, 21 Nov 2026), Timex TW6A0720"
+  ],
+  "stop_reason": "Only 4 watches in the $1,450–$2,650 band have a clean cut-out photo and a verified price: Timex TW6A07200 ($1,450, timex.com, 21 Nov 2026), Oris 01 733 7810 4051 ($2,200, Watches of Switzerland, 22 Nov 2026), Oris 01 733 7810 4055 07 6 ($2,200, Oris library, 22 Nov 2026), Longines L2.949.4.73.6 ($2,650, Exquisite Timepieces, 22 Nov 2026). A listicle needs 6 qualifying watches for the 8-slide minimum. Rejected: Oris 01 733 7721 photo file is an HTML error page, not an image; Hamilton H32755851 photo is a dial close-up, not a cut-out; Tissot T932.408 photo has a grey background smear; Tissot T932.207 has a shadow (lesson). Two of the four are Oris variants of one model family. No new listicle was drafted. Next step: add a few more verified watches with clean photos in one band, then rerun.",
+  "gave_up": true
+}

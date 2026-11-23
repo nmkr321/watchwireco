@@ -4235,5 +4235,47 @@
   "credit": "Image: Seiko",
   "usage": "Seiko SRPL51 official product image, credited",
   "fetched": "2026-11-23"
+ },
+ {
+  "kind": "person",
+  "title": "Roger Federer",
+  "who": "Swiss tennis player (born 1981)",
+  "source": "https://commons.wikimedia.org/wiki/File:Roger_Federer_2015_(cropped).jpg",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Roger_Federer_2015_%28cropped%29.jpg/1920px-Roger_Federer_2015_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "file": "watch-wire-engine/library/img/person-roger-federer.jpg",
+  "w": 1920,
+  "h": 2657,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "Tatiana from Moscow, Russia",
+  "license": "CC BY-SA 2.0",
+  "credit": "Photo: Tatiana from Moscow, Russia / CC BY-SA 2.0",
+  "caption_credit": "Photo: Tatiana from Moscow, Russia / CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0) via Wikimedia Commons",
+  "usage": "Portrait of Roger Federer, CC BY-SA 2.0, credited",
+  "fetched": "2026-11-23"
+ },
+ {
+  "kind": "watch",
+  "brand": "Rolex",
+  "ref": "127336",
+  "title": "Rolex 127336",
+  "source": "https://www.watchesofswitzerland.com/pages/rolex/land-dweller-m127336-0001",
+  "image_url": "https://www.watchesofswitzerland.com/cdn/shop/files/m127336-0001.avif?v=1197607284647422418",
+  "file": "watch-wire-engine/library/img/rolex-127336.png",
+  "w": 800,
+  "h": 1180,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 68400,
+   "currency": "USD",
+   "source": "https://www.watchesofswitzerland.com/pages/rolex/land-dweller-m127336-0001",
+   "date": "2026-11-23"
+  },
+  "rights": "official",
+  "creator": "Rolex",
+  "credit": "Image: Rolex",
+  "usage": "Rolex 127336 official product image, credited",
+  "fetched": "2026-11-23"
  }
 ]
