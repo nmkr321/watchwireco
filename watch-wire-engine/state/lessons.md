@@ -1,13 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [LISTICLE] Research at least 12 candidate watches before choosing, so at least 8 survive the photo, price-band and reference checks.
-- [HISTORY] Before researching, check which source types the validator accepts, and cite every fact from one of them.
-- [HISTORY] Treat facts seen only in search summaries as unverified; cut them from slides unless a fetched source page confirms them.
-- [HISTORY] Before drafting, count beats backed by two independent accepted sources; if fewer than 7, add research or switch to a shorter format.
-- [HISTORY] Cut any story beat resting on a single outlet, even when that outlet is accepted; keep only beats that a second source confirms.
-- [HISTORY] Put a licensed photo with its credit on every story slide after the cover, and list every photo's credit line in the caption.
-- [HISTORY] Place a dark overlay behind any cover headline set over a photo, and keep photo credits clear of the wordmark and headline.
 - [HISTORY] Check that each photo's own caption or credit names the same person, event and watch as its slide text; otherwise swap the photo or rewrite the claim.
 - [HISTORY] Never pair a named watch with an illustrative or generic product photo; use a photo of that exact reference or drop the specific claim.
 - [LISTICLE] Before choosing a listicle theme, count verified library watches in the target price band; pick a theme with at least 8 qualifiers.
@@ -21,3 +14,10 @@ The editor reads this before every post. Written automatically from rejections; 
 - [WOULD YOU RATHER] Pick two options with the same verified date, and make the footer date, slide 2 date and caption date identical before rendering.
 - [WOULD YOU RATHER] Keep each slide body to one or two balanced lines with no one-word orphan; drop any date already shown in the footer.
 - [WOULD YOU RATHER] Name each option's headline with the same model name used on the cover and in the caption, so the three never disagree.
+- [CELEBRITY] Check posts from the last 7 days first; skip any person or watch already covered and choose a different subject.
+- [CELEBRITY] Give the named watch its own slide with a verified price or rarity fact; if none can be verified, choose another subject.
+- [CELEBRITY] Before rendering, check the slide order: exactly one call-to-action slide, placed last. Remove any extra CTA slide from the middle of the carousel.
+- [CELEBRITY] Before drafting, confirm the exact watch model and reference appear in a source; if the source leaves it unnamed, research it or switch subjects.
+- [CELEBRITY] Count drafts in queue/drafts as already covered, not only published posts, when applying the seven-day repeat check.
+- [CELEBRITY] Treat rejected drafts in `queue/rejected/` from the last 7 days as covered subjects, the same as posted and draft files.
+- [CELEBRITY] After any repeat-subject failure, choose a different person and watch for the next attempt; never retry the same subject with new wording.

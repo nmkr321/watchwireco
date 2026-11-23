@@ -1,7 +1,7 @@
 {
   "id": "202611231156-jaeger-james-lecoultre-looks-pattinson-r",
   "lane": "breaking",
-  "status": "candidate",
+  "status": "idea",
   "found_at": "2026-11-23T11:56:40.016Z",
   "title": "This New Jaeger-LeCoultre Watch Looks Made for Robert Pattinson’s James Bond",
   "score": 7,
@@ -24,5 +24,10 @@
       "tier": "watch_press",
       "published": "Mon, 23 Nov 2026 10:00:00 GMT"
     }
+  ],
+  "format": "CELEBRITY",
+  "previous_attempts": [
+    "This repeats the Pattinson Bond watch post from two days ago. It also doesn't say which watch it is and has no price, so it gives readers little. Hold it and pick a different celebrity, or wait until JLC names the model. / Gate 8/9: repeats the Pattinson Bond watch post published 2026-11-21 (2026-11-21-1700-celebrity-pattinson-bond-watch), which is inside the 7-day window. / Gate 10: little value. The model is unnamed and there is no price or rarity slide. The post is mostly 'we don't know', so it gives no clear reason to save or share. / Gate 4: slide 3 says 'Bond casting is set' as fact. The",
+    "Repeats a covered subject: Robert Pattinson's Bond watch was already posted in the last 7 days (drafts 202611220350-movie-pattinson-pinewood-robert-studio-t and 202611221042-bare-bond-industry-james-sets-wrist, 2026-11-21/22). The JLC model is still unnamed in the source, and no verified price or ra"
   ]
 }

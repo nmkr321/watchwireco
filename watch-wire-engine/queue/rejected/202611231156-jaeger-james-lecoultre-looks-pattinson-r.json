@@ -1,0 +1,35 @@
+{
+  "id": "202611231156-jaeger-james-lecoultre-looks-pattinson-r",
+  "lane": "breaking",
+  "status": "stopped",
+  "found_at": "2026-11-23T11:56:40.016Z",
+  "title": "This New Jaeger-LeCoultre Watch Looks Made for Robert Pattinson’s James Bond",
+  "score": 7,
+  "sources": [
+    {
+      "title": "This New Jaeger-LeCoultre Watch Looks Made for Robert Pattinson’s James Bond",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90YXF3VHk5bkZCS3Y1MnppcjlzdC1ETS1GdUI4V3Z1MWNPMzJyY0ROVlZFMV9lbjNZNWNLU0ViMVBscFVIMUFLLVBOenVaZEhxUUZRQXFYLThya2RiU0dFLTFWVk14TUNDLXdHWA?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Esquire",
+      "domain": "esquire.com",
+      "tier": "major_news",
+      "published": "Mon, 23 Nov 2026 11:39:35 GMT"
+    },
+    {
+      "title": "Could This New Jaeger-LeCoultre Reverso Be Bond's Next Watch?",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSE16d1pWOV9jR1cxQm5NYVE5X0FENnpVT0dXMFRkMHV4YzVFd0t2aUZRSEtUdGI5V21MSHNxWE5kWFpFazY3akR3ajJISmNQb1NYdzhSSGFVeVpMdmlsSHh4MmE1QWF2LWI2V2NCTzR4ekxDSDRtTTR2dmdmNnB2Q1dyWnp6X0Nv?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "WatchPro",
+      "domain": "watchpro.com",
+      "tier": "watch_press",
+      "published": "Mon, 23 Nov 2026 10:00:00 GMT"
+    }
+  ],
+  "format": "CELEBRITY",
+  "previous_attempts": [
+    "This repeats the Pattinson Bond watch post from two days ago. It also doesn't say which watch it is and has no price, so it gives readers little. Hold it and pick a different celebrity, or wait until JLC names the model. / Gate 8/9: repeats the Pattinson Bond watch post published 2026-11-21 (2026-11-21-1700-celebrity-pattinson-bond-watch), which is inside the 7-day window. / Gate 10: little value. The model is unnamed and there is no price or rarity slide. The post is mostly 'we don't know', so it gives no clear reason to save or share. / Gate 4: slide 3 says 'Bond casting is set' as fact. The",
+    "Repeats a covered subject: Robert Pattinson's Bond watch was already posted in the last 7 days (drafts 202611220350-movie-pattinson-pinewood-robert-studio-t and 202611221042-bare-bond-industry-james-sets-wrist, 2026-11-21/22). The JLC model is still unnamed in the source, and no verified price or ra"
+  ],
+  "stop_reason": "Stopped at attempt 3. Robert Pattinson's Bond watch is already covered in the last 7 days: posted 2026-11-21 (queue/posted/2026-11-21-1700-celebrity-pattinson-bond-watch.json) and two drafts on 2026-11-22 (rejected: 202611220350-movie-pattinson-pinewood-robert-studio-t, 202611220201-baggage-pattinson-problem-robert-saved-s). The JLC model is still unnamed: a search on 2026-11-23 found no confirmed Bond reference from Jaeger-LeCoultre, Amazon MGM or a trusted outlet. Without a named watch and a verified price or rarity fact, the CELEBRITY lesson says to choose another subject. Recommend dropping this input and picking a different celebrity sighting.",
+  "gave_up": true
+}

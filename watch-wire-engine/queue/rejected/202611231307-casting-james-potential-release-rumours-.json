@@ -1,0 +1,24 @@
+{
+  "id": "202611231307-casting-james-potential-release-rumours-",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-23T13:07:37.875Z",
+  "title": "The Next James Bond Film: Casting Rumours, Potential Release Date & Plot Theories",
+  "score": 6,
+  "sources": [
+    {
+      "title": "The Next James Bond Film: Casting Rumours, Potential Release Date & Plot Theories",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KaVJ1dU9MSk1zb293NGtNeTEyWlZZSnZNTUw0c2lfU3o0VVNNOGVWR0VQM3VwS2N2czliYldPdkVyMWVBUjlSbThUYXBmV2UyT25JNUwzN05lRVVyN0MxWW9PSFVGSGNDcEE?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Esquire",
+      "domain": "esquire.com",
+      "tier": "major_news",
+      "published": "Mon, 23 Nov 2026 12:45:02 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "none",
+    "reason": "The story is a rumour roundup (casting rumours, potential release date, plot theories), not confirmed Bond news, and it has no clear watch angle. Not a breaking post; would qualify as CELEBRITY only if the casting or release date is officially confirmed."
+  }
+}
