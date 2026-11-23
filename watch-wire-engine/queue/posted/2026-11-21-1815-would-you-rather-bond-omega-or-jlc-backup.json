@@ -48,5 +48,17 @@
       "caption_chars": 650
     },
     "note": "went live despite: Graph API 17841473447601965/media_publish: An unexpected error has occurred. Please retry your request later."
+  },
+  "insights": {
+    "d1": {
+      "at": "2026-11-23T08:04:11.172Z",
+      "likes": 2,
+      "comments": 0,
+      "reach": 4,
+      "saved": 0,
+      "shares": 0,
+      "views": 9,
+      "total_interactions": 2
+    }
   }
 }

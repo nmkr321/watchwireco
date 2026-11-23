@@ -49,5 +49,17 @@
   },
   "trial_reel": {
     "error": "Graph 17841473447601965/media: Application does not have permission for this action"
+  },
+  "insights": {
+    "d1": {
+      "at": "2026-11-23T08:04:07.742Z",
+      "likes": 3,
+      "comments": 1,
+      "reach": 4,
+      "saved": 0,
+      "shares": 0,
+      "views": 12,
+      "total_interactions": 4
+    }
   }
 }

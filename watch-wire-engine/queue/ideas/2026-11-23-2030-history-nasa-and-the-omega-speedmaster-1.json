@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1",
+  "status": "idea",
+  "found_at": "2026-11-23T08:05:52.413Z",
+  "lane": "history",
+  "format": "HISTORY",
+  "post_at": "2026-11-24T01:30:00.000Z",
+  "slot": 5,
+  "title": "HISTORY: NASA and the Omega Speedmaster (1962 qualification), Template D with tension hook",
+  "hook": "NASA Didn't Pick Its Watch For Looks.",
+  "why": "Story people share. Uses a fresh angle, not the rejected Marie Antoinette/Breguet or Genta/Daniels stories. The hook is a draft and the qualification dates and wrist-test facts still need checking.",
+  "sources_to_check": [
+    "omega.com heritage pages",
+    "NASA history sources on Mercury-era watch qualification",
+    "credited archive or official Omega heritage photo"
+  ],
+  "sources": [
+    {
+      "title": "omega.com heritage pages",
+      "link": "",
+      "source": "omega.com heritage pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "NASA history sources on Mercury-era watch qualification",
+      "link": "",
+      "source": "NASA history sources on Mercury-era watch qualification",
+      "tier": "to-verify"
+    },
+    {
+      "title": "credited archive or official Omega heritage photo",
+      "link": "",
+      "source": "credited archive or official Omega heritage photo",
+      "tier": "to-verify"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "2026-11-23-0830-top-5-this-week-five-2026-watch-releases",
+  "status": "idea",
+  "found_at": "2026-11-23T08:05:52.413Z",
+  "lane": "news",
+  "format": "TOP 5 THIS WEEK",
+  "post_at": "2026-11-23T13:30:00.000Z",
+  "slot": 1,
+  "title": "TOP 5 THIS WEEK: five 2026 watch releases from the past week (fallback: a single NEW RELEASES post)",
+  "hook": "Top 5 watch releases this week.",
+  "why": "A weekly roundup gives people one place to check what launched. None of today's headlines is a release, so this needs five verified official releases. Not buildable until they are found.",
+  "sources_to_check": [
+    "rolex.com press pages",
+    "omega.com press pages",
+    "breitling.com press pages",
+    "tudorwatch.com press pages",
+    "official US retail prices with dates"
+  ],
+  "sources": [
+    {
+      "title": "rolex.com press pages",
+      "link": "",
+      "source": "rolex.com press pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "omega.com press pages",
+      "link": "",
+      "source": "omega.com press pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "breitling.com press pages",
+      "link": "",
+      "source": "breitling.com press pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "tudorwatch.com press pages",
+      "link": "",
+      "source": "tudorwatch.com press pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "official US retail prices with dates",
+      "link": "",
+      "source": "official US retail prices with dates",
+      "tier": "to-verify"
+    }
+  ]
+}

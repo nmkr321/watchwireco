@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-23-1130-build-your-collection-build-your-travel-",
+  "status": "idea",
+  "found_at": "2026-11-23T08:05:52.413Z",
+  "lane": "rotation",
+  "format": "BUILD YOUR COLLECTION",
+  "post_at": "2026-11-23T16:30:00.000Z",
+  "slot": 2,
+  "title": "BUILD YOUR COLLECTION: Build Your Travel Watch Kit, $12K total",
+  "hook": "Build Your Travel Watch Kit. $12K Total.",
+  "why": "Tiers: a GMT up to $6,000, a field or dive watch up to $4,000, a dress watch up to $3,000, each with A/B/C options. Saveable as a travel shortlist. Avoids the rejected $15K field/gold/leather set and the one-dress/one-sports/one-chronograph post.",
+  "sources_to_check": [
+    "brand official pages for every option's reference",
+    "US retail price with date from brand or official retailer"
+  ],
+  "sources": [
+    {
+      "title": "brand official pages for every option's reference",
+      "link": "",
+      "source": "brand official pages for every option's reference",
+      "tier": "to-verify"
+    },
+    {
+      "title": "US retail price with date from brand or official retailer",
+      "link": "",
+      "source": "US retail price with date from brand or official retailer",
+      "tier": "to-verify"
+    }
+  ]
+}

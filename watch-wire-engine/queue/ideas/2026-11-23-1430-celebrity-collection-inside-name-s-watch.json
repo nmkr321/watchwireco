@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-23-1430-celebrity-collection-inside-name-s-watch",
+  "status": "idea",
+  "found_at": "2026-11-23T08:05:52.413Z",
+  "lane": "rotation",
+  "format": "CELEBRITY COLLECTION",
+  "post_at": "2026-11-23T19:30:00.000Z",
+  "slot": 3,
+  "title": "CELEBRITY COLLECTION: Inside [Name]'s watch collection (name not yet chosen)",
+  "hook": "Inside [Name]'s watch collection is getting interesting.",
+  "why": "Needs a celebrity a trusted outlet has described with named watches. Kevin O'Leary is already rejected. Not buildable until a name is verified.",
+  "sources_to_check": [
+    "Hodinkee",
+    "Monochrome",
+    "WSJ",
+    "GQ",
+    "Esquire",
+    "brand official pages for each named watch's reference and price"
+  ],
+  "sources": [
+    {
+      "title": "Hodinkee",
+      "link": "",
+      "source": "Hodinkee",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Monochrome",
+      "link": "",
+      "source": "Monochrome",
+      "tier": "to-verify"
+    },
+    {
+      "title": "WSJ",
+      "link": "",
+      "source": "WSJ",
+      "tier": "to-verify"
+    },
+    {
+      "title": "GQ",
+      "link": "",
+      "source": "GQ",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Esquire",
+      "link": "",
+      "source": "Esquire",
+      "tier": "to-verify"
+    },
+    {
+      "title": "brand official pages for each named watch's reference and price",
+      "link": "",
+      "source": "brand official pages for each named watch's reference and price",
+      "tier": "to-verify"
+    }
+  ]
+}
