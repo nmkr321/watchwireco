@@ -1,0 +1,24 @@
+{
+  "id": "202611231156-best-james-netflix-shaped-thrillers-toni",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-23T11:56:40.016Z",
+  "title": "\"Watch This Tonight\": The 5 Best Spy Thrillers on Netflix to Fill the James Bond-Shaped Hole in Your Life",
+  "score": 6,
+  "sources": [
+    {
+      "title": "\"Watch This Tonight\": The 5 Best Spy Thrillers on Netflix to Fill the James Bond-Shaped Hole in Your Life",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRFV6b2szcU90LVBfdHFUblVlX2tJTG9KNmNBMElXUnh3MXp3SW5yVEQ2WElUWklWNFAycDNISXY3Y2lnS3R6TEhEY1JvTFJ0Nk5OSC13RVZ6Smdpa2VwYWVLUTlob1IzeENPV1IxUTFpWHV2aUNjQjU3VURPeFl1VnBPY0gzZkhiblZ1OEZocw?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Esquire",
+      "domain": "esquire.com",
+      "tier": "major_news",
+      "published": "Mon, 23 Nov 2026 11:54:35 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "none",
+    "reason": "Esquire listicle of Netflix spy thrillers is a streaming recommendation, not watch news. The Bond mention is only a headline hook, with no casting, film, or Omega angle. No brand move, auction, launch, price change, or industry data for collectors, so no breaking post."
+  }
+}

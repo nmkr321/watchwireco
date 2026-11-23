@@ -1,0 +1,24 @@
+{
+  "id": "202611231156-about-collector-column-people-selling-un",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-23T11:56:40.016Z",
+  "title": "The Collector's Column: What Most People Don't Understand About Selling A Rolex",
+  "score": 6,
+  "sources": [
+    {
+      "title": "The Collector's Column: What Most People Don't Understand About Selling A Rolex",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU3N1UUI2aUlLajJJd3VRNjBaZzVDNUN1Z2VsWU9CN1R0SHRrT2pWdDZmSWsyWnpkQU1ieUN3d3BOcXQ0MHVyTDZPSUdOWVlxMUg2eGJuRkd4Tm1uanVad2dfMld5QndGNFlHVlctMjBCNVRGUHZUQjZJUDhxWjVrTGZEdE9udmMxZnpYbXBOV2FXcEU4MFdMZ2xnMXkyOTQ?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "WatchPro",
+      "domain": "watchpro.com",
+      "tier": "watch_press",
+      "published": "Mon, 23 Nov 2026 11:42:35 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "none",
+    "reason": "The story is a \"Collector's Column\" opinion/explainer on selling a Rolex, not real breaking news. It reports no new event, price change, auction result, launch, or brand move, so it does not qualify for an immediate breaking post."
+  }
+}
