@@ -1,7 +1,7 @@
 {
   "id": "2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1-backup-backup",
   "lane": "history",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-23T09:43:26.858Z",
   "post_at": "2026-11-24T01:30:00.000Z",
   "backup_for": "2026-11-23-2030-history-nasa-and-the-omega-speedmaster-1",
@@ -35,5 +35,22 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes. Both official brand photos show two different watches, Timex at $1,450 and Hamilton at $1,545, both dated 21 Nov. The earlier fixes were applied: the slide text no longer leaves orphan lines, the Hamilton headline matches the cover and caption, and the caption states the 6.5% gap openly. The SAME MONEY tag is correctly left off. I did not re-fetch the brand pages, so the prices rest on the research claims and the engine's library."
+  },
+  "posted_at": "2026-11-24T02:19:18.289Z",
+  "publish": {
+    "live": true,
+    "media_id": "18131464927884317",
+    "permalink": "https://www.instagram.com/p/DgG3ZEJku4u/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 475
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
