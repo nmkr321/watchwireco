@@ -90,6 +90,9 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
   Celebrity shape (owner, 2026-11-21): cover (person) → WATCH SPOTLIGHT slide (the watch, 2-3 specs, price)
   → our take → a YOUR CALL slide that asks readers to act ("Wear it or pass? Comment WEAR or PASS") → cta.
   Never a slide that only hedges ("resale not checked", "prices may differ"); put caveats in the caption.
+- OWNER PHOTO (idea has `owner_photo`): the owner chose and cleared that photo. Use it via
+  `PH owner <path> --project <P>` as the cover and the A-spotted photo; credit exactly what it returns (empty is fine).
+  Don't look for a replacement photo of that person.
 - Game or permitted outlets: sources in `watch-wire-engine/state/permissions.json` only, via
   `PH credited <article-url> --credit "<credit text>" --owner "<name>"` (images credited to that source alone).
 - Official media pages: `PH gallery <url> --owner "<Owner>" --slug <name>`, then read its sheet.png once.

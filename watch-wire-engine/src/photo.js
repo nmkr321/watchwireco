@@ -8,6 +8,7 @@
 //   node watch-wire-engine/src/photo.js find "126610LN"          (library only, no download)
 //   node watch-wire-engine/src/photo.js list --min 3000 --max 6000 [--brand Omega]   (browse unused priced watches)
 //   node watch-wire-engine/src/photo.js refresh [--days 5]       (re-read old prices from official pages)
+//   node watch-wire-engine/src/photo.js owner watch-wire-engine/owner-photos/<file> --project <P>   (a photo the owner chose)
 //
 // watch:   official brand product/press page → the page's own product image (JSON-LD, og:image).
 //          Checks the page names the reference. Rights "official", credit "Image: <Brand>".
@@ -261,6 +262,29 @@ async function credited(url, word, owner, slugName) {
   out({ ok: true, credit: `Image: ${owner}, via ${host[0].toUpperCase() + host.slice(1)}`, images: kept });
 }
 
+// ---------- owner: a photo the owner chose and dropped into watch-wire-engine/owner-photos/ ----------
+// The owner picked it and takes responsibility for using it. Optional <same name>.txt next to it:
+//   credit: Photo: @tombrady        (shown on the slide; leave out for no credit)
+//   watch: Rolex Day-Date 228238    (what's on the wrist, if known)
+//   from: https://...               (where it came from)
+function ownerPhoto(file) {
+  const abs = path.resolve(ROOT, file || "");
+  if (!file || !fs.existsSync(abs) || !/\.(jpe?g|png|webp)$/i.test(abs)) fail("usage: owner watch-wire-engine/owner-photos/<file.jpg> --project <P>");
+  const note = ownerNote(abs);
+  const [w, h] = size(abs);
+  const rel = path.relative(ROOT, abs);
+  const e = { kind: "owner", title: `Owner photo: ${path.basename(abs)}`, file: rel, w, h,
+    source: /^https?:/.test(note.from) ? note.from : `https://github.com/nmkr321/watchwireco/blob/main/${rel.split(path.sep).map(encodeURIComponent).join("/")}`,
+    rights: "licensed", creator: note.credit || "owner-supplied", credit: note.credit, watch: note.watch,
+    usage: "Owner-cleared: the owner chose this photo and takes responsibility for its use", fetched: new Date().toISOString().slice(0, 10) };
+  save(e); done(e);
+}
+function ownerNote(abs) {
+  const txt = abs.replace(/\.\w+$/, ".txt"), o = { credit: "", watch: "", from: "" };
+  if (fs.existsSync(txt)) for (const l of fs.readFileSync(txt, "utf8").split("\n")) { const m = l.match(/^\s*(credit|watch|from)\s*:\s*(.+)$/i); if (m) o[m[1].toLowerCase()] = m[2].trim(); }
+  return o;
+}
+
 // ---------- grid: overlay a 10% grid on an image so the editor can read the wrist position (for A-spotted) ----------
 //   photo.js grid <image>   → writes <image>.grid.png; Read it and give wrist {x, y} in percent
 function grid(file) {
@@ -374,5 +398,6 @@ try {
   else if (cmd === "find") find(arg);
   else if (cmd === "list") list();
   else if (cmd === "refresh") refresh();
+  else if (cmd === "owner") ownerPhoto(arg);
   else fail("commands: watch <url> --brand B --ref R | person \"Name\" | commons \"words\" [--ref R] | find \"words\"   (add --project <P> to register)");
 } catch (err) { fail(err.message.slice(0, 200)); }

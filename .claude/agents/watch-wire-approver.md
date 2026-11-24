@@ -47,6 +47,8 @@ Comparisons show both watches on the cover; no "e.g." anywhere.
    Each photo is in `assets/manifest.json` with rights `official` (brand/official-retailer
    image) or `licensed` (free licence), never `permission-needed`. The watch on each slide is
    the reference named (dial, bezel, case, bracelet, date) and the person is the one named.
+   Owner photos (files under `owner-photos/`, owner, 2026-11-24): the owner chose and cleared them; accept them
+   with whatever credit they carry, including none. Never reject a post for an owner photo's source.
    Celebrity posts (owner, 2026-11-22): prefer the person WEARING the watch; if no rights-cleared wrist photo
    exists, a portrait with the watch in the gold circle (A-spotted, no arrow) is fine. An arrow pointing at a face → revise.
    Celebrity watch named only if a brand, the celebrity or one trusted outlet named it,

@@ -518,7 +518,40 @@ function status() {
   }
 }
 
+// Owner photos: each new picture in owner-photos/ becomes a CELEBRITY post in the next free slot (3h+ ahead).
+// The owner chose the photo; the editor builds the post around it. Used photos move to owner-photos/used/.
+function ownerPhotos() {
+  const dir = path.join(ROOT, "owner-photos");
+  const files = (() => { try { return fs.readdirSync(dir).filter((f) => /\.(jpe?g|png|webp)$/i.test(f)); } catch { return []; } })();
+  if (!files.length) return [];
+  const taken = ["ideas", "approved", "drafts"].flatMap((d) => { try { return fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json")).map((x) => { try { return Date.parse(readJson(path.join(Q(d), x)).post_at || readJson(path.join(Q(d), x)).scheduled_for); } catch { return NaN; } }); } catch { return []; } }).filter((t) => t);
+  const slotTimes = [];
+  for (let d = 0; d < 3; d++) for (const s of schedule.slots) { const [h, m] = s.time.split(":").map(Number); const t = new Date(); t.setDate(t.getDate() + d); t.setHours(h, m, 0, 0); if (t - Date.now() > 3 * 3600e3) slotTimes.push(t); }
+  const made = [];
+  for (const f of files) {
+    const free = slotTimes.find((t) => !taken.some((x) => Math.abs(x - t) < 40 * 60e3)) || slotTimes[0];
+    const at = new Date(free.getTime() + (taken.some((x) => Math.abs(x - free) < 40 * 60e3) ? 45 * 60e3 : 0));   // all slots full: 45 min after the next one
+    taken.push(at.getTime());
+    fs.mkdirSync(path.join(dir, "used"), { recursive: true });
+    const base = f.replace(/\.\w+$/, ""), stamp = new Date().toISOString().slice(0, 10);
+    const used = `${stamp}-${f}`;
+    fs.renameSync(path.join(dir, f), path.join(dir, "used", used));
+    if (fs.existsSync(path.join(dir, base + ".txt"))) fs.renameSync(path.join(dir, base + ".txt"), path.join(dir, "used", `${stamp}-${base}.txt`));
+    const note = (() => { try { return fs.readFileSync(path.join(dir, "used", `${stamp}-${base}.txt`), "utf8"); } catch { return ""; } })();
+    const who = base.split("--")[0].replace(/[-_]+/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()).trim();
+    const id = `${stamp}-owner-${base.toLowerCase().replace(/[^a-z0-9]+/g, "-").slice(0, 40)}`;
+    const photo = `watch-wire-engine/owner-photos/used/${used}`;
+    writeJson(path.join(Q("ideas"), `${id}.json`), { id, lane: "rotation", status: "idea", manual: true, owner_photo: photo, found_at: new Date().toISOString(), post_at: at.toISOString(),
+      format: "CELEBRITY", title: `${who}: the watch in the owner's photo`, hook: "",
+      why: `OWNER PHOTO: the owner chose this photo of ${who} and cleared it. Build the CELEBRITY post around it: run \`node watch-wire-engine/src/photo.js owner ${photo} --project <P>\` and use it as the cover and on the A-spotted slide (set wrist if the watch is visible). Credit it exactly as photo.js returns (an empty credit is fine for this photo). Identify the watch from the owner's note or one trusted outlet; if no outlet names it, say "appears to be". Owner's note: ${note.trim().replace(/\s+/g, " ") || "none"}`, sources: [] });
+    log(`owner photo: ${f} → ${id} for ${at.toISOString()}`);
+    made.push(path.join(Q("ideas"), `${id}.json`));
+  }
+  return made;
+}
+
 async function tick() {
+  for (const f of ownerPhotos()) { try { makeWithRetries(f); } catch (e) { log(`error on owner photo ${f}: ${e.message}`); } }
   const w = spawnSync(process.execPath, [path.join(ROOT, "src/watcher.js")], { encoding: "utf8" });
   if (w.stdout.trim()) log(`watcher: ${w.stdout.trim().split("\n")[0]}`);
   for (const f of fs.readdirSync(Q("candidates")).filter((x) => x.endsWith(".json")).slice(0, 2)) {
@@ -569,6 +602,7 @@ try {
   }
   else if (cmd === "make-ideas") { loadEnv(); await makeIdeas({ selfPlan: true }); }
   else if (cmd === "status") status();
+  else if (cmd === "owner-photos") { for (const f of ownerPhotos()) console.log(f); }
   else console.log("usage: node src/run.js tick | make <file> | publish-due | status");
 } finally {
   if (["tick", "make", "make-ideas"].includes(cmd)) fs.rmSync(lockFile, { force: true });

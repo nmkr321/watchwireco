@@ -48,7 +48,7 @@ export function lint(P, format = "") {
   const seen = new Map();
   slides.forEach((s, i) => {
     for (const k of ["photo", "photo2"]) if (s[k]) {
-      if (!s.credit) out.push(`slide ${i + 1}: photo has no credit`);
+      if (!s.credit && !/owner-photos\//.test(s[k])) out.push(`slide ${i + 1}: photo has no credit`);
       if (seen.has(s[k]) && !reuseOk) out.push(`slide ${i + 1}: repeats the photo from slide ${seen.get(s[k])}; use a different picture or drop the slide`);
       else seen.set(s[k], i + 1);
     }

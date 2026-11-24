@@ -36,6 +36,7 @@ publisher every 15 minutes, and the nightly content maker. The bot commits after
   written in its `why` field and start a `make-ideas` cloud run.
 - **Ask for a new post:** add an idea JSON to `queue/ideas/` (see existing ones for the shape, with
   `post_at` in UTC), commit, push, and start `make-ideas`.
+- **Post a photo the owner picked:** put it in `watch-wire-engine/owner-photos/` (name = person, optional .txt with credit/watch/from; see its README), commit and push. The hourly run makes a CELEBRITY post in the next free slot.
 - **Add an image permission:** add an entry to `watch-wire-engine/state/permissions.json` (who, what it covers, exact credit line, date, where the proof email is). The engine only uses images credited to a source listed there.
 - **Owner design feedback (praise or critique):** add a dated line to `watch-wire-engine/state/design-notes.md`; all future designs build on it.
 - **What the approver keeps catching:** `watch-wire-engine/state/lessons.md`. The owner's taste is in `state/owner-taste.md`.
