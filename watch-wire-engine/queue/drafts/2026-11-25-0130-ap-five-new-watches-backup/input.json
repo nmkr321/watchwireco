@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-25-0130-ap-five-new-watches-backup",
+  "lane": "news",
+  "status": "idea",
+  "found_at": "2026-11-24T21:37:25.375Z",
+  "post_at": "2026-11-25T01:30:00.000Z",
+  "backup_for": "2026-11-25-0130-ap-five-new-watches",
+  "backup_depth": 1,
+  "tried_formats": [
+    "NEW RELEASES"
+  ],
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: Audemars Piguet's five new watches: three Supersonnerie minute repeaters and two stone-dial Code 11.59s",
+  "hook": "",
+  "why": "Backup post. Start with `node watch-wire-engine/src/photo.js list --min X --max Y` to see unused verified watches. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "The draft was stopped mid-revision. One photo is duplicated, one is smeared, one shows a model, and the Cartier pick is over the $4K cap with no checked price. Fix those three slides and resubmit. / Gate 7: slide 3's Tissot photo is a Le Locle with a white smear, not the named T932.408.41.033.00 / Gate 7: slide 7's Cartier WSTA0135 photo shows a model, not a clean product shot / Gate 2: slide 2 reuses the cover's Oris photo; the 4054 reference needs its own text and price (USD 2,200, checked 24 Nov 2026) / Gate 10: post is unfinished (status stopped) and the Cartier pick has no checked price /"
+  ]
+}

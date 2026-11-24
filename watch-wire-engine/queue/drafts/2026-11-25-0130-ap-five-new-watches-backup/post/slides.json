@@ -1,0 +1,57 @@
+{
+ "source": "Source: Hamilton, Seiko, Tissot, retailers",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "BUYING GUIDE",
+   "line1": "Four watches under",
+   "line2": "[[$1,000]]",
+   "meta": "Prices checked 21\u201322 Nov 2026, USD",
+   "footLeft": "Source: brand and retailer pages"
+  },
+  {
+   "t": "A-photo",
+   "label": "Pick 1 \u00b7 USD 595",
+   "headline": "Seiko Prospex SRPL13",
+   "photo": "watch-wire-engine/library/img/seiko-srpl13.jpg",
+   "credit": "Image: Seiko",
+   "body": "Steel diver, 200m rating, steel bracelet. Our pick for the water."
+  },
+  {
+   "t": "A-photo",
+   "label": "Pick 2 \u00b7 USD 795",
+   "headline": "Hamilton H69529933",
+   "photo": "watch-wire-engine/library/img/hamilton-h69529933.png",
+   "credit": "Image: Hamilton",
+   "body": "Black dial, fabric strap, mechanical. Our pick for weekends."
+  },
+  {
+   "t": "A-photo",
+   "label": "Pick 3 \u00b7 USD 925",
+   "headline": "Tissot Seastar T1204071104103",
+   "photo": "watch-wire-engine/library/img/tissot-t1204071104103.jpg",
+   "credit": "Image: Tissot",
+   "body": "Powermatic 80, 300m rating, blue dial. Our pick for all-rounders."
+  },
+  {
+   "t": "A-photo",
+   "label": "Pick 4 \u00b7 USD 945",
+   "headline": "Hamilton H32515641",
+   "photo": "watch-wire-engine/library/img/hamilton-h32515641-product.png",
+   "credit": "Image: Hamilton",
+   "body": "Blue dial, leather strap, automatic. Our pick for the office."
+  },
+  {
+   "t": "A-text",
+   "label": "Our take",
+   "headline": "Pick by use, not hype",
+   "body": "Diver for the water, field watch for weekends, Jazzmaster for the office."
+  },
+  {
+   "t": "cta",
+   "line1": "Which would you buy?",
+   "line2": "Comment the reference",
+   "body": "Follow @watchwireco for daily watch news."
+  }
+ ]
+}

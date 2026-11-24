@@ -1,13 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [LISTICLE] Write each slide with one sourced concrete fact and no opinion words; name who each pick suits.
-- [LISTICLE] Headline counts must equal the number of watches pictured on the cover; fix the count or add the missing photo before drafting.
-- [LISTICLE] Name every price source in the footer and caption, and give each price its own check date, with each pick's source credited.
-- [LISTICLE] Draft only from picks whose ref, photo and dated price are already verified in the library; planned picks still needing research must be replaced first.
-- [LISTICLE] Reject placeholder images such as 'coming soon' or 'no image' as photos; a pick without a real, verified product photo is not a candidate.
-- [LISTICLE] If a pick is dropped for a missing photo, re-check the remaining count, price band and hook total before drafting, and replace it with a verified pick.
-- [BUILD YOUR COLLECTION] Use only real product photos whose brand has an entry in state/permissions.json; drop any placeholder or 'coming soon' image before drafting, in every format.
 - [BUILD YOUR COLLECTION] After swapping any image or changing a price cap, make the slide and caption credit lines list exactly the brands whose photos appear.
 - [BUILD YOUR COLLECTION] Before drafting, confirm every brand pictured has a state/permissions.json entry; if one lacks it, swap in a watch from a permitted brand.
 - [BUILD YOUR COLLECTION] Check each pick against its price cap and confirm the caps sum to the stated total before marking the draft finished.
@@ -21,3 +14,10 @@ The editor reads this before every post. Written automatically from rejections; 
 - [AUCTIONS] Before writing any hammer price or result, open the house's results page and confirm the lots and prices shown there.
 - [AUCTIONS] If a house's site or source is blocked or returns 403, mark that sale unverified and pick another sale you can open.
 - [AUCTIONS] Take every sale date from the covered house's own site; never borrow another house's date to fill a gap.
+- [NEW RELEASES] Confirm each model's exact reference on the brand's own page before sourcing its photo; a 404 means the reference is wrong.
+- [NEW RELEASES] If a brand page shows no product image, try its press kit; if that fails too, swap in a watch whose photo already loads.
+- [NEW RELEASES] Name a model only when its reference, dated price and a loaded product photo from a permitted brand are all verified; facts alone do not make it a pick.
+- [NEW RELEASES] If a named release lacks a verified photo, replace it with a verified release from a permitted brand before drafting the slides and caption.
+- [NEW RELEASES] If a source redirects to a paywall or login gate, treat it as unread; never use its facts or count it as verification.
+- [LISTICLE] Match each slide's photo to one named pick and its reference before drafting; reject lifestyle shots, smudges or glows, and tiny watches.
+- [LISTICLE] Treat variants of one model line, such as Artelier and Artelier S, as one pick; never list two in a single post.

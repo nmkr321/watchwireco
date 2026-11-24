@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "Four tightly priced picks ($595–$945), each with a matching clean product photo, a credit and a checked price. The check passes, and the two Hamiltons are different lines. It's a useful save-and-share buying guide, not news. The Seiko price is the engine's library value, because the retailer page returned a rate-limit error when I tried to re-fetch it."
+}

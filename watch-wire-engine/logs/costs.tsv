@@ -1002,3 +1002,19 @@
 2026-11-24T11:54:28.733Z	learn 202611241153-christie-headline-sale-york	claude-haiku-5-5	0.0022	2
 2026-11-24T13:07:03.667Z	triage 202611241306-director-heads-managing-retirement-rolex	claude-haiku-5-5	0.0044	3
 2026-11-24T18:53:03.828Z	triage 202611241852-biggest-exclusive-probably-record-sienna	claude-haiku-5-5	0.0045	3
+2026-11-24T21:35:33.092Z	editor 2026-11-25-0130-ap-five-new-watches	claude-haiku-5-5	0.0475	14
+2026-11-24T21:35:40.100Z	learn 2026-11-25-0130-ap-five-new-watches	claude-haiku-5-5	0.0047	2
+2026-11-24T21:36:44.044Z	editor 2026-11-25-0130-ap-five-new-watches	claude-haiku-5-5	0.0344	16
+2026-11-24T21:36:49.285Z	learn 2026-11-25-0130-ap-five-new-watches	claude-haiku-5-5	0.0020	2
+2026-11-24T21:37:19.914Z	editor 2026-11-25-0130-ap-five-new-watches	claude-haiku-5-5	0.0207	12
+2026-11-24T21:37:25.363Z	learn 2026-11-25-0130-ap-five-new-watches	claude-haiku-5-5	0.0020	2
+2026-11-24T21:39:53.678Z	editor 2026-11-25-0130-ap-five-new-watches-backup	claude-haiku-5-5	0.0293	31
+2026-11-24T21:40:17.318Z	approver 2026-11-25-0130-ap-five-new-watches-backup r1	claude-sonnet-5-5	0.1241	15
+2026-11-24T21:40:25.007Z	learn 2026-11-25-0130-ap-five-new-watches-backup	claude-haiku-5-5	0.0025	2
+2026-11-24T21:41:29.802Z	editor-revise 2026-11-25-0130-ap-five-new-watches-backup	claude-haiku-5-5	0.0402	21
+2026-11-24T21:41:42.364Z	approver 2026-11-25-0130-ap-five-new-watches-backup r2	claude-sonnet-5-5	0.0432	7
+2026-11-24T21:42:23.990Z	editor-revise 2026-11-25-0130-ap-five-new-watches-backup	claude-haiku-5-5	0.0271	16
+2026-11-24T21:42:32.043Z	approver 2026-11-25-0130-ap-five-new-watches-backup r3	claude-sonnet-5-5	0.0245	4
+2026-11-24T21:42:39.183Z	learn 2026-11-25-0130-ap-five-new-watches-backup	claude-haiku-5-5	0.0023	2
+2026-11-24T21:44:31.789Z	editor 2026-11-25-0130-ap-five-new-watches-backup	claude-haiku-5-5	0.0290	32
+2026-11-24T21:44:57.092Z	approver 2026-11-25-0130-ap-five-new-watches-backup r1	claude-sonnet-5-5	0.0926	15
