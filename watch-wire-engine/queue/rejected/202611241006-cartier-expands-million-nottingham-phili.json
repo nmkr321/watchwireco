@@ -1,0 +1,24 @@
+{
+  "id": "202611241006-cartier-expands-million-nottingham-phili",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-24T10:06:19.008Z",
+  "title": "Berry’s Nottingham expands with Patek Philippe, Omega and Cartier in £4.5 million store upgrade",
+  "score": 7,
+  "sources": [
+    {
+      "title": "Berry’s Nottingham expands with Patek Philippe, Omega and Cartier in £4.5 million store upgrade",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJeDk0TTZFcUhULTJHRDRvQkcwNE1zRXVwWTREQTBZQmlTaWNoYUJYbnRFbEMtRUN1VGZCVklibURDWlhVSmx6b0I5X2xybTEwLXpsaE5vMllYdU8tRW1ieFBlWm9FRzBQWmFLNjJkbzhxNUlFYUxndGxaOA?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "WatchPro",
+      "domain": "watchpro.com",
+      "tier": "watch_press",
+      "published": "Tue, 24 Nov 2026 09:55:58 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NEWS",
+    "reason": "Berry's Nottingham store upgrade is a local retailer investment, not a major brand move, price change, auction result, notable launch, or industry data. It does not meet the bar for an immediate breaking post. If covered at all, it belongs as a regular NEWS idea."
+  }
+}
