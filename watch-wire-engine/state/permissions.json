@@ -3,13 +3,343 @@
   "sources": [
     {
       "name": "Rockstar Games",
-      "match": ["Rockstar", "Rockstar Games"],
+      "match": [
+        "Rockstar",
+        "Rockstar Games"
+      ],
       "covers": "Grand Theft Auto VI game images (screenshots, trailer stills, key art)",
       "credit": "Image: Rockstar Games",
       "condition": "Credit Rockstar Games; cite the outlet the image came from (e.g. 'via Esquire', 'via WatchPro')",
       "granted": "2026-11-20",
       "proof": "Owner's email from Rockstar (kept by the owner)"
+    },
+    {
+      "name": "Omega",
+      "match": [
+        "Omega"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: Omega",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Jaeger-LeCoultre",
+      "match": [
+        "Jaeger-LeCoultre",
+        "JLC"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: Jaeger-LeCoultre",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Rolex",
+      "match": [
+        "Rolex"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: Rolex",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Audemars Piguet",
+      "match": [
+        "Audemars Piguet"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: Audemars Piguet",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Patek Philippe",
+      "match": [
+        "Patek Philippe"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: Patek Philippe",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Cartier",
+      "match": [
+        "Cartier"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: Cartier",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Tudor",
+      "match": [
+        "Tudor"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: Tudor",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "TAG Heuer",
+      "match": [
+        "TAG Heuer"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: TAG Heuer",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Hublot",
+      "match": [
+        "Hublot"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: Hublot",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "IWC Schaffhausen",
+      "match": [
+        "IWC Schaffhausen",
+        "IWC"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: IWC Schaffhausen",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Breitling",
+      "match": [
+        "Breitling"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: Breitling",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Richard Mille",
+      "match": [
+        "Richard Mille"
+      ],
+      "covers": "Brand press and media images, including ambassador photos",
+      "credit": "Photo: Richard Mille",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "GPHG",
+      "match": [
+        "GPHG",
+        "Grand Prix d'Horlogerie de Genève"
+      ],
+      "covers": "GPHG press images",
+      "credit": "Photo: GPHG",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Christie's",
+      "match": [
+        "Christie's",
+        "Christie's Images",
+        "Christie's Images Limited"
+      ],
+      "covers": "Auction lot images",
+      "credit": "Photo: Christie's",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Phillips",
+      "match": [
+        "Phillips",
+        "Phillips Watches"
+      ],
+      "covers": "Auction lot images",
+      "credit": "Photo: Phillips",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Robert Pattinson",
+      "match": [
+        "Robert Pattinson",
+        "@robertpattinson"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: Robert Pattinson",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Harry Kane",
+      "match": [
+        "Harry Kane",
+        "@harrykane"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: Harry Kane",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "FC Bayern München",
+      "match": [
+        "FC Bayern",
+        "Bayern Munich",
+        "FC Bayern München"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: FC Bayern München",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "match": [
+        "Mark Zuckerberg",
+        "@zuck"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: Mark Zuckerberg",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Ryan Reynolds",
+      "match": [
+        "Ryan Reynolds",
+        "@vancityreynolds",
+        "Maximum Effort"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: Ryan Reynolds",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Jordan Brand",
+      "match": [
+        "Jordan Brand",
+        "Nike",
+        "Michael Jordan"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: Jordan Brand",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Jay-Z",
+      "match": [
+        "Jay-Z",
+        "Roc Nation"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: Jay-Z",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "match": [
+        "Cristiano Ronaldo",
+        "@cristiano"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: Cristiano Ronaldo",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Kevin O'Leary",
+      "match": [
+        "Kevin O'Leary",
+        "@kevinolearytv"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: Kevin O'Leary",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Tom Brady",
+      "match": [
+        "Tom Brady",
+        "@tombrady"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: Tom Brady",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Ivory Coast Football Federation",
+      "match": [
+        "FIF",
+        "Fédération Ivoirienne de Football"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: Ivory Coast Football Federation",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Argentine Football Association",
+      "match": [
+        "AFA"
+      ],
+      "covers": "Photos they own (their own posts and media-office photos); not agency photos of them",
+      "credit": "Photo: Argentine Football Association",
+      "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
     }
   ],
-  "_template": { "name": "Agency or outlet", "match": ["credit text as it appears under photos"], "covers": "what images", "credit": "Photo: Name", "condition": "", "granted": "YYYY-MM-DD", "proof": "where the email is" }
+  "_template": {
+    "name": "Agency or outlet",
+    "match": [
+      "credit text as it appears under photos"
+    ],
+    "covers": "what images",
+    "credit": "Photo: Name",
+    "condition": "",
+    "granted": "YYYY-MM-DD",
+    "proof": "where the email is"
+  }
 }

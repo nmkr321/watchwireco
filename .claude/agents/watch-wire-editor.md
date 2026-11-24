@@ -95,6 +95,9 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
   Don't look for a replacement photo of that person.
 - Game or permitted outlets: sources in `watch-wire-engine/state/permissions.json` only, via
   `PH credited <article-url> --credit "<credit text>" --owner "<name>"` (images credited to that source alone).
+  Follow each source's `condition` (owner, 2026-11-24: every permitted source wants a "Photo: <source>" credit in
+  the caption, plus the slide credit). Celebrities and teams cover only photos they own (their posts, their media
+  office), never Getty/AP/agency photos of them.
 - Official media pages: `PH gallery <url> --owner "<Owner>" --slug <name>`, then read its sheet.png once.
 - Official product photos on white, cream or grey studio backgrounds are fine: the renderer removes plain
   backgrounds automatically. Never skip a watch for its studio background.
