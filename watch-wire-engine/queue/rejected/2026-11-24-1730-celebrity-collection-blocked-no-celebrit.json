@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-24-1730-celebrity-collection-blocked-no-celebrit",
+  "status": "stopped",
+  "found_at": "2026-11-24T07:56:08.589Z",
+  "lane": "rotation",
+  "format": "CELEBRITY COLLECTION",
+  "post_at": "2026-11-24T22:30:00.000Z",
+  "slot": 4,
+  "title": "CELEBRITY COLLECTION: BLOCKED, no celebrity name verified",
+  "hook": "Inside [Name]'s watch collection is getting interesting. Blocked until a name is chosen.",
+  "why": "No celebrity has been verified yet. Excluded already: Kevin O'Leary, Pattinson, Tyson Fury, Federer, Gosling. Needs one person with a trusted outlet naming two or more watches they wear, plus official product photos.",
+  "sources_to_check": [
+    "Hodinkee, Robb Report or WatchPro articles naming the watches a celebrity wears",
+    "Brand official product photos for each named watch"
+  ],
+  "sources": [
+    {
+      "title": "Hodinkee, Robb Report or WatchPro articles naming the watches a celebrity wears",
+      "link": "",
+      "source": "Hodinkee, Robb Report or WatchPro articles naming the watches a celebrity wears",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand official product photos for each named watch",
+      "link": "",
+      "source": "Brand official product photos for each named watch",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Blocked: the idea has no celebrity name yet. One standard search found only older or undated red-carpet coverage (Met Gala, Golden Globes, Oscars 2026; Wimbledon) and no November 2026 sighting. None of it names a celebrity with two or more watches from a trusted outlet, dated and checked. No project",
+    "No celebrity qualified. Only candidate found: Travis Scott (Robb Report 'Best Watches of the Week', 21 Nov 2026, three mini Audemars Piguet Royal Oaks). The article redirects to a gated page (tollbit.robbreport.com) that I did not open, so the model names, references and prices are unverified and th"
+  ],
+  "stop_reason": "No celebrity qualified. Every Robb Report sighting roundup found (Nov 7, 14 and 21 2026, incl. Travis Scott's three mini Royal Oaks, Ryan Reynolds' Aubert & Ramel Ouréa, Pete Davidson and Josh Hutcherson) redirects to a gated page (tollbit.robbreport.com), so model names and prices could not be opened or verified. Other results (Hodinkee, GQ, Esquire, WatchPro) were undated or older than November 2026, or were retailer blogs. No evidence file was written and no slides were rendered. Next step: approve a different celebrity from an ungated outlet, or add a permitted non-gated source.",
+  "gave_up": true
+}

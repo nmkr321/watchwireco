@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Gate 6: slides 7 and 9 have a grey smear beside the watch (stray shape)",
+    "Lesson: slides 7 and 9 are both Tissot Le Locle, so they fill one collection slot. That leaves fewer than 8 distinct collections",
+    "Slide 2 repeats the cover watch (Hamilton Khaki Field)",
+    "Draft status is 'stopped'. The engine never applied the previous revise fixes"
+  ],
+  "fixes": [
+    "slide 7: replace with a clean cut-out Tissot Le Locle photo with no smear",
+    "slide 9: replace the Le Locle T932.408 with a watch from a different collection. Use a clean cut-out photo, and add a dated price claim in research.json",
+    "slide 2: use a different collection with its own photo, not the cover watch",
+    "Research more brands or widen the price band until there are 8 distinct collections with official prices. Then re-sync carousel.json and caption.json, re-render, and check every slide for stray shapes"
+  ],
+  "reason": "The check passes, but the draft is stuck. Slides 7 and 9 show a grey smear, they are the same Tissot collection, and slide 2 repeats the cover watch. It needs a new research pass to reach 8 distinct collections."
+}

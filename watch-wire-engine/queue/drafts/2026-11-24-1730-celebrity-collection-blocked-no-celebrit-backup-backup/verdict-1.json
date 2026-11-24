@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The check passes. Both prices ($8,600 and $7,800, official pages, 21 Nov) match the library, and the $800 gap is stated honestly rather than as 'same money'. Both watches are pictured with official credits and the layouts are clean. The Omega is a different reference from the one in the 21 Nov Bond post, and the Cartier is new. I didn't re-fetch the price pages, per the library rule."
+}

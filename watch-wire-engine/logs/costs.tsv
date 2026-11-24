@@ -901,3 +901,29 @@
 2026-11-24T09:51:17.746Z	editor 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup	claude-haiku-5-5	0.0610	34
 2026-11-24T09:51:23.553Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup	claude-haiku-5-5	0.0022	2
 2026-11-24T10:06:23.661Z	triage 202611241006-cartier-expands-million-nottingham-phili	claude-haiku-5-5	0.0044	3
+2026-11-24T09:51:38.440Z	editor 2026-11-24-1730-celebrity-collection-blocked-no-celebrit	claude-haiku-5-5	0.0142	4
+2026-11-24T09:51:43.083Z	learn 2026-11-24-1730-celebrity-collection-blocked-no-celebrit	claude-haiku-5-5	0.0021	2
+2026-11-24T09:52:10.613Z	editor 2026-11-24-1730-celebrity-collection-blocked-no-celebrit	claude-haiku-5-5	0.0401	8
+2026-11-24T09:52:14.473Z	learn 2026-11-24-1730-celebrity-collection-blocked-no-celebrit	claude-haiku-5-5	0.0019	2
+2026-11-24T09:52:44.819Z	editor 2026-11-24-1730-celebrity-collection-blocked-no-celebrit	claude-haiku-5-5	0.0408	10
+2026-11-24T09:52:51.205Z	learn 2026-11-24-1730-celebrity-collection-blocked-no-celebrit	claude-haiku-5-5	0.0023	2
+2026-11-24T09:53:34.061Z	editor 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup	claude-haiku-5-5	0.0144	14
+2026-11-24T09:53:38.714Z	learn 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup	claude-haiku-5-5	0.0020	2
+2026-11-24T09:54:31.262Z	editor 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup	claude-haiku-5-5	0.0707	12
+2026-11-24T09:54:36.005Z	learn 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup	claude-haiku-5-5	0.0020	2
+2026-11-24T09:57:46.154Z	editor 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup	claude-haiku-5-5	0.1369	54
+2026-11-24T09:58:02.161Z	approver 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup r1	claude-sonnet-5-5	0.0863	10
+2026-11-24T09:58:06.078Z	learn 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup	claude-haiku-5-5	0.0020	2
+2026-11-24T10:00:57.405Z	editor-revise 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup	claude-haiku-5-5	0.0391	32
+2026-11-24T10:01:11.110Z	approver 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup r2	claude-sonnet-5-5	0.0439	7
+2026-11-24T10:01:58.330Z	editor-revise 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup	claude-haiku-5-5	0.0126	11
+2026-11-24T10:02:09.960Z	approver 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup r3	claude-sonnet-5-5	0.0356	7
+2026-11-24T10:02:14.738Z	learn 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup	claude-haiku-5-5	0.0021	2
+2026-11-24T10:03:39.046Z	editor 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup-backup	claude-haiku-5-5	0.0189	23
+2026-11-24T10:03:57.763Z	approver 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup-backup r1	claude-sonnet-5-5	0.0819	11
+2026-11-24T10:04:04.162Z	learn 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup-backup	claude-haiku-5-5	0.0023	2
+2026-11-24T10:04:17.656Z	editor-revise 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup-backup	claude-haiku-5-5	0.0040	5
+2026-11-24T10:04:26.867Z	approver 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup-backup r2	claude-sonnet-5-5	0.0402	6
+2026-11-24T10:04:33.108Z	learn 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup-backup	claude-haiku-5-5	0.0023	2
+2026-11-24T10:06:41.346Z	editor 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup-backup	claude-haiku-5-5	0.0329	44
+2026-11-24T10:07:03.299Z	approver 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup-backup r1	claude-sonnet-5-5	0.1009	14

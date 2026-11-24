@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Gate 6/owner rules: slides 7 and 9 show a grey smear (stray shape) beside the watch",
+    "Lesson: slides 7 and 9 are both Tissot Le Locle, so they fill one collection slot, not two. That leaves fewer than 8 distinct collections",
+    "Slide 2 repeats the cover photo (Hamilton Khaki Field)"
+  ],
+  "fixes": [
+    "slide 7: replace with a clean cut-out Tissot Le Locle photo with no smear",
+    "slide 9: replace the Le Locle T932.408 with a watch from a different collection, using a clean cut-out photo with no smear. Update the price claim in research.json, the carousel and the caption",
+    "slide 2: use a different collection with its own photo, not a repeat of the cover watch",
+    "Re-sync carousel.json and caption.json to the final slides, then re-render and check every slide for stray shapes"
+  ],
+  "reason": "The check passes, but two slides have a grey smear next to the watch. Two slides are also the same Tissot Le Locle collection, and slide 2 repeats the cover photo, so it needs a clean redo with 8 distinct collections."
+}

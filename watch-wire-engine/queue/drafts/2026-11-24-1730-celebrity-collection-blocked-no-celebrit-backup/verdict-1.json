@@ -1,0 +1,22 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6/owner rule: slide 9 (Fears) has a visible black rectangle behind the photo, which reads as a stray box",
+    "Source: the Fears and Longines prices come from Exquisite Timepieces, and the draft never shows it is an authorized dealer"
+  ],
+  "fixes": [
+    "slide 9: replace the Fears photo with a cut-out or transparent-background official shot, or one whose background matches the slide, so no black box shows",
+    "slides 8-9: price Longines and Fears from the brand site or a confirmed authorized retailer (Watches of Switzerland, the brand's own site). Otherwise swap these two for other collections with official prices",
+    "slide 1: the cover has no watch photo, though its visual job says it should have one. Add the Hamilton shot, or move the watch onto the cover",
+    "slides 1-9: check every other slide for the same photo-box problem, since I only reviewed slides 1-3, 8 and 9"
+  ],
+  "reason": "The check passes and the prices are dated, but the Fears slide has a stray black box behind the watch. The Exquisite Timepieces prices need a brand or authorized-retailer source, and the cover is text only."
+}

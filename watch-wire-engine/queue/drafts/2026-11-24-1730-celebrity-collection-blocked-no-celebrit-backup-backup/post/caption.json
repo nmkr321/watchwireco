@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Omega Seamaster Diver 300M 210.30.42.20.01.023 or Cartier Santos-Dumont WSSA0032: which would you buy?\n\nThe Omega is $8,600 and the Cartier is $7,800 in the US. That is $800 apart, so this is not same money.\n\nOmega price: Watches of Switzerland, checked 21 November 2026. Cartier price: cartier.com, checked 21 November 2026.\n\nWhich one would you wear? Comment OMEGA or CARTIER.\n\nSource: Watches of Switzerland and Cartier (21 Nov 2026), US prices. Photos: Image: Omega, Image: Cartier.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2"
+  ],
+  "source_ids": [
+    "SRC-OMEGA-PRICE",
+    "SRC-CARTIER-PRICE"
+  ],
+  "attribution": "Prices: Watches of Switzerland and Cartier (21 Nov 2026), US.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Prices are list prices at two retailers and may change."
+  ],
+  "caption_credit": "Image: Omega, Image: Cartier",
+  "hashtags": [
+    "#Omega",
+    "#Cartier",
+    "#WatchNews",
+    "#WatchCollector"
+  ],
+  "carousel_sha256": "20552eee4e32fc62233e14081c873dbf83afad485a9e5a5c96ba8488e52e92d7",
+  "completed_at": "2026-11-24T10:06:33.877Z"
+}

@@ -1,0 +1,8 @@
+{"source": "Source: Watches of Switzerland and Cartier, US prices checked 21 Nov 2026",
+ "slides": [
+  {"t": "A-cover", "tag": "WOULD YOU RATHER", "line1": "Omega or Cartier?", "line2": "$8,600 or $7,800", "meta": "Two watches, $800 apart · US prices 21 Nov 2026", "photo": "watch-wire-engine/library/img/omega-210-30-42-20-01-023.png", "photo2": "watch-wire-engine/library/img/cartier-wssa0032.jpg", "credit": "Image: Omega / Image: Cartier", "footLeft": "Prices: US, 21 Nov 2026"},
+  {"t": "A-wyr", "tag": "WOULD YOU RATHER", "left": {"brand": "Omega", "model": "Diver 300M", "price": "$8,600", "photo": "watch-wire-engine/library/img/omega-210-30-42-20-01-023.png"}, "right": {"brand": "Cartier", "model": "Santos", "price": "$7,800", "photo": "watch-wire-engine/library/img/cartier-wssa0032.jpg"}, "credit": "Image: Omega / Image: Cartier"},
+  {"t": "A-photo", "label": "Option A · Omega", "headline": "Seamaster Diver 300M", "photo": "watch-wire-engine/library/img/omega-210-30-42-20-01-023.png", "credit": "Image: Omega", "body": "US $8,600 at Watches of Switzerland, checked 21 Nov 2026.", "source": "Source: Watches of Switzerland, 21 Nov 2026"},
+  {"t": "A-photo", "label": "Option B · Cartier", "headline": "Cartier Santos-Dumont", "photo": "watch-wire-engine/library/img/cartier-wssa0032.jpg", "credit": "Image: Cartier", "body": "US $7,800 on Cartier's site, checked 21 Nov 2026.", "source": "Source: Cartier, 21 Nov 2026"},
+  {"t": "cta", "line1": "Vote in the comments", "line2": "Omega or Cartier?"}
+ ]}
