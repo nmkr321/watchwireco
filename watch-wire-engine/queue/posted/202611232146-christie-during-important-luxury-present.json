@@ -1,7 +1,7 @@
 {
   "id": "202611232146-christie-during-important-luxury-present",
   "lane": "breaking",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-23T21:46:39.869Z",
   "title": "Christie’s Presents Important Watches During New York Luxury Week",
   "score": 7,
@@ -38,5 +38,23 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The check passes. Phillips' own release and lot page confirm the HK$80.37M result for lot 941 (US$10.26M), the 30–31 May 2026 sale dates, the HK$24–48M estimate and the 293 of 294 lots sold. The earlier clipped figures are fixed, the cover watch is pictured with a credit, and the fee caveat appears once on slide 4 and in the caption. The sale is six months old, so I'm treating it as an evergreen record-price post, not breaking news."
+  },
+  "posted_at": "2026-11-24T14:02:18.378Z",
+  "publish": {
+    "live": true,
+    "media_id": "18117674309122544",
+    "permalink": "https://www.instagram.com/p/DgIH2KHl_fu/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png"
+      ],
+      "caption_chars": 771
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
