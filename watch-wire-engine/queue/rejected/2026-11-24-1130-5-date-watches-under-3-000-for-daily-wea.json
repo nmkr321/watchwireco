@@ -1,0 +1,50 @@
+{
+  "id": "2026-11-24-1130-5-date-watches-under-3-000-for-daily-wea",
+  "status": "stopped",
+  "found_at": "2026-11-24T07:56:08.589Z",
+  "lane": "rotation",
+  "format": "LISTICLE",
+  "post_at": "2026-11-24T16:30:00.000Z",
+  "slot": 2,
+  "title": "5 Date Watches Under $3,000 For Daily Wear",
+  "hook": "5 watches that give you a date window for daily wear, all inside a $1,500–$3,000 band.",
+  "why": "Date is the top hot topic this week (6 accounts, lift 2.36). Listicles are our strongest format. One use case (daily-wear date watch) and a tight price band.",
+  "sources_to_check": [
+    "Seiko US price pages (Presage/Prospex with date)",
+    "Tudor US price pages",
+    "Hamilton US price pages",
+    "Longines US price pages"
+  ],
+  "sources": [
+    {
+      "title": "Seiko US price pages (Presage/Prospex with date)",
+      "link": "",
+      "source": "Seiko US price pages (Presage/Prospex with date)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Tudor US price pages",
+      "link": "",
+      "source": "Tudor US price pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Hamilton US price pages",
+      "link": "",
+      "source": "Hamilton US price pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Longines US price pages",
+      "link": "",
+      "source": "Longines US price pages",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "The cover shows a Hamilton that isn't one of the three watches in the post, and the Tissot slide has a stray smudge. The Tissot photo also doesn't clearly match the reference named. Fix those and the pick slide, then resubmit. / Gate 7: the cover photo is a Hamilton Day-Date. It is not one of the three picks, and it is not named or priced anywhere on the slides. / Gate 6: slide 3 has a stray grey smudge or shadow shape beside the Tissot watch. / Gate 7: the Tissot photo shows a rose-gold fluted bezel and a blue dial. That may not match the named reference T932.408.41.033.00 (COSC Le Locle). Th",
+    "The post has only 3 picks and 5 slides, but the idea promised 5 picks and the recipe needs 8–10 slides. The CTA also names Tissot, which isn't in the post. It needs more researched picks and a corrected CTA. / Slide count: the draft has 5 slides and the LISTICLE recipe needs 8–10. The idea promised 5 picks and the post has 3. / Slide 5 CTA says 'Comment Tissot, Oris or Longines', but Tissot is dropped and not pictured. The Hamilton is missing from the options. This is a watch named but not pictured. / Slide 2 headline is a reference number, 'Hamilton H32755851'. The lessons say to use short mo"
+  ],
+  "stop_reason": "Slide 2 (Tissot Le Locle) photo is the library product image with a grey cloth shape beside the strap, a stray shape the owner's gate would fail. No clean rights-cleared Tissot photo of this reference was found. The post is 3 picks (idea promised 5); the library has no other verified date watch in band with a dated price and a usable photo. Needs a clean Tissot photo or a different pick.",
+  "gave_up": true
+}

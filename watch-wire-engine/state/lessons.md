@@ -1,23 +1,23 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [NEWS] A model found only in a single roundup article needs its official price page before it can be named or priced.
-- [NEWS] When a candidate's official price page is blocked or unreadable, switch to a release whose official page opens in the same run.
-- [NEWS] If no news candidate passes price and date checks, research a different dated release in the same run rather than publishing unverified figures.
-- [WOULD YOU RATHER] Before drafting, check posts from the last 7 days for both watches; swap any repeat for a different verified model at once.
-- [WOULD YOU RATHER] Each footer must credit the source of the price it sits beside; never copy another watch's source line onto a slide.
-- [WOULD YOU RATHER] Pair watches priced within about 10% of each other, using each one's dated official price, so the choice is fair.
-- [WOULD YOU RATHER] On slides, use short model names and keep full references for the caption; show both watches at similar sizes.
-- [WOULD YOU RATHER] Create the research handoff only via the research agent, so it has a validated origin, job ID, browser trace and ledgers. Never hand-write it.
-- [WOULD YOU RATHER] Run the finish validation before the approver; if it fails, rerun the research agent rather than patching the handoff files.
-- [WOULD YOU RATHER] Before pairing, confirm each watch is in stock on its official page; if not, swap in another in-stock model with a dated official price.
-- [WOULD YOU RATHER] Save a photo only if the download is an actual image file; if it returns an HTML page, find that model's image elsewhere.
-- [BUILD YOUR COLLECTION] Before drafting, add the tier caps and confirm they sum to the cover's stated total; fix whichever figure is wrong.
-- [BUILD YOUR COLLECTION] Build collection picks from varied watch types, with caps scaled to the stated total, and show each pick's price on its slide.
-- [BUILD YOUR COLLECTION] Before drafting, ensure each slide's options are from different brands or model lines; versions or dials of one watch don't count.
-- [BUILD YOUR COLLECTION] When swapping any slide pick, update the caption's watch names and sources in the same pass, before submitting.
-- [BUILD YOUR COLLECTION] Before rendering, crop every slide photo to one frame and size, filling its slot, so no image looks tiny or leaves gaps.
-- [BUILD YOUR COLLECTION] Vary watch category across collection tiers, but keep each tier's options in one category priced near that tier's cap.
-- [BUILD YOUR COLLECTION] Before rendering, use only clean cutout photos on matching backgrounds; reject any placeholder or boxed image and find a real product photo for that model.
-- [BUILD YOUR COLLECTION] The cover photo must show a watch that is one of the slide picks, so every watch shown on the cover also appears on a slide.
-- [BUILD YOUR COLLECTION] After rendering, view every slide image yourself; replace any blank, lifestyle or boxed photo before submitting, even if the file opened.
+- [LISTICLE] After rendering, inspect each slide for stray shapes, smudges and orphaned words; fix the layout and re-render before submitting.
+- [LISTICLE] Before drafting, research until the idea's promised pick count is met with dated official prices; never ship fewer picks or silently drop one.
+- [LISTICLE] Give each listicle a distinct niche angle, such as case size, movement or dial style, beyond the price band, and name that angle in the cover title.
+- [LISTICLE] Before drafting, pick only models that already have a rights-cleared photo in the library or permissions list; if too few qualify, research more models first.
+- [BUILD YOUR COLLECTION] Use one price-check date range on the cover, every slide and the caption; confirm they all match before submitting.
+- [BUILD YOUR COLLECTION] Before submitting, scan caption, hashtags and carousel.json for brand or model names not shown on any slide, and remove them.
+- [BUILD YOUR COLLECTION] Before submitting, run the validate check; fix every failure and resubmit only once it reports PASS.
+- [BUILD YOUR COLLECTION] Every price shown on a slide needs a sourced, dated claim in the evidence file before drafting; drop any pick lacking one.
+- [BUILD YOUR COLLECTION] Before drafting, confirm dated library prices fill each tier cap and sum to the hook's total; else lower the total or research more models.
+- [BUILD YOUR COLLECTION] Before drafting, tag each candidate with its model type from its official page; drop candidates whose type cannot be confirmed.
+- [BUILD YOUR COLLECTION] Derive any hook total by summing the chosen picks' dated official prices; never start from a round target and then pick models to fit it.
+- [BUILD YOUR COLLECTION] Before naming a tier cap or price ceiling, confirm at least one dated, verified model sits just under that cap; otherwise lower the cap.
+- [WOULD YOU RATHER] Every spec on a slide or caption, such as rating, movement or size, needs a sourced, dated claim in the evidence file; otherwise delete it.
+- [WOULD YOU RATHER] Check that no hyphenated or long model name splits across lines when rendered; if it does, use a shorter label and re-render.
+- [WOULD YOU RATHER] Both prices in a comparison must share one check date; re-check the older price before drafting, or swap in a pair that matches.
+- [WOULD YOU RATHER] If a price re-check fails, retry it or swap in another pair; never leave a draft half-finished.
+- [WOULD YOU RATHER] Before choosing a pair, confirm each model's official page shows it in current production with a listed price; drop discontinued or price-less models.
+- [WOULD YOU RATHER] Before drafting, list at least three candidate pairs with matching dated prices; draft only from one that passes every check.
+- [WOULD YOU RATHER] When prices don't match exactly, research more brands and models until an exact-price pair passes every check.
+- [WOULD YOU RATHER] Never accept a near-match price; both official listed prices must be identical in one currency, or drop the pair.

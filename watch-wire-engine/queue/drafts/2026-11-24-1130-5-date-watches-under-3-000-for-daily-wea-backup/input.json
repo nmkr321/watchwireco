@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-24-1130-5-date-watches-under-3-000-for-daily-wea-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-24T09:17:21.193Z",
+  "post_at": "2026-11-24T16:30:00.000Z",
+  "backup_for": "2026-11-24-1130-5-date-watches-under-3-000-for-daily-wea",
+  "backup_depth": 1,
+  "tried_formats": [
+    "LISTICLE"
+  ],
+  "format": "BUILD YOUR COLLECTION",
+  "title": "Backup BUILD YOUR COLLECTION for the slot of: 5 Date Watches Under $3,000 For Daily Wear",
+  "hook": "",
+  "why": "Backup post. Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Tiered collection from watch-wire-engine/library, watches not used today.",
+  "sources": [],
+  "previous_attempts": [
+    "The draft is unfinished. Slide 3 repeats one brand, the Cartier price has no source, and slide 4 photos are uneven. Fix these and resubmit. / Draft status is 'stopped'. Its own stop_reason lists unfinished work. / Gate 2: the Cartier $3,900 price has no sourced claim in the evidence file. / Slide 3 shows two IWC dress watches. Options must come from different brands or models, and the tier needs a diver near $8,000. / Gate 6: slide 4 photo sizes are not normalised. / I did not run the check or view the previews, because the draft is stopped and already fails these gates. / slide 3: replace the",
+    "Not built. The verified watch library has no confirmed model-type labels (dress, diver, chronograph, field) for its entries, and only a few watches sit under the caps needed for three distinct tiers. Its prices top out at $5,400 (IWC IW3565, checked 2026-11-22), so the $25K total in the hook cannot "
+  ]
+}

@@ -4831,5 +4831,29 @@
   "credit": "Image: Oris",
   "usage": "Oris 01 733 7721 official product image, credited",
   "fetched": "2026-11-24"
+ },
+ {
+  "kind": "watch",
+  "brand": "Hamilton",
+  "ref": "H32505511",
+  "title": "Hamilton H32505511",
+  "source": "https://www.hamiltonwatch.com/en-us/h32505511-jazzmaster-day-date-auto.html",
+  "image_url": "https://www.hamiltonwatch.com/media/catalog/product/h/3/h32505511.png",
+  "file": "watch-wire-engine/library/img/hamilton-h32505511.png",
+  "w": 2000,
+  "h": 2000,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 995,
+   "currency": "USD",
+   "source": "https://www.hamiltonwatch.com/en-us/h32505511-jazzmaster-day-date-auto.html",
+   "date": "2026-11-24"
+  },
+  "rights": "official",
+  "creator": "Hamilton",
+  "credit": "Image: Hamilton",
+  "usage": "Hamilton H32505511 official product image, credited",
+  "fetched": "2026-11-24"
  }
 ]
