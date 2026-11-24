@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-24-1730-celebrity-collection-blocked-no-celebrit",
+  "status": "idea",
+  "found_at": "2026-11-24T07:56:08.589Z",
+  "lane": "rotation",
+  "format": "CELEBRITY COLLECTION",
+  "post_at": "2026-11-24T22:30:00.000Z",
+  "slot": 4,
+  "title": "CELEBRITY COLLECTION: BLOCKED, no celebrity name verified",
+  "hook": "Inside [Name]'s watch collection is getting interesting. Blocked until a name is chosen.",
+  "why": "No celebrity has been verified yet. Excluded already: Kevin O'Leary, Pattinson, Tyson Fury, Federer, Gosling. Needs one person with a trusted outlet naming two or more watches they wear, plus official product photos.",
+  "sources_to_check": [
+    "Hodinkee, Robb Report or WatchPro articles naming the watches a celebrity wears",
+    "Brand official product photos for each named watch"
+  ],
+  "sources": [
+    {
+      "title": "Hodinkee, Robb Report or WatchPro articles naming the watches a celebrity wears",
+      "link": "",
+      "source": "Hodinkee, Robb Report or WatchPro articles naming the watches a celebrity wears",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand official product photos for each named watch",
+      "link": "",
+      "source": "Brand official product photos for each named watch",
+      "tier": "to-verify"
+    }
+  ]
+}

@@ -1,13 +1,10 @@
-# Daily summary (2026-11-23 08:04 UTC, last 24 hours)
+# Daily summary (2026-11-24 07:54 UTC, last 24 hours)
 
-- Instagram token: OK · 5 followers · 26 posts on the account
-- Posted: 5
-  - CELEBRITY: a watch a trusted outlet reported a celebrity wearing (recent) [CELEBRITY] https://www.instagram.com/p/DgD9G5RiRR9/
-  - MARKET: no candidate yet (headline fit not found) [MARKET] https://www.instagram.com/p/DgC8CrPFz8c/
-  - WOULD YOU RATHER: Breitling Navitimer B09 Chronograph 41 vs Omega Speedmaster Moonwatch [WOULD YOU RATHER] https://www.instagram.com/p/DgDo2pvD4BI/
-  - Backup WOULD YOU RATHER for the slot of: Backup LISTICLE for the slot of: CELEBRITY COLLECTION: Inside Kevin O'Leary's watch collection [WOULD YOU RATHER] https://www.instagram.com/p/DgEQoCbDPQ9/
-  - CELEBRITY: a celebrity watch sighting from the last few weeks [CELEBRITY] https://www.instagram.com/p/DgEdT15mgKf/
-- Rejected or stopped: 11
-- Waiting to post: 0
+- Instagram token: OK · 4 followers · 27 posts on the account
+- Posted: 1
+  - Backup WOULD YOU RATHER for the slot of: Backup LISTICLE for the slot of: HISTORY: NASA and the Omega Speedmaster (1962 qualification), Template D with tension hook [WOULD YOU RATHER] https://www.instagram.com/p/DgG3ZEJku4u/
+- Rejected or stopped: 23
+- Waiting to post: 1
+  - 2026-11-24T13:30:00.000Z Christie’s Presents Important Watches During New York Luxury Week
 - On hold: 20
-- AI usage: $7.44 plan-equivalent over 187 calls, $1.49 per post
+- AI usage: $5.05 plan-equivalent over 197 calls, $5.05 per post
