@@ -963,3 +963,33 @@
 2026-11-24T10:36:33.655Z	editor-revise 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0371	15
 2026-11-24T10:36:41.743Z	approver 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup r3	claude-sonnet-5-5	0.0218	4
 2026-11-24T10:36:49.142Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0026	2
+2026-11-24T10:37:48.272Z	editor 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo	claude-haiku-5-5	0.0279	6
+2026-11-24T10:37:53.112Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo	claude-haiku-5-5	0.0019	2
+2026-11-24T10:38:11.354Z	editor 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo	claude-haiku-5-5	0.0270	5
+2026-11-24T10:38:16.806Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo	claude-haiku-5-5	0.0020	2
+2026-11-24T10:38:35.309Z	editor 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo	claude-haiku-5-5	0.0159	5
+2026-11-24T10:38:40.678Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo	claude-haiku-5-5	0.0022	3
+2026-11-24T10:40:31.795Z	editor 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup	claude-haiku-5-5	0.0230	25
+2026-11-24T10:40:52.752Z	approver 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup r1	claude-sonnet-5-5	0.0870	11
+2026-11-24T10:40:58.953Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup	claude-haiku-5-5	0.0023	2
+2026-11-24T10:43:48.845Z	editor-revise 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup	claude-haiku-5-5	0.0421	22
+2026-11-24T10:43:59.652Z	approver 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup r2	claude-sonnet-5-5	0.0447	6
+2026-11-24T10:46:58.816Z	editor-revise 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup	claude-haiku-5-5	0.1425	33
+2026-11-24T10:47:18.532Z	approver 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup r3	claude-sonnet-5-5	0.0670	11
+2026-11-24T10:47:24.529Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup	claude-haiku-5-5	0.0022	2
+2026-11-24T10:47:51.870Z	editor 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup	claude-haiku-5-5	0.0082	12
+2026-11-24T10:47:57.069Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup	claude-haiku-5-5	0.0020	2
+2026-11-24T10:50:15.598Z	editor 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup	claude-haiku-5-5	0.0510	41
+2026-11-24T10:50:19.597Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup	claude-haiku-5-5	0.0019	2
+2026-11-24T10:52:58.653Z	editor 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup	claude-haiku-5-5	0.0393	38
+2026-11-24T10:53:13.171Z	approver 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup r1	claude-sonnet-5-5	0.0706	10
+2026-11-24T10:53:19.390Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup	claude-haiku-5-5	0.0022	2
+2026-11-24T10:54:02.723Z	editor-revise 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup	claude-haiku-5-5	0.0089	13
+2026-11-24T10:54:27.789Z	approver 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup r2	claude-sonnet-5-5	0.1096	13
+2026-11-24T10:55:15.162Z	editor-revise 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup	claude-haiku-5-5	0.0118	15
+2026-11-24T10:55:28.381Z	approver 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup r3	claude-sonnet-5-5	0.0401	7
+2026-11-24T10:55:34.727Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup	claude-haiku-5-5	0.0023	2
+2026-11-24T10:55:43.186Z	editor 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup	claude-haiku-5-5	0.0027	4
+2026-11-24T10:55:49.261Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup	claude-haiku-5-5	0.0021	2
+2026-11-24T10:55:56.419Z	editor 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup	claude-haiku-5-5	0.0021	4
+2026-11-24T10:56:02.108Z	learn 2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup	claude-haiku-5-5	0.0024	3

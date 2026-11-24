@@ -2,7 +2,7 @@
   "id": "2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup",
   "lane": "rotation",
   "status": "stopped",
-  "found_at": "2026-11-24T09:46:20.175Z",
+  "found_at": "2026-11-24T10:50:19.609Z",
   "post_at": "2026-11-24T19:30:00.000Z",
   "backup_for": "2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo",
   "backup_depth": 2,
@@ -16,9 +16,9 @@
   "why": "Backup post. Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Tiered collection from watch-wire-engine/library, watches not used today.",
   "sources": [],
   "previous_attempts": [
-    "Engine validation failed at the research step: the research-agent contract needs a browser trace (opened_urls for each source), a v2.0 research.json with origin job ID and governance ledgers, and source_type values the research step does not accept. I did not fabricate those records. Project files, ",
-    "Research gate failed: the validator rejects every source_type I tried for retailer and brand product pages (only 'official' is known to pass, and it would misstate retailer pages). Nine library prices were recorded in research-work/evidence.json with dates. analysis.json is not written yet, and no s"
+    "Slide 2 shows a 'coming soon' placeholder in place of a real Seiko photo, and the draft is stopped with its image-rights problems unresolved. It needs a real photo and correct credits before it can go out. / Gate 7: Slide 2 option B (Seiko Alpinist SPB121) uses a faded 'LIVE IMAGES COMING SOON' placeholder, not a real product photo. The image came from a third-party retailer page, not from Seiko. / Gate 7: Hamilton, Seiko and the other brands in the draft (Oris, Cartier, IWC, Breitling, Rolex) have no entry in state/permissions.json. The draft's own stop_reason confirms the draft is stopped wi",
+    "Image rights: state/permissions.json lists only Rockstar Games (game images). No watch brand (Seiko, Hamilton, Oris, Cartier, IWC, Breitling, Rolex, Tissot, Longines, Omega, Casio, Raymond Weil, Fears) has a permission entry, and the lessons require every pictured brand to have one. The library watc"
   ],
-  "stop_reason": "Not built. Research could not be completed: the retailer pages for the dress, field and diver picks (Tudor, Seiko, Nomos, Rolex) returned HTTP 429/403 when opened, so their prices could not be recorded in the browser trace. Only Cartier WSTA0106, Longines L2.793.4.78.3, Hamilton H69439931 and Omega 210.30.42.20.01.001 (plus Omega 210.30.42.20.03.004, a James Bond limited edition) were opened and confirmed. Each tier needs three verified options, so no carousel was made. The validator also rejects retailer pages as source_type, so research.json v2.0 and governance ledgers were not written. Retry when the retailer sites are reachable, or the owner can pick a different angle.",
+  "stop_reason": "Not drafted: state/permissions.json lists only Rockstar Games (game images). No watch brand has a permission entry, and the lessons require every pictured watch brand to have one, so no watch photo can be used for the A-pick3 tier slides. Needs a permitted watch brand (owner grant with proof) before this format can be drafted. Stopped before any project was started to avoid spending budget on an unusable draft.",
   "gave_up": true
 }

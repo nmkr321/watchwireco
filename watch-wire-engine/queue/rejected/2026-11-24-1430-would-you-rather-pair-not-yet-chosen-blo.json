@@ -21,9 +21,9 @@
     }
   ],
   "previous_attempts": [
-    "No valid pair. Checked the verified price library for USD 5,000-15,000 (checked 2026-11-24). Every identical-price match is two versions of one model family (Tissot T1204071104103/T1204071108101 at USD 925; Oris 01 733 7721 variants at USD 1,950 and USD 2,200; Longines L2.628.5.77.7/L2.628.5.12.7 at",
-    "No valid exact-price pair found (attempt 2, checked 2026-11-24). Verified library USD 5,000-15,000: every identical price is two references of one family (Oris USD 2,200; Oris USD 1,950 vs 2,200 is not identical). Candidates checked and rejected: Grand Seiko SBGA211 USD 6,900 (official US page, Heri"
+    "No valid same-money pair found. Library exact-price matches ($2200 Oris 7810 family, $925 Tissot T120, $4450 Longines 628, $1950 Oris 7721) are all two versions of one model family, which is not allowed. Cross-family searches (Tudor Black Bay 58 at $3,950; Longines HydroConquest at $2,650) found no ",
+    "No valid same-money pair found on attempt 2. Every exact-price match in the verified library (Oris 7810 family at $2,200, Oris 7721 at $1,950, Tissot T120 at $925, Longines 628 at $4,450) is two versions of one family, which is not allowed. Cross-family checks failed: Tudor Black Bay 58 ($3,950) and"
   ],
-  "stop_reason": "No exact-price pair passed (attempt 3, 2026-11-24). Verified library USD 5,000-15,000: the only identical prices are Oris 01 733 7810 variants at USD 2,200 (one model family, rejected). Other candidates rejected: Grand Seiko USD 6,900 has only retailer listings, no official US page; Tudor Black Bay current US prices are about USD 4,725-5,425 per dealers, no match. Lesson applied: switch format rather than ship a near-match pair. No project was started, so nothing is half-finished.",
+  "stop_reason": "No valid same-money pair found on attempt 3. Library exact-price matches are all same-family (Oris 7810/7721, Tissot T120, Longines 628). The only cross-family candidate near $11,800 (Rolex 126710BLNR) has no official Rolex price page confirmation, and sources disagree ($11,800 to $12,000), so no exact-price pair passes. No draft was written. Needs a new price-matched pair with official dated prices.",
   "gave_up": true
 }

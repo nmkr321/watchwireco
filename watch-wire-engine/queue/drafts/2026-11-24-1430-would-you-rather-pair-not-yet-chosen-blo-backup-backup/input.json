@@ -2,7 +2,7 @@
   "id": "2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup-backup",
   "lane": "rotation",
   "status": "idea",
-  "found_at": "2026-11-24T09:46:20.175Z",
+  "found_at": "2026-11-24T10:50:19.609Z",
   "post_at": "2026-11-24T19:30:00.000Z",
   "backup_for": "2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo",
   "backup_depth": 2,
@@ -16,7 +16,7 @@
   "why": "Backup post. Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Tiered collection from watch-wire-engine/library, watches not used today.",
   "sources": [],
   "previous_attempts": [
-    "Engine validation failed at the research step: the research-agent contract needs a browser trace (opened_urls for each source), a v2.0 research.json with origin job ID and governance ledgers, and source_type values the research step does not accept. I did not fabricate those records. Project files, ",
-    "Research gate failed: the validator rejects every source_type I tried for retailer and brand product pages (only 'official' is known to pass, and it would misstate retailer pages). Nine library prices were recorded in research-work/evidence.json with dates. analysis.json is not written yet, and no s"
+    "Slide 2 shows a 'coming soon' placeholder in place of a real Seiko photo, and the draft is stopped with its image-rights problems unresolved. It needs a real photo and correct credits before it can go out. / Gate 7: Slide 2 option B (Seiko Alpinist SPB121) uses a faded 'LIVE IMAGES COMING SOON' placeholder, not a real product photo. The image came from a third-party retailer page, not from Seiko. / Gate 7: Hamilton, Seiko and the other brands in the draft (Oris, Cartier, IWC, Breitling, Rolex) have no entry in state/permissions.json. The draft's own stop_reason confirms the draft is stopped wi",
+    "Image rights: state/permissions.json lists only Rockstar Games (game images). No watch brand (Seiko, Hamilton, Oris, Cartier, IWC, Breitling, Rolex, Tissot, Longines, Omega, Casio, Raymond Weil, Fears) has a permission entry, and the lessons require every pictured brand to have one. The library watc"
   ]
 }
