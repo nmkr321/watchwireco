@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: watch photos are uneven in size on slides 3 and 4, so the layout looks unbalanced.",
+    "Gate 10: the options in tier 2 are weak. A and B are the same Oris Artelier in two dial colours."
+  ],
+  "fixes": [
+    "slide 4: Rolex 224270 (option A) is much smaller than the two Omegas. Re-crop or scale it to match their height and visual weight.",
+    "slide 3: Option C (Artelier S) is far bigger than A and B. Scale all three to the same height and visual weight.",
+    "slide 3: Replace option B (Oris 4054-07 6) with a genuinely different dress watch from a different brand or model, priced about $2,000–$2,500, with a product photo of its exact reference.",
+    "slide 4: Make the three options more comparable. A diver, a chronograph and an Explorer in one tier is a muddle, so pick one type or label the tier clearly. The Rolex is also missing its brand-style model name, so add 'Explorer 224270'.",
+    "slide 1: The cover headline breaks awkwardly as '3-' then 'WATCH'. Shorten it, for example 'Build Your Collection. $12.5K Total.', so no hyphenated word wraps."
+  ],
+  "reason": "The check passes and the cover total matches the tier caps. But the watch photos are inconsistent in size on slides 3 and 4, tier 2 shows the same Oris twice, and the cover headline wraps awkwardly, so it needs one more pass."
+}

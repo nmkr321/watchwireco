@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Layout: the slide 3 Tissot photo has a grey smear",
+    "Layout: the photos on slides 3 and 4 are not scaled to the same size",
+    "Tier rule: slide 3 option C is missing, so the tier has no third dress watch from another brand",
+    "Not checked: the validator and the sources, because the draft already admits these flaws"
+  ],
+  "fixes": [
+    "slide 3: Replace option C with a verified dress watch from another brand priced about $2,000–2,500, using a brand or official-retailer price and a product photo of that exact reference.",
+    "slide 3: Replace the smeared Tissot photo with a clean product photo, or pick a different watch.",
+    "slides 3 and 4: Re-crop the photos so they have the same height and weight on both slides.",
+    "slides 2–4: Check that each tier's three prices are within about 20% of each other, and that the tier caps add up to the $12.5K on the cover.",
+    "caption: Give each watch's full reference number and its brand or official-retailer price."
+  ],
+  "reason": "The editor stopped this draft with known problems: slide 3 has no third option, a smeared Tissot photo and uneven photo sizes. It can't be approved until those are fixed."
+}

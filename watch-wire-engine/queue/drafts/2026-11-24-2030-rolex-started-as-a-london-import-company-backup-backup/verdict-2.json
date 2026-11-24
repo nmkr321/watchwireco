@@ -1,0 +1,25 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: product photos are still uneven in size. The Explorer on slide 4 is tiny next to the Omegas, and slide 3 has the same problem. The Tissot photo on slide 3 also has a stray grey shadow smear.",
+    "Gate 10: slide 3 still has two Oris Artelier models (A and C). The previous review asked for a different brand or model, and that was not fixed.",
+    "Owner design rules: the Hamilton Jazzmaster on slide 2 is a leather dress watch under a heading that says 'Everyday steel', so the tier label does not match its options."
+  ],
+  "fixes": [
+    "slide 4: Scale the Rolex Explorer 224270 photo up to the same height and visual weight as the two Omegas.",
+    "slide 3: Scale A, B and C to the same height and visual weight. Use a Tissot photo with a clean background and no grey shadow smear.",
+    "slide 3: Replace Oris option C (Artelier S 01 733 7762 4054) with a dress watch from another brand, priced about $2,000–$2,500, that has a product photo of its exact reference. Use a different model if the replacement is not a dress watch.",
+    "slide 2: Replace Hamilton Jazzmaster H32505511 with a steel watch of about $850–$995. You could also rename the tier to something like 'Everyday watches, under $1,000'.",
+    "slide 4: Retitle the tier so it matches what is shown. The Explorer and Seamaster are sports watches, and the Speedmaster is a chronograph. Use 'Sports watches' or swap in a better-matching option.",
+    "slide 4: The Seamaster reference line is long and wraps to three lines, so the three options look unbalanced. Shorten it or put the references on matching line counts."
+  ],
+  "reason": "The check passes and the cover is fixed. But the Explorer and tier 2 photos are still the wrong size, the Tissot photo has a stray shadow, tier 2 still shows two Oris, and tier 1's heading doesn't match the Hamilton leather watch."
+}

@@ -927,3 +927,39 @@
 2026-11-24T10:04:33.108Z	learn 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup-backup	claude-haiku-5-5	0.0023	2
 2026-11-24T10:06:41.346Z	editor 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup-backup	claude-haiku-5-5	0.0329	44
 2026-11-24T10:07:03.299Z	approver 2026-11-24-1730-celebrity-collection-blocked-no-celebrit-backup-backup r1	claude-sonnet-5-5	0.1009	14
+2026-11-24T10:08:36.331Z	editor 2026-11-24-2030-rolex-started-as-a-london-import-company	claude-haiku-5-5	0.0338	27
+2026-11-24T10:08:54.172Z	approver 2026-11-24-2030-rolex-started-as-a-london-import-company r1	claude-sonnet-5-5	0.0907	13
+2026-11-24T10:09:00.128Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company	claude-haiku-5-5	0.0023	2
+2026-11-24T10:10:33.868Z	editor-revise 2026-11-24-2030-rolex-started-as-a-london-import-company	claude-haiku-5-5	0.0177	19
+2026-11-24T10:10:50.750Z	approver 2026-11-24-2030-rolex-started-as-a-london-import-company r2	claude-sonnet-5-5	0.0825	12
+2026-11-24T10:11:35.633Z	editor-revise 2026-11-24-2030-rolex-started-as-a-london-import-company	claude-haiku-5-5	0.0105	13
+2026-11-24T10:11:46.673Z	approver 2026-11-24-2030-rolex-started-as-a-london-import-company r3	claude-sonnet-5-5	0.0350	6
+2026-11-24T10:11:52.219Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company	claude-haiku-5-5	0.0022	2
+2026-11-24T10:13:55.497Z	editor 2026-11-24-2030-rolex-started-as-a-london-import-company	claude-haiku-5-5	0.0407	26
+2026-11-24T10:14:00.526Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company	claude-haiku-5-5	0.0024	3
+2026-11-24T10:14:28.055Z	editor 2026-11-24-2030-rolex-started-as-a-london-import-company	claude-haiku-5-5	0.0188	9
+2026-11-24T10:14:33.849Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company	claude-haiku-5-5	0.0025	3
+2026-11-24T10:14:56.808Z	editor 2026-11-24-2030-rolex-started-as-a-london-import-company-backup	claude-haiku-5-5	0.0050	6
+2026-11-24T10:15:01.634Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company-backup	claude-haiku-5-5	0.0021	2
+2026-11-24T10:16:44.752Z	editor 2026-11-24-2030-rolex-started-as-a-london-import-company-backup	claude-haiku-5-5	0.1125	30
+2026-11-24T10:16:50.154Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company-backup	claude-haiku-5-5	0.0022	2
+2026-11-24T10:18:43.977Z	editor 2026-11-24-2030-rolex-started-as-a-london-import-company-backup	claude-haiku-5-5	0.0774	27
+2026-11-24T10:18:49.443Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company-backup	claude-haiku-5-5	0.0024	3
+2026-11-24T10:21:18.919Z	editor 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0331	31
+2026-11-24T10:21:33.566Z	approver 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup r1	claude-sonnet-5-5	0.0653	10
+2026-11-24T10:21:39.551Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0024	2
+2026-11-24T10:22:57.140Z	editor-revise 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0222	23
+2026-11-24T10:23:12.946Z	approver 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup r2	claude-sonnet-5-5	0.0763	10
+2026-11-24T10:25:29.382Z	editor-revise 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0530	23
+2026-11-24T10:25:45.908Z	approver 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup r3	claude-sonnet-5-5	0.0612	10
+2026-11-24T10:25:50.492Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0022	2
+2026-11-24T10:29:14.979Z	editor 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.1065	32
+2026-11-24T10:29:20.967Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0023	2
+2026-11-24T10:32:27.857Z	editor 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0730	35
+2026-11-24T10:32:46.584Z	approver 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup r1	claude-sonnet-5-5	0.0754	10
+2026-11-24T10:32:53.545Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0025	2
+2026-11-24T10:35:20.205Z	editor-revise 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0304	32
+2026-11-24T10:35:35.258Z	approver 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup r2	claude-sonnet-5-5	0.0739	10
+2026-11-24T10:36:33.655Z	editor-revise 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0371	15
+2026-11-24T10:36:41.743Z	approver 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup r3	claude-sonnet-5-5	0.0218	4
+2026-11-24T10:36:49.142Z	learn 2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup	claude-haiku-5-5	0.0026	2

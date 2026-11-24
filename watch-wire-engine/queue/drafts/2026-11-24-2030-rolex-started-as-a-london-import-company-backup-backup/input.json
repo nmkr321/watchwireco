@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-24-2030-rolex-started-as-a-london-import-company-backup-backup",
+  "lane": "history",
+  "status": "idea",
+  "found_at": "2026-11-24T10:18:49.456Z",
+  "post_at": "2026-11-25T01:30:00.000Z",
+  "backup_for": "2026-11-24-2030-rolex-started-as-a-london-import-company",
+  "backup_depth": 2,
+  "tried_formats": [
+    "LISTICLE",
+    "STORY BEHIND"
+  ],
+  "format": "BUILD YOUR COLLECTION",
+  "title": "Backup BUILD YOUR COLLECTION for the slot of: Backup LISTICLE for the slot of: Rolex Started As A London Import Company (Hans Wilsdorf)",
+  "hook": "",
+  "why": "Backup post. Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Tiered collection from watch-wire-engine/library, watches not used today.",
+  "sources": [],
+  "previous_attempts": [
+    "The check passes and the earlier model-number and reseller problems are fixed. But the sports tier mixes a $595 watch with an $8,350 one, and the IWC reference is incomplete, so the post needs one more pass. / Gate 2: slide 2 shows 'Portofino IW3565', which isn't a full IWC reference. The caption says the same, so the name can't be matched to a verified claim. / Gate 10: the sports tier puts a $595 Seiko next to an $8,350 Rolex Explorer, a huge price spread. The tiers also jump from $8,500 to $1,000, so the picks don't give a sensible budget choice. / slide 2: give the IWC Portofino its full r",
+    "Pick 3 option A (Cartier Tank Must WSTA0135) shows a lifestyle photo of a model, not the watch. Only the library image was available; no product photo found on Wempe, Watches of Switzerland or Tourneau. Needs a product photo of WSTA0135 or a different option. Also: the history topic (Rolex London im"
+  ]
+}
