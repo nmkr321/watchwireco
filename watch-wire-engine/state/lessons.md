@@ -1,32 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [STORY BEHIND] Before choosing a story topic, confirm permissions.json or Wikimedia Commons holds a credited, rights-cleared photo for every story slide; otherwise pick another topic.
-- [STORY BEHIND] Size the story to the verified photos: cut slide count to match rights-cleared photos found, rather than stopping mid-build.
-- [STORY BEHIND] Record each photo's exact license version and full credit line in permissions.json before rendering; incomplete credits fail approval.
-- [STORY BEHIND] Where sources disagree on a date or name, write the hedged range, cite both sources, and never print one unverified year.
-- [LISTICLE] Before selecting any library reference, record its model name and collection in the index; skip references whose collection cannot be named from a source.
-- [LISTICLE] Set listicle slot count to the number of verified distinct collections before rendering; drop slots instead of padding with repeat collections.
-- [LISTICLE] Before marking a draft finished, run the validator and fill every research field: analysis conclusion and scope, verification_source_ids, research origin, browser trace, governance log.
-- [LISTICLE] Record a verification source ID and research origin for each listed collection before rendering, so the validator passes on first submission.
-- [LISTICLE] Use an image only if its source page visibly shows the exact reference number; reject look-alike models from the same collection.
-- [LISTICLE] Before rendering, confirm each slide's photo matches its named reference, and swap in a verified match if it doesn't.
-- [BUILD YOUR COLLECTION] Use only brand or official-retailer prices; state each watch's price in the caption. Reject reseller listings as price sources.
-- [BUILD YOUR COLLECTION] Before rendering, scan each slide for placeholder text, literal brackets and 'coming soon' images; fix them. Make cover totals equal the summed caps.
-- [BUILD YOUR COLLECTION] Keep every watch in a tier within about 20% of the others' prices, and make budget tiers rise in steps that match.
-- [BUILD YOUR COLLECTION] Use full manufacturer reference numbers in slides and captions; every watch named on the cover must also have a pictured slide.
-- [BUILD YOUR COLLECTION] Before choosing each watch, confirm a product photo of its exact reference exists; if none, pick a different option, never a lifestyle shot.
-- [BUILD YOUR COLLECTION] Search brand and retailer sites by exact reference number for a product photo before finalising the option list, not by collection name.
-- [BUILD YOUR COLLECTION] Match every product photo on a slide to the same visual height and weight; re-crop or resize outliers before rendering.
-- [BUILD YOUR COLLECTION] Give each tier distinct models of one watch type from different brands, labelled with full model name.
-- [BUILD YOUR COLLECTION] Inspect each product photo for smudges, grey patches, watermarks or artifacts before using it; crop or replace any flawed image before rendering.
-- [BUILD YOUR COLLECTION] Every tier needs its full option count before rendering; fix any gap or known flaw first. Never mark a draft finished while admitting problems.
-- [WOULD YOU RATHER] Never accept a near-match price; both official listed prices must be identical in one currency, or drop the pair.
-- [WOULD YOU RATHER] Before price-matching, confirm the two models come from different families; two versions of one family never form a valid pair.
-- [WOULD YOU RATHER] Remove same-family models from the candidate list before any price comparison, so sibling versions never reach the price-match step.
-- [WOULD YOU RATHER] Take each price only from the brand's official page. If sources disagree or no official price exists, drop that model from the pair.
-- [WOULD YOU RATHER] Before attempt 3, search brands outside the current family and collect official prices. Don't keep retrying same-family models.
-- [LISTICLE] Confirm each slide's photo appears on its own product page with a matching ref and URL; otherwise swap it or drop the pick.
 - [LISTICLE] Write each slide with one sourced concrete fact and no opinion words; name who each pick suits.
 - [LISTICLE] Headline counts must equal the number of watches pictured on the cover; fix the count or add the missing photo before drafting.
 - [LISTICLE] Name every price source in the footer and caption, and give each price its own check date, with each pick's source credited.
@@ -41,3 +15,9 @@ The editor reads this before every post. Written automatically from rejections; 
 - [BUILD YOUR COLLECTION] Before drafting, check each image's credit line against its state/permissions.json entry and copy that exact credit wording into the slides and caption.
 - [BUILD YOUR COLLECTION] Check permitted-brand photo count when choosing the topic; if it can't fill the slides, pick a different topic rather than drafting.
 - [BUILD YOUR COLLECTION] Pick a topic that needs no watch photos, or one whose permitted brands already supply every pictured watch, before drafting.
+- [AUCTIONS] Use only auction results you opened and read yourself; if lots or hammer prices can't be read, choose another sale.
+- [AUCTIONS] Never treat a news redirect or aggregator headline as proof of a sale; confirm the year and sale name on the house's page first.
+- [AUCTIONS] Compare the sale date with today's date; a sale not yet held is a preview, so draft it as a preview, never as results.
+- [AUCTIONS] Before writing any hammer price or result, open the house's results page and confirm the lots and prices shown there.
+- [AUCTIONS] If a house's site or source is blocked or returns 403, mark that sale unverified and pick another sale you can open.
+- [AUCTIONS] Take every sale date from the covered house's own site; never borrow another house's date to fill a gap.

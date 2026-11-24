@@ -1,0 +1,33 @@
+{
+  "id": "202611241153-christie-headline-sale-york",
+  "lane": "breaking",
+  "status": "idea",
+  "found_at": "2026-11-24T11:53:09.113Z",
+  "title": "Headline Watches At Christie's New York Sale",
+  "score": 6,
+  "sources": [
+    {
+      "title": "Headline Watches At Christie's New York Sale",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE10TTRLVTZtUmo4V3NCa3ZFUjRnWno3Vnc4d29nQ3VNRWUtVkJzRzJ2U28xRnNfT1VBM2s3c21kRHdHZkJZT2RCeUQ4VDdvNlZGY21xOXhsT19GN25rR3lzNUdGVjJhWWpma2tOU3RtWVdocDMxMmR1Yw?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "WatchPro",
+      "domain": "watchpro.com",
+      "tier": "watch_press",
+      "published": "Tue, 24 Nov 2026 10:59:37 GMT"
+    },
+    {
+      "title": "Headline watches at Christie's New York sale",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBXTHVuVXVmQVBDSXFGSDR4XzFRNTRBeG5HY3RvUXlWWkFlTU5melMtTTZJcW1tbWF0dExaTG80MWZEZkxJcGVfYVZtOFU2c2dUX2FTOXpxVUFuSGtIcUVWVzVRUXNHaDhYV0FlOTFLRW45aWl6bm9MaA?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "WatchPro USA",
+      "domain": "usa.watchpro.com",
+      "tier": "watch_press",
+      "published": "Tue, 24 Nov 2026 10:56:06 GMT"
+    }
+  ],
+  "format": "AUCTIONS",
+  "previous_attempts": [
+    "Could not verify the 2026 results. The only lead is two WatchPro items dated 24 Nov 2026 (Google News redirects), and the redirect did not open. Searches returned only older Christie's New York sales (2022, 2025) and a 2026 Christie's Hong Kong sale, which is a different sale. No lot names, hammer p",
+    "No auction results to report. The WatchPro story (24 Nov 2026, blocked with HTTP 403 when opened) and the search summary describe an upcoming Christie's Important Watches sale at Rockefeller Center on 4 December 2026, with no lot hammer prices or results. Forbes (23 Nov 2026) and the search summary "
+  ]
+}
