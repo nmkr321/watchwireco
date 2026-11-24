@@ -1,23 +1,23 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY] After any repeat-subject failure, choose a different person and watch for the next attempt; never retry the same subject with new wording.
-- [CELEBRITY] Before research, check approved, drafted and rejected posts from the last 7 days in every format, not just the one being drafted.
-- [CELEBRITY] Treat a shared person, brand or watch model across any format as a repeat, even if the angle or wording differs.
-- [CELEBRITY] When searching for a replacement subject, exclude every covered person, franchise and brand first; never pick a candidate tied to a covered franchise, even via a different actor.
-- [CELEBRITY] If replacement candidates all repeat covered people, widen to other celebrity categories (athletes, musicians, artists) before searching again.
-- [CELEBRITY] Before choosing a subject, search recent queue files for the character, franchise, and actor names. A match on any of them counts as a repeat.
-- [CELEBRITY] When an idea's main watch model already appears in a recent post, pick a different model or drop the pairing. Changing only the angle does not make it new.
-- [CELEBRITY] When a candidate subject is a repeat, immediately research and draft a different subject in the same run; never end the run at the repeat check.
-- [CELEBRITY] Before the repeat check, research two backup subjects from uncovered people and franchises, so a failed check can switch subjects at once.
-- [CELEBRITY] Before drafting, confirm the sighting and watch model in at least two independent sources; a single outlet is not enough to publish.
-- [CELEBRITY] Before rendering, check that every price and reference has a dated source, and use only that source's figures in the slides and caption.
-- [CELEBRITY] Confirm each celebrity candidate's sighting is dated within 7 days before shortlisting; drop older articles and move to the next candidate.
-- [AUCTIONS] For auction posts, use only a dated sale's final results from the house's own site; if unreadable, switch to a sale that has them.
-- [AUCTIONS] Cite only sources you actually opened and read; redirect links, blocked sites or search snippets cannot back a price or result.
-- [AUCTIONS] Before rendering, check each slide's text boxes for overlap; leave clear gaps between headlines, large figures and sublines, shortening text if needed.
-- [AUCTIONS] Use a photo only if its source page names the captioned lot and reference; otherwise find that lot's own image.
-- [AUCTIONS] Before drafting, check posts, drafts and rejects from the last 7 days for the same house and sale; new lots don't make it new.
-- [AUCTIONS] On a repeat sale, research and draft a different dated sale in the same run; never retry the same sale with new wording.
-- [AUCTIONS] Before rendering, keep big figures and headlines inside side margins; shorten figures and check line breaks keep names like 'Hong Kong' together.
-- [AUCTIONS] State each caveat, such as fees not stated, on one slide only, plus the caption; drop repeats from other slides.
+- [NEWS] A model found only in a single roundup article needs its official price page before it can be named or priced.
+- [NEWS] When a candidate's official price page is blocked or unreadable, switch to a release whose official page opens in the same run.
+- [NEWS] If no news candidate passes price and date checks, research a different dated release in the same run rather than publishing unverified figures.
+- [WOULD YOU RATHER] Before drafting, check posts from the last 7 days for both watches; swap any repeat for a different verified model at once.
+- [WOULD YOU RATHER] Each footer must credit the source of the price it sits beside; never copy another watch's source line onto a slide.
+- [WOULD YOU RATHER] Pair watches priced within about 10% of each other, using each one's dated official price, so the choice is fair.
+- [WOULD YOU RATHER] On slides, use short model names and keep full references for the caption; show both watches at similar sizes.
+- [WOULD YOU RATHER] Create the research handoff only via the research agent, so it has a validated origin, job ID, browser trace and ledgers. Never hand-write it.
+- [WOULD YOU RATHER] Run the finish validation before the approver; if it fails, rerun the research agent rather than patching the handoff files.
+- [WOULD YOU RATHER] Before pairing, confirm each watch is in stock on its official page; if not, swap in another in-stock model with a dated official price.
+- [WOULD YOU RATHER] Save a photo only if the download is an actual image file; if it returns an HTML page, find that model's image elsewhere.
+- [BUILD YOUR COLLECTION] Before drafting, add the tier caps and confirm they sum to the cover's stated total; fix whichever figure is wrong.
+- [BUILD YOUR COLLECTION] Build collection picks from varied watch types, with caps scaled to the stated total, and show each pick's price on its slide.
+- [BUILD YOUR COLLECTION] Before drafting, ensure each slide's options are from different brands or model lines; versions or dials of one watch don't count.
+- [BUILD YOUR COLLECTION] When swapping any slide pick, update the caption's watch names and sources in the same pass, before submitting.
+- [BUILD YOUR COLLECTION] Before rendering, crop every slide photo to one frame and size, filling its slot, so no image looks tiny or leaves gaps.
+- [BUILD YOUR COLLECTION] Vary watch category across collection tiers, but keep each tier's options in one category priced near that tier's cap.
+- [BUILD YOUR COLLECTION] Before rendering, use only clean cutout photos on matching backgrounds; reject any placeholder or boxed image and find a real product photo for that model.
+- [BUILD YOUR COLLECTION] The cover photo must show a watch that is one of the slide picks, so every watch shown on the cover also appears on a slide.
+- [BUILD YOUR COLLECTION] After rendering, view every slide image yourself; replace any blank, lifestyle or boxed photo before submitting, even if the file opened.

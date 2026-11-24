@@ -786,3 +786,45 @@
 2026-11-23T21:55:43.177Z	approver 202611232146-christie-during-important-luxury-present r2	claude-sonnet-5-5	0.0953	14
 2026-11-23T23:50:31.344Z	triage 202611232350-audition-charlie-daredevil-pattinson-rob	claude-haiku-5-5	0.0045	3
 2026-11-24T07:56:08.588Z	planner	claude-haiku-5-5	0.0098	4
+2026-11-24T08:31:21.139Z	editor 2026-11-24-0830-new-releases-fallback-official-2026-rele	claude-haiku-5-5	0.0430	23
+2026-11-24T08:31:39.820Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele r1	claude-sonnet-5-5	0.1032	10
+2026-11-24T08:31:45.784Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele	claude-haiku-5-5	0.0045	2
+2026-11-24T08:32:51.858Z	editor-revise 2026-11-24-0830-new-releases-fallback-official-2026-rele	claude-haiku-5-5	0.0229	12
+2026-11-24T08:33:07.954Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele r2	claude-sonnet-5-5	0.0720	10
+2026-11-24T08:34:55.316Z	editor-revise 2026-11-24-0830-new-releases-fallback-official-2026-rele	claude-haiku-5-5	0.0451	28
+2026-11-24T08:35:13.910Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele r3	claude-sonnet-5-5	0.0767	10
+2026-11-24T08:35:20.649Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele	claude-haiku-5-5	0.0022	2
+2026-11-24T08:35:51.422Z	editor 2026-11-24-0830-new-releases-fallback-official-2026-rele	claude-haiku-5-5	0.0424	8
+2026-11-24T08:35:57.321Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele	claude-haiku-5-5	0.0023	3
+2026-11-24T08:36:11.901Z	editor 2026-11-24-0830-new-releases-fallback-official-2026-rele	claude-haiku-5-5	0.0147	6
+2026-11-24T08:36:17.894Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele	claude-haiku-5-5	0.0021	2
+2026-11-24T08:37:33.012Z	editor 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup	claude-haiku-5-5	0.0191	20
+2026-11-24T08:37:47.985Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup r1	claude-sonnet-5-5	0.0716	11
+2026-11-24T08:37:53.796Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup	claude-haiku-5-5	0.0020	2
+2026-11-24T08:38:49.646Z	editor-revise 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup	claude-haiku-5-5	0.0353	15
+2026-11-24T08:38:59.348Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup r2	claude-sonnet-5-5	0.0357	5
+2026-11-24T08:40:32.950Z	editor-revise 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup	claude-haiku-5-5	0.0229	25
+2026-11-24T08:40:57.292Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup r3	claude-sonnet-5-5	0.0840	13
+2026-11-24T08:41:05.400Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup	claude-haiku-5-5	0.0024	2
+2026-11-24T08:42:21.721Z	editor 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup	claude-haiku-5-5	0.0183	23
+2026-11-24T08:42:28.144Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup	claude-haiku-5-5	0.0022	2
+2026-11-24T08:44:45.768Z	editor 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup	claude-haiku-5-5	0.0566	34
+2026-11-24T08:44:51.420Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup	claude-haiku-5-5	0.0020	2
+2026-11-24T08:47:54.000Z	editor 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0451	44
+2026-11-24T08:48:06.969Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup r1	claude-sonnet-5-5	0.0499	7
+2026-11-24T08:48:12.319Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0021	2
+2026-11-24T08:48:42.566Z	editor-revise 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0070	6
+2026-11-24T08:48:59.083Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup r2	claude-sonnet-5-5	0.0857	11
+2026-11-24T08:49:43.988Z	editor-revise 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0084	11
+2026-11-24T08:50:03.111Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup r3	claude-sonnet-5-5	0.0779	11
+2026-11-24T08:50:10.479Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0023	2
+2026-11-24T08:53:29.192Z	editor 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0500	42
+2026-11-24T08:53:46.458Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup r1	claude-sonnet-5-5	0.0726	10
+2026-11-24T08:53:54.110Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0024	2
+2026-11-24T08:56:21.507Z	editor-revise 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0304	25
+2026-11-24T08:56:33.747Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup r2	claude-sonnet-5-5	0.0529	7
+2026-11-24T08:57:52.836Z	editor-revise 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0341	22
+2026-11-24T08:58:08.971Z	approver 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup r3	claude-sonnet-5-5	0.0568	9
+2026-11-24T08:58:15.454Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0023	2
+2026-11-24T09:00:43.090Z	editor 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0419	41
+2026-11-24T09:00:49.963Z	learn 2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup	claude-haiku-5-5	0.0022	2

@@ -4765,5 +4765,71 @@
   "credit": "Image: OMEGA",
   "usage": "OMEGA 31130423001005 official product image, credited",
   "fetched": "2026-11-24"
+ },
+ {
+  "kind": "watch",
+  "brand": "Casio",
+  "ref": "GMC2500-1A8",
+  "title": "Casio GMC2500-1A8",
+  "source": "https://teddybaldassarre.com/products/gmc-2500-series-silver-on-rubber-strap",
+  "image_url": "https://teddybaldassarre.com/cdn/shop/files/GMC-2500-1A8-Soldier.png?v=1793652893",
+  "file": "watch-wire-engine/library/img/casio-gmc2500-1a8.jpg",
+  "w": 1200,
+  "h": 1200,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 280,
+   "currency": "USD",
+   "source": "https://teddybaldassarre.com/products/gmc-2500-series-silver-on-rubber-strap",
+   "date": "2026-11-24"
+  },
+  "rights": "official",
+  "creator": "Casio",
+  "credit": "Image: Casio",
+  "usage": "Casio GMC2500-1A8 official product image, credited",
+  "fetched": "2026-11-24"
+ },
+ {
+  "kind": "commons",
+  "title": "File:Forms of X in Alphonse Chassant, Dictionnaire des abréviations latines et françaises, 1876.png",
+  "ref": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Forms_of_X_in_Alphonse_Chassant,_Dictionnaire_des_abr%C3%A9viations_latines_et_fran%C3%A7aises,_1876.png",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Forms_of_X_in_Alphonse_Chassant%2C_Dictionnaire_des_abr%C3%A9viations_latines_et_fran%C3%A7aises%2C_1876.png/1920px-Forms_of_X_in_Alphonse_Chassant%2C_Dictionnaire_des_abr%C3%A9viations_latines_et_fran%C3%A7aises%2C_1876.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "file": "watch-wire-engine/library/img/commons-forms-of-x-in-alphonse-chassant-dictionnaire-des-abr.png",
+  "w": 1920,
+  "h": 718,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "Louis Alphonse Chassant",
+  "license": "Public domain",
+  "credit": "Photo: Louis Alphonse Chassant / Public domain",
+  "caption_credit": "Photo: Louis Alphonse Chassant / Public domain via Wikimedia Commons",
+  "usage": "File:Forms of X in Alphonse Chassant, Dictionnaire des abréviations latines et françaises, 1876.png (Public domain), credited",
+  "fetched": "2026-11-24"
+ },
+ {
+  "kind": "watch",
+  "brand": "Oris",
+  "ref": "01 733 7721",
+  "title": "Oris 01 733 7721",
+  "source": "https://www.exquisitetimepieces.com/oris-artelier-date-01-733-7721-4051-07-5-21-64fc.html",
+  "image_url": "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.exquisitetimepieces.com%2Fproducts%2Foris-artelier-date-01-733-7721-4051-07-5-21-64fc&media=%2F%2Fwww.exquisitetimepieces.com%2Fcdn%2Fshop%2Ffiles%2F1030033746.jpg%3Fcrop%3Dcenter&v=1780781171&description=Oris+Artelier+Date+01-733-7721-4051-07-5-21-64FC",
+  "file": "watch-wire-engine/library/img/oris-01-733-7721.jpg",
+  "w": 0,
+  "h": 0,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 1950,
+   "currency": "USD",
+   "source": "https://www.exquisitetimepieces.com/oris-artelier-date-01-733-7721-4051-07-5-21-64fc.html",
+   "date": "2026-11-24"
+  },
+  "rights": "official",
+  "creator": "Oris",
+  "credit": "Image: Oris",
+  "usage": "Oris 01 733 7721 official product image, credited",
+  "fetched": "2026-11-24"
  }
 ]

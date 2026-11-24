@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-24-0830-new-releases-fallback-official-2026-rele",
+  "status": "stopped",
+  "found_at": "2026-11-24T07:56:08.588Z",
+  "lane": "news",
+  "format": "NEWS",
+  "post_at": "2026-11-24T13:30:00.000Z",
+  "slot": 1,
+  "title": "NEW RELEASES fallback: official 2026 release (no news headline qualifies)",
+  "hook": "[Brand] [model] [ref]. The one new thing: [X]. US retail, Nov 2026.",
+  "why": "No headline fits cleanly; the Bond/Pattinson/JLC/Omega items and the Swiss exports and Christie's items are already covered or on the do-not-repeat list. A new release with a dated price is savable for buyers. No specific 2026 release has been verified yet.",
+  "sources_to_check": [
+    "Brand newsroom or press page for a 2026 release",
+    "Brand US price page (dated Nov 2026)"
+  ],
+  "sources": [
+    {
+      "title": "Brand newsroom or press page for a 2026 release",
+      "link": "",
+      "source": "Brand newsroom or press page for a 2026 release",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand US price page (dated Nov 2026)",
+      "link": "",
+      "source": "Brand US price page (dated Nov 2026)",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Slides and caption cite Notebookcheck and a 24 Nov dealer price that the research never verified, and 'cheapest' isn't supported because four models share $145. Fix the sourcing and wording, and the cover line break, then resubmit. / Gate 2: slides 2–4 and the caption cite Notebookcheck, and the caption cites a Teddy Baldassarre price dated 24 Nov for the $280 watch. Neither is in research.json. The $280 claim (CLM-3) is sourced to G-Central, not a dealer. The G-Central pages returned 403 and were never opened. / Gate 2/3: 'Cheapest G-Shock 2500' is unverified. Research says four resin models ",
+    "No 2026 release could be confirmed with a price that two trusted sources agree on. The Seiko Lupin III Jigen has conflicting prices across sources ($415 via PREMICO in Japan, $580 via Japan Select, $2,790 in one summary); the Praesidus Montar Ana-Digi at $275 found only in The Gadgeteer roundup (pub"
+  ],
+  "stop_reason": "No 2026 release could be confirmed with a dated official price that two opened sources agree on. The Casio US G-Shock 2500 page returned 403 (not opened). The only prices found are WebSearch snippets from blogs and roundups (GAC-2500 $145, GMC-2500 $280-$300), which the lessons say do not count. The Seiko Lupin III Jigen and Praesidus Montar prices conflict or come from a single roundup. Needs a readable official Casio or brand US price page, or a new idea.",
+  "gave_up": true
+}

@@ -26,5 +26,9 @@
       "source": "Brand US price page (dated Nov 2026)",
       "tier": "to-verify"
     }
+  ],
+  "previous_attempts": [
+    "Slides and caption cite Notebookcheck and a 24 Nov dealer price that the research never verified, and 'cheapest' isn't supported because four models share $145. Fix the sourcing and wording, and the cover line break, then resubmit. / Gate 2: slides 2–4 and the caption cite Notebookcheck, and the caption cites a Teddy Baldassarre price dated 24 Nov for the $280 watch. Neither is in research.json. The $280 claim (CLM-3) is sourced to G-Central, not a dealer. The G-Central pages returned 403 and were never opened. / Gate 2/3: 'Cheapest G-Shock 2500' is unverified. Research says four resin models ",
+    "No 2026 release could be confirmed with a price that two trusted sources agree on. The Seiko Lupin III Jigen has conflicting prices across sources ($415 via PREMICO in Japan, $580 via Japan Select, $2,790 in one summary); the Praesidus Montar Ana-Digi at $275 found only in The Gadgeteer roundup (pub"
   ]
 }

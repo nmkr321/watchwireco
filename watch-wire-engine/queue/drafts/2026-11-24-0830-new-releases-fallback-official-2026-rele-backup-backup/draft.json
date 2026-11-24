@@ -1,0 +1,16 @@
+{
+  "status": "stopped",
+  "project_dir": "Content Creation/projects/2026-11-24-0830-new-releases-fallback-official-2026-rele-backup-backup",
+  "format": "BUILD YOUR COLLECTION",
+  "lane": "news",
+  "headline": "Build Your 3-Watch Collection. $8K Total.",
+  "slides": [
+    "output/slide-01.png",
+    "output/slide-02.png",
+    "output/slide-03.png",
+    "output/slide-04.png",
+    "output/slide-05.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": "Not ready. Slide 3 (Classic dress watch): the Cartier Tank Must WSTA0135 shows a lifestyle photo, not a cutout; the Oris Artelier image is blank (its library file is invalid HTML); the Fears Brunswick sits on a black box. Slide 4: the Hamilton Jazzmaster Viewmatic shows a wrist photo, not a cutout. Needs clean cutout photos for those models (or different picks) before approval. Tier caps 1,000+4,000+3,000 = 8,000 match the cover."
+}

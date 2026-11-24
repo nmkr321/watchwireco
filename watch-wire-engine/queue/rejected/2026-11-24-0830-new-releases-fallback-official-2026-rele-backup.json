@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-24-0830-new-releases-fallback-official-2026-rele-backup",
+  "lane": "news",
+  "status": "stopped",
+  "found_at": "2026-11-24T08:36:17.911Z",
+  "post_at": "2026-11-24T13:30:00.000Z",
+  "backup_for": "2026-11-24-0830-new-releases-fallback-official-2026-rele",
+  "backup_depth": 1,
+  "tried_formats": [
+    "NEWS"
+  ],
+  "format": "WOULD YOU RATHER",
+  "title": "Backup WOULD YOU RATHER for the slot of: NEW RELEASES fallback: official 2026 release (no news headline qualifies)",
+  "hook": "",
+  "why": "Backup post. Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
+  "sources": [],
+  "previous_attempts": [
+    "The check passes and the prices are sourced from official pages. The Omega Diver 300M ran in a Pattinson post and a would-you-rather within the last 3 days, so swap in a fresh watch and loosen the cramped cover and slide 2 text. / Rule 8 / lesson: the Omega Seamaster Diver 300M was already used in the last 7 days. The Pattinson Bond post (21 Nov) featured the Diver 300M James Bond Edition at $8,600. The Omega vs JLC would-you-rather ran on 21 Nov, and the 22 Nov collection post also featured a Diver 300M. This is the same wat / Layout: the slide 2 reference '210.30.42.20.01.023' runs almost ma",
+    "Finish validation FAILED at validate: research handoff needs a validated research-agent origin (schema_version 2.0, origin.job_id, browser trace, analysis, governance ledgers). Not created by hand. Pair chosen: Rolex 126710BLNR ($11,800, B.C. Clark, 20 Nov 2026) vs Breitling AB0139A71G1A1 ($10,700, "
+  ],
+  "stop_reason": "Stopped. Pair Oris Artelier 01 733 7721 (USD 1,950) vs Tissot T932.207 (USD 1,800) failed: the Oris official page shows it out of stock, and its photo download returned an HTML page, not an image. Replacement Oris 01 733 7762 4054 (USD 2,300, ABT) vs Tissot T932.408 (USD 2,225) also failed: the Tissot link code does not match the reference and the page does not name it. No verified, posable same-money pair found in the library. Needs a new pair or a verified Tissot photo and price.",
+  "gave_up": true
+}
