@@ -19,5 +19,9 @@
       "source": "Brand US price pages for both candidate watches (dated Nov 2026)",
       "tier": "to-verify"
     }
+  ],
+  "previous_attempts": [
+    "No valid pair. Checked the verified price library for USD 5,000-15,000 (checked 2026-11-24). Every identical-price match is two versions of one model family (Tissot T1204071104103/T1204071108101 at USD 925; Oris 01 733 7721 variants at USD 1,950 and USD 2,200; Longines L2.628.5.77.7/L2.628.5.12.7 at",
+    "No valid exact-price pair found (attempt 2, checked 2026-11-24). Verified library USD 5,000-15,000: every identical price is two references of one family (Oris USD 2,200; Oris USD 1,950 vs 2,200 is not identical). Candidates checked and rejected: Grand Seiko SBGA211 USD 6,900 (official US page, Heri"
   ]
 }

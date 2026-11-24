@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-24T09:32:53.235Z",
+  "post_at": "2026-11-24T19:30:00.000Z",
+  "backup_for": "2026-11-24-1430-would-you-rather-pair-not-yet-chosen-blo",
+  "backup_depth": 1,
+  "tried_formats": [
+    "WOULD YOU RATHER"
+  ],
+  "format": "LISTICLE",
+  "title": "Backup LISTICLE for the slot of: WOULD YOU RATHER: pair not yet chosen (blocked on price check)",
+  "hook": "",
+  "why": "Backup post. Start with `node watch-wire-engine/src/photo.js list --min X --max Y` to see unused verified watches. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
+  "sources": [],
+  "previous_attempts": [
+    "The prices are real and the validator passes. But the post still repeats Khaki and Jazzmaster models, mislabels a watch, and is too short for a listicle. I'm holding it until the editor rebuilds it with distinct collections. / Lesson: slides 2, 3 and 4 are all Khaki Field, and slides 5 and 6 are both Jazzmaster. Each slide needs a distinct model from a different collection. / The draft has 7 slides, but the listicle recipe needs 8–10. / The draft status is 'stopped'. The editor did not apply the previous revision and says only 4 collections fit under $1,000. / Slide 3: the headline says 'Khaki",
+    "The check passes, but the rendered slides show two prices (PRX $850, HDB004 $400) with no verified claim behind them. The Seiko slide also shows a two-watch lifestyle photo that doesn't clearly show the named watch, so the post needs another round. / Gate 2: slide 3 (Tissot PRX Powermatic 80, $850) and slide 6 (Seiko 5 Sports HDB004, $400) have no verified claim in research.json. Its claims cover only the old set (G-Shock GMC2500, Prospex Alpinist). carousel.json is also stale and doesn't match the rendered slides. / Gate 7: slide 6 shows a lifestyle photo of two Seiko 5 Sports watches, so the"
+  ]
+}

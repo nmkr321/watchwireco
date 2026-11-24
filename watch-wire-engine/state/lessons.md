@@ -1,23 +1,23 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [LISTICLE] After rendering, inspect each slide for stray shapes, smudges and orphaned words; fix the layout and re-render before submitting.
-- [LISTICLE] Before drafting, research until the idea's promised pick count is met with dated official prices; never ship fewer picks or silently drop one.
-- [LISTICLE] Give each listicle a distinct niche angle, such as case size, movement or dial style, beyond the price band, and name that angle in the cover title.
-- [LISTICLE] Before drafting, pick only models that already have a rights-cleared photo in the library or permissions list; if too few qualify, research more models first.
-- [BUILD YOUR COLLECTION] Use one price-check date range on the cover, every slide and the caption; confirm they all match before submitting.
-- [BUILD YOUR COLLECTION] Before submitting, scan caption, hashtags and carousel.json for brand or model names not shown on any slide, and remove them.
-- [BUILD YOUR COLLECTION] Before submitting, run the validate check; fix every failure and resubmit only once it reports PASS.
-- [BUILD YOUR COLLECTION] Every price shown on a slide needs a sourced, dated claim in the evidence file before drafting; drop any pick lacking one.
-- [BUILD YOUR COLLECTION] Before drafting, confirm dated library prices fill each tier cap and sum to the hook's total; else lower the total or research more models.
-- [BUILD YOUR COLLECTION] Before drafting, tag each candidate with its model type from its official page; drop candidates whose type cannot be confirmed.
-- [BUILD YOUR COLLECTION] Derive any hook total by summing the chosen picks' dated official prices; never start from a round target and then pick models to fit it.
-- [BUILD YOUR COLLECTION] Before naming a tier cap or price ceiling, confirm at least one dated, verified model sits just under that cap; otherwise lower the cap.
-- [WOULD YOU RATHER] Every spec on a slide or caption, such as rating, movement or size, needs a sourced, dated claim in the evidence file; otherwise delete it.
-- [WOULD YOU RATHER] Check that no hyphenated or long model name splits across lines when rendered; if it does, use a shorter label and re-render.
-- [WOULD YOU RATHER] Both prices in a comparison must share one check date; re-check the older price before drafting, or swap in a pair that matches.
-- [WOULD YOU RATHER] If a price re-check fails, retry it or swap in another pair; never leave a draft half-finished.
-- [WOULD YOU RATHER] Before choosing a pair, confirm each model's official page shows it in current production with a listed price; drop discontinued or price-less models.
-- [WOULD YOU RATHER] Before drafting, list at least three candidate pairs with matching dated prices; draft only from one that passes every check.
 - [WOULD YOU RATHER] When prices don't match exactly, research more brands and models until an exact-price pair passes every check.
 - [WOULD YOU RATHER] Never accept a near-match price; both official listed prices must be identical in one currency, or drop the pair.
+- [WOULD YOU RATHER] Never pair two references, sizes or variants of one model family; the two models must come from different collections so the choice is real.
+- [WOULD YOU RATHER] If no exact-price pair passes after the research pass, switch to a different idea format; never ship a near-match pair.
+- [WOULD YOU RATHER] Log each rejected candidate and its reason in the evidence file, so retries skip known dead ends instead of re-checking the same models.
+- [LISTICLE] Never give two slides the same model family, even as different references or sizes; each slide needs a distinct model from a different collection.
+- [LISTICLE] Any superlative on the cover, such as cheapest or best, must match a watch shown on a slide, or the cover line must be reworded to avoid it.
+- [LISTICLE] Before submitting a listicle, count slides and confirm each slide's headline matches its own reference's movement and specs; fix mismatches before resubmitting.
+- [LISTICLE] Build listicles at 8–10 slides, one collection each. If verified prices run short, retitle the cover count to match the actual slides.
+- [LISTICLE] Source every slide price from the brand's own site or an authorized retailer; record that URL in the evidence file and drop any item priced by a marketplace or reseller.
+- [LISTICLE] Before drafting, find at least 8 collections with official prices by researching more brands; never shrink the carousel below 8 slides to fit the verified count.
+- [LISTICLE] Each rendered slide's price needs a matching dated claim in research.json. Re-sync carousel.json and the caption to the final slides before rendering.
+- [LISTICLE] Use only single official product shots showing the named reference's dial; no multi-watch lifestyle photos. Log each image's official source in the manifest.
+- [LISTICLE] Before committing to a listicle, count verified qualifying items; if fewer than 8, switch to a different idea format rather than shipping a short carousel.
+- [BUILD YOUR COLLECTION] Write research.json in the current contract version (v2.0), with the origin job ID, governance ledgers, and only source_type values the research step accepts.
+- [BUILD YOUR COLLECTION] During research, record a browser trace with opened_urls for every source, and cite only sources that appear in it.
+- [BUILD YOUR COLLECTION] Before writing any stage JSON, read that stage's validator for required fields and allowed enum values; copy them exactly.
+- [BUILD YOUR COLLECTION] When a validator rejects a value, switch to a value from its accepted list and rerun; never guess unlisted values across retries.
+- [BUILD YOUR COLLECTION] If a retailer or brand page returns 429 or 403, switch to another official brand page or authorized retailer; never ship with unrecorded prices.
+- [BUILD YOUR COLLECTION] Each product in a build-your-collection post needs a recorded price and an opened URL; drop any pick lacking both.

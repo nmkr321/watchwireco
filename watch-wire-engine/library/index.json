@@ -4855,5 +4855,48 @@
   "credit": "Image: Hamilton",
   "usage": "Hamilton H32505511 official product image, credited",
   "fetched": "2026-11-24"
+ },
+ {
+  "kind": "watch",
+  "brand": "Seiko",
+  "ref": "HDB004",
+  "title": "Seiko HDB004",
+  "source": "https://www.seikowatches.com/us-en/products/5sports/hdb004",
+  "image_url": "https://www.seikowatches.com/us-en/-/media/Images/GlobalEn/Seiko/Home/products/5sports/Productpage/HDB004/HDB004_KV.jpg",
+  "file": "watch-wire-engine/library/img/seiko-hdb004.jpg",
+  "w": 1920,
+  "h": 1080,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": null,
+  "rights": "official",
+  "creator": "Seiko",
+  "credit": "Image: Seiko",
+  "usage": "Seiko HDB004 official product image, credited",
+  "fetched": "2026-11-24"
+ },
+ {
+  "kind": "watch",
+  "brand": "Tissot",
+  "ref": "T1374071105101",
+  "title": "Tissot T1374071105101",
+  "source": "https://www.watchesofswitzerland.com/products/tissot-prx-t1374071105101-17361788",
+  "image_url": "https://www.watchesofswitzerland.com/cdn/shop/files/17361788_1.jpg?v=1743888787",
+  "file": "watch-wire-engine/library/img/tissot-t1374071105101.jpg",
+  "w": 1600,
+  "h": 1600,
+  "ref_on_page": true,
+  "ref_in_image_name": false,
+  "price": {
+   "amount": 850,
+   "currency": "USD",
+   "source": "https://www.watchesofswitzerland.com/products/tissot-prx-t1374071105101-17361788",
+   "date": "2026-11-24"
+  },
+  "rights": "official",
+  "creator": "Tissot",
+  "credit": "Image: Tissot",
+  "usage": "Tissot T1374071105101 official product image, credited",
+  "fetched": "2026-11-24"
  }
 ]
