@@ -329,6 +329,21 @@
       "condition": "Credit the source in the caption (\"Photo: <source>\"), as the source asked",
       "granted": "2026-11-24",
       "proof": "Owner told Claude 2026-11-24 that permission was granted; emails kept on the owner's computer"
+    },
+    {
+      "name": "Getty Images",
+      "match": [
+        "Getty Images",
+        "Getty",
+        "WireImage",
+        "AFP via Getty Images",
+        "Getty Images for"
+      ],
+      "covers": "Getty Images, WireImage and AFP-via-Getty photos: red carpets, events, sports, celebrities",
+      "credit": "Photo: Getty Images",
+      "condition": "Credit the source in the caption (\"Photo: Getty Images\", or the exact Getty credit printed under the photo)",
+      "granted": "2026-11-24",
+      "proof": "Owner told Claude 2026-11-24 that Getty permission was granted; kept on the owner's computer"
     }
   ],
   "_template": {

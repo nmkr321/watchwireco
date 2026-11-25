@@ -79,7 +79,7 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
   (Watches of Switzerland, B.C. Clark, Mayors for Rolex/Tudor), then `PH watch <url> --brand B --ref R`
   (needs ref_on_page:true); else `PH commons "<brand> <model>" --ref R`.
 - Celebrity: brand ambassador/campaign photo (`PH press <url> --brand B --person "Name"`), else
-  `PH person "Name"` + the watch on an A-spotted slide. Name a watch on a celebrity only if a brand, the
+  `PH person "Name"` + the watch on an A-spotted slide. Best for red carpets, sports and events: a Getty photo from an article via `PH credited <url> --credit "Getty" --owner "Getty Images"`. Name a watch on a celebrity only if a brand, the
   celebrity or a trusted outlet named it; else "appears to be". No usable photo of that celebrity after two
   tries → drop them and pick ANOTHER celebrity sighting (sports, red carpets, music, film; there are many).
   Celebrity posts do best (owner): keep switching celebrities; stop only after five have failed.
@@ -97,7 +97,7 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
   `PH credited <article-url> --credit "<credit text>" --owner "<name>"` (images credited to that source alone).
   Follow each source's `condition` (owner, 2026-11-24: every permitted source wants a "Photo: <source>" credit in
   the caption, plus the slide credit). Celebrities and teams cover only photos they own (their posts, their media
-  office), never Getty/AP/agency photos of them.
+  office). Getty Images photos (incl. WireImage, AFP via Getty) are permitted too (owner, 2026-11-24); other agencies (AP, Reuters, Shutterstock) are not.
 - Official media pages: `PH gallery <url> --owner "<Owner>" --slug <name>`, then read its sheet.png once.
 - Official product photos on white, cream or grey studio backgrounds are fine: the renderer removes plain
   backgrounds automatically. Never skip a watch for its studio background.
