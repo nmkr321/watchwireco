@@ -1,0 +1,16 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [
+    "Optional polish: on slide 3, change the small label 'Quickset in three steps' to 'How quickset works'. The slide shows two points, not three steps."
+  ],
+  "reason": "All the round-1 fixes are in. The check says PASS, and the slides match the Rotate Watches article, which I re-read. That covers the cam on a 24-hour wheel, 9 p.m. to 3 a.m. with 4 a.m. for some movements, and the three named movements. The cover photo is now clean, with the Seiko credit and an official-rights asset. The only leftover is the slide 3 label, which is a wording slip and doesn't block the post."
+}

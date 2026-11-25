@@ -1,0 +1,26 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 2: slide 2 says 'a cam from the hour wheel advances the date'. The source says 'a cam on a 24-hour wheel' that starts pushing the date forward hours before midnight.",
+    "Gate 2: slide 3 says 'turn to the date, push it back'. The source doesn't describe that step.",
+    "Gate 2: slide 4 says 'avoid 9 p.m. to 3 a.m.'. The source gives 9 p.m. to 1 a.m. for the 8215 specifically, and 4 a.m. only as a caveat for some movements.",
+    "Gate 9: the caption says the photo is 'not a date model', but the cover watch shows a date window.",
+    "Layout: the slide 1 photo has a hazy white band across the upper watch and a compass-like shape at top right."
+  ],
+  "fixes": [
+    "slide 1: fix the white haze band across the top of the photo and remove the stray compass shape, or use a cleaner crop. Keep the tag and headline below the dial.",
+    "slide 2: reword to match the source, e.g. 'A cam on a 24-hour wheel starts pushing the date forward hours before midnight.' Keep it to 15 words or fewer.",
+    "slide 3: keep only what the source says. Use 'Pull the crown to the first click', 'Quickset advances the date without moving the hands', and 'Push the crown back in' only if the source supports it. Otherwise cut the step list to two steps.",
+    "slide 4: say 'Avoid setting the date from 9 p.m. to 3 a.m.' and add 'The 8215: avoid 9 p.m. to 1 a.m.', or soften it to 'Check your manual for safe hours.'",
+    "caption: remove 'not a date model'. Say 'Photo: Seiko (illustrative)'. Make the caption match the corrected slides."
+  ],
+  "reason": "The facts are close but several details go beyond the Rotate Watches article (the cam wheel, the turn-and-push steps, the danger hours). The cover photo has a white haze and a stray shape, and the caption wrongly says the pictured Seiko has no date."
+}

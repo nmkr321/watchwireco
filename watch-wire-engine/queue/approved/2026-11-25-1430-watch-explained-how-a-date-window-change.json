@@ -1,0 +1,60 @@
+{
+  "id": "2026-11-25-1430-watch-explained-how-a-date-window-change",
+  "status": "approved",
+  "found_at": "2026-11-25T05:07:09.678Z",
+  "lane": "rotation",
+  "format": "WATCH EXPLAINED",
+  "post_at": "2026-11-25T19:30:00.000Z",
+  "slot": 3,
+  "title": "WATCH EXPLAINED: How A Date Window Changes Position (quickset vs hacking)",
+  "hook": "How A Date Window Actually Changes Position: quickset and hacking, explained in three steps.",
+  "why": "Matches the top hot topic (date, 6 accounts, lift 2.36) using our own angle. Draft only: the candidate subject is a current Rolex Datejust 41, but its exact reference and US retail price are not verified.",
+  "sources_to_check": [
+    "rolex.com: Datejust 41 reference page and US retail price",
+    "Rolex or a trusted brand technical page on the date movement",
+    "Confirm the reference before building"
+  ],
+  "sources": [
+    {
+      "title": "rolex.com: Datejust 41 reference page and US retail price",
+      "link": "",
+      "source": "rolex.com: Datejust 41 reference page and US retail price",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Rolex or a trusted brand technical page on the date movement",
+      "link": "",
+      "source": "Rolex or a trusted brand technical page on the date movement",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Confirm the reference before building",
+      "link": "",
+      "source": "Confirm the reference before building",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "The facts, the Longines price and the image rights check out, and the check passes. The cover tag still covers the bottom of the dial, which a previous round already flagged, and the score is too low to approve. / Layout, slide 1: the WATCH EXPLAINED tag still sits on the lower dial and covers the 6 and the 8. The lessons say to keep the tag and headline off the dial. / Total score is 15/25, below the 17 needed to approve. / slide 1: crop the watch image higher or shrink it so the whole dial, including the 6, ends above the tag. Move the tag below the watch. / slide 1: keep the headline to two"
+  ],
+  "scheduled_for": "2026-11-25T19:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-25-1430-watch-explained-how-a-date-window-change",
+  "project_dir": "Content Creation/projects/2026-11-25-1430-watch-explained-how-a-date-window-change",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-25-1430-watch-explained-how-a-date-window-change/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 3,
+      "visual": 3,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [
+      "Optional polish: on slide 3, change the small label 'Quickset in three steps' to 'How quickset works'. The slide shows two points, not three steps."
+    ],
+    "reason": "All the round-1 fixes are in. The check says PASS, and the slides match the Rotate Watches article, which I re-read. That covers the cam on a 24-hour wheel, 9 p.m. to 3 a.m. with 4 a.m. for some movements, and the three named movements. The cover photo is now clean, with the Seiko credit and an official-rights asset. The only leftover is the slide 3 label, which is a wording slip and doesn't block the post."
+  }
+}

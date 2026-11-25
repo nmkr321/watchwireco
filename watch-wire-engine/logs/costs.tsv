@@ -1087,3 +1087,16 @@
 2026-11-25T05:32:25.910Z	learn 2026-11-25-1800-event-f1-las-vegas-backup-backup	claude-haiku-5-5	0.0023	2
 2026-11-25T05:33:02.820Z	editor 2026-11-25-1800-event-f1-las-vegas-backup-backup	claude-haiku-5-5	0.0778	10
 2026-11-25T05:33:08.489Z	learn 2026-11-25-1800-event-f1-las-vegas-backup-backup	claude-haiku-5-5	0.0022	2
+2026-11-25T05:35:04.192Z	editor 2026-11-25-1430-watch-explained-how-a-date-window-change	claude-haiku-5-5	0.0499	28
+2026-11-25T05:35:26.879Z	approver 2026-11-25-1430-watch-explained-how-a-date-window-change r1	claude-sonnet-5-5	0.1005	14
+2026-11-25T05:35:30.175Z	learn 2026-11-25-1430-watch-explained-how-a-date-window-change	claude-haiku-5-5	0.0019	2
+2026-11-25T05:42:40.307Z	editor-revise 2026-11-25-1430-watch-explained-how-a-date-window-change	claude-haiku-5-5	0.0295	5
+2026-11-25T05:42:54.171Z	approver 2026-11-25-1430-watch-explained-how-a-date-window-change r2	claude-sonnet-5-5	0.0738	10
+2026-11-25T05:43:53.999Z	editor-revise 2026-11-25-1430-watch-explained-how-a-date-window-change	claude-haiku-5-5	0.0077	10
+2026-11-25T05:44:09.196Z	approver 2026-11-25-1430-watch-explained-how-a-date-window-change r3	claude-sonnet-5-5	0.0568	9
+2026-11-25T05:44:13.725Z	learn 2026-11-25-1430-watch-explained-how-a-date-window-change	claude-haiku-5-5	0.0021	2
+2026-11-25T05:46:26.276Z	editor 2026-11-25-1430-watch-explained-how-a-date-window-change	claude-haiku-5-5	0.0491	31
+2026-11-25T05:46:53.740Z	approver 2026-11-25-1430-watch-explained-how-a-date-window-change r1	claude-sonnet-5-5	0.0939	14
+2026-11-25T05:46:58.058Z	learn 2026-11-25-1430-watch-explained-how-a-date-window-change	claude-haiku-5-5	0.0022	2
+2026-11-25T05:47:31.458Z	editor-revise 2026-11-25-1430-watch-explained-how-a-date-window-change	claude-haiku-5-5	0.0081	12
+2026-11-25T05:48:04.157Z	approver 2026-11-25-1430-watch-explained-how-a-date-window-change r2	claude-sonnet-5-5	0.1277	20

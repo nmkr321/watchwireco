@@ -1,12 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [NEW RELEASES] If outlets give conflicting release dates or regional prices, or the model is region-only, mark it unverified and move to the next candidate.
-- [NEW RELEASES] Before drafting, write each candidate's launch date, brand press-page URL and second dated source into the draft notes; drop candidates missing any.
-- [NEW RELEASES] Accept a NEW RELEASES launch date only when the brand's own press release or newsroom states it; blogs and retailer pages can only support it.
-- [NEW RELEASES] Before saving a NEW RELEASES draft, check that its slides name a verified launch date inside the window; if not, rebuild in another format.
-- [EVENT SPOTTED] Before searching for event articles, check state/permissions.json and the library for a permitted event photo; if none exists, switch format.
-- [EVENT SPOTTED] Use only photos whose credit matches a permissions.json entry, and don't mix in unpermitted free-licence images as a fallback.
 - [EVENT SPOTTED] Before rendering, record each photo's file, exact credit line and matching permissions.json entry in the draft notes; drop the format if any is missing.
 - [EVENT SPOTTED] Confirm a photo's credit on its own file or licence page, not on article captions or gallery text; captions alone do not prove permission.
 - [EVENT SPOTTED] Use a photo only if its event year matches the current event; reject prior-year race coverage even when the subject is permitted.
@@ -21,3 +15,9 @@ The editor reads this before every post. Written automatically from rejections; 
 - [NEW RELEASES] Treat an unreadable, scanned or image-only brand press release as unverified; use the brand's readable newsroom page or move to the next candidate.
 - [NEW RELEASES] Start from the brand's own newsroom listing for this month, not roundup articles, so each candidate has a brand-dated launch.
 - [NEW RELEASES] Log each rejected candidate and its reason in the run notes, and never retry a logged candidate in later attempts.
+- [WATCH EXPLAINED] Before rendering, check each slide planned as a photo slide has a permitted image; if none, use a text-free layout or another format.
+- [WATCH EXPLAINED] Keep cover tag and headline off the dial: crop the watch image or wrap the headline to two lines so numerals stay visible.
+- [WATCH EXPLAINED] Don't reuse one photo across slides with only the crop changed; use a different permitted image, or a text-free layout for that slide.
+- [WATCH EXPLAINED] Before resubmitting, fix every defect flagged in earlier rounds; repeated layout faults cost points and block approval.
+- [WATCH EXPLAINED] Quote mechanics and time limits only as the source states them; copy exact figures, wheel types and model-specific caveats, never generalise them.
+- [WATCH EXPLAINED] Before writing the caption, check it against the cover photo's visible features, such as a date window, and drop any claim the image contradicts.
