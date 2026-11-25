@@ -64,6 +64,16 @@ jobs:
         run: |
           (command -v convert >/dev/null && command -v ffmpeg >/dev/null) || (sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick ffmpeg)
           npm install -g @anthropic-ai/claude-code >/dev/null
+      - name: Cache the person cut-out library
+        if: env.CMD != 'publish-due'
+        uses: actions/cache@v4
+        with:
+          path: watch-wire-engine/node_modules
+          key: ww-modules-${{ hashFiles('watch-wire-engine/package.json') }}
+      - name: Install the person cut-out library
+        if: env.CMD != 'publish-due'
+        working-directory: watch-wire-engine
+        run: test -d node_modules/@imgly || npm install --no-audit --no-fund --silent || echo "cut-out library unavailable; covers fall back to plain photos"
       - name: Run the engine
         working-directory: watch-wire-engine
         run: node src/run.js "$CMD"

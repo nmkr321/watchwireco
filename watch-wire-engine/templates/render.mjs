@@ -7,7 +7,11 @@
 // slides.json: { "source": "Source line for every slide", "slides": [ {...}, ... ] }
 // Each slide has "t" (template) plus fields. Text fields accept [[word]] = champagne highlight.
 //
-//   A-cover   tag, line1, line2, meta, photo?, photo2? (two-watch cover for comparisons), credit?          news cover (photo fades to jet)
+//   A-cover   tag, line1, line2, meta, photo?, photo2? (two-watch cover for comparisons), watches?:[img,..2-5], credit?
+//             photo fills the whole slide (person, wrist, scene); watches = cut-out watches lined up in front of the
+//             person (collection covers) or, with no photo, shown together on a lit stage (lists). A cover always has a picture.
+//             people?:[img,..1-3] = EVENT cover: the people are cut out and stand in front of giant close-ups of `watches`.
+// spec.theme (optional): emerald | oxblood | navy | cognac | graphite. Tints every slide's backdrop; picked per post if absent.
 //   A-number  tag, number, label, headline, body?                big stat
 //   A-table   label, headline, cols:[a,b,c], rows:[[a,b,c],..], hl?:rowIndex, note?, body?
 //   A-list    label, headline, items:[text,..], body?            boxed list
@@ -28,6 +32,7 @@ import { spawnSync } from "node:child_process";
 import os from "node:os";
 import { createHash } from "node:crypto";
 import { cutout } from "../src/cutout.mjs";
+import { personCut } from "../src/personcut.mjs";
 
 const CHROME = process.env.CHROME || (process.platform === "darwin" ? "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" : "google-chrome");
 const [specFile, outDir] = process.argv.slice(2);
@@ -36,6 +41,9 @@ const spec = JSON.parse(fs.readFileSync(specFile, "utf8"));
 const slides = spec.slides;
 fs.mkdirSync(path.join(outDir, "html"), { recursive: true });
 
+const THEMES = { emerald: "#123a2c", oxblood: "#3d1418", navy: "#14233d", cognac: "#3d2614", graphite: "#26262a" };
+const themeKey = THEMES[spec.theme] ? spec.theme : Object.keys(THEMES)[parseInt(createHash("md5").update(JSON.stringify(slides[0] || {})).digest("hex").slice(0, 6), 16) % 5];
+const ACC = THEMES[themeKey];
 const esc = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const hl = (s = "") => esc(s).replace(/\[\[(.+?)\]\]/g, '<span class="hl">$1</span>');
 // photo paths: https URL, path relative to slides.json, or path from the project root (watch-wire-engine/library/...)
@@ -64,9 +72,13 @@ const wimg = (p) => {
   } catch { return u; }
 };
 
+// people on event covers are cut out of their photos up front (free, local; falls back to photo strips)
+const CUT = {};
+for (const sl of slides) for (const p of sl.people || []) { const u = img(p); CUT[p] = u.startsWith("file://") ? await personCut(u.slice(7)) : null; }
+
 const CSS = `
 :root{--jet:#0B0B0C;--ink:#17171A;--ivory:#F4EFE6;--smoke:#9B968C;--ch:#C8A96A;
---n:'Oswald','Arial Narrow',Impact,sans-serif;--st:'Poppins','Helvetica Neue',Arial,sans-serif;--m:'Playfair Display',Georgia,serif;--b:'Inter',Helvetica,Arial,sans-serif}
+--acc:#26262a;--n:'Oswald','Arial Narrow',Impact,sans-serif;--st:'Poppins','Helvetica Neue',Arial,sans-serif;--m:'Playfair Display',Georgia,serif;--b:'Inter',Helvetica,Arial,sans-serif}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1080px;height:1350px;overflow:hidden;background:var(--jet);color:var(--ivory);font-family:var(--b)}
 .s{position:relative;width:1080px;height:1350px;overflow:hidden}
@@ -131,6 +143,23 @@ tr.on td:last-child{color:var(--ch)}
 .dp{position:absolute;top:330px;left:110px;right:110px;text-align:center;font:600 56px/1.3 var(--st);z-index:2}
 .cta{position:absolute;top:430px;left:80px;right:80px;text-align:center}.cta h1{font:700 104px/1.02 var(--n);text-transform:uppercase}
 .cta p{font:400 34px/1.45 var(--b);color:#c9c3b8;margin-top:30px}
+.s{background:radial-gradient(ellipse 90% 60% at 50% 34%,var(--acc) 0%,rgba(11,11,12,0) 70%),var(--jet)}
+.stage{position:absolute;left:90px;right:90px;height:150px;border-radius:50%;background:radial-gradient(closest-side,rgba(200,169,106,.30),rgba(200,169,106,.08) 60%,transparent);z-index:1}
+.photo.full{height:1350px;background-position:center 22%}
+.fade.full{top:560px;height:790px;background:linear-gradient(rgba(11,11,12,0),rgba(11,11,12,.78) 42%,var(--jet) 78%)}
+.row{position:absolute;left:30px;right:30px;display:flex;justify-content:center;align-items:flex-end;z-index:2}
+.row img{object-fit:contain;filter:drop-shadow(0 22px 26px rgba(0,0,0,.75));margin:0 -14px}
+.row.front{top:440px;height:420px}.row.front img{height:390px;width:260px}
+.row.stg{top:130px;height:720px}.row.stg img{height:560px;width:300px;margin:0 -34px}.row.stg img.c{height:700px;width:380px;z-index:2}
+.photo.pair{padding:140px 30px 360px;background:transparent}.photo.pair .ph{filter:drop-shadow(0 26px 30px rgba(0,0,0,.7))}
+.dials{position:absolute;left:-60px;right:-60px;top:20px;height:760px;display:flex;justify-content:center;align-items:flex-start;z-index:0}
+.dials img{width:520px;height:760px;object-fit:cover;object-position:center 45%;margin:0 -50px;filter:drop-shadow(0 20px 30px rgba(0,0,0,.6))}
+.ppl{position:absolute;left:-60px;right:-60px;bottom:170px;height:1000px;display:flex;justify-content:center;align-items:flex-end;z-index:1}.ppl div{flex:1;height:100%;margin:0 -120px;position:relative}.ppl div.c{flex:1.25;z-index:2}
+.ppl img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:bottom center;filter:drop-shadow(0 18px 40px rgba(0,0,0,.65))}.ppl div:not(.c) img{height:88%;top:auto;bottom:0}
+.strips{position:absolute;inset:0 0 auto 0;height:1150px;display:flex;gap:6px;z-index:1}.strips div{flex:1;background:center 18%/cover no-repeat}
+.fade.ev{top:760px;height:590px;z-index:1;background:linear-gradient(rgba(11,11,12,0),rgba(11,11,12,.82) 45%,var(--jet) 75%)}
+.swipe{position:absolute;right:48px;bottom:84px;font:700 46px var(--n);color:var(--ch);letter-spacing:-.12em;z-index:3}
+.cov h1{font-size:124px}
 .btn{display:inline-block;margin-top:60px;border:2px solid var(--ch);color:var(--ch);font:700 30px var(--n);letter-spacing:.12em;padding:18px 40px;border-radius:4px}`;
 
 const HEAD = `<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@600;700&family=Playfair+Display:wght@600&family=Inter:wght@400;500;600&display=block"><style>${CSS}</style></head><body>`;
@@ -141,10 +170,18 @@ function render(s, i) {
   const foot = (left = (s.source || spec.source) ? "Source: " + String(s.source || spec.source).replace(/^\s*sources?:\s*/i, "") : "") => `<div class="foot"><span>${esc(left)}</span><span>${page}</span></div>`;
   let credit = s.credit ? `<div class="credit">${esc(s.credit)}</div>` : "";
   switch (s.t) {
-    case "A-cover": if (s.photo && s.credit) credit = `<div class="credit pcredit">${esc(s.credit)}</div>`;
-      return `${s.photo2 ? `<div class="photo pair"><div class="ph" style="background-image:url('${wimg(s.photo)}')"></div><div class="vs">or</div><div class="ph" style="background-image:url('${wimg(s.photo2)}')"></div></div><div class="fade"></div>`
-        : s.photo ? `<div class="photo" style="background-image:url('${img(s.photo)}')"></div><div class="fade"></div>` : ""}${WM}
-      <div class="cov${s.photo ? "" : " mid"}"><span class="tag">${esc(s.tag)}</span><h1>${hl(s.line1)}</h1>${s.line2 ? `<h2>${hl(s.line2)}</h2>` : ""}${s.meta ? `<div class="meta">${esc(s.meta)}</div>` : ""}</div>${credit}${foot(s.footLeft || "Swipe →")}`;
+    case "A-cover": { if ((s.photo || s.watches) && s.credit) credit = `<div class="credit pcredit">${esc(s.credit)}</div>`;
+      const ws = (s.watches || []).slice(0, 5), mid = Math.floor((ws.length - 1) / 2);
+      const row = (cls) => `<div class="row ${cls}">${ws.map((w, k) => `<img class="${cls === "stg" && k === mid && ws.length % 2 ? "c" : ""}" src="${wimg(w)}">`).join("")}</div>`;
+      const ppl = (s.people || []).slice(0, 3), pm = ppl.length === 3 ? 1 : -1;
+      const event = ppl.length ? `<div class="dials">${ws.slice(0, 3).map((w) => `<img src="${wimg(w)}">`).join("")}</div>${ppl.every((p) => CUT[p])
+        ? `<div class="ppl">${ppl.map((p, k) => `<div class="${k === pm || ppl.length === 1 ? "c" : ""}"><img src="file://${CUT[p]}"></div>`).join("")}</div>`
+        : `<div class="strips">${ppl.map((p) => `<div style="background-image:url('${img(p)}')"></div>`).join("")}</div>`}<div class="fade ev"></div>` : "";
+      const pic = event ? event : s.photo2 ? `<div class="stage" style="top:700px"></div><div class="photo pair"><div class="ph" style="background-image:url('${wimg(s.photo)}')"></div><div class="vs">or</div><div class="ph" style="background-image:url('${wimg(s.photo2)}')"></div></div>`
+        : s.photo ? `<div class="photo full" style="background-image:url('${img(s.photo)}')"></div><div class="fade full"></div>${ws.length ? row("front") : ""}`
+        : ws.length ? `<div class="stage" style="top:700px"></div>${row("stg")}` : "";
+      return `${pic}${WM}
+      <div class="cov${pic ? "" : " mid"}"><span class="tag">${esc(s.tag)}</span><h1>${hl(s.line1)}</h1>${s.line2 ? `<h2>${hl(s.line2)}</h2>` : ""}${s.meta ? `<div class="meta">${esc(s.meta)}</div>` : ""}</div>${credit}${foot(s.footLeft || "Swipe")}<div class="swipe">&gt;&gt;&gt;</div>`; }
     case "A-number": return `${WM}<div class="q">${s.tag ? `<span class="tag">${esc(s.tag)}</span>` : ""}</div><div class="num">${hl(s.number)}</div>
       <div class="lbl" style="text-align:center;margin-top:14px">${esc(s.label)}</div><div class="box" style="top:720px;text-align:center"><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${foot()}`;
     case "A-table": return `${WM}<div class="box mid"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>
@@ -154,9 +191,9 @@ function render(s, i) {
       <ul class="list">${s.items.map((x) => `<li>${hl(x)}</li>`).join("")}</ul>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${foot()}`;
     case "A-text": return `${WM}<div class="box mid"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div><p class="body">${hl(s.body)}</p></div>${foot()}`;
     case "A-wyr": { const side = (x) => `<div class="w"><div class="pic" style="background-image:url('${wimg(x.photo)}')"></div><p>${esc(x.brand)}<span${String(x.model||"").length > 13 ? ' class="long"' : ""}>${esc(x.model)}</span>${x.price ? `<em>${esc(x.price)}</em>` : ""}</p></div>`;
-      return `${WM}<div class="q"><span class="tag">${esc(s.tag || "WOULD YOU RATHER")}</span></div><div class="duo">${side(s.left)}<div class="or">or</div>${side(s.right)}</div>${credit}${foot(s.prompt || "Vote in the comments")}`; }
+      return `${WM}<div class="q"><span class="tag">${esc(s.tag || "WOULD YOU RATHER")}</span></div><div class="stage" style="top:860px"></div><div class="duo">${side(s.left)}<div class="or">or</div>${side(s.right)}</div>${credit}${foot(s.prompt || "Vote in the comments")}`; }
     case "A-pick3": return `${WM}<div class="box" style="top:150px;text-align:center"><div class="lbl">${esc(s.label)}</div><div class="h" style="font-size:72px">${hl(s.headline)}</div></div>
-      <div class="p3">${(s.options || []).slice(0, 3).map((o, k) => `<div class="o"><div class="pic" style="background-image:url('${wimg(o.photo)}')"><span class="let">${"ABC"[k]}</span></div><div class="b">${esc(o.brand)}</div><div class="m">${esc(o.model)}</div><div class="pr">${esc(o.price)}</div></div>`).join("")}</div>${credit}${foot(s.footLeft || "Pick one · comment below")}`;
+      <div class="stage" style="top:820px;height:120px"></div><div class="p3">${(s.options || []).slice(0, 3).map((o, k) => `<div class="o"><div class="pic" style="background-image:url('${wimg(o.photo)}')"><span class="let">${"ABC"[k]}</span></div><div class="b">${esc(o.brand)}</div><div class="m">${esc(o.model)}</div><div class="pr">${esc(o.price)}</div></div>`).join("")}</div>${credit}${foot(s.footLeft || "Pick one · comment below")}`;
     case "A-spotted": {
       // game/person shot zoomed toward the wrist, the real watch cut out in a gold medallion, a gold arrow to the wrist
       // no "wrist" (a face/portrait photo, watch not visible): just the watch in the gold circle, no arrow
@@ -216,7 +253,7 @@ function render(s, i) {
 slides.forEach((s, i) => {
   const n = String(i + 1).padStart(2, "0");
   const html = path.join(outDir, "html", `slide-${n}.html`);
-  fs.writeFileSync(html, `${HEAD}<div class="s">${render(s, i)}</div></body></html>`);
+  fs.writeFileSync(html, `${HEAD}<div class="s" style="--acc:${ACC}">${render(s, i)}</div></body></html>`);
   const png = path.resolve(outDir, `slide-${n}.png`);
   const r = spawnSync(CHROME, ["--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
     "--allow-file-access-from-files", "--window-size=1080,1350", "--virtual-time-budget=5000", `--screenshot=${png}`, "file://" + path.resolve(html)], { encoding: "utf8" });

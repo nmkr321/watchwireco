@@ -1,0 +1,9 @@
+{
+  "name": "watch-wire-engine",
+  "private": true,
+  "type": "module",
+  "description": "Only extra library: person cut-out for celebrity covers (runs locally, free).",
+  "dependencies": {
+    "@imgly/background-removal-node": "1.4.5"
+  }
+}

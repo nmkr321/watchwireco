@@ -23,6 +23,8 @@ Your prompt includes this post's format recipe and the latest lessons; don't rea
 - Original, not a repost: every post adds our own take, comparison or number in context (one line is enough);
   never just a press photo plus a headline. Caption: first line names brand, model and reference like a search
   headline; one question for readers before the Follow line; at most 5 hashtags.
+- Owner direction (2026-11-25): celebrities and events first, then WATCH EXPLAINED, new releases and new lines.
+  Make posts, don't stop: if one detail can't be confirmed, drop that detail or that slide and keep going.
 - Comparisons put both watches on the cover (A-cover photo + photo2). Never "e.g.": write "Like this: …".
 - Short: headlines 2–6 words, body 15 words max. Everything centred; no stray shapes or white boxes.
 Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, hook, carousel, caption, slides).
@@ -57,7 +59,14 @@ Templates: A for news/market/auctions/would-you-rather/celebrity/collection/list
 story behind; never mixed; end with `cta`; at most one `[[highlight]]` per slide (a cover's line2 is already gold).
 Headlines 2–6 words, body 15 words max. Counts: NEWS/MARKET 5–6, RELEASES/AUCTIONS 6–8, CELEBRITY 5–7,
 WYR 4–5, COLLECTION 5–6, HISTORY/STORY 7–10, LISTICLE 4–10 (as many as are confirmed).
-Fields: A-cover {tag, line1, line2, meta, photo, photo2?, credit}; A-photo {label, headline, photo, credit, body?, fit?
+Covers (owner, 2026-11-25): photo-led and eye-catching, never words on black. Pick one:
+  - EVENT: A-cover {people:[2-3 person photos from the event], watches:[their 2-3 watches]} → people cut out in front of
+    giant watch faces (EVENT SPOTTED, multi-celebrity posts).
+  - PERSON + WATCHES: A-cover {photo: person, watches:[2-5]} → the watches line up in front of them (collections).
+  - PHOTO: A-cover {photo} full-bleed (a wrist shot, red carpet, scene). Best for single celebrity / release.
+  - WATCHES ON STAGE: A-cover {watches:[3-5]} (new releases, explainers, top 5).  Comparison: photo + photo2.
+  Optional "theme" in slides.json (emerald | oxblood | navy | cognac | graphite) to match the subject (Ferrari red → oxblood).
+Fields: A-cover {tag, line1, line2, meta, photo?, photo2?, watches?, people?, credit}; A-photo {label, headline, photo, credit, body?, fit?
 ("cover" for people/game shots)}; A-spotted {label, headline, photo, watch, wrist:{x,y}, zoom?, credit, body?}
 (person or game shot with the real watch cut out in a gold medallion and an arrow to the wrist: run
 `PH grid <photo>`, Read the .grid.png, give the watch's x,y in percent; check the rendered slide);
@@ -101,6 +110,11 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
 - Official media pages: `PH gallery <url> --owner "<Owner>" --slug <name>`, then read its sheet.png once.
 - Official product photos on white, cream or grey studio backgrounds are fine: the renderer removes plain
   backgrounds automatically. Never skip a watch for its studio background.
+- Brand site blocks you or has no image (403, no og:image)? Use the brand's press photo from a news article instead:
+  `PH credited <article-url> --credit "<brand name as printed under the photo>" --owner "<Brand>"` (all major brands
+  are in permissions.json, owner 2026-11-24). Same for Getty event photos (`--credit Getty --owner "Getty Images"`).
+- Release specs and prices: the brand page OR one trusted outlet (named in the caption) is enough. A search snippet
+  alone is not a source; open the page.
 - Never image search, forums, Reddit, paparazzi or other creators' posts. No right photo after two tries: no photo.
 
 Never run git. Only write inside `<P>` and the draft folder; never edit templates, scripts, agents or config.

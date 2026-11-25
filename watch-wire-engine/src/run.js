@@ -290,7 +290,7 @@ function plan(opts = {}) {
 Plan ${slots.length} Watch Wire posts for ${day.toDateString()}, one per slot (slot = its number):
 ${slots.map((s, i) => `${i + 1}. ${s.time} ${s.format}${s.lane === "news" ? " (built from the news headlines below; if none fit, a MARKET or NEW RELEASES post from official sources)" : ""}${s.lane === "history" ? " with a tension hook in The Dial style (a person who changed watchmaking, or the story behind one famous watch; an 'On This Day' anniversary if a real one exists)" : ""}`).join("\n")}
 Value test for every idea: why would someone save, share or comment? Make each one useful (a clear use or buyer, e.g. "watches for a suit", "first luxury watch under $5K"), timely or interactive. Lists need one use case and a tight price band (roughly within 2x). Seasonal angles for this month (optional: at most ONE of the day's ideas may use one, only if it genuinely fits; most days none): ${JSON.stringify((() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "config/seasons.json"), "utf8"))[String(day.getMonth() + 1)] || []; } catch { return []; } })())}
-Use each format's hook pattern. Pictures must match the subject (celebrity → the celebrity, game → gameplay, otherwise the watch). Photo formats: name every watch by brand, model and exact reference, with current US retail prices you can source; for CELEBRITY pick a watch a trusted outlet reported the person wearing. Every idea provable from primary or trusted sources; list the exact URLs or source names to check. No two ideas about the same watch.
+Use each format's hook pattern. Pictures must match the subject (celebrity → the celebrity, game → gameplay, otherwise the watch). Photo formats: name every watch by brand, model and exact reference, with current US retail prices you can source; for CELEBRITY pick a watch a trusted outlet reported the person wearing. Every idea provable from primary or trusted sources; list the exact URLs or source names to check. No two ideas about the same watch. Every idea names its exact subject (the person, the watch and reference, the event, the feature); never a placeholder like [Name], "pair not yet chosen" or "blocked". If you can't find a confirmed subject for a format, use a different format from the same slot's list.
 News headlines from the last day: ${JSON.stringify(recentHeadlines())}
 Do not repeat any of these recent posts: ${JSON.stringify(posted)}
 Do not plan these again; they were rejected in the last week (title: reason): ${JSON.stringify(recentRejects())}` + plannerHint() + scoutHint();
@@ -390,12 +390,15 @@ function backup(item) {
   }
   // library formats first: they reuse verified prices and photos and pass far more often (STORY BEHIND needs 7+
   // exact-reference photos, which the library rarely has). A same type nearby beats an empty slot.
-  const lib = ["LISTICLE", "WOULD YOU RATHER", "BUILD YOUR COLLECTION"].filter((f) => libraryCanFill(f));
+  const lib = ["CELEBRITY", "WATCH EXPLAINED", "NEW RELEASES", "EVENT SPOTTED"];   // owner 2026-11-25: no list/vote fillers
   // celebrity posts do best (owner): a failed celebrity slot gets another celebrity first
   const tried = new Set([item.format, ...(item.tried_formats || [])]);
   const format = item.format === "CELEBRITY" && depth === 0 ? "CELEBRITY"
-    : lib.find((f) => !near.has(f) && !tried.has(f)) || lib.find((f) => !tried.has(f)) || ["LISTICLE", "WOULD YOU RATHER", "STORY BEHIND"].find((f) => !tried.has(f)) || "STORY BEHIND";
+    : lib.find((f) => !near.has(f) && !tried.has(f)) || lib.find((f) => !tried.has(f)) || "CELEBRITY";
   const how = {
+    "WATCH EXPLAINED": "Explain one watch feature in plain words (minute repeater, tourbillon, GMT, perpetual calendar, chronograph, moonphase, flyback...), ideally one in a 2026 release. Photos: brand press images (official pages, or article images credited to the brand via `PH credited`). One trusted source per fact.",
+    "NEW RELEASES": "A watch released in the last 30 days by a major brand. Specs and price from the brand page or one trusted outlet (named). Photos: brand press images (official page, or article images credited to the brand via `PH credited`).",
+    "EVENT SPOTTED": "Watches spotted at one real event from the last 10 days (race, awards, red carpet, big game). Getty Images photos via `PH credited <article-url> --credit Getty --owner \"Getty Images\"`, watch photos from the brand. One trusted outlet naming each watch is enough.",
     "CELEBRITY": `A DIFFERENT celebrity from the failed post (${item.title}). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.`,
     "STORY BEHIND": "Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
     "LISTICLE": "Start with `node watch-wire-engine/src/photo.js list --min X --max Y` to see unused verified watches. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",

@@ -53,7 +53,7 @@ Comparisons show both watches on the cover; no "e.g." anywhere.
    exists, a portrait with the watch in the gold circle (A-spotted, no arrow) is fine. An arrow pointing at a face → revise.
    Celebrity watch named only if a brand, the celebrity or one trusted outlet named it,
    else "appears to be". Prices dated and from the brand or an official retailer.
-8. Owner rules 2026-11-22 → revise: jargon (H1, Q3, YoY...), a watch named but not pictured, a comparison of two versions of the same watch, or a repeat of a post from the last 7 days.
+8. Owner 2026-11-25: covers must be photo-led (person, event, wrist or watches), never text on black → revise. Owner rules 2026-11-22 → revise: jargon (H1, Q3, YoY...), a watch named but not pictured, a comparison of two versions of the same watch, or a repeat of a post from the last 7 days.
 9. Caption matches the slides, names the source, no hype or emoji headline, paid links disclosed.
 9. Not a repeat of a post from the last 7 days.
 10. Value: the post gives a reason to save, share or comment (useful for a clear use or buyer, timely, or interactive).

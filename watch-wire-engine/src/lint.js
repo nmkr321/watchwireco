@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 // slide-count range per format (FORMATS.md / editor rules)
 const COUNTS = { NEWS: [5, 6], MARKET: [5, 6], "NEW RELEASES": [6, 8], AUCTIONS: [6, 8], CELEBRITY: [5, 7], "WOULD YOU RATHER": [4, 5],
-  "BUILD YOUR COLLECTION": [5, 6], "CELEBRITY COLLECTION": [6, 9], "TOP 5 THIS WEEK": [7, 8], "STORY BEHIND": [7, 10], HISTORY: [7, 10], STORY: [7, 10], LISTICLE: [4, 10] };
+  "BUILD YOUR COLLECTION": [5, 6], "CELEBRITY COLLECTION": [6, 9], "TOP 5 THIS WEEK": [7, 8], "STORY BEHIND": [7, 10], HISTORY: [7, 10], STORY: [7, 10], LISTICLE: [4, 10], "EVENT SPOTTED": [6, 9], "WATCH EXPLAINED": [6, 8] };
 const words = (s) => String(s || "").replace(/\[\[|\]\]/g, "").trim().split(/\s+/).filter(Boolean).length;
 const readJson = (f) => JSON.parse(fs.readFileSync(f, "utf8"));
 // "$8,350" → "8350"; "$25K" → "25000"; "9.1%" → "9.1"
@@ -39,6 +39,9 @@ export function lint(P, format = "") {
     if (s.body && words(s.body) > 15) out.push(`${n}: body must be 15 words max (has ${words(s.body)})`);
     if ((String(s.headline || "") + String(s.line1 || "") + String(s.line2 || "") + String(s.body || "")).split("[[").length > 2) out.push(`${n}: at most one [[highlight]]`);
   });
+  // owner 2026-11-25: covers are photo-led, never words on a black screen
+  const c0 = slides[0] || {};
+  if (/^(A-cover|D-cover)$/.test(c0.t) && !c0.photo && !(c0.watches || []).length) out.push("cover has no picture: give it a photo (person, wrist, event or the watch) or watches:[...]");
   const allText = JSON.stringify(slides) + " " + caption;
   if (/\be\.g\.|\beg\.?\s/i.test(allText)) out.push('"e.g." is not allowed; write "Like this: …"');
 

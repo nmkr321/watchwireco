@@ -31,3 +31,4 @@ approved), with the date and the reason. Newest at the top.
 - 2026-11-22: Owner likes: posts that break up the feed (Pattinson is the new Bond, the GTA post) among the usual product slides.
 - 2026-11-24: Owner reports photo permission from the brand press offices (Omega, JLC, Rolex, AP, Patek, Cartier, Tudor, TAG Heuer, Hublot, IWC, Breitling, Richard Mille), GPHG, Christie's, Phillips, and 12 celebrities/teams (see permissions.json). All want the source credited in the caption.
 - 2026-11-24: Owner reports Getty Images permission (incl. WireImage, AFP via Getty); credit in caption.
+- 2026-11-25: Owner: lean into celebrities (and EVENT SPOTTED), watches explained (how features work), new releases/new lines, features when relevant. Would You Rather, Build Your Collection and "N watches under $X" lists are "not what we're going for": only on request. The engine should keep producing all day.
