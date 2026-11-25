@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-25-1630-celebrity-editor-pick-backup",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-25T08:14:27.219Z",
+  "post_at": "2026-11-25T16:30:00.000Z",
+  "backup_for": "2026-11-25-1630-celebrity-editor-pick",
+  "backup_depth": 1,
+  "tried_formats": [
+    "CELEBRITY"
+  ],
+  "format": "CELEBRITY",
+  "title": "Backup CELEBRITY for the slot of: Celebrity watch spotted (editor picks)",
+  "hook": "",
+  "why": "Backup post. A DIFFERENT celebrity from the failed post (Celebrity watch spotted (editor picks)). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.",
+  "sources": [],
+  "previous_attempts": [
+    "No usable watch photo or brand-sourced price for any candidate after three subjects. Oscar Isaac (Bvlgari Octo Finissimo, Golden Globes 2026): no permitted watch photo (Bulgari is not in permissions.json; Commons has none), and the Bulgari site returns 403, so no sourced price. Zendaya (Rolex Lady-D"
+  ],
+  "stop_reason": "No CELEBRITY subject passed the price and photo checks after three subjects. Roger Federer (Rolex Oyster Perpetual 41 ref. 134300, US Open 2026): the Rolex site returns 403, so the $7,050 price comes only from a search snippet, and the only Rolex photo found is of a 36mm watch, not the 41mm. Jimmy Fallon (vintage Daytona ref. 6239): no brand price exists, only auction and dealer figures. Glen Powell (Omega Aqua Terra 38 Moonshine gold, ref. 220.50.38.20.03.001, Golden Globes 2026): a permitted Getty/Omega photo exists, but Omega's site is blocked or 404s, and the dealer prices range from $37,100 to $42,200, so no brand or official retailer price could be confirmed. No guessed prices used.",
+  "gave_up": true
+}

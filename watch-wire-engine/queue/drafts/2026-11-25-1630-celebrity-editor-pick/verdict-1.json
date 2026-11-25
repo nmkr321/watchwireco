@@ -1,0 +1,48 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6/7: the cover and slide 2 show no watch, so a named watch is not pictured where it is named",
+    "Lesson: a celebrity portrait cover needs the gold watch medallion"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "1",
+      "problem": "Cover names the Daytona but shows no watch. The medallion is missing, which the draft's own stop_reason admits.",
+      "change": "Add the gold medallion with the Rolex 126500LN Daytona image in the top-right corner, below the photo credit. Keep it clear of his face, headline and wordmark. Use no arrow. If the template cannot do this, switch to the A-spotted layout for the cover."
+    },
+    {
+      "severity": "major",
+      "slide": "2",
+      "problem": "Text on black. It is meant to be the 'person + inset watch' slide but has no photo and no watch.",
+      "change": "Use the Liam Hemsworth photo as the full-bleed background with the gold watch medallion in a corner, off his face and with no arrow. Headline 'Hunger Games star, Daytona'. Body 'Showed off a Rolex Daytona at SiriusXM studios.'"
+    },
+    {
+      "severity": "minor",
+      "slide": "4",
+      "problem": "The CELEBRITY tag is repeated on a price slide, and the footer is crowded.",
+      "change": "Remove the CELEBRITY tag from slide 4."
+    },
+    {
+      "severity": "minor",
+      "slide": "3",
+      "problem": "'Our take: hard to buy at list price' is an unsupported opinion.",
+      "change": "body → 'Steel, white dial, black ceramic bezel. Reference not confirmed.'"
+    }
+  ],
+  "reason": "Liam Hemsworth is timely and the facts and caption look fine. But the cover and slide 2 show no watch, which breaks the owner's rule that the watch must be visible and the celebrity-cover lesson. Add the medallion and a photo on slide 2 and it can go out.\n\nI did not WebFetch the Robb Report source or check the manifest rights in this pass.",
+  "fixes": [
+    "[major] slide 1: Cover names the Daytona but shows no watch. The medallion is missing, which the draft's own stop_reason admits. → Add the gold medallion with the Rolex 126500LN Daytona image in the top-right corner, below the photo credit. Keep it clear of his face, headline and wordmark. Use no arrow. If the template cannot do this, switch to the A-spotted layout for the cover.",
+    "[major] slide 2: Text on black. It is meant to be the 'person + inset watch' slide but has no photo and no watch. → Use the Liam Hemsworth photo as the full-bleed background with the gold watch medallion in a corner, off his face and with no arrow. Headline 'Hunger Games star, Daytona'. Body 'Showed off a Rolex Daytona at SiriusXM studios.'",
+    "[minor] slide 4: The CELEBRITY tag is repeated on a price slide, and the footer is crowded. → Remove the CELEBRITY tag from slide 4.",
+    "[minor] slide 3: 'Our take: hard to buy at list price' is an unsupported opinion. → body → 'Steel, white dial, black ceramic bezel. Reference not confirmed.'"
+  ]
+}

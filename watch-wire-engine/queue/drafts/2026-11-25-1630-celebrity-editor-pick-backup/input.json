@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-25-1630-celebrity-editor-pick-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-25T08:14:27.219Z",
+  "post_at": "2026-11-25T16:30:00.000Z",
+  "backup_for": "2026-11-25-1630-celebrity-editor-pick",
+  "backup_depth": 1,
+  "tried_formats": [
+    "CELEBRITY"
+  ],
+  "format": "CELEBRITY",
+  "title": "Backup CELEBRITY for the slot of: Celebrity watch spotted (editor picks)",
+  "hook": "",
+  "why": "Backup post. A DIFFERENT celebrity from the failed post (Celebrity watch spotted (editor picks)). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.",
+  "sources": [],
+  "previous_attempts": [
+    "No usable watch photo or brand-sourced price for any candidate after three subjects. Oscar Isaac (Bvlgari Octo Finissimo, Golden Globes 2026): no permitted watch photo (Bulgari is not in permissions.json; Commons has none), and the Bulgari site returns 403, so no sourced price. Zendaya (Rolex Lady-D"
+  ]
+}

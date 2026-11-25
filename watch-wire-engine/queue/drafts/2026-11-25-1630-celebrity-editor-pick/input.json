@@ -13,5 +13,8 @@
   "sources_to_check": [
     "Robb Report 21 Nov 2026 celebrity watches",
     "patek.com Ellipse page"
+  ],
+  "previous_attempts": [
+    "Slides 3 and 4 are fixed: the price is now 'Price on request' with the WatchCharts resale estimate, and the footers are no longer cut off. The cover medallion still covers Kevin Hart's mouth and chin, which breaks the owner rule, so this needs one more fix. / Cover medallion still sits on Kevin Hart's face (lesson and owner rule: inset clear of the face) / [major] slide 1: The gold medallion still covers Kevin Hart's mouth and chin. This was requested last round and not fixed. The draft's stop_reason says the template position is fixed. → Use a cover layout where the medallion sits in the uppe"
   ]
 }

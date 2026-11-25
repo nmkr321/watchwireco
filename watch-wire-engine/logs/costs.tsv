@@ -1150,3 +1150,19 @@
 2026-11-25T08:04:46.478Z	learn 2026-11-25-1330-watch-explained-chronograph	claude-haiku-5-5	0.0023	2
 2026-11-25T08:05:29.960Z	editor-revise 2026-11-25-1330-watch-explained-chronograph	claude-haiku-5-5	0.0086	18
 2026-11-25T08:05:43.047Z	approver 2026-11-25-1330-watch-explained-chronograph r2	claude-sonnet-5-5	0.0550	10
+2026-11-25T08:08:16.228Z	editor 2026-11-25-1630-celebrity-editor-pick	claude-haiku-5-5	0.0662	37
+2026-11-25T08:08:35.287Z	approver 2026-11-25-1630-celebrity-editor-pick r1	claude-sonnet-5-5	0.0842	12
+2026-11-25T08:08:40.890Z	learn 2026-11-25-1630-celebrity-editor-pick	claude-haiku-5-5	0.0023	2
+2026-11-25T08:09:28.707Z	editor-revise 2026-11-25-1630-celebrity-editor-pick	claude-haiku-5-5	0.0125	14
+2026-11-25T08:09:38.342Z	approver 2026-11-25-1630-celebrity-editor-pick r2	claude-sonnet-5-5	0.0359	6
+2026-11-25T08:09:43.994Z	learn 2026-11-25-1630-celebrity-editor-pick	claude-haiku-5-5	0.0022	2
+2026-11-25T08:12:10.146Z	editor 2026-11-25-1630-celebrity-editor-pick	claude-haiku-5-5	0.1017	35
+2026-11-25T08:12:31.408Z	approver 2026-11-25-1630-celebrity-editor-pick r1	claude-sonnet-5-5	0.0845	14
+2026-11-25T08:12:37.388Z	learn 2026-11-25-1630-celebrity-editor-pick	claude-haiku-5-5	0.0023	2
+2026-11-25T08:13:54.864Z	editor-revise 2026-11-25-1630-celebrity-editor-pick	claude-haiku-5-5	0.0087	10
+2026-11-25T08:14:20.938Z	approver 2026-11-25-1630-celebrity-editor-pick r2	claude-sonnet-5-5	0.0900	11
+2026-11-25T08:14:27.217Z	learn 2026-11-25-1630-celebrity-editor-pick	claude-haiku-5-5	0.0024	2
+2026-11-25T08:15:38.453Z	editor 2026-11-25-1630-celebrity-editor-pick-backup	claude-haiku-5-5	0.0730	21
+2026-11-25T08:15:44.290Z	learn 2026-11-25-1630-celebrity-editor-pick-backup	claude-haiku-5-5	0.0022	2
+2026-11-25T08:17:20.505Z	editor 2026-11-25-1630-celebrity-editor-pick-backup	claude-haiku-5-5	0.1619	27
+2026-11-25T08:17:27.176Z	learn 2026-11-25-1630-celebrity-editor-pick-backup	claude-haiku-5-5	0.0024	2

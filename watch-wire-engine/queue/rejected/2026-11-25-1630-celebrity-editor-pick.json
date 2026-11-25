@@ -1,0 +1,69 @@
+{
+  "status": "rejected-after-revision",
+  "manual": true,
+  "found_at": "2026-11-25T08:10:00Z",
+  "sources": [],
+  "id": "2026-11-25-1630-celebrity-editor-pick",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "post_at": "2026-11-25T16:30:00.000Z",
+  "title": "Celebrity watch spotted (editor picks)",
+  "hook": "Josh Hutcherson's Patek Philippe",
+  "why": "Re-made after this morning's slot came up empty. Start with Josh Hutcherson wearing a Patek Philippe Ellipse (Robb Report, 21 Nov 2026; its readable headline/summary is enough). If he can't be pictured with rights (Getty-credited article photo via PH credited, or brand image), switch to another celebrity with a credited sighting from the last 12 months. Never stop: last resort is a WATCH EXPLAINED post.",
+  "sources_to_check": [
+    "Robb Report 21 Nov 2026 celebrity watches",
+    "patek.com Ellipse page"
+  ],
+  "previous_attempts": [
+    "Slides 3 and 4 are fixed: the price is now 'Price on request' with the WatchCharts resale estimate, and the footers are no longer cut off. The cover medallion still covers Kevin Hart's mouth and chin, which breaks the owner rule, so this needs one more fix. / Cover medallion still sits on Kevin Hart's face (lesson and owner rule: inset clear of the face) / [major] slide 1: The gold medallion still covers Kevin Hart's mouth and chin. This was requested last round and not fixed. The draft's stop_reason says the template position is fixed. → Use a cover layout where the medallion sits in the uppe"
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 2,
+      "hook": 3,
+      "visual": 3,
+      "clarity": 4,
+      "taste": 3
+    },
+    "hard_gate_failures": [
+      "Sighting is from October 2024 (the Yahoo article is dated 5 Oct 2024). That is outside the owner's 12-month window. The caption says 'wears' and gives no date, so it reads as current."
+    ],
+    "issues": [
+      {
+        "severity": "major",
+        "slide": "caption",
+        "problem": "The 2024 sighting is written as current and has no date. The Yahoo article is from 5 Oct 2024.",
+        "change": "Headline line → 'Liam Hemsworth wore a Rolex Cosmograph Daytona in October 2024: steel Daytona lists at $16,900 US'. In paragraph 2, replace 'Robb Report's weekly roundup says the Hunger Games star showed off' with 'A Robb Report roundup (via Yahoo Lifestyle AU, 5 Oct 2024) said the Hunger Games star showed off'."
+      },
+      {
+        "severity": "major",
+        "slide": "1",
+        "problem": "The cover body says 'Spotted at SiriusXM studios' with no date, so it implies a new sighting.",
+        "change": "Cover body → 'Spotted at SiriusXM, October 2024'."
+      },
+      {
+        "severity": "minor",
+        "slide": "1",
+        "problem": "The medallion's left edge overlaps his right cheek and beard.",
+        "change": "Move the medallion to the far top-right, below the photo credit, so it sits fully clear of his face. Do not shrink the watch image."
+      },
+      {
+        "severity": "minor",
+        "slide": "3",
+        "problem": "The Daytona is named on a plain black slide with no watch image.",
+        "change": "Add the Rolex Daytona image (the same one as slide 2) small above the price, or drop the 'Exact reference he wore is unconfirmed' repeat so the slide stays short."
+      }
+    ],
+    "reason": "Both earlier majors are fixed. The cover now has the medallion, and the proof slide no longer has the 'our take' line. The source article dates from October 2024, so the post must say so rather than present it as current.",
+    "fixes": [
+      "[major] slide caption: The 2024 sighting is written as current and has no date. The Yahoo article is from 5 Oct 2024. → Headline line → 'Liam Hemsworth wore a Rolex Cosmograph Daytona in October 2024: steel Daytona lists at $16,900 US'. In paragraph 2, replace 'Robb Report's weekly roundup says the Hunger Games star showed off' with 'A Robb Report roundup (via Yahoo Lifestyle AU, 5 Oct 2024) said the Hunger Games star showed off'.",
+      "[major] slide 1: The cover body says 'Spotted at SiriusXM studios' with no date, so it implies a new sighting. → Cover body → 'Spotted at SiriusXM, October 2024'.",
+      "[minor] slide 1: The medallion's left edge overlaps his right cheek and beard. → Move the medallion to the far top-right, below the photo credit, so it sits fully clear of his face. Do not shrink the watch image.",
+      "[minor] slide 3: The Daytona is named on a plain black slide with no watch image. → Add the Rolex Daytona image (the same one as slide 2) small above the price, or drop the 'Exact reference he wore is unconfirmed' repeat so the slide stays short."
+    ]
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-25-1630-celebrity-editor-pick",
+  "gave_up": true
+}
