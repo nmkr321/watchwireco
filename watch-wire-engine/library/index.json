@@ -5762,5 +5762,41 @@
   "credit": "Image: Getty Images, via Luxurybazaar",
   "usage": "Getty Images image used with owner-stated permission, credited",
   "fetched": "2026-11-25"
+ },
+ {
+  "kind": "person",
+  "title": "Carlos Alcaraz",
+  "who": "Spanish tennis player (born 2003)",
+  "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Carlos_Alcaraz_-_240422_192324_(cropped).jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Carlos_Alcaraz_-_240422_192324_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "file": "watch-wire-engine/library/img/person-carlos-alcaraz.jpg",
+  "w": 1000,
+  "h": 1391,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "Barcex",
+  "license": "CC BY-SA 4.0",
+  "credit": "Photo: Barcex / CC BY-SA 4.0",
+  "caption_credit": "Photo: Barcex / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
+  "usage": "Portrait of Carlos Alcaraz, CC BY-SA 4.0, credited",
+  "fetched": "2026-11-25"
+ },
+ {
+  "kind": "person",
+  "title": "Ryan Coogler",
+  "who": "American filmmaker (born 1986)",
+  "source": "https://commons.wikimedia.org/wiki/File:Ryan_Coogler_-_Sinners_2025.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ryan_Coogler_-_Sinners_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "file": "watch-wire-engine/library/img/person-ryan-coogler.jpg",
+  "w": 1600,
+  "h": 2000,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "Kevin Paul",
+  "license": "CC BY 4.0",
+  "credit": "Photo: Kevin Paul / CC BY 4.0",
+  "caption_credit": "Photo: Kevin Paul / CC BY 4.0 (https://creativecommons.org/licenses/by/4.0) via Wikimedia Commons",
+  "usage": "Portrait of Ryan Coogler, CC BY 4.0, credited",
+  "fetched": "2026-11-25"
  }
 ]
