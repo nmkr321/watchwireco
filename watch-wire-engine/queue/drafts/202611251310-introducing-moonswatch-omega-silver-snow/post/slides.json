@@ -1,0 +1,71 @@
+{
+  "source": "Source: Time+Tide Watches",
+  "theme": "graphite",
+  "slides": [
+    {
+      "t": "A-cover",
+      "tag": "NEW RELEASE",
+      "line1": "MoonSwatch Silver Snowflake",
+      "line2": "Sells only when it snows",
+      "meta": "Swatch · Reference SSX01B701",
+      "photo": "watch-wire-engine/library/img/swatch-ssx01b701.png",
+      "credit": "Image: Swatch",
+      "footLeft": "Source: Time+Tide Watches · 25 Nov 2026"
+    },
+    {
+      "t": "A-table",
+      "label": "Specs · SSX01B701",
+      "headline": "Snowflake on the moon",
+      "cols": [
+        "Detail",
+        "What it is"
+      ],
+      "rows": [
+        [
+          "Model",
+          "Mission to Earthphase"
+        ],
+        [
+          "Reference",
+          "SSX01B701"
+        ],
+        [
+          "Moon at 2 o'clock",
+          "Engraved snowflake"
+        ],
+        [
+          "Second moon",
+          "Snoopy-inspired design"
+        ]
+      ],
+      "hl": 0,
+      "body": "Each watch gets its own laser-engraved snowflake."
+    },
+    {
+      "t": "A-number",
+      "tag": "NEW RELEASE",
+      "number": "£350",
+      "label": "UK price · Time+Tide, 25 Nov 2026",
+      "headline": "Launches 27 November",
+      "body": "Selected Swatch stores worldwide."
+    },
+    {
+      "t": "A-text",
+      "label": "THE WATCH",
+      "headline": "Black bioceramic, 42mm",
+      "body": "ETA quartz movement, 30 metres water resistance."
+    },
+    {
+      "t": "A-text",
+      "label": "DETAILS",
+      "headline": "Glows under UV",
+      "body": "Swiss snow details glow lime green; Earth phase glows blue."
+    },
+    {
+      "t": "cta",
+      "line1": "Would you wait for snow?",
+      "line2": "Tell us below.",
+      "body": "Follow @watchwireco for daily watch news."
+    }
+  ]
+}

@@ -1182,3 +1182,11 @@
 2026-11-25T10:15:22.475Z	learn 202611251012-just-launched-moonswatch-omega-same-swat	claude-haiku-5-5	0.0043	2
 2026-11-25T10:15:44.806Z	editor-revise 202611251012-just-launched-moonswatch-omega-same-swat	claude-haiku-5-5	0.0038	9
 2026-11-25T11:56:12.944Z	triage 202611251156-black-moonswatch-newest-silver-snowflake	claude-haiku-5-5	0.0045	3
+2026-11-25T13:10:47.926Z	triage 202611251310-audemars-chimes-expands-piguet-supersonn	claude-haiku-5-5	0.0046	3
+2026-11-25T13:14:09.757Z	editor 202611251310-audemars-chimes-expands-piguet-supersonn	claude-haiku-5-5	0.0913	52
+2026-11-25T13:14:33.639Z	approver 202611251310-audemars-chimes-expands-piguet-supersonn r1	claude-sonnet-5-5	0.1234	13
+2026-11-25T13:14:39.385Z	triage 202611251310-introducing-moonswatch-omega-silver-snow	claude-haiku-5-5	0.0022	3
+2026-11-25T13:16:02.823Z	editor 202611251310-introducing-moonswatch-omega-silver-snow	claude-haiku-5-5	0.0187	20
+2026-11-25T13:16:28.850Z	approver 202611251310-introducing-moonswatch-omega-silver-snow r1	claude-sonnet-5-5	0.0918	12
+2026-11-25T13:16:35.064Z	learn 202611251310-introducing-moonswatch-omega-silver-snow	claude-haiku-5-5	0.0051	3
+2026-11-25T13:16:57.553Z	editor-revise 202611251310-introducing-moonswatch-omega-silver-snow	claude-haiku-5-5	0.0052	11

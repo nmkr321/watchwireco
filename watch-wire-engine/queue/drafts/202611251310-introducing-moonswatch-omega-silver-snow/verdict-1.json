@@ -1,0 +1,45 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 4,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [],
+  "issues": [
+    {
+      "severity": "minor",
+      "slide": "3",
+      "problem": "Launch date is stated twice on this slide, and again in the caption",
+      "change": "Body → 'Selected Swatch stores worldwide.' Keep the headline 'Launches 27 November'."
+    },
+    {
+      "severity": "minor",
+      "slide": "4",
+      "problem": "Repeats the snow rule already on the cover and in the caption, and the cover also repeats the headline",
+      "change": "Replace slide 4 with a spec slide. Headline → 'Black bioceramic, 42mm'. Body → 'ETA quartz movement, 30 metres water resistance.' Eyebrow → 'THE WATCH'. Both facts are in the Time+Tide article."
+    },
+    {
+      "severity": "minor",
+      "slide": "5",
+      "problem": "Filler 'our take' that adds no new fact. It also repeats the snow rule and the travel advice from the caption.",
+      "change": "Replace with headline 'Glows under UV' and body 'Swiss snow details glow lime green; Earth phase glows blue.' Change the eyebrow to 'DETAILS'. Both facts are from Time+Tide."
+    },
+    {
+      "severity": "minor",
+      "slide": "caption",
+      "problem": "Repeats the slide facts and adds the travel advice that is being cut",
+      "change": "Delete 'Check the store and the forecast before you travel.' Keep the rest."
+    }
+  ],
+  "reason": "The facts match Time+Tide (£350, 27 Nov, snow-only sales through 20 March 2027, SSX01B701), the check passes, and the all-black Swatch photo is credited. The rule slide, the 'our take' slide and the launch date repeat things already said, so I've listed swaps for new facts. These are minor, so they can go out without a second review.",
+  "fixes": [
+    "[minor] slide 3: Launch date is stated twice on this slide, and again in the caption → Body → 'Selected Swatch stores worldwide.' Keep the headline 'Launches 27 November'.",
+    "[minor] slide 4: Repeats the snow rule already on the cover and in the caption, and the cover also repeats the headline → Replace slide 4 with a spec slide. Headline → 'Black bioceramic, 42mm'. Body → 'ETA quartz movement, 30 metres water resistance.' Eyebrow → 'THE WATCH'. Both facts are in the Time+Tide article.",
+    "[minor] slide 5: Filler 'our take' that adds no new fact. It also repeats the snow rule and the travel advice from the caption. → Replace with headline 'Glows under UV' and body 'Swiss snow details glow lime green; Earth phase glows blue.' Change the eyebrow to 'DETAILS'. Both facts are from Time+Tide.",
+    "[minor] slide caption: Repeats the slide facts and adds the travel advice that is being cut → Delete 'Check the store and the forecast before you travel.' Keep the rest."
+  ]
+}

@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY] Include a slide showing the celebrity wearing the featured watch, and keep the inset and all text off his face.
-- [CELEBRITY] Before approving a portrait cover, check the rendered image: the watch inset must sit in a corner, fully off the face.
 - [CELEBRITY] When a review flags a fix not yet applied, change the layout itself; never re-render the same template position.
 - [CELEBRITY] Every slide that names a person or watch must show its permitted photo; never place that slide as text on plain black.
 - [CELEBRITY] Slide bodies must state sourced facts or specifications only; replace opinion claims like 'our take' with a cited spec.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY] If no candidate passes every check, draw new candidates from the permitted library until one does; never publish a failed one.
 - [NEW RELEASES] Each slide must add a fact no earlier slide or the caption already states; never repeat dates, stores, sale windows or closing lines across slides.
 - [NEW RELEASES] Give each detail one home slide, and check rendered text so no line wraps to leave a single word alone.
+- [NEW RELEASES] Cut a slide rather than pad it: if no new sourced fact is left for a slide, drop it and keep the rest of the carousel.
+- [NEW RELEASES] Write the caption last, and delete any caption sentence that repeats a slide fact or adds advice outside the sourced facts.

@@ -1,0 +1,38 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 4,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [
+    {
+      "severity": "minor",
+      "slide": "4",
+      "problem": "Body repeats the 'checked 25 Nov 2026' date that the caption also states, and the headline is the price twice",
+      "change": "body → 'Per Monochrome Watches. Not confirmed elsewhere.'"
+    },
+    {
+      "severity": "minor",
+      "slide": "5",
+      "problem": "Closing question is filler, and the slide wraps to leave 'first time?' on its own line",
+      "change": "body → 'Monochrome calls it identical to the 2021 model.'"
+    },
+    {
+      "severity": "minor",
+      "slide": "2",
+      "problem": "The photo shows as a visible black box against the dark background",
+      "change": "No wording fix. If the template allows, render the photo without the box edge. Otherwise leave as is."
+    }
+  ],
+  "reason": "The facts match Monochrome Watches and Notebookcheck: the launch date, the three references, Calibre 2953 with 72 hours, and a price above CHF 350,000 expected for all three. The photos are credited AP images with licensed rights, the validation check passes, and the post is not a repeat. Only small polish fixes remain.",
+  "fixes": [
+    "[minor] slide 4: Body repeats the 'checked 25 Nov 2026' date that the caption also states, and the headline is the price twice → body → 'Per Monochrome Watches. Not confirmed elsewhere.'",
+    "[minor] slide 5: Closing question is filler, and the slide wraps to leave 'first time?' on its own line → body → 'Monochrome calls it identical to the 2021 model.'",
+    "[minor] slide 2: The photo shows as a visible black box against the dark background → No wording fix. If the template allows, render the photo without the box edge. Otherwise leave as is."
+  ]
+}
