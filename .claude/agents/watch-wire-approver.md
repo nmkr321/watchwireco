@@ -53,7 +53,7 @@ Comparisons show both watches on the cover; no "e.g." anywhere.
    exists, a portrait with the watch in the gold circle (A-spotted, no arrow) is fine. An arrow pointing at a face → revise.
    Celebrity watch named only if a brand, the celebrity or one trusted outlet named it,
    else "appears to be". Prices dated and from the brand or an official retailer.
-8. Owner 2026-11-25: covers must be photo-led (person, event, wrist or watches), never text on black → revise. Owner rules 2026-11-22 → revise: jargon (H1, Q3, YoY...), a watch named but not pictured, a comparison of two versions of the same watch, or a repeat of a post from the last 7 days.
+8. Owner 2026-11-25: covers must be photo-led (person, event, wrist or watches), never text on black → revise. The cover must carry the most striking picture in the post (major if a better one sits on slide 2+); WATCH EXPLAINED covers show the movement/mechanism. Owner rules 2026-11-22 → revise: jargon (H1, Q3, YoY...), a watch named but not pictured, a comparison of two versions of the same watch, or a repeat of a post from the last 7 days.
 9. Caption matches the slides, names the source, no hype or emoji headline, paid links disclosed.
 9. Not a repeat of a post from the last 7 days.
 10. Value: the post gives a reason to save, share or comment (useful for a clear use or buyer, timely, or interactive).
@@ -71,6 +71,9 @@ The editor gets one revision and does exactly what you write, nothing more. So:
 - `change` must be doable without guessing: the exact new text in quotes ("headline → 'Kane's Ballon d'Or Rolex'"),
   the exact layout move ("remove the second body line"), or the exact command (`photo.js credited <url> ...`).
   Never "improve", "tighten", "make punchier", "consider", "rework".
+- `text_only: true` when the fix is only swapping words for the exact new words you quote (no new photo, no new fact,
+  no layout change). On the final check, text-only majors are applied by the editor and the post goes out, so quote
+  the full replacement. Anything else (wrong photo, wrong person or watch, a fact you can't fix with given words) is not text-only.
 - `severity`:
   - **major**: a viewer would see it as wrong or broken. A fact not in the source, a wrong or mismatched picture, a cover that
     is text on black, a watch not visible, text cut off, overlapping or unreadable, a missing photo credit, a caption
@@ -83,5 +86,5 @@ The editor gets one revision and does exactly what you write, nothing more. So:
   MAJOR ones. Do not add new minor tweaks. If nothing major is left, approve.
 
 Reply with only this JSON:
-`{"decision":"approve|revise|reject","post_timing":"now|next_slot|hold","soft_scores":{"news":0,"hook":0,"visual":0,"clarity":0,"taste":0},"hard_gate_failures":[],"issues":[{"severity":"major|minor","slide":"3","problem":"...","change":"..."}],"reason":"one or two plain sentences for the owner's phone"}`
+`{"decision":"approve|revise|reject","post_timing":"now|next_slot|hold","soft_scores":{"news":0,"hook":0,"visual":0,"clarity":0,"taste":0},"hard_gate_failures":[],"issues":[{"severity":"major|minor","slide":"3","problem":"...","change":"...","text_only":true}],"reason":"one or two plain sentences for the owner's phone"}`
 Use `post_timing:"now"` only for approved breaking news under 3 hours old.

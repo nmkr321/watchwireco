@@ -62,7 +62,7 @@ Templates: A for news/market/auctions/would-you-rather/celebrity/collection/list
 story behind; never mixed; end with `cta`; at most one `[[highlight]]` per slide (a cover's line2 is already gold).
 Headlines 2–6 words, body 15 words max. Counts: NEWS/MARKET 5–6, RELEASES/AUCTIONS 6–8, CELEBRITY 5–7,
 WYR 4–5, COLLECTION 5–6, HISTORY/STORY 7–10, LISTICLE 4–10 (as many as are confirmed).
-Covers (owner, 2026-11-25): photo-led and eye-catching, never words on black. Pick one:
+Covers (owner, 2026-11-25): photo-led and eye-catching, never words on black. Put the most striking picture in the post on the cover, never save it for slide 2. WATCH EXPLAINED: the cover is the movement/mechanism close-up (brand movement image), not the finished watch. Pick one:
   - EVENT: A-cover {people:[2-3 person photos from the event], watches:[their 2-3 watches]} → people cut out in front of
     giant watch faces (EVENT SPOTTED, multi-celebrity posts).
   - PERSON + WATCHES: A-cover {photo: person, watches:[2-5]} → the watches line up in front of them (collections).

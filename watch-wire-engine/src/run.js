@@ -178,7 +178,7 @@ export function make(file) {
       decision: { enum: ["approve", "revise", "reject"] }, post_timing: { enum: ["now", "next_slot", "hold"] },
       soft_scores: { type: "object" }, hard_gate_failures: { type: "array", items: { type: "string" } },
       issues: { type: "array", items: { type: "object", required: ["severity", "slide", "problem", "change"], properties: {
-        severity: { enum: ["major", "minor"] }, slide: { type: "string" }, problem: { type: "string" }, change: { type: "string" } } } },
+        severity: { enum: ["major", "minor"] }, slide: { type: "string" }, problem: { type: "string" }, change: { type: "string" }, text_only: { type: "boolean" } } } },
       reason: { type: "string" }
     }
   });
@@ -206,7 +206,7 @@ export function make(file) {
   // Only minor → the editor applies them once and the post goes out, no second paid review.
   // Any major → editor fixes all, approver checks once more; majors still there → the post does not go out.
   const norm = (v) => {
-    const issues = (v.issues || []).map((i) => ({ severity: i.severity === "minor" ? "minor" : "major", slide: String(i.slide || "?"), problem: i.problem || "", change: i.change || "" }));
+    const issues = (v.issues || []).map((i) => ({ severity: i.severity === "minor" ? "minor" : "major", slide: String(i.slide || "?"), problem: i.problem || "", change: i.change || "", text_only: i.text_only === true }));
     for (const f of v.fixes || []) issues.push({ severity: "major", slide: "?", problem: String(f), change: String(f) });   // old format: be safe
     return { ...v, issues, fixes: issues.map((i) => `[${i.severity}] slide ${i.slide}: ${i.problem} → ${i.change}`) };
   };
@@ -235,7 +235,15 @@ export function make(file) {
     earlier = verdict.issues;
     if (!majors(verdict).length) { if (passes()) verdict = postWithNotes(verdict, "only minor tweaks, applied, posting without a second review"); break; }
   }
-  // after the final check: minor-only leftovers still post; any major left means the post does not go out
+  // after the final check: minor-only leftovers still post. Majors that are only wording, with the exact new words given
+  // (owner 2026-11-25, e.g. "add 'October 2024'"), are applied by the editor and the post goes out. Any other major blocks it.
+  if (verdict.decision === "revise" && majors(verdict).length && majors(verdict).every((i) => i.text_only)) {
+    claude(["--agent", "watch-wire-editor", "--effort", EFFORT.editor, "--max-budget-usd", EDITOR_BUDGET,
+      "--allowedTools", "Bash Read Write Edit Glob Grep", "--disallowedTools", "Bash(git:*)", "--permission-mode", "acceptEdits", "--output-format", "json"],
+      `Final wording fixes for the Watch Wire draft in ${draftDir} (project ${draft.project_dir}). Replace the text exactly as given, word for word; change nothing else. Then run node watch-wire-engine/src/steps.js finish on the project until it says PASS, then update draft.json. Issues: ${JSON.stringify(verdict.issues)}`,
+      `editor-final-words ${item.id}`);
+    if (passes()) verdict = postWithNotes(verdict, "final wording fixes applied by the editor, posting");
+  }
   if (verdict.decision === "revise" && !majors(verdict).length && passes()) verdict = postWithNotes(verdict, "posting despite open minor tweaks");
   if (verdict.decision === "approve") {
     const when = item.post_at ? item.post_at : verdict.post_timing === "now" && item.lane === "breaking" ? new Date().toISOString() : nextSlot(item.lane === "breaking" ? "news" : item.lane);
@@ -415,10 +423,10 @@ function backup(item) {
   const lib = ["CELEBRITY", "WATCH EXPLAINED", "NEW RELEASES", "EVENT SPOTTED"];   // owner 2026-11-25: no list/vote fillers
   // celebrity posts do best (owner): a failed celebrity slot gets another celebrity first
   const tried = new Set([item.format, ...(item.tried_formats || [])]);
-  const format = item.format === "CELEBRITY" && depth === 0 ? "CELEBRITY"
-    : lib.find((f) => !near.has(f) && !tried.has(f)) || lib.find((f) => !tried.has(f)) || "CELEBRITY";
+  // owner 2026-11-25: the backup is always a WATCH EXPLAINED post built from library watches; it never fails for lack of news or photos
+  const format = "WATCH EXPLAINED";
   const how = {
-    "WATCH EXPLAINED": "Explain one watch feature in plain words (minute repeater, tourbillon, GMT, perpetual calendar, chronograph, moonphase, flyback...), ideally one in a 2026 release. Photos: brand press images (official pages, or article images credited to the brand via `PH credited`). One trusted source per fact.",
+    "WATCH EXPLAINED": `Explain one watch feature in plain words (GMT, perpetual calendar, moonphase, flyback, power reserve, tourbillon, minute repeater, dive bezel...). Not a feature posted in the last 7 days${item.format === "WATCH EXPLAINED" ? ` and not the one in the failed post (${item.title})` : ""}. Start with \`node watch-wire-engine/src/photo.js list\` and pick 2-3 library watches that have it: their photos and dated prices are already verified. One trusted source (named) for how it works. Never stop: if one feature has no library watches, pick another.`,
     "NEW RELEASES": "A watch released in the last 30 days by a major brand. Specs and price from the brand page or one trusted outlet (named). Photos: brand press images (official page, or article images credited to the brand via `PH credited`).",
     "EVENT SPOTTED": "Watches spotted at one real event from the last 10 days (race, awards, red carpet, big game). Getty Images photos via `PH credited <article-url> --credit Getty --owner \"Getty Images\"`, watch photos from the brand. One trusted outlet naming each watch is enough.",
     "CELEBRITY": `A DIFFERENT celebrity from the failed post (${item.title}). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.`,
