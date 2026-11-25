@@ -1100,3 +1100,12 @@
 2026-11-25T05:46:58.058Z	learn 2026-11-25-1430-watch-explained-how-a-date-window-change	claude-haiku-5-5	0.0022	2
 2026-11-25T05:47:31.458Z	editor-revise 2026-11-25-1430-watch-explained-how-a-date-window-change	claude-haiku-5-5	0.0081	12
 2026-11-25T05:48:04.157Z	approver 2026-11-25-1430-watch-explained-how-a-date-window-change r2	claude-sonnet-5-5	0.1277	20
+2026-11-25T05:48:49.131Z	editor 2026-11-25-1730-celebrity-collection-not-ready-no-verifi	claude-haiku-5-5	0.0476	7
+2026-11-25T05:48:54.325Z	learn 2026-11-25-1730-celebrity-collection-not-ready-no-verifi	claude-haiku-5-5	0.0021	2
+2026-11-25T05:49:23.433Z	editor 2026-11-25-1730-celebrity-collection-not-ready-no-verifi	claude-haiku-5-5	0.0310	7
+2026-11-25T05:49:30.354Z	learn 2026-11-25-1730-celebrity-collection-not-ready-no-verifi	claude-haiku-5-5	0.0023	2
+2026-11-25T05:51:26.013Z	editor 2026-11-25-1730-celebrity-collection-not-ready-no-verifi	claude-haiku-5-5	0.0732	28
+2026-11-25T05:51:49.440Z	approver 2026-11-25-1730-celebrity-collection-not-ready-no-verifi r1	claude-sonnet-5-5	0.1020	15
+2026-11-25T05:51:55.571Z	learn 2026-11-25-1730-celebrity-collection-not-ready-no-verifi	claude-haiku-5-5	0.0022	2
+2026-11-25T05:52:29.213Z	editor-revise 2026-11-25-1730-celebrity-collection-not-ready-no-verifi	claude-haiku-5-5	0.0054	8
+2026-11-25T05:52:46.807Z	approver 2026-11-25-1730-celebrity-collection-not-ready-no-verifi r2	claude-sonnet-5-5	0.0826	11

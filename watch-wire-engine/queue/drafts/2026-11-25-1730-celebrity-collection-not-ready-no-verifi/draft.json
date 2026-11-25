@@ -1,0 +1,18 @@
+{
+  "status": "ready",
+  "project_dir": "Content Creation/projects/2026-11-25-1730-celebrity-collection-not-ready-no-verifi",
+  "format": "CELEBRITY COLLECTION",
+  "lane": "rotation",
+  "headline": "Inside Tom Holland's watch collection",
+  "slides": [
+    "output/slide-01.png",
+    "output/slide-02.png",
+    "output/slide-03.png",
+    "output/slide-04.png",
+    "output/slide-05.png",
+    "output/slide-06.png",
+    "output/slide-07.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": ""
+}

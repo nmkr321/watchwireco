@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Cover headline is 7 words (limit 2–6)",
+    "Cover promises 'six watches' but only three are pictured",
+    "Source footer is cut off with '…' on slides 2–5"
+  ],
+  "fixes": [
+    "slide 1: shorten the headline to 'Inside Tom Holland's watch collection' (5 words, no 'is getting interesting')",
+    "slide 1: change the sub-line to 'Outlook India, 19 Aug 2026' so it doesn't promise six watches. If you keep 'six', add the other three watches, or say 'three of six' with their prices.",
+    "slides 2–5: shorten the footer so it isn't cut off, e.g. 'Source: Outlook India; Watches of Switzerland; Patek'",
+    "slide 5: make 'our take' say something with a point, e.g. 'Dress and sport, all precious' plus a hook such as 'A $64K spread. Which fits?'. Keep the body to 15 words or fewer."
+  ],
+  "reason": "Tom Holland's collection is credited to Outlook India (19 Aug 2026) and names six watches. I confirmed that against the article, and the check passes. The cover headline is one word too long and over-promises six watches, and the footers are truncated, so it needs a quick text fix before it goes out."
+}

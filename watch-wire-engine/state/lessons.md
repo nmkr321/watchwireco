@@ -1,12 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [EVENT SPOTTED] Before rendering, record each photo's file, exact credit line and matching permissions.json entry in the draft notes; drop the format if any is missing.
-- [EVENT SPOTTED] Confirm a photo's credit on its own file or licence page, not on article captions or gallery text; captions alone do not prove permission.
-- [EVENT SPOTTED] Use a photo only if its event year matches the current event; reject prior-year race coverage even when the subject is permitted.
-- [EVENT SPOTTED] Confirm the watch is visible in the photo itself; a caption naming a watch does not count, so pick another permitted photo.
-- [CELEBRITY] Before drafting, record each sighting's publication date, outlet URL and watch model in the draft notes; drop candidates missing any.
-- [CELEBRITY] Ignore undated articles and gallery pages in searches; only a dated, in-window report can verify a sighting.
 - [CELEBRITY] Treat paywalled, redirected or blocked pages as unreadable; a search summary quoting them cannot verify a sighting.
 - [CELEBRITY] Before drafting, confirm the watch's reference number and price from a readable source; if either is missing, switch candidates.
 - [CELEBRITY] Reject any sighting dated outside the run's 30-day window, even if the person and watch match; prior-year events and past tournaments do not count.
@@ -21,3 +15,9 @@ The editor reads this before every post. Written automatically from rejections; 
 - [WATCH EXPLAINED] Before resubmitting, fix every defect flagged in earlier rounds; repeated layout faults cost points and block approval.
 - [WATCH EXPLAINED] Quote mechanics and time limits only as the source states them; copy exact figures, wheel types and model-specific caveats, never generalise them.
 - [WATCH EXPLAINED] Before writing the caption, check it against the cover photo's visible features, such as a date window, and drop any claim the image contradicts.
+- [CELEBRITY COLLECTION] Require a readable, dated source naming at least three distinct watches the person owns; otherwise switch subjects.
+- [CELEBRITY COLLECTION] Retailer blogs and search-result snippets never verify ownership; cite the outlet's own article or interview page, or switch candidates.
+- [CELEBRITY COLLECTION] Search for a dated outlet article titled as a watch collection before checking any candidate's names individually.
+- [CELEBRITY COLLECTION] Count the named watches in the source before any other research; fewer than three means switch subjects at once.
+- [CELEBRITY COLLECTION] Make count words in cover and sub-line copy match the watches actually pictured; never promise "six" with fewer shown.
+- [CELEBRITY COLLECTION] Before finalising, check headlines are 2–6 words, footers fit one line, and closing takes have a clear point within 15 words.

@@ -1,0 +1,52 @@
+{
+  "id": "2026-11-25-1730-celebrity-collection-not-ready-no-verifi",
+  "status": "approved",
+  "found_at": "2026-11-25T05:07:09.678Z",
+  "lane": "rotation",
+  "format": "CELEBRITY COLLECTION",
+  "post_at": "2026-11-25T22:30:00.000Z",
+  "slot": 4,
+  "title": "CELEBRITY COLLECTION: NOT READY (no verified celebrity name)",
+  "hook": "Not ready. Needs a named celebrity whose watches a trusted outlet has named.",
+  "why": "Repeated attempts were blocked for lack of a verified name; the Kevin O'Leary backup is already on the list. Needs at least two watches with references and prices from a trusted outlet.",
+  "sources_to_check": [
+    "Robb Report, Hodinkee or Fratello collection coverage naming the watches",
+    "Brand or retailer pages for each reference's US price"
+  ],
+  "sources": [
+    {
+      "title": "Robb Report, Hodinkee or Fratello collection coverage naming the watches",
+      "link": "",
+      "source": "Robb Report, Hodinkee or Fratello collection coverage naming the watches",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand or retailer pages for each reference's US price",
+      "link": "",
+      "source": "Brand or retailer pages for each reference's US price",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "No celebrity collection could be verified in this run. Tried three subjects: Mark Zuckerberg (Robb Report AU, 14 Jan 2025) names only one watch (Greubel Forsey Hand Made 1, 'around $1.5 million', no reference), so it is not a collection. Ryan Reynolds (search results only, mostly retailer blogs, no ",
+    "No celebrity with a readable, dated source naming at least three distinct watches they own. Checked: Mark Zuckerberg (one watch named); Ryan Reynolds (only retailer blogs and snippets); Kevin Hart (Hypebeast page came back empty, no watch list); John Mayer (Robb Report via Yahoo, 18 Jun 2024, names "
+  ],
+  "scheduled_for": "2026-11-25T22:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-25-1730-celebrity-collection-not-ready-no-verifi",
+  "project_dir": "Content Creation/projects/2026-11-25-1730-celebrity-collection-not-ready-no-verifi",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-25-1730-celebrity-collection-not-ready-no-verifi/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "fixes": [],
+    "reason": "The post uses the fixes from the last round. The check passes. The cover headline is now 5 words and the sub-line no longer promises six watches. The footers fit on one line, and the closing take is clear. Outlook India (19 Aug 2026) names the Daytona 126506, Aquanaut 5167R and Tank Américaine WGTA0134, and the prices come from the official or retailer pages, dated 25 Nov. Ready for the next slot."
+  }
+}

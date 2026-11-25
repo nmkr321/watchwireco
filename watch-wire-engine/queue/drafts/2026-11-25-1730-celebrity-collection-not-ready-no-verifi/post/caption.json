@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Tom Holland's watch collection: Cartier Tank Américaine WGTA0134, Patek Philippe Aquanaut 5167R-001 and Rolex Cosmograph Daytona 126506.\n\nOutlook India names six watches in his collection (19 August 2026). Prices are US retail, checked 25 November 2026: $20,300 (Cartier), $53,514 (Patek Philippe), $84,600 (Rolex). Ownership is the outlet's claim.\n\nWhich one would you take? Comment below.\n\nSource: Outlook India, 19 August 2026; Watches of Switzerland and Patek Philippe price pages, 25 November 2026.\nPhoto: PhilipRomano / CC BY-SA 4.0 (Wikimedia Commons). Images: Rolex, Patek Philippe, Cartier.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4"
+  ],
+  "source_ids": [
+    "SRC-OI",
+    "SRC-WOS-DAY",
+    "SRC-PATEK",
+    "SRC-WOS-CART"
+  ],
+  "attribution": "Source: Outlook India, 19 August 2026; Watches of Switzerland and Patek Philippe, 25 November 2026.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Other three watches named by the outlet are not pictured or priced."
+  ],
+  "carousel_sha256": "e0f109bc6a9f1f28fbae93fdb25963f098c7fac245552bdb746c0182b4b4c0eb",
+  "completed_at": "2026-11-25T05:52:22.956Z"
+}

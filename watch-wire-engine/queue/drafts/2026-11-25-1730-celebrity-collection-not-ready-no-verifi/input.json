@@ -26,5 +26,9 @@
       "source": "Brand or retailer pages for each reference's US price",
       "tier": "to-verify"
     }
+  ],
+  "previous_attempts": [
+    "No celebrity collection could be verified in this run. Tried three subjects: Mark Zuckerberg (Robb Report AU, 14 Jan 2025) names only one watch (Greubel Forsey Hand Made 1, 'around $1.5 million', no reference), so it is not a collection. Ryan Reynolds (search results only, mostly retailer blogs, no ",
+    "No celebrity with a readable, dated source naming at least three distinct watches they own. Checked: Mark Zuckerberg (one watch named); Ryan Reynolds (only retailer blogs and snippets); Kevin Hart (Hypebeast page came back empty, no watch list); John Mayer (Robb Report via Yahoo, 18 Jun 2024, names "
   ]
 }

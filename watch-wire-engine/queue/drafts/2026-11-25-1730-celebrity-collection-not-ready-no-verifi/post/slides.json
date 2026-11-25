@@ -1,0 +1,79 @@
+{
+  "source": "Source: Outlook India; Watches of Switzerland; Patek",
+  "slides": [
+    {
+      "t": "A-cover",
+      "tag": "CELEBRITY COLLECTION",
+      "line1": "Inside Tom Holland's watch",
+      "line2": "collection",
+      "meta": "Outlook India, 19 Aug 2026",
+      "photo": "watch-wire-engine/library/img/person-tom-holland.jpg",
+      "watches": [
+        "watch-wire-engine/library/img/rolex-126506.png"
+      ],
+      "credit": "Photo: PhilipRomano / CC BY-SA 4.0 (Wikimedia Commons)"
+    },
+    {
+      "t": "A-photo",
+      "label": "WATCH 1 · ROLEX",
+      "headline": "Cosmograph Daytona 126506",
+      "photo": "watch-wire-engine/library/img/rolex-126506.png",
+      "credit": "Image: Rolex",
+      "body": "Platinum. US retail $84,600, checked 25 Nov 2026."
+    },
+    {
+      "t": "A-photo",
+      "label": "WATCH 2 · PATEK PHILIPPE",
+      "headline": "Aquanaut 5167R-001",
+      "photo": "watch-wire-engine/library/img/patek-philippe-5167r-001.png",
+      "credit": "Image: Patek Philippe",
+      "body": "Rose gold. US list price $53,514, checked 25 Nov 2026."
+    },
+    {
+      "t": "A-photo",
+      "label": "WATCH 3 · CARTIER",
+      "headline": "Tank Américaine WGTA0134",
+      "photo": "watch-wire-engine/library/img/cartier-wgta0134.jpg",
+      "credit": "Image: Cartier",
+      "body": "Rose gold. US retail $20,300, checked 25 Nov 2026."
+    },
+    {
+      "t": "A-text",
+      "label": "OUR TAKE",
+      "headline": "Dress and sport, all precious",
+      "body": "A $20,300 to $84,600 spread. Which fits?"
+    },
+    {
+      "t": "A-pick3",
+      "label": "YOUR CALL",
+      "headline": "Which one would you take?",
+      "options": [
+        {
+          "brand": "Rolex",
+          "model": "Cosmograph Daytona",
+          "price": "$84,600",
+          "photo": "watch-wire-engine/library/img/rolex-126506.png"
+        },
+        {
+          "brand": "Patek Philippe",
+          "model": "Aquanaut",
+          "price": "$53,514",
+          "photo": "watch-wire-engine/library/img/patek-philippe-5167r-001.png"
+        },
+        {
+          "brand": "Cartier",
+          "model": "Tank Américaine",
+          "price": "$20,300",
+          "photo": "watch-wire-engine/library/img/cartier-wgta0134.jpg"
+        }
+      ],
+      "credit": "Images: Rolex, Patek Philippe, Cartier"
+    },
+    {
+      "t": "cta",
+      "line1": "Follow for more",
+      "line2": "@watchwireco",
+      "body": "Daily watch news, checked."
+    }
+  ]
+}

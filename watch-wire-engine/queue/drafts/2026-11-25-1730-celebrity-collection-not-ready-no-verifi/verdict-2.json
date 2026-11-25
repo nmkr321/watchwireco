@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "The post uses the fixes from the last round. The check passes. The cover headline is now 5 words and the sub-line no longer promises six watches. The footers fit on one line, and the closing take is clear. Outlook India (19 Aug 2026) names the Daytona 126506, Aquanaut 5167R and Tank Américaine WGTA0134, and the prices come from the official or retailer pages, dated 25 Nov. Ready for the next slot."
+}
