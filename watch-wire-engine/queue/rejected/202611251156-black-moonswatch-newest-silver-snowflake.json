@@ -1,0 +1,24 @@
+{
+  "id": "202611251156-black-moonswatch-newest-silver-snowflake",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-25T11:56:07.515Z",
+  "title": "Swatch's Newest All-Black Silver Snowflake MoonSwatch Waits for Snow",
+  "score": 6,
+  "sources": [
+    {
+      "title": "Swatch's Newest All-Black Silver Snowflake MoonSwatch Waits for Snow",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObFJiNjgzRDFzcVFiMXU5d0tzZkZOazFRSU5MSk9DbzVIQWU2QkRUS21aTEhRQURzVVhHZXdUX3Zfa0otdW1LMVRQR2U4anRzVjg3Sm5WTzFTUWN2OTAtazcyMTFXYWo4MGl5cEFRRjJtZTdBdVY3Ni05V2w5SDVXeA?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "WatchTime",
+      "domain": "watchtime.com",
+      "tier": "watch_press",
+      "published": "Wed, 25 Nov 2026 10:52:55 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NEW RELEASES",
+    "reason": "Routine MoonSwatch colorway from a mass-market brand, not a major brand move, record auction, notable launch, price change, or industry data. Not worth an immediate breaking post; at most a normal-queue NEW RELEASES idea."
+  }
+}
