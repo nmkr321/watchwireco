@@ -1,7 +1,7 @@
 {
   "id": "2026-11-25-0130-ap-five-new-watches-backup",
   "lane": "news",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-24T21:37:25.375Z",
   "post_at": "2026-11-25T01:30:00.000Z",
   "backup_for": "2026-11-25-0130-ap-five-new-watches",
@@ -34,5 +34,24 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "Four tightly priced picks ($595–$945), each with a matching clean product photo, a credit and a checked price. The check passes, and the two Hamiltons are different lines. It's a useful save-and-share buying guide, not news. The Seiko price is the engine's library value, because the retailer page returned a rate-limit error when I tried to re-fetch it."
+  },
+  "posted_at": "2026-11-25T02:02:18.865Z",
+  "publish": {
+    "live": true,
+    "media_id": "17928229833446178",
+    "permalink": "https://www.instagram.com/p/DgJaPs1AAVP/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "caption_chars": 525
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
