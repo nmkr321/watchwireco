@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "How a chronograph actually works: Omega Speedmaster 310.30.42.50.01.002 and Rolex Daytona 126500LN.\n\nA chronograph has a start pusher that sets the second hand moving; pressing it again stops the timing. A reset pusher returns the hands to zero. Inside, a column wheel (or a heart-shaped cam) advances one step with each press.\n\nPrices: Speedmaster US$9,000 on the Omega US site; Daytona 126500LN US$16,900 (B.C. Clark, 20 Nov 2026).\n\nWhich chronograph would you wear, Speedmaster or Daytona? Tell us below.\n\nSource: Omega (Speedmaster 310.30.42.50.01.002, US site); Gear Patrol, \"Complications: The Chronograph\", 13 February 2015; B.C. Clark (Daytona 126500LN, 20 November 2026).\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4",
+    "CLM-5"
+  ],
+  "source_ids": [
+    "SRC-OMEGA",
+    "SRC-GP",
+    "SRC-BCC"
+  ],
+  "attribution": "Omega; Gear Patrol; B.C. Clark",
+  "caption_credit": "Images: Omega, Rolex",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Rolex and B.C. Clark pages not re-read in this run; Daytona price is the library check of 20 Nov 2026."
+  ],
+  "carousel_sha256": "b2435d966b7fb33ef33502ef6e8a99e8a57967f573fd6a3daa4311c1a243b52a",
+  "completed_at": "2026-11-25T08:05:22.791Z"
+}

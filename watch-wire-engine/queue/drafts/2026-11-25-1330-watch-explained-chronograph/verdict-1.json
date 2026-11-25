@@ -1,0 +1,55 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Slide 5 is plain text on black with no photo, and it repeats claims from slides 3 and 4.",
+    "The cover names the Speedmaster but does not picture it."
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "1",
+      "problem": "Cover subline names the Speedmaster and its price, but the cover shows only the Daytona. Owner rule: a watch named must be pictured.",
+      "change": "Change the subline to 'DAYTONA US$16,900 · NOV 2026'. Alternatively, keep both names and add the Speedmaster photo to the cover."
+    },
+    {
+      "severity": "major",
+      "slide": "5",
+      "problem": "Text-only slide on black. It repeats the claims from slides 3 and 4. 'Three presses run one stopwatch cycle' is not in any source. The lessons forbid text-only step slides.",
+      "change": "Delete slide 5, so the post is 5 slides: cover, 2, 3, 4, CTA. Renumber the page counters to 05, and remove 'B.C. Clark' from any footer that is left."
+    },
+    {
+      "severity": "minor",
+      "slide": "2",
+      "problem": "The headline 'A wheel turns one notch' does not match the body, which says 'or a heart-shaped cam'. The photo is described as the 3861 movement, but the slide does not say so.",
+      "change": "Body → 'Each press turns a column wheel one step.'"
+    },
+    {
+      "severity": "minor",
+      "slide": "caption",
+      "problem": "It says the reset is a 'separate' pusher and credits Gear Patrol for that. The article only says 'press the reset button'. The caption also asks 'which would you wear' about a Speedmaster the cover does not show.",
+      "change": "Replace 'A separate reset pusher returns the hands to zero.' with 'A reset pusher returns the hands to zero.' Also change slide 4's body to 'The reset pusher returns the hands to zero.' Change the closing question to 'Which chronograph would you wear, Speedmaster or Daytona?'"
+    },
+    {
+      "severity": "minor",
+      "slide": "caption",
+      "problem": "The Daytona price comes from the 20 Nov library check. The caption says B.C. Clark was 'checked 20 November', and the draft notes say the page was never re-read.",
+      "change": "Keep the date on the price line exactly as '(B.C. Clark, 20 Nov 2026)'. Remove the sentence 'Auction and resale prices are not covered here.'"
+    }
+  ],
+  "reason": "The facts check out against Gear Patrol, and the price rests on a library entry, which counts as confirmed. The cover names a watch it doesn't show, and slide 5 is a text-only slide that repeats earlier slides. Both must be fixed before this goes out.",
+  "fixes": [
+    "[major] slide 1: Cover subline names the Speedmaster and its price, but the cover shows only the Daytona. Owner rule: a watch named must be pictured. → Change the subline to 'DAYTONA US$16,900 · NOV 2026'. Alternatively, keep both names and add the Speedmaster photo to the cover.",
+    "[major] slide 5: Text-only slide on black. It repeats the claims from slides 3 and 4. 'Three presses run one stopwatch cycle' is not in any source. The lessons forbid text-only step slides. → Delete slide 5, so the post is 5 slides: cover, 2, 3, 4, CTA. Renumber the page counters to 05, and remove 'B.C. Clark' from any footer that is left.",
+    "[minor] slide 2: The headline 'A wheel turns one notch' does not match the body, which says 'or a heart-shaped cam'. The photo is described as the 3861 movement, but the slide does not say so. → Body → 'Each press turns a column wheel one step.'",
+    "[minor] slide caption: It says the reset is a 'separate' pusher and credits Gear Patrol for that. The article only says 'press the reset button'. The caption also asks 'which would you wear' about a Speedmaster the cover does not show. → Replace 'A separate reset pusher returns the hands to zero.' with 'A reset pusher returns the hands to zero.' Also change slide 4's body to 'The reset pusher returns the hands to zero.' Change the closing question to 'Which chronograph would you wear, Speedmaster or Daytona?'",
+    "[minor] slide caption: The Daytona price comes from the 20 Nov library check. The caption says B.C. Clark was 'checked 20 November', and the draft notes say the page was never re-read. → Keep the date on the price line exactly as '(B.C. Clark, 20 Nov 2026)'. Remove the sentence 'Auction and resale prices are not covered here.'"
+  ]
+}

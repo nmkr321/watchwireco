@@ -1,0 +1,24 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [
+    {
+      "severity": "minor",
+      "slide": "3",
+      "problem": "The body line is almost as wide as the slide and sits close to the margins.",
+      "change": "Body → 'The start pusher sets the sweep hand moving. Press again to stop.'"
+    }
+  ],
+  "reason": "All earlier majors are fixed. The cover subline now names only the Daytona, which is pictured. The text-only slide is gone, so the post is 5 slides with counters at 05. Caption wording and the price date are corrected, and the check says PASS. The one minor issue left is a slightly wide body line on slide 3. Approved at 18/25.",
+  "fixes": [
+    "[minor] slide 3: The body line is almost as wide as the slide and sits close to the margins. → Body → 'The start pusher sets the sweep hand moving. Press again to stop.'"
+  ]
+}

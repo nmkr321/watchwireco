@@ -1,0 +1,48 @@
+{
+ "source": "Source: Omega; Gear Patrol",
+ "theme": "graphite",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "WATCH EXPLAINED",
+   "line1": "How a chronograph",
+   "line2": "[[actually works]]",
+   "meta": "DAYTONA US$16,900 · NOV 2026",
+   "photo": "watch-wire-engine/library/img/rolex-126500ln.png",
+   "credit": "Image: Rolex"
+  },
+  {
+   "t": "A-photo",
+   "label": "INSIDE · THE MOVEMENT",
+   "headline": "A wheel turns one notch",
+   "photo": "watch-wire-engine/library/img/speedmaster-310/02.png",
+   "credit": "Image: Omega",
+   "body": "Each press turns a column wheel one step.",
+   "source": "Source: Omega; Gear Patrol"
+  },
+  {
+   "t": "A-photo",
+   "label": "STEP 1 · START AND STOP",
+   "headline": "One press starts, one stops",
+   "photo": "watch-wire-engine/library/img/speedmaster-310/03.jpg",
+   "credit": "Image: Omega",
+   "body": "The start pusher sets the sweep hand moving. Press it again to stop.",
+   "source": "Source: Gear Patrol"
+  },
+  {
+   "t": "A-photo",
+   "label": "STEP 2 · RESET",
+   "headline": "A second pusher resets",
+   "photo": "watch-wire-engine/library/img/speedmaster-310/01.png",
+   "credit": "Image: Omega",
+   "body": "The reset pusher returns the hands to zero.",
+   "source": "Source: Gear Patrol"
+  },
+  {
+   "t": "cta",
+   "line1": "Want the next one?",
+   "line2": "Follow @watchwireco",
+   "body": "Which watch function should we explain next?"
+  }
+ ]
+}

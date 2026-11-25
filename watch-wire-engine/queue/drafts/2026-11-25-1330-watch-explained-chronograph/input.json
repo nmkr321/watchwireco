@@ -14,5 +14,8 @@
     "omegawatches.com Speedmaster page",
     "rolex.com Daytona page",
     "tagheuer.com Carrera page"
+  ],
+  "previous_attempts": [
+    "Earlier fixes are done: the cover is photo-led, slides 3 to 5 now have watch photos, and slide 6 compares two watches with prices. One slide still has a cut-off footer, which hides the Daytona price date, so it needs a one-line fix before posting. / Slide 6 footer text is cut off (layout/readable text) / [major] slide 6: Footer line is truncated ('DAYTONA US$16,900 (20 NOV 20...'), so the Daytona price date is cut off. → Footer → 'Prices: Omega US site 25 Nov 2026; B.C. Clark 20 Nov 2026'. If it is still too long, use 'Prices from brand sites and B.C. Clark, Nov 2026'. / [minor] slide 5: The p"
   ]
 }
