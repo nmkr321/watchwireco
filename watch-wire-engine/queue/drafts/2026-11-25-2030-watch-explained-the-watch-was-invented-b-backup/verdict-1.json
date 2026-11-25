@@ -1,0 +1,21 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Owner design rule: the cover is a portrait of Coogler with no gold watch circle (medallion), so no watch is visible on the cover.",
+    "Slide 3 body is 16 words, over the 15-word limit."
+  ],
+  "fixes": [
+    "slide 1: Add the A-spotted gold circle (medallion) showing the Tank à Guichets as an inset on the portrait. Do not add an arrow, because the photo shows a face and not a wrist. Keep the headline block balanced and clear of the circle.",
+    "slide 3: Shorten the body to 15 words or fewer, e.g. 'Retailer price for this model. Coogler's exact reference isn't stated.' Keep the rest of the slide as it is."
+  ],
+  "reason": "The facts check out. Complex reports Coogler wore the Tank à Guichets at the 2026 Oscars, and the Watches of Switzerland price is dated. The cover needs the watch shown in a gold circle, and slide 3's body text needs trimming to 15 words or fewer.",
+  "post_timing_note": "Approve after these two fixes."
+}

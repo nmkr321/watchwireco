@@ -1,0 +1,14 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "fixes": [],
+  "reason": "Both round-1 fixes are in. The cover now has the gold watch medallion with no arrow, and the slide 3 body is under 15 words. The check passes, Complex confirms Coogler wore the Tank à Guichets at the 2026 Oscars, and the Watches of Switzerland price is dated."
+}

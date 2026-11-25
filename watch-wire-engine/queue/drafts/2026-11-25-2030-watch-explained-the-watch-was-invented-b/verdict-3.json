@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 8/lesson: the post is tagged WATCH EXPLAINED but has no sourced how-it-works step. The research says mechanics were not found, so it is history. Lesson: title it as a history story.",
+    "Owner rule: no watch is visible in the photos on slides 2 and 3 (a portrait and a bust). Visual is capped at 3.",
+    "Score total is 14/25, below the 17 needed to approve."
+  ],
+  "fixes": [
+    "slide 1 and caption: change the tag and hashtag from WATCH EXPLAINED to HISTORY (or THE STORY BEHIND), and use #WatchHistory.",
+    "slide 3: change the label 'THE ANSWER', which answers no question, to 'THE STORY'. Swap the bust for a photo that shows the watch, such as Santos-Dumont wearing it or a Cartier heritage image of the 1904 watch.",
+    "slide 2: use the same kind of photo, with the watch visible, if a licensed one exists.",
+    "slide 1: the cover shows a modern WSSA0085, not the 1904 watch. Change the second line to something like 'THE SANTOS-DUMONT' so the picture and the text match.",
+    "slide 5 and caption: use identical CTA wording. The slide says 'Comment WEAR OR PASS' and the caption says 'Comment WEAR or PASS'."
+  ],
+  "reason": "The facts and the price check out, and the layout is now clean. But the post is labelled a watch explainer with no explanation of how anything works, and two of the photos show no watch. Relabel it as history and use photos that show the watch."
+}

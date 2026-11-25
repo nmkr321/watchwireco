@@ -1,0 +1,24 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: slide 1 – the WATCH EXPLAINED tag sits on the bottom of the case, and the headline block crowds the strap. Earlier fix not fully made.",
+    "Gate 6: slides 2, 3 and 5 – the footer source line is cut off with an ellipsis.",
+    "Gate 7: slide 3 credits 'Lorenzo Tlacaelel / CC BY 2.0', but the caption's photo credits leave this out.",
+    "Lesson: slide 4 repeats the 1904 claim already made on slides 1 and 3. Slides 2 and 3 show a portrait and a statue with no watch visible."
+  ],
+  "fixes": [
+    "slide 1: move the photo up or shrink it so the tag clears the case. The tag, headline and gold line should sit in a clear band below the watch, with no overlap.",
+    "slides 2, 3, 5: shorten the footer to 'SOURCE: GEAR PATROL; CARTIER.COM' so it is not truncated. Shorten the caption's source line to match.",
+    "slide 3: add 'Photo: Lorenzo Tlacaelel / CC BY 2.0 via Wikimedia Commons' to the caption's photo credits. Better, swap the bust for a photo of Santos-Dumont wearing the watch, or a Cartier heritage image of the 1904 watch.",
+    "slide 4: delete it, or give it a new sourced claim. 'The year after the Wright Brothers' flight' is already in the research, so fold it into slide 3's body and drop the repeated 1904. Renumber the slides to 5."
+  ],
+  "reason": "The facts and price are sourced, and the check passes. The cover tag still overlaps the case, the footers are cut off, one photo credit is missing from the caption, and slide 4 repeats an earlier claim. These are all small fixes."
+}

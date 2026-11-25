@@ -1,0 +1,23 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Gate 6: slide 1 has a circled arrow below the watch. Owner rules and lessons count this as a stray shape.",
+    "Gate 6: slide 1 headline and tag sit on the top of the watch case and strap instead of in a clear band above the watch.",
+    "Lesson: slides 4 and 5 are two slides on one watch, with no distinct claim each. Slides 3 to 5 are plain text on black."
+  ],
+  "fixes": [
+    "slide 1: remove the circled arrow. Move the watch photo lower, or shrink it, so the tag and headline sit in a clear band above the case.",
+    "slides 4-5: merge into one slide, for example 'Santos-Dumont WSSA0085, steel: USD 5,250 on cartier.com, 25 Nov 2026'. Show the Cartier press photo of that watch on it, cropped differently or with a text-free layout. Remove 'this one' wording that has nothing to point at.",
+    "slide 3: add a permitted Cartier or public-domain image of the 1904 Santos or Santos-Dumont. Do not use black text slides for the whole middle of the story.",
+    "post: there is no 'how it works' or 'why collectors care' step. Add one distinct, sourced claim, or retitle the post as a history story. Keep the caption CTA the same as the CTA slide."
+  ],
+  "reason": "The facts and the price check out and the validator passes. But the cover has a stray arrow and a crowded headline, and the middle slides are text-only, with the price split across two slides."
+}

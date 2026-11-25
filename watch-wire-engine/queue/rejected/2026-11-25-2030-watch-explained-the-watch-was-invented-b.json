@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-25-2030-watch-explained-the-watch-was-invented-b",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-25T05:07:09.678Z",
+  "lane": "history",
+  "format": "WATCH EXPLAINED",
+  "post_at": "2026-11-26T01:30:00.000Z",
+  "slot": 5,
+  "title": "WATCH EXPLAINED: The Watch Was Invented Because A Pilot Couldn't Reach His Pocket (Cartier Santos, 1904)",
+  "hook": "The watch was invented because a pilot could not reach his pocket watch while flying.",
+  "why": "Tension hook in the Dial style, about the story behind one famous watch. Draft only: the 1904 date and the anecdote must be confirmed; the current US retail price of the Santos reference is not verified. Also not checked: a real On This Day anniversary this week.",
+  "sources_to_check": [
+    "Cartier heritage page on the Santos (date and origin story)",
+    "Museum or biography source for Alberto Santos-Dumont and the wristwatch",
+    "cartier.com US retail price for the chosen Santos reference"
+  ],
+  "sources": [
+    {
+      "title": "Cartier heritage page on the Santos (date and origin story)",
+      "link": "",
+      "source": "Cartier heritage page on the Santos (date and origin story)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Museum or biography source for Alberto Santos-Dumont and the wristwatch",
+      "link": "",
+      "source": "Museum or biography source for Alberto Santos-Dumont and the wristwatch",
+      "tier": "to-verify"
+    },
+    {
+      "title": "cartier.com US retail price for the chosen Santos reference",
+      "link": "",
+      "source": "cartier.com US retail price for the chosen Santos reference",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "The story is sourced to Monochrome Watches and the check passes, and the $7,800 price matches the library entry. The cover headline covers the dial, and slide 6 shows the wrong, barely visible watch, so these need fixing before it goes out. / Gate 6 / lesson: on slide 1 the headline sits over the top of the dial and covers the XII numeral, which the lessons say to avoid / Gate 7: slide 6 shows a round, steel-and-gold Santos-style watch on a red book. It is not the Santos-Dumont from the story and is too dark to read. Slide 5 text also covers a dim wrist photo of a different Santos model (ref. ",
+    "The check passes and the facts and Cartier price are fine, and the slide 3 credit and caption call to action are now fixed. The cover headline still covers the dial's XII and the cover still has a stray arrow, so it needs a layout fix before it can go out. / Gate 6: on slide 1 the headline and tag sit over the dial and cover the XII numeral. This was flagged in two earlier rounds and is still not fixed. / Gate 6: slide 1 has a stray circled arrow below the watch, which the owner rules count as a stray shape. / slide 1: Shrink or move the Santos photo down so the tag and headline sit above the "
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 2,
+      "hook": 3,
+      "visual": 3,
+      "clarity": 3,
+      "taste": 3
+    },
+    "hard_gate_failures": [
+      "Gate 8/lesson: the post is tagged WATCH EXPLAINED but has no sourced how-it-works step. The research says mechanics were not found, so it is history. Lesson: title it as a history story.",
+      "Owner rule: no watch is visible in the photos on slides 2 and 3 (a portrait and a bust). Visual is capped at 3.",
+      "Score total is 14/25, below the 17 needed to approve."
+    ],
+    "fixes": [
+      "slide 1 and caption: change the tag and hashtag from WATCH EXPLAINED to HISTORY (or THE STORY BEHIND), and use #WatchHistory.",
+      "slide 3: change the label 'THE ANSWER', which answers no question, to 'THE STORY'. Swap the bust for a photo that shows the watch, such as Santos-Dumont wearing it or a Cartier heritage image of the 1904 watch.",
+      "slide 2: use the same kind of photo, with the watch visible, if a licensed one exists.",
+      "slide 1: the cover shows a modern WSSA0085, not the 1904 watch. Change the second line to something like 'THE SANTOS-DUMONT' so the picture and the text match.",
+      "slide 5 and caption: use identical CTA wording. The slide says 'Comment WEAR OR PASS' and the caption says 'Comment WEAR or PASS'."
+    ],
+    "reason": "The facts and the price check out, and the layout is now clean. But the post is labelled a watch explainer with no explanation of how anything works, and two of the photos show no watch. Relabel it as history and use photos that show the watch."
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-25-2030-watch-explained-the-watch-was-invented-b",
+  "gave_up": true
+}

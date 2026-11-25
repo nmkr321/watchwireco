@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Cartier Tank à Guichets, worn by Ryan Coogler at the 2026 Oscars.\n\nSpotted by Complex. The exact reference he wore is not stated, so the price slide shows the model as listed.\n\nWatches of Switzerland lists it at $152,850 USD, checked 25 November 2026.\n\nWear it or pass? Tell us below.\n\nSource: Complex (Oscars sighting); Watches of Switzerland (price, 25 Nov 2026).\nPhoto: Getty Images, via Complex. Product photo: Cartier.\n\n#CartierTank #RyanCoogler #WatchNews\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2"
+  ],
+  "source_ids": [
+    "SRC-COMPLEX",
+    "SRC-WOS"
+  ],
+  "attribution": "Complex (Oscars sighting); Watches of Switzerland (price, 25 Nov 2026).",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Worn reference not stated by Complex; no wrist-level photo in a cleared source."
+  ],
+  "carousel_sha256": "febf89499ff44ee45bfb7ee1b5dd08c5d31023c14f9ee0b6e9cb121864f8f4d6",
+  "completed_at": "2026-11-25T06:12:45.190Z"
+}

@@ -1,0 +1,9 @@
+{"source": "Complex, Watches of Switzerland",
+ "theme": "graphite",
+ "slides": [
+  {"t": "A-spotted", "label": "Spotted at the 2026 Oscars", "headline": "Ryan Coogler, [[spotted wearing]]", "photo": "watch-wire-engine/library/img/getty-images-complex-01.avif", "watch": "watch-wire-engine/library/img/cartier-tank-guichets.jpg", "credit": "Image: Getty Images, via Complex", "body": "Cartier Tank à Guichets, per Complex."},
+  {"t": "A-photo", "label": "Watch spotlight", "headline": "Cartier Tank à Guichets", "photo": "watch-wire-engine/library/img/cartier-tank-guichets.jpg", "credit": "Image: Cartier", "body": "Rectangular case, a date window and a minute-counter arc."},
+  {"t": "A-number", "tag": "CELEBRITY", "number": "$152,850", "label": "Watches of Switzerland · 25 Nov 2026 · USD", "headline": "Listed price, in dollars", "body": "Retailer price for this model. Coogler's exact reference isn't stated."},
+  {"t": "A-text", "label": "Your call", "headline": "Wear it or pass?", "body": "Comment WEAR or PASS below."},
+  {"t": "cta"}
+ ]}
