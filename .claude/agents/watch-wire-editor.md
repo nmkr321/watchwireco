@@ -54,7 +54,7 @@ Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, 
 4. Look at `<P>/output/slide-01.png` and each photo slide once. Then write `draft.json` in the draft folder:
    `{"status":"ready"|"stopped","project_dir":"<P>","format":"...","lane":"...","headline":"...","slides":["output/slide-01.png"],"caption_file":"caption.json","stop_reason":""}`
 
-Approver fixes: apply only those, then `S finish <P>`, update draft.json.
+Approver fixes: apply EVERY listed issue in one pass, in order, exactly as written (copy quoted text word for word), and change nothing else. Then `S finish <P>`, update draft.json. Reply with each issue as "done" or "not possible: why".
 
 ## Slides
 

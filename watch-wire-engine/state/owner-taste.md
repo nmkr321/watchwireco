@@ -33,3 +33,4 @@ approved), with the date and the reason. Newest at the top.
 - 2026-11-24: Owner reports Getty Images permission (incl. WireImage, AFP via Getty); credit in caption.
 - 2026-11-25: Owner: lean into celebrities (and EVENT SPOTTED), watches explained (how features work), new releases/new lines, features when relevant. Would You Rather, Build Your Collection and "N watches under $X" lists are "not what we're going for": only on request. The engine should keep producing all day.
 - 2026-11-25: Owner: tone down confirming. A fact found in one article or one post is fine to post, credited by name. Finished posts must never be scrapped for polish; stop wasting runs.
+- 2026-11-25: owner wants balance: approver tags each issue major (viewer sees it as wrong) or minor (polish) with an exact fix. Minor-only → applied once and posted without re-review; majors left after the final check → not posted.

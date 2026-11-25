@@ -177,7 +177,9 @@ export function make(file) {
     properties: {
       decision: { enum: ["approve", "revise", "reject"] }, post_timing: { enum: ["now", "next_slot", "hold"] },
       soft_scores: { type: "object" }, hard_gate_failures: { type: "array", items: { type: "string" } },
-      fixes: { type: "array", items: { type: "string" } }, reason: { type: "string" }
+      issues: { type: "array", items: { type: "object", required: ["severity", "slide", "problem", "change"], properties: {
+        severity: { enum: ["major", "minor"] }, slide: { type: "string" }, problem: { type: "string" }, change: { type: "string" } } } },
+      reason: { type: "string" }
     }
   });
   const makePreviews = () => {
@@ -200,29 +202,41 @@ export function make(file) {
       `editor-precheck ${item.id}`);
     pre = lint(path.resolve(WORKSPACE, draft.project_dir), item.format);
   }
-  let verdict;
+  // owner 2026-11-25: every approver issue is major (a viewer would see it as wrong) or minor (polish), with an exact fix.
+  // Only minor → the editor applies them once and the post goes out, no second paid review.
+  // Any major → editor fixes all, approver checks once more; majors still there → the post does not go out.
+  const norm = (v) => {
+    const issues = (v.issues || []).map((i) => ({ severity: i.severity === "minor" ? "minor" : "major", slide: String(i.slide || "?"), problem: i.problem || "", change: i.change || "" }));
+    for (const f of v.fixes || []) issues.push({ severity: "major", slide: "?", problem: String(f), change: String(f) });   // old format: be safe
+    return { ...v, issues, fixes: issues.map((i) => `[${i.severity}] slide ${i.slide}: ${i.problem} → ${i.change}`) };
+  };
+  const majors = (v) => v.issues.filter((i) => i.severity === "major");
+  const passes = () => {
+    const pdir = path.resolve(WORKSPACE, readJson(draftFile).project_dir || draft.project_dir);
+    const chk = spawnSync("node", [path.join(WORKSPACE, "Content Creation/bin/content-creation.js"), "validate", pdir], { encoding: "utf8" });
+    return chk.status === 0 && /PASS/.test(chk.stdout);
+  };
+  const postWithNotes = (v, why) => { log(`${why}: ${v.fixes.join(" / ").slice(0, 200)}`); return { ...v, decision: "approve", post_timing: v.post_timing === "hold" ? "next_slot" : v.post_timing, approved_with_notes: true }; };
+  let verdict, earlier = [];
   for (let round = 1; round <= 2; round++) {
     makePreviews();
-    verdict = parseResult(claude(["--model", APPROVER_MODEL, "--agent", "watch-wire-approver", "--effort", EFFORT.approver, "--max-budget-usd", APPROVER_BUDGET,
+    verdict = norm(parseResult(claude(["--model", APPROVER_MODEL, "--agent", "watch-wire-approver", "--effort", EFFORT.approver, "--max-budget-usd", APPROVER_BUDGET,
       "--allowedTools", "Read Glob Grep Bash WebFetch", "--disallowedTools", "Bash(git:*)", "--output-format", "json", "--json-schema", schema],
-      `Review this Watch Wire draft and decide. Draft folder: ${draftDir}` + formatBrief(item.format) + (pre.length ? `\nThe free pre-check still flags (check these; some may be false alarms): ${JSON.stringify(pre)}` : ""), `approver ${item.id} r${round}`));
+      `Review this Watch Wire draft and decide. Draft folder: ${draftDir}` + formatBrief(item.format) + (pre.length ? `\nThe free pre-check still flags (check these; some may be false alarms): ${JSON.stringify(pre)}` : "")
+      + (round === 2 ? `\nFINAL CHECK. Last round you asked for: ${JSON.stringify(earlier)}. Check each was done. List only issues still there and new MAJOR ones; no new minor tweaks. Nothing major left → approve.` : ""), `approver ${item.id} r${round}`)));
     writeJson(path.join(draftDir, `verdict-${round}.json`), verdict);
-    log(`approver r${round}: ${verdict.decision} (${verdict.reason})`);
-    if (round === 1 && verdict.decision !== "approve") learn(item, [...(verdict.hard_gate_failures || []), ...(verdict.fixes || [])]);
+    log(`approver r${round}: ${verdict.decision}, ${majors(verdict).length} major / ${verdict.issues.length - majors(verdict).length} minor (${verdict.reason})`);
+    if (round === 1 && verdict.decision !== "approve") learn(item, [...(verdict.hard_gate_failures || []), ...verdict.fixes]);
     if (verdict.decision !== "revise" || round === 2) break;
     claude(["--agent", "watch-wire-editor", "--effort", EFFORT.editor, "--max-budget-usd", EDITOR_BUDGET,
       "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--disallowedTools", "Bash(git:*)", "--permission-mode", "acceptEdits", "--output-format", "json"],
-      `Revise the Watch Wire draft in ${draftDir} (project ${draft.project_dir}). Apply exactly these fixes, then run node watch-wire-engine/src/steps.js finish on the project until it says PASS, then update draft.json: ${JSON.stringify(verdict.fixes)}`,
+      `Revise the Watch Wire draft in ${draftDir} (project ${draft.project_dir}). Apply EVERY issue below in one pass, in order, exactly as written (copy quoted text word for word); change nothing else. Then run node watch-wire-engine/src/steps.js finish on the project until it says PASS, then update draft.json. Issues: ${JSON.stringify(verdict.issues)}`,
       `editor-revise ${item.id}`);
+    earlier = verdict.issues;
+    if (!majors(verdict).length) { if (passes()) verdict = postWithNotes(verdict, "only minor tweaks, applied, posting without a second review"); break; }
   }
-
-  // owner 2026-11-25: a finished post is never scrapped for polish. After the last round a "revise" (wanted tweaks,
-  // not a block) still posts if the project passes the check; only "reject" (wrong facts, wrong person/watch, rights) stops it.
-  if (verdict.decision === "revise") {
-    const pdir = path.resolve(WORKSPACE, readJson(draftFile).project_dir || draft.project_dir);
-    const chk = spawnSync("node", [path.join(WORKSPACE, "Content Creation/bin/content-creation.js"), "validate", pdir], { encoding: "utf8" });
-    if (chk.status === 0 && /PASS/.test(chk.stdout)) { log(`posting despite open tweaks: ${(verdict.fixes || []).join(" / ").slice(0, 200)}`); verdict = { ...verdict, decision: "approve", post_timing: verdict.post_timing === "hold" ? "next_slot" : verdict.post_timing, approved_with_notes: true }; }
-  }
+  // after the final check: minor-only leftovers still post; any major left means the post does not go out
+  if (verdict.decision === "revise" && !majors(verdict).length && passes()) verdict = postWithNotes(verdict, "posting despite open minor tweaks");
   if (verdict.decision === "approve") {
     const when = item.post_at ? item.post_at : verdict.post_timing === "now" && item.lane === "breaking" ? new Date().toISOString() : nextSlot(item.lane === "breaking" ? "news" : item.lane);
     // keep a copy of the finished slides + caption in the (git-tracked) queue: projects/ is not saved between cloud runs
@@ -237,7 +251,8 @@ export function make(file) {
   } else {
     Object.assign(item, { status: verdict.decision === "revise" ? "rejected-after-revision" : "rejected", verdict, draft_dir: path.relative(WORKSPACE, draftDir) });
     writeJson(file, item); move(file, "rejected");
-    notify(`Watch Wire rejected: ${draft.headline}\n${verdict.reason}`);
+    const left = verdict.decision === "revise" ? `\nStill wrong: ${majors(verdict).map((i) => `slide ${i.slide}: ${i.problem}`).join("; ")}` : "";
+    notify(`Watch Wire rejected: ${draft.headline}\n${verdict.reason}${left}`);
   }
 }
 
