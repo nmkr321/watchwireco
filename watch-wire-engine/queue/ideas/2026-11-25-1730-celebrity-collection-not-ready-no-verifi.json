@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-25-1730-celebrity-collection-not-ready-no-verifi",
+  "status": "idea",
+  "found_at": "2026-11-25T05:07:09.678Z",
+  "lane": "rotation",
+  "format": "CELEBRITY COLLECTION",
+  "post_at": "2026-11-25T22:30:00.000Z",
+  "slot": 4,
+  "title": "CELEBRITY COLLECTION: NOT READY (no verified celebrity name)",
+  "hook": "Not ready. Needs a named celebrity whose watches a trusted outlet has named.",
+  "why": "Repeated attempts were blocked for lack of a verified name; the Kevin O'Leary backup is already on the list. Needs at least two watches with references and prices from a trusted outlet.",
+  "sources_to_check": [
+    "Robb Report, Hodinkee or Fratello collection coverage naming the watches",
+    "Brand or retailer pages for each reference's US price"
+  ],
+  "sources": [
+    {
+      "title": "Robb Report, Hodinkee or Fratello collection coverage naming the watches",
+      "link": "",
+      "source": "Robb Report, Hodinkee or Fratello collection coverage naming the watches",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand or retailer pages for each reference's US price",
+      "link": "",
+      "source": "Brand or retailer pages for each reference's US price",
+      "tier": "to-verify"
+    }
+  ]
+}

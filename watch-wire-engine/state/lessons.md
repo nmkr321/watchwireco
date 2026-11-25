@@ -1,23 +1,23 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [BUILD YOUR COLLECTION] After swapping any image or changing a price cap, make the slide and caption credit lines list exactly the brands whose photos appear.
-- [BUILD YOUR COLLECTION] Before drafting, confirm every brand pictured has a state/permissions.json entry; if one lacks it, swap in a watch from a permitted brand.
-- [BUILD YOUR COLLECTION] Check each pick against its price cap and confirm the caps sum to the stated total before marking the draft finished.
-- [BUILD YOUR COLLECTION] In every format, select image candidates only from brands listed in state/permissions.json; unpermitted brands never enter a draft, even as a backup.
-- [BUILD YOUR COLLECTION] Before drafting, check each image's credit line against its state/permissions.json entry and copy that exact credit wording into the slides and caption.
-- [BUILD YOUR COLLECTION] Check permitted-brand photo count when choosing the topic; if it can't fill the slides, pick a different topic rather than drafting.
-- [BUILD YOUR COLLECTION] Pick a topic that needs no watch photos, or one whose permitted brands already supply every pictured watch, before drafting.
-- [AUCTIONS] Use only auction results you opened and read yourself; if lots or hammer prices can't be read, choose another sale.
-- [AUCTIONS] Never treat a news redirect or aggregator headline as proof of a sale; confirm the year and sale name on the house's page first.
-- [AUCTIONS] Compare the sale date with today's date; a sale not yet held is a preview, so draft it as a preview, never as results.
-- [AUCTIONS] Before writing any hammer price or result, open the house's results page and confirm the lots and prices shown there.
-- [AUCTIONS] If a house's site or source is blocked or returns 403, mark that sale unverified and pick another sale you can open.
-- [AUCTIONS] Take every sale date from the covered house's own site; never borrow another house's date to fill a gap.
-- [NEW RELEASES] Confirm each model's exact reference on the brand's own page before sourcing its photo; a 404 means the reference is wrong.
-- [NEW RELEASES] If a brand page shows no product image, try its press kit; if that fails too, swap in a watch whose photo already loads.
-- [NEW RELEASES] Name a model only when its reference, dated price and a loaded product photo from a permitted brand are all verified; facts alone do not make it a pick.
-- [NEW RELEASES] If a named release lacks a verified photo, replace it with a verified release from a permitted brand before drafting the slides and caption.
-- [NEW RELEASES] If a source redirects to a paywall or login gate, treat it as unread; never use its facts or count it as verification.
-- [LISTICLE] Match each slide's photo to one named pick and its reference before drafting; reject lifestyle shots, smudges or glows, and tiny watches.
-- [LISTICLE] Treat variants of one model line, such as Artelier and Artelier S, as one pick; never list two in a single post.
+- [TOP 5 THIS WEEK] If fewer than five releases verify, switch to a different format from FORMATS.md instead of padding the list with unverified or older items.
+- [TOP 5 THIS WEEK] Where sources disagree on a release date or price, drop that item unless the brand's own press page settles it.
+- [TOP 5 THIS WEEK] Start the search from each permitted brand's newsroom or press page, not third-party roundups or buyer's guides, when hunting releases.
+- [TOP 5 THIS WEEK] Limit each weekly-count format to one drafting attempt per run; on the first shortfall, switch to another FORMATS.md format in that same run.
+- [TOP 5 THIS WEEK] Before drafting, make a list of the dated releases that qualify and count them; repeat searches only for brands whose press pages were not yet checked.
+- [WATCH EXPLAINED] Use only wording from a verified source for mechanics; never paraphrase ratios, speeds or zone counts from memory.
+- [WATCH EXPLAINED] Give every explainer slide its own credited dial or movement photo from a permitted source; text-only slides fail the recipe.
+- [WATCH EXPLAINED] Compare prices only between watches in a similar price band; if no verified close-priced pick exists, drop the price comparison.
+- [WATCH EXPLAINED] Every slide claim, including 'why it matters' lines, must match a verified claim or be cut before drafting.
+- [WATCH EXPLAINED] Keep overlay tags and captions off the watch's key feature, such as the tourbillon aperture, so the subject stays fully visible.
+- [WATCH EXPLAINED] Every explainer needs a verified buyer takeaway and named example watches, each with its own credited photo, before drafting slides.
+- [WATCH EXPLAINED] Before finishing, score the draft against the 25-point rubric and revise until it reaches at least 17.
+- [WATCH EXPLAINED] Cap research at roughly half the run's budget, then draft slides and caption from verified facts so the post finishes in the same run.
+- [WATCH EXPLAINED] Take prices and example references only from sources dated the current year; older articles may verify mechanics wording but not current prices.
+- [NEW RELEASES] If no brand press release dated within 30 days verifies after one search pass, switch to another FORMATS.md format in the same run.
+- [NEW RELEASES] Undated pages and older roundups never satisfy a recency window; search brand newsrooms for dated releases instead.
+- [NEW RELEASES] A single retailer or outlet listing never verifies a release; confirm it on the brand's press page or two independent dated outlets.
+- [NEW RELEASES] If searches return only roundups, query each permitted brand's newsroom by name plus "press release" and month to find dated items.
+- [NEW RELEASES] Keep a list of brands already searched this run and their results; never re-search a brand that returned no dated release.
+- [NEW RELEASES] If a brand's press page is empty or unreachable, mark that brand unverified and move to the next brand or format.

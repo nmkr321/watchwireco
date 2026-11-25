@@ -1018,3 +1018,34 @@
 2026-11-24T21:42:39.183Z	learn 2026-11-25-0130-ap-five-new-watches-backup	claude-haiku-5-5	0.0023	2
 2026-11-24T21:44:31.789Z	editor 2026-11-25-0130-ap-five-new-watches-backup	claude-haiku-5-5	0.0290	32
 2026-11-24T21:44:57.092Z	approver 2026-11-25-0130-ap-five-new-watches-backup r1	claude-sonnet-5-5	0.0926	15
+2026-11-25T05:07:09.677Z	planner	claude-haiku-5-5	0.0092	4
+2026-11-25T05:07:20.743Z	editor 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying-	claude-haiku-5-5	0.0158	4
+2026-11-25T05:07:25.596Z	learn 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying-	claude-haiku-5-5	0.0048	3
+2026-11-25T05:07:38.653Z	editor 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying-	claude-haiku-5-5	0.0265	5
+2026-11-25T05:07:43.497Z	learn 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying-	claude-haiku-5-5	0.0021	2
+2026-11-25T05:07:58.372Z	editor 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying-	claude-haiku-5-5	0.0146	5
+2026-11-25T05:08:04.059Z	learn 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying-	claude-haiku-5-5	0.0021	2
+2026-11-25T05:09:58.230Z	editor 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0360	28
+2026-11-25T05:10:16.155Z	approver 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup r1	claude-sonnet-5-5	0.1071	12
+2026-11-25T05:10:20.559Z	learn 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0021	2
+2026-11-25T05:11:46.539Z	editor-revise 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0258	14
+2026-11-25T05:12:01.319Z	approver 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup r2	claude-sonnet-5-5	0.0660	7
+2026-11-25T05:12:48.059Z	editor-revise 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0109	9
+2026-11-25T05:13:06.508Z	approver 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup r3	claude-sonnet-5-5	0.0639	9
+2026-11-25T05:13:12.346Z	learn 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0022	2
+2026-11-25T05:15:21.101Z	editor 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0404	29
+2026-11-25T05:15:38.498Z	approver 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup r1	claude-sonnet-5-5	0.0863	11
+2026-11-25T05:15:44.542Z	learn 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0023	2
+2026-11-25T05:17:47.324Z	editor-revise 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0210	19
+2026-11-25T05:18:01.295Z	approver 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup r2	claude-sonnet-5-5	0.0466	7
+2026-11-25T05:18:45.165Z	editor-revise 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0215	14
+2026-11-25T05:18:55.671Z	approver 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup r3	claude-sonnet-5-5	0.0321	6
+2026-11-25T05:19:00.013Z	learn 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0021	2
+2026-11-25T05:19:34.590Z	editor 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0310	8
+2026-11-25T05:19:42.031Z	learn 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup	claude-haiku-5-5	0.0024	2
+2026-11-25T05:20:01.987Z	editor 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup-backup	claude-haiku-5-5	0.0266	5
+2026-11-25T05:20:07.743Z	learn 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup-backup	claude-haiku-5-5	0.0022	2
+2026-11-25T05:20:27.729Z	editor 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup-backup	claude-haiku-5-5	0.0275	6
+2026-11-25T05:20:32.781Z	learn 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup-backup	claude-haiku-5-5	0.0021	2
+2026-11-25T05:20:51.686Z	editor 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup-backup	claude-haiku-5-5	0.0266	7
+2026-11-25T05:20:59.228Z	learn 2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup-backup	claude-haiku-5-5	0.0024	2

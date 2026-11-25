@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup",
+  "lane": "news",
+  "status": "idea",
+  "found_at": "2026-11-25T05:08:04.061Z",
+  "post_at": "2026-11-25T13:30:00.000Z",
+  "backup_for": "2026-11-25-0830-top-5-this-week-not-ready-no-qualifying-",
+  "backup_depth": 1,
+  "tried_formats": [
+    "TOP 5 THIS WEEK"
+  ],
+  "format": "WATCH EXPLAINED",
+  "title": "Backup WATCH EXPLAINED for the slot of: TOP 5 THIS WEEK: NOT READY (no qualifying release found in headlines)",
+  "hook": "",
+  "why": "Backup post. Explain one watch feature in plain words (minute repeater, tourbillon, GMT, perpetual calendar, chronograph, moonphase, flyback...), ideally one in a 2026 release. Photos: brand press images (official pages, or article images credited to the brand via `PH credited`). One trusted source per fact.",
+  "sources": [],
+  "previous_attempts": [
+    "The facts and prices check out and the validator passes. But four explainer slides reuse one product photo, the $1,450 vs $33,200 price spread is too wide to be useful, and the 'collectors care' line has no source. / Lesson: every explainer slide needs its own credited dial or movement photo. Slides 3 and 6 reuse the cover's Timex product shot, and slide 4 looks to be the same case. / Gate 10: $1,450 next to $33,200 is a huge price spread with no clear buyer. / Gate 4: slide 6's 'why collectors care' line is not in any verified claim. / slides 2, 3, 4, 6: give each its own different credited p",
+    "The engine stopped this tourbillon explainer itself. The cover still hides the tourbillon, and it has no collector-value slide or second credited photo, so it isn't ready. It needs a clear cover and the missing slide before it can go out. / Gate 6 and lessons: on the cover, the TOURBILLON tag and the headline sit over the tourbillon aperture, so the key feature is hidden. / Recipe: the draft is stopped by the engine itself. There is no collector-value slide and no second credited photo. / Lessons: the named example watches have no photos of their own. / Gate 3: the mechanics claims were not co"
+  ]
+}

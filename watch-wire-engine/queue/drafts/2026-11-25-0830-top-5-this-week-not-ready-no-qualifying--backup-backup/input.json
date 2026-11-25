@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup-backup",
+  "lane": "news",
+  "status": "idea",
+  "found_at": "2026-11-25T05:19:42.032Z",
+  "post_at": "2026-11-25T13:30:00.000Z",
+  "backup_for": "2026-11-25-0830-top-5-this-week-not-ready-no-qualifying-",
+  "backup_depth": 2,
+  "tried_formats": [
+    "WATCH EXPLAINED",
+    "TOP 5 THIS WEEK"
+  ],
+  "format": "NEW RELEASES",
+  "title": "Backup NEW RELEASES for the slot of: Backup WATCH EXPLAINED for the slot of: TOP 5 THIS WEEK: NOT READY (no qualifying release found in headlines)",
+  "hook": "",
+  "why": "Backup post. A watch released in the last 30 days by a major brand. Specs and price from the brand page or one trusted outlet (named). Photos: brand press images (official page, or article images credited to the brand via `PH credited`).",
+  "sources": [],
+  "previous_attempts": [
+    "No qualifying release found: three searches turned up no major-brand release dated in the last 30 days with a verified reference, dated price and permitted loaded photo. Only undated or older roundups and single-outlet items came back, and per the lessons a named release needs all three checks. Noth",
+    "No qualifying NEW RELEASES item after one search pass. Two searches (November 2026 new watch releases; Rolex, Omega, Cartier November 2026) returned only roundups, undated or older items (Watches and Wonders April 2026, Gear Patrol roundups), and single-outlet retailer listings (Praesidus Montar, Om"
+  ]
+}

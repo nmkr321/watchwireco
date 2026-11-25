@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-25-1130-celebrity-not-ready-no-verified-celebrit",
+  "status": "idea",
+  "found_at": "2026-11-25T05:07:09.678Z",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "post_at": "2026-11-25T16:30:00.000Z",
+  "slot": 2,
+  "title": "CELEBRITY: NOT READY (no verified celebrity watch found)",
+  "hook": "Not ready. No named celebrity has a confirmed watch reported by a trusted outlet from the last few weeks.",
+  "why": "The Sienna Spiro headline names no watch. The Pattinson/Omega story is on the do-not-repeat list. Needs a named person and a reference reported by a trusted outlet, plus a US retail price.",
+  "sources_to_check": [
+    "Robb Report celebrity watch coverage (last few weeks)",
+    "Hodinkee, Fratello, Watchpro celebrity sightings",
+    "Brand press pages for the named reference and price"
+  ],
+  "sources": [
+    {
+      "title": "Robb Report celebrity watch coverage (last few weeks)",
+      "link": "",
+      "source": "Robb Report celebrity watch coverage (last few weeks)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Hodinkee, Fratello, Watchpro celebrity sightings",
+      "link": "",
+      "source": "Hodinkee, Fratello, Watchpro celebrity sightings",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand press pages for the named reference and price",
+      "link": "",
+      "source": "Brand press pages for the named reference and price",
+      "tier": "to-verify"
+    }
+  ]
+}

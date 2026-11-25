@@ -1,5 +1,5 @@
 # How posts are doing
-Updated 2026-11-24 from 18 posts. Score = 4×shares + 3×saves + 2×comments + likes (per post, day-1 or day-7 numbers).
+Updated 2026-11-25 from 19 posts. Score = 4×shares + 3×saves + 2×comments + likes (per post, day-1 or day-7 numbers).
 
 
 ## By format
@@ -8,7 +8,7 @@ Updated 2026-11-24 from 18 posts. Score = 4×shares + 3×saves + 2×comments + l
 - LISTICLE: score 2.0 (3 posts)
 - CELEBRITY: score 2.0 (3 posts)
 - BUILD YOUR COLLECTION: score 2.0 (2 posts)
-- WOULD YOU RATHER: score 1.8 (5 posts)
+- WOULD YOU RATHER: score 1.5 (6 posts)
 - MARKET: score 1.0 (2 posts)
 - HISTORY: score 0.0 (1 posts)
 
@@ -17,8 +17,8 @@ Updated 2026-11-24 from 18 posts. Score = 4×shares + 3×saves + 2×comments + l
 - 12 PM: score 3.0 (1 posts)
 - 5 PM: score 3.0 (1 posts)
 - 6 PM: score 2.3 (3 posts)
-- 9 PM: score 2.0 (3 posts)
 - 10 AM: score 2.0 (1 posts)
+- 9 PM: score 1.5 (4 posts)
 - 8 PM: score 1.3 (3 posts)
 - 7 AM: score 1.0 (1 posts)
 - 10 PM: score 1.0 (2 posts)

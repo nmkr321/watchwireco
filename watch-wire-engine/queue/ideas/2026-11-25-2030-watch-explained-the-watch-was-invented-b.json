@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-25-2030-watch-explained-the-watch-was-invented-b",
+  "status": "idea",
+  "found_at": "2026-11-25T05:07:09.678Z",
+  "lane": "history",
+  "format": "WATCH EXPLAINED",
+  "post_at": "2026-11-26T01:30:00.000Z",
+  "slot": 5,
+  "title": "WATCH EXPLAINED: The Watch Was Invented Because A Pilot Couldn't Reach His Pocket (Cartier Santos, 1904)",
+  "hook": "The watch was invented because a pilot could not reach his pocket watch while flying.",
+  "why": "Tension hook in the Dial style, about the story behind one famous watch. Draft only: the 1904 date and the anecdote must be confirmed; the current US retail price of the Santos reference is not verified. Also not checked: a real On This Day anniversary this week.",
+  "sources_to_check": [
+    "Cartier heritage page on the Santos (date and origin story)",
+    "Museum or biography source for Alberto Santos-Dumont and the wristwatch",
+    "cartier.com US retail price for the chosen Santos reference"
+  ],
+  "sources": [
+    {
+      "title": "Cartier heritage page on the Santos (date and origin story)",
+      "link": "",
+      "source": "Cartier heritage page on the Santos (date and origin story)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Museum or biography source for Alberto Santos-Dumont and the wristwatch",
+      "link": "",
+      "source": "Museum or biography source for Alberto Santos-Dumont and the wristwatch",
+      "tier": "to-verify"
+    },
+    {
+      "title": "cartier.com US retail price for the chosen Santos reference",
+      "link": "",
+      "source": "cartier.com US retail price for the chosen Santos reference",
+      "tier": "to-verify"
+    }
+  ]
+}

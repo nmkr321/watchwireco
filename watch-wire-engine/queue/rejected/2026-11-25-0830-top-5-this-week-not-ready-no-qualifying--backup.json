@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-25-0830-top-5-this-week-not-ready-no-qualifying--backup",
+  "lane": "news",
+  "status": "stopped",
+  "found_at": "2026-11-25T05:08:04.061Z",
+  "post_at": "2026-11-25T13:30:00.000Z",
+  "backup_for": "2026-11-25-0830-top-5-this-week-not-ready-no-qualifying-",
+  "backup_depth": 1,
+  "tried_formats": [
+    "TOP 5 THIS WEEK"
+  ],
+  "format": "WATCH EXPLAINED",
+  "title": "Backup WATCH EXPLAINED for the slot of: TOP 5 THIS WEEK: NOT READY (no qualifying release found in headlines)",
+  "hook": "",
+  "why": "Backup post. Explain one watch feature in plain words (minute repeater, tourbillon, GMT, perpetual calendar, chronograph, moonphase, flyback...), ideally one in a 2026 release. Photos: brand press images (official pages, or article images credited to the brand via `PH credited`). One trusted source per fact.",
+  "sources": [],
+  "previous_attempts": [
+    "The facts and prices check out and the validator passes. But four explainer slides reuse one product photo, the $1,450 vs $33,200 price spread is too wide to be useful, and the 'collectors care' line has no source. / Lesson: every explainer slide needs its own credited dial or movement photo. Slides 3 and 6 reuse the cover's Timex product shot, and slide 4 looks to be the same case. / Gate 10: $1,450 next to $33,200 is a huge price spread with no clear buyer. / Gate 4: slide 6's 'why collectors care' line is not in any verified claim. / slides 2, 3, 4, 6: give each its own different credited p",
+    "The engine stopped this tourbillon explainer itself. The cover still hides the tourbillon, and it has no collector-value slide or second credited photo, so it isn't ready. It needs a clear cover and the missing slide before it can go out. / Gate 6 and lessons: on the cover, the TOURBILLON tag and the headline sit over the tourbillon aperture, so the key feature is hidden. / Recipe: the draft is stopped by the engine itself. There is no collector-value slide and no second credited photo. / Lessons: the named example watches have no photos of their own. / Gate 3: the mechanics claims were not co"
+  ],
+  "stop_reason": "Stopped before drafting. Budget is nearly used up (about $0.03 of $0.60 spent on research, $0.57 left). Verified facts so far: the T3 article (published 19 April 2024) gives the tourbillon mechanics wording and a 'generally start at around £20,000' range. The 2026 examples found (Breguet 7357 at $203,000 US MSRP, AP Royal Oak Flying Tourbillon reportedly about CHF 187,500) have no permitted press photos or verified dealer prices yet. The explainer rules need a separate credited dial or movement photo on each slide and a verified collector-value line, and neither is confirmed. The library has no tourbillon watch. Suggested next step: rerun on a watch already in the library (for example a GMT or chronograph explainer) with a budget that covers 4 to 5 credited photos.",
+  "gave_up": true
+}
