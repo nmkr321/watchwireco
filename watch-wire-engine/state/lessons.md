@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [WATCH EXPLAINED] Name in cover tag and sub-line only watches visibly pictured on the cover; mention other models in later slides that show their photo.
-- [CELEBRITY] Take prices only from the brand or an official retailer; cite independent trackers only as resale estimates, never as retail price.
 - [CELEBRITY] Include a slide showing the celebrity wearing the featured watch, and keep the inset and all text off his face.
 - [CELEBRITY] Before approving a portrait cover, check the rendered image: the watch inset must sit in a corner, fully off the face.
 - [CELEBRITY] When a review flags a fix not yet applied, change the layout itself; never re-render the same template position.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY] Pick watches whose exact reference is in the permitted library and published by the brand; never name a reference from a press article alone.
 - [CELEBRITY] Name the full model and reference in the post, never a bare brand name, and make sure a permitted photo shows that same reference.
 - [CELEBRITY] If no candidate passes every check, draw new candidates from the permitted library until one does; never publish a failed one.
+- [NEW RELEASES] Each slide must add a fact no earlier slide or the caption already states; never repeat dates, stores, sale windows or closing lines across slides.
+- [NEW RELEASES] Give each detail one home slide, and check rendered text so no line wraps to leave a single word alone.

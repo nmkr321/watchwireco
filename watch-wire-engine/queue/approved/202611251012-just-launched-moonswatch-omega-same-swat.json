@@ -1,0 +1,79 @@
+{
+  "id": "202611251012-just-launched-moonswatch-omega-same-swat",
+  "lane": "breaking",
+  "status": "approved",
+  "found_at": "2026-11-25T10:12:01.490Z",
+  "title": "Omega x Swatch Just Launched a New MoonSwatch – and No Two Are the Same",
+  "score": 7,
+  "sources": [
+    {
+      "title": "Omega x Swatch Just Launched a New MoonSwatch – and No Two Are the Same",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUTk3OEQ1LU1OLUF6dEpaUG5qTzFvQ2hmdHJmQzVhUi1vNFJLQktybUhZdDlTZ1plQ25nbUdKRUZabk9EMWdLNDFXX05KclF1RFRPaFFPVjlqSElyVnp3N3BLM2dTS1AwZWFCSVI3NVlzZmgyb19rN3ZfQllHbHkxaXdvVE8?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Esquire",
+      "domain": "esquire.com",
+      "tier": "major_news",
+      "published": "Wed, 25 Nov 2026 09:03:26 GMT"
+    },
+    {
+      "title": "Weather Permitting: The Omega × Swatch MoonSwatch Mission to Earthphase – Silver Snowflake",
+      "link": "https://www.fratellowatches.com/omega-x-swatch-moonswatch-mission-to-earthphase-silver-snowflake-a-moonswatch-that-depends-on-the-weather/",
+      "feed_summary": "The MoonSwatch has never been short on spectacle, but Swatch keeps finding ways to make sure we talk about it. The latest release takes exclusivity to an entirely new level — not by limiting production numbers, but by letting Mother Nature decide when you can buy one. Meet the Omega × Swatch MoonSwatch Mission to [ ] Visit Weather Permitting: The Omega × Swatch MoonSwatch Mission to Earthphase – Silver Snowflake to read the full article.",
+      "source": "Fratello Watches",
+      "domain": "fratellowatches.com",
+      "tier": "watch_press",
+      "published": "Wed, 25 Nov 2026 09:09:57 GMT"
+    }
+  ],
+  "format": "NEW RELEASES",
+  "scheduled_for": "2026-11-25T13:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/202611251012-just-launched-moonswatch-omega-same-swat",
+  "project_dir": "Content Creation/projects/202611251012-just-launched-moonswatch-omega-same-swat",
+  "post_dir": "watch-wire-engine/queue/drafts/202611251012-just-launched-moonswatch-omega-same-swat/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 4,
+      "hook": 4,
+      "visual": 3,
+      "clarity": 4,
+      "taste": 3
+    },
+    "hard_gate_failures": [],
+    "issues": [
+      {
+        "severity": "minor",
+        "slide": "3",
+        "problem": "'EUR 400 IN EUROS' is redundant, and the body wraps to leave '2026.' on a line by itself",
+        "change": "headline → 'Also EUR 400'; body → 'Selected Swatch stores, per Fratello Watches.'"
+      },
+      {
+        "severity": "minor",
+        "slide": "5",
+        "problem": "The slide repeats the date and stores already on slide 3 and adds nothing new",
+        "change": "headline → 'Snow decides availability'; body → 'Each watch has its own laser-engraved snowflake.'"
+      },
+      {
+        "severity": "minor",
+        "slide": "2",
+        "problem": "The closing line about the engraved snowflake is now repeated on slide 5",
+        "change": "body → 'Black strap with Velcro closure, reference SSX01B701.'"
+      },
+      {
+        "severity": "minor",
+        "slide": "4",
+        "problem": "The slide repeats the sale window and snow rule that slide 1 and the caption already give",
+        "change": "headline → 'Weather sets the drop'; body → 'Buy only on snowy days in Switzerland, until 20 March 2027.'"
+      }
+    ],
+    "reason": "The facts match the Fratello source and the Swatch product image is official and credited. The post is a timely, niche release, but slides 3 to 5 repeat each other and slide 3 has an awkward line break. These are minor fixes, so the editor can apply them and post without a second review.",
+    "fixes": [
+      "[minor] slide 3: 'EUR 400 IN EUROS' is redundant, and the body wraps to leave '2026.' on a line by itself → headline → 'Also EUR 400'; body → 'Selected Swatch stores, per Fratello Watches.'",
+      "[minor] slide 5: The slide repeats the date and stores already on slide 3 and adds nothing new → headline → 'Snow decides availability'; body → 'Each watch has its own laser-engraved snowflake.'",
+      "[minor] slide 2: The closing line about the engraved snowflake is now repeated on slide 5 → body → 'Black strap with Velcro closure, reference SSX01B701.'",
+      "[minor] slide 4: The slide repeats the sale window and snow rule that slide 1 and the caption already give → headline → 'Weather sets the drop'; body → 'Buy only on snowy days in Switzerland, until 20 March 2027.'"
+    ],
+    "approved_with_notes": true
+  }
+}

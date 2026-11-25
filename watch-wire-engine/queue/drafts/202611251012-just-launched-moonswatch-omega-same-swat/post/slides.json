@@ -1,0 +1,11 @@
+{"source": "Source: Fratello Watches, 25 Nov 2026; Swatch",
+ "theme": "graphite",
+ "slides": [
+  {"t": "A-cover", "tag": "NEW RELEASE", "line1": "MoonSwatch Silver", "line2": "Snowflake", "meta": "Sold only when it snows in Switzerland", "photo": "watch-wire-engine/library/img/swatch-ssx01b701.png", "credit": "Image: Swatch", "footLeft": "Source: Fratello Watches · Swatch"},
+  {"t": "A-table", "label": "Specs · SSX01B701", "headline": "Black Bioceramic, Snoopy dial", "cols": ["Spec", "Detail"], "rows": [["Case", "Black Bioceramic, 42mm wide"], ["Thickness", "13.75mm with domed crystal"], ["Dial", "Black sunray, Snoopy illustration"], ["Strap", "Black, Velcro closure"]], "hl": 0, "body": "Black strap with Velcro closure, reference SSX01B701."},
+  {"t": "A-number", "tag": "PRICE", "number": "CHF 350", "label": "Price · from 27 Nov 2026", "headline": "Also EUR 400", "body": "Selected Swatch stores, per Fratello Watches."},
+  {"t": "A-text", "label": "Why it matters", "headline": "Weather sets the drop", "body": "Buy only on snowy days in Switzerland, until 20 March 2027."},
+  {"t": "A-text", "label": "Where to buy", "headline": "Snow decides availability", "body": "Each watch has its own laser-engraved snowflake."},
+  {"t": "A-text", "label": "Our take", "headline": "A snow-day limited edition", "body": "Stock depends on Swiss snow, so check store news first."},
+  {"t": "cta", "line1": "Would you wait for snow?", "line2": "Follow @watchwireco", "body": "Daily watch news, checked."}
+ ]}

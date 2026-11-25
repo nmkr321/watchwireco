@@ -1174,3 +1174,10 @@
 2026-11-25T08:20:48.835Z	learn 2026-11-25-1800-event-f1-las-vegas-backup	claude-haiku-5-5	0.0025	2
 2026-11-25T08:21:23.406Z	editor 2026-11-25-1800-event-f1-las-vegas-backup	claude-haiku-5-5	0.0322	11
 2026-11-25T08:21:31.478Z	learn 2026-11-25-1800-event-f1-las-vegas-backup	claude-haiku-5-5	0.0025	2
+2026-11-25T10:12:06.322Z	triage 202611251012-boutique-deutsch-deutsch-diamond-displac	claude-haiku-5-5	0.0041	2
+2026-11-25T10:12:10.863Z	triage 202611251012-just-launched-moonswatch-omega-same-swat	claude-haiku-5-5	0.0020	3
+2026-11-25T10:14:16.958Z	editor 202611251012-just-launched-moonswatch-omega-same-swat	claude-haiku-5-5	0.0588	29
+2026-11-25T10:14:53.569Z	editor-precheck 202611251012-just-launched-moonswatch-omega-same-swat	claude-haiku-5-5	0.0057	9
+2026-11-25T10:15:18.421Z	approver 202611251012-just-launched-moonswatch-omega-same-swat r1	claude-sonnet-5-5	0.1291	14
+2026-11-25T10:15:22.475Z	learn 202611251012-just-launched-moonswatch-omega-same-swat	claude-haiku-5-5	0.0043	2
+2026-11-25T10:15:44.806Z	editor-revise 202611251012-just-launched-moonswatch-omega-same-swat	claude-haiku-5-5	0.0038	9

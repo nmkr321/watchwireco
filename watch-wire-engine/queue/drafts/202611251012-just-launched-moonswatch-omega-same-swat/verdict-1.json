@@ -1,0 +1,45 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 4,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [],
+  "issues": [
+    {
+      "severity": "minor",
+      "slide": "3",
+      "problem": "'EUR 400 IN EUROS' is redundant, and the body wraps to leave '2026.' on a line by itself",
+      "change": "headline → 'Also EUR 400'; body → 'Selected Swatch stores, per Fratello Watches.'"
+    },
+    {
+      "severity": "minor",
+      "slide": "5",
+      "problem": "The slide repeats the date and stores already on slide 3 and adds nothing new",
+      "change": "headline → 'Snow decides availability'; body → 'Each watch has its own laser-engraved snowflake.'"
+    },
+    {
+      "severity": "minor",
+      "slide": "2",
+      "problem": "The closing line about the engraved snowflake is now repeated on slide 5",
+      "change": "body → 'Black strap with Velcro closure, reference SSX01B701.'"
+    },
+    {
+      "severity": "minor",
+      "slide": "4",
+      "problem": "The slide repeats the sale window and snow rule that slide 1 and the caption already give",
+      "change": "headline → 'Weather sets the drop'; body → 'Buy only on snowy days in Switzerland, until 20 March 2027.'"
+    }
+  ],
+  "reason": "The facts match the Fratello source and the Swatch product image is official and credited. The post is a timely, niche release, but slides 3 to 5 repeat each other and slide 3 has an awkward line break. These are minor fixes, so the editor can apply them and post without a second review.",
+  "fixes": [
+    "[minor] slide 3: 'EUR 400 IN EUROS' is redundant, and the body wraps to leave '2026.' on a line by itself → headline → 'Also EUR 400'; body → 'Selected Swatch stores, per Fratello Watches.'",
+    "[minor] slide 5: The slide repeats the date and stores already on slide 3 and adds nothing new → headline → 'Snow decides availability'; body → 'Each watch has its own laser-engraved snowflake.'",
+    "[minor] slide 2: The closing line about the engraved snowflake is now repeated on slide 5 → body → 'Black strap with Velcro closure, reference SSX01B701.'",
+    "[minor] slide 4: The slide repeats the sale window and snow rule that slide 1 and the caption already give → headline → 'Weather sets the drop'; body → 'Buy only on snowy days in Switzerland, until 20 March 2027.'"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "202611251012-boutique-deutsch-deutsch-diamond-displac",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-25T10:12:01.490Z",
+  "title": "Diamond Cellar displaces Deutsch & Deutsch to run Houston’s only Rolex boutique",
+  "score": 6,
+  "sources": [
+    {
+      "title": "Diamond Cellar displaces Deutsch & Deutsch to run Houston’s only Rolex boutique",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqOUJGVUdVLUFGY0xGNGFlbGM1VGVxTnhPeVV0TFlLWllocG9EdjhEWXJTWm9GSkVNWEdQakt6LUttY3hhWXYzZUM0SmxvZVJpT2F3NVhMTDBrVFFULVIyQkNyRUxjS1l1b251RFkyMHRKQVlnZ2luTkFYbW5kQUE?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "WatchPro USA",
+      "domain": "usa.watchpro.com",
+      "tier": "watch_press",
+      "published": "Wed, 25 Nov 2026 09:53:23 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NONE",
+    "reason": "Not a breaking post. A local authorized dealer swapping which Houston store carries the Rolex boutique is a regional retail change. It is not a brand-level move, price change, auction result, launch, or industry data point that collectors need today. Source is a trade outlet (WatchPro USA), so it is not sponsored content, but it is still too minor to justify an immediate post."
+  }
+}

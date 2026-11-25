@@ -5424,5 +5424,29 @@
   "credit": "Image: Patek Philippe",
   "usage": "Patek Philippe 5167R-001 official product image, credited",
   "fetched": "2026-11-25"
+ },
+ {
+  "kind": "watch",
+  "brand": "Swatch",
+  "ref": "SSX01B701",
+  "title": "Swatch SSX01B701",
+  "source": "https://www.swatch.com/en-sa/mission-to-earthphase-silver-snowflake-ssx01b701/SSX01B701.html",
+  "image_url": "https://static.swatch.com/images/product/SSX01B701/sa200/SSX01B701_sa200_er005.png",
+  "file": "watch-wire-engine/library/img/swatch-ssx01b701.png",
+  "w": 824,
+  "h": 918,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 1700,
+   "currency": "SAR",
+   "source": "https://www.swatch.com/en-sa/mission-to-earthphase-silver-snowflake-ssx01b701/SSX01B701.html",
+   "date": "2026-11-25"
+  },
+  "rights": "official",
+  "creator": "Swatch",
+  "credit": "Image: Swatch",
+  "usage": "Swatch SSX01B701 official product image, credited",
+  "fetched": "2026-11-25"
  }
 ]
