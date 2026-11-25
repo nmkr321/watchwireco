@@ -1,6 +1,6 @@
 {
   "id": "2026-11-25-1730-celebrity-collection-not-ready-no-verifi",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-25T05:07:09.678Z",
   "lane": "rotation",
   "format": "CELEBRITY COLLECTION",
@@ -48,5 +48,24 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "The post uses the fixes from the last round. The check passes. The cover headline is now 5 words and the sub-line no longer promises six watches. The footers fit on one line, and the closing take is clear. Outlook India (19 Aug 2026) names the Daytona 126506, Aquanaut 5167R and Tank Américaine WGTA0134, and the prices come from the official or retailer pages, dated 25 Nov. Ready for the next slot."
+  },
+  "posted_at": "2026-11-25T23:03:22.983Z",
+  "publish": {
+    "live": true,
+    "media_id": "17890363059492266",
+    "permalink": "https://www.instagram.com/p/DgLqkVElwtS/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "caption_chars": 642
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
