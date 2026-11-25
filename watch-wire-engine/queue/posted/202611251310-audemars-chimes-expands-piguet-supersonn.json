@@ -1,7 +1,7 @@
 {
   "id": "202611251310-audemars-chimes-expands-piguet-supersonn",
   "lane": "breaking",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-25T13:10:41.800Z",
   "title": "Three New Chimes: Audemars Piguet Expands Its Supersonnerie Line",
   "score": 6,
@@ -58,5 +58,23 @@
       "[minor] slide 5: Closing question is filler, and the slide wraps to leave 'first time?' on its own line → body → 'Monochrome calls it identical to the 2021 model.'",
       "[minor] slide 2: The photo shows as a visible black box against the dark background → No wording fix. If the template allows, render the photo without the box edge. Otherwise leave as is."
     ]
+  },
+  "posted_at": "2026-11-25T14:26:06.791Z",
+  "publish": {
+    "live": true,
+    "media_id": "18136036709501450",
+    "permalink": "https://www.instagram.com/p/DgKvXV9F6bm/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png"
+      ],
+      "caption_chars": 820
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }

@@ -1,7 +1,7 @@
 {
   "id": "202611251012-just-launched-moonswatch-omega-same-swat",
   "lane": "breaking",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-25T10:12:01.490Z",
   "title": "Omega x Swatch Just Launched a New MoonSwatch – and No Two Are the Same",
   "score": 7,
@@ -75,5 +75,24 @@
       "[minor] slide 4: The slide repeats the sale window and snow rule that slide 1 and the caption already give → headline → 'Weather sets the drop'; body → 'Buy only on snowy days in Switzerland, until 20 March 2027.'"
     ],
     "approved_with_notes": true
+  },
+  "posted_at": "2026-11-25T14:24:56.553Z",
+  "publish": {
+    "live": true,
+    "media_id": "18174378217465599",
+    "permalink": "https://www.instagram.com/p/DgKvPOjl9_Q/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "caption_chars": 624
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }

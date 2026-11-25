@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "manual": true,
   "found_at": "2026-11-25T08:10:00Z",
   "sources": [],
@@ -45,5 +45,22 @@
     "fixes": [
       "[minor] slide 3: The body line is almost as wide as the slide and sits close to the margins. → Body → 'The start pusher sets the sweep hand moving. Press again to stop.'"
     ]
+  },
+  "posted_at": "2026-11-25T14:23:47.345Z",
+  "publish": {
+    "live": true,
+    "media_id": "18139719796710096",
+    "permalink": "https://www.instagram.com/p/DgKvGVmF82s/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 723
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }

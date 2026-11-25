@@ -1,7 +1,7 @@
 {
   "id": "202611251310-introducing-moonswatch-omega-silver-snow",
   "lane": "breaking",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-25T13:10:41.800Z",
   "title": "Swatch x Omega MoonSwatch Silver Snowflake | INTRODUCING",
   "score": 6,
@@ -66,5 +66,23 @@
       "[minor] slide caption: Repeats the slide facts and adds the travel advice that is being cut → Delete 'Check the store and the forecast before you travel.' Keep the rest."
     ],
     "approved_with_notes": true
+  },
+  "posted_at": "2026-11-25T14:27:12.540Z",
+  "publish": {
+    "live": true,
+    "media_id": "18130837363849530",
+    "permalink": "https://www.instagram.com/p/DgKvf1KF7qc/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png"
+      ],
+      "caption_chars": 518
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
