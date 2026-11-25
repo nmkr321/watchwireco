@@ -242,24 +242,35 @@ async function credited(url, word, owner, slugName) {
   for (const m of html.matchAll(/<img[^>]+>/gi)) {
     const src = (m[0].match(/src="([^"]+)"/) || [])[1]; if (!src) continue;
     const alt = (m[0].match(/alt="([^"]*)"/) || [])[1] || "";
-    const after = strip(html.slice(m.index + m[0].length, m.index + m[0].length + 400));
-    const creditLine = after.split(/\s{2,}| (?=[A-Z][a-z]+ [A-Z])/)[0].slice(0, 60);       // text right under the image
-    if (!after.toLowerCase().startsWith(word.toLowerCase()) || /^\s*(\/|,|&|and\b)/i.test(after.slice(word.length))) continue;   // credited to the owner alone
-    const next = after.slice(word.length).split("<")[0].trim().slice(0, 80);                 // usually the next heading
-    const u = new URL(src, url); for (const k of ["resize", "crop", "w", "width"]) u.searchParams.delete(k);
+    const raw = html.slice(m.index + m[0].length, m.index + m[0].length + 1200);
+    const after = strip(raw.split(/<img/i)[0]).slice(0, 400);                                // text under this image only
+    let creditLine = after.split(/\s{2,}| (?=[A-Z][a-z]+ [A-Z])/)[0].slice(0, 60);
+    const alone = after.toLowerCase().startsWith(word.toLowerCase()) && !/^\s*(\/|,|&|and\b)/i.test(after.slice(word.length));
+    // agency style (2026-11-25): "Photo by Clive Mason/Getty Images", "Franck Fife/AFP via Getty Images", "(Getty Images for F1)"
+    const w = word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const ag = (after + " " + alt).match(new RegExp(`(?:^|[(\\[]|\\b(?:photo(?:graph)?s?|images?|credit|by)\\b:?)\\s*(?:by\\s+)?(?:[A-Z][\\w.'’-]+(?:\\s[A-Z][\\w.'’-]+){0,3}\\s*\\/\\s*)?(?:[A-Z]{2,6}\\s+via\\s+)?${w}[^.()\\]]{0,30}`, "i"));
+    const other = ag && /\b(AP|Associated Press|Reuters|Shutterstock|EPA|Alamy|Imagn|USA TODAY|Backgrid|Splash|MEGA)\b/.test(ag[0]);
+    if (!alone && !(ag && !other)) continue;                                                 // credited to the owner (or only via it)
+    if (!alone) creditLine = ag[0].split("<")[0].replace(/^[(\[]/, "").trim().slice(0, 80);
+    const next = after.slice(alone ? word.length : 0).split("<")[0].trim().slice(0, 80);
+    // biggest version: largest srcset entry, and CDN size settings in the path (cloudinary-style w_720) bumped up
+    let best = src, bw = 0;
+    for (const part of ((m[0].match(/srcset="([^"]+)"/) || [])[1] || "").split(",")) { const [s2, ww] = part.trim().split(/\s+/); if (s2 && parseInt(ww) > bw) { best = s2; bw = parseInt(ww); } }
+    const u = new URL(best.replace(/([,/])w_\d{2,4}(?=[,/])/g, "$1w_1600").replace(/([,/])h_\d{2,4}(?=[,/])/g, "$1h_1600"), url); for (const k of ["resize", "crop", "w", "width"]) u.searchParams.delete(k);
+    if (found.some((x) => x.u === u.toString())) continue;
     found.push({ u: u.toString(), alt, next, creditLine });
   }
   if (!found.length) fail(`no images credited only to ${word} on that page`);
-  const kept = [];
+  const kept = [], skipped = [];
   for (const [i, f] of found.slice(0, 10).entries()) {
     try {
       const d = await download(f.u, `${path.basename(dir)}/${String(i + 1).padStart(2, "0")}`);
       const e = { kind: "credited", title: `${owner} image ${i + 1}: ${f.alt.slice(0, 80)}`, about: f.next, source: url, image_url: f.u, ...d,
         rights: "licensed", creator: owner, credit: `Image: ${owner}, via ${host[0].toUpperCase() + host.slice(1)}`, usage: `${owner} image used with owner-stated permission, credited`, fetched: new Date().toISOString().slice(0, 10) };
-      save(e); kept.push({ photo: e.file, shows: f.alt.slice(0, 70), next_heading: f.next.slice(0, 50) });
-    } catch {}
+      save(e); kept.push({ photo: e.file, shows: f.alt.slice(0, 70), next_heading: f.next.slice(0, 50), credit_line: f.creditLine });
+    } catch (err) { skipped.push(`${f.u.slice(0, 90)}: ${String(err.message).slice(0, 80)}`); }
   }
-  out({ ok: true, credit: `Image: ${owner}, via ${host[0].toUpperCase() + host.slice(1)}`, images: kept });
+  out({ ok: kept.length > 0, credit: `Image: ${owner}, via ${host[0].toUpperCase() + host.slice(1)}`, images: kept, ...(skipped.length ? { skipped } : {}) });
 }
 
 // ---------- owner: a photo the owner chose and dropped into watch-wire-engine/owner-photos/ ----------

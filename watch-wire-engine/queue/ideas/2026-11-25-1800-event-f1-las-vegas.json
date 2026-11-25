@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-25-1800-event-f1-las-vegas",
+  "lane": "rotation",
+  "status": "idea",
+  "manual": true,
+  "found_at": "2026-11-25T05:20:00Z",
+  "post_at": "2026-11-25T18:00:00.000Z",
+  "format": "EVENT SPOTTED",
+  "title": "Watches spotted at the 2026 F1 Las Vegas Grand Prix",
+  "hook": "Watches spotted at the 2026 F1 Las Vegas Grand Prix",
+  "why": "Owner asked for this (2026-11-25): the owner's favourite format. Pick 3-5 drivers and celebrities at the Las Vegas GP whose watches a trusted outlet named (one outlet each is enough, credited). Photos: Getty Images event photos from news articles via `PH credited <article-url> --credit Getty --owner \"Getty Images\"` (permitted); watch photos from brand press images. Cover: EVENT layout, people:[3 Getty photos], watches:[their watches], theme oxblood. Then one A-spotted per person (Getty photo + their watch in the medallion, name, watch, price) \u2192 Your call: best wrist of the weekend? \u2192 cta. Caption credits 'Photo: Getty Images' and each brand. Photo finder fixed 2026-11-25: credits like 'Photo by X/Getty Images' now work. Good pages: si.com 'every celebrity we spotted at F1 Las Vegas', People, Hollywood Reporter, formula1.com galleries. Use the 2026 race (Nov 2026) only; if no 2026 Getty event photos exist yet, make it about the drivers' watches at the race (each driver's watch partner, brand press photos).",
+  "sources_to_check": [
+    "Getty Images coverage of the 2026 Las Vegas Grand Prix",
+    "Robb Report, GQ, Hodinkee, WatchPro, Esquire watch-spotting at the Las Vegas GP"
+  ],
+  "sources": []
+}
