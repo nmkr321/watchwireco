@@ -30,11 +30,11 @@ Comparisons show both watches on the cover; no "e.g." anywhere.
    `watch-wire-engine/library/index.json` (`price` with source and date) were read by the engine
    from the official page that day: treat them as confirmed, do not re-fetch those pages. The same
    goes for `verified_facts` in the draft's input.json (read by the engine from the named page).
-3. Core fact from a primary/official source or two trusted outlets. Single scoop →
-   revise: "label as reportedly". Exception (owner, 2026-11-21): a celebrity wearing a watch
-   needs only ONE trusted outlet (or the brand or the celebrity), credited by name ("spotted by GQ").
-   Never reject or revise a celebrity post for having a single source.
-4. Nothing unconfirmed stated as fact; no predictions or investment advice.
+3. Sources (owner, 2026-11-25): ONE readable article or one post by the brand, celebrity or a known watch account is
+   enough for any fact, credited by name. Never revise or reject for a single source or missing "reportedly".
+   Decisions: "reject" ONLY for a false fact, the wrong person or watch pictured, or a photo without rights.
+   Everything else (layout, wording, polish) is "revise" with exact fixes; after the last round the post goes out.
+4. Nothing made up or contradicted by its source; no predictions or investment advice.
 5. Brand: right template (A, or D for story/history, never mixed), tag on cover, at most one
    champagne highlight per slide, readable text, ends with the CTA slide.
 6. Layout on every preview: the main block looks centred and balanced (or deliberately

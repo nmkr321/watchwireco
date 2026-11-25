@@ -17,7 +17,7 @@ The editor reads this before every post. Written automatically from rejections; 
 - [WATCH EXPLAINED] Take prices and example references only from sources dated the current year; older articles may verify mechanics wording but not current prices.
 - [NEW RELEASES] If no brand press release dated within 30 days verifies after one search pass, switch to another FORMATS.md format in the same run.
 - [NEW RELEASES] Undated pages and older roundups never satisfy a recency window; search brand newsrooms for dated releases instead.
-- [NEW RELEASES] A single retailer or outlet listing never verifies a release; confirm it on the brand's press page or two independent dated outlets.
+- [NEW RELEASES] One named article is enough for a release (owner 2026-11-25); a retailer listing alone is not an article.
 - [NEW RELEASES] If searches return only roundups, query each permitted brand's newsroom by name plus "press release" and month to find dated items.
 - [NEW RELEASES] Keep a list of brands already searched this run and their results; never re-search a brand that returned no dated release.
 - [NEW RELEASES] If a brand's press page is empty or unreachable, mark that brand unverified and move to the next brand or format.

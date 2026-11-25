@@ -150,7 +150,7 @@ export function make(file) {
     "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--disallowedTools", "Bash(git:*)", "--permission-mode", "acceptEdits",
     "--output-format", "json"],
     `Make one Watch Wire carousel. Input file: ${path.join(draftDir, "input.json")}. Draft folder (write draft.json here): ${draftDir}. Lane: ${item.lane}. ${item.format ? "Format: " + item.format + "." : ""}` + formatBrief(item.format) +
-    (item.previous_attempts?.length ? ` This is attempt ${item.previous_attempts.length + 1}. Earlier attempts failed for these reasons; do not repeat them (find other trusted sources or a different angle on the same topic if needed): ${JSON.stringify(item.previous_attempts)}` : ""),
+    (item.previous_attempts?.length ? ` This is attempt ${item.previous_attempts.length + 1}. Earlier attempts failed for these reasons; do not repeat them (if the subject itself was the problem, pick a DIFFERENT subject for the same format and make that instead; never stop for lack of a second source): ${JSON.stringify(item.previous_attempts)}` : ""),
     `editor ${item.id}`);
 
   const draftFile = path.join(draftDir, "draft.json");
@@ -201,7 +201,7 @@ export function make(file) {
     pre = lint(path.resolve(WORKSPACE, draft.project_dir), item.format);
   }
   let verdict;
-  for (let round = 1; round <= 3; round++) {
+  for (let round = 1; round <= 2; round++) {
     makePreviews();
     verdict = parseResult(claude(["--model", APPROVER_MODEL, "--agent", "watch-wire-approver", "--effort", EFFORT.approver, "--max-budget-usd", APPROVER_BUDGET,
       "--allowedTools", "Read Glob Grep Bash WebFetch", "--disallowedTools", "Bash(git:*)", "--output-format", "json", "--json-schema", schema],
@@ -209,13 +209,20 @@ export function make(file) {
     writeJson(path.join(draftDir, `verdict-${round}.json`), verdict);
     log(`approver r${round}: ${verdict.decision} (${verdict.reason})`);
     if (round === 1 && verdict.decision !== "approve") learn(item, [...(verdict.hard_gate_failures || []), ...(verdict.fixes || [])]);
-    if (verdict.decision !== "revise" || round === 3) break;
+    if (verdict.decision !== "revise" || round === 2) break;
     claude(["--agent", "watch-wire-editor", "--effort", EFFORT.editor, "--max-budget-usd", EDITOR_BUDGET,
       "--allowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch", "--disallowedTools", "Bash(git:*)", "--permission-mode", "acceptEdits", "--output-format", "json"],
       `Revise the Watch Wire draft in ${draftDir} (project ${draft.project_dir}). Apply exactly these fixes, then run node watch-wire-engine/src/steps.js finish on the project until it says PASS, then update draft.json: ${JSON.stringify(verdict.fixes)}`,
       `editor-revise ${item.id}`);
   }
 
+  // owner 2026-11-25: a finished post is never scrapped for polish. After the last round a "revise" (wanted tweaks,
+  // not a block) still posts if the project passes the check; only "reject" (wrong facts, wrong person/watch, rights) stops it.
+  if (verdict.decision === "revise") {
+    const pdir = path.resolve(WORKSPACE, readJson(draftFile).project_dir || draft.project_dir);
+    const chk = spawnSync("node", [path.join(WORKSPACE, "Content Creation/bin/content-creation.js"), "validate", pdir], { encoding: "utf8" });
+    if (chk.status === 0 && /PASS/.test(chk.stdout)) { log(`posting despite open tweaks: ${(verdict.fixes || []).join(" / ").slice(0, 200)}`); verdict = { ...verdict, decision: "approve", post_timing: verdict.post_timing === "hold" ? "next_slot" : verdict.post_timing, approved_with_notes: true }; }
+  }
   if (verdict.decision === "approve") {
     const when = item.post_at ? item.post_at : verdict.post_timing === "now" && item.lane === "breaking" ? new Date().toISOString() : nextSlot(item.lane === "breaking" ? "news" : item.lane);
     // keep a copy of the finished slides + caption in the (git-tracked) queue: projects/ is not saved between cloud runs
@@ -324,7 +331,7 @@ Write at most 2 short general rules (under 25 words each) that would stop the ed
 }
 
 // ---------- make with retries: a rejected post is made again (with the reasons), then a backup fills the slot ----------
-const MAX_ATTEMPTS = Number(process.env.WW_MAX_ATTEMPTS || 3);
+const MAX_ATTEMPTS = Number(process.env.WW_MAX_ATTEMPTS || 2);   // owner 2026-11-25: fewer wasted runs
 export function makeWithRetries(file) {
   const home = path.dirname(file), name = path.basename(file);
   const me = readJson(file);
@@ -380,7 +387,7 @@ function backup(item) {
   // a failed slot gets up to two backups in different formats (owner: "keep trying, don't leave the slot empty"),
   // unless the slot has already passed
   const depth = item.backup_depth || (item.backup_for ? 1 : 0);
-  if (depth >= 2 || item.lane === "breaking" || !item.post_at || Date.now() - Date.parse(item.post_at) > 3600e3) { log(`gave up: ${item.title}`); return; }
+  if (depth >= 1 || item.lane === "breaking" || !item.post_at || Date.now() - Date.parse(item.post_at) > 3600e3) { log(`gave up: ${item.title}`); return; }
   const id = `${item.id}-backup`;
   // pick a type different from every post within 4 hours of this slot (never the same type back to back)
   const t = Date.parse(item.post_at), near = new Set();
@@ -400,7 +407,7 @@ function backup(item) {
     "NEW RELEASES": "A watch released in the last 30 days by a major brand. Specs and price from the brand page or one trusted outlet (named). Photos: brand press images (official page, or article images credited to the brand via `PH credited`).",
     "EVENT SPOTTED": "Watches spotted at one real event from the last 10 days (race, awards, red carpet, big game). Getty Images photos via `PH credited <article-url> --credit Getty --owner \"Getty Images\"`, watch photos from the brand. One trusted outlet naming each watch is enough.",
     "CELEBRITY": `A DIFFERENT celebrity from the failed post (${item.title}). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.`,
-    "STORY BEHIND": "Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told only with facts from the brand's own history pages or two trusted outlets. Photos via photo.js (official or free-licence).",
+    "STORY BEHIND": "Pick a different subject from the failed post: the story behind one famous watch or watchmaker, told with facts from the brand's history pages or one named article. Photos via photo.js (official or free-licence).",
     "LISTICLE": "Start with `node watch-wire-engine/src/photo.js list --min X --max Y` to see unused verified watches. Must pass the value test in FORMATS.md: one clear use case or buyer and a tight price band (e.g. 'holiday gift watches under $5K', 'watches for a suit under $10K'),  Prices and photos from watch-wire-engine/library or official pages. No watches used in today's approved posts.",
     "WOULD YOU RATHER": "Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
     "BUILD YOUR COLLECTION": "Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Tiered collection from watch-wire-engine/library, watches not used today." }[format];

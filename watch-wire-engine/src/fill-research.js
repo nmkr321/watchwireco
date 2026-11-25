@@ -16,8 +16,8 @@ const set = (k, v) => { if (s[k] === undefined || (Array.isArray(s[k]) && !s[k].
 set("topic_scope", a.scope || a.conclusion || "Watch Wire carousel topic");
 set("sample_definition", "Primary and trusted sources named in evidence.json");
 set("time_window", new Date().toISOString().slice(0, 10));
-set("claim_ranking_method", "Primary/official sources first, then two trusted outlets");
-set("stopping_rule", "Stop when every on-slide fact has a primary source or two trusted outlets");
+set("claim_ranking_method", "Official sources first, else one named article or post");
+set("stopping_rule", "Stop when every on-slide fact has one named source");
 const have = new Set((s.signal_counts || []).map((c) => c.platform));
 s.signal_counts = [...(s.signal_counts || []), ...skip.filter((p) => !have.has(p)).map((platform) => ({ platform, unique_authors: 0, qualifying_posts: 0 }))];
 set("platform_findings", skip.map((p) => `${p}: skipped (automation mode, no browser)`));

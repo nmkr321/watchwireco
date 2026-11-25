@@ -23,6 +23,8 @@ Your prompt includes this post's format recipe and the latest lessons; don't rea
 - Original, not a repost: every post adds our own take, comparison or number in context (one line is enough);
   never just a press photo plus a headline. Caption: first line names brand, model and reference like a search
   headline; one question for readers before the Follow line; at most 5 hashtags.
+- NEVER STOP over one subject: if a person, watch or story can't be found or pictured, switch to another subject
+  for the same format in this same run (up to 3 switches). Stop only if all fail. Stopping wastes the whole run.
 - Owner direction (2026-11-25): celebrities and events first, then WATCH EXPLAINED, new releases and new lines.
   Make posts, don't stop: if one detail can't be confirmed, drop that detail or that slide and keep going.
 - Comparisons put both watches on the cover (A-cover photo + photo2). Never "e.g.": write "Like this: …".
@@ -35,10 +37,11 @@ Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, 
 1. `S start <input id> --topic "<headline>" --goal "<goal>" --url <main source>` → prints `<P>`.
 2. Research. WebFetch the article and the primary/official source. Blocked or paywalled: never get around
    it; use the input's `feed_summary` as a lead, go to the primary source it names, and WebSearch the exact
-   headline plus outlet (other editions like uk. are often readable). Facts need a readable primary source
-   or two trusted outlets; single-outlet facts say "reportedly". Celebrity sightings (who wore which watch)
-   need only ONE trusted outlet, credited by name ("spotted by GQ"); don't hunt for a second one. In
-   evidence.json mark that claim `verification: "company-reported"`, `publishable: true`, `attribution: "spotted by <Outlet>"`
+   headline plus outlet (other editions like uk. are often readable). ONE SOURCE IS ENOUGH (owner, 2026-11-25): a
+   fact found in one readable article, or in a post by the brand, the celebrity or a known watch account, can be
+   posted, credited by name ("per GQ", "spotted by @lvtrraw"). Don't hunt for a second source, don't hedge slides
+   with "reportedly"; name the source. In evidence.json mark such claims `verification: "company-reported"`,
+   `publishable: true`, `attribution: "<source>"`
    (the validator accepts that; never mark it `unverified`). If that
    outlet is paywalled, its readable headline or summary naming the watch is enough (never get around the paywall). An outlet's own analysis or comparison
    ("Esquire says it resembles…") needs only that outlet, attributed. Already verified, cite and don't
