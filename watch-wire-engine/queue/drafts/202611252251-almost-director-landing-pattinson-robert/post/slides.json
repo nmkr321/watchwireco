@@ -1,0 +1,11 @@
+{
+ "source": "Source: Deadline; Hypebeast; Watches of Switzerland",
+ "slides": [
+  {"t": "A-cover", "tag": "CELEBRITY", "line1": "Robert Pattinson", "line2": "lands James Bond", "meta": "Reportedly the next 007 · Deadline, 25 Nov 2026", "photo": "watch-wire-engine/library/img/pattinson-jlc-03.jpg", "credit": "Image: Jaeger-LeCoultre, via Hypebeast", "footLeft": "Source: Deadline · Hypebeast"},
+  {"t": "A-photo", "label": "WATCH SPOTLIGHT", "headline": "JLC Master Control Q4158120", "photo": "watch-wire-engine/library/img/jaeger-lecoultre-q4158120.jpg", "credit": "Image: Jaeger-LeCoultre", "body": "A current Master Control, USD 14,200 at Watches of Switzerland."},
+  {"t": "A-number", "tag": "PRICE", "number": "$14,200", "label": "Watches of Switzerland · 21 Nov 2026", "headline": "MASTER CONTROL Q4158120", "body": "Price as listed by the retailer on 21 November 2026."},
+  {"t": "A-text", "label": "THE LINK", "headline": "Ambassador since September", "body": "Hypebeast reported Pattinson's Jaeger-LeCoultre appointment on 2 September 2026."},
+  {"t": "A-text", "label": "THE OSCARS", "headline": "A rose-gold Master Control", "body": "Pattinson recalled a rose-gold Master Control at the Oscars, per Hypebeast."},
+  {"t": "cta", "line1": "Follow for more", "line2": "DAILY WATCH NEWS", "body": "Watch Wire covers the watches behind the headlines."}
+ ]
+}

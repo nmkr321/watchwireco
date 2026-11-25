@@ -1,10 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY] When a review flags a fix not yet applied, change the layout itself; never re-render the same template position.
-- [CELEBRITY] Every slide that names a person or watch must show its permitted photo; never place that slide as text on plain black.
-- [CELEBRITY] Slide bodies must state sourced facts or specifications only; replace opinion claims like 'our take' with a cited spec.
-- [CELEBRITY] Use only sightings and prices dated within the last 12 months; for any older source, put its month and year in the body and caption.
 - [CELEBRITY] Never use 'wears', 'spotted' or 'now' for a sighting unless a month and year sit in the same sentence.
 - [CELEBRITY] Before choosing a subject, confirm both a permitted watch photo and a brand or retailer price exist; if either is missing, drop that candidate and try the next.
 - [CELEBRITY] If a brand site blocks access (403) and no permitted source gives its price, switch to a candidate with accessible sources; never guess a price.
@@ -21,3 +17,7 @@ The editor reads this before every post. Written automatically from rejections; 
 - [NEW RELEASES] Give each detail one home slide, and check rendered text so no line wraps to leave a single word alone.
 - [NEW RELEASES] Cut a slide rather than pad it: if no new sourced fact is left for a slide, drop it and keep the rest of the carousel.
 - [NEW RELEASES] Write the caption last, and delete any caption sentence that repeats a slide fact or adds advice outside the sourced facts.
+- [CELEBRITY] Generate the research stage with the Content Creation research agent; never hand-write research fields such as schema_version or ledgers.
+- [CELEBRITY] Before finish validation, confirm research.schema_version is 2.0 and route is hook-writer-agent, then run validation.
+- [CELEBRITY] Before finishing, check each slide's text fits its box without overlapping other elements, and remove any leftover template brackets such as [[ ]].
+- [CELEBRITY] Copy each headline word-for-word from the slide into carousel.json and the caption; never reword it in one place only.

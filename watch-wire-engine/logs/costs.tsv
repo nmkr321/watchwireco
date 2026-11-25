@@ -1190,3 +1190,11 @@
 2026-11-25T13:16:28.850Z	approver 202611251310-introducing-moonswatch-omega-silver-snow r1	claude-sonnet-5-5	0.0918	12
 2026-11-25T13:16:35.064Z	learn 202611251310-introducing-moonswatch-omega-silver-snow	claude-haiku-5-5	0.0051	3
 2026-11-25T13:16:57.553Z	editor-revise 202611251310-introducing-moonswatch-omega-silver-snow	claude-haiku-5-5	0.0052	11
+2026-11-25T22:51:41.110Z	triage 202611252251-almost-director-landing-pattinson-robert	claude-haiku-5-5	0.0042	2
+2026-11-25T22:53:36.795Z	editor 202611252251-almost-director-landing-pattinson-robert	claude-haiku-5-5	0.0654	29
+2026-11-25T22:53:41.535Z	learn 202611252251-almost-director-landing-pattinson-robert	claude-haiku-5-5	0.0045	2
+2026-11-25T22:55:18.266Z	editor 202611252251-almost-director-landing-pattinson-robert	claude-haiku-5-5	0.0389	25
+2026-11-25T22:55:47.128Z	approver 202611252251-almost-director-landing-pattinson-robert r1	claude-sonnet-5-5	0.1382	15
+2026-11-25T22:55:53.952Z	learn 202611252251-almost-director-landing-pattinson-robert	claude-haiku-5-5	0.0023	2
+2026-11-25T22:56:43.328Z	editor-revise 202611252251-almost-director-landing-pattinson-robert	claude-haiku-5-5	0.0126	19
+2026-11-25T22:56:53.576Z	approver 202611252251-almost-director-landing-pattinson-robert r2	claude-sonnet-5-5	0.0639	9

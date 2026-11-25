@@ -1,0 +1,70 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 4,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Slide 3 text overlaps",
+    "Cover photo not in assets/manifest.json (no rights entry)",
+    "No watch visible in cover photo",
+    "Watch pictured is not tied to Pattinson"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "1",
+      "problem": "Cover photo of Pattinson has no entry in assets/manifest.json (only the watch image is listed), so its rights are unverified. The credit 'via Hypebeast' is also unproven. No watch is visible on him.",
+      "change": "Run `photo.js credited <url>` (or use a permitted Getty/JLC press photo) to add Pattinson wearing a JLC watch to the manifest with rights official or licensed. Credit it exactly as the manifest says on the slide and in the caption.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "3",
+      "problem": "Price block overlaps. 'USD 14,200' wraps onto two lines and collides with the headline and the source line.",
+      "change": "Set the big number to the single line '$14,200'. Move 'MASTER CONTROL Q4158120' below it with no overlap.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "2",
+      "problem": "The Q4158120 is a steel, blue-dial reference with no sourced link to Pattinson. His Oscars watch was rose gold. The post says 'the watch in this post', which is filler and gives no reason to save or share.",
+      "change": "Show the rose-gold Master Control if a permitted JLC image exists, and retitle the slide with that exact reference and its Watches of Switzerland price. If none exists, headline → 'JLC Master Control Q4158120' and body → 'A current Master Control, USD 14,200 at Watches of Switzerland.' Drop the claim that the Q4158120 is Pattinson's.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "6",
+      "problem": "The CTA headline shows stray '[[' and ']]' brackets around the gold line.",
+      "change": "Set the gold line to 'DAILY WATCH NEWS' with no brackets.",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "1",
+      "problem": "The headline is 'Robert Pattinson Lands James Bond' on the slide but 'lands Bond' in carousel.json, and the subline repeats 'reportedly'.",
+      "change": "Make the carousel.json headline match the slide: 'Pattinson Lands James Bond'.",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "5",
+      "problem": "The Hypebeast article does not name the Oscars year. It is only inferred from a link tag.",
+      "change": "Body → 'Pattinson recalled a rose-gold Master Control at the Oscars, per Hypebeast.' Caption: remove '2026' before 'Oscars'.",
+      "text_only": true
+    }
+  ],
+  "reason": "The story is timely and the core facts check out. Pattinson being named a JLC ambassador (2 Sep 2026) is confirmed, and Deadline ran the Bond story. But the cover photo has no rights record, the price slide overlaps, the CTA shows stray brackets, and the pictured steel watch isn't tied to Pattinson.",
+  "fixes": [
+    "[major] slide 1: Cover photo of Pattinson has no entry in assets/manifest.json (only the watch image is listed), so its rights are unverified. The credit 'via Hypebeast' is also unproven. No watch is visible on him. → Run `photo.js credited <url>` (or use a permitted Getty/JLC press photo) to add Pattinson wearing a JLC watch to the manifest with rights official or licensed. Credit it exactly as the manifest says on the slide and in the caption.",
+    "[major] slide 3: Price block overlaps. 'USD 14,200' wraps onto two lines and collides with the headline and the source line. → Set the big number to the single line '$14,200'. Move 'MASTER CONTROL Q4158120' below it with no overlap.",
+    "[major] slide 2: The Q4158120 is a steel, blue-dial reference with no sourced link to Pattinson. His Oscars watch was rose gold. The post says 'the watch in this post', which is filler and gives no reason to save or share. → Show the rose-gold Master Control if a permitted JLC image exists, and retitle the slide with that exact reference and its Watches of Switzerland price. If none exists, headline → 'JLC Master Control Q4158120' and body → 'A current Master Control, USD 14,200 at Watches of Switzerland.' Drop the claim that the Q4158120 is Pattinson's.",
+    "[major] slide 6: The CTA headline shows stray '[[' and ']]' brackets around the gold line. → Set the gold line to 'DAILY WATCH NEWS' with no brackets.",
+    "[minor] slide 1: The headline is 'Robert Pattinson Lands James Bond' on the slide but 'lands Bond' in carousel.json, and the subline repeats 'reportedly'. → Make the carousel.json headline match the slide: 'Pattinson Lands James Bond'.",
+    "[minor] slide 5: The Hypebeast article does not name the Oscars year. It is only inferred from a link tag. → Body → 'Pattinson recalled a rose-gold Master Control at the Oscars, per Hypebeast.' Caption: remove '2026' before 'Oscars'."
+  ]
+}

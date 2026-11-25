@@ -1,0 +1,23 @@
+{
+  "id": "202611252251-almost-director-landing-pattinson-robert",
+  "lane": "breaking",
+  "status": "idea",
+  "found_at": "2026-11-25T22:51:35.893Z",
+  "title": "'Twilight' Director On Robert Pattinson Landing James Bond Role: \"I Almost Fell Out Of My Bed\"",
+  "score": 6,
+  "sources": [
+    {
+      "title": "'Twilight' Director On Robert Pattinson Landing James Bond Role: \"I Almost Fell Out Of My Bed\"",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSXhkdVN6cFhQcWswVTdOeHRRRUtMVW9zbGVQNmN3d3U2cVJOMWdwV1ZCNXJNN0N1UEZtT1FKT0R6RjViU1BaZUxNVnhqYWlDbWJPVVRHbk9xWm1VSWdrUnBHNW9EQ2VaZGFna3lodHYwMmdQbDZVZ2NiVTRJdWduc0tDb3k3Sng3QzVWdnFwWkFYemFNX0R3N2tqQQ?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Deadline",
+      "domain": "deadline.com",
+      "tier": "entertainment",
+      "published": "Wed, 25 Nov 2026 22:24:00 GMT"
+    }
+  ],
+  "format": "CELEBRITY",
+  "previous_attempts": [
+    "Finish validation fails on the research handoff (37 errors: research.schema_version must be 2.0, research.origin/browser/governance ledgers missing, route not set to hook-writer-agent). These fields come from the research agent run, which I could not produce by hand. Subject checks passed: Pattinson"
+  ]
+}

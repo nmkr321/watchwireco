@@ -1,0 +1,52 @@
+{
+  "id": "202611252251-almost-director-landing-pattinson-robert",
+  "lane": "breaking",
+  "status": "approved",
+  "found_at": "2026-11-25T22:51:35.893Z",
+  "title": "'Twilight' Director On Robert Pattinson Landing James Bond Role: \"I Almost Fell Out Of My Bed\"",
+  "score": 6,
+  "sources": [
+    {
+      "title": "'Twilight' Director On Robert Pattinson Landing James Bond Role: \"I Almost Fell Out Of My Bed\"",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSXhkdVN6cFhQcWswVTdOeHRRRUtMVW9zbGVQNmN3d3U2cVJOMWdwV1ZCNXJNN0N1UEZtT1FKT0R6RjViU1BaZUxNVnhqYWlDbWJPVVRHbk9xWm1VSWdrUnBHNW9EQ2VaZGFna3lodHYwMmdQbDZVZ2NiVTRJdWduc0tDb3k3Sng3QzVWdnFwWkFYemFNX0R3N2tqQQ?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Deadline",
+      "domain": "deadline.com",
+      "tier": "entertainment",
+      "published": "Wed, 25 Nov 2026 22:24:00 GMT"
+    }
+  ],
+  "format": "CELEBRITY",
+  "previous_attempts": [
+    "Finish validation fails on the research handoff (37 errors: research.schema_version must be 2.0, research.origin/browser/governance ledgers missing, route not set to hook-writer-agent). These fields come from the research agent run, which I could not produce by hand. Subject checks passed: Pattinson"
+  ],
+  "scheduled_for": "2026-11-26T13:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/202611252251-almost-director-landing-pattinson-robert",
+  "project_dir": "Content Creation/projects/202611252251-almost-director-landing-pattinson-robert",
+  "post_dir": "watch-wire-engine/queue/drafts/202611252251-almost-director-landing-pattinson-robert/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 4,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "issues": [
+      {
+        "severity": "minor",
+        "slide": "5",
+        "problem": "Slide body and carousel.json still say '2026 Oscars'. Hypebeast doesn't give the year.",
+        "change": "Body → 'Pattinson recalled a rose-gold Master Control at the Oscars, per Hypebeast.'",
+        "text_only": true
+      }
+    ],
+    "reason": "All four majors from last round are fixed. The cover now shows Pattinson with a watch on his wrist and is in the manifest as licensed. The price slide reads '$14,200' on one line, slide 2 no longer claims the Q4158120 is his, and the CTA brackets are gone. One minor is left: slide 5 still says '2026 Oscars'. The check passes.",
+    "fixes": [
+      "[minor] slide 5: Slide body and carousel.json still say '2026 Oscars'. Hypebeast doesn't give the year. → Body → 'Pattinson recalled a rose-gold Master Control at the Oscars, per Hypebeast.'"
+    ]
+  }
+}
