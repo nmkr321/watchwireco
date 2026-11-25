@@ -1,0 +1,21 @@
+{
+  "decision": "reject",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 1,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 3,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Format: the celebrity slot fell back to Would You Rather. The owner said on 2026-11-25 that Would You Rather posts are only for when requested.",
+    "Value: this is a two-watch price comparison with no news, no celebrity and no timely angle.",
+    "Format recipe: the draft says it is a celebrity post but contains no celebrity content.",
+    "Not checked: I did not open the slide previews, the claims, or the validate output, because the format alone rules it out."
+  ],
+  "fixes": [
+    "Refill the slot with a celebrity post. Use a person with a dated, openly readable sighting, or a brand ambassador photo, or an owner photo. Alternatively use EVENT SPOTTED, a watch explainer or a new release."
+  ],
+  "reason": "Rejected: this is a Would You Rather fallback, which you said is only for when requested, and it has no news or celebrity hook. The engine should refill the slot with a celebrity, event-spotted, explainer or new-release post."
+}

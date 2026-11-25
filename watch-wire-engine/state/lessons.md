@@ -21,3 +21,22 @@ The editor reads this before every post. Written automatically from rejections; 
 - [NEW RELEASES] If searches return only roundups, query each permitted brand's newsroom by name plus "press release" and month to find dated items.
 - [NEW RELEASES] Keep a list of brands already searched this run and their results; never re-search a brand that returned no dated release.
 - [NEW RELEASES] If a brand's press page is empty or unreachable, mark that brand unverified and move to the next brand or format.
+- [CELEBRITY] Draft only when a named person and their watch are both confirmed by a dated, openly readable source; otherwise switch to another FORMATS.md format.
+- [CELEBRITY] Treat paywalled, gated or redirected pages as unverified; cite only sources you actually opened and read.
+- [CELEBRITY] For any dated-window format, check each source's publish date against the window before citing it; discard undated or out-of-window items.
+- [CELEBRITY] For CELEBRITY searches, pair the person's name with a specific watch model and the month, so results show one dated sighting, not generic roundups.
+- [CELEBRITY] Cap celebrity sourcing at two search passes per run; after that, switch to another FORMATS.md format in the same run.
+- [CELEBRITY] Keep a list of celebrities already checked this run and never re-search them; move to the next candidate or format.
+- [CELEBRITY] If a format's sourcing fails, switch formats early enough to finish a validated draft in the same run, not after the budget is spent.
+- [CELEBRITY] Treat a search that returns only older or out-of-window sightings as a failed pass; record it, then move to another candidate or format.
+- [CELEBRITY] Before searching, pick candidates with a dated sighting already verified this month; confirm that sighting rather than hunting for a new one.
+- [CELEBRITY] Record each name whose passes returned no dated sighting in the run log, and skip those names in later runs.
+- [CELEBRITY] Never substitute Would You Rather for a missed slot; it is only for owner-requested posts. Switch to EVENT SPOTTED, a watch explainer, or a dated new release.
+- [CELEBRITY] Before saving, check slides hold the labelled format's required content, e.g. a named person for CELEBRITY; otherwise rebuild.
+- [CELEBRITY] Run the validator and open every slide preview before saving a draft, even when its format already looks wrong, and log the results.
+- [CELEBRITY] Before choosing any fallback format for a slot, check FORMATS.md for whether it is allowed in scheduled slots, and skip any format marked owner-request only.
+- [NEW RELEASES] Before picking a candidate, confirm its launch date falls inside the 30-day window; skip items launched earlier, such as last year's models.
+- [NEW RELEASES] If outlets give conflicting release dates or regional prices, or the model is region-only, mark it unverified and move to the next candidate.
+- [NEW RELEASES] Before drafting, write each candidate's launch date, brand press-page URL and second dated source into the draft notes; drop candidates missing any.
+- [NEW RELEASES] Accept a NEW RELEASES launch date only when the brand's own press release or newsroom states it; blogs and retailer pages can only support it.
+- [NEW RELEASES] Before saving a NEW RELEASES draft, check that its slides name a verified launch date inside the window; if not, rebuild in another format.

@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-25-1130-celebrity-not-ready-no-verified-celebrit",
+  "status": "stopped",
+  "found_at": "2026-11-25T05:07:09.678Z",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "post_at": "2026-11-25T16:30:00.000Z",
+  "slot": 2,
+  "title": "CELEBRITY: NOT READY (no verified celebrity watch found)",
+  "hook": "Not ready. No named celebrity has a confirmed watch reported by a trusted outlet from the last few weeks.",
+  "why": "The Sienna Spiro headline names no watch. The Pattinson/Omega story is on the do-not-repeat list. Needs a named person and a reference reported by a trusted outlet, plus a US retail price.",
+  "sources_to_check": [
+    "Robb Report celebrity watch coverage (last few weeks)",
+    "Hodinkee, Fratello, Watchpro celebrity sightings",
+    "Brand press pages for the named reference and price"
+  ],
+  "sources": [
+    {
+      "title": "Robb Report celebrity watch coverage (last few weeks)",
+      "link": "",
+      "source": "Robb Report celebrity watch coverage (last few weeks)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Hodinkee, Fratello, Watchpro celebrity sightings",
+      "link": "",
+      "source": "Hodinkee, Fratello, Watchpro celebrity sightings",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Brand press pages for the named reference and price",
+      "link": "",
+      "source": "Brand press pages for the named reference and price",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "No post made. The input had no named celebrity with a confirmed watch. Two searches found only older sightings, plus a Robb Report 21 November 2026 list (Josh Hutcherson, Patek Philippe Ellipse). That article redirects to a gated host (tollbit.robbreport.com), so I did not open it, and I could not c",
+    "No post made. One more search this run (attempt 3) found no dated, openly readable November 2026 sighting naming both a person and a watch. Results were older roundups (Oscars and Golden Globes 2026, a 2025 year-in-review) and a Hypebeast article from August 2026. The Robb Report 21 November item is"
+  ],
+  "stop_reason": "Attempt 4: no named celebrity with a confirmed watch from a dated, openly readable November 2026 source. One more search this run returned only older roundups (awards season 2026, Wimbledon 2026, Met Gala 2026, undated Yahoo and AOL pieces). The Robb Report 21 November item (Josh Hutcherson, Patek Philippe Ellipse) is gated, so it was not used. No project was started and nothing was rendered. Needs a fresh dated sighting or an owner photo before a CELEBRITY post can be made.",
+  "gave_up": true
+}

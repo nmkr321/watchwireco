@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-25-1130-celebrity-not-ready-no-verified-celebrit-backup-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-25T05:24:55.318Z",
+  "post_at": "2026-11-25T16:30:00.000Z",
+  "backup_for": "2026-11-25-1130-celebrity-not-ready-no-verified-celebrit",
+  "backup_depth": 2,
+  "tried_formats": [
+    "CELEBRITY"
+  ],
+  "format": "NEW RELEASES",
+  "title": "Backup NEW RELEASES for the slot of: Backup CELEBRITY for the slot of: CELEBRITY: NOT READY (no verified celebrity watch found)",
+  "hook": "",
+  "why": "Backup post. A watch released in the last 30 days by a major brand. Specs and price from the brand page or one trusted outlet (named). Photos: brand press images (official page, or article images credited to the brand via `PH credited`).",
+  "sources": [],
+  "previous_attempts": [
+    "No NEW RELEASES item dated within 30 days verified. One search pass returned only roundups. Seiko Lupin III Jigen (Japan-only, release dates conflict across outlets, no brand press release found) and Girard-Perregaux Laureato FIFTY (launched Oct 2025, prices differ by region) both failed. Alternativ",
+    "No NEW RELEASES item launched in the last 30 days (26 Oct to 25 Nov 2026) could be verified. Searched Omega, Grand Seiko, Tudor, Breitling, Oris, Nomos and Yema (plus roundup queries). Seen only roundups, single-outlet items, region-only or conflicting-date items (Nomos Club 38: Oct 22 vs Nov 10; Gr"
+  ]
+}

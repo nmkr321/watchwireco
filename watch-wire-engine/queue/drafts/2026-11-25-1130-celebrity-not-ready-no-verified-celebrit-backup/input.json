@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-25-1130-celebrity-not-ready-no-verified-celebrit-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-25T05:22:02.475Z",
+  "post_at": "2026-11-25T16:30:00.000Z",
+  "backup_for": "2026-11-25-1130-celebrity-not-ready-no-verified-celebrit",
+  "backup_depth": 1,
+  "tried_formats": [
+    "CELEBRITY"
+  ],
+  "format": "CELEBRITY",
+  "title": "Backup CELEBRITY for the slot of: CELEBRITY: NOT READY (no verified celebrity watch found)",
+  "hook": "",
+  "why": "Backup post. A DIFFERENT celebrity from the failed post (CELEBRITY: NOT READY (no verified celebrity watch found)). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.",
+  "sources": [],
+  "previous_attempts": [
+    "No verified celebrity watch sighting found. Two search passes (Rolex and Patek Philippe, November 2026) returned no dated, openly readable sighting from this month. The results were older sightings (2025 to May 2026) or roundups, and none were opened and confirmed. Per the CELEBRITY lessons, the dra",
+    "No verified celebrity watch sighting found. Two search passes this run (general celebrity Rolex sightings, and a November 2026 search across Audemars Piguet, Patek Philippe and Cartier) returned only older sightings (2025 to Emmys/Met Gala 2026) or roundups. None were dated November 2026 or opened a"
+  ]
+}
