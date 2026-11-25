@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-25-1800-event-f1-las-vegas-backup",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-25T05:28:42.766Z",
+  "post_at": "2026-11-25T18:00:00.000Z",
+  "backup_for": "2026-11-25-1800-event-f1-las-vegas",
+  "backup_depth": 1,
+  "tried_formats": [
+    "EVENT SPOTTED"
+  ],
+  "format": "CELEBRITY",
+  "title": "Backup CELEBRITY for the slot of: Watches spotted at the 2026 F1 Las Vegas Grand Prix",
+  "hook": "",
+  "why": "Backup post. A DIFFERENT celebrity from the failed post (Watches spotted at the 2026 F1 Las Vegas Grand Prix). One trusted outlet naming the watch is enough, credited by name. If a celebrity has no usable photo, switch to another celebrity.",
+  "sources": [],
+  "previous_attempts": [
+    "No dated, in-window celebrity watch sighting could be verified. Passes: (1) 'celebrity spotted wearing watch November 2026' returned only older roundups (awards season, Met Gala, Wimbledon, undated Taylor Swift); (2) 'Las Vegas Grand Prix 2026 celebrity watch' returned only 2025 race coverage; (3) '",
+    "No CELEBRITY draft could be built. Three subjects tried (3 switches, the limit). (1) Josh Hutcherson, Patek Philippe Ellipse: Robb Report column dated 21 Nov 2026 named the watch in a search summary, but the article is behind a paywall redirect (not bypassed), no reference or price could be confirme"
+  ],
+  "stop_reason": "No CELEBRITY draft could be built. Three searches, no dated, in-window celebrity watch sighting found. (1) 'celebrity spotted wearing Rolex November 2026': only undated roundups and 2025/2026 Oscars, US Open (Sept 2026) and Wimbledon coverage; no November 2026 item. (2) 'actor wears Patek Philippe watch red carpet November 2026': only Golden Globes and Oscars 2026 coverage (Michael B. Jordan, Josh Groban, Felix Kammerer), all earlier in 2026, outside the window. (3) 'best watches of the week November 2026 Robb Report': no dated weekly Robb Report piece found; the one link is unconfirmed. Names with no dated sighting this run: Rolex/celebrity roundups, Patek/actor red carpet. Nothing could be paywall-bypassed or verified, so no photo, reference or price was pulled. Stopped rather than substitute a non-CELEBRITY format, per lessons (Would You Rather not allowed in a backup slot).",
+  "gave_up": true
+}

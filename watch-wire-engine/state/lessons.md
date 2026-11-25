@@ -1,42 +1,23 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [TOP 5 THIS WEEK] If fewer than five releases verify, switch to a different format from FORMATS.md instead of padding the list with unverified or older items.
-- [TOP 5 THIS WEEK] Where sources disagree on a release date or price, drop that item unless the brand's own press page settles it.
-- [TOP 5 THIS WEEK] Start the search from each permitted brand's newsroom or press page, not third-party roundups or buyer's guides, when hunting releases.
-- [TOP 5 THIS WEEK] Limit each weekly-count format to one drafting attempt per run; on the first shortfall, switch to another FORMATS.md format in that same run.
-- [TOP 5 THIS WEEK] Before drafting, make a list of the dated releases that qualify and count them; repeat searches only for brands whose press pages were not yet checked.
-- [WATCH EXPLAINED] Use only wording from a verified source for mechanics; never paraphrase ratios, speeds or zone counts from memory.
-- [WATCH EXPLAINED] Give every explainer slide its own credited dial or movement photo from a permitted source; text-only slides fail the recipe.
-- [WATCH EXPLAINED] Compare prices only between watches in a similar price band; if no verified close-priced pick exists, drop the price comparison.
-- [WATCH EXPLAINED] Every slide claim, including 'why it matters' lines, must match a verified claim or be cut before drafting.
-- [WATCH EXPLAINED] Keep overlay tags and captions off the watch's key feature, such as the tourbillon aperture, so the subject stays fully visible.
-- [WATCH EXPLAINED] Every explainer needs a verified buyer takeaway and named example watches, each with its own credited photo, before drafting slides.
-- [WATCH EXPLAINED] Before finishing, score the draft against the 25-point rubric and revise until it reaches at least 17.
-- [WATCH EXPLAINED] Cap research at roughly half the run's budget, then draft slides and caption from verified facts so the post finishes in the same run.
-- [WATCH EXPLAINED] Take prices and example references only from sources dated the current year; older articles may verify mechanics wording but not current prices.
-- [NEW RELEASES] If no brand press release dated within 30 days verifies after one search pass, switch to another FORMATS.md format in the same run.
-- [NEW RELEASES] Undated pages and older roundups never satisfy a recency window; search brand newsrooms for dated releases instead.
-- [NEW RELEASES] One named article is enough for a release (owner 2026-11-25); a retailer listing alone is not an article.
-- [NEW RELEASES] If searches return only roundups, query each permitted brand's newsroom by name plus "press release" and month to find dated items.
-- [NEW RELEASES] Keep a list of brands already searched this run and their results; never re-search a brand that returned no dated release.
-- [NEW RELEASES] If a brand's press page is empty or unreachable, mark that brand unverified and move to the next brand or format.
-- [CELEBRITY] Draft only when a named person and their watch are both confirmed by a dated, openly readable source; otherwise switch to another FORMATS.md format.
-- [CELEBRITY] Treat paywalled, gated or redirected pages as unverified; cite only sources you actually opened and read.
-- [CELEBRITY] For any dated-window format, check each source's publish date against the window before citing it; discard undated or out-of-window items.
-- [CELEBRITY] For CELEBRITY searches, pair the person's name with a specific watch model and the month, so results show one dated sighting, not generic roundups.
-- [CELEBRITY] Cap celebrity sourcing at two search passes per run; after that, switch to another FORMATS.md format in the same run.
-- [CELEBRITY] Keep a list of celebrities already checked this run and never re-search them; move to the next candidate or format.
-- [CELEBRITY] If a format's sourcing fails, switch formats early enough to finish a validated draft in the same run, not after the budget is spent.
-- [CELEBRITY] Treat a search that returns only older or out-of-window sightings as a failed pass; record it, then move to another candidate or format.
-- [CELEBRITY] Before searching, pick candidates with a dated sighting already verified this month; confirm that sighting rather than hunting for a new one.
-- [CELEBRITY] Record each name whose passes returned no dated sighting in the run log, and skip those names in later runs.
-- [CELEBRITY] Never substitute Would You Rather for a missed slot; it is only for owner-requested posts. Switch to EVENT SPOTTED, a watch explainer, or a dated new release.
-- [CELEBRITY] Before saving, check slides hold the labelled format's required content, e.g. a named person for CELEBRITY; otherwise rebuild.
-- [CELEBRITY] Run the validator and open every slide preview before saving a draft, even when its format already looks wrong, and log the results.
-- [CELEBRITY] Before choosing any fallback format for a slot, check FORMATS.md for whether it is allowed in scheduled slots, and skip any format marked owner-request only.
-- [NEW RELEASES] Before picking a candidate, confirm its launch date falls inside the 30-day window; skip items launched earlier, such as last year's models.
 - [NEW RELEASES] If outlets give conflicting release dates or regional prices, or the model is region-only, mark it unverified and move to the next candidate.
 - [NEW RELEASES] Before drafting, write each candidate's launch date, brand press-page URL and second dated source into the draft notes; drop candidates missing any.
 - [NEW RELEASES] Accept a NEW RELEASES launch date only when the brand's own press release or newsroom states it; blogs and retailer pages can only support it.
 - [NEW RELEASES] Before saving a NEW RELEASES draft, check that its slides name a verified launch date inside the window; if not, rebuild in another format.
+- [EVENT SPOTTED] Before searching for event articles, check state/permissions.json and the library for a permitted event photo; if none exists, switch format.
+- [EVENT SPOTTED] Use only photos whose credit matches a permissions.json entry, and don't mix in unpermitted free-licence images as a fallback.
+- [EVENT SPOTTED] Before rendering, record each photo's file, exact credit line and matching permissions.json entry in the draft notes; drop the format if any is missing.
+- [EVENT SPOTTED] Confirm a photo's credit on its own file or licence page, not on article captions or gallery text; captions alone do not prove permission.
+- [EVENT SPOTTED] Use a photo only if its event year matches the current event; reject prior-year race coverage even when the subject is permitted.
+- [EVENT SPOTTED] Confirm the watch is visible in the photo itself; a caption naming a watch does not count, so pick another permitted photo.
+- [CELEBRITY] Before drafting, record each sighting's publication date, outlet URL and watch model in the draft notes; drop candidates missing any.
+- [CELEBRITY] Ignore undated articles and gallery pages in searches; only a dated, in-window report can verify a sighting.
+- [CELEBRITY] Treat paywalled, redirected or blocked pages as unreadable; a search summary quoting them cannot verify a sighting.
+- [CELEBRITY] Before drafting, confirm the watch's reference number and price from a readable source; if either is missing, switch candidates.
+- [CELEBRITY] Reject any sighting dated outside the run's 30-day window, even if the person and watch match; prior-year events and past tournaments do not count.
+- [CELEBRITY] Search each candidate by name plus the run's month and year, then open the outlet page to confirm its date before choosing that candidate.
+- [NEW RELEASES] Mark a candidate unverified if any cited source omits its launch date, not just when sources conflict; move to the next candidate.
+- [NEW RELEASES] Treat an unreadable, scanned or image-only brand press release as unverified; use the brand's readable newsroom page or move to the next candidate.
+- [NEW RELEASES] Start from the brand's own newsroom listing for this month, not roundup articles, so each candidate has a brand-dated launch.
+- [NEW RELEASES] Log each rejected candidate and its reason in the run notes, and never retry a logged candidate in later attempts.

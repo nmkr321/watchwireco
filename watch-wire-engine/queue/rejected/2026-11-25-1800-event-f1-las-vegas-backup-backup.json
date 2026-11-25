@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-25-1800-event-f1-las-vegas-backup-backup",
+  "lane": "rotation",
+  "status": "stopped",
+  "found_at": "2026-11-25T05:30:44.860Z",
+  "post_at": "2026-11-25T18:00:00.000Z",
+  "backup_for": "2026-11-25-1800-event-f1-las-vegas",
+  "backup_depth": 2,
+  "tried_formats": [
+    "CELEBRITY",
+    "EVENT SPOTTED"
+  ],
+  "format": "NEW RELEASES",
+  "title": "Backup NEW RELEASES for the slot of: Backup CELEBRITY for the slot of: Watches spotted at the 2026 F1 Las Vegas Grand Prix",
+  "hook": "",
+  "why": "Backup post. A watch released in the last 30 days by a major brand. Specs and price from the brand page or one trusted outlet (named). Photos: brand press images (official page, or article images credited to the brand via `PH credited`).",
+  "sources": [],
+  "previous_attempts": [
+    "No NEW RELEASES candidate passed the launch-date rules. Oris Big Crown Pointer Date Doraemon (Nov 19 per Haute Time; Esquire India gives no date; no Oris press release found; oris.ch page did not match). Blancpain Ladybird Colors Zodiaque (Nov 12 per Haute Time; references and suffixes conflict acro",
+    "No NEW RELEASES candidate passed the launch-date rules after three tries. (1) Laurent Ferrier Grand Sport Tourbillon Iceberg LCF044.T1.C3GC1: feed says Nov 16 2026, but Time+Watches is dated Oct 2026 and no laurentferrier.ch or press-release date was readable (the press-release PDF was unreadable). "
+  ],
+  "stop_reason": "No NEW RELEASES candidate passed the launch-date rules (attempt 4). Checked: Seiko Lupin III Chronograph Jigen (order date Nov 11 and price conflict: about $415 vs $580; ship date conflict; no Seiko press release; Japan-only). Nomos Club Sport neomatik 34 all-silver (no launch date confirmed; prices conflict; no Nomos press release). Audemars Piguet five new references (Nov 2 per Fratello; luxurybazaar says pink gold model came in August; no AP press release readable). Omega/Tudor/Longines (no November 2026 release found). Not attempted or dropped earlier: Yema Grande Lune (Nov 9 vs December conflict), Brellum Duobox (no press release), Zenith limited edition (model unnamed, pop-up and online dates).",
+  "gave_up": true
+}
