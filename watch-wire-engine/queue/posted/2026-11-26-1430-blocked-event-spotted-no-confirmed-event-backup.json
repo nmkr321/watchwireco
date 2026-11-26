@@ -1,7 +1,7 @@
 {
   "id": "2026-11-26-1430-blocked-event-spotted-no-confirmed-event-backup",
   "lane": "rotation",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-26T08:47:39.213Z",
   "post_at": "2026-11-26T19:30:00.000Z",
   "backup_for": "2026-11-26-1430-blocked-event-spotted-no-confirmed-event",
@@ -50,5 +50,23 @@
       "[minor] slide caption: Closing question ('a GMT, or a plain dial') doesn't match the CTA slide ('Comment GMT or pass') → Replace 'Which would you wear for travel: a GMT, or a plain dial?' with 'Wear it or pass? Comment GMT or pass.'",
       "[minor] slide 1: Cover shows the whole watch, not the movement or mechanism that explainer covers should show. The gaps note says no movement photo was found. → Leave as is. No fix is possible without a new photo."
     ]
+  },
+  "posted_at": "2026-11-26T19:31:17.445Z",
+  "publish": {
+    "live": true,
+    "media_id": "17977742634189003",
+    "permalink": "https://www.instagram.com/p/DgN3FpOjtHo/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png"
+      ],
+      "caption_chars": 591
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
