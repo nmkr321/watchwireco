@@ -1,0 +1,15 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [],
+  "reason": "Every earlier fix was made. Each story slide now has a credited licensed photo (Tank, trench, Pershing, Renault tank). Slide 2 now says 'created', and the cover credit says 'Modern Tank shown'. The check passes and the caption credits match the slides.",
+  "fixes": []
+}

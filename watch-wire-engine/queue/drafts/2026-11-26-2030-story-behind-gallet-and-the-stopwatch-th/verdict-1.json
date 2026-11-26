@@ -1,0 +1,43 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Owner rule: story posts keep images to the end; slides 2-7 are text-only on black (only the cover and slide 8 have photos)"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "2",
+      "problem": "Story beat is text on black with no picture; the story loses its images after the cover",
+      "change": "Give slides 2, 3, 4, 5, 6 and 7 each a licensed or official photo background with a credit line. Use Wikimedia Commons Cartier Tank or Tank Normale photos for 2, 3 and 5, a WWI officer wristwatch or trench photo for 4, and a portrait of General John J. Pershing for 6. For 7, reuse a different crop or a different Tank photo. Add each photo to assets/manifest.json with rights licensed, and add its credit to the caption.",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "2",
+      "problem": "Source says Cartier 'created' the Tank in 1917; the slide says 'unveiled', and the caption says 'introduced in 1918'",
+      "change": "text → 'Louis Cartier created the Tank in 1917, inspired by Renault tanks on the Western Front.'",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "1",
+      "problem": "Cover shows a modern Must de Cartier Tank, while the story is about the 1917 prototype",
+      "change": "Add 'Modern Tank shown' to the cover credit line, or swap in a Tank Normale 1917 photo if one is licensed",
+      "text_only": false
+    }
+  ],
+  "reason": "The facts are sourced and the validator passes. But slides 2–7 are text on black, and the owner wants story posts to keep their images to the end, so the editor needs to add photos to those slides.",
+  "fixes": [
+    "[major] slide 2: Story beat is text on black with no picture; the story loses its images after the cover → Give slides 2, 3, 4, 5, 6 and 7 each a licensed or official photo background with a credit line. Use Wikimedia Commons Cartier Tank or Tank Normale photos for 2, 3 and 5, a WWI officer wristwatch or trench photo for 4, and a portrait of General John J. Pershing for 6. For 7, reuse a different crop or a different Tank photo. Add each photo to assets/manifest.json with rights licensed, and add its credit to the caption.",
+    "[minor] slide 2: Source says Cartier 'created' the Tank in 1917; the slide says 'unveiled', and the caption says 'introduced in 1918' → text → 'Louis Cartier created the Tank in 1917, inspired by Renault tanks on the Western Front.'",
+    "[minor] slide 1: Cover shows a modern Must de Cartier Tank, while the story is about the 1917 prototype → Add 'Modern Tank shown' to the cover credit line, or swap in a Tank Normale 1917 photo if one is licensed"
+  ]
+}

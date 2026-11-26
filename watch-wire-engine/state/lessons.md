@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY] Generate the research stage with the Content Creation research agent; never hand-write research fields such as schema_version or ledgers.
-- [CELEBRITY] Before finish validation, confirm research.schema_version is 2.0 and route is hook-writer-agent, then run validation.
 - [CELEBRITY] Before finishing, check each slide's text fits its box without overlapping other elements, and remove any leftover template brackets such as [[ ]].
 - [CELEBRITY] Copy each headline word-for-word from the slide into carousel.json and the caption; never reword it in one place only.
 - [NEW RELEASES] Use only photos listed in state/permissions.json with their credit line; drop any press-kit photo that has no permission entry.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY COLLECTION] Inspect each photo on the dark template for white fades or stray boxes before rendering; replace any flawed image with a clean one.
 - [CELEBRITY COLLECTION] Give each slide a different permitted photo; if a watch lacks a distinct official or licensed photo, drop its slide instead of repeating one.
 - [CELEBRITY COLLECTION] Before rendering, check every slide's photo rights in assets/manifest.json; replace any image not marked official or licensed, or drop that slide.
+- [STORY BEHIND] Give every slide a different licensed or official photo background; never leave a text-only slide on black.
+- [STORY BEHIND] Use the source's exact verb for each event (created, unveiled, introduced), and make the cover photo show the object the story describes.

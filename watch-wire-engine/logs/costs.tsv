@@ -1232,3 +1232,8 @@
 2026-11-26T08:57:35.035Z	learn 2026-11-26-1730-blocked-celebrity-collection-no-verified	claude-haiku-5-5	0.0022	2
 2026-11-26T09:00:14.647Z	editor 2026-11-26-1730-blocked-celebrity-collection-no-verified-backup	claude-haiku-5-5	0.0669	27
 2026-11-26T09:00:42.672Z	approver 2026-11-26-1730-blocked-celebrity-collection-no-verified-backup r1	claude-sonnet-5-5	0.1169	15
+2026-11-26T09:03:51.354Z	editor 2026-11-26-2030-story-behind-gallet-and-the-stopwatch-th	claude-haiku-5-5	0.0588	35
+2026-11-26T09:04:12.256Z	approver 2026-11-26-2030-story-behind-gallet-and-the-stopwatch-th r1	claude-sonnet-5-5	0.0928	11
+2026-11-26T09:04:17.273Z	learn 2026-11-26-2030-story-behind-gallet-and-the-stopwatch-th	claude-haiku-5-5	0.0022	2
+2026-11-26T09:05:25.470Z	editor-revise 2026-11-26-2030-story-behind-gallet-and-the-stopwatch-th	claude-haiku-5-5	0.0092	10
+2026-11-26T09:05:38.297Z	approver 2026-11-26-2030-story-behind-gallet-and-the-stopwatch-th r2	claude-sonnet-5-5	0.0644	10

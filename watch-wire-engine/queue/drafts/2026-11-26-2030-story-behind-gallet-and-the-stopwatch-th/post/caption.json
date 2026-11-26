@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Cartier Tank (1917 prototype): the story behind the wartime watch.\n\nLouis Cartier created the Tank in 1917, inspired by the Renault tanks he saw on the Western Front. It was introduced in 1918 and entered full production in 1919, when six pieces were built. The prototype went to General John J. Pershing of the American Expeditionary Force.\n\nThe first Tank had a 23 by 30 mm platinum case, per Monochrome Watches.\n\nWhich war-born watch should we cover next?\n\nSource: Wikipedia, Cartier Tank; Monochrome Watches, Celebrating 100 years of the Cartier Tank (Tank Normale 1917).\nPhoto: Guy Sie / CC BY-SA 2.0 via Wikimedia Commons; Bain News Service, publisher / Public domain via Wikimedia Commons; John Warwick Brooke / Public domain via Wikimedia Commons; U.S. Signal Corps / Public domain via Wikimedia Commons; Hohum / CC BY-SA 3.0 via Wikimedia Commons.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4",
+    "CLM-5"
+  ],
+  "source_ids": [
+    "SRC-WIKI",
+    "SRC-MONO"
+  ],
+  "attribution": "Source: Wikipedia; Monochrome Watches.",
+  "caption_credit": "Photo: Guy Sie / CC BY-SA 2.0 via Wikimedia Commons; Bain News Service, publisher / Public domain via Wikimedia Commons; John Warwick Brooke / Public domain via Wikimedia Commons; U.S. Signal Corps / Public domain via Wikimedia Commons; Hohum / CC BY-SA 3.0 via Wikimedia Commons",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "No launch price given; no price shown."
+  ],
+  "carousel_sha256": "f4d43c9809073f56af0345a6fb1670c9f85a5b7d1e150fd786598b8c13ee21a8",
+  "completed_at": "2026-11-26T09:05:19.851Z"
+}
