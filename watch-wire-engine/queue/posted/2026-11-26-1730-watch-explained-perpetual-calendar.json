@@ -1,6 +1,6 @@
 {
   "id": "2026-11-26-1730-watch-explained-perpetual-calendar",
-  "status": "approved",
+  "status": "posted",
   "manual": true,
   "found_at": "2026-11-26T17:10:00Z",
   "lane": "rotation",
@@ -32,5 +32,23 @@
     "issues": [],
     "reason": "The check passes. The cover now shows a real watch movement, the Seiko and Tissot slides no longer use discount prices, and slide 3 has its headline and names the Patek in the caption. The remaining weak spots are minor: the prices read 'on request', and slide 2 is a dim pocket-watch photo that still reads.",
     "fixes": []
+  },
+  "posted_at": "2026-11-26T22:31:21.941Z",
+  "publish": {
+    "live": true,
+    "media_id": "18079303670779850",
+    "permalink": "https://www.instagram.com/p/DgOLsR0js4b/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png"
+      ],
+      "caption_chars": 702
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
