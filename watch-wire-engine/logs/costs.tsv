@@ -1202,3 +1202,11 @@
 2026-11-26T02:21:20.558Z	triage 202611260221-first-james-movie-opinion-pattinson-robe	claude-haiku-5-5	0.0041	2
 2026-11-26T05:06:52.127Z	triage 202611260506-books-gifts-preloved-rolexes-vintage-whe	claude-haiku-5-5	0.0041	2
 2026-11-26T07:59:07.921Z	planner	claude-haiku-5-5	0.1099	13
+2026-11-26T08:34:05.295Z	editor 2026-11-26-0830-blocked-new-releases-no-confirmed-subjec	claude-haiku-5-5	0.0637	17
+2026-11-26T08:34:11.328Z	learn 2026-11-26-0830-blocked-new-releases-no-confirmed-subjec	claude-haiku-5-5	0.0046	2
+2026-11-26T08:36:53.799Z	editor 2026-11-26-0830-blocked-new-releases-no-confirmed-subjec	claude-haiku-5-5	0.0666	33
+2026-11-26T08:37:47.840Z	editor-precheck 2026-11-26-0830-blocked-new-releases-no-confirmed-subjec	claude-haiku-5-5	0.0058	11
+2026-11-26T08:38:11.879Z	approver 2026-11-26-0830-blocked-new-releases-no-confirmed-subjec r1	claude-sonnet-5-5	0.1331	13
+2026-11-26T08:38:16.805Z	learn 2026-11-26-0830-blocked-new-releases-no-confirmed-subjec	claude-haiku-5-5	0.0021	2
+2026-11-26T08:39:25.307Z	editor-revise 2026-11-26-0830-blocked-new-releases-no-confirmed-subjec	claude-haiku-5-5	0.0116	23
+2026-11-26T08:39:36.955Z	approver 2026-11-26-0830-blocked-new-releases-no-confirmed-subjec r2	claude-sonnet-5-5	0.0485	8

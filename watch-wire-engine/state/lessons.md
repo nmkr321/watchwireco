@@ -1,10 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY] Never use 'wears', 'spotted' or 'now' for a sighting unless a month and year sit in the same sentence.
-- [CELEBRITY] Before choosing a subject, confirm both a permitted watch photo and a brand or retailer price exist; if either is missing, drop that candidate and try the next.
-- [CELEBRITY] If a brand site blocks access (403) and no permitted source gives its price, switch to a candidate with accessible sources; never guess a price.
-- [CELEBRITY] Use only a permitted photo of the exact reference and case size named in the post; drop any candidate lacking one.
 - [CELEBRITY] Take the price from the brand page for the exact reference named; if only a search snippet exists, use another candidate.
 - [EVENT SPOTTED] Name a person only if a permitted full-size photo of them is in state/permissions.json; otherwise drop that person and pick another.
 - [EVENT SPOTTED] Reject any image too small for the slide template, including watermarked or agency thumbnails; find a larger credited original instead.
@@ -21,3 +17,7 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY] Before finish validation, confirm research.schema_version is 2.0 and route is hook-writer-agent, then run validation.
 - [CELEBRITY] Before finishing, check each slide's text fits its box without overlapping other elements, and remove any leftover template brackets such as [[ ]].
 - [CELEBRITY] Copy each headline word-for-word from the slide into carousel.json and the caption; never reword it in one place only.
+- [NEW RELEASES] Use only photos listed in state/permissions.json with their credit line; drop any press-kit photo that has no permission entry.
+- [NEW RELEASES] After switching to a replacement subject, rerun research for it; never reuse sources, prices or dates from the dropped idea.
+- [NEW RELEASES] When sources give different figures for one product, omit that figure from slides and caption; never present either as fact.
+- [NEW RELEASES] Attach each cited source to the one claim it supports in the caption; never list a source without its claim.

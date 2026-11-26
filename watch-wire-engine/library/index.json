@@ -5667,5 +5667,77 @@
   "credit": "Image: Patek Philippe",
   "usage": "Patek Philippe 5167R-001 official product image, credited",
   "fetched": "2026-11-26"
+ },
+ {
+  "kind": "watch",
+  "brand": "Yema",
+  "ref": "77.26.22.08.SNL.L6",
+  "title": "Yema 77.26.22.08.SNL.L6",
+  "source": "https://www.seriouswatches.com/products/yema-senans-grande-lune-cmm-22-limited-edition-77-26-22-08-snl-l6",
+  "image_url": "https://www.seriouswatches.com/cdn/shop/files/YEM04877.26.22.08.SNL.L6_600x.png?v=1794235973",
+  "file": "watch-wire-engine/library/img/yema-77-26-22-08-snl-l6.png",
+  "w": 548,
+  "h": 1024,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 2751.54,
+   "currency": "EUR",
+   "source": "https://www.seriouswatches.com/products/yema-senans-grande-lune-cmm-22-limited-edition-77-26-22-08-snl-l6",
+   "date": "2026-11-26"
+  },
+  "rights": "official",
+  "creator": "Yema",
+  "credit": "Image: Yema",
+  "usage": "Yema 77.26.22.08.SNL.L6 official product image, credited",
+  "fetched": "2026-11-26"
+ },
+ {
+  "kind": "watch",
+  "brand": "Yema",
+  "ref": "77.26.22.05.SNL.M",
+  "title": "Yema 77.26.22.05.SNL.M",
+  "source": "https://www.seriouswatches.com/products/yema-senans-grande-lune-cmm-22-limited-edition-77-26-22-05-snl-m",
+  "image_url": "https://www.seriouswatches.com/cdn/shop/files/YEM05177.26.22.05.SNL.M_1_800x.png?v=1794237094",
+  "file": "watch-wire-engine/library/img/yema-77-26-22-05-snl-m.png",
+  "w": 550,
+  "h": 1024,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 2862.86,
+   "currency": "EUR",
+   "source": "https://www.seriouswatches.com/products/yema-senans-grande-lune-cmm-22-limited-edition-77-26-22-05-snl-m",
+   "date": "2026-11-26"
+  },
+  "rights": "official",
+  "creator": "Yema",
+  "credit": "Image: Yema",
+  "usage": "Yema 77.26.22.05.SNL.M official product image, credited",
+  "fetched": "2026-11-26"
+ },
+ {
+  "kind": "watch",
+  "brand": "Yema",
+  "ref": "77.26.22.06.SNL.M",
+  "title": "Yema 77.26.22.06.SNL.M",
+  "source": "https://www.seriouswatches.com/products/yema-senans-grande-lune-cmm-22-limited-edition-77-26-22-06-snl-m",
+  "image_url": "https://www.seriouswatches.com/cdn/shop/files/YEM05377.26.22.06.SNL.M_2_800x.png?v=1794237747",
+  "file": "watch-wire-engine/library/img/yema-77-26-22-06-snl-m.png",
+  "w": 619,
+  "h": 1024,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 2862.86,
+   "currency": "EUR",
+   "source": "https://www.seriouswatches.com/products/yema-senans-grande-lune-cmm-22-limited-edition-77-26-22-06-snl-m",
+   "date": "2026-11-26"
+  },
+  "rights": "official",
+  "creator": "Yema",
+  "credit": "Image: Yema",
+  "usage": "Yema 77.26.22.06.SNL.M official product image, credited",
+  "fetched": "2026-11-26"
  }
 ]

@@ -1,0 +1,25 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [
+    {
+      "severity": "minor",
+      "slide": "1",
+      "problem": "The cover photo shows the mesh bracelet, but the $2,790 price is for the leather strap.",
+      "change": "No change needed. Slide 4 already says 'Leather strap only.'",
+      "text_only": true
+    }
+  ],
+  "reason": "All three majors from last round are fixed. The post is now 5 slides, the conflicting mesh price is gone from the slides and caption, and the check passes. The only remaining note is minor: the cover photo shows the mesh bracelet while the price is for leather.",
+  "fixes": [
+    "[minor] slide 1: The cover photo shows the mesh bracelet, but the $2,790 price is for the leather strap. → No change needed. Slide 4 already says 'Leather strap only.'"
+  ]
+}

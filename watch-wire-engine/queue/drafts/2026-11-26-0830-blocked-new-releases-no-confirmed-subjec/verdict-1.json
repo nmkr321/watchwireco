@@ -1,0 +1,52 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Slide 5 repeats the cover photo and its movement fact (already on slide 2)",
+    "Slide 4 and the caption give conflicting mesh prices ($2,950 vs $2,864)"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "5",
+      "problem": "Same photo as the cover. It repeats the CMM.22 and 70-hour reserve facts from slide 2.",
+      "change": "Delete slide 5. Keep the cover, specs, dials, price and CTA slides, which makes 5 slides. Change the slide 2 movement row to 'CMM.22, 28,800 vph, 70-hour reserve'.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "4",
+      "problem": "The slide gives the mesh price as $2,950. Gear Patrol, cited in the caption, says $2,864. The sources conflict, so the slide shouldn't present either price as fact.",
+      "change": "Body → 'Leather strap only. Sold at yema.com.' Drop the mesh price. The sub-label 'Orders opened 11 Nov 2026' already states the date, so don't repeat it in the body.",
+      "text_only": true
+    },
+    {
+      "severity": "major",
+      "slide": "caption",
+      "problem": "The caption brings up the conflicting $2,864 mesh price, which is not on the slides. It also puts Gear Patrol in the source line without a clear claim attached.",
+      "change": "Delete the sentence 'Gear Patrol gives a $2,864 steel mesh preorder price, a different figure from The Gadgeteer's.' Keep 'Yema's first moonphase dial, per Gear Patrol.' Keep the question line and the source line.",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "1",
+      "problem": "The cover photo comes from a Serious Watches product page. No Yema entry is in permissions.json; the library does index it as an official-retailer image.",
+      "change": "Keep the credit 'Image: Yema' on the cover and in the caption. No change needed unless the owner objects.",
+      "text_only": true
+    }
+  ],
+  "reason": "The Yema Senans Grande Lune is a clean, sourced indie release and the layout is fine. The post needs three fixes. Drop slide 5, which repeats the cover photo and a fact from slide 2. Remove the conflicting mesh price from slide 4 and the caption.<br>The PASS check holds, and the $2,790 leather price and 600-piece figure match The Gadgeteer's claims. I did not re-fetch the source.<br>The post still needs a second look after the revision.",
+  "fixes": [
+    "[major] slide 5: Same photo as the cover. It repeats the CMM.22 and 70-hour reserve facts from slide 2. → Delete slide 5. Keep the cover, specs, dials, price and CTA slides, which makes 5 slides. Change the slide 2 movement row to 'CMM.22, 28,800 vph, 70-hour reserve'.",
+    "[major] slide 4: The slide gives the mesh price as $2,950. Gear Patrol, cited in the caption, says $2,864. The sources conflict, so the slide shouldn't present either price as fact. → Body → 'Leather strap only. Sold at yema.com.' Drop the mesh price. The sub-label 'Orders opened 11 Nov 2026' already states the date, so don't repeat it in the body.",
+    "[major] slide caption: The caption brings up the conflicting $2,864 mesh price, which is not on the slides. It also puts Gear Patrol in the source line without a clear claim attached. → Delete the sentence 'Gear Patrol gives a $2,864 steel mesh preorder price, a different figure from The Gadgeteer's.' Keep 'Yema's first moonphase dial, per Gear Patrol.' Keep the question line and the source line.",
+    "[minor] slide 1: The cover photo comes from a Serious Watches product page. No Yema entry is in permissions.json; the library does index it as an official-retailer image. → Keep the credit 'Image: Yema' on the cover and in the caption. No change needed unless the owner objects."
+  ]
+}

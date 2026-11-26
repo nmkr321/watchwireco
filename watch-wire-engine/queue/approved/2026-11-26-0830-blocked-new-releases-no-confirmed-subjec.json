@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-26-0830-blocked-new-releases-no-confirmed-subjec",
+  "status": "approved",
+  "found_at": "2026-11-26T07:59:07.921Z",
+  "lane": "news",
+  "format": "NEW RELEASES",
+  "post_at": "2026-11-26T13:30:00.000Z",
+  "slot": 1,
+  "title": "BLOCKED: NEW RELEASES (no confirmed subject)",
+  "hook": "None. No confirmed subject yet.",
+  "why": "The 'All-Black Silver Snowflake' MoonSwatch headline could not be confirmed. The closest real items are the Dec 2025 Cold Moon (US$450, sold until 20 Mar 2026) and the 2024 Black Snoopy, and the snowflake name is already on the do-not-repeat list. No confirmed 2026 official release was found. Needs an owner decision or a new search for an official 2026 release.",
+  "sources_to_check": [
+    "swatch.com MoonSwatch 2026 collection page",
+    "omega.com 2026 new releases",
+    "https://www.fratellowatches.com/new-moonswatch-mission-to-earthphase-only-available-when-it-snows-in-switzerland/"
+  ],
+  "sources": [
+    {
+      "title": "swatch.com MoonSwatch 2026 collection page",
+      "link": "",
+      "source": "swatch.com MoonSwatch 2026 collection page",
+      "tier": "to-verify"
+    },
+    {
+      "title": "omega.com 2026 new releases",
+      "link": "",
+      "source": "omega.com 2026 new releases",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://www.fratellowatches.com/new-moonswatch-mission-to-earthphase-only-available-when-it-snows-in-switzerland/",
+      "link": "https://www.fratellowatches.com/new-moonswatch-mission-to-earthphase-only-available-when-it-snows-in-switzerland/",
+      "source": "https://www.fratellowatches.com/new-moonswatch-mission-to-earthphase-only-available-when-it-snows-in-switzerland/",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "Subject switched from the blocked MoonSwatch idea to Yema Senans Grande Lune (The Gadgeteer 7 Nov 2026: $2,790 leather, orders open 11 Nov 2026; Gear Patrol: 200 per dial). Two Yema press photos were fetched via PH. Project files are written, but `steps.js finish` fails at the research import: the v"
+  ],
+  "scheduled_for": "2026-11-26T13:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-26-0830-blocked-new-releases-no-confirmed-subjec",
+  "project_dir": "Content Creation/projects/2026-11-26-0830-blocked-new-releases-no-confirmed-subjec",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-26-0830-blocked-new-releases-no-confirmed-subjec/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "issues": [
+      {
+        "severity": "minor",
+        "slide": "1",
+        "problem": "The cover photo shows the mesh bracelet, but the $2,790 price is for the leather strap.",
+        "change": "No change needed. Slide 4 already says 'Leather strap only.'",
+        "text_only": true
+      }
+    ],
+    "reason": "All three majors from last round are fixed. The post is now 5 slides, the conflicting mesh price is gone from the slides and caption, and the check passes. The only remaining note is minor: the cover photo shows the mesh bracelet while the price is for leather.",
+    "fixes": [
+      "[minor] slide 1: The cover photo shows the mesh bracelet, but the $2,790 price is for the leather strap. → No change needed. Slide 4 already says 'Leather strap only.'"
+    ]
+  }
+}

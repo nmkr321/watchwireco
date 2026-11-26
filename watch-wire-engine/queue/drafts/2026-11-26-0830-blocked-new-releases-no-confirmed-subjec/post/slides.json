@@ -1,0 +1,61 @@
+{
+ "source": "The Gadgeteer",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "NEW RELEASE",
+   "line1": "Yema Senans",
+   "line2": "Grande Lune",
+   "meta": "Full moonphase · 38.5mm · $2,790 on leather",
+   "photo": "watch-wire-engine/library/img/yema-77-26-22-06-snl-m.png",
+   "credit": "Image: Yema"
+  },
+  {
+   "t": "A-table",
+   "label": "Specs · The Gadgeteer, 7 Nov 2026",
+   "headline": "The specs at a glance",
+   "cols": [
+    "Spec",
+    "Detail"
+   ],
+   "rows": [
+    [
+     "Case",
+     "38.5mm steel, 8.7mm thick"
+    ],
+    [
+     "Lug to lug",
+     "46mm"
+    ],
+    [
+     "Movement",
+     "CMM.22, 28,800 vph, 70-hour reserve"
+    ],
+    [
+     "Water resistance",
+     "50 metres"
+    ]
+   ],
+   "hl": 0
+  },
+  {
+   "t": "A-number",
+   "number": "600",
+   "label": "numbered pieces in total",
+   "headline": "Three dials, 200 each",
+   "body": "Black, blue and champagne dials."
+  },
+  {
+   "t": "A-number",
+   "number": "$2,790",
+   "label": "Leather strap · orders opened 11 Nov 2026",
+   "headline": "Price and order date",
+   "body": "Leather strap only. Sold at yema.com."
+  },
+  {
+   "t": "cta",
+   "line1": "Wear it or pass?",
+   "line2": "Tell us below"
+  }
+ ]
+}
