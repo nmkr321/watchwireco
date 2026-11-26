@@ -1,0 +1,51 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Slides 3, 4 and 5 are text on black with no picture, and the recipe asks for A-photos of the dial or movement."
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "3",
+      "problem": "Text on black with no picture.",
+      "change": "Use the Speedmaster photo (asset-1, credited Daniel Zimmermann, CC BY 2.0) as a photo slide showing the bezel scale. Keep the headline 'Start, stop, read' and add the photo credit line.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "4",
+      "problem": "Text on black with no picture.",
+      "change": "Merge slide 4 ('Needs a known distance') into slide 3's body, or give it a photo, such as the Omega press image from slide 2 shown as a close crop of the bezel. If merged, the post becomes 5 slides, so add one more photo slide: either a second watch with a tachymeter and an official price, or a Daytona or Heuer image.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "5",
+      "problem": "The '180' number slide is text on black and has no photo.",
+      "change": "Put the watch dial photo behind or above the 180 block, or accept it as a deliberate number slide only if slides 3 and 4 have photos. Prefer a photo.",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "2",
+      "problem": "Only one watch is shown, and the recipe asks for which watches have it, with prices.",
+      "change": "Add a second tachymeter watch with an official brand price, such as the Rolex Daytona or TAG Heuer Carrera, as its own photo slide.",
+      "text_only": false
+    }
+  ],
+  "reason": "The facts, price and credits check out, and the cover is photo-led. But slides 3 to 5 are text on black, so the post needs photos on those slides before it can go out.",
+  "fixes": [
+    "[major] slide 3: Text on black with no picture. → Use the Speedmaster photo (asset-1, credited Daniel Zimmermann, CC BY 2.0) as a photo slide showing the bezel scale. Keep the headline 'Start, stop, read' and add the photo credit line.",
+    "[major] slide 4: Text on black with no picture. → Merge slide 4 ('Needs a known distance') into slide 3's body, or give it a photo, such as the Omega press image from slide 2 shown as a close crop of the bezel. If merged, the post becomes 5 slides, so add one more photo slide: either a second watch with a tachymeter and an official price, or a Daytona or Heuer image.",
+    "[major] slide 5: The '180' number slide is text on black and has no photo. → Put the watch dial photo behind or above the 180 block, or accept it as a deliberate number slide only if slides 3 and 4 have photos. Prefer a photo.",
+    "[minor] slide 2: Only one watch is shown, and the recipe asks for which watches have it, with prices. → Add a second tachymeter watch with an official brand price, such as the Rolex Daytona or TAG Heuer Carrera, as its own photo slide."
+  ]
+}

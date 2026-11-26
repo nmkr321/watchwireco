@@ -1,0 +1,11 @@
+{"source": "Source: Wikipedia; The 1916 Company; The Watchology",
+ "theme": "graphite",
+ "slides": [
+  {"t": "A-photo", "label": "WATCH EXPLAINED", "headline": "What a tachymeter does", "photo": "watch-wire-engine/library/img/commons-classic-speedy-24067321725.jpg", "credit": "Photo: Daniel Zimmermann, CC BY 2.0, via Wikimedia Commons", "fit": "cover"},
+  {"t": "A-photo", "label": "A speed scale on the bezel", "headline": "Times a stretch, not seconds", "photo": "watch-wire-engine/library/img/omega-310-30-42-50-01-001.jpg", "credit": "Image: Omega", "body": "Ref 310.30.42.50.01.001 Speedmaster Moonwatch Professional: USD 7,800, per The 1916 Company, 22 Nov 2026."},
+  {"t": "A-photo", "label": "How it works", "headline": "Start, stop, read", "photo": "assets/media/asset-1.jpg", "credit": "Photo: Daniel Zimmermann, CC BY 2.0, via Wikimedia Commons", "body": "Time one stretch with the chronograph, then read the scale at the stop."},
+  {"t": "A-photo", "label": "The catch", "headline": "Needs a known distance", "photo": "watch-wire-engine/library/img/omega-310-30-42-50-01-001.jpg", "credit": "Image: Omega", "body": "The scale only works for a fixed distance, such as one kilometre."},
+  {"t": "A-photo", "label": "Also a tachymeter", "headline": "The Rolex Daytona", "photo": "watch-wire-engine/library/img/commons-rolex-cosmograph-daytona-panda.jpg", "credit": "Photo: Shuntfield / CC BY-SA 4.0, via Wikimedia Commons", "body": "Ref 126500LN steel: USD 15,900 retail, per The Watchology, July 2026."},
+  {"t": "A-photo", "label": "Reading on the scale", "headline": "A 20-second km reads 180", "photo": "watch-wire-engine/library/img/omega-310-30-42-50-01-001.jpg", "credit": "Image: Omega", "body": "Start at one marker, stop at the next. Speed = 3,600 divided by seconds."},
+  {"t": "cta", "line1": "Know this scale?", "line2": "Comment your reading.", "body": "Follow @watchwireco for daily watch news."}
+ ]}

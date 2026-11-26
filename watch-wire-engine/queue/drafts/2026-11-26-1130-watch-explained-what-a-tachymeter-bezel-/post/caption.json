@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Omega Speedmaster Moonwatch Professional 310.30.42.50.01.001: what a tachymeter bezel actually does.\n\nThe scale turns a stopwatch time over a known distance into average speed. Start at one marker, stop at the next, then read the scale.\n\nUSD 7,800 new, per The 1916 Company (22 Nov 2026). Retailer prices vary, so check before you buy.\n\nHave you ever used a tachymeter in real life? Tell us below.\n\nSource: Wikipedia (tachymeter formula); The 1916 Company (price, 22 Nov 2026); The Watchology (Daytona price, July 2026).\n\nPhoto: Omega (watch). Photo: Daniel Zimmermann, CC BY 2.0, via Wikimedia Commons (cover); Photo: Shuntfield, CC BY-SA 4.0, via Wikimedia Commons (Daytona).\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3"
+  ],
+  "source_ids": [
+    "SRC-1916",
+    "SRC-WIKI"
+  ],
+  "attribution": "Source: Wikipedia; The 1916 Company; The Watchology. Photo: Omega.",
+  "caption_credit": "Photo: Omega; Photo: Daniel Zimmermann, CC BY 2.0, via Wikimedia Commons; Photo: Shuntfield, CC BY-SA 4.0, via Wikimedia Commons",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Official omega.com page not readable; price from retailer."
+  ],
+  "carousel_sha256": "fa6835ad2e71afc4c39c7f6066e3b887d916de0f06681cf98a1cd895caf14063",
+  "completed_at": "2026-11-26T08:45:34.994Z"
+}

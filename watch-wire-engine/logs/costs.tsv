@@ -1210,3 +1210,9 @@
 2026-11-26T08:38:16.805Z	learn 2026-11-26-0830-blocked-new-releases-no-confirmed-subjec	claude-haiku-5-5	0.0021	2
 2026-11-26T08:39:25.307Z	editor-revise 2026-11-26-0830-blocked-new-releases-no-confirmed-subjec	claude-haiku-5-5	0.0116	23
 2026-11-26T08:39:36.955Z	approver 2026-11-26-0830-blocked-new-releases-no-confirmed-subjec r2	claude-sonnet-5-5	0.0485	8
+2026-11-26T08:42:11.986Z	editor 2026-11-26-1130-watch-explained-what-a-tachymeter-bezel-	claude-haiku-5-5	0.0504	26
+2026-11-26T08:43:11.541Z	editor-precheck 2026-11-26-1130-watch-explained-what-a-tachymeter-bezel-	claude-haiku-5-5	0.0064	9
+2026-11-26T08:43:30.376Z	approver 2026-11-26-1130-watch-explained-what-a-tachymeter-bezel- r1	claude-sonnet-5-5	0.0789	10
+2026-11-26T08:43:33.577Z	learn 2026-11-26-1130-watch-explained-what-a-tachymeter-bezel-	claude-haiku-5-5	0.0019	2
+2026-11-26T08:45:45.839Z	editor-revise 2026-11-26-1130-watch-explained-what-a-tachymeter-bezel-	claude-haiku-5-5	0.0418	22
+2026-11-26T08:45:55.443Z	approver 2026-11-26-1130-watch-explained-what-a-tachymeter-bezel- r2	claude-sonnet-5-5	0.0653	9

@@ -1,0 +1,15 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [],
+  "reason": "The check passes and the earlier majors are fixed: every slide now has a credited photo, and the post adds a Rolex Daytona slide with a dated price. The Speedmaster photo on slide 4 has no hint of a tachymeter scale. That's only a minor point, so I'm approving.",
+  "fixes": []
+}
