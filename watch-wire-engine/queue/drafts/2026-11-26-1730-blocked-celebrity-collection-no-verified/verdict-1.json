@@ -1,0 +1,52 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Collection rests on two one-off event sightings (lesson: skip one-off event looks)",
+    "Patek photo is a dealer-style image with a white fade, credited 'Patek Philippe' while the price source is Aviand; rights unclear"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "1",
+      "problem": "'Watch collection' built from one sighting per watch (Fanatics Fest 2024, 2023 WNBA Playoffs) with just two watches; not a real collection",
+      "change": "Rebuild from a source showing Brady wearing 3+ watches on several occasions, each with reference and price; or retitle the post as a 2-watch sighting and drop 'collection' from the cover, caption and hashtags. Not text-only.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "3",
+      "problem": "Patek image has a white fade at top and bottom, a stray white box on the dark template; credit 'Patek Philippe' but image looks like an Aviand dealer listing photo",
+      "change": "Replace with the official Patek Philippe 5980/1R photo on black, in assets/manifest.json with rights 'official' (patek.com), or a Brady wrist photo with licensed rights",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "2",
+      "problem": "Cover medallion shows the watches, but no photo of Brady wearing either watch, and the Rolex shown is a generic product shot",
+      "change": "Use a rights-cleared photo of Brady wearing the Rolex Bruce Wayne at Fanatics Fest, or keep the gold-circle portrait but confirm the medallion watches match the slide 2 and 3 watches",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "4",
+      "problem": "'Same wearer, 21x the price' is a weak take",
+      "change": "headline → 'Worn by one man'; body → 'A $12,000 Rolex and a $255,000 Patek.'",
+      "text_only": true
+    }
+  ],
+  "reason": "Check passes and the facts match Robb Report, but it's a thin 'collection' of two one-off event looks and the Patek image has a white fade with unclear rights. It needs a real multi-watch source or a retitle, and a clean official Patek photo.",
+  "fixes": [
+    "[major] slide 1: 'Watch collection' built from one sighting per watch (Fanatics Fest 2024, 2023 WNBA Playoffs) with just two watches; not a real collection → Rebuild from a source showing Brady wearing 3+ watches on several occasions, each with reference and price; or retitle the post as a 2-watch sighting and drop 'collection' from the cover, caption and hashtags. Not text-only.",
+    "[major] slide 3: Patek image has a white fade at top and bottom, a stray white box on the dark template; credit 'Patek Philippe' but image looks like an Aviand dealer listing photo → Replace with the official Patek Philippe 5980/1R photo on black, in assets/manifest.json with rights 'official' (patek.com), or a Brady wrist photo with licensed rights",
+    "[major] slide 2: Cover medallion shows the watches, but no photo of Brady wearing either watch, and the Rolex shown is a generic product shot → Use a rights-cleared photo of Brady wearing the Rolex Bruce Wayne at Fanatics Fest, or keep the gold-circle portrait but confirm the medallion watches match the slide 2 and 3 watches",
+    "[minor] slide 4: 'Same wearer, 21x the price' is a weak take → headline → 'Worn by one man'; body → 'A $12,000 Rolex and a $255,000 Patek.'"
+  ]
+}

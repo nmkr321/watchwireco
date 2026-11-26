@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-26-1730-blocked-celebrity-collection-no-verified-backup",
+  "lane": "rotation",
+  "status": "idea",
+  "found_at": "2026-11-26T08:57:35.037Z",
+  "post_at": "2026-11-26T22:30:00.000Z",
+  "backup_for": "2026-11-26-1730-blocked-celebrity-collection-no-verified",
+  "backup_depth": 1,
+  "tried_formats": [
+    "CELEBRITY COLLECTION"
+  ],
+  "format": "WATCH EXPLAINED",
+  "title": "Backup WATCH EXPLAINED for the slot of: BLOCKED: CELEBRITY COLLECTION (no verified celebrity)",
+  "hook": "",
+  "why": "Backup post. Explain one watch feature in plain words (GMT, perpetual calendar, moonphase, flyback, power reserve, tourbillon, minute repeater, dive bezel...). Not a feature posted in the last 7 days. Start with `node watch-wire-engine/src/photo.js list` and pick 2-3 library watches that have it: their photos and dated prices are already verified. One trusted source (named) for how it works. Never stop: if one feature has no library watches, pick another.",
+  "sources": []
+}

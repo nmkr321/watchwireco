@@ -1,0 +1,37 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Patek 5980/1R photo not replaced with an official or licensed image (draft.json stop_reason)",
+    "Slide 4 repeats the cover photo and fails the pre-check",
+    "Earlier major on slide 1 ('collection' built from two one-off sightings) not shown as fixed; the draft headline is 'Two watches on Tom Brady's wrist'"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "3",
+      "problem": "Patek photo still not replaced with an official or licensed image",
+      "change": "Replace it with the official Patek Philippe 5980/1R photo on black, in assets/manifest.json with rights 'official', or a licensed Brady wrist photo. If none can be found, drop the Patek slide.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "4",
+      "problem": "Repeats the cover photo and fails the pre-check",
+      "change": "Use a distinct photo, or remove the repeat.",
+      "text_only": false
+    }
+  ],
+  "reason": "The Patek photo is still not replaced with an official or licensed one, and slide 4 repeats the cover photo and fails the pre-check, so the post can't go out. The engine stopped it and it stays on hold.",
+  "fixes": [
+    "[major] slide 3: Patek photo still not replaced with an official or licensed image → Replace it with the official Patek Philippe 5980/1R photo on black, in assets/manifest.json with rights 'official', or a licensed Brady wrist photo. If none can be found, drop the Patek slide.",
+    "[major] slide 4: Repeats the cover photo and fails the pre-check → Use a distinct photo, or remove the repeat."
+  ]
+}

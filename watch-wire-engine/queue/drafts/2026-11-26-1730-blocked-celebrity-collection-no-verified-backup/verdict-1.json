@@ -1,0 +1,33 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [
+    {
+      "severity": "minor",
+      "slide": "caption",
+      "problem": "Photo credit line reads 'Photo: Photo: Qubeek / CC0', with the word repeated",
+      "change": "Replace 'Photo: Photo: Qubeek / CC0 (Wikimedia Commons)' with 'Photo: Qubeek / CC0 (Wikimedia Commons)'",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "2",
+      "problem": "The Tudor photo on slide 2 is a different dial from the one on slides 4 and 5, and it has no ref or price on the slide.",
+      "change": "No change needed. This is optional polish only.",
+      "text_only": true
+    }
+  ],
+  "reason": "The check passes. Both prices match the library's official Watches of Switzerland readings dated 26 Nov, and the photos show the right watches, Rolex and Tudor GMTs. It is a clear GMT explainer with a travel hook and no repeat in the last 7 days. The only fix is a duplicated word in the caption credit line.",
+  "fixes": [
+    "[minor] slide caption: Photo credit line reads 'Photo: Photo: Qubeek / CC0', with the word repeated → Replace 'Photo: Photo: Qubeek / CC0 (Wikimedia Commons)' with 'Photo: Qubeek / CC0 (Wikimedia Commons)'",
+    "[minor] slide 2: The Tudor photo on slide 2 is a different dial from the one on slides 4 and 5, and it has no ref or price on the slide. → No change needed. This is optional polish only."
+  ]
+}

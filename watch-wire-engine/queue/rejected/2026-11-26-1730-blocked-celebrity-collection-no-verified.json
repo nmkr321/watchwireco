@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-26-1730-blocked-celebrity-collection-no-verified",
+  "status": "rejected-after-revision",
+  "found_at": "2026-11-26T07:59:07.922Z",
+  "lane": "rotation",
+  "format": "CELEBRITY COLLECTION",
+  "post_at": "2026-11-26T22:30:00.000Z",
+  "slot": 4,
+  "title": "BLOCKED: CELEBRITY COLLECTION (no verified celebrity)",
+  "hook": "None. No confirmed subject yet.",
+  "why": "No named celebrity with a collection covered by a trusted outlet this month was found. The leads found are older sightings (Oscars and Golden Globes 2026), which do not fit a collection post. Needs a verified name first.",
+  "sources_to_check": [
+    "Robb Report and Hodinkee 'best watches of the week' roundups, late Nov 2026",
+    "Outlets naming a celebrity's watches with dated photos"
+  ],
+  "sources": [
+    {
+      "title": "Robb Report and Hodinkee 'best watches of the week' roundups, late Nov 2026",
+      "link": "",
+      "source": "Robb Report and Hodinkee 'best watches of the week' roundups, late Nov 2026",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Outlets naming a celebrity's watches with dated photos",
+      "link": "",
+      "source": "Outlets naming a celebrity's watches with dated photos",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "No usable celebrity collection found. Searches returned older sightings (2024 Robb Report roundup via Yahoo; Golden Globes 2026 list via Robb Report Singapore, 20 Jan 2026) that name a watch per person but give no references or prices, mostly one-off event looks rather than a single person's collect"
+  ],
+  "verdict": {
+    "decision": "revise",
+    "post_timing": "hold",
+    "soft_scores": {
+      "news": 2,
+      "hook": 3,
+      "visual": 2,
+      "clarity": 3,
+      "taste": 2
+    },
+    "hard_gate_failures": [
+      "Patek 5980/1R photo not replaced with an official or licensed image (draft.json stop_reason)",
+      "Slide 4 repeats the cover photo and fails the pre-check",
+      "Earlier major on slide 1 ('collection' built from two one-off sightings) not shown as fixed; the draft headline is 'Two watches on Tom Brady's wrist'"
+    ],
+    "issues": [
+      {
+        "severity": "major",
+        "slide": "3",
+        "problem": "Patek photo still not replaced with an official or licensed image",
+        "change": "Replace it with the official Patek Philippe 5980/1R photo on black, in assets/manifest.json with rights 'official', or a licensed Brady wrist photo. If none can be found, drop the Patek slide.",
+        "text_only": false
+      },
+      {
+        "severity": "major",
+        "slide": "4",
+        "problem": "Repeats the cover photo and fails the pre-check",
+        "change": "Use a distinct photo, or remove the repeat.",
+        "text_only": false
+      }
+    ],
+    "reason": "The Patek photo is still not replaced with an official or licensed one, and slide 4 repeats the cover photo and fails the pre-check, so the post can't go out. The engine stopped it and it stays on hold.",
+    "fixes": [
+      "[major] slide 3: Patek photo still not replaced with an official or licensed image → Replace it with the official Patek Philippe 5980/1R photo on black, in assets/manifest.json with rights 'official', or a licensed Brady wrist photo. If none can be found, drop the Patek slide.",
+      "[major] slide 4: Repeats the cover photo and fails the pre-check → Use a distinct photo, or remove the repeat."
+    ]
+  },
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-26-1730-blocked-celebrity-collection-no-verified",
+  "gave_up": true
+}

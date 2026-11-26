@@ -1,12 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY] Name the full model and reference in the post, never a bare brand name, and make sure a permitted photo shows that same reference.
-- [CELEBRITY] If no candidate passes every check, draw new candidates from the permitted library until one does; never publish a failed one.
-- [NEW RELEASES] Each slide must add a fact no earlier slide or the caption already states; never repeat dates, stores, sale windows or closing lines across slides.
-- [NEW RELEASES] Give each detail one home slide, and check rendered text so no line wraps to leave a single word alone.
-- [NEW RELEASES] Cut a slide rather than pad it: if no new sourced fact is left for a slide, drop it and keep the rest of the carousel.
-- [NEW RELEASES] Write the caption last, and delete any caption sentence that repeats a slide fact or adds advice outside the sourced facts.
 - [CELEBRITY] Generate the research stage with the Content Creation research agent; never hand-write research fields such as schema_version or ledgers.
 - [CELEBRITY] Before finish validation, confirm research.schema_version is 2.0 and route is hook-writer-agent, then run validation.
 - [CELEBRITY] Before finishing, check each slide's text fits its box without overlapping other elements, and remove any leftover template brackets such as [[ ]].
@@ -21,3 +15,9 @@ The editor reads this before every post. Written automatically from rejections; 
 - [EVENT SPOTTED] Never infer a sighting's year from article dates, URLs or context; if the year is not printed in the source, treat it as unverified.
 - [EVENT SPOTTED] Use only sightings dated within the last 10 days, with the year printed in the source; older coverage is not an event.
 - [EVENT SPOTTED] If a permitted person's searches show only older sightings, move to the next permitted person and search again.
+- [CELEBRITY COLLECTION] Treat a watch as a person's collection only when sources show them wearing it on several occasions; skip one-off event looks.
+- [CELEBRITY COLLECTION] Before choosing a watch, confirm a fully opened source gives its reference number and price; drop any watch lacking both.
+- [CELEBRITY COLLECTION] Use only official brand or owner-sourced photos for rights; drop dealer and retailer listing images even when credited to the brand.
+- [CELEBRITY COLLECTION] Inspect each photo on the dark template for white fades or stray boxes before rendering; replace any flawed image with a clean one.
+- [CELEBRITY COLLECTION] Give each slide a different permitted photo; if a watch lacks a distinct official or licensed photo, drop its slide instead of repeating one.
+- [CELEBRITY COLLECTION] Before rendering, check every slide's photo rights in assets/manifest.json; replace any image not marked official or licensed, or drop that slide.

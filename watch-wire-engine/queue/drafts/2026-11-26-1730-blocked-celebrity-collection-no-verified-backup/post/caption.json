@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "GMT watch explained: how a second hour hand reads a second time zone.\n\nRolex GMT-Master II 126710GRNR: USD 12,000. Tudor Black Bay GMT M79830RB-0010: USD 5,275. Prices per Watches of Switzerland, checked 26 November 2026.\n\nTUDOR says its Black Bay GMT hour hand can be jumped to set local time when you cross time zones.\n\nWhich would you travel with, the Rolex or the Tudor?\n\n#GMT #WatchExplained #Rolex #Tudor\n\nSource: Watches of Switzerland (prices, 26 Nov 2026); TUDOR (GMT function).\nPhoto: Photo: Qubeek / CC0 (Wikimedia Commons), Image: Rolex, Image: Tudor.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3"
+  ],
+  "source_ids": [
+    "SRC-WOS-ROLEX",
+    "SRC-WOS-TUDOR",
+    "SRC-TUDOR-GMT"
+  ],
+  "attribution": "Prices: Watches of Switzerland, 26 Nov 2026. GMT function: TUDOR.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [],
+  "caption_credit": "Photo: Qubeek / CC0; Image: Rolex; Image: Tudor",
+  "carousel_sha256": "086193abb35ccddf2167830ab876e7579189917d29549d98830ca6210286a0b7",
+  "completed_at": "2026-11-26T09:00:06.018Z"
+}

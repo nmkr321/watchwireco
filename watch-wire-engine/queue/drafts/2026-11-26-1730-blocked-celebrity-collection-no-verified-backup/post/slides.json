@@ -1,0 +1,51 @@
+{
+ "source": "Source: Watches of Switzerland, TUDOR",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "WATCH EXPLAINED",
+   "line1": "How a GMT watch",
+   "line2": "[[reads two time zones]]",
+   "meta": "Two examples, prices checked 26 Nov 2026",
+   "photo": "watch-wire-engine/library/img/commons-rolex-gmt-master-ii-126710blro.jpg",
+   "credit": "Photo: Qubeek / CC0"
+  },
+  {
+   "t": "A-photo",
+   "label": "WHAT IT IS",
+   "headline": "A second hour hand",
+   "photo": "watch-wire-engine/library/img/tudor-m79830rb-0003.jpg",
+   "credit": "Image: Tudor",
+   "body": "It shows a second time zone, read against a 24-hour bezel."
+  },
+  {
+   "t": "A-photo",
+   "label": "STEP 1",
+   "headline": "Keep home time",
+   "photo": "watch-wire-engine/library/img/rolex-126710grnr.png",
+   "credit": "Image: Rolex",
+   "body": "Main hands keep home time. Rolex 126710GRNR: USD 12,000, 26 Nov 2026."
+  },
+  {
+   "t": "A-photo",
+   "label": "STEP 2",
+   "headline": "Read the second zone",
+   "photo": "watch-wire-engine/library/img/tudor-m79830rb-0010.jpg",
+   "credit": "Image: Tudor",
+   "body": "The GMT hand points to the 24-hour bezel. Tudor M79830RB-0010: USD 5,275, 26 Nov 2026."
+  },
+  {
+   "t": "A-photo",
+   "label": "WHY COLLECTORS CARE",
+   "headline": "One watch, two zones",
+   "photo": "watch-wire-engine/library/img/tudor-m79830rb-0012.jpg",
+   "credit": "Image: Tudor",
+   "body": "Frequent travellers can check a second zone without resetting the watch."
+  },
+  {
+   "t": "cta",
+   "line1": "Save this for your next trip",
+   "line2": "Follow @watchwireco"
+  }
+ ]
+}

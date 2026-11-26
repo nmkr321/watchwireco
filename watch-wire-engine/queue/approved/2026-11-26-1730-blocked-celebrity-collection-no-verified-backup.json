@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-26-1730-blocked-celebrity-collection-no-verified-backup",
+  "lane": "rotation",
+  "status": "approved",
+  "found_at": "2026-11-26T08:57:35.037Z",
+  "post_at": "2026-11-26T22:30:00.000Z",
+  "backup_for": "2026-11-26-1730-blocked-celebrity-collection-no-verified",
+  "backup_depth": 1,
+  "tried_formats": [
+    "CELEBRITY COLLECTION"
+  ],
+  "format": "WATCH EXPLAINED",
+  "title": "Backup WATCH EXPLAINED for the slot of: BLOCKED: CELEBRITY COLLECTION (no verified celebrity)",
+  "hook": "",
+  "why": "Backup post. Explain one watch feature in plain words (GMT, perpetual calendar, moonphase, flyback, power reserve, tourbillon, minute repeater, dive bezel...). Not a feature posted in the last 7 days. Start with `node watch-wire-engine/src/photo.js list` and pick 2-3 library watches that have it: their photos and dated prices are already verified. One trusted source (named) for how it works. Never stop: if one feature has no library watches, pick another.",
+  "sources": [],
+  "scheduled_for": "2026-11-26T22:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-26-1730-blocked-celebrity-collection-no-verified-backup",
+  "project_dir": "Content Creation/projects/2026-11-26-1730-blocked-celebrity-collection-no-verified-backup",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-26-1730-blocked-celebrity-collection-no-verified-backup/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 2,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "issues": [
+      {
+        "severity": "minor",
+        "slide": "caption",
+        "problem": "Photo credit line reads 'Photo: Photo: Qubeek / CC0', with the word repeated",
+        "change": "Replace 'Photo: Photo: Qubeek / CC0 (Wikimedia Commons)' with 'Photo: Qubeek / CC0 (Wikimedia Commons)'",
+        "text_only": true
+      },
+      {
+        "severity": "minor",
+        "slide": "2",
+        "problem": "The Tudor photo on slide 2 is a different dial from the one on slides 4 and 5, and it has no ref or price on the slide.",
+        "change": "No change needed. This is optional polish only.",
+        "text_only": true
+      }
+    ],
+    "reason": "The check passes. Both prices match the library's official Watches of Switzerland readings dated 26 Nov, and the photos show the right watches, Rolex and Tudor GMTs. It is a clear GMT explainer with a travel hook and no repeat in the last 7 days. The only fix is a duplicated word in the caption credit line.",
+    "fixes": [
+      "[minor] slide caption: Photo credit line reads 'Photo: Photo: Qubeek / CC0', with the word repeated → Replace 'Photo: Photo: Qubeek / CC0 (Wikimedia Commons)' with 'Photo: Qubeek / CC0 (Wikimedia Commons)'",
+      "[minor] slide 2: The Tudor photo on slide 2 is a different dial from the one on slides 4 and 5, and it has no ref or price on the slide. → No change needed. This is optional polish only."
+    ]
+  }
+}

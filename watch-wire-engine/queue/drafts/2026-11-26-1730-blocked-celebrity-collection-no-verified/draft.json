@@ -1,0 +1,17 @@
+{
+  "status": "stopped",
+  "project_dir": "/home/runner/work/watchwireco/watchwireco/Content Creation/projects/2026-11-26-1730-blocked-celebrity-collection-no-verified",
+  "format": "CELEBRITY COLLECTION",
+  "lane": "rotation",
+  "headline": "Two watches on Tom Brady's wrist",
+  "slides": [
+    "output/slide-01.png",
+    "output/slide-02.png",
+    "output/slide-03.png",
+    "output/slide-04.png",
+    "output/slide-05.png",
+    "output/slide-06.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": "Patek 5980/1R photo not replaced (no official or licence-cleared photo of the rose-gold reference found); slide 4 repeats the cover photo and fails pre-check."
+}
