@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-26-2030-story-behind-gallet-and-the-stopwatch-th",
+  "status": "idea",
+  "found_at": "2026-11-26T07:59:07.922Z",
+  "lane": "history",
+  "format": "STORY BEHIND",
+  "post_at": "2026-11-27T01:30:00.000Z",
+  "slot": 5,
+  "title": "STORY BEHIND: Gallet and the stopwatch that timed the first powered flight (Wright brothers, 17 Dec 1903)",
+  "hook": "The stopwatch that timed the first powered flight came from a company turning 200 this year.",
+  "why": "Timely (Gallet's 200th anniversary in 2026) and a clear story with a tension hook. The Smithsonian holds the Wright brothers' stopwatch. Confirm the maker is listed as Gallet on the Smithsonian record, and verify the 200-year claim. Backup if this fails: Baume & Mercier's 1918 merger (a weaker 26 Nov milestone).",
+  "sources_to_check": [
+    "https://airandspace.si.edu/collection-objects/stopwatch-wright-brothers/nasm_A19640054000",
+    "https://www.gallet.com/ae-en/stories",
+    "https://www.cityam.com/?p=2463146"
+  ],
+  "sources": [
+    {
+      "title": "https://airandspace.si.edu/collection-objects/stopwatch-wright-brothers/nasm_A19640054000",
+      "link": "https://airandspace.si.edu/collection-objects/stopwatch-wright-brothers/nasm_A19640054000",
+      "source": "https://airandspace.si.edu/collection-objects/stopwatch-wright-brothers/nasm_A19640054000",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://www.gallet.com/ae-en/stories",
+      "link": "https://www.gallet.com/ae-en/stories",
+      "source": "https://www.gallet.com/ae-en/stories",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://www.cityam.com/?p=2463146",
+      "link": "https://www.cityam.com/?p=2463146",
+      "source": "https://www.cityam.com/?p=2463146",
+      "tier": "to-verify"
+    }
+  ]
+}

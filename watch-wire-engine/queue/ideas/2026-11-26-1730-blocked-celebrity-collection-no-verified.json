@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-26-1730-blocked-celebrity-collection-no-verified",
+  "status": "idea",
+  "found_at": "2026-11-26T07:59:07.922Z",
+  "lane": "rotation",
+  "format": "CELEBRITY COLLECTION",
+  "post_at": "2026-11-26T22:30:00.000Z",
+  "slot": 4,
+  "title": "BLOCKED: CELEBRITY COLLECTION (no verified celebrity)",
+  "hook": "None. No confirmed subject yet.",
+  "why": "No named celebrity with a collection covered by a trusted outlet this month was found. The leads found are older sightings (Oscars and Golden Globes 2026), which do not fit a collection post. Needs a verified name first.",
+  "sources_to_check": [
+    "Robb Report and Hodinkee 'best watches of the week' roundups, late Nov 2026",
+    "Outlets naming a celebrity's watches with dated photos"
+  ],
+  "sources": [
+    {
+      "title": "Robb Report and Hodinkee 'best watches of the week' roundups, late Nov 2026",
+      "link": "",
+      "source": "Robb Report and Hodinkee 'best watches of the week' roundups, late Nov 2026",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Outlets naming a celebrity's watches with dated photos",
+      "link": "",
+      "source": "Outlets naming a celebrity's watches with dated photos",
+      "tier": "to-verify"
+    }
+  ]
+}

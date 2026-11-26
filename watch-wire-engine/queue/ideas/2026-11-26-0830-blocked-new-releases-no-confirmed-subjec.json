@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-26-0830-blocked-new-releases-no-confirmed-subjec",
+  "status": "idea",
+  "found_at": "2026-11-26T07:59:07.921Z",
+  "lane": "news",
+  "format": "NEW RELEASES",
+  "post_at": "2026-11-26T13:30:00.000Z",
+  "slot": 1,
+  "title": "BLOCKED: NEW RELEASES (no confirmed subject)",
+  "hook": "None. No confirmed subject yet.",
+  "why": "The 'All-Black Silver Snowflake' MoonSwatch headline could not be confirmed. The closest real items are the Dec 2025 Cold Moon (US$450, sold until 20 Mar 2026) and the 2024 Black Snoopy, and the snowflake name is already on the do-not-repeat list. No confirmed 2026 official release was found. Needs an owner decision or a new search for an official 2026 release.",
+  "sources_to_check": [
+    "swatch.com MoonSwatch 2026 collection page",
+    "omega.com 2026 new releases",
+    "https://www.fratellowatches.com/new-moonswatch-mission-to-earthphase-only-available-when-it-snows-in-switzerland/"
+  ],
+  "sources": [
+    {
+      "title": "swatch.com MoonSwatch 2026 collection page",
+      "link": "",
+      "source": "swatch.com MoonSwatch 2026 collection page",
+      "tier": "to-verify"
+    },
+    {
+      "title": "omega.com 2026 new releases",
+      "link": "",
+      "source": "omega.com 2026 new releases",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://www.fratellowatches.com/new-moonswatch-mission-to-earthphase-only-available-when-it-snows-in-switzerland/",
+      "link": "https://www.fratellowatches.com/new-moonswatch-mission-to-earthphase-only-available-when-it-snows-in-switzerland/",
+      "source": "https://www.fratellowatches.com/new-moonswatch-mission-to-earthphase-only-available-when-it-snows-in-switzerland/",
+      "tier": "to-verify"
+    }
+  ]
+}

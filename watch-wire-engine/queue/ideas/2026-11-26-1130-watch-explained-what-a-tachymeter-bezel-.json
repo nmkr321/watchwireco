@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-26-1130-watch-explained-what-a-tachymeter-bezel-",
+  "status": "idea",
+  "found_at": "2026-11-26T07:59:07.922Z",
+  "lane": "rotation",
+  "format": "WATCH EXPLAINED",
+  "post_at": "2026-11-26T16:30:00.000Z",
+  "slot": 2,
+  "title": "WATCH EXPLAINED: What a tachymeter bezel actually does (Omega Speedmaster Moonwatch Professional, ref 310.30.42.50.01.001)",
+  "hook": "A scale on the bezel that times nothing you can't already time, until you know how to read it.",
+  "why": "Useful explainer on the top hot topic (Omega Speedmaster, 4 accounts). Price is unsettled: sources give $7,300, $7,800 and $9,600 for the same reference. Confirm the US retail price on omega.com before posting. Avoid the repeat angles (NASA history, Explorer vs Moonwatch).",
+  "sources_to_check": [
+    "https://omega.com (US Speedmaster Moonwatch Professional 310.30.42.50.01.001 price)",
+    "https://watchcharts.com/watch_model/1398-omega-speedmaster-moonwatch-304-33-44-52-03-001/overview",
+    "https://timeandtidewatches.com/omega-speedmaster-moonwatch-professional-black-and-white-hands-on/"
+  ],
+  "sources": [
+    {
+      "title": "https://omega.com (US Speedmaster Moonwatch Professional 310.30.42.50.01.001 price)",
+      "link": "https://omega.com (US Speedmaster Moonwatch Professional 310.30.42.50.01.001 price)",
+      "source": "https://omega.com (US Speedmaster Moonwatch Professional 310.30.42.50.01.001 price)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://watchcharts.com/watch_model/1398-omega-speedmaster-moonwatch-304-33-44-52-03-001/overview",
+      "link": "https://watchcharts.com/watch_model/1398-omega-speedmaster-moonwatch-304-33-44-52-03-001/overview",
+      "source": "https://watchcharts.com/watch_model/1398-omega-speedmaster-moonwatch-304-33-44-52-03-001/overview",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://timeandtidewatches.com/omega-speedmaster-moonwatch-professional-black-and-white-hands-on/",
+      "link": "https://timeandtidewatches.com/omega-speedmaster-moonwatch-professional-black-and-white-hands-on/",
+      "source": "https://timeandtidewatches.com/omega-speedmaster-moonwatch-professional-black-and-white-hands-on/",
+      "tier": "to-verify"
+    }
+  ]
+}

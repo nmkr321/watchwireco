@@ -1,24 +1,25 @@
 # How posts are doing
-Updated 2026-11-25 from 19 posts. Score = 4×shares + 3×saves + 2×comments + likes (per post, day-1 or day-7 numbers).
+Updated 2026-11-26 from 22 posts. Score = 4×shares + 3×saves + 2×comments + likes (per post, day-1 or day-7 numbers).
 
 
 ## By format
 - NEWS: score 3.0 (1 posts)
 - STORY BEHIND: score 3.0 (1 posts)
-- LISTICLE: score 2.0 (3 posts)
 - CELEBRITY: score 2.0 (3 posts)
 - BUILD YOUR COLLECTION: score 2.0 (2 posts)
-- WOULD YOU RATHER: score 1.5 (6 posts)
+- LISTICLE: score 1.8 (4 posts)
+- WOULD YOU RATHER: score 1.3 (7 posts)
 - MARKET: score 1.0 (2 posts)
 - HISTORY: score 0.0 (1 posts)
+- AUCTIONS: score 0.0 (1 posts)
 
 ## By posting time (New York)
-- 9 AM: score 5.0 (1 posts)
 - 12 PM: score 3.0 (1 posts)
-- 5 PM: score 3.0 (1 posts)
+- 9 AM: score 2.5 (2 posts)
 - 6 PM: score 2.3 (3 posts)
 - 10 AM: score 2.0 (1 posts)
-- 9 PM: score 1.5 (4 posts)
+- 5 PM: score 1.5 (2 posts)
+- 9 PM: score 1.4 (5 posts)
 - 8 PM: score 1.3 (3 posts)
 - 7 AM: score 1.0 (1 posts)
 - 10 PM: score 1.0 (2 posts)
