@@ -1,0 +1,24 @@
+{
+  "id": "202611260506-books-gifts-preloved-rolexes-vintage-whe",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-26T05:06:49.034Z",
+  "title": "From vintage Rolexes to rare books: where to buy preloved gifts",
+  "score": 6,
+  "sources": [
+    {
+      "title": "From vintage Rolexes to rare books: where to buy preloved gifts",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43bGdJcUcxaXk3NDhOUmJuN3E1dnd2QnVwbFppLUNJS09XMnBGUlNvQTBJT1N2MmNfVVNINzRvNWMyTEdTMnBPdkFVcnpCYkVJeW80M05FZm4yczdfUklRRVRiVnhPczJuSWZsNzZFWlc?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Financial Times",
+      "domain": "ft.com",
+      "tier": "major_news",
+      "published": "Thu, 26 Nov 2026 05:01:28 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "NEWS",
+    "reason": "This is a holiday shopping guide (\"where to buy preloved gifts\"), not breaking news. It names no brand move, auction result, launch, price change or industry data, so a collector wouldn't need it today. It is also an evergreen buying guide rather than a news event."
+  }
+}
