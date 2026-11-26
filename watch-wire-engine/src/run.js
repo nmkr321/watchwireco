@@ -81,6 +81,15 @@ function parseResult(stdout) {
   return m ? JSON.parse(m[0]) : null;
 }
 
+// titles of approved, idea and posted items from the last N days (for duplicate checks)
+function recentTitles(days) {
+  const since = Date.now() - days * 864e5, out = [];
+  for (const d of ["ideas", "approved", "posted"]) for (const f of fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json"))) {
+    try { const o = readJson(path.join(Q(d), f)); if (Date.parse(o.posted_at || o.scheduled_for || o.found_at || 0) > since) out.push(o.headline || o.title); } catch {}
+  }
+  return out.filter(Boolean).slice(-40);
+}
+
 // ---------- triage: cheap yes/no before spending on a full carousel ----------
 function triage(candidate) {
   const schema = JSON.stringify({
@@ -94,6 +103,8 @@ Pop culture with a clear watch angle counts too: e.g. a new James Bond actor or 
 Say no for reviews, opinion pieces, minor microbrand launches, sponsored content, or anything already old.
 Format must be one of: NEWS, NEW RELEASES, AUCTIONS, MARKET, CELEBRITY.
 
+Already queued or posted in the last 3 days (say no if this is the same story or the same product, even worded differently): ${JSON.stringify(recentTitles(3))}
+
 Story: ${candidate.title}
 Sources: ${candidate.sources.map((s) => `${s.source} (${s.domain}, ${s.tier}) ${s.published}`).join(" | ")}`;
   const out = claude(["--model", TRIAGE_MODEL, "--output-format", "json", "--json-schema", schema, "--max-budget-usd", "0.03", "--effort", EFFORT.triage], prompt, `triage ${candidate.id}`);
@@ -101,13 +112,19 @@ Sources: ${candidate.sources.map((s) => `${s.source} (${s.domain}, ${s.tier}) ${
 }
 
 // ---------- make: editor then approver ----------
+function slotTaken(t) {
+  for (const d of ["approved", "ideas"]) for (const f of fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json"))) {
+    try { const o = readJson(path.join(Q(d), f)); const ot = Date.parse(o.scheduled_for || o.post_at); if (Math.abs(ot - t) < 60 * 60e3) return true; } catch {}
+  }
+  return false;
+}
 function nextSlot(lane) {
   const now = new Date();
   const slots = schedule.slots.filter((s) => lane === "any" || s.lane === lane);
   for (let d = 0; d < 3; d++) for (const s of slots) {
     const [h, m] = s.time.split(":").map(Number);
     const t = new Date(now); t.setDate(now.getDate() + d); t.setHours(h, m, 0, 0);
-    if (t > now) return t.toISOString();
+    if (t > now && !slotTaken(t)) return t.toISOString();   // 2026-11-25: three news posts once shared one slot
   }
   return new Date(now.getTime() + 3600e3).toISOString();
 }
@@ -506,7 +523,7 @@ async function makeIdeas({ selfPlan = false } = {}) {
 async function publishDue({ breakingOnly = false } = {}) {
   const posted = fs.readdirSync(Q("posted")).map((f) => readJson(path.join(Q("posted"), f)));
   const today = new Date().toDateString();
-  const lastPost = posted.map((p) => Date.parse(p.posted_at)).sort().pop() || 0;
+  let lastPost = posted.map((p) => Date.parse(p.posted_at)).sort().pop() || 0;
   // oldest due first; at most one post per run and 20+ minutes apart, so late posts never go out in a burst
   const due = fs.readdirSync(Q("approved")).filter((x) => x.endsWith(".json")).map((f) => [readJson(path.join(Q("approved"), f)).scheduled_for || "", f]).sort().map(([, f]) => f);
   let postedThisRun = 0;
@@ -515,7 +532,7 @@ async function publishDue({ breakingOnly = false } = {}) {
     const item = readJson(file);
     if (Date.parse(item.scheduled_for) > Date.now()) continue;
     if (breakingOnly && item.lane !== "breaking") continue;
-    if (item.lane !== "breaking" && (postedThisRun || Date.now() - lastPost < 20 * 60e3)) { log(`spacing: ${item.id} waits for the next check`); continue; }
+    if (postedThisRun || (item.lane !== "breaking" && Date.now() - lastPost < 20 * 60e3)) { log(`spacing: ${item.id} waits for the next check`); continue; }
     // a newer version of this post exists (owner/editor replaced it): don't publish the old one
     const replacedBy = ["approved", "ideas"].flatMap((d) => fs.readdirSync(Q(d)).filter((x) => x.endsWith(".json")).map((x) => { try { return readJson(path.join(Q(d), x)); } catch { return {}; } })).find((o) => o.replaces === item.id);
     if (replacedBy) { item.status = "replaced"; item.replaced_by = replacedBy.id; writeJson(file, item); move(file, "hold"); log(`replaced, not posting: ${item.title}`); continue; }
@@ -537,7 +554,7 @@ async function publishDue({ breakingOnly = false } = {}) {
       try { item.trial_reel = await publishTrialReel(item); log(`trial reel posted for ${item.id}`); }
       catch (e) { item.trial_reel = { error: e.message.slice(0, 200) }; log(`trial reel failed for ${item.id}: ${e.message.slice(0, 160)}`); }
     }
-    writeJson(file, item); move(file, "posted"); postedThisRun++;
+    writeJson(file, item); move(file, "posted"); postedThisRun++; lastPost = Date.now();
     log(`${result.live ? "POSTED" : "DRY RUN (auto_publish is off)"}: ${item.title} ${result.permalink || ""}`);
     notify(`Watch Wire ${result.live ? "posted" : "ready to post (auto-publish off)"}: ${item.title}`);
   }
