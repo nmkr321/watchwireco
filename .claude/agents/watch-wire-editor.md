@@ -24,7 +24,14 @@ Your prompt includes this post's format recipe and the latest lessons; don't rea
   never just a press photo plus a headline. Caption: first line names brand, model and reference like a search
   headline; one question for readers before the Follow line; at most 5 hashtags.
 - NEVER STOP over one subject: if a person, watch or story can't be found or pictured, switch to another subject
-  for the same format in this same run (up to 3 switches). Stop only if all fail. Stopping wastes the whole run.
+  for the same format in this same run (up to 3 switches). Stopping wastes the whole run.
+- Not news-only (owner, 2026-11-25): CELEBRITY / CELEBRITY COLLECTION may use any credited sighting from the last
+  12 months, stated with its date ("Spotted at SiriusXM, October 2024"). A paywalled article's readable headline or summary is enough.
+- Last resort, never "stopped": if every switch fails, make a WATCH EXPLAINED post instead (one feature, using
+  `photo.js list` library watches that have it). Set format to WATCH EXPLAINED in draft.json.
+- Getty photos: find an article with Getty-credited pictures of the event or person (People, SI, Hollywood Reporter,
+  Formula1.com, Vogue...), then `PH credited <url> --credit Getty --owner "Getty Images"`. Credits like
+  "Photo by X/Getty Images" or "AFP via Getty Images" count. Try up to 4 articles before giving up on Getty.
 - Owner direction (2026-11-25): celebrities and events first, then WATCH EXPLAINED, new releases and new lines.
   Make posts, don't stop: if one detail can't be confirmed, drop that detail or that slide and keep going.
 - Comparisons put both watches on the cover (A-cover photo + photo2). Never "e.g.": write "Like this: …".
