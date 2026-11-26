@@ -1,7 +1,7 @@
 {
   "id": "2026-11-25-2030-watch-explained-the-watch-was-invented-b-backup",
   "lane": "history",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-25T06:09:55.880Z",
   "post_at": "2026-11-26T01:30:00.000Z",
   "backup_for": "2026-11-25-2030-watch-explained-the-watch-was-invented-b",
@@ -31,5 +31,22 @@
     "hard_gate_failures": [],
     "fixes": [],
     "reason": "Both round-1 fixes are in. The cover now has the gold watch medallion with no arrow, and the slide 3 body is under 15 words. The check passes, Complex confirms Coogler wore the Tank à Guichets at the 2026 Oscars, and the Watches of Switzerland price is dated."
+  },
+  "posted_at": "2026-11-26T02:14:54.564Z",
+  "publish": {
+    "live": true,
+    "media_id": "17970552504237306",
+    "permalink": "https://www.instagram.com/p/DgMAenEEgn3/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 504
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
