@@ -9,6 +9,7 @@ on:
   schedule:
     - cron: "0 * * * *"      # news scan
     - cron: "*/15 * * * *"   # publisher
+    - cron: "15 0,12,15,18,21 * * *"   # timed publisher: starts ~75 min before each slot and waits, because GitHub often runs crons 30-60 min late
     - cron: "30 6 * * *"     # plan  (01:30 New York, winter time; overnight to spare daytime usage)
     - cron: "0 7 * * *"      # make-ideas (02:00 New York, winter time)
     - cron: "40 8 * * *"     # make-ideas backup (03:40 New York): plans + makes if the earlier runs were skipped; no-op otherwise
@@ -28,7 +29,7 @@ permissions:
 # Three lanes that never block each other: the publisher (every 15 min), the news scan (hourly)
 # and the content maker (plan / make-ideas / manual runs).
 concurrency:
-  group: ${{ (github.event.schedule == '*/15 * * * *' || github.event.inputs.command == 'publish-due') && 'publisher' || (github.event.schedule == '0 * * * *' || github.event.inputs.command == 'tick') && 'scan' || 'maker' }}
+  group: ${{ (github.event.schedule == '*/15 * * * *' || github.event.schedule == '15 0,12,15,18,21 * * *' || github.event.inputs.command == 'publish-due' || github.event.inputs.command == 'publish-wait') && 'publisher' || (github.event.schedule == '0 * * * *' || github.event.inputs.command == 'tick') && 'scan' || 'maker' }}
   cancel-in-progress: false
 
 jobs:
@@ -58,6 +59,7 @@ jobs:
             "0 7 * * *"|"40 8 * * *") echo "CMD=make-ideas" >> "$GITHUB_ENV" ;;
             "0 8 * * 0") echo "CMD=tidy" >> "$GITHUB_ENV" ;;
             "*/15 * * * *") echo "CMD=publish-due" >> "$GITHUB_ENV" ;;
+            "15 0,12,15,18,21 * * *") echo "CMD=publish-wait" >> "$GITHUB_ENV" ;;
             *) echo "CMD=${{ github.event.inputs.command || 'tick' }}" >> "$GITHUB_ENV" ;;
           esac
       - name: Install tools
@@ -65,13 +67,13 @@ jobs:
           (command -v convert >/dev/null && command -v ffmpeg >/dev/null) || (sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick ffmpeg)
           npm install -g @anthropic-ai/claude-code >/dev/null
       - name: Cache the person cut-out library
-        if: env.CMD != 'publish-due'
+        if: env.CMD != 'publish-due' && env.CMD != 'publish-wait'
         uses: actions/cache@v4
         with:
           path: watch-wire-engine/node_modules
           key: ww-modules-${{ hashFiles('watch-wire-engine/package.json') }}
       - name: Install the person cut-out library
-        if: env.CMD != 'publish-due'
+        if: env.CMD != 'publish-due' && env.CMD != 'publish-wait'
         working-directory: watch-wire-engine
         run: test -d node_modules/@imgly || npm install --no-audit --no-fund --silent || echo "cut-out library unavailable; covers fall back to plain photos"
       - name: Run the engine

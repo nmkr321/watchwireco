@@ -8,8 +8,8 @@ October. Fifth month in a row." Never hype, emoji headlines or "buy now".
 
 **Value test (every post):** why would someone save, share or comment? It must be useful (a clear use or buyer: "watches for a suit", "first luxury watch under $5K", "travel GMTs"), timely (news, an auction, a release; seasonal angles only occasionally) or interactive (pick, vote, build). Lists and collections need a niche: one use case and a tight price band (roughly within 2x, e.g. $3K–$6K), never random watches from $9K to $82K.
 
-**Always:** a source for every number and a date for every price; "reportedly" for
-anything unconfirmed; one idea per slide; a topic tag on the cover; "spotted
+**Always:** a source for every number and a date for every price; the source named for
+single-source facts ("per GQ"), never "reportedly"; one idea per slide; a topic tag on the cover; "spotted
 wearing" unless ownership is confirmed; say whether auction prices include fees.
 **Never:** price predictions, investment advice, clickbait the slides don't pay
 off, reposting other creators' slides or photos, a press photo presented as ours.

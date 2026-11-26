@@ -18,8 +18,8 @@ Your prompt includes this post's format recipe and the latest lessons; don't rea
 - Pictures match the subject: celebrity → the celebrity, game → gameplay, otherwise the watch. Stories keep
   images to the last beats. Spotted slides: watch cut out in the gold medallion, arrow and ring on the wrist;
   the medallion watch must visibly match the one worn (strap, bezel, shape), else no spotted slide.
-- Always: a source for every number, a date on every price, "reportedly" for single-outlet facts, "spotted
-  wearing" unless confirmed, auction fees stated, topic tag on the cover. One calm CTA.
+- Always: a source for every number, a date on every price, the source named for single-outlet facts ("per GQ"), "spotted
+  wearing" for sightings, auction fees stated, topic tag on the cover. One calm CTA.
 - Original, not a repost: every post adds our own take, comparison or number in context (one line is enough);
   never just a press photo plus a headline. Caption: first line names brand, model and reference like a search
   headline; one question for readers before the Follow line; at most 5 hashtags.
@@ -102,6 +102,8 @@ the watch. Not every slide needs a photo. Every photo via PH with `--project <P>
   Celebrity shape (owner, 2026-11-21): cover (person) → WATCH SPOTLIGHT slide (the watch, 2-3 specs, price)
   → our take → a YOUR CALL slide that asks readers to act ("Wear it or pass? Comment WEAR or PASS") → cta.
   Never a slide that only hedges ("resale not checked", "prices may differ"); put caveats in the caption.
+  Price is never a reason to stop (owner 2026-11-26): use the library price, an official retailer, or one trusted outlet;
+  if none (brand site blocked, vintage, discontinued), write "Price on request" or drop the price line and keep going.
 - OWNER PHOTO (idea has `owner_photo`): the owner chose and cleared that photo. Use it via
   `PH owner <path> --project <P>` as the cover and the A-spotted photo; credit exactly what it returns (empty is fine).
   Don't look for a replacement photo of that person.

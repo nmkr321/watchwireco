@@ -628,6 +628,14 @@ try {
   if (cmd === "tick") await tick();
   else if (cmd === "make") makeWithRetries(path.resolve(arg));
   else if (cmd === "publish-due") await publishDue();
+  else if (cmd === "publish-wait") {
+    // timed publisher (2026-11-26): GitHub runs scheduled jobs 30-60 min late, so this starts early and waits for the slot
+    const soon = fs.readdirSync(Q("approved")).filter((x) => x.endsWith(".json")).map((f) => Date.parse(readJson(path.join(Q("approved"), f)).scheduled_for))
+      .filter((t) => t > Date.now() - 60e3 && t < Date.now() + 110 * 60e3).sort()[0];
+    if (soon) { const ms = Math.max(0, soon - Date.now() + 5e3); log(`publish-wait: next post at ${new Date(soon).toISOString()}, waiting ${Math.round(ms / 60e3)} min`); await new Promise((r) => setTimeout(r, ms)); }
+    spawnSync("git", ["pull", "--rebase", "--autostash", "-q", "origin", "main"], { cwd: WORKSPACE });   // pick up owner edits and other runs made while waiting
+    await publishDue();
+  }
   else if (cmd === "plan") {
     loadEnv();
     await collectInsights(log).catch((e) => log(`insights failed: ${e.message}`));
