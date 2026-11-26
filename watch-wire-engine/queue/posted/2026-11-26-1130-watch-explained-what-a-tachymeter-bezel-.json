@@ -1,6 +1,6 @@
 {
   "id": "2026-11-26-1130-watch-explained-what-a-tachymeter-bezel-",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-26T07:59:07.922Z",
   "lane": "rotation",
   "format": "WATCH EXPLAINED",
@@ -52,5 +52,24 @@
     "issues": [],
     "reason": "The check passes and the earlier majors are fixed: every slide now has a credited photo, and the post adds a Rolex Daytona slide with a dated price. The Speedmaster photo on slide 4 has no hint of a tachymeter scale. That's only a minor point, so I'm approving.",
     "fixes": []
+  },
+  "posted_at": "2026-11-26T16:31:29.511Z",
+  "publish": {
+    "live": true,
+    "media_id": "18119354852611010",
+    "permalink": "https://www.instagram.com/p/DgNigKCDkfh/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png"
+      ],
+      "caption_chars": 720
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
