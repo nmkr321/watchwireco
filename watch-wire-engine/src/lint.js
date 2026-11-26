@@ -112,6 +112,9 @@ export function lint(P, format = "") {
     const own = s.source || s.footLeft;
     if (["A-photo", "A-number"].includes(s.t) && /\$\s?\d/.test(JSON.stringify(s)) && !own) out.push(`slide ${i + 1}: has a price, so set its own "source" (just that slide's outlet)`);
   });
+  // measured layout problems from the last render (templates/fit.js): text that still doesn't fit after auto-shrink,
+  // overlaps, cut-off footers, text-only slides, covers buried under text. Owner 2026-11-26: fix these before review.
+  try { for (const [n, list] of Object.entries(readJson(f("render/fit.json")))) for (const x of list) out.push(`slide ${n} layout: ${x}`); } catch {}
   return out;
 }
 

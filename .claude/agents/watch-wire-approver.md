@@ -64,6 +64,10 @@ person has no photo when one could be fetched, or if slides are wordy (headline 
 body over 15). Approve only with all gates
 passed and a total of at least 17/25.
 
+Layout is measured by the engine (owner 2026-11-26): text that overflows, overlaps, cut-off footers, text-only slides and
+covers buried under text are found and fixed before you see the post (see the pre-check notes in your prompt).
+Don't spend issues re-measuring spacing by eye; judge what a machine can't: the right picture, the story, the facts, taste.
+
 ## How to write fixes (owner, 2026-11-25: most posts should need ONE revision)
 The editor gets one revision and does exactly what you write, nothing more. So:
 - Check EVERY slide and the caption before you reply, and list every issue now. Never save issues for a later round.

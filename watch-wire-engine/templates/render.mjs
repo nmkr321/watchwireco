@@ -183,7 +183,7 @@ function render(s, i) {
       return `${pic}${WM}
       <div class="cov${pic ? "" : " mid"}"><span class="tag">${esc(s.tag)}</span><h1>${hl(s.line1)}</h1>${s.line2 ? `<h2>${hl(s.line2)}</h2>` : ""}${s.meta ? `<div class="meta">${esc(s.meta)}</div>` : ""}</div>${credit}${foot(s.footLeft || "Swipe")}<div class="swipe">&gt;&gt;&gt;</div>`; }
     case "A-number": return `${WM}<div class="q">${s.tag ? `<span class="tag">${esc(s.tag)}</span>` : ""}</div><div class="num">${hl(s.number)}</div>
-      <div class="lbl" style="text-align:center;margin-top:14px">${esc(s.label)}</div><div class="box" style="top:720px;text-align:center"><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${foot()}`;
+      <div class="lbl" style="text-align:center;margin-top:36px">${esc(s.label)}</div><div class="box" style="top:720px;text-align:center"><div class="h">${hl(s.headline)}</div>${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${foot()}`;
     case "A-table": return `${WM}<div class="box mid"><div class="lbl">${esc(s.label)}</div><div class="h">${hl(s.headline)}</div>
       <table class="${s.tight ? "tight" : ""}"><tr>${s.cols.map((c) => `<th>${esc(c)}</th>`).join("")}</tr>${s.rows.map((r, k) => `<tr class="${k === s.hl ? "on" : ""}">${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</table>
       ${s.note ? `<p class="note">${hl(s.note)}</p>` : ""}${s.body ? `<p class="body">${hl(s.body)}</p>` : ""}</div>${foot()}`;
@@ -250,13 +250,22 @@ function render(s, i) {
   }
 }
 
+const FIT = fs.readFileSync(new URL("./fit.js", import.meta.url), "utf8"), FITOUT = {};
 slides.forEach((s, i) => {
   const n = String(i + 1).padStart(2, "0");
   const html = path.join(outDir, "html", `slide-${n}.html`);
-  fs.writeFileSync(html, `${HEAD}<div class="s" style="--acc:${ACC}">${render(s, i)}</div></body></html>`);
+  fs.writeFileSync(html, `${HEAD}<div class="s" data-t="${esc(s.t || "")}" style="--acc:${ACC}">${render(s, i)}</div><script>${FIT}</script></body></html>`);
   const png = path.resolve(outDir, `slide-${n}.png`);
   const r = spawnSync(CHROME, ["--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
     "--allow-file-access-from-files", "--window-size=1080,1350", "--virtual-time-budget=5000", `--screenshot=${png}`, "file://" + path.resolve(html)], { encoding: "utf8" });
   if (!fs.existsSync(png)) throw new Error(`render failed for slide ${n}: ${r.stderr}`);
+  // read back the layout check (same page, same fonts → same result as the screenshot)
+  const d = spawnSync(CHROME, ["--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
+    "--allow-file-access-from-files", "--window-size=1080,1350", "--virtual-time-budget=5000", "--dump-dom", "file://" + path.resolve(html)], { encoding: "utf8", maxBuffer: 64e6 });
+  const m = (d.stdout || "").match(/<title>WWFIT ([\s\S]*?)<\/title>/);
+  if (m) { try { const r2 = JSON.parse(m[1].replace(/&quot;/g, '"').replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")); FITOUT[i + 1] = r2.issues; } catch {} }
   console.log(png);
 });
+fs.writeFileSync(path.join(outDir, "fit.json"), JSON.stringify(FITOUT, null, 1));
+const bad = Object.entries(FITOUT).filter(([, v]) => v.length);
+if (bad.length) console.error("LAYOUT (fix by shortening text):\n" + bad.map(([k, v]) => v.map((x) => `  slide ${k}: ${x}`).join("\n")).join("\n"));
