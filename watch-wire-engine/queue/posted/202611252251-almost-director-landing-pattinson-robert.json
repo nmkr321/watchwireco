@@ -1,7 +1,7 @@
 {
   "id": "202611252251-almost-director-landing-pattinson-robert",
   "lane": "breaking",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-25T22:51:35.893Z",
   "title": "'Twilight' Director On Robert Pattinson Landing James Bond Role: \"I Almost Fell Out Of My Bed\"",
   "score": 6,
@@ -48,5 +48,23 @@
     "fixes": [
       "[minor] slide 5: Slide body and carousel.json still say '2026 Oscars'. Hypebeast doesn't give the year. → Body → 'Pattinson recalled a rose-gold Master Control at the Oscars, per Hypebeast.'"
     ]
+  },
+  "posted_at": "2026-11-26T15:29:53.835Z",
+  "publish": {
+    "live": true,
+    "media_id": "18187796830424593",
+    "permalink": "https://www.instagram.com/p/DgNbdOCF6Uc/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png"
+      ],
+      "caption_chars": 706
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
