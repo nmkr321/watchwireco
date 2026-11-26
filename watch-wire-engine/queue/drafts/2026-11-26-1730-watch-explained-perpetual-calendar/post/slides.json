@@ -1,0 +1,47 @@
+{
+ "source": "Source: Monochrome, Revolution, Timepiece",
+ "theme": "graphite",
+ "slides": [
+  {
+   "t": "D-cover",
+   "tag": "WATCH EXPLAINED",
+   "headline": "How a perpetual calendar knows February",
+   "photo": "watch-wire-engine/library/img/commons-jaeger-lecoultre-mastereightdaysperpetualsquelette.jpg",
+   "credit": "Photo: Ghilt / CC BY-SA 3.0 via Wikimedia Commons"
+  },
+  {
+   "t": "D-body",
+   "kicker": "WHAT IT IS",
+   "text": "A watch that keeps the right date through short months and leap years.",
+   "photo": "watch-wire-engine/library/img/commons-fondation-de-la-haute-horlogerie-kremlin-exhibition-.jpg",
+   "credit": "Photo: shakko / CC BY-SA 3.0 via Wikimedia Commons"
+  },
+  {
+   "t": "D-body",
+   "kicker": "INSIDE THE 48-MONTH WHEEL",
+   "text": "A four-year wheel of 48 notches. Each notch sets one month's length, February included.",
+   "photo": "watch-wire-engine/library/img/commons-patek-philippe-nautilus-perpetual-calendar-ref-5740-.jpg",
+   "credit": "Photo: EMore98 / CC BY-SA 4.0 via Wikimedia Commons"
+  },
+  {
+   "t": "D-body",
+   "kicker": "WATCH 1 · SEIKO SNP150",
+   "text": "Premier Kinetic perpetual calendar. Price on request.",
+   "photo": "watch-wire-engine/library/img/seiko-snp150.jpg",
+   "credit": "Image: Seiko"
+  },
+  {
+   "t": "D-body",
+   "kicker": "WATCH 2 · TISSOT T063.637.16.057.00",
+   "text": "Quartz perpetual calendar, not mechanical. Price on request.",
+   "photo": "watch-wire-engine/library/img/tissot-t063-637-16-057-00.jpg",
+   "credit": "Image: Tissot"
+  },
+  {
+   "t": "cta",
+   "line1": "Wear it or pass?",
+   "line2": "Comment SEIKO or TISSOT",
+   "body": "Follow @watchwireco for daily watch news."
+  }
+ ]
+}

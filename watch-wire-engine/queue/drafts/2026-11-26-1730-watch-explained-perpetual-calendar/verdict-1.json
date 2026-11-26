@@ -1,0 +1,68 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 2
+  },
+  "hard_gate_failures": [
+    "Cover photo is not a watch mechanism (gate 8)",
+    "Prices come from a third-party retailer, Timepiece, not the brand or an official retailer (gate 7)"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "1",
+      "problem": "The cover is a printed Chinese paper wheel calendar from a pawnshop, not a watch movement. It is misleading and does not meet the 'show the mechanism' rule for WATCH EXPLAINED covers.",
+      "change": "Replace it with a rights-cleared official or licensed photo of a perpetual calendar movement or dial, such as a Patek Philippe 5740 or 5320 calendar dial, or a brand movement image. Find one with `photo.js`, check it is in the manifest with rights official or licensed, and keep the credit.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "4",
+      "problem": "The Seiko price is a Timepiece discount price, which is not the brand or an official retailer. The caption itself says no official prices were found. The body also runs past 15 words.",
+      "change": "Use Seiko's official USD price, or swap in a library watch whose price in `library/index.json` has a source and date. Keep the body to 15 words or fewer, for example 'Premier Kinetic perpetual. $X, Seiko USA, 26 Nov 2026.'",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "5",
+      "problem": "The Tissot price is also from Timepiece, not official, and the body is over 15 words. The Tissot is a quartz watch, so the '48-month wheel' explanation on slide 3 does not describe it.",
+      "change": "Use Tissot's official USD price, or swap in a library mechanical perpetual calendar. Keep the body to 15 words or fewer. Say on the slide that it is quartz, or choose a mechanical watch instead.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "2",
+      "problem": "The photo is a very dark, unreadable dial, so the slide looks like text on black. It does not show the movement or mechanism.",
+      "change": "Use a clearer movement or dial photo that is visible through the overlay, or lighten the overlay on this slide.",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "3",
+      "problem": "The Patek Nautilus pictured is never named, and the slide has no headline.",
+      "change": "Add the headline 'Inside the 48-month wheel' and name the watch in the caption (Patek Philippe Nautilus 5740, if that is the model).",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "caption",
+      "problem": "The caption says 'No official USD prices were found', which weakens the post. It also does not match the new prices once they are swapped.",
+      "change": "Rewrite the price lines to the new official prices and delete the 'No official USD prices' sentence.",
+      "text_only": false
+    }
+  ],
+  "reason": "The explainer is a good idea, but the cover shows a paper pawnshop calendar rather than a watch mechanism. The prices come from a discount retailer rather than the brands, and two slides run too long.",
+  "fixes": [
+    "[major] slide 1: The cover is a printed Chinese paper wheel calendar from a pawnshop, not a watch movement. It is misleading and does not meet the 'show the mechanism' rule for WATCH EXPLAINED covers. → Replace it with a rights-cleared official or licensed photo of a perpetual calendar movement or dial, such as a Patek Philippe 5740 or 5320 calendar dial, or a brand movement image. Find one with `photo.js`, check it is in the manifest with rights official or licensed, and keep the credit.",
+    "[major] slide 4: The Seiko price is a Timepiece discount price, which is not the brand or an official retailer. The caption itself says no official prices were found. The body also runs past 15 words. → Use Seiko's official USD price, or swap in a library watch whose price in `library/index.json` has a source and date. Keep the body to 15 words or fewer, for example 'Premier Kinetic perpetual. $X, Seiko USA, 26 Nov 2026.'",
+    "[major] slide 5: The Tissot price is also from Timepiece, not official, and the body is over 15 words. The Tissot is a quartz watch, so the '48-month wheel' explanation on slide 3 does not describe it. → Use Tissot's official USD price, or swap in a library mechanical perpetual calendar. Keep the body to 15 words or fewer. Say on the slide that it is quartz, or choose a mechanical watch instead.",
+    "[major] slide 2: The photo is a very dark, unreadable dial, so the slide looks like text on black. It does not show the movement or mechanism. → Use a clearer movement or dial photo that is visible through the overlay, or lighten the overlay on this slide.",
+    "[minor] slide 3: The Patek Nautilus pictured is never named, and the slide has no headline. → Add the headline 'Inside the 48-month wheel' and name the watch in the caption (Patek Philippe Nautilus 5740, if that is the model).",
+    "[minor] slide caption: The caption says 'No official USD prices were found', which weakens the post. It also does not match the new prices once they are swapped. → Rewrite the price lines to the new official prices and delete the 'No official USD prices' sentence."
+  ]
+}

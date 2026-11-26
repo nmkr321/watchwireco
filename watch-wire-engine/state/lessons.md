@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY] Before finishing, check each slide's text fits its box without overlapping other elements, and remove any leftover template brackets such as [[ ]].
-- [CELEBRITY] Copy each headline word-for-word from the slide into carousel.json and the caption; never reword it in one place only.
 - [NEW RELEASES] Use only photos listed in state/permissions.json with their credit line; drop any press-kit photo that has no permission entry.
 - [NEW RELEASES] After switching to a replacement subject, rerun research for it; never reuse sources, prices or dates from the dropped idea.
 - [NEW RELEASES] When sources give different figures for one product, omit that figure from slides and caption; never present either as fact.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY COLLECTION] Before rendering, check every slide's photo rights in assets/manifest.json; replace any image not marked official or licensed, or drop that slide.
 - [STORY BEHIND] Give every slide a different licensed or official photo background; never leave a text-only slide on black.
 - [STORY BEHIND] Use the source's exact verb for each event (created, unveiled, introduced), and make the cover photo show the object the story describes.
+- [WATCH EXPLAINED] Use cover photos that show the explained mechanism itself; never substitute an unrelated object, even one that looks similar.
+- [WATCH EXPLAINED] Check each slide's mechanism claim against the named watch's movement type, such as quartz or mechanical, before writing it.

@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-26-1730-watch-explained-perpetual-calendar",
+  "status": "approved",
+  "manual": true,
+  "found_at": "2026-11-26T17:10:00Z",
+  "lane": "rotation",
+  "format": "WATCH EXPLAINED",
+  "post_at": "2026-11-26T22:30:00.000Z",
+  "title": "How a perpetual calendar actually works",
+  "hook": "How A Perpetual Calendar Knows February",
+  "why": "Replaces a duplicate GMT post. Explain in plain words how a perpetual calendar tracks month lengths and leap years (the 48-month wheel), 2-3 library watches that have it (photo.js list) with dated prices. Cover = the movement or calendar mechanism close-up (brand movement image), the most striking picture. Not GMT, tachymeter or chronograph (all posted in the last 2 days).",
+  "sources_to_check": [
+    "patek.com perpetual calendar pages",
+    "one trusted explainer (Hodinkee, Revolution, Fratello)"
+  ],
+  "sources": [],
+  "scheduled_for": "2026-11-26T22:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-26-1730-watch-explained-perpetual-calendar",
+  "project_dir": "Content Creation/projects/2026-11-26-1730-watch-explained-perpetual-calendar",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-26-1730-watch-explained-perpetual-calendar/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "issues": [],
+    "reason": "The check passes. The cover now shows a real watch movement, the Seiko and Tissot slides no longer use discount prices, and slide 3 has its headline and names the Patek in the caption. The remaining weak spots are minor: the prices read 'on request', and slide 2 is a dim pocket-watch photo that still reads.",
+    "fixes": []
+  }
+}

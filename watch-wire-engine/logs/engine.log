@@ -2177,3 +2177,7 @@ I did not WebFetch the Robb Report source or check the manifest rights in this p
 2026-11-26T16:11:20.127Z publish-wait: next post at 2026-11-26T16:30:00.000Z, waiting 19 min
 2026-11-26T16:31:29.511Z POSTED: WATCH EXPLAINED: What a tachymeter bezel actually does (Omega Speedmaster Moonwatch Professional, ref 310.30.42.50.01.001) https://www.instagram.com/p/DgNigKCDkfh/
 2026-11-26T17:02:46.991Z watcher: 0 new candidate(s)
+2026-11-26T17:00:36.857Z editor start: How a perpetual calendar actually works
+2026-11-26T17:05:26.797Z approver r1: revise, 4 major / 2 minor (The explainer is a good idea, but the cover shows a paper pawnshop calendar rather than a watch mechanism. The prices come from a discount retailer rather than the brands, and two slides run too long.)
+2026-11-26T17:05:33.436Z learned: [WATCH EXPLAINED] Use cover photos that show the explained mechanism itself; never substitute an unrelated object, even one that looks similar. | [WATCH EXPLAINED] Check each slide's mechanism claim against the named watch's movement type, such as quartz or mechanical, before writing it.
+2026-11-26T17:07:48.533Z approver r2: approve, 0 major / 0 minor (The check passes. The cover now shows a real watch movement, the Seiko and Tissot slides no longer use discount prices, and slide 3 has its headline and names the Patek in the caption. The remaining weak spots are minor: the prices read 'on request', and slide 2 is a dim pocket-watch photo that still reads.)
