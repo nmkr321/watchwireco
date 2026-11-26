@@ -1,6 +1,6 @@
 {
   "id": "2026-11-26-0830-blocked-new-releases-no-confirmed-subjec",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-26T07:59:07.921Z",
   "lane": "news",
   "format": "NEW RELEASES",
@@ -65,5 +65,22 @@
     "fixes": [
       "[minor] slide 1: The cover photo shows the mesh bracelet, but the $2,790 price is for the leather strap. → No change needed. Slide 4 already says 'Leather strap only.'"
     ]
+  },
+  "posted_at": "2026-11-26T13:31:14.153Z",
+  "publish": {
+    "live": true,
+    "media_id": "18031293419875638",
+    "permalink": "https://www.instagram.com/p/DgNN4ZbFTut/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 382
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
