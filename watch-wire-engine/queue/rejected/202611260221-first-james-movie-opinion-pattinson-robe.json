@@ -1,0 +1,24 @@
+{
+  "id": "202611260221-first-james-movie-opinion-pattinson-robe",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-26T02:21:15.627Z",
+  "title": "Opinion | Robert Pattinson Is the First Movie Star to Play James Bond",
+  "score": 7,
+  "sources": [
+    {
+      "title": "Opinion | Robert Pattinson Is the First Movie Star to Play James Bond",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaDY4aXdlUm1kTGl0VzlvaHRiQ0ZYQmtsZTRoTDNCWVM3N3RFOTFZQjRwOW5fci1XWldsbHU0dEQ4SHc4QWhCd1I4cWRjak1ld25TTFNjZ2hvYS1zb3c4ZFR2UFE1YmdYM0RFWU1pcFlOdEtMcWdkMk4teTdVcUtRNWVWRGE1NzI2R0ZNd2h6MDdwSHh6VEVGYWFaNmZ4Q1Vsakd3eE1BUWdoUEc2Y1g3Qnh3?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "WSJ",
+      "domain": "wsj.com",
+      "tier": "major_news",
+      "published": "Thu, 26 Nov 2026 01:26:55 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "CELEBRITY",
+    "reason": "This is an opinion column (\"Opinion |\" in the headline), and the rules say no to opinion pieces. The Bond and Omega angle is a real watch hook, but the story is commentary about casting, not a fact-based breaking development. Skip it. If a factual report on the casting itself comes out (an official studio announcement, for example), that would be worth a fresh look."
+  }
+}
