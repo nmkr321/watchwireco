@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-26-1730-watch-explained-perpetual-calendar",
+  "status": "idea",
+  "manual": true,
+  "found_at": "2026-11-26T17:10:00Z",
+  "lane": "rotation",
+  "format": "WATCH EXPLAINED",
+  "post_at": "2026-11-26T22:30:00.000Z",
+  "title": "How a perpetual calendar actually works",
+  "hook": "How A Perpetual Calendar Knows February",
+  "why": "Replaces a duplicate GMT post. Explain in plain words how a perpetual calendar tracks month lengths and leap years (the 48-month wheel), 2-3 library watches that have it (photo.js list) with dated prices. Cover = the movement or calendar mechanism close-up (brand movement image), the most striking picture. Not GMT, tachymeter or chronograph (all posted in the last 2 days).",
+  "sources_to_check": [
+    "patek.com perpetual calendar pages",
+    "one trusted explainer (Hodinkee, Revolution, Fratello)"
+  ],
+  "sources": []
+}

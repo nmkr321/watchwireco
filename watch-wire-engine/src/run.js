@@ -457,7 +457,7 @@ function backup(item) {
     "WOULD YOU RATHER": "Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Same money pair from watch-wire-engine/library (verified prices within 10%), watches not used today.",
     "BUILD YOUR COLLECTION": "Run `node watch-wire-engine/src/photo.js list` to see unused verified watches. Tiered collection from watch-wire-engine/library, watches not used today." }[format];
   writeJson(path.join(Q("ideas"), `${id}.json`), { id, lane: item.lane, status: "idea", found_at: new Date().toISOString(), post_at: item.post_at, backup_for: item.backup_for || item.id, backup_depth: depth + 1, tried_formats: [...tried],
-    format, title: `Backup ${format} for the slot of: ${item.title}`, hook: "", why: `Backup post. ${how}`, sources: [] });
+    format, title: `Backup ${format} for the slot of: ${item.title}`, hook: "", why: `Backup post. ${how} Already queued or posted recently, pick something different from all of these: ${JSON.stringify(recentTitles(7))}`, sources: [] });
   log(`backup for ${item.post_at}: making it now (${item.title})`);
   makeWithRetries(path.join(Q("ideas"), `${id}.json`));   // backup_depth caps it at two backups per slot
 }

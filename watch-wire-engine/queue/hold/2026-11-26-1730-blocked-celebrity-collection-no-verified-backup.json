@@ -1,7 +1,7 @@
 {
   "id": "2026-11-26-1730-blocked-celebrity-collection-no-verified-backup",
   "lane": "rotation",
-  "status": "approved",
+  "status": "duplicate",
   "found_at": "2026-11-26T08:57:35.037Z",
   "post_at": "2026-11-26T22:30:00.000Z",
   "backup_for": "2026-11-26-1730-blocked-celebrity-collection-no-verified",
@@ -47,8 +47,9 @@
     ],
     "reason": "The check passes. Both prices match the library's official Watches of Switzerland readings dated 26 Nov, and the photos show the right watches, Rolex and Tudor GMTs. It is a clear GMT explainer with a travel hook and no repeat in the last 7 days. The only fix is a duplicated word in the caption credit line.",
     "fixes": [
-      "[minor] slide caption: Photo credit line reads 'Photo: Photo: Qubeek / CC0', with the word repeated → Replace 'Photo: Photo: Qubeek / CC0 (Wikimedia Commons)' with 'Photo: Qubeek / CC0 (Wikimedia Commons)'",
-      "[minor] slide 2: The Tudor photo on slide 2 is a different dial from the one on slides 4 and 5, and it has no ref or price on the slide. → No change needed. This is optional polish only."
+      "[minor] slide caption: Photo credit line reads 'Photo: Photo: Qubeek / CC0', with the word repeated \u2192 Replace 'Photo: Photo: Qubeek / CC0 (Wikimedia Commons)' with 'Photo: Qubeek / CC0 (Wikimedia Commons)'",
+      "[minor] slide 2: The Tudor photo on slide 2 is a different dial from the one on slides 4 and 5, and it has no ref or price on the slide. \u2192 No change needed. This is optional polish only."
     ]
-  }
+  },
+  "note": "Same topic as the 14:30 backup (How a GMT works); replaced."
 }
