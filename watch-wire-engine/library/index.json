@@ -5757,5 +5757,41 @@
   "caption_credit": "Photo: Shuntfield / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
   "usage": "File:Rolex Cosmograph Daytona Panda.jpg (CC BY-SA 4.0), credited",
   "fetched": "2026-11-26"
+ },
+ {
+  "kind": "commons",
+  "title": "File:1 Front - slow Jo 17 - Swiss Made, 24 hour one hand wrist watch, GMT movement, dark brown vintage leather band, silver case, creme dial.jpg",
+  "ref": "",
+  "source": "https://commons.wikimedia.org/wiki/File:1_Front_-_slow_Jo_17_-_Swiss_Made,_24_hour_one_hand_wrist_watch,_GMT_movement,_dark_brown_vintage_leather_band,_silver_case,_creme_dial.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/1_Front_-_slow_Jo_17_-_Swiss_Made%2C_24_hour_one_hand_wrist_watch%2C_GMT_movement%2C_dark_brown_vintage_leather_band%2C_silver_case%2C_creme_dial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "file": "watch-wire-engine/library/img/commons-1-front-slow-jo-17-swiss-made-24-hour-one-hand-wrist.jpg",
+  "w": 1772,
+  "h": 2717,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "Shackomat",
+  "license": "CC BY-SA 4.0",
+  "credit": "Photo: Shackomat / CC BY-SA 4.0",
+  "caption_credit": "Photo: Shackomat / CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) via Wikimedia Commons",
+  "usage": "File:1 Front - slow Jo 17 - Swiss Made, 24 hour one hand wrist watch, GMT movement, dark brown vintage leather band, silver case, creme dial.jpg (CC BY-SA 4.0), credited",
+  "fetched": "2026-11-26"
+ },
+ {
+  "kind": "commons",
+  "title": "File:Rolex-GMT-Master-II-Batgirl.jpg",
+  "ref": "126710BLNR",
+  "source": "https://commons.wikimedia.org/wiki/File:Rolex-GMT-Master-II-Batgirl.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Rolex-GMT-Master-II-Batgirl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "file": "watch-wire-engine/library/img/commons-rolex-gmt-master-ii-batgirl.jpg",
+  "w": 1200,
+  "h": 1200,
+  "ref_on_page": true,
+  "rights": "licensed",
+  "creator": "Brattyq",
+  "license": "CC0",
+  "credit": "Photo: Brattyq / CC0",
+  "caption_credit": "Photo: Brattyq / CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en) via Wikimedia Commons",
+  "usage": "File:Rolex-GMT-Master-II-Batgirl.jpg (CC0), credited",
+  "fetched": "2026-11-26"
  }
 ]

@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-26-1430-blocked-event-spotted-no-confirmed-event-backup",
+  "lane": "rotation",
+  "status": "approved",
+  "found_at": "2026-11-26T08:47:39.213Z",
+  "post_at": "2026-11-26T19:30:00.000Z",
+  "backup_for": "2026-11-26-1430-blocked-event-spotted-no-confirmed-event",
+  "backup_depth": 1,
+  "tried_formats": [
+    "EVENT SPOTTED"
+  ],
+  "format": "WATCH EXPLAINED",
+  "title": "Backup WATCH EXPLAINED for the slot of: BLOCKED: EVENT SPOTTED (no confirmed event)",
+  "hook": "",
+  "why": "Backup post. Explain one watch feature in plain words (GMT, perpetual calendar, moonphase, flyback, power reserve, tourbillon, minute repeater, dive bezel...). Not a feature posted in the last 7 days. Start with `node watch-wire-engine/src/photo.js list` and pick 2-3 library watches that have it: their photos and dated prices are already verified. One trusted source (named) for how it works. Never stop: if one feature has no library watches, pick another.",
+  "sources": [],
+  "scheduled_for": "2026-11-26T19:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-26-1430-blocked-event-spotted-no-confirmed-event-backup",
+  "project_dir": "Content Creation/projects/2026-11-26-1430-blocked-event-spotted-no-confirmed-event-backup",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-26-1430-blocked-event-spotted-no-confirmed-event-backup/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 3,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "issues": [
+      {
+        "severity": "minor",
+        "slide": "caption",
+        "problem": "Closing question ('a GMT, or a plain dial') doesn't match the CTA slide ('Comment GMT or pass')",
+        "change": "Replace 'Which would you wear for travel: a GMT, or a plain dial?' with 'Wear it or pass? Comment GMT or pass.'",
+        "text_only": true
+      },
+      {
+        "severity": "minor",
+        "slide": "1",
+        "problem": "Cover shows the whole watch, not the movement or mechanism that explainer covers should show. The gaps note says no movement photo was found.",
+        "change": "Leave as is. No fix is possible without a new photo.",
+        "text_only": true
+      }
+    ],
+    "reason": "The check passes. The Gear Patrol source confirms the GMT hand and bezel facts, the prices are dated and from official or retailer pages, and every watch is pictured with a credit. The Timex at $1,450 next to Rolex at $11.8K and $33.2K is a wide spread, but the post is about one feature, so I left it. The cover is a watch photo, not a movement shot, and the caption question needs a small match to the CTA slide.",
+    "fixes": [
+      "[minor] slide caption: Closing question ('a GMT, or a plain dial') doesn't match the CTA slide ('Comment GMT or pass') → Replace 'Which would you wear for travel: a GMT, or a plain dial?' with 'Wear it or pass? Comment GMT or pass.'",
+      "[minor] slide 1: Cover shows the whole watch, not the movement or mechanism that explainer covers should show. The gaps note says no movement photo was found. → Leave as is. No fix is possible without a new photo."
+    ]
+  }
+}

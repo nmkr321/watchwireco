@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-26-1430-blocked-event-spotted-no-confirmed-event",
+  "status": "idea",
+  "found_at": "2026-11-26T07:59:07.922Z",
+  "lane": "rotation",
+  "format": "EVENT SPOTTED",
+  "post_at": "2026-11-26T19:30:00.000Z",
+  "slot": 3,
+  "title": "BLOCKED: EVENT SPOTTED (no confirmed event)",
+  "hook": "None. No confirmed subject yet.",
+  "why": "No 2026 event from the last ~10 days with a named watch sighting was found. The Las Vegas GP is rejected. Searches returned only earlier 2026 red-carpet coverage (Golden Globes, Oscars, Met Gala), which is outside the window.",
+  "sources_to_check": [
+    "Getty Images event galleries from the last 10 days",
+    "Robb Report / Hodinkee / Monochrome weekend event roundups"
+  ],
+  "sources": [
+    {
+      "title": "Getty Images event galleries from the last 10 days",
+      "link": "",
+      "source": "Getty Images event galleries from the last 10 days",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Robb Report / Hodinkee / Monochrome weekend event roundups",
+      "link": "",
+      "source": "Robb Report / Hodinkee / Monochrome weekend event roundups",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    "No usable 2026 event sighting found. Checked: Kelly Piquet at F1 Academy party (Yahoo; photos credited MEGA, not permitted, no year stated); LACMA and Governors Awards (no watch named in sources); Taylor Fritz at F1 Las Vegas GP (Robb Report page paywalled/redirected, Rolex Daytona not confirmed els"
+  ]
+}

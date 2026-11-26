@@ -1,6 +1,6 @@
 {
   "id": "2026-11-26-1430-blocked-event-spotted-no-confirmed-event",
-  "status": "idea",
+  "status": "stopped",
   "found_at": "2026-11-26T07:59:07.922Z",
   "lane": "rotation",
   "format": "EVENT SPOTTED",
@@ -26,5 +26,10 @@
       "source": "Robb Report / Hodinkee / Monochrome weekend event roundups",
       "tier": "to-verify"
     }
-  ]
+  ],
+  "previous_attempts": [
+    "No usable 2026 event sighting found. Checked: Kelly Piquet at F1 Academy party (Yahoo; photos credited MEGA, not permitted, no year stated); LACMA and Governors Awards (no watch named in sources); Taylor Fritz at F1 Las Vegas GP (Robb Report page paywalled/redirected, Rolex Daytona not confirmed els"
+  ],
+  "stop_reason": "No event from the last ~10 days with a named watch sighting could be confirmed. Searches this run (standard and extended) returned only earlier 2026 coverage: Golden Globes, Grammys, Oscars, Met Gala, Emmys and Super Bowl. Tom Brady's recent sightings were dated January to May 2026 and carry no late-November date. No project was started and no slides were rendered. Next step: a fresh run with a named event from late November 2026 (for example a Getty gallery), or a permitted person's dated sighting.",
+  "gave_up": true
 }

@@ -1,10 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [EVENT SPOTTED] Reject any image too small for the slide template, including watermarked or agency thumbnails; find a larger credited original instead.
-- [EVENT SPOTTED] Before writing, confirm a source dated in the event's year names the watch on a named person; if none exists, switch to another event or subject.
-- [EVENT SPOTTED] Pick the named person from state/permissions.json first, then search for that person's sightings; never search for sightings of people with no permitted photo.
-- [CELEBRITY] Pick watches whose exact reference is in the permitted library and published by the brand; never name a reference from a press article alone.
 - [CELEBRITY] Name the full model and reference in the post, never a bare brand name, and make sure a permitted photo shows that same reference.
 - [CELEBRITY] If no candidate passes every check, draw new candidates from the permitted library until one does; never publish a failed one.
 - [NEW RELEASES] Each slide must add a fact no earlier slide or the caption already states; never repeat dates, stores, sale windows or closing lines across slides.
@@ -21,3 +17,7 @@ The editor reads this before every post. Written automatically from rejections; 
 - [NEW RELEASES] Attach each cited source to the one claim it supports in the caption; never list a source without its claim.
 - [WATCH EXPLAINED] Give every explainer slide a permitted photo of the watch, dial or movement; never leave a text-only slide on black.
 - [WATCH EXPLAINED] Show every watch the recipe names, each on its own photo slide with its official brand price.
+- [EVENT SPOTTED] Use only sources you could fully open; treat paywalled, redirected or blocked pages as unverified and never name a watch from them.
+- [EVENT SPOTTED] Never infer a sighting's year from article dates, URLs or context; if the year is not printed in the source, treat it as unverified.
+- [EVENT SPOTTED] Use only sightings dated within the last 10 days, with the year printed in the source; older coverage is not an event.
+- [EVENT SPOTTED] If a permitted person's searches show only older sightings, move to the next permitted person and search again.

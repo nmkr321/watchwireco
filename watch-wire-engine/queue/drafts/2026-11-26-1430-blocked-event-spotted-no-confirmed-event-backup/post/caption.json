@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Rolex GMT-Master II 126710BLNR and 126710BLRO: how a GMT hand works, explained.\n\nA 24-hour hand shows a second time zone, and the bezel lets you match any hour to it. Per Gear Patrol.\n\nPrices: Timex TW6A07200 USD 1,450 (Timex, 26 Nov 2026). Rolex 126710BLNR USD 11,800 (B&C Clark, 25 Nov 2026). Rolex 126710BLRO USD 33,200 (Avian & Co, 26 Nov 2026). Prices are retail and change.\n\nWhich would you wear for travel: a GMT, or a plain dial?\n\nPhoto: Brattyq / CC0 (cover); Qubeek / CC0 (slide 2). Source: Gear Patrol; brand and retailer pages as named.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4",
+    "CLM-5"
+  ],
+  "source_ids": [
+    "SRC-GEARPATROL",
+    "SRC-BCCLARK",
+    "SRC-AVIAN",
+    "SRC-TIMEX"
+  ],
+  "attribution": "Gear Patrol; B&C Clark; Avian & Co; Timex",
+  "disclosure": "None required.",
+  "gaps": [
+    "No movement photo found."
+  ],
+  "caption_credit": "Photo: Brattyq / CC0; Photo: Qubeek / CC0",
+  "hashtags": [
+    "#watches",
+    "#rolex",
+    "#gmtmaster",
+    "#watchesofinstagram",
+    "#watchnews"
+  ],
+  "carousel_sha256": "e83c246615ca3cd791fefa371c77ab90a2f85653483d7f72a81edcc4f1e2fa37",
+  "completed_at": "2026-11-26T08:49:53.197Z"
+}
