@@ -53,11 +53,11 @@
     "reason": "All three earlier fixes were made. The cover now uses the Conan portrait, slide 3 has the plain body text, and the caption no longer has the source paragraph. The facts match the claims and the check passes. One flaw remains: the watch image sits over his mouth on the cover, and slides 2 and 3 use the same watch photo.",
     "fixes": []
   },
-  "posted_at": "2026-11-27T22:30:54.769Z",
+  "posted_at": "2026-11-27T22:33:13.491Z",
   "publish": {
     "live": true,
-    "media_id": "18441818848198985",
-    "permalink": "https://www.instagram.com/p/DgQwebUDbXv/",
+    "media_id": "18098683688176197",
+    "permalink": "https://www.instagram.com/p/DgQwpeomAR5/",
     "plan": {
       "slides": [
         "slide-01.png",
@@ -67,6 +67,7 @@
         "slide-05.png"
       ],
       "caption_chars": 576
-    }
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: An unexpected error has occurred. Please retry your request later."
   }
 }
