@@ -21,6 +21,10 @@ Owner design rules (any break = revise): centred, balanced blocks; no stray shap
 in every photo (spotted slides: medallion + arrow on the wrist, and the medallion watch visibly matches the worn one); stories keep images to the end; headlines 2–6
 words, body ≤15; pictures match the subject (celebrity/gameplay/watch); posts give value (niche, timely or a choice).
 Comparisons show both watches on the cover; no "e.g." anywhere.
+Readability (owner 2026-11-26: "our posts are often super hard to read") → major, text_only, with the exact rewrite: a slide
+that doesn't read as a normal sentence a non-expert gets on first read (clipped riddles like "Times a stretch, not seconds"),
+reference numbers/calibre codes/sources/dates in slide text (they belong in the caption and footer), an unexplained technical word.
+Cover headline that only describes ("What A Tachymeter Does") instead of a 3-5 word twist ("Built To Time A Race") → major, text_only.
 
 ## Hard gates (any failure = revise or reject, never approve)
 

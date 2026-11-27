@@ -39,6 +39,22 @@ export function lint(P, format = "") {
     if (s.body && words(s.body) > 15) out.push(`${n}: body must be 15 words max (has ${words(s.body)})`);
     if ((String(s.headline || "") + String(s.line1 || "") + String(s.line2 || "") + String(s.body || "")).split("[[").length > 2) out.push(`${n}: at most one [[highlight]]`);
   });
+  // owner 2026-11-26: plain words on slides. References, sources and dates go in the caption and footer.
+  slides.forEach((s, i) => {
+    if (s.t === "cta") return;
+    const t = ["headline", "body", "text", "line1", "line2", "meta", "label", "kicker"].map((k) => s[k] || "").join(" · ");
+    const n = `slide ${i + 1}`;
+    const ref = t.match(/\bref\.?\s*\S+|\b[A-Z]{0,4}\d{2,}[.\-/]\d{2,}[\w.\-/]*|\b\d{3,}[A-Z]{1,4}\b|\b[A-Z]{2,4}\d{3,}\w*/i);
+    if (ref) out.push(`${n}: reference/model code "${ref[0]}" on the slide; say the watch's plain name (like "Rolex Daytona") and put the code in the caption`);
+    const src = t.match(/\b(per|according to|via) [A-Z][\w.&' ]+|\b\w+ (reports|says|said)\b|\b\d{1,2} (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w* 20\d\d/);
+    if (src) out.push(`${n}: "${src[0]}" on the slide; sources and dates go in the slide footer ("source") and the caption, not the slide text`);
+    const tech = t.match(/\b(vph|lug[- ]to[- ]lug|calibre|caliber|Hz|DLC|PVD|jewels)\b/i);
+    if (tech) out.push(`${n}: "${tech[0]}" is a technical word most readers won't know; explain it in plain words or drop it`);
+    if ((t.match(/\d[\d,.]*/g) || []).length > 2 && s.t !== "A-table") out.push(`${n}: too many numbers on one slide; keep the one that matters`);
+  });
+  for (const [i, s] of slides.entries()) if (s.t === "A-table" && (s.rows || []).length > 3) out.push(`slide ${i + 1}: table has ${(s.rows || []).length} rows; keep the 3 that matter, plain labels`);
+  if (/\b\d{3}\.\d{2}\.\d{2}|\bref\.?\s*\d/i.test(caption.split("\n")[0] || "")) out.push("caption line 1 starts with a reference number; open with the hook in plain English and put the reference later");
+
   // owner 2026-11-25: covers are photo-led, never words on a black screen
   const c0 = slides[0] || {};
   if (/^(A-cover|D-cover)$/.test(c0.t) && !c0.photo && !(c0.watches || []).length) out.push("cover has no picture: give it a photo (person, wrist, event or the watch) or watches:[...]");

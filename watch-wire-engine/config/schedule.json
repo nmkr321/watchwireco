@@ -17,7 +17,6 @@
       "lane": "rotation",
       "formats": [
         "CELEBRITY",
-        "WATCH EXPLAINED",
         "EVENT SPOTTED"
       ]
     },
@@ -25,10 +24,10 @@
       "time": "14:30",
       "lane": "rotation",
       "formats": [
-        "EVENT SPOTTED",
+        "NEWS",
         "NEW RELEASES",
-        "CELEBRITY COLLECTION",
-        "WATCH EXPLAINED"
+        "EVENT SPOTTED",
+        "AUCTIONS"
       ]
     },
     {
@@ -36,7 +35,6 @@
       "lane": "rotation",
       "formats": [
         "CELEBRITY",
-        "WATCH EXPLAINED",
         "CELEBRITY COLLECTION"
       ]
     },
@@ -44,9 +42,8 @@
       "time": "20:30",
       "lane": "history",
       "formats": [
-        "WATCH EXPLAINED",
         "STORY BEHIND",
-        "HISTORY"
+        "WATCH EXPLAINED"
       ],
       "_note": "tension hook (The Dial style); alternate a person who changed watchmaking and the story behind one famous watch"
     }
@@ -220,5 +217,6 @@
     ],
     "_music_note": "Instagram library tracks (classical, chosen 2026-11-21 per owner). Each Reel gets one, rotating. Find more with: node src/reel.js --search \"<song>\""
   },
-  "_mix": "Owner 2026-11-25: lean into celebrities (incl. EVENT SPOTTED), watches explained, new releases and new lines, features when relevant. WOULD YOU RATHER, BUILD YOUR COLLECTION and LISTICLE only on owner request."
+  "_mix": "Owner 2026-11-25: lean into celebrities (incl. EVENT SPOTTED), watches explained, new releases and new lines, features when relevant. WOULD YOU RATHER, BUILD YOUR COLLECTION and LISTICLE only on owner request.",
+  "_note_mix": "Owner 2026-11-26: more news, celebrity/pop culture and events; WATCH EXPLAINED only in the evening (and as the backup)."
 }

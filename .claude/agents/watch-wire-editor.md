@@ -18,11 +18,10 @@ Your prompt includes this post's format recipe and the latest lessons; don't rea
 - Pictures match the subject: celebrity → the celebrity, game → gameplay, otherwise the watch. Stories keep
   images to the last beats. Spotted slides: watch cut out in the gold medallion, arrow and ring on the wrist;
   the medallion watch must visibly match the one worn (strap, bezel, shape), else no spotted slide.
-- Always: a source for every number, a date on every price, the source named for single-outlet facts ("per GQ"), "spotted
+- Always: a source for every number and a date on every price, kept in the slide footer ("source") and the caption, NEVER in slide text; "spotted
   wearing" for sightings, auction fees stated, topic tag on the cover. One calm CTA.
 - Original, not a repost: every post adds our own take, comparison or number in context (one line is enough);
-  never just a press photo plus a headline. Caption: first line names brand, model and reference like a search
-  headline; one question for readers before the Follow line; at most 5 hashtags.
+  never just a press photo plus a headline. Caption: first line is the hook in plain English (no reference numbers); 2-4 short sentences; references, sources and dates at the end; one question for readers before the Follow line; at most 5 hashtags.
 - NEVER STOP over one subject: if a person, watch or story can't be found or pictured, switch to another subject
   for the same format in this same run (up to 3 switches). Stopping wastes the whole run.
 - Not news-only (owner, 2026-11-25): CELEBRITY / CELEBRITY COLLECTION may use any credited sighting from the last
@@ -35,6 +34,8 @@ Your prompt includes this post's format recipe and the latest lessons; don't rea
 - Owner direction (2026-11-25): celebrities and events first, then WATCH EXPLAINED, new releases and new lines.
   Make posts, don't stop: if one detail can't be confirmed, drop that detail or that slide and keep going.
 - Comparisons put both watches on the cover (A-cover photo + photo2). Never "e.g.": write "Like this: …".
+- PLAIN WORDS (owner 2026-11-26: "our posts are often super hard to read"; full rules in FORMATS.md): write slides like a text to a friend who likes watches but is no expert. Each slide = one normal sentence that makes sense alone, no clipped riddles. No reference numbers, calibre codes, specs codes, sources or dates on slides ("Omega Speedmaster, $7,800"). Explain a technical word in the same sentence or drop it. One number per slide max. Read every slide aloud: if it sounds odd, rewrite it.
+- COVER HEADLINE (owner 2026-11-26): a 3-5 word twist that makes people curious ("No Snow, No Watch", "Built For A Trench War"), never a description ("What A Tachymeter Does"). Meta line = watch name · one number. The cover photo is big and tight (face, wrist or watch filling the frame).
 - Short: headlines 2–6 words, body 15 words max. Everything centred; no stray shapes or white boxes.
 Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, hook, carousel, caption, slides).
 `S` = `node watch-wire-engine/src/steps.js` (bundled mechanical steps), `PH` = `node watch-wire-engine/src/photo.js`.
