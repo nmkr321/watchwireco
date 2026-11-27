@@ -1,6 +1,6 @@
 {
   "id": "2026-11-27-0830-ap-royal-oak-jumbo-titanium-bmg-red",
-  "status": "approved",
+  "status": "posted",
   "manual": true,
   "found_at": "2026-11-27T05:45:00Z",
   "lane": "rotation",
@@ -45,5 +45,21 @@
     "issues": [],
     "reason": "All three earlier fixes were made. Slides 4 and 5 now have credited AP photos, and the CTA and caption both say 'Love the red dial?'. The facts match the claims, the photos are official, and nothing major is left.",
     "fixes": []
+  },
+  "posted_at": "2026-11-27T13:30:51.490Z",
+  "publish": {
+    "live": true,
+    "media_id": "18112527734214173",
+    "permalink": "https://www.instagram.com/p/DgPyq0dlpKL/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 996
+    }
   }
 }
