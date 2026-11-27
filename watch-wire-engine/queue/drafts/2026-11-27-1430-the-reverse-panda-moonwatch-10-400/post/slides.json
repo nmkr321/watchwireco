@@ -1,0 +1,9 @@
+{"source": "Source: Monochrome Watches; Boss Hunting",
+ "slides": [
+  {"t": "A-cover", "tag": "NEW RELEASE", "line1": "The Panda", "line2": "[[Just Flipped]]", "meta": "Omega Moonwatch · 42mm steel", "photo": "watch-wire-engine/library/img/omega-monochrome-watches-04.jpg", "credit": "Image: Omega, via Monochrome-watches"},
+  {"t": "A-photo", "label": "New from Omega", "headline": "A Slim Steel Profile", "photo": "watch-wire-engine/library/img/omega-monochrome-watches-03.jpg", "credit": "Image: Omega, via Monochrome-watches", "body": "The steel case is 13.54mm thick."},
+  {"t": "A-table", "label": "Key details", "headline": "Built on the classic Moonwatch", "cols": ["Detail", "Reverse panda"], "rows": [["Case", "42mm steel"], ["Bezel", "Black polished ceramic"], ["Dial", "Black with white counters"]], "hl": 0},
+  {"t": "A-number", "tag": "PRICE", "number": "€10,200", "label": "Steel version, with taxes", "headline": "The steel version", "body": "The steel version lists at this price, taxes included."},
+  {"t": "A-text", "label": "Why it matters", "headline": "Panda fans get a new choice", "body": "The reverse panda is rare on the Moonwatch Professional, so this one stands out."},
+  {"t": "cta", "line1": "Panda or reverse?", "line2": "Tell us below", "body": "Which one would you pick?"}
+ ]}

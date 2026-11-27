@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [NEW RELEASES] Use only photos listed in state/permissions.json with their credit line; drop any press-kit photo that has no permission entry.
-- [NEW RELEASES] After switching to a replacement subject, rerun research for it; never reuse sources, prices or dates from the dropped idea.
 - [NEW RELEASES] When sources give different figures for one product, omit that figure from slides and caption; never present either as fact.
 - [NEW RELEASES] Attach each cited source to the one claim it supports in the caption; never list a source without its claim.
 - [WATCH EXPLAINED] Give every explainer slide a permitted photo of the watch, dial or movement; never leave a text-only slide on black.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY COLLECTION] Person photos: Getty (photo.js credited) or any source in permissions.json; watch photos: the brand's official image.
 - [WATCH EXPLAINED] Name only colours, sizes and features that a slide shows; CTA and caption last line must repeat slide wording, not add new details.
 - [WATCH EXPLAINED] Don't repeat a word or fact in a slide body that its headline already states; give each slide one new fact.
+- [NEW RELEASES] Match every slide's photo to the feature its text names (dial, bezel, wrist); view each image before assigning it.
+- [NEW RELEASES] Keep source names out of slide body text; put each source beside its claim in the caption.

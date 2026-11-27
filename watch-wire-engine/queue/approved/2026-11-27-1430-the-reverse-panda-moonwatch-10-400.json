@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-27-1430-the-reverse-panda-moonwatch-10-400",
+  "status": "approved",
+  "found_at": "2026-11-27T05:34:51.866Z",
+  "lane": "rotation",
+  "format": "NEW RELEASES",
+  "post_at": "2026-11-27T19:30:00.000Z",
+  "slot": 2,
+  "title": "The Reverse Panda Moonwatch, $10,400",
+  "hook": "Omega Moonwatch Professional Black and White, steel, ref 310.30.42.50.01.004, 42mm, released January 2026, US$10,400.",
+  "why": "Hot-topic Omega Speedmaster angle, new release. Weakness: January is not timely; Speedmaster 38 (Aug 2026) would be fresher but its reference and price are unconfirmed.",
+  "sources_to_check": [
+    "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+    "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026",
+    "Omega official US price list"
+  ],
+  "sources": [
+    {
+      "title": "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+      "link": "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+      "source": "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026",
+      "link": "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026",
+      "source": "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Omega official US price list",
+      "link": "",
+      "source": "Omega official US price list",
+      "tier": "to-verify"
+    }
+  ],
+  "scheduled_for": "2026-11-27T19:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-27-1430-the-reverse-panda-moonwatch-10-400",
+  "project_dir": "Content Creation/projects/2026-11-27-1430-the-reverse-panda-moonwatch-10-400",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-27-1430-the-reverse-panda-moonwatch-10-400/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 3,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [
+      "Picture test: slide 2 headline names the dial, but its photo is a side profile of the case"
+    ],
+    "issues": [
+      {
+        "severity": "major",
+        "slide": "2",
+        "problem": "The headline 'Black dial, white counters' sits over a side-on case photo that doesn't show the dial. The body also repeats the cover.",
+        "change": "Headline → 'A Slim Steel Profile'. Body → 'The steel case is 13.54mm thick.' Keep the same photo and credit.",
+        "text_only": true
+      }
+    ],
+    "reason": "The cover fix and the slide 4 fix are done, and the cover now shows the dial. Slide 2's headline still names the dial over a side-profile photo, so I've given an exact text swap that makes the words match the picture. The post can go out once it's applied.",
+    "fixes": [
+      "[major] slide 2: The headline 'Black dial, white counters' sits over a side-on case photo that doesn't show the dial. The body also repeats the cover. → Headline → 'A Slim Steel Profile'. Body → 'The steel case is 13.54mm thick.' Keep the same photo and credit."
+    ],
+    "approved_with_notes": true
+  }
+}

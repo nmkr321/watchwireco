@@ -1,0 +1,27 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Picture test: slide 2 headline names the dial, but its photo is a side profile of the case"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "2",
+      "problem": "The headline 'Black dial, white counters' sits over a side-on case photo that doesn't show the dial. The body also repeats the cover.",
+      "change": "Headline → 'A Slim Steel Profile'. Body → 'The steel case is 13.54mm thick.' Keep the same photo and credit.",
+      "text_only": true
+    }
+  ],
+  "reason": "The cover fix and the slide 4 fix are done, and the cover now shows the dial. Slide 2's headline still names the dial over a side-profile photo, so I've given an exact text swap that makes the words match the picture. The post can go out once it's applied.",
+  "fixes": [
+    "[major] slide 2: The headline 'Black dial, white counters' sits over a side-on case photo that doesn't show the dial. The body also repeats the cover. → Headline → 'A Slim Steel Profile'. Body → 'The steel case is 13.54mm thick.' Keep the same photo and credit."
+  ]
+}

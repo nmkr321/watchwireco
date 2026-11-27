@@ -1,0 +1,44 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Picture test: the cover and slide 5 photos don't show the reverse panda dial",
+    "Source named on slide 4"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "1",
+      "problem": "The cover shows a side and crown close-up. The reverse panda dial that the headline is about isn't visible, and the best picture (the dial shot) is on slide 2.",
+      "change": "Use omega-monochrome-watches-04.jpg (the dial shot) on the cover. Put a different dial or wrist photo from the Monochrome article on slide 2.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "5",
+      "problem": "The photo is a caseback and movement view. It doesn't show the reverse panda dial that the headline and body name.",
+      "change": "Replace it with a photo showing the black dial with white counters, for example a wrist shot or a different angle from the Monochrome article. Credit it 'Image: Omega, via Monochrome-watches'.",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "4",
+      "problem": "The source is named on the slide.",
+      "change": "Body → 'The steel version lists at this price, taxes included.'",
+      "text_only": true
+    }
+  ],
+  "reason": "The facts, price and caption check out, but the cover shows the case side instead of the reverse panda dial, and slide 5 shows a movement photo that doesn't match its words. Swap in dial photos and fix the slide 4 body text, then it can go out.",
+  "fixes": [
+    "[major] slide 1: The cover shows a side and crown close-up. The reverse panda dial that the headline is about isn't visible, and the best picture (the dial shot) is on slide 2. → Use omega-monochrome-watches-04.jpg (the dial shot) on the cover. Put a different dial or wrist photo from the Monochrome article on slide 2.",
+    "[major] slide 5: The photo is a caseback and movement view. It doesn't show the reverse panda dial that the headline and body name. → Replace it with a photo showing the black dial with white counters, for example a wrist shot or a different angle from the Monochrome article. Credit it 'Image: Omega, via Monochrome-watches'.",
+    "[minor] slide 4: The source is named on the slide. → Body → 'The steel version lists at this price, taxes included.'"
+  ]
+}
