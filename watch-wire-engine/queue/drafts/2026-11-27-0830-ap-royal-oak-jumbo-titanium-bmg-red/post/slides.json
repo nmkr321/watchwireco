@@ -5,8 +5,8 @@
   {
    "t": "A-cover",
    "tag": "EXPLAINED",
-   "line1": "Part Of This",
-   "line2": "Royal Oak Is Glass",
+   "line1": "The Royal Oak",
+   "line2": "Built Not To Scratch",
    "meta": "AP Royal Oak Jumbo \u00b7 titanium",
    "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-01.jpg",
    "credit": "Image: Audemars Piguet, via Hiconsumption"
@@ -14,10 +14,10 @@
   {
    "t": "A-photo",
    "label": "",
-   "headline": "Not window glass. Metal.",
+   "headline": "Its bezel is a rare metal",
    "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-01.jpg",
    "credit": "Image: Audemars Piguet, via Hiconsumption",
-   "body": "The polished bezel and centre links are a metal called bulk metallic glass."
+   "body": "The polished bezel and centre links are bulk metallic glass, a palladium alloy AP helped develop."
   },
   {
    "t": "A-photo",
@@ -25,15 +25,15 @@
    "headline": "Why it's called glass",
    "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-03.jpg",
    "credit": "Image: Audemars Piguet, via Hiconsumption",
-   "body": "It's a palladium alloy cooled in seconds, so it hardens like glass, not like normal metal. Pd500 on the back marks the palladium."
+   "body": "It's cooled in seconds, so it hardens the way glass does instead of like normal metal. Pd500 on the back marks the palladium."
   },
   {
    "t": "A-photo",
    "label": "",
-   "headline": "Built to stay shiny",
+   "headline": "That makes it hard to scratch",
    "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-02.jpg",
    "credit": "Image: Audemars Piguet, via Hiconsumption",
-   "body": "It's very hard to scratch, so AP left it mirror-polished next to brushed titanium and a smoked red dial."
+   "body": "So AP left it mirror-polished, next to brushed titanium and a smoked red dial."
   },
   {
    "t": "cta",
