@@ -5,35 +5,35 @@
   {
    "t": "A-cover",
    "tag": "EXPLAINED",
-   "line1": "Metal That",
-   "line2": "Acts Like Glass",
+   "line1": "Part Of This",
+   "line2": "Royal Oak Is Glass",
    "meta": "AP Royal Oak Jumbo \u00b7 titanium",
    "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-01.jpg",
    "credit": "Image: Audemars Piguet, via Hiconsumption"
   },
   {
    "t": "A-photo",
-   "label": "The material",
-   "headline": "Bulk metallic glass",
+   "label": "",
+   "headline": "Not window glass. Metal.",
    "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-01.jpg",
    "credit": "Image: Audemars Piguet, via Hiconsumption",
-   "body": "AP used it for the bezel and centre bracelet links, set against brushed titanium."
+   "body": "The polished bezel and centre links are a metal called bulk metallic glass."
   },
   {
    "t": "A-photo",
-   "label": "Why \u201cglass\u201d",
-   "headline": "No crystal structure",
+   "label": "",
+   "headline": "Why it's called glass",
    "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-03.jpg",
    "credit": "Image: Audemars Piguet, via Hiconsumption",
-   "body": "Cooled almost instantly, the palladium-based alloy sets without crystals, just like glass."
+   "body": "It's a palladium alloy cooled in seconds, so it hardens like glass, not like normal metal. Pd500 on the back marks the palladium."
   },
   {
    "t": "A-photo",
-   "label": "The dial",
-   "headline": "Smoked burgundy",
+   "label": "",
+   "headline": "Built to stay shiny",
    "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-02.jpg",
    "credit": "Image: Audemars Piguet, via Hiconsumption",
-   "body": "Bright red at the centre, fading to near-black at the edge, with pink gold markers."
+   "body": "It's very hard to scratch, so AP left it mirror-polished next to brushed titanium and a smoked red dial."
   },
   {
    "t": "cta",
