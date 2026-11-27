@@ -1,6 +1,6 @@
 {
   "id": "2026-11-27-1130--9-150-or-10-400-which-one-",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-27T05:34:51.866Z",
   "lane": "rotation",
   "format": "WOULD YOU RATHER",
@@ -62,5 +62,21 @@
     "fixes": [
       "[minor] slide caption: Reference numbers sit in the caption body. They belong only at the bottom. → Change the second paragraph to 'Rolex Explorer 40 is $8,350. Omega Seamaster Diver 300M is $8,600.' Add 'Refs: Rolex 224270; Omega 210.30.42.20.03.004.' to the line just above 'Source:'."
     ]
+  },
+  "posted_at": "2026-11-27T16:31:07.825Z",
+  "publish": {
+    "live": true,
+    "media_id": "17917023819283156",
+    "permalink": "https://www.instagram.com/p/DgQHSr9jilU/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 559
+    }
   }
 }
