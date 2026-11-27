@@ -151,7 +151,7 @@ function formatBrief(format = "") {
     row = rows.find((l) => l.toUpperCase().startsWith(`| ${format.toUpperCase()} `)) || rows.find((l) => l.toUpperCase().includes(format.toUpperCase().split(" ")[0])) || ""; } catch {}
   try { lessons = fs.readFileSync(LESSONS, "utf8").split("\n").filter((l) => /^- \[(any|[^\]]*)\]/.test(l) && (/\[any\]/.test(l) || l.toUpperCase().includes(`[${format.toUpperCase()}]`))).slice(-12).join("\n"); } catch {}
   // owner 2026-11-27: "you should be getting better every post". The writer used to see only the format row and
-  // auto-lessons, never the house rules, the owner's notes or the posts he loved. Now it gets all three.
+  // auto-lessons, never the house rules, the owner's notes or the posts the owner loved. Now it gets all three.
   let house = "", notes = "", examples = "";
   try { const f = fs.readFileSync(path.join(ROOT, "FORMATS.md"), "utf8"); house = f.slice(f.indexOf("**Voice:**"), f.indexOf("| Format (cover tag)")).trim(); } catch {}
   try { notes = ["state/owner-taste.md", "state/design-notes.md"].flatMap((f) => fs.readFileSync(path.join(ROOT, f), "utf8").split("\n").filter((l) => /^- 20\d\d-/.test(l)).slice(-6)).join("\n"); } catch {}
