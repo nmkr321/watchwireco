@@ -1,6 +1,6 @@
 {
   "id": "2026-11-27-1730-conan-went-full-rolex-at-the-oscars",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-27T05:34:51.866Z",
   "lane": "rotation",
   "format": "CELEBRITY",
@@ -52,5 +52,21 @@
     "issues": [],
     "reason": "All three earlier fixes were made. The cover now uses the Conan portrait, slide 3 has the plain body text, and the caption no longer has the source paragraph. The facts match the claims and the check passes. One flaw remains: the watch image sits over his mouth on the cover, and slides 2 and 3 use the same watch photo.",
     "fixes": []
+  },
+  "posted_at": "2026-11-27T22:30:54.769Z",
+  "publish": {
+    "live": true,
+    "media_id": "18441818848198985",
+    "permalink": "https://www.instagram.com/p/DgQwebUDbXv/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 576
+    }
   }
 }
