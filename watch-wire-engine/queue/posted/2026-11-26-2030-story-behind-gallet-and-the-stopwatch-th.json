@@ -1,6 +1,6 @@
 {
   "id": "2026-11-26-2030-story-behind-gallet-and-the-stopwatch-th",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-26T07:59:07.922Z",
   "lane": "history",
   "format": "STORY BEHIND",
@@ -52,5 +52,26 @@
     "issues": [],
     "reason": "Every earlier fix was made. Each story slide now has a credited licensed photo (Tank, trench, Pershing, Renault tank). Slide 2 now says 'created', and the cover credit says 'Modern Tank shown'. The check passes and the caption credits match the slides.",
     "fixes": []
+  },
+  "posted_at": "2026-11-27T01:31:31.457Z",
+  "publish": {
+    "live": true,
+    "media_id": "18128551390904736",
+    "permalink": "https://www.instagram.com/p/DgOgTf-jZis/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png",
+        "slide-08.png",
+        "slide-09.png"
+      ],
+      "caption_chars": 899
+    },
+    "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
   }
 }
