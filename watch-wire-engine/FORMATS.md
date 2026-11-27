@@ -24,6 +24,12 @@ for daily watch news.").
 - State facts plainly, as statements: never "per GQ", "according to", "reportedly", "as reported in". Sources live only in the caption's bottom "Source: …" line, never on slides.
 - Caption: line 1 is the hook in plain English (no reference numbers); then 2–4 short sentences; the question; then "Source: …" and credits at the end.
 
+**One story, not a list of facts (owner 2026-11-27: "the words make literally zero sense").** Before writing slides, write the post as ONE short paragraph a friend could follow (the cover's promise → the answer → why it's interesting → the payoff). Then cut that paragraph into slides, in order.
+- The cover makes a promise or asks a question. Slide 2 pays it off straight away (cover "Metal That Acts Like Glass" → slide 2 "The shiny parts are metal glass"), never jumps to another topic.
+- Each slide follows from the one before it, like the next sentence; its label says how it connects ("Look closer", "Why glass?", "And the colour", "The twist").
+- Never repeat the cover's words on a later slide, never a slide that only names a topic ("The dial", "The size").
+- Read the slide headlines and bodies in order, out loud, as one paragraph. If it doesn't read as a story, rewrite it.
+
 **Covers (owner 2026-11-26, from @luxurywatchmedia / @liveforwatches).** One huge picture fills about 70% of the cover: a face, a wrist or the watch, cropped tight. Headline = a 3–5 word twist that makes people curious, not a description: "No Snow, No Watch", "Khamzat Wears A Smile", "Left Or Right?", "Built For A Trench War" (not "What A Tachymeter Bezel Actually Does", not "Cartier's Tank Came From War"). Under it, one short fact line (watch name · one number). The tag pill above the headline. The facts and the explaining go on slide 2+.
 
 **What gets reach:** today's news the same day; pop culture (games, films, fighters, footballers, rappers, musicians wearing watches); jaw-dropping pieces (a record price, a meteorite dial, 270 rubies); and a choice for the reader. Explainers are the backup, not the main menu.

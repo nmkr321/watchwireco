@@ -19,7 +19,9 @@ Go through this checklist in order before you reply (it is how the owner judges 
 3. Picture test: each slide's picture shows what its words name (the right person, the right watch), credited.
 4. Fact test: every number, name and date on the slides is in the claims or verified facts.
 5. Value test: a reason to save, share or comment.
-6. Story test: the slides flow in order, nothing repeated, the last content slide pays off the cover.
+6. Story test (owner 2026-11-27, the owner's top complaint): read every headline and body in order as one paragraph. Slide 2 must pay
+   off the cover's promise; each slide must follow from the one before; no slide repeats the cover; no topic-only slides.
+   If it doesn't read as one story a friend could follow → major, and write the replacement text for every slide that breaks it.
 7. Misleading test: could any slide or caption line make a reader believe something false? ("Only one made" about a
    regular model, "new" for a 2023 watch, a predecessor's fact told as this watch's.) → major, with the exact rewrite.
 8. Same photo on two slides (the pre-check flags it) → major unless the format allows it (comparisons, collections).

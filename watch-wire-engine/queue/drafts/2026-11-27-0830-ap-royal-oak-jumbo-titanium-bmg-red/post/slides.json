@@ -13,31 +13,31 @@
   },
   {
    "t": "A-photo",
-   "label": "The dial",
-   "headline": "Red that fades to black",
-   "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-02.jpg",
-   "credit": "Image: Audemars Piguet, via Hiconsumption",
-   "body": "The centre is bright red, and the edge turns deep burgundy, almost black."
-  },
-  {
-   "t": "A-photo",
-   "label": "What it is",
-   "headline": "A metal cooled like glass",
-   "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-03.jpg",
-   "credit": "Image: Audemars Piguet, via Hiconsumption",
-   "body": "Bulk metallic glass is cooled so fast its atoms never line up in neat rows."
-  },
-  {
-   "t": "A-photo",
-   "label": "Where it is",
+   "label": "Look closer",
    "headline": "The shiny parts",
    "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-01.jpg",
    "credit": "Image: Audemars Piguet, via Hiconsumption",
-   "body": "The polished bezel and middle links are metal glass. The rest is brushed titanium."
+   "body": "The polished bezel and middle links aren't titanium. They're bulk metallic glass."
+  },
+  {
+   "t": "A-photo",
+   "label": "Why glass?",
+   "headline": "Frozen in a jumble",
+   "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-03.jpg",
+   "credit": "Image: Audemars Piguet, via Hiconsumption",
+   "body": "It's cooled so fast its atoms freeze in a jumble, like glass, not neat rows."
+  },
+  {
+   "t": "A-photo",
+   "label": "And the colour",
+   "headline": "Finished in red",
+   "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-02.jpg",
+   "credit": "Image: Audemars Piguet, via Hiconsumption",
+   "body": "AP paired the metal glass with a dial that fades from red to almost black."
   },
   {
    "t": "cta",
-   "line1": "Love the red dial?",
+   "line1": "Would you wear it?",
    "line2": "Comment below."
   }
  ]
