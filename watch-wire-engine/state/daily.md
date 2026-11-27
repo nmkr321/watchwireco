@@ -1,16 +1,19 @@
-# Daily summary (2026-11-26 07:55 UTC, last 24 hours)
+# Daily summary (2026-11-27 07:54 UTC, last 24 hours)
 
-- Instagram token: OK · 7 followers · 37 posts on the account
-- Posted: 7
-  - How a chronograph actually works [WATCH EXPLAINED] https://www.instagram.com/p/DgKvGVmF82s/
-  - WATCH EXPLAINED: How A Date Window Changes Position (quickset vs hacking) [WATCH EXPLAINED] https://www.instagram.com/p/DgLWK_4jfUW/
-  - CELEBRITY COLLECTION: NOT READY (no verified celebrity name) [CELEBRITY COLLECTION] https://www.instagram.com/p/DgLqkVElwtS/
-  - Backup CELEBRITY for the slot of: WATCH EXPLAINED: The Watch Was Invented Because A Pilot Couldn't Reach His Pocket (Cartier Santos, 1904) [CELEBRITY] https://www.instagram.com/p/DgMAenEEgn3/
-  - Omega x Swatch Just Launched a New MoonSwatch – and No Two Are the Same [NEW RELEASES] https://www.instagram.com/p/DgKvPOjl9_Q/
-  - Three New Chimes: Audemars Piguet Expands Its Supersonnerie Line [NEW RELEASES] https://www.instagram.com/p/DgKvXV9F6bm/
-  - Swatch x Omega MoonSwatch Silver Snowflake | INTRODUCING [NEW RELEASES] https://www.instagram.com/p/DgKvf1KF7qc/
-- Rejected or stopped: 8
-- Waiting to post: 1
-  - 2026-11-26T13:30:00.000Z 'Twilight' Director On Robert Pattinson Landing James Bond Role: "I Almost Fell Out Of My Bed"
-- On hold: 20
-- AI usage: $2.19 plan-equivalent over 60 calls, $0.31 per post
+- Instagram token: OK · 18 followers · 43 posts on the account
+- Posted: 6
+  - BLOCKED: NEW RELEASES (no confirmed subject) [NEW RELEASES] https://www.instagram.com/p/DgNN4ZbFTut/
+  - WATCH EXPLAINED: What a tachymeter bezel actually does (Omega Speedmaster Moonwatch Professional, ref 310.30.42.50.01.001) [WATCH EXPLAINED] https://www.instagram.com/p/DgNigKCDkfh/
+  - Backup WATCH EXPLAINED for the slot of: BLOCKED: EVENT SPOTTED (no confirmed event) [WATCH EXPLAINED] https://www.instagram.com/p/DgN3FpOjtHo/
+  - How a perpetual calendar actually works [WATCH EXPLAINED] https://www.instagram.com/p/DgOLsR0js4b/
+  - STORY BEHIND: Gallet and the stopwatch that timed the first powered flight (Wright brothers, 17 Dec 1903) [STORY BEHIND] https://www.instagram.com/p/DgOgTf-jZis/
+  - 'Twilight' Director On Robert Pattinson Landing James Bond Role: "I Almost Fell Out Of My Bed" [CELEBRITY] https://www.instagram.com/p/DgNbdOCF6Uc/
+- Rejected or stopped: 3
+- Waiting to post: 5
+  - 2026-11-27T13:30:00.000Z AP Royal Oak Jumbo in titanium and metal glass, red dial
+  - 2026-11-27T16:30:00.000Z $9,150 Or $10,400. Which One?
+  - 2026-11-27T19:30:00.000Z The Reverse Panda Moonwatch, $10,400
+  - 2026-11-27T22:30:00.000Z Conan Went Full Rolex At The Oscars
+  - 2026-11-28T01:30:00.000Z A Bolton Repairman Built The First Self-Winding Watch
+- On hold: 21
+- AI usage: $3.02 plan-equivalent over 67 calls, $0.50 per post
