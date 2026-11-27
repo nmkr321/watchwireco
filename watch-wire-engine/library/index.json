@@ -6371,5 +6371,47 @@
   "credit": "Image: Omega, via Monochrome-watches",
   "usage": "Omega image used with owner-stated permission, credited",
   "fetched": "2026-11-27"
+ },
+ {
+  "kind": "person",
+  "title": "Conan O'Brien",
+  "who": "American television host and comedian (born 1963)",
+  "source": "https://commons.wikimedia.org/wiki/File:Conan_O%27Brien_2025.jpg",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Conan_O%27Brien_2025.jpg/1920px-Conan_O%27Brien_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "file": "watch-wire-engine/library/img/person-conan-o-brien.jpg",
+  "w": 1920,
+  "h": 2880,
+  "ref_on_page": null,
+  "rights": "licensed",
+  "creator": "Montclair Film",
+  "license": "CC BY 4.0",
+  "credit": "Photo: Montclair Film / CC BY 4.0",
+  "caption_credit": "Photo: Montclair Film / CC BY 4.0 (https://creativecommons.org/licenses/by/4.0) via Wikimedia Commons",
+  "usage": "Portrait of Conan O'Brien, CC BY 4.0, credited",
+  "fetched": "2026-11-27"
+ },
+ {
+  "kind": "watch",
+  "brand": "Rolex",
+  "ref": "127334",
+  "title": "Rolex 127334",
+  "source": "https://www.watchesofswitzerland.com/en-int/pages/rolex/land-dweller-m127334-0001",
+  "image_url": "https://www.watchesofswitzerland.com/cdn/shop/files/m127334-0001.avif?v=17255428436360674602",
+  "file": "watch-wire-engine/library/img/rolex-127334.png",
+  "w": 800,
+  "h": 1180,
+  "ref_on_page": true,
+  "ref_in_image_name": true,
+  "price": {
+   "amount": 16450,
+   "currency": "USD",
+   "source": "https://www.watchesofswitzerland.com/en-int/pages/rolex/land-dweller-m127334-0001",
+   "date": "2026-11-27"
+  },
+  "rights": "official",
+  "creator": "Rolex",
+  "credit": "Image: Rolex",
+  "usage": "Rolex 127334 official product image, credited",
+  "fetched": "2026-11-27"
  }
 ]

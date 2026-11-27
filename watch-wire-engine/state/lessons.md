@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [NEW RELEASES] When sources give different figures for one product, omit that figure from slides and caption; never present either as fact.
-- [NEW RELEASES] Attach each cited source to the one claim it supports in the caption; never list a source without its claim.
 - [WATCH EXPLAINED] Give every explainer slide a permitted photo of the watch, dial or movement; never leave a text-only slide on black.
 - [WATCH EXPLAINED] Show every watch the recipe names, each on its own photo slide with its official brand price.
 - [EVENT SPOTTED] Use only sources you could fully open; treat paywalled, redirected or blocked pages as unverified and never name a watch from them.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [WATCH EXPLAINED] Don't repeat a word or fact in a slide body that its headline already states; give each slide one new fact.
 - [NEW RELEASES] Match every slide's photo to the feature its text names (dial, bezel, wrist); view each image before assigning it.
 - [NEW RELEASES] Keep source names out of slide body text; put each source beside its claim in the caption.
+- [CELEBRITY] Make the cover the strongest permitted person photo with the watch in the circle; use a different portrait on later slides.
+- [CELEBRITY] Print a year on a slide only if the source text or article date states it; otherwise leave the year out.

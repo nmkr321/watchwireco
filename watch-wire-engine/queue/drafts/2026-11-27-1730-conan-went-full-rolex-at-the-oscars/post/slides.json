@@ -1,0 +1,45 @@
+{
+ "source": "Source: Avian & Co; Watches of Switzerland; AP",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "CELEBRITY",
+   "line1": "Conan Went Full",
+   "line2": "[[Rolex]]",
+   "meta": "Land-Dweller 40 · $16,450",
+   "photo": "watch-wire-engine/library/img/person-conan-o-brien.jpg",
+   "watches": [
+    "watch-wire-engine/library/img/rolex-127334.png"
+   ],
+   "credit": "Photo: Montclair Film / CC BY 4.0 (Wikimedia Commons)"
+  },
+  {
+   "t": "A-photo",
+   "label": "Spotted at the Oscars, March 2026",
+   "headline": "Conan wore a Rolex",
+   "photo": "watch-wire-engine/library/img/rolex-127334.png",
+   "credit": "Image: Rolex",
+   "body": "He usually wears a different brand, but not that night."
+  },
+  {
+   "t": "A-photo",
+   "label": "The watch",
+   "headline": "Land-Dweller 40",
+   "photo": "watch-wire-engine/library/img/rolex-127334.png",
+   "credit": "Image: Rolex",
+   "body": "Steel and white gold, with a white dial and a date window."
+  },
+  {
+   "t": "A-number",
+   "number": "$16,450",
+   "label": "US retail price",
+   "headline": "Retail, not resale",
+   "body": "Dealers ask far more for it now. Check before you buy."
+  },
+  {
+   "t": "cta",
+   "line1": "Follow for more",
+   "line2": "Daily watch news"
+  }
+ ]
+}

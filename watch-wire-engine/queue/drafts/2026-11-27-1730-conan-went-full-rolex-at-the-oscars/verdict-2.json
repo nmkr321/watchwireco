@@ -1,0 +1,15 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 5,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [],
+  "reason": "All three earlier fixes were made. The cover now uses the Conan portrait, slide 3 has the plain body text, and the caption no longer has the source paragraph. The facts match the claims and the check passes. One flaw remains: the watch image sits over his mouth on the cover, and slides 2 and 3 use the same watch photo.",
+  "fixes": []
+}

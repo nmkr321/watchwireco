@@ -1,0 +1,44 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Cover does not carry the most striking picture (Conan portrait sits on slide 2)",
+    "Slide 3 states 'released it in 2025', which is not in the claims"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "1",
+      "problem": "Cover is a plain product shot with no person, while the strong Conan portrait is on slide 2. A stranger scrolling has no reason to stop.",
+      "change": "Make the cover a photo cover using the Conan portrait (person-conan-o-brien.jpg, credit 'Photo: Montclair Film / CC BY 4.0 (Wikimedia Commons)') with the watch in the gold circle. Keep the headline 'Conan Went Full Rolex' and the tag. Then use a different slide 2 so the same portrait is not repeated.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "3",
+      "problem": "'Rolex released it in 2025' is not in the claims or verified facts.",
+      "change": "body → 'Steel and white gold, with a white dial and a date window.'",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "caption",
+      "problem": "The paragraph 'Retail price is from Watches of Switzerland... The sighting is from Avian & Co's Oscars roundup.' puts sources in the caption body. Sources belong only in the Source line.",
+      "change": "Delete that paragraph. The Source line already covers it.",
+      "text_only": true
+    }
+  ],
+  "reason": "The facts and rights are fine, but the cover is a bland product shot while the best picture, Conan's portrait, is buried on slide 2. Slide 3 also carries an unsourced 2025 release date, so it needs a revision.",
+  "fixes": [
+    "[major] slide 1: Cover is a plain product shot with no person, while the strong Conan portrait is on slide 2. A stranger scrolling has no reason to stop. → Make the cover a photo cover using the Conan portrait (person-conan-o-brien.jpg, credit 'Photo: Montclair Film / CC BY 4.0 (Wikimedia Commons)') with the watch in the gold circle. Keep the headline 'Conan Went Full Rolex' and the tag. Then use a different slide 2 so the same portrait is not repeated.",
+    "[major] slide 3: 'Rolex released it in 2025' is not in the claims or verified facts. → body → 'Steel and white gold, with a white dial and a date window.'",
+    "[minor] slide caption: The paragraph 'Retail price is from Watches of Switzerland... The sighting is from Avian & Co's Oscars roundup.' puts sources in the caption body. Sources belong only in the Source line. → Delete that paragraph. The Source line already covers it."
+  ]
+}

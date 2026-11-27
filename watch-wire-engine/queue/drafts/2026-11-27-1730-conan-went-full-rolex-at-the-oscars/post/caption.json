@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Conan O'Brien swapped his usual Omega for a Rolex at the Oscars.\n\nHe wore the Land-Dweller 40, a steel and white gold model with a white dial. US retail is $16,450, but dealers ask much more for it now.\n\nWould you wear a Rolex to the Oscars? Tell us below.\n\nSource: Avian & Co, \"Luxury watches spotted at the 2026 Oscars\" (March 2026); Watches of Switzerland, Rolex Land-Dweller M127334-0001 (checked 27 November 2026); AP, Oscars hosting coverage (15 March 2026).\nPhoto: Montclair Film / CC BY 4.0 (Wikimedia Commons). Image: Rolex.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4"
+  ],
+  "source_ids": [
+    "SRC-AVIAN",
+    "SRC-WOS",
+    "SRC-AP"
+  ],
+  "attribution": "Avian & Co; Watches of Switzerland; AP",
+  "caption_credit": "Photo: Montclair Film / CC BY 4.0 (Wikimedia Commons). Image: Rolex.",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "hashtags": [
+    "#Rolex",
+    "#Oscars",
+    "#LuxuryWatches",
+    "#WatchNews",
+    "#Omega"
+  ],
+  "carousel_sha256": "5dfaa0a3a5af22eb7dc8218c7966df1b5bc4f10cfaa8c7ad02468f0b51ac9475",
+  "completed_at": "2026-11-27T05:47:45.369Z"
+}

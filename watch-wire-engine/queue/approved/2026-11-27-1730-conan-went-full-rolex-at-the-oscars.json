@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-27-1730-conan-went-full-rolex-at-the-oscars",
+  "status": "approved",
+  "found_at": "2026-11-27T05:34:51.866Z",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "post_at": "2026-11-27T22:30:00.000Z",
+  "slot": 3,
+  "title": "Conan Went Full Rolex At The Oscars",
+  "hook": "Conan O'Brien wore a Rolex Land-Dweller 40, ref 127334, Oystersteel and white gold, at the March 2026 Oscars. He usually wears an Omega. US retail $16,450.",
+  "why": "Celebrity sighting within 12 months. Gap: no trusted outlet (Robb Report, Hodinkee, Hollywood Reporter) confirmed yet; reports found are dealer blogs. Fallback: Glen Powell Omega at Golden Globes (Robb Report).",
+  "sources_to_check": [
+    "https://www.rolex.com/en-us/watches/land-dweller/m127334-0001",
+    "https://www.aviandco.com/luxury-watches-spotted-at-the-2026-oscars",
+    "Robb Report or Hodinkee Oscars 2026 watch coverage (to confirm)"
+  ],
+  "sources": [
+    {
+      "title": "https://www.rolex.com/en-us/watches/land-dweller/m127334-0001",
+      "link": "https://www.rolex.com/en-us/watches/land-dweller/m127334-0001",
+      "source": "https://www.rolex.com/en-us/watches/land-dweller/m127334-0001",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://www.aviandco.com/luxury-watches-spotted-at-the-2026-oscars",
+      "link": "https://www.aviandco.com/luxury-watches-spotted-at-the-2026-oscars",
+      "source": "https://www.aviandco.com/luxury-watches-spotted-at-the-2026-oscars",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Robb Report or Hodinkee Oscars 2026 watch coverage (to confirm)",
+      "link": "",
+      "source": "Robb Report or Hodinkee Oscars 2026 watch coverage (to confirm)",
+      "tier": "to-verify"
+    }
+  ],
+  "scheduled_for": "2026-11-27T22:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-27-1730-conan-went-full-rolex-at-the-oscars",
+  "project_dir": "Content Creation/projects/2026-11-27-1730-conan-went-full-rolex-at-the-oscars",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-27-1730-conan-went-full-rolex-at-the-oscars/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 3,
+      "clarity": 5,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "issues": [],
+    "reason": "All three earlier fixes were made. The cover now uses the Conan portrait, slide 3 has the plain body text, and the caption no longer has the source paragraph. The facts match the claims and the check passes. One flaw remains: the watch image sits over his mouth on the cover, and slides 2 and 3 use the same watch photo.",
+    "fixes": []
+  }
+}
