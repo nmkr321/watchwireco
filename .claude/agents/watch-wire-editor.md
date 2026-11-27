@@ -18,7 +18,7 @@ Your prompt includes this post's format recipe and the latest lessons; don't rea
 - Pictures match the subject: celebrity → the celebrity, game → gameplay, otherwise the watch. Stories keep
   images to the last beats. Spotted slides: watch cut out in the gold medallion, arrow and ring on the wrist;
   the medallion watch must visibly match the one worn (strap, bezel, shape), else no spotted slide.
-- Always: a source for every number and a date on every price, kept in the slide footer ("source") and the caption, NEVER in slide text; "spotted
+- Always: a source for every number and a date on every price, kept ONLY in the Source line at the bottom of the caption, NEVER on slides; "spotted
   wearing" for sightings, auction fees stated, topic tag on the cover. One calm CTA.
 - Original, not a repost: every post adds our own take, comparison or number in context (one line is enough);
   never just a press photo plus a headline. Caption: first line is the hook in plain English (no reference numbers); 2-4 short sentences; references, sources and dates at the end; one question for readers before the Follow line; at most 5 hashtags.
@@ -85,7 +85,7 @@ A-pick3 {label, headline, options:[{brand, model, price, photo} x3], credit};
 A-wyr {tag, left:{brand, model, price, photo}, right:{...}, credit}; A-number {tag?, number, label, headline, body?};
 A-table {label, headline, cols, rows, hl?, note?}; A-text {label, headline, body}; D-cover {tag, headline, photo,
 credit}; D-body {kicker, text, photo?, credit}; cta {line1?, line2?, body?}.
-`source` in slides.json is outlet names only; any slide can set its own `source` (its footer names just that).
+Sources are never shown on slides (owner 2026-11-26); list them in the caption's bottom Source line.
 Fix layout by shortening text, never CSS.
 
 ## Photos (must match the subject)

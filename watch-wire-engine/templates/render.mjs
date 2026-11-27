@@ -24,7 +24,7 @@
 //   D-cover   tag, headline, photo?, credit?                          story cover (title case)
 //   D-body    kicker, text, photo?, credit?                               story beat
 //   cta       line1?, line2?, body?                              closing slide (always last)
-// photo = local file path or https URL. credit = "Image: Brand". Any slide may set its own `source` (its footer).
+// photo = local file path or https URL. credit = "Image: Brand". Sources are never printed on slides (owner 2026-11-26): they go at the bottom of the caption.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -167,7 +167,8 @@ const WM = `<div class="wm">THE WATCH <b>WIRE</b></div><div class="handle">@WATC
 
 function render(s, i) {
   const page = `${String(i + 1).padStart(2, "0")} / ${String(slides.length).padStart(2, "0")}`;
-  const foot = (left = (s.source || spec.source) ? "Source: " + String(s.source || spec.source).replace(/^\s*sources?:\s*/i, "") : "") => `<div class="foot"><span>${esc(left)}</span><span>${page}</span></div>`;
+  // owner 2026-11-26: no sources on slides; they live only at the bottom of the caption (spec.source / s.source are ignored here)
+  const foot = (left = "") => `<div class="foot"><span>${esc(left)}</span><span>${page}</span></div>`;
   let credit = s.credit ? `<div class="credit">${esc(s.credit)}</div>` : "";
   switch (s.t) {
     case "A-cover": { if ((s.photo || s.watches) && s.credit) credit = `<div class="credit pcredit">${esc(s.credit)}</div>`;

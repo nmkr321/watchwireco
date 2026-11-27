@@ -37,3 +37,4 @@ approved), with the date and the reason. Newest at the top.
 - 2026-11-25: owner: Getty permission must actually get used. Celebrity posts may use sightings from the last 12 months; the editor never stops with nothing (falls back to WATCH EXPLAINED); planner never writes NOT READY ideas.
 - 2026-11-26: Editor's self-learned rules had become stricter than mine (year printed, 10-day window, ref+price required, brand photos only, so no Getty). Removed; the learner may never be stricter than owner rules.
 - 2026-11-26: State facts plainly as statements; no "per GQ"/"according to"/"reportedly" in slides or caption text. All sources go in the Source line at the bottom of the caption. WOULD YOU RATHER choice posts back in the regular mix.
+- 2026-11-26: Sources only at the bottom of the caption; never on slides (slide footer no longer prints a source). Photo credits stay on photo slides (permission terms).

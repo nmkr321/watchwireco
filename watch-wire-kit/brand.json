@@ -13,7 +13,7 @@
     "logo_usage": "Text-only. Wordmark THE WATCH WIRE in Oswald 700 uppercase with WIRE in champagne, top-left on news slides (min 18px, else @WATCHWIRECO). WW monogram in Playfair Display top-centre on story slides and as profile icon. Serif ivory wordmark bottom-centre on story slides."
   },
   "content_rules": {
-    "do": ["State facts plainly; never per X, according to or reportedly", "All sources and price dates go in the Source line at the bottom of the caption (and the slide footer); one named source is enough", "Plain words: each slide one normal sentence a non-expert gets; no reference numbers or codes on slides", "One idea per slide", "Topic tag on every cover", "Say 'spotted wearing' unless ownership is confirmed; state whether auction prices include fees"],
+    "do": ["State facts plainly; never per X, according to or reportedly", "All sources and price dates go in the Source line at the bottom of the caption, never on slides; one named source is enough", "Plain words: each slide one normal sentence a non-expert gets; no reference numbers or codes on slides", "One idea per slide", "Topic tag on every cover", "Say 'spotted wearing' unless ownership is confirmed; state whether auction prices include fees"],
     "avoid": ["Price predictions or investment advice", "Clickbait the slides don't pay off; emojis in headlines", "Reposting other creators' slides or photos", "Presenting press photos as our own"]
   },
   "cta_style": "Calm and direct, one action: 'Vote in the comments.' 'Swipe for the full list.' 'Follow @watchwireco for daily watch news.'",

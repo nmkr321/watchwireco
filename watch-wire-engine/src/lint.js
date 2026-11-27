@@ -47,7 +47,7 @@ export function lint(P, format = "") {
     const ref = t.match(/\bref\.?\s*\S+|\b[A-Z]{0,4}\d{2,}[.\-/]\d{2,}[\w.\-/]*|\b\d{3,}[A-Z]{1,4}\b|\b[A-Z]{2,4}\d{3,}\w*/i);
     if (ref) out.push(`${n}: reference/model code "${ref[0]}" on the slide; say the watch's plain name (like "Rolex Daytona") and put the code in the caption`);
     const src = t.match(/\b(per|according to|as reported in|reportedly|via) [A-Z][\w.&' ]+|\b\w+ (reports|says|said)\b|\b\d{1,2} (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w* 20\d\d/);
-    if (src) out.push(`${n}: "${src[0]}" on the slide; sources and dates go in the slide footer ("source") and the caption, not the slide text`);
+    if (src) out.push(`${n}: "${src[0]}" on the slide; sources and dates go only in the Source line at the bottom of the caption, never on slides`);
     const tech = t.match(/\b(vph|lug[- ]to[- ]lug|calibre|caliber|Hz|DLC|PVD|jewels)\b/i);
     if (tech) out.push(`${n}: "${tech[0]}" is a technical word most readers won't know; explain it in plain words or drop it`);
     if ((t.match(/\d[\d,.]*/g) || []).length > 2 && s.t !== "A-table") out.push(`${n}: too many numbers on one slide; keep the one that matters`);
@@ -127,12 +127,6 @@ export function lint(P, format = "") {
     if (missing.size) out.push(`numbers not found in the research files (add a sourced claim or remove them): ${[...missing].slice(0, 6).join(", ")}`);
   }
 
-  // per-slide sources: a slide with its own price must name its own source when the post uses several outlets
-  const outlets = String(spec.source || "").replace(/^Source:\s*/i, "").split(/,|·|&| and /).map((x) => x.trim()).filter(Boolean);
-  if (outlets.length > 2) slides.forEach((s, i) => {
-    const own = s.source || s.footLeft;
-    if (["A-photo", "A-number"].includes(s.t) && /\$\s?\d/.test(JSON.stringify(s)) && !own) out.push(`slide ${i + 1}: has a price, so set its own "source" (just that slide's outlet)`);
-  });
   // measured layout problems from the last render (templates/fit.js): text that still doesn't fit after auto-shrink,
   // overlaps, cut-off footers, text-only slides, covers buried under text. Owner 2026-11-26: fix these before review.
   try { for (const [n, list] of Object.entries(readJson(f("render/fit.json")))) for (const x of list) out.push(`slide ${n} layout: ${x}`); } catch {}

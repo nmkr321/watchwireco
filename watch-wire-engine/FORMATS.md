@@ -8,7 +8,7 @@ October. Fifth month in a row." Never hype, emoji headlines or "buy now".
 
 **Value test (every post):** why would someone save, share or comment? It must be useful (a clear use or buyer: "watches for a suit", "first luxury watch under $5K", "travel GMTs"), timely (news, an auction, a release; seasonal angles only occasionally) or interactive (pick, vote, build). Lists and collections need a niche: one use case and a tight price band (roughly within 2x, e.g. $3K–$6K), never random watches from $9K to $82K.
 
-**Always:** every number and price sourced and dated, but the source and date live in the slide footer and the caption, never in the slide text; one idea per slide; a topic tag on the cover; "spotted
+**Always:** every number and price sourced and dated, but sources and dates live only in the Source line at the bottom of the caption, never on slides; one idea per slide; a topic tag on the cover; "spotted
 wearing" unless ownership is confirmed; say whether auction prices include fees.
 **Never:** price predictions, investment advice, clickbait the slides don't pay
 off, reposting other creators' slides or photos, a press photo presented as ours.
@@ -17,11 +17,11 @@ for daily watch news.").
 
 **Plain words (owner 2026-11-26: "our posts are often super hard to read").** Write the slides like a text to a friend who likes watches but isn't an expert.
 - Every slide reads as one full, normal sentence or phrase that makes sense on its own. No riddles or clipped fragments ("Times a stretch, not seconds" → "It measures speed, not time").
-- Slide text never carries reference numbers, calibre codes, specs codes, sources or dates. "Omega Speedmaster, $7,800" — not "Ref 310.30.42.50.01.001 Speedmaster: USD 7,800, per The 1916 Company, 22 Nov 2026". The reference, source and date go in the caption (and the footer).
+- Slide text never carries reference numbers, calibre codes, specs codes, sources or dates. "Omega Speedmaster, $7,800" — not "Ref 310.30.42.50.01.001 Speedmaster: USD 7,800, per The 1916 Company, 22 Nov 2026". The reference, source and date go in the caption.
 - Name watches the way people say them: "Rolex Daytona", "Patek Nautilus", "Cartier Tank".
 - A technical word is explained in the same sentence or dropped (no vph, lug-to-lug, calibre, Hz, DLC on slides). At most one number per slide.
 - Body ≤15 words, one sentence. Spec tables only for NEW RELEASES, 3 rows max, plain labels ("Size", "Price", "How many").
-- State facts plainly, as statements: never "per GQ", "according to", "reportedly", "as reported in". Sources live only in the caption's bottom "Source: …" line (and the slide footer).
+- State facts plainly, as statements: never "per GQ", "according to", "reportedly", "as reported in". Sources live only in the caption's bottom "Source: …" line, never on slides.
 - Caption: line 1 is the hook in plain English (no reference numbers); then 2–4 short sentences; the question; then "Source: …" and credits at the end.
 
 **Covers (owner 2026-11-26, from @luxurywatchmedia / @liveforwatches).** One huge picture fills about 70% of the cover: a face, a wrist or the watch, cropped tight. Headline = a 3–5 word twist that makes people curious, not a description: "No Snow, No Watch", "Khamzat Wears A Smile", "Left Or Right?", "Built For A Trench War" (not "What A Tachymeter Bezel Actually Does", not "Cartier's Tank Came From War"). Under it, one short fact line (watch name · one number). The tag pill above the headline. The facts and the explaining go on slide 2+.

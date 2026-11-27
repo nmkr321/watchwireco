@@ -23,7 +23,7 @@ words, body ≤15; pictures match the subject (celebrity/gameplay/watch); posts 
 Comparisons show both watches on the cover; no "e.g." anywhere.
 Readability (owner 2026-11-26: "our posts are often super hard to read") → major, text_only, with the exact rewrite: a slide
 that doesn't read as a normal sentence a non-expert gets on first read (clipped riddles like "Times a stretch, not seconds"),
-reference numbers/calibre codes/sources/dates in slide text (they belong in the caption and footer), an unexplained technical word.
+reference numbers/calibre codes/sources/dates in slide text (they belong only at the bottom of the caption), an unexplained technical word.
 Cover headline that only describes ("What A Tachymeter Does") instead of a 3-5 word twist ("Built To Time A Race") → major, text_only.
 
 ## Hard gates (any failure = revise or reject, never approve)
