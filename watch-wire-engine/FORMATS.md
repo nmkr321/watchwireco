@@ -12,8 +12,7 @@ October. Fifth month in a row." Never hype, emoji headlines or "buy now".
 wearing" unless ownership is confirmed; say whether auction prices include fees.
 **Never:** price predictions, investment advice, clickbait the slides don't pay
 off, reposting other creators' slides or photos, a press photo presented as ours.
-**CTA:** calm and direct, one action ("Vote in the comments." / "Follow @watchwireco
-for daily watch news.").
+**Last slide (owner 2026-11-27):** a follow page: cta {line1: "Like this one?", line2: "Follow for more."} (or a close variant). The comment question goes in the caption. Vote posts (WOULD YOU RATHER, picks) keep their vote prompt on the last slide.
 
 **Plain words (owner 2026-11-26: "our posts are often super hard to read").** Write like a top watch account (@luxurywatchmedia): confident and clear, using real watch words a watch fan knows (bezel, bracelet, centre links, dial, case, movement, titanium, bulk metallic glass, smoked dial, pink gold). Never baby talk or vague paraphrase ("the shiny parts", "frozen in a jumble", "winds itself" → "automatic") — owner 2026-11-27: "this is a watch page."
 - Every slide reads as one full, normal sentence or phrase that makes sense on its own. No riddles or clipped fragments ("Times a stretch, not seconds" → "It measures speed, not time").
@@ -36,7 +35,7 @@ for daily watch news.").
 - Never repeat the cover's words on a later slide, never a slide that only names a topic ("The dial", "The size").
 - Read the slide headlines and bodies in order, out loud, as one paragraph. If it doesn't read as a story, rewrite it.
 
-**Covers (owner 2026-11-26, from @luxurywatchmedia / @liveforwatches).** One huge picture fills about 70% of the cover: a face, a wrist or the watch, cropped tight. Headline = a 3–5 word twist that makes people curious, not a description: "No Snow, No Watch", "Khamzat Wears A Smile", "Left Or Right?", "Built For A Trench War" (not "What A Tachymeter Bezel Actually Does", not "Cartier's Tank Came From War"). Under it, one short fact line (watch name · one number). The tag pill above the headline. The facts and the explaining go on slide 2+.
+**Covers (owner 2026-11-26, from @luxurywatchmedia / @liveforwatches).** One huge picture fills about 70% of the cover: a face, a wrist or the watch, cropped tight. Headline = a question or a dare that pulls the viewer in (owner 2026-11-27: "Try To Scratch This AP's Bezel", "Ever Wonder Why This Bezel Won't Scratch?"), or a 3–5 word twist that makes people curious, never a description or a puzzle the slides must untangle: "No Snow, No Watch", "Khamzat Wears A Smile", "Left Or Right?", "Built For A Trench War" (not "What A Tachymeter Bezel Actually Does", not "Cartier's Tank Came From War"). Under it, one short fact line (watch name · one number). The tag pill above the headline. The facts and the explaining go on slide 2+.
 
 **What gets reach:** today's news the same day; pop culture (games, films, fighters, footballers, rappers, musicians wearing watches); jaw-dropping pieces (a record price, a meteorite dial, 270 rubies); and a choice for the reader. Explainers are the backup, not the main menu.
 
