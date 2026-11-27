@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-27-2030-a-bolton-repairman-built-the-first-self-",
+  "status": "approved",
+  "found_at": "2026-11-27T05:34:51.866Z",
+  "lane": "history",
+  "format": "WATCH EXPLAINED",
+  "post_at": "2026-11-28T01:30:00.000Z",
+  "slot": 4,
+  "title": "A Bolton Repairman Built The First Self-Winding Watch",
+  "hook": "John Harwood, a Bolton watch repairer, patented a self-winding wristwatch on 7 July 1923. A weighted arm bumps a ratchet to wind the spring. Rolex acknowledged him in 1956.",
+  "why": "Evergreen tension story with a clear mechanism explainer. Modern rotors (e.g. Rolex Datejust 41, $8,950 white dial) as the comparison.",
+  "sources_to_check": [
+    "https://en.wikipedia.org/wiki/John_Harwood_(watchmaker)",
+    "https://www.fratellowatches.com/tbt-john-harwood-and-the-worlds-first-automatic-wristwatch/",
+    "https://collection.sciencemuseumgroup.org.uk/objects/co8557942",
+    "https://www.rolex.com/en-us/watches/datejust/m126300-0027"
+  ],
+  "sources": [
+    {
+      "title": "https://en.wikipedia.org/wiki/John_Harwood_(watchmaker)",
+      "link": "https://en.wikipedia.org/wiki/John_Harwood_(watchmaker)",
+      "source": "https://en.wikipedia.org/wiki/John_Harwood_(watchmaker)",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://www.fratellowatches.com/tbt-john-harwood-and-the-worlds-first-automatic-wristwatch/",
+      "link": "https://www.fratellowatches.com/tbt-john-harwood-and-the-worlds-first-automatic-wristwatch/",
+      "source": "https://www.fratellowatches.com/tbt-john-harwood-and-the-worlds-first-automatic-wristwatch/",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://collection.sciencemuseumgroup.org.uk/objects/co8557942",
+      "link": "https://collection.sciencemuseumgroup.org.uk/objects/co8557942",
+      "source": "https://collection.sciencemuseumgroup.org.uk/objects/co8557942",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://www.rolex.com/en-us/watches/datejust/m126300-0027",
+      "link": "https://www.rolex.com/en-us/watches/datejust/m126300-0027",
+      "source": "https://www.rolex.com/en-us/watches/datejust/m126300-0027",
+      "tier": "to-verify"
+    }
+  ],
+  "scheduled_for": "2026-11-28T01:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-27-2030-a-bolton-repairman-built-the-first-self-",
+  "project_dir": "Content Creation/projects/2026-11-27-2030-a-bolton-repairman-built-the-first-self-",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-27-2030-a-bolton-repairman-built-the-first-self-/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "issues": [
+      {
+        "severity": "minor",
+        "slide": "caption",
+        "problem": "The caption names the Seiko and Oris watches, but no slide shows them. Its Source line also lists a watch-shop page and Wikipedia.",
+        "change": "Delete the sentence 'The Seiko Prospex Alpinist SPB121 is priced at $543, and the Oris Artelier Date 01 733 7721 at $1,950.' Remove the Seiko and Oris entries from the Source line. Remove 'Image: Seiko. Image: Oris.' from the photo credits.",
+        "text_only": true
+      }
+    ],
+    "reason": "The earlier majors are fixed. The placeholder and blank slides are gone, and the skeleton slide now has plain wording. The cover, history and mechanism pictures match their text and all carry credits. One minor caption cleanup is left: remove the Seiko and Oris mentions, because no slide shows those watches.",
+    "fixes": [
+      "[minor] slide caption: The caption names the Seiko and Oris watches, but no slide shows them. Its Source line also lists a watch-shop page and Wikipedia. → Delete the sentence 'The Seiko Prospex Alpinist SPB121 is priced at $543, and the Oris Artelier Date 01 733 7721 at $1,950.' Remove the Seiko and Oris entries from the Source line. Remove 'Image: Seiko. Image: Oris.' from the photo credits."
+    ]
+  }
+}

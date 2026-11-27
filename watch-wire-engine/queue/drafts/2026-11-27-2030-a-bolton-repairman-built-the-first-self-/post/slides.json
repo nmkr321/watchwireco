@@ -1,0 +1,45 @@
+{
+ "source": "Source: Wikipedia; Fratello Watches; Science Museum Group; Exquisite Timepieces",
+ "theme": "graphite",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "HISTORY",
+   "line1": "Your Watch Can",
+   "line2": "[[Wind Itself]]",
+   "meta": "The first one came from Bolton",
+   "photo": "watch-wire-engine/library/img/commons-mechanics-movement-feinmechanik-wrist-watch-clock-au.jpg",
+   "credit": "Photo: Unknown author / CC0 via Wikimedia Commons"
+  },
+  {
+   "t": "A-photo",
+   "label": "THE FIRST ONE",
+   "headline": "A Bolton Repairman's Idea",
+   "photo": "watch-wire-engine/library/img/commons-automatic-watch.jpg",
+   "credit": "Photo: Museumsfoto / CC BY 3.0 de via Wikimedia Commons",
+   "body": "John Harwood made the first self-winding wristwatch. Rolex named him its inventor in 1956."
+  },
+  {
+   "t": "A-photo",
+   "label": "HOW IT WORKS",
+   "headline": "Each Swing Tightens A Spring",
+   "photo": "watch-wire-engine/library/img/commons-watch-automatic-mainspring.jpg",
+   "credit": "Photo: Hustvedt / CC BY-SA 3.0 via Wikimedia Commons",
+   "body": "A weight swings about 230 degrees as you move, winding the spring that stores power."
+  },
+  {
+   "t": "A-photo",
+   "label": "SEE IT WORK",
+   "headline": "You Can See It Work",
+   "photo": "watch-wire-engine/library/img/commons-automatic-skeleton-watch.jpg",
+   "credit": "Photo: Hustvedt / CC BY-SA 3.0 via Wikimedia Commons",
+   "body": "A skeleton dial shows the parts moving."
+  },
+  {
+   "t": "cta",
+   "line1": "Would You Wear One?",
+   "line2": "Tell us below",
+   "body": "Comment: do you wind your watch, or let it wind itself?"
+  }
+ ]
+}

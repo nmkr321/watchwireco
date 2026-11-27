@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "A repairman from Bolton built the first watch that winds itself.\n\nJohn Harwood's wristwatch had a weight that swings as you move. Each swing winds a spring that keeps the watch running. It had no winding button.\n\nHe applied for a patent in 1923, and it was granted in September 1924. In 1956, Rolex publicly named him the inventor of the automatic wristwatch.\n\nModern automatics still work this way. The Seiko Prospex Alpinist SPB121 is priced at $543, and the Oris Artelier Date 01 733 7721 at $1,950.\n\nWould you wear a watch that winds itself, or do you wind yours by hand?\n\nSource: Wikipedia (John Harwood); Fratello Watches, 'TBT: John Harwood and the World's First Automatic Wristwatch' (1956 Rolex credit citing a Sunday Express report); Science Museum Group, object co8557942; Wikimedia Commons (automatic skeleton watch); Exquisite Timepieces, Seiko SPB121 (checked 22 Nov 2026) and Oris 01 733 7721 (checked 24 Nov 2026).\nPhoto: Museumsfoto / CC BY 3.0 de (Harwood watch, Wikimedia Commons). Photo: Unknown author / CC0 (Rolex movement, Wikimedia Commons). Photo: Hustvedt / CC BY-SA 3.0 (Wikimedia Commons, mainspring and skeleton watch). Image: Seiko. Image: Oris.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4",
+    "CLM-5",
+    "CLM-6",
+    "CLM-7"
+  ],
+  "source_ids": [
+    "SRC-WIKI",
+    "SRC-FRAT",
+    "SRC-SCI",
+    "SRC-SEIKO",
+    "SRC-ORIS",
+    "SRC-COMMONS"
+  ],
+  "attribution": "Wikipedia; Fratello Watches; Science Museum Group; Exquisite Timepieces",
+  "caption_credit": "Photo: Museumsfoto / CC BY 3.0 de; Photo: Unknown author / CC0; Image: Seiko; Image: Oris",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Mechanism limited to the sourced swinging weight."
+  ],
+  "completed_at": "2026-11-27T05:53:26.692Z",
+  "carousel_sha256": "9bd44c02b74111363fc44cab579c2ef1c2d4fd014b055dfc0d6b80f49c677d9b"
+}

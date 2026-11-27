@@ -1,0 +1,25 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [
+    {
+      "severity": "minor",
+      "slide": "caption",
+      "problem": "The caption names the Seiko and Oris watches, but no slide shows them. Its Source line also lists a watch-shop page and Wikipedia.",
+      "change": "Delete the sentence 'The Seiko Prospex Alpinist SPB121 is priced at $543, and the Oris Artelier Date 01 733 7721 at $1,950.' Remove the Seiko and Oris entries from the Source line. Remove 'Image: Seiko. Image: Oris.' from the photo credits.",
+      "text_only": true
+    }
+  ],
+  "reason": "The earlier majors are fixed. The placeholder and blank slides are gone, and the skeleton slide now has plain wording. The cover, history and mechanism pictures match their text and all carry credits. One minor caption cleanup is left: remove the Seiko and Oris mentions, because no slide shows those watches.",
+  "fixes": [
+    "[minor] slide caption: The caption names the Seiko and Oris watches, but no slide shows them. Its Source line also lists a watch-shop page and Wikipedia. → Delete the sentence 'The Seiko Prospex Alpinist SPB121 is priced at $543, and the Oris Artelier Date 01 733 7721 at $1,950.' Remove the Seiko and Oris entries from the Source line. Remove 'Image: Seiko. Image: Oris.' from the photo credits."
+  ]
+}

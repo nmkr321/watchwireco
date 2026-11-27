@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [WATCH EXPLAINED] Give every explainer slide a permitted photo of the watch, dial or movement; never leave a text-only slide on black.
-- [WATCH EXPLAINED] Show every watch the recipe names, each on its own photo slide with its official brand price.
 - [EVENT SPOTTED] Use only sources you could fully open; treat paywalled, redirected or blocked pages as unverified and never name a watch from them.
 - [EVENT SPOTTED] If a permitted person's searches show only older sightings, move to the next permitted person and search again.
 - [CELEBRITY COLLECTION] Inspect each photo on the dark template for white fades or stray boxes before rendering; replace any flawed image with a clean one.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [NEW RELEASES] Keep source names out of slide body text; put each source beside its claim in the caption.
 - [CELEBRITY] Make the cover the strongest permitted person photo with the watch in the circle; use a different portrait on later slides.
 - [CELEBRITY] Print a year on a slide only if the source text or article date states it; otherwise leave the year out.
+- [WATCH EXPLAINED] Before assigning any slide photo, view it. If it shows a grey 'coming soon' card, is blank, or failed to load, pick another permitted official image.
+- [WATCH EXPLAINED] Any watch shown in a slide photo must be named with its exact brand and model in that slide or the caption, and must match the recipe's watch.

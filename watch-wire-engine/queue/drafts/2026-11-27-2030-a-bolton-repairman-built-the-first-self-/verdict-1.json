@@ -1,0 +1,70 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Slide 5 photo is a grey 'LIVE IMAGES COMING SOON' placeholder, not a real Seiko photo",
+    "Slide 6 photo is missing, so the slide is a blank black picture area",
+    "Slide 4 pictures an Armitron skeleton watch, which doesn't match the 'Seiko/Oris' watch slides or its explainer claim well",
+    "Cover shows a Rolex movement but the cover and slides never name Rolex, and the caption credit says 'Rolex movement'"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "5",
+      "problem": "Photo is a washed-out 'Live images coming soon' placeholder, not the Seiko SPB121",
+      "change": "Replace with a real credited Seiko Prospex Alpinist SPB121 image (e.g. `photo.js credited <url> ...`) from the Seiko official page or another licensed source, with the watch clearly visible. If none can be found, drop the slide.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "6",
+      "problem": "Photo area is blank black; the Oris Artelier Date image failed to load",
+      "change": "Fetch and place a real credited Oris Artelier Date 01 733 7721 image from Oris. If none can be found, drop the slide and keep the Seiko slide as the only watch example.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "4",
+      "problem": "Skeleton photo is an unbranded Armitron-type watch and the body says 'as in this automatic model', which is vague. The slide also repeats the mechanism idea from slide 3.",
+      "change": "Set the body to 'A skeleton dial shows the parts moving.' and keep the photo only if the watch is automatic. The caption's 'see parts turning' claim must match the claim in research.",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "1",
+      "problem": "Cover headline 'Your Watch Can Wind Itself' only describes the feature rather than giving a twist, and the meta line has the code-like 'first patent 1923'",
+      "change": "meta → 'The first one came from Bolton'",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "2",
+      "problem": "Slide 2 'Rolex credited him in 1956' relies on a Sunday Express citation, while the cover movement is a Rolex",
+      "change": "body → 'John Harwood made the first self-winding wristwatch. Rolex named him its inventor in 1956.'",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "5",
+      "problem": "Body refers back to 'Harwood's watch', which is clipped",
+      "change": "body → 'It winds itself as you wear it. Priced at $543.'",
+      "text_only": true
+    }
+  ],
+  "reason": "Two of the watch slides have no usable picture: the Seiko slide shows a 'live images coming soon' placeholder and the Oris slide is blank. The facts and story are sound, so I'm asking for real photos of both watches plus a few wording fixes before it goes out.",
+  "fixes": [
+    "[major] slide 5: Photo is a washed-out 'Live images coming soon' placeholder, not the Seiko SPB121 → Replace with a real credited Seiko Prospex Alpinist SPB121 image (e.g. `photo.js credited <url> ...`) from the Seiko official page or another licensed source, with the watch clearly visible. If none can be found, drop the slide.",
+    "[major] slide 6: Photo area is blank black; the Oris Artelier Date image failed to load → Fetch and place a real credited Oris Artelier Date 01 733 7721 image from Oris. If none can be found, drop the slide and keep the Seiko slide as the only watch example.",
+    "[major] slide 4: Skeleton photo is an unbranded Armitron-type watch and the body says 'as in this automatic model', which is vague. The slide also repeats the mechanism idea from slide 3. → Set the body to 'A skeleton dial shows the parts moving.' and keep the photo only if the watch is automatic. The caption's 'see parts turning' claim must match the claim in research.",
+    "[minor] slide 1: Cover headline 'Your Watch Can Wind Itself' only describes the feature rather than giving a twist, and the meta line has the code-like 'first patent 1923' → meta → 'The first one came from Bolton'",
+    "[minor] slide 2: Slide 2 'Rolex credited him in 1956' relies on a Sunday Express citation, while the cover movement is a Rolex → body → 'John Harwood made the first self-winding wristwatch. Rolex named him its inventor in 1956.'",
+    "[minor] slide 5: Body refers back to 'Harwood's watch', which is clipped → body → 'It winds itself as you wear it. Priced at $543.'"
+  ]
+}
