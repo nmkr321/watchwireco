@@ -1,6 +1,6 @@
 {
   "id": "2026-11-27-1430-the-reverse-panda-moonwatch-10-400",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-27T05:34:51.866Z",
   "lane": "rotation",
   "format": "NEW RELEASES",
@@ -65,5 +65,22 @@
       "[major] slide 2: The headline 'Black dial, white counters' sits over a side-on case photo that doesn't show the dial. The body also repeats the cover. → Headline → 'A Slim Steel Profile'. Body → 'The steel case is 13.54mm thick.' Keep the same photo and credit."
     ],
     "approved_with_notes": true
+  },
+  "posted_at": "2026-11-27T19:31:05.878Z",
+  "publish": {
+    "live": true,
+    "media_id": "18124455710286190",
+    "permalink": "https://www.instagram.com/p/DgQb5ApCSUi/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png"
+      ],
+      "caption_chars": 820
+    }
   }
 }
