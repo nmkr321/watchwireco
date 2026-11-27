@@ -208,6 +208,34 @@ export function make(file) {
       const r = spawnSync("sips", ["-Z", "540", "-s", "format", "jpeg", src, "--out", dst]);
       if (r.error || r.status !== 0) spawnSync("convert", [src, "-resize", "540x540", "-quality", "80", dst]);
     }
+    // one contact sheet of every slide: the approver looks once instead of opening 6-9 images (2026-11-26, cost)
+    const pngs = fs.readdirSync(out).filter((x) => /^slide-\d+\.png$/.test(x)).sort().map((f) => path.join(out, f));
+    if (pngs.length) spawnSync("montage", [...pngs, "-tile", "3x", "-geometry", "480x600+6+6", "-background", "#333", "-quality", "82", path.join(pv, "sheet.jpg")]);
+  };
+  // everything the approver used to open file by file, in its prompt (2026-11-26: each file read was another paid turn)
+  const reviewPack = () => {
+    const pdir = path.resolve(WORKSPACE, readJson(draftFile).project_dir || draft.project_dir);
+    const rd = (f) => { try { return JSON.parse(fs.readFileSync(path.join(pdir, f), "utf8")); } catch { return null; } };
+    const slides = (rd("slides.json")?.slides || []).map((x, i) => {
+      const o = {}; for (const [k, v] of Object.entries(x)) if (v !== "" && v != null) o[k] = typeof v === "string" && /\.(jpe?g|png|webp)$/i.test(v) ? path.basename(v) : v;
+      return `${i + 1}. ${JSON.stringify(o)}`; }).join("\n");
+    const caption = rd("caption.json")?.text || "";
+    const research = rd("research.json") || {};
+    const srcs = Object.fromEntries((research.sources || []).map((x) => [x.id, `${x.publisher || x.title || ""} ${x.url || ""}`.trim()]));
+    const claims = (research.claims || []).map((c) => `- ${c.text} [${(c.source_ids || []).map((id) => srcs[id] || id).join("; ")}]`).join("\n");
+    const assets = (rd("assets/manifest.json")?.assets || []).map((a) => `${path.basename(a.local_path || a.path || "")}: ${a.rights_status || a.rights || "?"} · ${a.creator || a.credit || ""} · ${a.source_url || ""}`).join("\n");
+    let facts = ""; try { facts = JSON.stringify(readJson(path.join(draftDir, "input.json")).verified_facts || []); } catch {}
+    const taste = fs.existsSync(path.join(ROOT, "state/owner-taste.md")) ? fs.readFileSync(path.join(ROOT, "state/owner-taste.md"), "utf8").slice(-4000) : "";
+    return `\n\n=== REVIEW PACK (everything you need; do not open these files again) ===
+Check: ${passes() ? "PASS" : "FAIL"}
+Slides (slides.json):\n${slides}
+Caption:\n${caption}
+Claims with their sources (research.json):\n${claims || "(none)"}
+Verified facts read by the engine (treat as confirmed): ${facts || "[]"}
+Photos and rights (assets/manifest.json):\n${assets || "(none listed)"}
+Posted or queued in the last 7 days (no repeats): ${JSON.stringify(recentTitles(7))}
+Owner taste (overrides yours):\n${taste}
+Pictures: ${fs.existsSync(path.join(draftDir, "previews/sheet.jpg")) ? `look at ${draftDir}/previews/sheet.jpg (all slides, in order) ONCE. Open a single previews/slide-NN.jpg only if something there is unclear.` : `look at each ${draftDir}/previews/slide-NN.jpg once.`}`;
   };
   // free pre-check before the paid approver: if the editor left known mistakes, it fixes them first (one cheap round)
   let pre = lint(path.resolve(WORKSPACE, draft.project_dir), item.format);
@@ -238,8 +266,8 @@ export function make(file) {
   for (let round = 1; round <= 2; round++) {
     makePreviews();
     verdict = norm(parseResult(claude(["--model", APPROVER_MODEL, "--agent", "watch-wire-approver", "--effort", EFFORT.approver, "--max-budget-usd", APPROVER_BUDGET,
-      "--allowedTools", "Read Glob Grep Bash WebFetch", "--disallowedTools", "Bash(git:*)", "--output-format", "json", "--json-schema", schema],
-      `Review this Watch Wire draft and decide. Draft folder: ${draftDir}` + formatBrief(item.format) + (pre.length ? `\nThe free pre-check still flags (check these; some may be false alarms): ${JSON.stringify(pre)}` : "")
+      "--allowedTools", "Read WebFetch", "--output-format", "json", "--json-schema", schema],
+      `Review this Watch Wire draft and decide. Draft folder: ${draftDir}` + formatBrief(item.format) + (() => { try { return reviewPack(); } catch (e) { log(`review pack failed: ${e.message.slice(0, 120)}`); return "\nRead the draft files yourself (draft.json, the project's slides.json, caption.json, research.json) and every previews/ image."; } })() + (pre.length ? `\nThe free pre-check still flags (check these; some may be false alarms): ${JSON.stringify(pre)}` : "")
       + (round === 2 ? `\nFINAL CHECK. Last round you asked for: ${JSON.stringify(earlier)}. Check each was done. List only issues still there and new MAJOR ones; no new minor tweaks. Nothing major left → approve.` : ""), `approver ${item.id} r${round}`)));
     writeJson(path.join(draftDir, `verdict-${round}.json`), verdict);
     log(`approver r${round}: ${verdict.decision}, ${majors(verdict).length} major / ${verdict.issues.length - majors(verdict).length} minor (${verdict.reason})`);
