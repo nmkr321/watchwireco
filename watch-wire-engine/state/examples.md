@@ -1,6 +1,6 @@
 # Posts the owner loved: copy how they work, not their words
 The engine gives the writer and the reviewer the examples for the post's format (newest first).
-Add one whenever the owner praises a post: what he said, the story, the slides, and what the earlier drafts got wrong.
+Add one whenever the owner praises a post: what they said, the story, the slides, and what the earlier drafts got wrong.
 
 ## [WATCH EXPLAINED] AP Royal Oak Jumbo titanium + bulk metallic glass (2026-11-27)
 Owner: "perfect... this is great" (after four rejected drafts).
