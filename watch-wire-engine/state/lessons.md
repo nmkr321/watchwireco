@@ -19,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [EVENT SPOTTED] Sightings from the last 30 days are events; the article's date gives the year. If one person fails, take the next name the search found.
 - [CELEBRITY COLLECTION] A person's collection = watches named by any trusted outlet or the person's own posts, last 12 months; missing price → "Price on request".
 - [CELEBRITY COLLECTION] Person photos: Getty (photo.js credited) or any source in permissions.json; watch photos: the brand's official image.
+- [WATCH EXPLAINED] Name only colours, sizes and features that a slide shows; CTA and caption last line must repeat slide wording, not add new details.
+- [WATCH EXPLAINED] Don't repeat a word or fact in a slide body that its headline already states; give each slide one new fact.

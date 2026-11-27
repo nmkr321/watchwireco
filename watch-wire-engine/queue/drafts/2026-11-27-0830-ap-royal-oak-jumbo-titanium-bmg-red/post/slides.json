@@ -1,0 +1,52 @@
+{
+ "source": "Source: Audemars Piguet; Watches by SJX",
+ "theme": "graphite",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "EXPLAINED",
+   "line1": "Metal That",
+   "line2": "Acts Like Glass",
+   "meta": "AP Royal Oak Jumbo · titanium",
+   "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-01.jpg",
+   "credit": "Image: Audemars Piguet, via Hiconsumption"
+  },
+  {
+   "t": "A-photo",
+   "label": "The dial",
+   "headline": "Red that fades to black",
+   "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-02.jpg",
+   "credit": "Image: Audemars Piguet, via Hiconsumption",
+   "body": "The centre is bright red, and the edge turns deep burgundy, almost black."
+  },
+  {
+   "t": "A-photo",
+   "label": "What it is",
+   "headline": "A metal cooled like glass",
+   "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-03.jpg",
+   "credit": "Image: Audemars Piguet, via Hiconsumption",
+   "body": "Bulk metallic glass is cooled so fast its atoms never line up in neat rows."
+  },
+  {
+   "t": "A-photo",
+   "label": "The size",
+   "headline": "Wide, with a titanium case",
+   "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-01.jpg",
+   "credit": "Image: Audemars Piguet, via Hiconsumption",
+   "body": "It is 39 mm wide, 8.1 mm thick and winds itself."
+  },
+  {
+   "t": "A-photo",
+   "label": "Rare",
+   "headline": "Only one made for charity",
+   "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-03.jpg",
+   "credit": "Image: Audemars Piguet, via Hiconsumption",
+   "body": "A single watch in this metal went to the Only Watch charity auction."
+  },
+  {
+   "t": "cta",
+   "line1": "Love the red dial?",
+   "line2": "Comment below."
+  }
+ ]
+}

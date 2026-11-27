@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-27-1430-the-reverse-panda-moonwatch-10-400",
+  "status": "idea",
+  "found_at": "2026-11-27T05:34:51.866Z",
+  "lane": "rotation",
+  "format": "NEW RELEASES",
+  "post_at": "2026-11-27T19:30:00.000Z",
+  "slot": 2,
+  "title": "The Reverse Panda Moonwatch, $10,400",
+  "hook": "Omega Moonwatch Professional Black and White, steel, ref 310.30.42.50.01.004, 42mm, released January 2026, US$10,400.",
+  "why": "Hot-topic Omega Speedmaster angle, new release. Weakness: January is not timely; Speedmaster 38 (Aug 2026) would be fresher but its reference and price are unconfirmed.",
+  "sources_to_check": [
+    "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+    "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026",
+    "Omega official US price list"
+  ],
+  "sources": [
+    {
+      "title": "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+      "link": "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+      "source": "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026",
+      "link": "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026",
+      "source": "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Omega official US price list",
+      "link": "",
+      "source": "Omega official US price list",
+      "tier": "to-verify"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "decision": "revise",
+  "post_timing": "hold",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Slides 4 and 5 are text on black with no photo. This breaks the WATCH EXPLAINED lesson, and the pre-check flagged slide 5."
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "5",
+      "problem": "Text-only slide on black with no watch photo",
+      "change": "Change slide 5 to A-photo with a credited Audemars Piguet photo of the Royal Oak Jumbo titanium BMG (for example the side or bracelet view of ref. 16202XT, rights official). Keep the headline 'Only one made for charity' and the existing body text.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "4",
+      "problem": "Text-only number slide on black with no watch photo",
+      "change": "Change slide 4 to A-photo with a credited Audemars Piguet photo of the watch on the wrist or in profile. Keep the headline 'Wide, with a titanium case' and set the body to 'It is 39 mm wide, 8.1 mm thick and winds itself.' This removes the repeat of 'titanium' from the body.",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "6",
+      "problem": "The CTA names 'classic blue', which no slide shows",
+      "change": "CTA line1 → 'Love the red dial?' and keep line2 'Comment below.' Make the same change in the caption's last line.",
+      "text_only": true
+    }
+  ],
+  "reason": "The AP Royal Oak Jumbo BMG story is accurate and the cover is strong. Slides 4 and 5 are text on black, which the explainer lessons ban, so they need credited watch photos before this can go out.",
+  "fixes": [
+    "[major] slide 5: Text-only slide on black with no watch photo → Change slide 5 to A-photo with a credited Audemars Piguet photo of the Royal Oak Jumbo titanium BMG (for example the side or bracelet view of ref. 16202XT, rights official). Keep the headline 'Only one made for charity' and the existing body text.",
+    "[major] slide 4: Text-only number slide on black with no watch photo → Change slide 4 to A-photo with a credited Audemars Piguet photo of the watch on the wrist or in profile. Keep the headline 'Wide, with a titanium case' and set the body to 'It is 39 mm wide, 8.1 mm thick and winds itself.' This removes the repeat of 'titanium' from the body.",
+    "[minor] slide 6: The CTA names 'classic blue', which no slide shows → CTA line1 → 'Love the red dial?' and keep line2 'Comment below.' Make the same change in the caption's last line."
+  ]
+}

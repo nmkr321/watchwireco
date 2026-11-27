@@ -1243,3 +1243,10 @@
 2026-11-26T17:05:33.436Z	learn 2026-11-26-1730-watch-explained-perpetual-calendar	claude-haiku-5-5	0.0048	2
 2026-11-26T17:07:34.009Z	editor-revise 2026-11-26-1730-watch-explained-perpetual-calendar	claude-haiku-5-5	0.0646	20
 2026-11-26T17:07:48.533Z	approver 2026-11-26-1730-watch-explained-perpetual-calendar r2	claude-sonnet-5-5	0.0809	10
+2026-11-27T05:34:51.865Z	planner	claude-haiku-5-5	0.1161	17
+2026-11-27T05:37:39.120Z	editor 2026-11-27-0830-ap-royal-oak-jumbo-titanium-bmg-red	claude-haiku-5-5	0.0444	31
+2026-11-27T05:38:23.338Z	editor-precheck 2026-11-27-0830-ap-royal-oak-jumbo-titanium-bmg-red	claude-haiku-5-5	0.0062	10
+2026-11-27T05:38:34.398Z	approver 2026-11-27-0830-ap-royal-oak-jumbo-titanium-bmg-red r1	claude-sonnet-5-5	0.0714	2
+2026-11-27T05:38:39.647Z	learn 2026-11-27-0830-ap-royal-oak-jumbo-titanium-bmg-red	claude-haiku-5-5	0.0047	2
+2026-11-27T05:39:12.261Z	editor-revise 2026-11-27-0830-ap-royal-oak-jumbo-titanium-bmg-red	claude-haiku-5-5	0.0076	9
+2026-11-27T05:39:17.889Z	approver 2026-11-27-0830-ap-royal-oak-jumbo-titanium-bmg-red r2	claude-sonnet-5-5	0.0467	2

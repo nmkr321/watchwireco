@@ -74,5 +74,17 @@
       "caption_chars": 478
     },
     "note": "went live despite: Graph API 17841473447601965/media_publish: Application request limit reached"
+  },
+  "insights": {
+    "d1": {
+      "at": "2026-11-27T05:33:21.614Z",
+      "likes": 0,
+      "comments": 0,
+      "reach": 3,
+      "saved": 0,
+      "shares": 0,
+      "views": 5,
+      "total_interactions": 0
+    }
   }
 }

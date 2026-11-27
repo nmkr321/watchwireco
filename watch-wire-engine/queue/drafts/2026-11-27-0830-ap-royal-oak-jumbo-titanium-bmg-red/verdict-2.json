@@ -1,0 +1,15 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [],
+  "reason": "All three earlier fixes were made. Slides 4 and 5 now have credited AP photos, and the CTA and caption both say 'Love the red dial?'. The facts match the claims, the photos are official, and nothing major is left.",
+  "fixes": []
+}

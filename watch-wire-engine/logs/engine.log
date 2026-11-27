@@ -2197,3 +2197,15 @@ I did not WebFetch the Robb Report source or check the manifest rights in this p
 2026-11-27T02:52:53.661Z watcher: 0 new candidate(s)
 2026-11-27T03:55:23.135Z watcher: 0 new candidate(s)
 2026-11-27T05:01:10.179Z watcher: 0 new candidate(s)
+2026-11-27T05:33:20.416Z no posts planned for today yet (plan run was skipped?): planning now
+2026-11-27T05:33:31.700Z insights: 7 new snapshot(s); report in state/performance.md
+2026-11-27T05:33:31.706Z plan: 08:30 already has a post, skipping
+2026-11-27T05:34:51.866Z planned 11:30 [WOULD YOU RATHER] $9,150 Or $10,400. Which One?
+2026-11-27T05:34:51.866Z planned 14:30 [NEW RELEASES] The Reverse Panda Moonwatch, $10,400
+2026-11-27T05:34:51.866Z planned 17:30 [CELEBRITY] Conan Went Full Rolex At The Oscars
+2026-11-27T05:34:51.866Z planned 20:30 [WATCH EXPLAINED] A Bolton Repairman Built The First Self-Winding Watch
+2026-11-27T05:34:51.869Z editor start: AP Royal Oak Jumbo in titanium and metal glass, red dial
+2026-11-27T05:37:39.176Z pre-check: 1 problem(s), editor fixes them before review
+2026-11-27T05:38:34.399Z approver r1: revise, 2 major / 1 minor (The AP Royal Oak Jumbo BMG story is accurate and the cover is strong. Slides 4 and 5 are text on black, which the explainer lessons ban, so they need credited watch photos before this can go out.)
+2026-11-27T05:38:39.648Z learned: [WATCH EXPLAINED] Name only colours, sizes and features that a slide shows; CTA and caption last line must repeat slide wording, not add new details. | [WATCH EXPLAINED] Don't repeat a word or fact in a slide body that its headline already states; give each slide one new fact.
+2026-11-27T05:39:17.889Z approver r2: approve, 0 major / 0 minor (All three earlier fixes were made. Slides 4 and 5 now have credited AP photos, and the CTA and caption both say 'Love the red dial?'. The facts match the claims, the photos are official, and nothing major is left.)
