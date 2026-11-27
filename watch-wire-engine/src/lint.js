@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 // slide-count range per format (FORMATS.md / editor rules)
 const COUNTS = { NEWS: [5, 6], MARKET: [5, 6], "NEW RELEASES": [6, 8], AUCTIONS: [6, 8], CELEBRITY: [5, 7], "WOULD YOU RATHER": [4, 5],
-  "BUILD YOUR COLLECTION": [5, 6], "CELEBRITY COLLECTION": [6, 9], "TOP 5 THIS WEEK": [7, 8], "STORY BEHIND": [7, 10], HISTORY: [7, 10], STORY: [7, 10], LISTICLE: [4, 10], "EVENT SPOTTED": [6, 9], "WATCH EXPLAINED": [6, 8] };
+  "BUILD YOUR COLLECTION": [5, 6], "CELEBRITY COLLECTION": [6, 9], "TOP 5 THIS WEEK": [7, 8], "STORY BEHIND": [7, 10], HISTORY: [7, 10], STORY: [7, 10], LISTICLE: [4, 10], "EVENT SPOTTED": [6, 9], "WATCH EXPLAINED": [5, 8] };
 const words = (s) => String(s || "").replace(/\[\[|\]\]/g, "").trim().split(/\s+/).filter(Boolean).length;
 const readJson = (f) => JSON.parse(fs.readFileSync(f, "utf8"));
 // "$8,350" → "8350"; "$25K" → "25000"; "9.1%" → "9.1"

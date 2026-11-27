@@ -150,7 +150,19 @@ function formatBrief(format = "") {
   try { const rows = fs.readFileSync(path.join(ROOT, "FORMATS.md"), "utf8").split("\n").filter((l) => l.startsWith("| "));
     row = rows.find((l) => l.toUpperCase().startsWith(`| ${format.toUpperCase()} `)) || rows.find((l) => l.toUpperCase().includes(format.toUpperCase().split(" ")[0])) || ""; } catch {}
   try { lessons = fs.readFileSync(LESSONS, "utf8").split("\n").filter((l) => /^- \[(any|[^\]]*)\]/.test(l) && (/\[any\]/.test(l) || l.toUpperCase().includes(`[${format.toUpperCase()}]`))).slice(-12).join("\n"); } catch {}
-  return `\nFormat recipe (| format | hook | slides | recipe |): ${row.trim()}\nLessons (never repeat):\n${lessons}` + scoutEditorHint(format);
+  // owner 2026-11-27: "you should be getting better every post". The writer used to see only the format row and
+  // auto-lessons, never the house rules, the owner's notes or the posts he loved. Now it gets all three.
+  let house = "", notes = "", examples = "";
+  try { const f = fs.readFileSync(path.join(ROOT, "FORMATS.md"), "utf8"); house = f.slice(f.indexOf("**Voice:**"), f.indexOf("| Format (cover tag)")).trim(); } catch {}
+  try { notes = ["state/owner-taste.md", "state/design-notes.md"].flatMap((f) => fs.readFileSync(path.join(ROOT, f), "utf8").split("\n").filter((l) => /^- 20\d\d-/.test(l)).slice(-6)).join("\n"); } catch {}
+  try { const parts = fs.readFileSync(path.join(ROOT, "state/examples.md"), "utf8").split(/\n(?=## \[)/).slice(1);
+    const mine = parts.filter((p) => p.toUpperCase().startsWith(`## [${format.toUpperCase()}]`));
+    examples = (mine.length ? mine : parts).slice(-2).join("\n\n"); } catch {}
+  return `\nFormat recipe (| format | hook | slides | recipe |): ${row.trim()}\nLessons (never repeat):\n${lessons}`
+    + (house ? `\n\nHOUSE RULES (FORMATS.md):\n${house}` : "")
+    + (notes ? `\n\nOWNER'S LATEST NOTES (newest last, they win):\n${notes}` : "")
+    + (examples ? `\n\nPOSTS THE OWNER LOVED (match this quality and story flow; never copy the words):\n${examples}` : "")
+    + scoutEditorHint(format);
 }
 
 export function make(file) {
