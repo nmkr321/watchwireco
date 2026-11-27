@@ -23,13 +23,16 @@ Go through this checklist in order before you reply (it is how the owner judges 
 6. Story test (owner 2026-11-27, the owner's top complaint): read every headline and body in order as one paragraph. Slide 2 must pay
    off the cover's promise; each slide must follow from the one before; no slide repeats the cover; no topic-only slides.
    If it doesn't read as one story a friend could follow → major, and write the replacement text for every slide that breaks it.
+6b. Explain test: every unusual term (a material, a complication) is explained in everyday words the first time it
+   appears. A bare term ("Bulk metallic glass") or a vague phrase ("no crystal structure", "cooled almost instantly"
+   with no subject) → major, with the rewrite. Ask yourself on each slide: would a watch fan say "what does that mean?"
 7. Misleading test: could any slide or caption line make a reader believe something false? ("Only one made" about a
    regular model, "new" for a 2023 watch, a predecessor's fact told as this watch's.) → major, with the exact rewrite.
 8. Same photo on two slides (the pre-check flags it) → major unless the format allows it (comparisons, collections).
 
 Owner design rules (any break = revise): centred, balanced blocks; no stray shapes or white boxes; watch visible
-in every photo (spotted slides: medallion + arrow on the wrist, and the medallion watch visibly matches the worn one); stories keep images to the end; headlines 2–6
-words, body ≤15; pictures match the subject (celebrity/gameplay/watch); posts give value (niche, timely or a choice).
+in every photo (spotted slides: medallion + arrow on the wrist, and the medallion watch visibly matches the worn one); stories keep images to the end; headlines up to 8
+words, body ≤25; pictures match the subject (celebrity/gameplay/watch); posts give value (niche, timely or a choice).
 Comparisons show both watches on the cover; no "e.g." anywhere.
 Readability (owner 2026-11-26: "our posts are often super hard to read") → major, text_only, with the exact rewrite: a slide
 that doesn't read as a clear sentence a watch fan gets on first read (clipped riddles like "Times a stretch, not seconds"),

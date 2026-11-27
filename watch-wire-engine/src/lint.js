@@ -34,11 +34,14 @@ export function lint(P, format = "") {
   // text limits and banned wording
   slides.forEach((s, i) => {
     const n = `slide ${i + 1}`;
-    if (s.headline && (words(s.headline) < 2 || words(s.headline) > 6) && s.t !== "D-cover") out.push(`${n}: headline must be 2–6 words (has ${words(s.headline)})`);
+    if (s.headline && (words(s.headline) < 2 || words(s.headline) > 8) && s.t !== "D-cover") out.push(`${n}: headline must be 2–8 words (has ${words(s.headline)})`);
     if (s.t === "D-cover" && words(s.headline) > 10) out.push(`${n}: cover headline is too long (${words(s.headline)} words, keep it under 11)`);
-    if (s.body && words(s.body) > 15) out.push(`${n}: body must be 15 words max (has ${words(s.body)})`);
+    if (s.body && words(s.body) > 25) out.push(`${n}: body must be 25 words max (has ${words(s.body)})`);
     if ((String(s.headline || "") + String(s.line1 || "") + String(s.line2 || "") + String(s.body || "")).split("[[").length > 2) out.push(`${n}: at most one [[highlight]]`);
   });
+  // owner 2026-11-27: story first. story.txt is the post told as 4-6 sentences; slides are cut from it in order.
+  if (!fs.existsSync(f("story.txt"))) out.push("story.txt is missing: write the post as 4-6 plain sentences first (FORMATS.md \"Story first\"), then cut it into the slides");
+  slides.forEach((s, i) => { if (s.t !== "cta" && s.t !== "A-cover" && s.t !== "D-cover" && /^(the )?(material|dial|size|case|movement|price|history|specs?|design|details?|rare|what it is)$/i.test(String(s.label || s.kicker || "").trim())) out.push(`slide ${i + 1}: topic label "${s.label || s.kicker}"; drop it (leave empty) and let the headline continue the story`); });
   // owner 2026-11-26: plain words on slides. References, sources and dates go in the caption and footer.
   slides.forEach((s, i) => {
     if (s.t === "cta") return;

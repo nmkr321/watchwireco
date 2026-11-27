@@ -20,9 +20,15 @@ for daily watch news.").
 - Slide text never carries reference numbers, calibre codes, specs codes, sources or dates. "Omega Speedmaster, $7,800" — not "Ref 310.30.42.50.01.001 Speedmaster: USD 7,800, per The 1916 Company, 22 Nov 2026". The reference, source and date go in the caption.
 - Name watches the way people say them: "Rolex Daytona", "Patek Nautilus", "Cartier Tank".
 - Spec-sheet shorthand and codes stay off slides (vph, Hz, calibre numbers, lug-to-lug, reference numbers). Normal watch words stay; a rare one (tachymeter, tourbillon) gets a few words of explanation. At most one number per slide.
-- Body ≤15 words, one sentence. Spec tables only for NEW RELEASES, 3 rows max, plain labels ("Size", "Price", "How many").
+- Body ≤25 words. Spec tables only for NEW RELEASES, 3 rows max, plain labels ("Size", "Price", "How many").
 - State facts plainly, as statements: never "per GQ", "according to", "reportedly", "as reported in". Sources live only in the caption's bottom "Source: …" line, never on slides.
 - Caption: line 1 is the hook in plain English (no reference numbers); then 2–4 short sentences; the question; then "Source: …" and credits at the end.
+
+**Story first (owner 2026-11-27, said three times: "it makes no sense... I see this in a lot of posts").** The slides used to be built as cards (label + 2-6 word headline + 15-word fact), one research claim per card. That produced lists of fragments nobody could follow. Now:
+1. Write `story.txt` in the project FIRST: 4-6 plain sentences telling the post the way you'd tell it out loud to a friend who likes watches. It must make sense with no pictures.
+2. Explain test: the first time anything unusual appears (a material, a complication, a term), say what it is in everyday words in the same sentence. "Bulk metallic glass" alone means nothing; "a metal cooled so fast it hardens like glass" does. Never leave a term hanging, never a vague phrase ("no crystal structure", "the shiny parts").
+3. Each sentence answers the question the one before raised (what is it? → why "glass"? → why use it? → what does it look like?).
+4. The slides ARE story.txt, cut into pieces in order: headline = the start of the thought (a short sentence, up to 8 words), body = the rest of it (up to 25 words). No topic labels ("THE MATERIAL", "THE DIAL"); leave label empty.
 
 **One story, not a list of facts (owner 2026-11-27: "the words make literally zero sense").** Before writing slides, write the post as ONE short paragraph a friend could follow (the cover's promise → the answer → why it's interesting → the payoff). Then cut that paragraph into slides, in order.
 - The cover makes a promise or asks a question. Slide 2 pays it off straight away (cover "Metal That Acts Like Glass" → slide 2 "The shiny parts are metal glass"), never jumps to another topic.

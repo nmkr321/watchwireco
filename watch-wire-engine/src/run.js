@@ -220,6 +220,7 @@ export function make(file) {
       const o = {}; for (const [k, v] of Object.entries(x)) if (v !== "" && v != null) o[k] = typeof v === "string" && /\.(jpe?g|png|webp)$/i.test(v) ? path.basename(v) : v;
       return `${i + 1}. ${JSON.stringify(o)}`; }).join("\n");
     const caption = rd("caption.json")?.text || "";
+    let story = ""; try { story = fs.readFileSync(path.join(pdir, "story.txt"), "utf8").trim(); } catch {}
     const research = rd("research.json") || {};
     const srcs = Object.fromEntries((research.sources || []).map((x) => [x.id, `${x.publisher || x.title || ""} ${x.url || ""}`.trim()]));
     const claims = (research.claims || []).map((c) => `- ${c.text} [${(c.source_ids || []).map((id) => srcs[id] || id).join("; ")}]`).join("\n");
@@ -228,7 +229,7 @@ export function make(file) {
     const taste = fs.existsSync(path.join(ROOT, "state/owner-taste.md")) ? fs.readFileSync(path.join(ROOT, "state/owner-taste.md"), "utf8").slice(-4000) : "";
     return `\n\n=== REVIEW PACK (everything you need; do not open these files again) ===
 Check: ${passes() ? "PASS" : "FAIL"}
-Slides (slides.json):\n${slides}
+Story the slides are cut from (story.txt): ${story || "(missing)"}\nSlides (slides.json):\n${slides}
 Caption:\n${caption}
 Claims with their sources (research.json):\n${claims || "(none)"}
 Verified facts read by the engine (treat as confirmed): ${facts || "[]"}

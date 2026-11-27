@@ -35,9 +35,10 @@ Your prompt includes this post's format recipe and the latest lessons; don't rea
   Make posts, don't stop: if one detail can't be confirmed, drop that detail or that slide and keep going.
 - Comparisons put both watches on the cover (A-cover photo + photo2). Never "e.g.": write "Like this: …".
 - PLAIN WORDS (owner 2026-11-26: "our posts are often super hard to read"; full rules in FORMATS.md): write like a top watch account: confident, clear, real watch words (bezel, centre links, smoked dial, bulk metallic glass); never baby talk ("the shiny parts", "frozen in a jumble") — owner 2026-11-27. Each slide = one normal sentence that makes sense alone, no clipped riddles. No reference numbers, calibre codes, specs codes, sources or dates on slides ("Omega Speedmaster, $7,800"). Explain a technical word in the same sentence or drop it. One number per slide max. Read every slide aloud: if it sounds odd, rewrite it.
+- STORY FIRST (owner 2026-11-27, full rule in FORMATS.md "Story first"): before slides.json, write `<P>/story.txt`: 4-6 plain sentences you'd say out loud to a watch fan, each answering the question the last one raised, every unusual term explained in everyday words the first time. Then cut story.txt into slides in order (headline = short sentence up to 8 words, body up to 25 words, label empty).
 - ONE STORY (owner 2026-11-27, full rule in FORMATS.md): write the post as one short paragraph first (promise → answer → why it's interesting → payoff), then cut it into slides in order. Slide 2 pays off the cover at once; each slide follows from the last like the next sentence; never repeat the cover's words; no topic-only slides ("The dial", "The size"). Read all slides in order as one paragraph before finishing.
 - COVER HEADLINE (owner 2026-11-26): a 3-5 word twist that makes people curious ("No Snow, No Watch", "Built For A Trench War"), never a description ("What A Tachymeter Does"). Meta line = watch name · one number. The cover photo is big and tight (face, wrist or watch filling the frame).
-- Short: headlines 2–6 words, body 15 words max. Everything centred; no stray shapes or white boxes.
+- Short: headlines up to 8 words, body up to 25 words. Everything centred; no stray shapes or white boxes.
 Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, hook, carousel, caption, slides).
 `S` = `node watch-wire-engine/src/steps.js` (bundled mechanical steps), `PH` = `node watch-wire-engine/src/photo.js`.
 
@@ -69,7 +70,7 @@ Approver fixes: apply EVERY listed issue in one pass, in order, exactly as writt
 
 Templates: A for news/market/auctions/would-you-rather/celebrity/collection/listicle; D for story/history/
 story behind; never mixed; end with `cta`; at most one `[[highlight]]` per slide (a cover's line2 is already gold).
-Headlines 2–6 words, body 15 words max. Counts: NEWS/MARKET 5–6, RELEASES/AUCTIONS 6–8, CELEBRITY 5–7,
+Headlines up to 8 words, body up to 25 words. Counts: NEWS/MARKET 5–6, RELEASES/AUCTIONS 6–8, CELEBRITY 5–7,
 WYR 4–5, COLLECTION 5–6, HISTORY/STORY 7–10, LISTICLE 4–10 (as many as are confirmed).
 Covers (owner, 2026-11-25): photo-led and eye-catching, never words on black. Put the most striking picture in the post on the cover, never save it for slide 2. WATCH EXPLAINED: the cover is the movement/mechanism close-up (brand movement image), not the finished watch. Pick one:
   - EVENT: A-cover {people:[2-3 person photos from the event], watches:[their 2-3 watches]} → people cut out in front of
