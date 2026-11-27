@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-27-0830-ap-royal-oak-jumbo-titanium-bmg-red",
+  "status": "idea",
+  "manual": true,
+  "found_at": "2026-11-27T05:45:00Z",
+  "lane": "rotation",
+  "format": "WATCH EXPLAINED",
+  "post_at": "2026-11-27T13:30:00.000Z",
+  "title": "AP Royal Oak Jumbo in titanium and metal glass, red dial",
+  "hook": "Metal That Acts Like Glass",
+  "why": "OWNER REQUEST (2026-11-27): a post about the Audemars Piguet Royal Oak 'Jumbo' Extra-Thin in titanium with the red ('smoked burgundy') dial, ref 16202XT.OO.1240XT.01. The cool part: its polished bezel and centre bracelet links are bulk metallic glass (BMG), a palladium alloy cooled so fast its atoms never line up into crystals, so it is a metal built like glass. Owner exception: the COVER is the watch itself (official AP product photo, red dial, big and tight), not a movement shot. Suggested slides, plain words, one idea each: 1 cover, twist headline 'Metal That Acts Like Glass' (or similar 3-5 words), meta 'AP Royal Oak Jumbo \u00b7 titanium'; 2 the red dial fades from red to black; 3 what metal glass is, in one sentence; 4 where it is: the shiny bezel and middle links, the rest brushed titanium; 5 how thin: 8.1 mm thick, 39 mm wide; 6 it started as a one-off watch for the Only Watch charity auction in 2021; 7 cta 'Red dial or classic blue? Comment below.' Price: AP lists it as price on request, so no price on slides (never use dealer prices). Photos: AP's official product images from the AP page below via photo.js (official rights); a second angle or bracelet shot from AP if available. Sources go only in the caption's bottom Source line.",
+  "sources_to_check": [
+    "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/16202XT.OO.1240XT.01.html",
+    "https://watchesbysjx.com/2023/09/audemars-piguet-royal-oak-jumbo-extra-thin-titanium-bmg-16202xt.html"
+  ],
+  "sources": [
+    {
+      "title": "Audemars Piguet Royal Oak 16202XT.OO.1240XT.01",
+      "link": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/16202XT.OO.1240XT.01.html",
+      "source": "Audemars Piguet",
+      "tier": "primary"
+    },
+    {
+      "title": "Audemars Piguet Introduces the Royal Oak Jumbo Extra-Thin Titanium BMG",
+      "link": "https://watchesbysjx.com/2023/09/audemars-piguet-royal-oak-jumbo-extra-thin-titanium-bmg-16202xt.html",
+      "source": "SJX",
+      "tier": "trusted"
+    }
+  ]
+}

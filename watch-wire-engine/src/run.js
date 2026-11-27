@@ -356,7 +356,11 @@ function plan(opts = {}) {
     used.add(format); prev = format;
     const [h, m] = s.time.split(":").map(Number); const t = new Date(day); t.setHours(h, m, 0, 0);
     return { lane: s.lane, format, time: s.time, post_at: t.toISOString() };
+  }).filter((s) => {   // a slot the owner already filled by hand (an idea or approved post) is left alone (2026-11-27)
+    if (!slotTaken(Date.parse(s.post_at))) return true;
+    log(`plan: ${s.time} already has a post, skipping`); return false;
   });
+  if (!slots.length) return;
   const schema = JSON.stringify({ type: "object", required: ["ideas"], properties: { ideas: { type: "array", minItems: slots.length, maxItems: slots.length, items: {
     type: "object", required: ["slot", "title", "hook", "why", "sources_to_check"],
     properties: { slot: { type: "integer" }, title: { type: "string" }, hook: { type: "string" },
