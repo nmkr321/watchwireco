@@ -1,0 +1,25 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 4,
+    "clarity": 5,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [
+    {
+      "severity": "minor",
+      "slide": "caption",
+      "problem": "Reference numbers sit in the caption body. They belong only at the bottom.",
+      "change": "Change the second paragraph to 'Rolex Explorer 40 is $8,350. Omega Seamaster Diver 300M is $8,600.' Add 'Refs: Rolex 224270; Omega 210.30.42.20.03.004.' to the line just above 'Source:'.",
+      "text_only": true
+    }
+  ],
+  "reason": "Both watches appear on the cover and are shown correctly with photo credits. Both prices come from the claims, the two prices are within 3%, and the pair is not a repeat of the earlier Explorer vs Moonwatch post. The slides read plainly and the post ends with the vote CTA. One minor caption fix remains: the reference numbers need to move to the bottom.",
+  "fixes": [
+    "[minor] slide caption: Reference numbers sit in the caption body. They belong only at the bottom. → Change the second paragraph to 'Rolex Explorer 40 is $8,350. Omega Seamaster Diver 300M is $8,600.' Add 'Refs: Rolex 224270; Omega 210.30.42.20.03.004.' to the line just above 'Source:'."
+  ]
+}

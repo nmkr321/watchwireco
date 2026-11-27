@@ -1,0 +1,8 @@
+{"source": "Source: B.C. Clark (Rolex, 25 Nov 2026); Omega USA (Seamaster Diver, 26 Nov 2026)",
+ "slides": [
+  {"t": "A-cover", "tag": "SAME MONEY", "line1": "Same money.", "line2": "[[Which One?]]", "meta": "Rolex vs Omega · from $8,350", "photo": "watch-wire-engine/library/img/rolex-224270.png", "photo2": "watch-wire-engine/library/img/omega-210-30-42-20-03-004.png", "credit": "Image: Rolex, Omega"},
+  {"t": "A-wyr", "tag": "SAME MONEY", "left": {"brand": "Rolex", "model": "Explorer 40", "price": "$8,350", "photo": "watch-wire-engine/library/img/rolex-224270.png"}, "right": {"brand": "Omega", "model": "Seamaster Diver 300M", "price": "$8,600", "photo": "watch-wire-engine/library/img/omega-210-30-42-20-03-004.png"}, "credit": "Image: Rolex, Omega"},
+  {"t": "A-photo", "label": "Option one", "headline": "Rolex Explorer 40", "photo": "watch-wire-engine/library/img/rolex-224270.png", "credit": "Image: Rolex", "body": "Plain steel and a black dial. Easy to read and easy to wear every day.", "fit": "cover"},
+  {"t": "A-photo", "label": "Option two", "headline": "Omega Seamaster Diver", "photo": "watch-wire-engine/library/img/omega-210-30-42-20-03-004.png", "credit": "Image: Omega", "body": "Blue wave dial and a steel mesh strap, rated to 300 metres of water.", "fit": "cover"},
+  {"t": "cta", "line1": "Which one would you pick?", "body": "Vote in the comments."}
+ ]}

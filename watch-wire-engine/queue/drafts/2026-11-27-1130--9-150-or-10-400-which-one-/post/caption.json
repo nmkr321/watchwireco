@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Same money, two steel sports watches. Which one would you pick?\n\nRolex Explorer 40 (ref 224270) is $8,350. Omega Seamaster Diver 300M (ref 210.30.42.20.03.004) is $8,600.\n\nThe Explorer is plain and easy to read. The Diver adds a blue wave dial and a steel mesh strap, rated to 300 metres.\n\nPrices: B.C. Clark (Rolex, checked 25 November 2026); Omega USA (Seamaster Diver, checked 26 November 2026). US list prices.\n\nSource: B.C. Clark; Omega USA. Photo: Rolex, Omega.\n\nWhich one would you wear? Vote in the comments.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2"
+  ],
+  "source_ids": [
+    "SRC-BCC",
+    "SRC-OMEGA"
+  ],
+  "attribution": "Prices: B.C. Clark (Rolex, 25 Nov 2026); Omega USA (Seamaster Diver, 26 Nov 2026).",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Retail prices only; resale not checked."
+  ],
+  "carousel_sha256": "d93f36b068b95f6352d730d2d95e0bd1f2c7a4f4ca8a34a5c2bcbcd8bc119634",
+  "completed_at": "2026-11-27T05:40:33.770Z"
+}

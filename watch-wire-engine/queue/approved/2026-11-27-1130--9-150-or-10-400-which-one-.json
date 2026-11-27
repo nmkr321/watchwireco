@@ -1,0 +1,66 @@
+{
+  "id": "2026-11-27-1130--9-150-or-10-400-which-one-",
+  "status": "approved",
+  "found_at": "2026-11-27T05:34:51.866Z",
+  "lane": "rotation",
+  "format": "WOULD YOU RATHER",
+  "post_at": "2026-11-27T16:30:00.000Z",
+  "slot": 1,
+  "title": "$9,150 Or $10,400. Which One?",
+  "hook": "Rolex Datejust 41 (blue dial, $9,150) vs Omega Moonwatch Professional Black and White ($10,400). Vote in the comments.",
+  "why": "Interactive pick, but the price gap is about 14%, above the roughly 10% same-money rule. Needs owner decision or a closer partner.",
+  "sources_to_check": [
+    "https://www.rolex.com/en-us/watches/datejust/m126300-0028",
+    "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+    "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026"
+  ],
+  "sources": [
+    {
+      "title": "https://www.rolex.com/en-us/watches/datejust/m126300-0028",
+      "link": "https://www.rolex.com/en-us/watches/datejust/m126300-0028",
+      "source": "https://www.rolex.com/en-us/watches/datejust/m126300-0028",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+      "link": "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+      "source": "https://monochrome-watches.com/2026-omega-speedmaster-moonwatch-black-and-white-reverse-pand-dials-steel-or-moonshine-gold-price-review",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026",
+      "link": "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026",
+      "source": "https://www.bosshunting.com.au/style/watches/omega-speedmaster-professional-moonwatch-ceramic-2026",
+      "tier": "to-verify"
+    }
+  ],
+  "scheduled_for": "2026-11-27T16:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-27-1130--9-150-or-10-400-which-one-",
+  "project_dir": "Content Creation/projects/2026-11-27-1130--9-150-or-10-400-which-one-",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-27-1130--9-150-or-10-400-which-one-/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 2,
+      "hook": 3,
+      "visual": 4,
+      "clarity": 5,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "issues": [
+      {
+        "severity": "minor",
+        "slide": "caption",
+        "problem": "Reference numbers sit in the caption body. They belong only at the bottom.",
+        "change": "Change the second paragraph to 'Rolex Explorer 40 is $8,350. Omega Seamaster Diver 300M is $8,600.' Add 'Refs: Rolex 224270; Omega 210.30.42.20.03.004.' to the line just above 'Source:'.",
+        "text_only": true
+      }
+    ],
+    "reason": "Both watches appear on the cover and are shown correctly with photo credits. Both prices come from the claims, the two prices are within 3%, and the pair is not a repeat of the earlier Explorer vs Moonwatch post. The slides read plainly and the post ends with the vote CTA. One minor caption fix remains: the reference numbers need to move to the bottom.",
+    "fixes": [
+      "[minor] slide caption: Reference numbers sit in the caption body. They belong only at the bottom. → Change the second paragraph to 'Rolex Explorer 40 is $8,350. Omega Seamaster Diver 300M is $8,600.' Add 'Refs: Rolex 224270; Omega 210.30.42.20.03.004.' to the line just above 'Source:'."
+    ]
+  }
+}
