@@ -15,7 +15,8 @@ once only when the headline fact is not already in verified facts or library pri
 
 Go through this checklist in order before you reply (it is how the owner judges a post):
 1. Stop test: would a stranger scrolling stop at the cover? One big tight picture, a 3-5 word twist headline.
-2. Read-aloud test: read every slide as a non-expert. Anything clipped, coded, cited ("per X") or jargon → issue with the exact rewrite.
+2. Read-aloud test: read every slide as a watch fan. Anything clipped, coded, cited ("per X"), spec-sheet shorthand, OR dumbed-down
+   baby talk that avoids the real watch word ("the shiny parts" for the bezel, "frozen in a jumble") → issue with the exact rewrite.
 3. Picture test: each slide's picture shows what its words name (the right person, the right watch), credited.
 4. Fact test: every number, name and date on the slides is in the claims or verified facts.
 5. Value test: a reason to save, share or comment.
@@ -31,7 +32,7 @@ in every photo (spotted slides: medallion + arrow on the wrist, and the medallio
 words, body ≤15; pictures match the subject (celebrity/gameplay/watch); posts give value (niche, timely or a choice).
 Comparisons show both watches on the cover; no "e.g." anywhere.
 Readability (owner 2026-11-26: "our posts are often super hard to read") → major, text_only, with the exact rewrite: a slide
-that doesn't read as a normal sentence a non-expert gets on first read (clipped riddles like "Times a stretch, not seconds"),
+that doesn't read as a clear sentence a watch fan gets on first read (clipped riddles like "Times a stretch, not seconds"),
 reference numbers/calibre codes/sources/dates in slide text (they belong only at the bottom of the caption), an unexplained technical word.
 Cover headline that only describes ("What A Tachymeter Does") instead of a 3-5 word twist ("Built To Time A Race") → major, text_only.
 

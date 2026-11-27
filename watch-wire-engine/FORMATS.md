@@ -15,11 +15,11 @@ off, reposting other creators' slides or photos, a press photo presented as ours
 **CTA:** calm and direct, one action ("Vote in the comments." / "Follow @watchwireco
 for daily watch news.").
 
-**Plain words (owner 2026-11-26: "our posts are often super hard to read").** Write the slides like a text to a friend who likes watches but isn't an expert.
+**Plain words (owner 2026-11-26: "our posts are often super hard to read").** Write like a top watch account (@luxurywatchmedia): confident and clear, using real watch words a watch fan knows (bezel, bracelet, centre links, dial, case, movement, titanium, bulk metallic glass, smoked dial, pink gold). Never baby talk or vague paraphrase ("the shiny parts", "frozen in a jumble", "winds itself" → "automatic") — owner 2026-11-27: "this is a watch page."
 - Every slide reads as one full, normal sentence or phrase that makes sense on its own. No riddles or clipped fragments ("Times a stretch, not seconds" → "It measures speed, not time").
 - Slide text never carries reference numbers, calibre codes, specs codes, sources or dates. "Omega Speedmaster, $7,800" — not "Ref 310.30.42.50.01.001 Speedmaster: USD 7,800, per The 1916 Company, 22 Nov 2026". The reference, source and date go in the caption.
 - Name watches the way people say them: "Rolex Daytona", "Patek Nautilus", "Cartier Tank".
-- A technical word is explained in the same sentence or dropped (no vph, lug-to-lug, calibre, Hz, DLC on slides). At most one number per slide.
+- Spec-sheet shorthand and codes stay off slides (vph, Hz, calibre numbers, lug-to-lug, reference numbers). Normal watch words stay; a rare one (tachymeter, tourbillon) gets a few words of explanation. At most one number per slide.
 - Body ≤15 words, one sentence. Spec tables only for NEW RELEASES, 3 rows max, plain labels ("Size", "Price", "How many").
 - State facts plainly, as statements: never "per GQ", "according to", "reportedly", "as reported in". Sources live only in the caption's bottom "Source: …" line, never on slides.
 - Caption: line 1 is the hook in plain English (no reference numbers); then 2–4 short sentences; the question; then "Source: …" and credits at the end.
