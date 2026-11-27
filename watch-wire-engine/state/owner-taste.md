@@ -35,3 +35,4 @@ approved), with the date and the reason. Newest at the top.
 - 2026-11-25: Owner: tone down confirming. A fact found in one article or one post is fine to post, credited by name. Finished posts must never be scrapped for polish; stop wasting runs.
 - 2026-11-25: owner wants balance: approver tags each issue major (viewer sees it as wrong) or minor (polish) with an exact fix. Minor-only → applied once and posted without re-review; majors left after the final check → not posted.
 - 2026-11-25: owner: Getty permission must actually get used. Celebrity posts may use sightings from the last 12 months; the editor never stops with nothing (falls back to WATCH EXPLAINED); planner never writes NOT READY ideas.
+- 2026-11-26: Editor's self-learned rules had become stricter than mine (year printed, 10-day window, ref+price required, brand photos only, so no Getty). Removed; the learner may never be stricter than owner rules.
