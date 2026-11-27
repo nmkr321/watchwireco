@@ -1,0 +1,24 @@
+{
+  "id": "202611271852-bellucci-challenging-costume-hollywood-o",
+  "lane": "breaking",
+  "status": "skipped",
+  "found_at": "2026-11-27T18:52:45.779Z",
+  "title": "Monica Bellucci on Challenging Hollywood Ageism in James Bond, Working With Mel Gibson and the Power of Onscreen Nudity: ‘It’s Like a Costume That Brings a Role to Life’",
+  "score": 6,
+  "sources": [
+    {
+      "title": "Monica Bellucci on Challenging Hollywood Ageism in James Bond, Working With Mel Gibson and the Power of Onscreen Nudity: ‘It’s Like a Costume That Brings a Role to Life’",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1dPUzJ6WlkxdE5ablJZM1RJOGhLMjFEakhiLWtTZVFHczVnYkhJWnNIU2FQNG5maTI3NXB2eWVSeTEta2lhYW1jWGdyUTUwa2taOE9zRFVlV2RIbkRiVlR3ZFpET250MDNmSmFUNzNIcWQ2OWJRcnc3d2ppdnVRTVhNN0toUEtyVS1QdzFfVkY5M1hoelhsVGxFRUJ6WVlCSGFFbmNVM25vUQ?oc=5",
+      "link_note": "Google News redirect; search the exact title on the outlet's site",
+      "source": "Variety",
+      "domain": "variety.com",
+      "tier": "entertainment",
+      "published": "Fri, 27 Nov 2026 18:01:00 GMT"
+    }
+  ],
+  "triage": {
+    "post": false,
+    "format": "CELEBRITY",
+    "reason": "No. This is a long-form celebrity interview about ageism, Mel Gibson and onscreen nudity. It has no watch angle, and the Bond mention is about Bellucci's career, not a watch or Bond watch news. It is an interview rather than breaking news a collector would act on, so it does not meet the bar for an immediate post."
+  }
+}
