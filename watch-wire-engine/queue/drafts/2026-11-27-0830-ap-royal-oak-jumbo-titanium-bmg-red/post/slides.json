@@ -7,7 +7,7 @@
    "tag": "EXPLAINED",
    "line1": "Metal That",
    "line2": "Acts Like Glass",
-   "meta": "AP Royal Oak Jumbo · titanium",
+   "meta": "AP Royal Oak Jumbo \u00b7 titanium",
    "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-01.jpg",
    "credit": "Image: Audemars Piguet, via Hiconsumption"
   },
@@ -29,19 +29,11 @@
   },
   {
    "t": "A-photo",
-   "label": "The size",
-   "headline": "Wide, with a titanium case",
+   "label": "Where it is",
+   "headline": "The shiny parts",
    "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-01.jpg",
    "credit": "Image: Audemars Piguet, via Hiconsumption",
-   "body": "It is 39 mm wide, 8.1 mm thick and winds itself."
-  },
-  {
-   "t": "A-photo",
-   "label": "Rare",
-   "headline": "Only one made for charity",
-   "photo": "watch-wire-engine/library/img/audemars-piguet-hiconsumption-03.jpg",
-   "credit": "Image: Audemars Piguet, via Hiconsumption",
-   "body": "A single watch in this metal went to the Only Watch charity auction."
+   "body": "The polished bezel and middle links are metal glass. The rest is brushed titanium."
   },
   {
    "t": "cta",

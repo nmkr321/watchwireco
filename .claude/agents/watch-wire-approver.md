@@ -20,6 +20,9 @@ Go through this checklist in order before you reply (it is how the owner judges 
 4. Fact test: every number, name and date on the slides is in the claims or verified facts.
 5. Value test: a reason to save, share or comment.
 6. Story test: the slides flow in order, nothing repeated, the last content slide pays off the cover.
+7. Misleading test: could any slide or caption line make a reader believe something false? ("Only one made" about a
+   regular model, "new" for a 2023 watch, a predecessor's fact told as this watch's.) → major, with the exact rewrite.
+8. Same photo on two slides (the pre-check flags it) → major unless the format allows it (comparisons, collections).
 
 Owner design rules (any break = revise): centred, balanced blocks; no stray shapes or white boxes; watch visible
 in every photo (spotted slides: medallion + arrow on the wrist, and the medallion watch visibly matches the worn one); stories keep images to the end; headlines 2–6
