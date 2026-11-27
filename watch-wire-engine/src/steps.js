@@ -80,6 +80,18 @@ if (cmd === "start") {
   console.log(`OK research imported\nnext: write ${P}/hook.json, carousel.json, slides.json, caption.json, then: steps.js finish "${P}"`);
 } else if (cmd === "finish") {
   const P = rel(arg);
+  // the editor sometimes skips the research step (after switching subjects) and finish then fails on the research
+  // handoff. Run it here from the sources in evidence.json, so a finished post never stops on paperwork (2026-11-26).
+  try {
+    const rj = path.join(ROOT, P, "research.json"), ev = path.join(ROOT, P, "research-work/evidence.json");
+    const ok = fs.existsSync(rj) && JSON.parse(fs.readFileSync(rj, "utf8")).schema_version === "2.0";
+    if (!ok && fs.existsSync(ev)) {
+      const urls = (JSON.parse(fs.readFileSync(ev, "utf8")).sources || []).map((s) => s.url).filter((u) => /^https?:/.test(u || ""));
+      const r0 = spawnSync("node", [fileURLToPath(import.meta.url), "research", P, "--opened", urls.join(",")], { cwd: ROOT, encoding: "utf8" });
+      console.log(r0.status === 0 ? "research step run automatically" : `research step failed:\n${(r0.stdout + r0.stderr).trim().split("\n").slice(-6).join("\n")}`);
+      if (r0.status !== 0) process.exit(1);
+    }
+  } catch (e) { console.log(`research auto-run skipped: ${e.message.slice(0, 120)}`); }
   const spec = JSON.parse(fs.readFileSync(path.join(ROOT, P, "slides.json"), "utf8"));
   // clear slide images from earlier renders, so a dropped slide can't linger in previews or get posted
   for (const d of ["render", "output"]) { const dir = path.join(ROOT, P, d); if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir)) if (/^slide-\d+\.png$/.test(f)) fs.unlinkSync(path.join(dir, f)); }

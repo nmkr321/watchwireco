@@ -27,4 +27,10 @@ set("disagreements", []);
 set("verification_source_ids", []);
 set("coverage_gaps", ["Social discovery skipped in automation mode"]);
 fs.writeFileSync(file, JSON.stringify(a, null, 2) + "\n");
+// source types the validator accepts; the editor often writes "media", "press" or "magazine" (2026-11-26: posts stopped on this)
+const ev = path.join(dir, "evidence.json");
+if (fs.existsSync(ev)) { const e = JSON.parse(fs.readFileSync(ev, "utf8")); let n = 0;
+  for (const src of e.sources || []) if (!["primary", "official", "independent", "community", "user-supplied"].includes(src.source_type)) {
+    src.source_type = /brand|official|press release|company/i.test(src.source_type || "") ? "official" : "independent"; n++; }
+  if (n) { fs.writeFileSync(ev, JSON.stringify(e, null, 2) + "\n"); console.log(`fixed ${n} source types`); } }
 console.log("filled unattended-run fields in", file);
