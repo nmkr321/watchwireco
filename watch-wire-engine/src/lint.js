@@ -4,6 +4,7 @@
 //   node watch-wire-engine/src/lint.js <project dir> [FORMAT]   → prints problems, exit 1 if any
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 // slide-count range per format (FORMATS.md / editor rules)
@@ -80,6 +81,14 @@ export function lint(P, format = "") {
       else seen.set(s[k], i + 1);
     }
   });
+  // owner 2026-11-27: a small photo stretched over a full slide looks grainy on Instagram
+  const ROOTDIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
+  const dims = (p) => { const a = path.isAbsolute(p) ? p : fs.existsSync(path.join(ROOTDIR, p)) ? path.join(ROOTDIR, p) : path.join(P, p);
+    for (const [bin, args, re] of [["sips", ["-g", "pixelWidth", "-g", "pixelHeight", a], /pixelWidth: (\d+)[\s\S]*pixelHeight: (\d+)/], ["identify", ["-format", "%w %h", a + "[0]"], /(\d+) (\d+)/]])
+      try { const m = execFileSync(bin, args, { stdio: ["ignore", "pipe", "ignore"] }).toString().match(re); if (m) return [+m[1], +m[2]]; } catch {}
+    return null; };
+  if (slides[0]?.photo && !slides[0].photo2 && !/owner-photos\//.test(slides[0].photo) && /^(A-cover|D-cover)$/.test(slides[0].t)) { const d = dims(slides[0].photo);
+    if (d) { const stretch = Math.max(1080 / d[0], 1350 / d[1]); if (stretch > 1.25) out.push(`cover photo is only ${d[0]}x${d[1]}, so it gets stretched ${stretch.toFixed(1)}x and looks grainy on Instagram; find a bigger copy (the full-size original on the same page, or another official photo at least 1080 wide and 1350 tall, or a tall photo)`); } }
   // photo rights must be on record (photo.js --project registers each photo in assets/manifest.json)
   if (seen.size) { let n = 0; try { n = (readJson(f("assets/manifest.json")).assets || []).length; } catch {}
     if (!n) out.push("photos are not registered: fetch every photo with photo.js ... --project <P> so its rights are recorded"); }

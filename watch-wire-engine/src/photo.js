@@ -63,8 +63,17 @@ function size(file) {
   return [0, 0];
 }
 
+// Sites often link a shrunk copy (WordPress "-1440x960.jpg", "?w=800"). Try the full-size original first.
+// (owner 2026-11-27: the AP post looked grainy on Instagram because a 1440x960 copy was stretched to fill the slide)
+const fullSize = (u) => { try { const x = new URL(u); const p = x.pathname.replace(/-\d{2,4}x\d{2,4}(?=\.(?:jpe?g|png|webp)$)/i, "").replace(/-scaled(?=\.(?:jpe?g|png|webp)$)/i, ""); if (p === x.pathname) return null; x.pathname = p; return x.toString(); } catch { return null; } };
+async function getBig(u) {
+  const big = fullSize(u);
+  if (big) try { const r = await get(big, "bin", 1); if (/^image\//.test(r.type)) return { ...r, u: big }; } catch {}
+  return { ...(await get(u, "bin")), u };
+}
+
 async function download(url, name) {
-  const { buf, type } = await get(url, "bin");
+  const { buf, type } = await getBig(url);
   if (!/^image\//.test(type) && buf.length < 2000) throw new Error("not an image");
   const ext = /png/.test(type) ? ".png" : /webp/.test(type) ? ".webp" : /avif/.test(type) ? ".avif" : ".jpg";
   fs.mkdirSync(path.join(LIB, "img"), { recursive: true });
@@ -199,7 +208,7 @@ async function gallery(url, owner, slugName) {
   for (const u of urls) {
     if (kept.length >= max) break;
     try {
-      const { buf, type } = await get(u, "bin");
+      const { buf, type, u: got } = await getBig(u);
       if (!/^image\//.test(type)) continue;
       const hash = crypto.createHash("sha1").update(buf).digest("hex");
       if (seen.has(hash)) continue;
@@ -209,7 +218,7 @@ async function gallery(url, owner, slugName) {
       fs.writeFileSync(f, buf);
       const [w, h] = size(f);
       if (w && Math.min(w, h) < 700) { fs.rmSync(f); continue; }
-      kept.push({ file: path.relative(ROOT, f), image_url: u, w, h });
+      kept.push({ file: path.relative(ROOT, f), image_url: got, w, h });
     } catch {}
   }
   if (!kept.length) fail("no large images on that page");
