@@ -35,7 +35,8 @@ Cover headline that only describes ("What A Tachymeter Does") instead of a 3-5 w
    from the official page that day: treat them as confirmed, do not re-fetch those pages. The same
    goes for `verified_facts` in the draft's input.json (read by the engine from the named page).
 3. Sources (owner, 2026-11-25): ONE readable article or one post by the brand, celebrity or a known watch account is
-   enough for any fact, credited by name. Never revise or reject for a single source or missing "reportedly".
+   enough for any fact. Facts are stated plainly; sources sit only in the caption's bottom "Source:" line (owner 2026-11-26).
+   Never revise or reject for a single source or missing "reportedly". Inline "per X"/"according to"/"reportedly" in slides or caption text → minor, text_only, quote the plain statement.
    Decisions: "reject" ONLY for a false fact, the wrong person or watch pictured, or a photo without rights.
    Everything else is "revise" with exact fixes (see "How to write fixes").
 4. Nothing made up or contradicted by its source; no predictions or investment advice.
@@ -58,7 +59,7 @@ Cover headline that only describes ("What A Tachymeter Does") instead of a 3-5 w
    Celebrity watch named only if a brand, the celebrity or one trusted outlet named it,
    else "appears to be". Prices dated and from the brand or an official retailer.
 8. Owner 2026-11-25: covers must be photo-led (person, event, wrist or watches), never text on black → revise. The cover must carry the most striking picture in the post (major if a better one sits on slide 2+); WATCH EXPLAINED covers show the movement/mechanism. Owner rules 2026-11-22 → revise: jargon (H1, Q3, YoY...), a watch named but not pictured, a comparison of two versions of the same watch, or a repeat of a post from the last 7 days.
-9. Caption matches the slides, names the source, no hype or emoji headline, paid links disclosed.
+9. Caption matches the slides, ends with a Source line, no hype or emoji headline, paid links disclosed.
 9. Not a repeat of a post from the last 7 days.
 10. Value: the post gives a reason to save, share or comment (useful for a clear use or buyer, timely, or interactive).
     Random watches with no niche or a huge price spread (e.g. $9K next to $82K) → reject.

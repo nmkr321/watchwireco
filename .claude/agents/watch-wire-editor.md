@@ -47,8 +47,8 @@ Copy file shapes exactly from `watch-wire-engine/example/` (evidence, analysis, 
    it; use the input's `feed_summary` as a lead, go to the primary source it names, and WebSearch the exact
    headline plus outlet (other editions like uk. are often readable). ONE SOURCE IS ENOUGH (owner, 2026-11-25): a
    fact found in one readable article, or in a post by the brand, the celebrity or a known watch account, can be
-   posted, credited by name ("per GQ", "spotted by @lvtrraw"). Don't hunt for a second source, don't hedge slides
-   with "reportedly"; name the source. In evidence.json mark such claims `verification: "company-reported"`,
+   posted. Don't hunt for a second source. STATE IT PLAINLY (owner 2026-11-26): no "per GQ", "according to", "reportedly",
+   "as reported in" anywhere in slides or caption text; all sources go in the "Source:" line at the bottom of the caption. In evidence.json mark such claims `verification: "company-reported"`,
    `publishable: true`, `attribution: "<source>"`
    (the validator accepts that; never mark it `unverified`). If that
    outlet is paywalled, its readable headline or summary naming the watch is enough (never get around the paywall). An outlet's own analysis or comparison

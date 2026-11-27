@@ -17,7 +17,8 @@
       "lane": "rotation",
       "formats": [
         "CELEBRITY",
-        "EVENT SPOTTED"
+        "EVENT SPOTTED",
+        "WOULD YOU RATHER"
       ]
     },
     {
@@ -27,7 +28,8 @@
         "NEWS",
         "NEW RELEASES",
         "EVENT SPOTTED",
-        "AUCTIONS"
+        "AUCTIONS",
+        "WOULD YOU RATHER"
       ]
     },
     {

@@ -46,13 +46,18 @@ export function lint(P, format = "") {
     const n = `slide ${i + 1}`;
     const ref = t.match(/\bref\.?\s*\S+|\b[A-Z]{0,4}\d{2,}[.\-/]\d{2,}[\w.\-/]*|\b\d{3,}[A-Z]{1,4}\b|\b[A-Z]{2,4}\d{3,}\w*/i);
     if (ref) out.push(`${n}: reference/model code "${ref[0]}" on the slide; say the watch's plain name (like "Rolex Daytona") and put the code in the caption`);
-    const src = t.match(/\b(per|according to|via) [A-Z][\w.&' ]+|\b\w+ (reports|says|said)\b|\b\d{1,2} (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w* 20\d\d/);
+    const src = t.match(/\b(per|according to|as reported in|reportedly|via) [A-Z][\w.&' ]+|\b\w+ (reports|says|said)\b|\b\d{1,2} (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w* 20\d\d/);
     if (src) out.push(`${n}: "${src[0]}" on the slide; sources and dates go in the slide footer ("source") and the caption, not the slide text`);
     const tech = t.match(/\b(vph|lug[- ]to[- ]lug|calibre|caliber|Hz|DLC|PVD|jewels)\b/i);
     if (tech) out.push(`${n}: "${tech[0]}" is a technical word most readers won't know; explain it in plain words or drop it`);
     if ((t.match(/\d[\d,.]*/g) || []).length > 2 && s.t !== "A-table") out.push(`${n}: too many numbers on one slide; keep the one that matters`);
   });
   for (const [i, s] of slides.entries()) if (s.t === "A-table" && (s.rows || []).length > 3) out.push(`slide ${i + 1}: table has ${(s.rows || []).length} rows; keep the 3 that matter, plain labels`);
+  // owner 2026-11-26: state facts plainly; sources only in the Source line at the bottom
+  const capBody = caption.split(/\n\s*(Sources?|Data|Image|Photo)s?:/i)[0];
+  const cite = capBody.match(/\b(per|according to|as (reported|sourced|seen) (in|by)|reportedly|via) [\w@"]*|\b\w+ (reports|reported)\b/i);
+  if (cite) out.push(`caption text says "${cite[0].trim()}"; state the fact plainly and keep the source only in the Source line at the bottom`);
+  if (!/\n\s*Sources?:[^\n]+/i.test(caption)) out.push('caption needs a "Source: …" line at the bottom listing every outlet (with price dates)');
   if (/\b\d{3}\.\d{2}\.\d{2}|\bref\.?\s*\d/i.test(caption.split("\n")[0] || "")) out.push("caption line 1 starts with a reference number; open with the hook in plain English and put the reference later");
 
   // owner 2026-11-25: covers are photo-led, never words on a black screen

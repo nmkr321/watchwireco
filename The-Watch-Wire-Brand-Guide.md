@@ -95,8 +95,9 @@ Spacing uses an 8pt grid with a 48px margin on every side.
 
 Always:
 
-- Name the source for every number and give a date for every price.
-- Label anything unconfirmed as "reportedly" or a rumour.
+- State facts plainly, as statements. Never "per GQ", "according to", "reportedly" or "as reported in" in slides or caption text; every source goes in the "Source:" line at the bottom of the caption (and the slide footer). Owner 2026-11-26.
+- Give a date for every price (in the Source line).
+- If a fact can't be stated confidently, leave it out.
 - Keep one idea per slide.
 - Put the topic tag on every cover: NEWS, NEW RELEASES, AUCTIONS, MARKET, CELEBRITY, WOULD YOU RATHER or STORY.
 - Say "spotted wearing" for celebrities unless ownership is confirmed. Say whether auction prices include fees.
