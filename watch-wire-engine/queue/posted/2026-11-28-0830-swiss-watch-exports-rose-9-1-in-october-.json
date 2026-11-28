@@ -1,6 +1,6 @@
 {
   "id": "2026-11-28-0830-swiss-watch-exports-rose-9-1-in-october-",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-28T07:49:43.747Z",
   "lane": "news",
   "format": "TOP 5 THIS WEEK",
@@ -69,5 +69,22 @@
     "fixes": [
       "[minor] slide 4: A Japanese Seiko and a German Nomos illustrate a Swiss exports story. → Next time, use Swiss brand images (Tissot, Oris, Hamilton) on slides 4 and 5."
     ]
+  },
+  "posted_at": "2026-11-28T13:31:04.746Z",
+  "publish": {
+    "live": true,
+    "media_id": "18160142113525789",
+    "permalink": "https://www.instagram.com/p/DgSXfGVifn8/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png"
+      ],
+      "caption_chars": 688
+    }
   }
 }
