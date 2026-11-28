@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "The part that sets a watch's pace was redesigned by one British watchmaker.\n\nFor about 250 years most watches used one escapement design that needs oil. In the 1970s George Daniels designed the co-axial escapement, with parts that roll instead of slide. Omega launched it in April 1999.\n\nWhich one would you rather have, a watch that needs oil or one that needs less? Tell us below.\n\nSource: OMEGA chronicle, '1999: a revolutionary new escapement' (launch date 12 April 1999, read 28 November 2026); Worn & Wound, 'The co-axial escapement: an horological hit' (invention in the 1970s, one source says 1974). Photos: cover Andrewrabbott / CC BY-SA 4.0 via Wikimedia Commons; cal. 2500 Omega via Worn & Wound; pocket watch movement Sharoncom / CC BY-SA 3.0 via Wikimedia Commons; Seamaster Aqua Terra Clyde94 / CC BY-SA 4.0 via Wikimedia Commons; balance wheel Chris Burks Chetvorno / Public domain via Wikimedia Commons; Planet Ocean Naklig / CC BY-SA 3.0 via Wikimedia Commons.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4"
+  ],
+  "source_ids": [
+    "SRC-OMEGA",
+    "SRC-WW"
+  ],
+  "caption_credit": "Photos: Andrewrabbott / CC BY-SA 4.0; Omega via Worn & Wound; Sharoncom / CC BY-SA 3.0; Clyde94 / CC BY-SA 4.0; Chris Burks Chetvorno / Public domain; Naklig / CC BY-SA 3.0 (all Wikimedia Commons unless noted)",
+  "carousel_sha256": "a35e72a131a84d06c91d605a6dcdb217b6ae816473413672f44eb84c447dbad5",
+  "completed_at": "2026-11-28T08:42:40.795Z",
+  "attribution": "OMEGA; Worn & Wound"
+}

@@ -1,0 +1,52 @@
+{
+  "theme": "graphite",
+  "slides": [
+    {
+      "t": "D-cover",
+      "tag": "HISTORY",
+      "headline": "One Briton Reinvented The Escapement",
+      "photo": "/home/runner/work/watchwireco/watchwireco/Content Creation/projects/2026-11-28-2030-one-british-watchmaker-built-the-escapem/assets/media/asset-1.jpg",
+      "credit": "Photo: Andrewrabbott / CC BY-SA 4.0 via Wikimedia Commons"
+    },
+    {
+      "t": "D-body",
+      "kicker": "Look closer",
+      "text": "The escapement is the small part that lets a watch's power out one tick at a time.",
+      "photo": "/home/runner/work/watchwireco/watchwireco/Content Creation/projects/2026-11-28-2030-one-british-watchmaker-built-the-escapem/assets/media/asset-7.jpg",
+      "credit": "Image: Omega, via Wornandwound"
+    },
+    {
+      "t": "D-body",
+      "kicker": "Most watches",
+      "text": "For about 250 years, most watches used one design, with parts that slide against each other and need oil.",
+      "photo": "/home/runner/work/watchwireco/watchwireco/Content Creation/projects/2026-11-28-2030-one-british-watchmaker-built-the-escapem/assets/media/asset-6.jpg",
+      "credit": "Photo: Sharoncom / CC BY-SA 3.0"
+    },
+    {
+      "t": "D-body",
+      "kicker": "Then came Daniels",
+      "text": "Then British watchmaker George Daniels set out to build a different way to release a watch's power.",
+      "photo": "/home/runner/work/watchwireco/watchwireco/Content Creation/projects/2026-11-28-2030-one-british-watchmaker-built-the-escapem/assets/media/asset-3.jpg",
+      "credit": "Photo: Clyde94 / CC BY-SA 4.0"
+    },
+    {
+      "t": "D-body",
+      "kicker": "Why it's different",
+      "text": "In the 1970s he designed the co-axial escapement. Omega launched it in 1999 as the first new escapement in centuries.",
+      "photo": "/home/runner/work/watchwireco/watchwireco/Content Creation/projects/2026-11-28-2030-one-british-watchmaker-built-the-escapem/assets/media/asset-2.jpg",
+      "credit": "Photo: Chris Burks Chetvorno / Public domain"
+    },
+    {
+      "t": "D-body",
+      "kicker": "The payoff",
+      "text": "Its parts roll past each other instead of sliding, so there should be less wear and less need for oil.",
+      "photo": "/home/runner/work/watchwireco/watchwireco/Content Creation/projects/2026-11-28-2030-one-british-watchmaker-built-the-escapem/assets/media/asset-4.jpg",
+      "credit": "Photo: Naklig / CC BY-SA 3.0"
+    },
+    {
+      "t": "cta",
+      "line1": "Like this one?",
+      "line2": "Follow for more."
+    }
+  ]
+}

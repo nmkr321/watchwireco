@@ -1,0 +1,79 @@
+{
+  "id": "2026-11-28-2030-one-british-watchmaker-built-the-escapem",
+  "status": "approved",
+  "found_at": "2026-11-28T07:49:43.748Z",
+  "lane": "history",
+  "format": "STORY BEHIND",
+  "post_at": "2026-11-29T01:30:00.000Z",
+  "slot": 5,
+  "title": "One British watchmaker built the escapement Omega now uses in almost every mechanical watch.",
+  "hook": "Story behind the co-axial escapement, from George Daniels to Omega's 1999 first movement and 2007 Co-Axial calibre.",
+  "why": "Verified subject, Dial-style tension hook. Caveat: sources disagree on the invention date (1974 vs 1976, patent 1980), so the story should say 'the 1970s' or check one date. Omega's own account is promotional.",
+  "sources_to_check": [
+    "https://omegawatches.com/chronicle/1999-a-revolutionary-new-escapement",
+    "https://wornandwound.com/the-co-axial-escapement-an-horological-hit/",
+    "https://watchesbysjx.com/2023/02/george-daniels-co-axial-fasoldt-chronometer-escapement.html",
+    "https://collection.sciencemuseumgroup.org.uk/objects/co8558698"
+  ],
+  "sources": [
+    {
+      "title": "https://omegawatches.com/chronicle/1999-a-revolutionary-new-escapement",
+      "link": "https://omegawatches.com/chronicle/1999-a-revolutionary-new-escapement",
+      "source": "https://omegawatches.com/chronicle/1999-a-revolutionary-new-escapement",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://wornandwound.com/the-co-axial-escapement-an-horological-hit/",
+      "link": "https://wornandwound.com/the-co-axial-escapement-an-horological-hit/",
+      "source": "https://wornandwound.com/the-co-axial-escapement-an-horological-hit/",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://watchesbysjx.com/2023/02/george-daniels-co-axial-fasoldt-chronometer-escapement.html",
+      "link": "https://watchesbysjx.com/2023/02/george-daniels-co-axial-fasoldt-chronometer-escapement.html",
+      "source": "https://watchesbysjx.com/2023/02/george-daniels-co-axial-fasoldt-chronometer-escapement.html",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://collection.sciencemuseumgroup.org.uk/objects/co8558698",
+      "link": "https://collection.sciencemuseumgroup.org.uk/objects/co8558698",
+      "source": "https://collection.sciencemuseumgroup.org.uk/objects/co8558698",
+      "tier": "to-verify"
+    }
+  ],
+  "previous_attempts": [
+    ""
+  ],
+  "scheduled_for": "2026-11-29T01:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-28-2030-one-british-watchmaker-built-the-escapem",
+  "project_dir": "Content Creation/projects/2026-11-28-2030-one-british-watchmaker-built-the-escapem",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-28-2030-one-british-watchmaker-built-the-escapem/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 3,
+      "taste": 4
+    },
+    "hard_gate_failures": [
+      "Story test: slides 4 and 5 say the same thing"
+    ],
+    "issues": [
+      {
+        "severity": "major",
+        "slide": "4-5",
+        "problem": "Slide 4 still says 'Later, ... designed the co-axial escapement'. The earlier fix was applied to slide 5, so slides 4 and 5 now repeat the same sentence. 'Later' is also still vague.",
+        "change": "Slide 4 text → 'Then British watchmaker George Daniels set out to build a different way to release a watch's power.' Slide 5 text → 'In the 1970s he designed the co-axial escapement. Omega launched it in 1999 as the first new escapement in centuries.'",
+        "text_only": true
+      }
+    ],
+    "reason": "The photos, the cover headline and the 'should be less wear' wording are fixed. Slides 4 and 5 now repeat the same sentence, which breaks the one-story rule. The fix is a text swap only.",
+    "fixes": [
+      "[major] slide 4-5: Slide 4 still says 'Later, ... designed the co-axial escapement'. The earlier fix was applied to slide 5, so slides 4 and 5 now repeat the same sentence. 'Later' is also still vague. → Slide 4 text → 'Then British watchmaker George Daniels set out to build a different way to release a watch's power.' Slide 5 text → 'In the 1970s he designed the co-axial escapement. Omega launched it in 1999 as the first new escapement in centuries.'"
+    ],
+    "approved_with_notes": true
+  }
+}

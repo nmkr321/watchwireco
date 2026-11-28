@@ -1,0 +1,27 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 3,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Story test: slides 4 and 5 say the same thing"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "4-5",
+      "problem": "Slide 4 still says 'Later, ... designed the co-axial escapement'. The earlier fix was applied to slide 5, so slides 4 and 5 now repeat the same sentence. 'Later' is also still vague.",
+      "change": "Slide 4 text → 'Then British watchmaker George Daniels set out to build a different way to release a watch's power.' Slide 5 text → 'In the 1970s he designed the co-axial escapement. Omega launched it in 1999 as the first new escapement in centuries.'",
+      "text_only": true
+    }
+  ],
+  "reason": "The photos, the cover headline and the 'should be less wear' wording are fixed. Slides 4 and 5 now repeat the same sentence, which breaks the one-story rule. The fix is a text swap only.",
+  "fixes": [
+    "[major] slide 4-5: Slide 4 still says 'Later, ... designed the co-axial escapement'. The earlier fix was applied to slide 5, so slides 4 and 5 now repeat the same sentence. 'Later' is also still vague. → Slide 4 text → 'Then British watchmaker George Daniels set out to build a different way to release a watch's power.' Slide 5 text → 'In the 1970s he designed the co-axial escapement. Omega launched it in 1999 as the first new escapement in centuries.'"
+  ]
+}

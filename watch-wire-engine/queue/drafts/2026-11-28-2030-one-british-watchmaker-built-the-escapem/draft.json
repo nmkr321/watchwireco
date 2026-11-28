@@ -1,0 +1,18 @@
+{
+  "status": "ready",
+  "project_dir": "Content Creation/projects/2026-11-28-2030-one-british-watchmaker-built-the-escapem",
+  "format": "STORY BEHIND",
+  "lane": "history",
+  "headline": "One Briton Reinvented The Escapement",
+  "slides": [
+    "output/slide-01.png",
+    "output/slide-02.png",
+    "output/slide-03.png",
+    "output/slide-04.png",
+    "output/slide-05.png",
+    "output/slide-06.png",
+    "output/slide-07.png"
+  ],
+  "caption_file": "caption.json",
+  "stop_reason": ""
+}

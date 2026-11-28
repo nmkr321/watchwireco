@@ -1,0 +1,51 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 2,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Template D story posts must keep images through to the last beats; slides 2-6 are text on black"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "2-6",
+      "problem": "Five text-only slides on black. The story format needs pictures to the end, and slide 2 should show the escapement itself. The cover is only a pocket watch.",
+      "change": "Add a credited, rights-cleared photo to each of slides 2-6. Slide 2: an escapement or movement close-up. Slide 4: George Daniels himself or his co-axial movement. Slide 6: an Omega co-axial movement or watch. Use no repeated photos and put a credit on every photo slide. Add each photo to manifest.json and repeat any Wikimedia credits in the caption.",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "1",
+      "problem": "The cover headline 'Heartbeat' is vague, and the cover shows a pocket watch, not the co-axial escapement the story is about.",
+      "change": "headline → 'One Briton Reinvented The Escapement'. If a movement photo is added for slide 2, consider using it on the cover instead.",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "5",
+      "problem": "'Less wear' is stated as fact, but the source only says this in theory.",
+      "change": "text → 'Its parts roll past each other instead of sliding, so there should be less wear and less need for oil.'",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "4",
+      "problem": "'Later' is vague about when Daniels did this.",
+      "change": "text → 'In the 1970s, British watchmaker George Daniels designed the co-axial escapement, a different way to release the power.'",
+      "text_only": true
+    }
+  ],
+  "reason": "The story reads well and the facts check out. But five of the seven slides are text on black, and the owner's story format needs pictures through to the end. The pack's recent-posts list also shows a very similar escapement post, which I assumed is this draft itself.</parameter>",
+  "fixes": [
+    "[major] slide 2-6: Five text-only slides on black. The story format needs pictures to the end, and slide 2 should show the escapement itself. The cover is only a pocket watch. → Add a credited, rights-cleared photo to each of slides 2-6. Slide 2: an escapement or movement close-up. Slide 4: George Daniels himself or his co-axial movement. Slide 6: an Omega co-axial movement or watch. Use no repeated photos and put a credit on every photo slide. Add each photo to manifest.json and repeat any Wikimedia credits in the caption.",
+    "[minor] slide 1: The cover headline 'Heartbeat' is vague, and the cover shows a pocket watch, not the co-axial escapement the story is about. → headline → 'One Briton Reinvented The Escapement'. If a movement photo is added for slide 2, consider using it on the cover instead.",
+    "[minor] slide 5: 'Less wear' is stated as fact, but the source only says this in theory. → text → 'Its parts roll past each other instead of sliding, so there should be less wear and less need for oil.'",
+    "[minor] slide 4: 'Later' is vague about when Daniels did this. → text → 'In the 1970s, British watchmaker George Daniels designed the co-axial escapement, a different way to release the power.'"
+  ]
+}
