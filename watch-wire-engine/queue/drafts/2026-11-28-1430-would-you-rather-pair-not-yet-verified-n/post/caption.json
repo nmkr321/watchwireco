@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Two watches, almost exactly the same money. Which would you buy?\n\nThe Tudor Black Bay GMT is $5,275 at Watches of Switzerland. The Cartier Santos-Dumont is $5,250 on Cartier's US site. One is a steel sports watch with a red and blue 24-hour bezel, the other a square steel Cartier named for the Brazilian aviator.\n\nBlack Bay or Santos-Dumont? Tell us in the comments.\n\n#watches #luxurywatches #tudor #cartier\n\nSource: Watches of Switzerland (Tudor Black Bay GMT, US price checked 26 November 2026); Cartier US website (Santos-Dumont CRWSSA0085, US price checked 25 November 2026).\nPhoto credits: Image: Tudor · Image: Cartier\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4"
+  ],
+  "caption_credit": "Image: Tudor · Image: Cartier",
+  "rationale": "Vote post. Both prices sourced and dated in the Source line.",
+  "carousel_sha256": "8d9ceab05da859bf923f46820e6df96c6a5a84d96cd2e9aaa706a4b754010cc3",
+  "completed_at": "2026-11-28T08:26:47.715Z",
+  "attribution": "Watches of Switzerland; Cartier; Tudor"
+}

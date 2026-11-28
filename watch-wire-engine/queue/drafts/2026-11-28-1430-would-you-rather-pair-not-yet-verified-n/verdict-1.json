@@ -1,0 +1,43 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 3,
+    "visual": 4,
+    "clarity": 3,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Slide 3 gives a false function for the pictured watch (misleading)"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "3",
+      "problem": "The pictured watch is the Black Bay GMT, whose red and blue bezel is a 24-hour bezel, not a dive timer. 'Used to time a dive' is false for this watch, and the headline drops 'GMT'.",
+      "change": "headline → 'Black Bay GMT is a steel sports watch'; body → 'Its red and blue rotating bezel tracks a second time zone. US price $5,275.'",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "1",
+      "problem": "The cover headline '$5,250.' matches only the Cartier. The Tudor is $5,275.",
+      "change": "line1 → 'Same Money.' and keep line2 'Which One?'. Meta → 'Tudor Black Bay GMT vs Cartier Santos-Dumont'.",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "caption",
+      "problem": "The caption's description of the Tudor is generic.",
+      "change": "Replace 'One is a steel sports watch with a rotating bezel' with 'One is a steel sports watch with a red and blue 24-hour bezel'.",
+      "text_only": true
+    }
+  ],
+  "reason": "The post is a clean same-money choice with matching photos and a clear vote. Slide 3 wrongly calls the Black Bay GMT's bezel a dive timer, which needs fixing before it goes out.",
+  "fixes": [
+    "[major] slide 3: The pictured watch is the Black Bay GMT, whose red and blue bezel is a 24-hour bezel, not a dive timer. 'Used to time a dive' is false for this watch, and the headline drops 'GMT'. → headline → 'Black Bay GMT is a steel sports watch'; body → 'Its red and blue rotating bezel tracks a second time zone. US price $5,275.'",
+    "[minor] slide 1: The cover headline '$5,250.' matches only the Cartier. The Tudor is $5,275. → line1 → 'Same Money.' and keep line2 'Which One?'. Meta → 'Tudor Black Bay GMT vs Cartier Santos-Dumont'.",
+    "[minor] slide caption: The caption's description of the Tudor is generic. → Replace 'One is a steel sports watch with a rotating bezel' with 'One is a steel sports watch with a red and blue 24-hour bezel'."
+  ]
+}

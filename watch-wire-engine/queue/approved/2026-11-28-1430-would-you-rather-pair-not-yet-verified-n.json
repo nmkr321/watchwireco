@@ -1,0 +1,42 @@
+{
+  "id": "2026-11-28-1430-would-you-rather-pair-not-yet-verified-n",
+  "status": "approved",
+  "found_at": "2026-11-28T07:49:43.748Z",
+  "lane": "rotation",
+  "format": "WOULD YOU RATHER",
+  "post_at": "2026-11-28T19:30:00.000Z",
+  "slot": 3,
+  "title": "WOULD YOU RATHER: pair not yet verified (needs two current US retail prices within about 10%)",
+  "hook": "Binary vote between two same-money watches. Do not post until both prices are sourced.",
+  "why": "Not filled. I found no verified pair. Search for a pair with official US retail prices, or take a pair from the owner.",
+  "sources_to_check": [
+    "Official US retail price pages for both watches (brand sites)"
+  ],
+  "sources": [
+    {
+      "title": "Official US retail price pages for both watches (brand sites)",
+      "link": "",
+      "source": "Official US retail price pages for both watches (brand sites)",
+      "tier": "to-verify"
+    }
+  ],
+  "scheduled_for": "2026-11-28T19:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-28-1430-would-you-rather-pair-not-yet-verified-n",
+  "project_dir": "/home/runner/work/watchwireco/watchwireco/Content Creation/projects/2026-11-28-1430-would-you-rather-pair-not-yet-verified-n",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-28-1430-would-you-rather-pair-not-yet-verified-n/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "issues": [],
+    "reason": "All three earlier fixes are in: slide 3 now says the Black Bay GMT's bezel tracks a second time zone, the cover headline is 'Same Money.', and the caption names the 24-hour bezel. The prices match the claims, both photos are official with credits, and the post works as a vote.",
+    "fixes": []
+  }
+}

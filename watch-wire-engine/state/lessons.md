@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY COLLECTION] Before rendering, check every slide's photo rights in assets/manifest.json; replace any image not marked official or licensed, or drop that slide.
-- [STORY BEHIND] Give every slide a different licensed or official photo background; never leave a text-only slide on black.
 - [STORY BEHIND] Use the source's exact verb for each event (created, unveiled, introduced), and make the cover photo show the object the story describes.
 - [WATCH EXPLAINED] Use cover photos that show the explained mechanism itself; never substitute an unrelated object, even one that looks similar.
 - [WATCH EXPLAINED] Check each slide's mechanism claim against the named watch's movement type, such as quartz or mechanical, before writing it.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [TOP 5 THIS WEEK] Name the exact metric the source gives (export value, sales, shipments); headlines must not imply cause or a metric the source omits.
 - [CELEBRITY] Spotted-wearing slides need a photo showing the named watch clearly; if the wrist is too small, use a tighter crop or add a marker.
 - [CELEBRITY] Compare watch variants with figures: state each price, or 'Price on request' if missing; avoid vague words like 'much less'.
+- [WOULD YOU RATHER] Describe each watch's bezel, complication or function only as its named model has it. A GMT bezel tracks a second time zone, not a dive timer.
+- [WOULD YOU RATHER] Captions describe each watch with its model's specific features (bezel type, case material, colour), never generic wording.

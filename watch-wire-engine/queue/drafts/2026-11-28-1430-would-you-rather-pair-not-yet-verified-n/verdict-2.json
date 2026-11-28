@@ -1,0 +1,15 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [],
+  "reason": "All three earlier fixes are in: slide 3 now says the Black Bay GMT's bezel tracks a second time zone, the cover headline is 'Same Money.', and the caption names the 24-hour bezel. The prices match the claims, both photos are official with credits, and the post works as a vote.",
+  "fixes": []
+}
