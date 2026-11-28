@@ -1,0 +1,55 @@
+{
+ "source": "Source: bluewin.ch, Swiss watch exports, reported 28 November 2026",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "MARKET",
+   "line1": "Swiss Watch Exports",
+   "line2": "[[Just Jumped]]",
+   "meta": "Swiss watch exports · up 9.1%",
+   "watches": [
+    "watch-wire-engine/library/img/hamilton-h77825330.png",
+    "watch-wire-engine/library/img/oris-01-733-7810-4054.jpg",
+    "watch-wire-engine/library/img/tissot-t932-408-41-033-00.png"
+   ],
+   "credit": "Image: Hamilton, Oris, Tissot"
+  },
+  {
+   "t": "A-number",
+   "tag": "MARKET",
+   "number": "9.1%",
+   "label": "Swiss watch exports · October",
+   "headline": "Up 9.1% in October",
+   "body": "Swiss watches shipped abroad were worth CHF 2.46 billion, more than in October last year."
+  },
+  {
+   "t": "A-photo",
+   "label": "Where the growth went",
+   "headline": "The US grew the most",
+   "body": "US exports rose about 61% in October, but the US is still slightly down over the first ten months.",
+   "photo": "watch-wire-engine/library/img/hamilton-h82335131.png",
+   "credit": "Image: Hamilton"
+  },
+  {
+   "t": "A-photo",
+   "label": "The backdrop",
+   "headline": "A 39% US tariff looms",
+   "body": "The US put a 39% tariff on Swiss goods in August 2025.",
+   "photo": "watch-wire-engine/library/img/seiko-srpl15.jpg",
+   "credit": "Image: Seiko"
+  },
+  {
+   "t": "A-photo",
+   "label": "The full year so far",
+   "headline": "The year is still up overall",
+   "body": "Exports for January to October reached CHF 21.9 billion, up on the same period last year.",
+   "photo": "watch-wire-engine/library/img/nomos-tangente-38-165.jpg",
+   "credit": "Image: Nomos"
+  },
+  {
+   "t": "cta",
+   "line1": "Like this one?",
+   "line2": "Follow for more."
+  }
+ ]
+}

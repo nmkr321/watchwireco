@@ -1,0 +1,17 @@
+{
+ "status": "ready",
+ "project_dir": "Content Creation/projects/2026-11-28-0830-swiss-watch-exports-rose-9-1-in-october-",
+ "format": "MARKET",
+ "lane": "news",
+ "headline": "Swiss Watch Exports Just Jumped",
+ "slides": [
+  "output/slide-01.png",
+  "output/slide-02.png",
+  "output/slide-03.png",
+  "output/slide-04.png",
+  "output/slide-05.png",
+  "output/slide-06.png"
+ ],
+ "caption_file": "caption.json",
+ "stop_reason": "TOP 5 THIS WEEK not used: no confirmed new releases with photos and prices were found for this market story, so it ran as MARKET (the input's own fallback)."
+}

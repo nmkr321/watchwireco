@@ -1270,3 +1270,9 @@
 2026-11-27T05:53:42.781Z	approver 2026-11-27-2030-a-bolton-repairman-built-the-first-self- r2	claude-sonnet-5-5	0.0562	3
 2026-11-27T18:52:49.895Z	triage 202611271852-bellucci-challenging-costume-hollywood-o	claude-haiku-5-5	0.0042	2
 2026-11-28T07:49:43.747Z	planner	claude-haiku-5-5	0.0728	10
+2026-11-28T08:17:42.736Z	editor 2026-11-28-0830-swiss-watch-exports-rose-9-1-in-october-	claude-haiku-5-5	0.0253	19
+2026-11-28T08:18:07.164Z	editor-precheck 2026-11-28-0830-swiss-watch-exports-rose-9-1-in-october-	claude-haiku-5-5	0.0033	4
+2026-11-28T08:18:20.079Z	approver 2026-11-28-0830-swiss-watch-exports-rose-9-1-in-october- r1	claude-sonnet-5-5	0.0953	2
+2026-11-28T08:18:26.160Z	learn 2026-11-28-0830-swiss-watch-exports-rose-9-1-in-october-	claude-haiku-5-5	0.0047	2
+2026-11-28T08:18:51.517Z	editor-revise 2026-11-28-0830-swiss-watch-exports-rose-9-1-in-october-	claude-haiku-5-5	0.0045	9
+2026-11-28T08:18:58.398Z	approver 2026-11-28-0830-swiss-watch-exports-rose-9-1-in-october- r2	claude-sonnet-5-5	0.0683	2

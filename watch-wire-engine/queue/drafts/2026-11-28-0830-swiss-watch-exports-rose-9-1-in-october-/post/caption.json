@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "Swiss watch exports rose 9.1% in October, and that is worth knowing if you follow the market.\n\nOctober exports reached CHF 2.46 billion. From January to October, exports were CHF 21.9 billion, up 3.4% on last year.\n\nThe US rose about 61% in October, but is slightly down for the first ten months. US tariffs of 39%, set in August 2025, are the background.\n\nThese are export figures, not shop sales. Do you think the US number will hold through the end of the year? Tell us below.\n\nSource: bluewin.ch, \"Swiss watch exports continue to trend upward in October\", reported 28 November 2026 (citing Swiss watch industry export data for October 2026).\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4"
+  ],
+  "source_ids": [
+    "SRC-BLUEWIN"
+  ],
+  "attribution": "Data: bluewin.ch, October 2026 Swiss watch exports.",
+  "caption_credit": "Images: Hamilton, Oris, Tissot, Seiko, Nomos (watch photos, not the story subject)",
+  "hashtags": [
+    "#swisswatches",
+    "#watchmarket",
+    "#luxurywatches"
+  ],
+  "carousel_sha256": "d70ab9120232db986313ada17b4276b82f0324a5471a62752f010cc6ab7285b0",
+  "completed_at": "2026-11-28T08:18:46.237Z"
+}

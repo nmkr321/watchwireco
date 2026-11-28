@@ -2620,30 +2620,6 @@
   "fetched": "2026-11-24"
  },
  {
-  "kind": "watch",
-  "brand": "Oris",
-  "ref": "01 733 7810 4054",
-  "title": "Oris 01 733 7810 4054",
-  "source": "https://www.watchesofswitzerland.com/products/oris-artelier-01-733-7810-4051-07-6-17601323",
-  "image_url": "https://www.watchesofswitzerland.com/cdn/shop/files/17601323_1.avif?v=1776360576",
-  "file": "watch-wire-engine/library/img/oris-01-733-7810-4054.jpg",
-  "w": 1600,
-  "h": 1600,
-  "ref_on_page": false,
-  "ref_in_image_name": false,
-  "price": {
-   "amount": 2200,
-   "currency": "USD",
-   "source": "https://www.watchesofswitzerland.com/products/oris-artelier-01-733-7810-4051-07-6-17601323",
-   "date": "2026-11-24"
-  },
-  "rights": "official",
-  "creator": "Oris",
-  "credit": "Image: Oris",
-  "usage": "Oris 01 733 7810 4054 official product image, credited",
-  "fetched": "2026-11-24"
- },
- {
   "kind": "commons",
   "title": "File:Rolex GMT Master II 126710BLRO.jpg",
   "ref": "126710BLRO",
@@ -3422,30 +3398,6 @@
  },
  {
   "kind": "watch",
-  "brand": "Nomos",
-  "ref": "Tangente 38 165",
-  "title": "Nomos Tangente 38 165",
-  "source": "https://www.exquisitetimepieces.com/products/nomos-glashutte-tangente-38-165",
-  "image_url": "https://www.exquisitetimepieces.com/cdn/shop/files/4169633170.jpg?v=1780767851",
-  "file": "watch-wire-engine/library/img/nomos-tangente-38-165.jpg",
-  "w": 1300,
-  "h": 1300,
-  "ref_on_page": true,
-  "ref_in_image_name": false,
-  "price": {
-   "amount": 2510,
-   "currency": "USD",
-   "source": "https://www.exquisitetimepieces.com/products/nomos-glashutte-tangente-38-165",
-   "date": "2026-11-25"
-  },
-  "rights": "official",
-  "creator": "Nomos",
-  "credit": "Image: Nomos",
-  "usage": "Nomos Tangente 38 165 official product image, credited",
-  "fetched": "2026-11-25"
- },
- {
-  "kind": "watch",
   "brand": "Breitling",
   "ref": "AB0139A71G1A1",
   "title": "Breitling AB0139A71G1A1",
@@ -4042,30 +3994,6 @@
  },
  {
   "kind": "watch",
-  "brand": "Hamilton",
-  "ref": "H82335131",
-  "title": "Hamilton H82335131",
-  "source": "https://www.hamiltonwatch.com/en-us/h82335131-khaki-navy-scuba-auto.html",
-  "image_url": "https://www.hamiltonwatch.com/media/catalog/product/h/8/h82335131.png",
-  "file": "watch-wire-engine/library/img/hamilton-h82335131.png",
-  "w": 2000,
-  "h": 2000,
-  "ref_on_page": true,
-  "ref_in_image_name": true,
-  "price": {
-   "amount": 975,
-   "currency": "USD",
-   "source": "https://www.hamiltonwatch.com/en-us/h82335131-khaki-navy-scuba-auto.html",
-   "date": "2026-11-26"
-  },
-  "rights": "official",
-  "creator": "Hamilton",
-  "credit": "Image: Hamilton",
-  "usage": "Hamilton H82335131 official product image, credited",
-  "fetched": "2026-11-26"
- },
- {
-  "kind": "watch",
   "brand": "Seiko",
   "ref": "SRPL13",
   "title": "Seiko SRPL13",
@@ -4086,30 +4014,6 @@
   "creator": "Seiko",
   "credit": "Image: Seiko",
   "usage": "Seiko SRPL13 official product image, credited",
-  "fetched": "2026-11-26"
- },
- {
-  "kind": "watch",
-  "brand": "Seiko",
-  "ref": "SRPL15",
-  "title": "Seiko SRPL15",
-  "source": "https://www.exquisitetimepieces.com/collections/seiko/products/seiko-prospex-srpl15",
-  "image_url": "https://www.exquisitetimepieces.com/cdn/shop/files/4378702286.jpg?v=1780952536",
-  "file": "watch-wire-engine/library/img/seiko-srpl15.jpg",
-  "w": 650,
-  "h": 650,
-  "ref_on_page": true,
-  "ref_in_image_name": false,
-  "price": {
-   "amount": 575,
-   "currency": "USD",
-   "source": "https://www.exquisitetimepieces.com/collections/seiko/products/seiko-prospex-srpl15",
-   "date": "2026-11-26"
-  },
-  "rights": "official",
-  "creator": "Seiko",
-  "credit": "Image: Seiko",
-  "usage": "Seiko SRPL15 official product image, credited",
   "fetched": "2026-11-26"
  },
  {
@@ -4182,30 +4086,6 @@
   "creator": "Tissot",
   "credit": "Image: Tissot",
   "usage": "Tissot T1204071108101 official product image, credited",
-  "fetched": "2026-11-26"
- },
- {
-  "kind": "watch",
-  "brand": "Hamilton",
-  "ref": "H77825330",
-  "title": "Hamilton H77825330",
-  "source": "https://www.hamiltonwatch.com/en-us/collection/khaki-navy/frogman.html",
-  "image_url": "https://www.hamiltonwatch.com/media/catalog/product/h/7/h77855330.png",
-  "file": "watch-wire-engine/library/img/hamilton-h77825330.png",
-  "w": 2000,
-  "h": 2000,
-  "ref_on_page": true,
-  "ref_in_image_name": false,
-  "price": {
-   "amount": 1545,
-   "currency": "USD",
-   "source": "https://www.hamiltonwatch.com/en-us/collection/khaki-navy/frogman.html",
-   "date": "2026-11-26"
-  },
-  "rights": "official",
-  "creator": "Hamilton",
-  "credit": "Image: Hamilton",
-  "usage": "Hamilton H77825330 official product image, credited",
   "fetched": "2026-11-26"
  },
  {
@@ -5917,30 +5797,6 @@
  },
  {
   "kind": "watch",
-  "brand": "Tissot",
-  "ref": "T932.408.41.033.00",
-  "title": "Tissot T932.408.41.033.00",
-  "source": "https://www.tissotwatches.com/en-us/T9324084604300.html",
-  "image_url": "https://www.tissotwatches.com/on/demandware.static/-/Sites-Tissot-Catalogue/default/dw13cb13ae/product-pictures/8f6ca206-c41c-4b8e-906f-1ffa41611c22_T932-408-46-043-00_shadow.png",
-  "file": "watch-wire-engine/library/img/tissot-t932-408-41-033-00.png",
-  "w": 1680,
-  "h": 1680,
-  "ref_on_page": false,
-  "ref_in_image_name": false,
-  "price": {
-   "amount": 2225,
-   "currency": "USD",
-   "source": "https://www.tissotwatches.com/en-us/T9324084604300.html",
-   "date": "2026-11-27"
-  },
-  "rights": "official",
-  "creator": "Tissot",
-  "credit": "Image: Tissot",
-  "usage": "Tissot T932.408.41.033.00 official product image, credited",
-  "fetched": "2026-11-27"
- },
- {
-  "kind": "watch",
   "brand": "Oris",
   "ref": "01 733 7810 4051 07 6",
   "title": "Oris 01 733 7810 4051 07 6",
@@ -6724,6 +6580,90 @@
   "creator": "Tissot",
   "credit": "Image: Tissot",
   "usage": "Tissot T063.637.16.057.00 official product image, credited",
+  "fetched": "2026-11-28"
+ },
+ {
+  "kind": "owner",
+  "title": "Owner photo: hamilton-h77825330.png",
+  "file": "watch-wire-engine/library/img/hamilton-h77825330.png",
+  "w": 2000,
+  "h": 2000,
+  "source": "https://github.com/nmkr321/watchwireco/blob/main/watch-wire-engine/library/img/hamilton-h77825330.png",
+  "rights": "licensed",
+  "creator": "owner-supplied",
+  "credit": "",
+  "watch": "",
+  "usage": "Owner-cleared: the owner chose this photo and takes responsibility for its use",
+  "fetched": "2026-11-28"
+ },
+ {
+  "kind": "owner",
+  "title": "Owner photo: hamilton-h82335131.png",
+  "file": "watch-wire-engine/library/img/hamilton-h82335131.png",
+  "w": 2000,
+  "h": 2000,
+  "source": "https://github.com/nmkr321/watchwireco/blob/main/watch-wire-engine/library/img/hamilton-h82335131.png",
+  "rights": "licensed",
+  "creator": "owner-supplied",
+  "credit": "",
+  "watch": "",
+  "usage": "Owner-cleared: the owner chose this photo and takes responsibility for its use",
+  "fetched": "2026-11-28"
+ },
+ {
+  "kind": "owner",
+  "title": "Owner photo: oris-01-733-7810-4054.jpg",
+  "file": "watch-wire-engine/library/img/oris-01-733-7810-4054.jpg",
+  "w": 1600,
+  "h": 1600,
+  "source": "https://github.com/nmkr321/watchwireco/blob/main/watch-wire-engine/library/img/oris-01-733-7810-4054.jpg",
+  "rights": "licensed",
+  "creator": "owner-supplied",
+  "credit": "",
+  "watch": "",
+  "usage": "Owner-cleared: the owner chose this photo and takes responsibility for its use",
+  "fetched": "2026-11-28"
+ },
+ {
+  "kind": "owner",
+  "title": "Owner photo: tissot-t932-408-41-033-00.png",
+  "file": "watch-wire-engine/library/img/tissot-t932-408-41-033-00.png",
+  "w": 1680,
+  "h": 1680,
+  "source": "https://github.com/nmkr321/watchwireco/blob/main/watch-wire-engine/library/img/tissot-t932-408-41-033-00.png",
+  "rights": "licensed",
+  "creator": "owner-supplied",
+  "credit": "",
+  "watch": "",
+  "usage": "Owner-cleared: the owner chose this photo and takes responsibility for its use",
+  "fetched": "2026-11-28"
+ },
+ {
+  "kind": "owner",
+  "title": "Owner photo: seiko-srpl15.jpg",
+  "file": "watch-wire-engine/library/img/seiko-srpl15.jpg",
+  "w": 650,
+  "h": 650,
+  "source": "https://github.com/nmkr321/watchwireco/blob/main/watch-wire-engine/library/img/seiko-srpl15.jpg",
+  "rights": "licensed",
+  "creator": "owner-supplied",
+  "credit": "",
+  "watch": "",
+  "usage": "Owner-cleared: the owner chose this photo and takes responsibility for its use",
+  "fetched": "2026-11-28"
+ },
+ {
+  "kind": "owner",
+  "title": "Owner photo: nomos-tangente-38-165.jpg",
+  "file": "watch-wire-engine/library/img/nomos-tangente-38-165.jpg",
+  "w": 1300,
+  "h": 1300,
+  "source": "https://github.com/nmkr321/watchwireco/blob/main/watch-wire-engine/library/img/nomos-tangente-38-165.jpg",
+  "rights": "licensed",
+  "creator": "owner-supplied",
+  "credit": "",
+  "watch": "",
+  "usage": "Owner-cleared: the owner chose this photo and takes responsibility for its use",
   "fetched": "2026-11-28"
  }
 ]

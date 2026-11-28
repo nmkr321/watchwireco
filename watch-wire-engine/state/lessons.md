@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [EVENT SPOTTED] Use only sources you could fully open; treat paywalled, redirected or blocked pages as unverified and never name a watch from them.
-- [EVENT SPOTTED] If a permitted person's searches show only older sightings, move to the next permitted person and search again.
 - [CELEBRITY COLLECTION] Inspect each photo on the dark template for white fades or stray boxes before rendering; replace any flawed image with a clean one.
 - [CELEBRITY COLLECTION] Give each slide a different permitted photo; if a watch lacks a distinct official or licensed photo, drop its slide instead of repeating one.
 - [CELEBRITY COLLECTION] Before rendering, check every slide's photo rights in assets/manifest.json; replace any image not marked official or licensed, or drop that slide.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY] Print a year on a slide only if the source text or article date states it; otherwise leave the year out.
 - [WATCH EXPLAINED] Before assigning any slide photo, view it. If it shows a grey 'coming soon' card, is blank, or failed to load, pick another permitted official image.
 - [WATCH EXPLAINED] Any watch shown in a slide photo must be named with its exact brand and model in that slide or the caption, and must match the recipe's watch.
+- [TOP 5 THIS WEEK] Answer each cover question or claim on a later slide with a specific figure; no slide may restate the previous one.
+- [TOP 5 THIS WEEK] Name the exact metric the source gives (export value, sales, shipments); headlines must not imply cause or a metric the source omits.

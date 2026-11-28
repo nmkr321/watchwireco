@@ -2274,3 +2274,8 @@ I did not WebFetch the Robb Report source or check the manifest rights in this p
 2026-11-28T07:49:43.748Z planned 17:30 [CELEBRITY COLLECTION] CELEBRITY COLLECTION: subject not yet verified (needs a person with several watches named by a trusted outlet)
 2026-11-28T07:49:43.749Z planned 20:30 [STORY BEHIND] One British watchmaker built the escapement Omega now uses in almost every mechanical watch.
 2026-11-28T08:17:12.134Z watcher: 0 new candidate(s)
+2026-11-28T08:15:07.064Z editor start: Swiss watch exports rose 9.1% in October.
+2026-11-28T08:17:42.804Z pre-check: 1 problem(s), editor fixes them before review
+2026-11-28T08:18:20.080Z approver r1: revise, 2 major / 2 minor (The facts are right and sourced, but the cover promises a 'why' that no slide answers, and 'selling' misdescribes export figures. The cover and slide 2 need new text, and the other slides need small wording fixes. The pre-check's 7-slide flag is a false alarm for this format.)
+2026-11-28T08:18:26.161Z learned: [TOP 5 THIS WEEK] Answer each cover question or claim on a later slide with a specific figure; no slide may restate the previous one. | [TOP 5 THIS WEEK] Name the exact metric the source gives (export value, sales, shipments); headlines must not imply cause or a metric the source omits.
+2026-11-28T08:18:58.398Z approver r2: approve, 0 major / 1 minor (All earlier fixes were applied. Slide 2 now pays off the cover, the story reads in order, and every figure matches the claims. The Seiko and Nomos pictures are off-theme for a Swiss story, but that is polish rather than a fault.)

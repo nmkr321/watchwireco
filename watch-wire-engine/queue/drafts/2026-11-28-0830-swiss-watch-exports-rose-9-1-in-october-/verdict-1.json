@@ -1,0 +1,52 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 4,
+    "hook": 2,
+    "visual": 3,
+    "clarity": 3,
+    "taste": 3
+  },
+  "hard_gate_failures": [
+    "Story test: the cover asks 'Why Are Swiss Watches Selling Faster?' and no slide answers it",
+    "Misleading test: the figures are export value, not sales"
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "1",
+      "problem": "The cover asks 'why' but slide 2 only restates the number, so the promise is never paid off. 'Selling' also misstates export value shipped out of Switzerland.",
+      "change": "line1 → 'Swiss Watch Exports', line2 → '[[Just Jumped]]'. Keep the meta line.",
+      "text_only": true
+    },
+    {
+      "severity": "major",
+      "slide": "2",
+      "problem": "Repeats the cover and gives no new detail; the headline only restates the cover.",
+      "change": "headline → 'Up 9.1% in October'; body → 'Swiss watches shipped abroad were worth CHF 2.46 billion, more than in October last year.'",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "3",
+      "problem": "The headline is vague and does not say which market grew fastest.",
+      "change": "headline → 'The US grew the most'; body → 'US exports rose about 61% in October, but the US is still slightly down over the first ten months.'",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "4",
+      "problem": "'The background to these figures' is vague, and the headline reads as if the tariff caused the numbers.",
+      "change": "headline → 'A 39% US tariff looms'; body → 'The US put a 39% tariff on Swiss goods in August 2025.'",
+      "text_only": true
+    }
+  ],
+  "reason": "The facts are right and sourced, but the cover promises a 'why' that no slide answers, and 'selling' misdescribes export figures. The cover and slide 2 need new text, and the other slides need small wording fixes. The pre-check's 7-slide flag is a false alarm for this format.",
+  "fixes": [
+    "[major] slide 1: The cover asks 'why' but slide 2 only restates the number, so the promise is never paid off. 'Selling' also misstates export value shipped out of Switzerland. → line1 → 'Swiss Watch Exports', line2 → '[[Just Jumped]]'. Keep the meta line.",
+    "[major] slide 2: Repeats the cover and gives no new detail; the headline only restates the cover. → headline → 'Up 9.1% in October'; body → 'Swiss watches shipped abroad were worth CHF 2.46 billion, more than in October last year.'",
+    "[minor] slide 3: The headline is vague and does not say which market grew fastest. → headline → 'The US grew the most'; body → 'US exports rose about 61% in October, but the US is still slightly down over the first ten months.'",
+    "[minor] slide 4: 'The background to these figures' is vague, and the headline reads as if the tariff caused the numbers. → headline → 'A 39% US tariff looms'; body → 'The US put a 39% tariff on Swiss goods in August 2025.'"
+  ]
+}

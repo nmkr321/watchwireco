@@ -1,0 +1,25 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 4,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [],
+  "issues": [
+    {
+      "severity": "minor",
+      "slide": "4",
+      "problem": "A Japanese Seiko and a German Nomos illustrate a Swiss exports story.",
+      "change": "Next time, use Swiss brand images (Tissot, Oris, Hamilton) on slides 4 and 5.",
+      "text_only": false
+    }
+  ],
+  "reason": "All earlier fixes were applied. Slide 2 now pays off the cover, the story reads in order, and every figure matches the claims. The Seiko and Nomos pictures are off-theme for a Swiss story, but that is polish rather than a fault.",
+  "fixes": [
+    "[minor] slide 4: A Japanese Seiko and a German Nomos illustrate a Swiss exports story. → Next time, use Swiss brand images (Tissot, Oris, Hamilton) on slides 4 and 5."
+  ]
+}
