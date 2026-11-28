@@ -1,0 +1,40 @@
+{
+ "source": "Source: Robb Report Singapore, Golden Globes 2026 watch coverage; Omega Golden Globes release (WorldTempus); Bloomberg Línea (price).",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "CELEBRITY",
+   "line1": "Glen Powell Goes Gold",
+   "line2": "At The Golden Globes",
+   "meta": "Omega Seamaster Aqua Terra · solid gold",
+   "photo": "watch-wire-engine/library/img/getty-images-luxurybazaar-07.jpg",
+   "credit": "Image: Getty Images, via Luxurybazaar"
+  },
+  {
+   "t": "A-spotted",
+   "label": "Spotted wearing",
+   "headline": "A solid gold Omega Seamaster",
+   "photo": "watch-wire-engine/library/img/getty-images-esquire-03.jpg",
+   "watch": "watch-wire-engine/library/img/getty-images-luxurybazaar-07-watch.jpg",
+   "wrist": {
+    "x": 59,
+    "y": 52
+   },
+   "credit": "Image: Getty Images, via Esquire",
+   "body": "Solid gold means the metal runs all the way through. The blue dial stands out against a navy velvet jacket."
+  },
+  {
+   "t": "A-photo",
+   "label": "",
+   "headline": "US$39,800 for the gold model",
+   "photo": "watch-wire-engine/library/img/getty-images-luxurybazaar-07-watch.jpg",
+   "credit": "Image: Getty Images, via Luxurybazaar",
+   "body": "This is the solid gold version, the one Powell wore. The steel Aqua Terra costs far less."
+  },
+  {
+   "t": "cta",
+   "line1": "Like this one?",
+   "line2": "Follow for more."
+  }
+ ]
+}

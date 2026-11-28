@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-28-1130-glen-powell-wore-a-gold-omega-to-the-gol",
+  "status": "approved",
+  "found_at": "2026-11-28T07:49:43.748Z",
+  "lane": "rotation",
+  "format": "CELEBRITY",
+  "post_at": "2026-11-28T16:30:00.000Z",
+  "slot": 2,
+  "title": "Glen Powell wore a gold Omega to the Golden Globes.",
+  "hook": "Spotted wearing: Omega Seamaster Aqua Terra 38mm in 18K Moonshine Gold, blue dial, 83rd Golden Globes, January 2026.",
+  "why": "Credited sighting within 12 months from a trusted outlet. Needs checking: the US$39,800 price against Omega's US list, and a campaign or free photo of Powell.",
+  "sources_to_check": [
+    "https://robbreport.com.sg/best-watches-golden-globes-2026/",
+    "https://en.worldtempus.com/article/people/omega-83rd-annual-golden-globes-omega-81753.html",
+    "https://bloomberglinea.com/estilo-de-vida/rolex-omega-y-cartier-los-precios-de-los-relojes-que-brillaron-en-los-globos-de-oro-2026/"
+  ],
+  "sources": [
+    {
+      "title": "https://robbreport.com.sg/best-watches-golden-globes-2026/",
+      "link": "https://robbreport.com.sg/best-watches-golden-globes-2026/",
+      "source": "https://robbreport.com.sg/best-watches-golden-globes-2026/",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://en.worldtempus.com/article/people/omega-83rd-annual-golden-globes-omega-81753.html",
+      "link": "https://en.worldtempus.com/article/people/omega-83rd-annual-golden-globes-omega-81753.html",
+      "source": "https://en.worldtempus.com/article/people/omega-83rd-annual-golden-globes-omega-81753.html",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://bloomberglinea.com/estilo-de-vida/rolex-omega-y-cartier-los-precios-de-los-relojes-que-brillaron-en-los-globos-de-oro-2026/",
+      "link": "https://bloomberglinea.com/estilo-de-vida/rolex-omega-y-cartier-los-precios-de-los-relojes-que-brillaron-en-los-globos-de-oro-2026/",
+      "source": "https://bloomberglinea.com/estilo-de-vida/rolex-omega-y-cartier-los-precios-de-los-relojes-que-brillaron-en-los-globos-de-oro-2026/",
+      "tier": "to-verify"
+    }
+  ],
+  "scheduled_for": "2026-11-28T16:30:00.000Z",
+  "draft_dir": "watch-wire-engine/queue/drafts/2026-11-28-1130-glen-powell-wore-a-gold-omega-to-the-gol",
+  "project_dir": "/home/runner/work/watchwireco/watchwireco/Content Creation/projects/2026-11-28-1130-glen-powell-wore-a-gold-omega-to-the-gol",
+  "post_dir": "watch-wire-engine/queue/drafts/2026-11-28-1130-glen-powell-wore-a-gold-omega-to-the-gol/post",
+  "verdict": {
+    "decision": "approve",
+    "post_timing": "next_slot",
+    "soft_scores": {
+      "news": 3,
+      "hook": 4,
+      "visual": 4,
+      "clarity": 4,
+      "taste": 4
+    },
+    "hard_gate_failures": [],
+    "issues": [],
+    "reason": "The earlier fixes are done. Slide 2 now has the gold medallion and arrow on Powell's wrist, the weak slide 4 crop is gone, and the slide 3 wording is fixed. The story reads cleanly from cover to price, the Omega is pictured, and every fact and credit matches the claims. One caveat: the wrist watch on slide 2 is small, so the medallion match is hard to confirm by eye.",
+    "fixes": []
+  }
+}

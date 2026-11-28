@@ -1,0 +1,43 @@
+{
+  "decision": "revise",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [
+    "Slides 2 and 4: the watch is not clearly visible or matched to the Omega."
+  ],
+  "issues": [
+    {
+      "severity": "major",
+      "slide": "2",
+      "problem": "This is a 'Spotted wearing' slide, but the full-body photo is tiny and the watch can't be seen. It has no gold medallion or arrow on the wrist.",
+      "change": "Switch slide 2 to the A-spotted layout. Use the Esquire photo with a gold medallion of the Aqua Terra and an arrow on Powell's wrist. Keep the text and the credit. If the wrist can't be marked clearly, swap in a tighter photo where the gold Omega is visible.",
+      "text_only": false
+    },
+    {
+      "severity": "major",
+      "slide": "4",
+      "problem": "The crop shows only a hand in a pocket. The watch on the wrist is tiny and looks dark-dialled and silver. It doesn't visibly match the gold, blue-dial Omega, and this is the same Esquire photo as slide 2.",
+      "change": "Use a different photo where the gold blue-dial Omega is clearly visible on the wrist. If none exists, drop slide 4 and keep the CTA after the price slide. Don't use a photo where the watch can't be recognised.",
+      "text_only": false
+    },
+    {
+      "severity": "minor",
+      "slide": "3",
+      "problem": "'Much less' is vague, and no steel price is given.",
+      "change": "Body → 'This is the solid gold version, the one Powell wore. The steel Aqua Terra costs far less.'",
+      "text_only": true
+    }
+  ],
+  "reason": "The story and facts hold together. The pre-check flag is a false alarm, because slide 3 shows the Omega. But the watch is not visible or recognisable on slides 2 and 4, and slide 2 is missing its wrist medallion and arrow, so this needs one revision.",
+  "fixes": [
+    "[major] slide 2: This is a 'Spotted wearing' slide, but the full-body photo is tiny and the watch can't be seen. It has no gold medallion or arrow on the wrist. → Switch slide 2 to the A-spotted layout. Use the Esquire photo with a gold medallion of the Aqua Terra and an arrow on Powell's wrist. Keep the text and the credit. If the wrist can't be marked clearly, swap in a tighter photo where the gold Omega is visible.",
+    "[major] slide 4: The crop shows only a hand in a pocket. The watch on the wrist is tiny and looks dark-dialled and silver. It doesn't visibly match the gold, blue-dial Omega, and this is the same Esquire photo as slide 2. → Use a different photo where the gold blue-dial Omega is clearly visible on the wrist. If none exists, drop slide 4 and keep the CTA after the price slide. Don't use a photo where the watch can't be recognised.",
+    "[minor] slide 3: 'Much less' is vague, and no steel price is given. → Body → 'This is the solid gold version, the one Powell wore. The steel Aqua Terra costs far less.'"
+  ]
+}

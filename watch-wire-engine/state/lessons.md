@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [CELEBRITY COLLECTION] Inspect each photo on the dark template for white fades or stray boxes before rendering; replace any flawed image with a clean one.
-- [CELEBRITY COLLECTION] Give each slide a different permitted photo; if a watch lacks a distinct official or licensed photo, drop its slide instead of repeating one.
 - [CELEBRITY COLLECTION] Before rendering, check every slide's photo rights in assets/manifest.json; replace any image not marked official or licensed, or drop that slide.
 - [STORY BEHIND] Give every slide a different licensed or official photo background; never leave a text-only slide on black.
 - [STORY BEHIND] Use the source's exact verb for each event (created, unveiled, introduced), and make the cover photo show the object the story describes.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [WATCH EXPLAINED] Any watch shown in a slide photo must be named with its exact brand and model in that slide or the caption, and must match the recipe's watch.
 - [TOP 5 THIS WEEK] Answer each cover question or claim on a later slide with a specific figure; no slide may restate the previous one.
 - [TOP 5 THIS WEEK] Name the exact metric the source gives (export value, sales, shipments); headlines must not imply cause or a metric the source omits.
+- [CELEBRITY] Spotted-wearing slides need a photo showing the named watch clearly; if the wrist is too small, use a tighter crop or add a marker.
+- [CELEBRITY] Compare watch variants with figures: state each price, or 'Price on request' if missing; avoid vague words like 'much less'.

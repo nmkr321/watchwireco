@@ -1,0 +1,15 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 3,
+    "hook": 4,
+    "visual": 4,
+    "clarity": 4,
+    "taste": 4
+  },
+  "hard_gate_failures": [],
+  "issues": [],
+  "reason": "The earlier fixes are done. Slide 2 now has the gold medallion and arrow on Powell's wrist, the weak slide 4 crop is gone, and the slide 3 wording is fixed. The story reads cleanly from cover to price, the Omega is pictured, and every fact and credit matches the claims. One caveat: the wrist watch on slide 2 is small, so the medallion match is hard to confirm by eye.",
+  "fixes": []
+}
