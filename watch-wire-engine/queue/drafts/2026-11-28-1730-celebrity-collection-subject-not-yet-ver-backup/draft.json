@@ -1,0 +1,16 @@
+{
+ "status": "ready",
+ "project_dir": "/home/runner/work/watchwireco/watchwireco/Content Creation/projects/2026-11-28-1730-celebrity-collection-subject-not-yet-ver-backup",
+ "format": "WATCH EXPLAINED",
+ "lane": "rotation",
+ "headline": "Ever Wonder How It Tracks Two Time Zones?",
+ "slides": [
+  "output/slide-01.png",
+  "output/slide-02.png",
+  "output/slide-03.png",
+  "output/slide-04.png",
+  "output/slide-05.png"
+ ],
+ "caption_file": "caption.json",
+ "stop_reason": ""
+}

@@ -1,0 +1,33 @@
+{
+  "decision": "approve",
+  "post_timing": "next_slot",
+  "soft_scores": {
+    "news": 2,
+    "hook": 3,
+    "visual": 3,
+    "clarity": 4,
+    "taste": 3
+  },
+  "hard_gate_failures": [],
+  "issues": [
+    {
+      "severity": "minor",
+      "slide": "3",
+      "problem": "'second city time' is clipped wording",
+      "change": "body → 'The bezel scale shows the time in a second city, day or night. Turn the bezel and it tracks a third zone.'",
+      "text_only": true
+    },
+    {
+      "severity": "minor",
+      "slide": "4",
+      "problem": "Body repeats slides 2 and 3 and adds nothing new",
+      "change": "body → 'Rolex costs more than twice as much. Which one would you wear?'",
+      "text_only": true
+    }
+  ],
+  "reason": "The post reads as one clear story, with GMT hand, scale, then two priced watches. Photos are rights-cleared and the facts match the claims. It is a modest explainer rather than a standout, so I approved it with two minor wording fixes.",
+  "fixes": [
+    "[minor] slide 3: 'second city time' is clipped wording → body → 'The bezel scale shows the time in a second city, day or night. Turn the bezel and it tracks a third zone.'",
+    "[minor] slide 4: Body repeats slides 2 and 3 and adds nothing new → body → 'Rolex costs more than twice as much. Which one would you wear?'"
+  ]
+}

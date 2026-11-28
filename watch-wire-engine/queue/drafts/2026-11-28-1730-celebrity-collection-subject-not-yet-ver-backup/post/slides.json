@@ -1,0 +1,56 @@
+{
+ "source": "Source: Gear Patrol (how a GMT hand works); Watches of Switzerland (US prices, 26 November 2026)",
+ "slides": [
+  {
+   "t": "A-cover",
+   "tag": "WATCH EXPLAINED",
+   "line1": "Ever Wonder How It",
+   "line2": "[[Tracks Two Time Zones?]]",
+   "meta": "One 24-hour hand · two time zones",
+   "photo": "assets/media/asset-3.jpg",
+   "credit": "Image: Tudor"
+  },
+  {
+   "t": "A-photo",
+   "label": "",
+   "headline": "A hand that makes one full turn",
+   "body": "A GMT watch adds a hand that makes one full turn every 24 hours.",
+   "photo": "assets/media/asset-2.png",
+   "credit": "Image: Rolex"
+  },
+  {
+   "t": "A-photo",
+   "label": "",
+   "headline": "Read it against a 24-hour scale",
+   "body": "The bezel scale shows the second city time, day or night. Turning the bezel tracks a third zone.",
+   "photo": "assets/media/asset-1.jpg",
+   "credit": "Photo: Juho Eskelä / CC BY-SA 3.0"
+  },
+  {
+   "t": "A-table",
+   "label": "Current US prices",
+   "headline": "Two watches with a GMT hand",
+   "cols": [
+    "Watch",
+    "Price"
+   ],
+   "rows": [
+    [
+     "Rolex GMT-Master II",
+     "$12,000"
+    ],
+    [
+     "Tudor Black Bay GMT",
+     "$4,925"
+    ]
+   ],
+   "hl": 1,
+   "body": "Both use the same idea: a second hand on a 24-hour scale."
+  },
+  {
+   "t": "cta",
+   "line1": "Like this one?",
+   "line2": "Follow for more."
+  }
+ ]
+}

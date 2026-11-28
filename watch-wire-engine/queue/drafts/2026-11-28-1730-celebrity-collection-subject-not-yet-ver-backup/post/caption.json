@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "text": "One watch, two time zones. The GMT hand is the reason.\n\nA GMT watch adds a hand that makes one full turn every 24 hours. Read it against the 24-hour scale and you have a second city's time. Turn the bezel and you can track a third.\n\nRolex GMT-Master II (126710GRNR) lists at $12,000. Tudor Black Bay GMT (M79830RB-0003) lists at $4,925. Prices are US retail, checked 26 November 2026.\n\nWhich would you wear for a second time zone, the Rolex or the Tudor?\n\nSource: Gear Patrol, \"The GMT Watch, Explained\" (how a GMT hand works); Watches of Switzerland product pages, US prices checked 26 November 2026.\nPhoto credits: Photo: Juho Eskelä / CC BY-SA 3.0 (Rolex GMT-Master II, via Wikimedia Commons); Image: Rolex; Image: Tudor.\n\nFollow @watchwireco for daily watch news.",
+  "claim_ids": [
+    "CLM-1",
+    "CLM-2",
+    "CLM-3",
+    "CLM-4"
+  ],
+  "source_ids": [
+    "SRC-GP",
+    "SRC-WOS-ROLEX",
+    "SRC-WOS-TUDOR"
+  ],
+  "attribution": "Gear Patrol; Watches of Switzerland",
+  "disclosure": "None required. No sponsorship or paid relationship.",
+  "gaps": [
+    "Cover uses the watch; no brand movement photo."
+  ],
+  "carousel_sha256": "a7a7e283e201d31a17d58724a53a7e3971d40a30a563ff2f6ebc89889f5e8599",
+  "completed_at": "2026-11-28T08:35:30.017Z"
+}

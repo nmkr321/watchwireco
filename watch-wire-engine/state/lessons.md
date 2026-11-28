@@ -1,10 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [STORY BEHIND] Use the source's exact verb for each event (created, unveiled, introduced), and make the cover photo show the object the story describes.
-- [WATCH EXPLAINED] Use cover photos that show the explained mechanism itself; never substitute an unrelated object, even one that looks similar.
-- [WATCH EXPLAINED] Check each slide's mechanism claim against the named watch's movement type, such as quartz or mechanical, before writing it.
-- [EVENT SPOTTED] Sightings from the last 30 days are events; the article's date gives the year. If one person fails, take the next name the search found.
 - [CELEBRITY COLLECTION] A person's collection = watches named by any trusted outlet or the person's own posts, last 12 months; missing price → "Price on request".
 - [CELEBRITY COLLECTION] Person photos: Getty (photo.js credited) or any source in permissions.json; watch photos: the brand's official image.
 - [WATCH EXPLAINED] Name only colours, sizes and features that a slide shows; CTA and caption last line must repeat slide wording, not add new details.
@@ -21,3 +17,7 @@ The editor reads this before every post. Written automatically from rejections; 
 - [CELEBRITY] Compare watch variants with figures: state each price, or 'Price on request' if missing; avoid vague words like 'much less'.
 - [WOULD YOU RATHER] Describe each watch's bezel, complication or function only as its named model has it. A GMT bezel tracks a second time zone, not a dive timer.
 - [WOULD YOU RATHER] Captions describe each watch with its model's specific features (bezel type, case material, colour), never generic wording.
+- [CELEBRITY COLLECTION] If an outlet returns 403 or is paywalled, use the next readable source naming the watch; one readable source is enough.
+- [CELEBRITY COLLECTION] If sources disagree on a model reference, use the reference from the most recent readable source and show its price.
+- [CELEBRITY COLLECTION] Copy each person photo's credit line exactly as photo.js or permissions.json gives it; never paraphrase it.
+- [CELEBRITY COLLECTION] Before submitting, check every slide claim against its source text and rewrite any claim the source does not state.

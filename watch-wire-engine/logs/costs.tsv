@@ -1287,3 +1287,12 @@
 2026-11-28T08:26:28.456Z	learn 2026-11-28-1430-would-you-rather-pair-not-yet-verified-n	claude-haiku-5-5	0.0021	2
 2026-11-28T08:26:54.771Z	editor-revise 2026-11-28-1430-would-you-rather-pair-not-yet-verified-n	claude-haiku-5-5	0.0064	13
 2026-11-28T08:26:58.445Z	approver 2026-11-28-1430-would-you-rather-pair-not-yet-verified-n r2	claude-sonnet-5-5	0.0513	1
+2026-11-28T08:27:21.879Z	editor 2026-11-28-1730-celebrity-collection-subject-not-yet-ver	claude-haiku-5-5	0.0288	6
+2026-11-28T08:27:26.786Z	learn 2026-11-28-1730-celebrity-collection-subject-not-yet-ver	claude-haiku-5-5	0.0024	3
+2026-11-28T08:30:33.219Z	editor 2026-11-28-1730-celebrity-collection-subject-not-yet-ver	claude-haiku-5-5	0.1023	38
+2026-11-28T08:31:12.947Z	editor-precheck 2026-11-28-1730-celebrity-collection-subject-not-yet-ver	claude-haiku-5-5	0.0058	11
+2026-11-28T08:31:25.256Z	approver 2026-11-28-1730-celebrity-collection-subject-not-yet-ver r1	claude-sonnet-5-5	0.0738	2
+2026-11-28T08:31:33.016Z	learn 2026-11-28-1730-celebrity-collection-subject-not-yet-ver	claude-haiku-5-5	0.0024	2
+2026-11-28T08:33:46.681Z	editor 2026-11-28-1730-celebrity-collection-subject-not-yet-ver-backup	claude-haiku-5-5	0.0399	26
+2026-11-28T08:35:38.338Z	editor-precheck 2026-11-28-1730-celebrity-collection-subject-not-yet-ver-backup	claude-haiku-5-5	0.0383	18
+2026-11-28T08:35:49.895Z	approver 2026-11-28-1730-celebrity-collection-subject-not-yet-ver-backup r1	claude-sonnet-5-5	0.0724	2
