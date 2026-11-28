@@ -1,6 +1,6 @@
 {
   "id": "2026-11-27-2030-a-bolton-repairman-built-the-first-self-",
-  "status": "approved",
+  "status": "posted",
   "found_at": "2026-11-27T05:34:51.866Z",
   "lane": "history",
   "format": "WATCH EXPLAINED",
@@ -69,5 +69,21 @@
     "fixes": [
       "[minor] slide caption: The caption names the Seiko and Oris watches, but no slide shows them. Its Source line also lists a watch-shop page and Wikipedia. → Delete the sentence 'The Seiko Prospex Alpinist SPB121 is priced at $543, and the Oris Artelier Date 01 733 7721 at $1,950.' Remove the Seiko and Oris entries from the Source line. Remove 'Image: Seiko. Image: Oris.' from the photo credits."
     ]
+  },
+  "posted_at": "2026-11-28T01:30:54.353Z",
+  "publish": {
+    "live": true,
+    "media_id": "18119410700027277",
+    "permalink": "https://www.instagram.com/p/DgRFElQn9pk/",
+    "plan": {
+      "slides": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png"
+      ],
+      "caption_chars": 1218
+    }
   }
 }
