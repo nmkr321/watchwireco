@@ -1,0 +1,44 @@
+{
+  "id": "2026-11-28-0830-swiss-watch-exports-rose-9-1-in-october-",
+  "status": "idea",
+  "found_at": "2026-11-28T07:49:43.747Z",
+  "lane": "news",
+  "format": "TOP 5 THIS WEEK",
+  "post_at": "2026-11-28T13:30:00.000Z",
+  "slot": 1,
+  "title": "Swiss watch exports rose 9.1% in October.",
+  "hook": "Key number, stated plainly: CHF 2.46bn in October, up 9.1% year on year.",
+  "why": "MARKET fallback, since no headline qualifies. Useful to collectors and trade readers. Caveat: no source confirms a fifth consecutive month, so that claim is left out.",
+  "sources_to_check": [
+    "https://www.bluewin.ch/en/news/swiss-watch-exports-continue-to-trend-upward-in-october-li.3679140",
+    "https://news.bloombergtax.com/bankruptcy-law/switzerland-oct-watch-exports-rise-9-1-y-y",
+    "https://rapaport.com/news/swiss-watch-exports-continue-to-climb-in-october/",
+    "FH press release (fhs.swiss), not yet opened"
+  ],
+  "sources": [
+    {
+      "title": "https://www.bluewin.ch/en/news/swiss-watch-exports-continue-to-trend-upward-in-october-li.3679140",
+      "link": "https://www.bluewin.ch/en/news/swiss-watch-exports-continue-to-trend-upward-in-october-li.3679140",
+      "source": "https://www.bluewin.ch/en/news/swiss-watch-exports-continue-to-trend-upward-in-october-li.3679140",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://news.bloombergtax.com/bankruptcy-law/switzerland-oct-watch-exports-rise-9-1-y-y",
+      "link": "https://news.bloombergtax.com/bankruptcy-law/switzerland-oct-watch-exports-rise-9-1-y-y",
+      "source": "https://news.bloombergtax.com/bankruptcy-law/switzerland-oct-watch-exports-rise-9-1-y-y",
+      "tier": "to-verify"
+    },
+    {
+      "title": "https://rapaport.com/news/swiss-watch-exports-continue-to-climb-in-october/",
+      "link": "https://rapaport.com/news/swiss-watch-exports-continue-to-climb-in-october/",
+      "source": "https://rapaport.com/news/swiss-watch-exports-continue-to-climb-in-october/",
+      "tier": "to-verify"
+    },
+    {
+      "title": "FH press release (fhs.swiss), not yet opened",
+      "link": "",
+      "source": "FH press release (fhs.swiss), not yet opened",
+      "tier": "to-verify"
+    }
+  ]
+}

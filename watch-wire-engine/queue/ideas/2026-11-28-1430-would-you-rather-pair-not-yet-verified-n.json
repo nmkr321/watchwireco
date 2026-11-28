@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-28-1430-would-you-rather-pair-not-yet-verified-n",
+  "status": "idea",
+  "found_at": "2026-11-28T07:49:43.748Z",
+  "lane": "rotation",
+  "format": "WOULD YOU RATHER",
+  "post_at": "2026-11-28T19:30:00.000Z",
+  "slot": 3,
+  "title": "WOULD YOU RATHER: pair not yet verified (needs two current US retail prices within about 10%)",
+  "hook": "Binary vote between two same-money watches. Do not post until both prices are sourced.",
+  "why": "Not filled. I found no verified pair. Search for a pair with official US retail prices, or take a pair from the owner.",
+  "sources_to_check": [
+    "Official US retail price pages for both watches (brand sites)"
+  ],
+  "sources": [
+    {
+      "title": "Official US retail price pages for both watches (brand sites)",
+      "link": "",
+      "source": "Official US retail price pages for both watches (brand sites)",
+      "tier": "to-verify"
+    }
+  ]
+}

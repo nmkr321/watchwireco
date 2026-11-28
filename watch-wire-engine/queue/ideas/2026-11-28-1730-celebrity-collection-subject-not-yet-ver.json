@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-28-1730-celebrity-collection-subject-not-yet-ver",
+  "status": "idea",
+  "found_at": "2026-11-28T07:49:43.748Z",
+  "lane": "rotation",
+  "format": "CELEBRITY COLLECTION",
+  "post_at": "2026-11-28T22:30:00.000Z",
+  "slot": 4,
+  "title": "CELEBRITY COLLECTION: subject not yet verified (needs a person with several watches named by a trusted outlet)",
+  "hook": "Inside a named person's collection, one watch per slide.",
+  "why": "Not filled. The leads found so far are single sightings, not a collection. Needs a name chosen by the owner or a further search.",
+  "sources_to_check": [
+    "Robb Report and Hodinkee sightings pages",
+    "Trusted outlet naming at least three watches worn by one person"
+  ],
+  "sources": [
+    {
+      "title": "Robb Report and Hodinkee sightings pages",
+      "link": "",
+      "source": "Robb Report and Hodinkee sightings pages",
+      "tier": "to-verify"
+    },
+    {
+      "title": "Trusted outlet naming at least three watches worn by one person",
+      "link": "",
+      "source": "Trusted outlet naming at least three watches worn by one person",
+      "tier": "to-verify"
+    }
+  ]
+}
