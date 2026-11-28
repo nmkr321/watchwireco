@@ -1,8 +1,6 @@
 # Lessons from the approver
 The editor reads this before every post. Written automatically from rejections; newest last.
 
-- [NEW RELEASES] Match every slide's photo to the feature its text names (dial, bezel, wrist); view each image before assigning it.
-- [NEW RELEASES] Keep source names out of slide body text; put each source beside its claim in the caption.
 - [CELEBRITY] Make the cover the strongest permitted person photo with the watch in the circle; use a different portrait on later slides.
 - [CELEBRITY] Print a year on a slide only if the source text or article date states it; otherwise leave the year out.
 - [WATCH EXPLAINED] Before assigning any slide photo, view it. If it shows a grey 'coming soon' card, is blank, or failed to load, pick another permitted official image.
@@ -21,3 +19,5 @@ The editor reads this before every post. Written automatically from rejections; 
 - [STORY BEHIND] Give a date or patent year only when one readable source states it; cite it beside the claim in the caption.
 - [STORY BEHIND] Every slide of a photo-led format needs its own permitted, credited image; never reuse one within a carousel.
 - [STORY BEHIND] Replace vague timing words like 'later' or 'recently' with the decade or year a readable source gives.
+- [CELEBRITY COLLECTION] Before finishing, run the project's validation check on the project folder; if it fails, fix the named file and rerun it.
+- [CELEBRITY COLLECTION] Create the project folder using the exact idea id from the queue JSON, never a shortened or renamed slug.
